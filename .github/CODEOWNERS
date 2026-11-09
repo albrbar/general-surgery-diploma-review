@@ -1,0 +1,14 @@
+# CODEOWNERS — General Surgery Diploma Review
+# المالك التنفيذي المؤقت هو @albrbar لأن أسماء فرق GitHub لم تُحدد ولم تُنشأ فرق أو صلاحيات جديدة.
+# عند تجهيز الفرق، استبدل @albrbar بالمعرّف الفعلي للفريق في كل مسار حسب الأدوار أدناه.
+# المحتوى: source-manifests وlectures
+# فريق الأسئلة: question-bank
+# فريق الموقع: web-import
+# المراجعة التقنية: scripts و.github
+
+/source-manifests/ @albrbar
+/lectures/ @albrbar
+/question-bank/ @albrbar
+/web-import/ @albrbar
+/scripts/ @albrbar
+/.github/ @albrbar

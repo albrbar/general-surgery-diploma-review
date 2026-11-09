@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "title": "General Surgery Diploma Review Topic Map",
+  "language": "en",
+  "topics": [
+    {
+      "id": "gs-core",
+      "name": "General Surgery Core",
+      "children": [
+        "perioperative-care",
+        "fluid-electrolyte-management",
+        "surgical-infection"
+      ]
+    },
+    {
+      "id": "trauma",
+      "name": "Trauma",
+      "children": [
+        "initial-assessment",
+        "shock",
+        "chest-trauma",
+        "abdominal-trauma"
+      ]
+    },
+    {
+      "id": "breast",
+      "name": "Breast Surgery",
+      "children": [
+        "benign-breast-disease",
+        "breast-cancer"
+      ]
+    },
+    {
+      "id": "colorectal",
+      "name": "Colorectal Surgery",
+      "children": [
+        "colorectal-cancer",
+        "inflammatory-bowel-disease",
+        "anorectal-disease"
+      ]
+    },
+    {
+      "id": "upper-gi",
+      "name": "Upper Gastrointestinal Surgery",
+      "children": [
+        "esophagus",
+        "stomach",
+        "bariatric-surgery"
+      ]
+    },
+    {
+      "id": "hpb",
+      "name": "Hepatopancreatobiliary Surgery",
+      "children": [
+        "liver",
+        "biliary-tract",
+        "pancreas"
+      ]
+    },
+    {
+      "id": "vascular",
+      "name": "Vascular Surgery",
+      "children": [
+        "arterial-disease",
+        "venous-disease"
+      ]
+    },
+    {
+      "id": "endocrine",
+      "name": "Endocrine Surgery",
+      "children": [
+        "thyroid",
+        "parathyroid",
+        "adrenal"
+      ]
+    }
+  ]
+}

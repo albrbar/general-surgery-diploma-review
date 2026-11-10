@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0",
+  "title": "General Surgery Diploma MCQ Bank",
+  "language": "en",
+  "answerVisibility": "hidden-until-submitted",
+  "questions": [
+    {
+      "id": "GS-ABD-0001",
+      "status": "approved",
+      "day16Module": 1,
+      "day8Block": 1,
+      "topic": "Acute appendicitis",
+      "difficulty": "high-yield",
+      "stem": "What is the preferred initial management of an appendicular mass in a clinically stable patient?",
+      "options": [
+        "Immediate appendicectomy regardless of the mass",
+        "Conservative treatment with antibiotics followed by interval assessment",
+        "Diagnostic laparoscopy only",
+        "Observation without treatment"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A clinically stable appendicular mass is generally managed initially with conservative treatment, with further management guided by clinical response and local protocol.",
+      "answerImage": "./GS-ABD-0001.png",
+      "answerImageAlt": "Answer explanation screenshot for GS-ABD-0001",
+      "clinicalReference": {
+        "source": "Approved lecture or guideline title",
+        "edition": "Edition or version",
+        "page": "Page number",
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": ["abdomen", "appendix", "high-yield"]
+    }
+  ]
+}

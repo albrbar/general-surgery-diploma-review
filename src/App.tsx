@@ -1,4 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+
+const previewLinks = {
+  day16: 'https://day1quiz-hg9nk850.manus.space',
+  mcq640: 'https://gsexam-zv2uu94a.manus.space',
+};
 
 export default function App() {
   const [modalTitle, setModalTitle] = useState<string | null>(null);
@@ -43,11 +48,11 @@ export default function App() {
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
-            <a href="https://day1quiz-hg9nk850.manus.space" target="_blank" rel="noreferrer" className="px-5 py-3 bg-white text-teal-900 font-bold rounded-xl text-center shadow hover:bg-teal-50 transition">
-              معاينة اختبار اليوم الأول ↗
+            <a href={previewLinks.day16} target="_blank" rel="noreferrer" className="px-5 py-3 bg-white text-teal-900 font-bold rounded-xl text-center shadow hover:bg-teal-50 transition">
+              Day1–Day16 Revision · معاينة ↗
             </a>
-            <a href="https://gsexam-zv2uu94a.manus.space" target="_blank" rel="noreferrer" className="px-5 py-3 bg-teal-700 hover:bg-teal-600 text-white font-bold rounded-xl text-center shadow transition border border-teal-600">
-              منظومة امتحانات GS Exam ↗
+            <a href={previewLinks.mcq640} target="_blank" rel="noreferrer" className="px-5 py-3 bg-teal-700 hover:bg-teal-600 text-white font-bold rounded-xl text-center shadow transition border border-teal-600">
+              640 MCQ · معاينة ↗
             </a>
           </div>
         </div>
@@ -56,16 +61,16 @@ export default function App() {
 
         {/* 8 Services Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div onClick={() => window.open('https://day1quiz-hg9nk850.manus.space', '_blank')} className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md border border-gray-100 cursor-pointer transition">
+          <div onClick={() => window.open(previewLinks.day16, '_blank')} className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md border border-gray-100 cursor-pointer transition">
             <div className="w-12 h-12 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center font-bold text-xl mb-4">16</div>
-            <h4 className="font-bold text-gray-900 mb-1">امتحان مراجعة 16 يومًا</h4>
-            <p className="text-xs text-gray-500">البرنامج المنهجي الأساسي الموزع على الفصول الجراحية.</p>
+            <h4 className="font-bold text-gray-900 mb-1">Day1–Day16 Revision</h4>
+            <p className="text-xs text-gray-500">الموقع الأول للمراجعة المنظمة على مسار 16 يوماً — معاينة.</p>
           </div>
 
-          <div onClick={() => window.open('https://gsexam-zv2uu94a.manus.space', '_blank')} className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md border border-gray-100 cursor-pointer transition">
+          <div onClick={() => window.open(previewLinks.mcq640, '_blank')} className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md border border-gray-100 cursor-pointer transition">
             <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center font-bold text-xl mb-4">📊</div>
-            <h4 className="font-bold text-gray-900 mb-1">بنك الأسئلة المكثف</h4>
-            <p className="text-xs text-gray-500">بنك الأسئلة الشامل الخاضع للتصفية ومعرفات Stable-IDs.</p>
+            <h4 className="font-bold text-gray-900 mb-1">640 MCQ</h4>
+            <p className="text-xs text-gray-500">الموقع الثاني لبنك الأسئلة المكثف — معاينة.</p>
           </div>
 
           <div onClick={() => openComingSoon('فيديوهات عملي جراحة')} className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md border border-gray-100 cursor-pointer transition">

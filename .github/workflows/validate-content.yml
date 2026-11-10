@@ -1,0 +1,82 @@
+name: Validate content
+
+on:
+  pull_request:
+    paths:
+      - '**/*.json'
+      - 'question-bank/**'
+      - 'scripts/**'
+      - '.github/workflows/validate-content.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate JSON and question bank
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate JSON and question files
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import pathlib
+          import sys
+
+          errors = []
+          json_files = sorted(pathlib.Path('.').rglob('*.json'))
+          question_files = sorted(pathlib.Path('question-bank').rglob('*.json')) if pathlib.Path('question-bank').exists() else []
+          seen_ids = {}
+
+          for path in json_files:
+              try:
+                  with path.open(encoding='utf-8') as handle:
+                      json.load(handle)
+              except Exception as exc:
+                  errors.append(f'{path}: invalid JSON ({exc})')
+
+          def questions_from(value, path):
+              if isinstance(value, list):
+                  return value
+              if isinstance(value, dict) and isinstance(value.get('questions'), list):
+                  return value['questions']
+              errors.append(f'{path}: question file must be a list or contain a questions list')
+              return []
+
+          required = ('id', 'question', 'options', 'answer', 'explanation', 'source')
+          for path in question_files:
+              try:
+                  with path.open(encoding='utf-8') as handle:
+                      data = json.load(handle)
+              except Exception:
+                  continue
+              for index, item in enumerate(questions_from(data, path), start=1):
+                  location = f'{path} question #{index}'
+                  if not isinstance(item, dict):
+                      errors.append(f'{location}: question must be an object')
+                      continue
+                  missing = [field for field in required if field not in item or item[field] in ('', None)]
+                  if missing:
+                      errors.append(f'{location}: missing required fields: {", ".join(missing)}')
+                  question_id = item.get('id')
+                  if question_id in seen_ids:
+                      errors.append(f'{location}: duplicate id {question_id!r}; already used in {seen_ids[question_id]}')
+                  elif question_id not in (None, ''):
+                      seen_ids[question_id] = location
+                  options = item.get('options')
+                  if not isinstance(options, list) or len(options) != 4:
+                      errors.append(f'{location}: options must contain exactly four items')
+
+          if errors:
+              print('\n'.join(f'::error::{error}' for error in errors))
+              sys.exit(1)
+
+          print(f'Validated {len(json_files)} JSON file(s) and {len(question_files)} question file(s).')
+          print(f'Validated {len(seen_ids)} unique question ID(s).')
+          PY

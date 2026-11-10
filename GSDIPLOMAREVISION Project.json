@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schema_version": "1.0.0",
+  "project": {
+    "id": "gsdiplomarevision",
+    "name": "GSDIPLOMAREVISION Project",
+    "display_name": "GSDIPLOMAREVISION Project — General Surgery Diploma Revision",
+    "language": "ar",
+    "status": "planning_no_go",
+    "owner": "@albrbar",
+    "purpose": "Build a source-traceable, clinically reviewed, unified general surgery diploma revision experience."
+  },
+  "source_of_truth": {
+    "drive_folder_name": "GS diploma",
+    "drive_folder_id": "1QGTviZv2q5RAgkCWkAIj2sCzTjsAaTMf",
+    "drive_folder_url": "https://drive.google.com/drive/folders/1QGTviZv2q5RAgkCWkAIj2sCzTjsAaTMf",
+    "policy": "The original Drive source remains unchanged. Working indexes, normalized records, review outputs, and release manifests are created in controlled project copies.",
+    "source_manifest_directory": "source-manifests/"
+  },
+  "repository": {
+    "name": "general-surgery-diploma-review",
+    "url": "https://github.com/albrbar/general-surgery-diploma-review",
+    "default_branch": "main",
+    "reviewed_on": "2026-11-10",
+    "review_status": "main_reviewed_pr_1_open",
+    "current_main_content": [
+      "README.md",
+      "lectures/README.md",
+      "question-bank/README.md",
+      "scripts/README.md",
+      "source-manifests/README.md",
+      "web-import/README.md"
+    ],
+    "open_pull_requests": [
+      {
+        "number": 1,
+        "title": "chore: add project architecture and content validation",
+        "head": "setup/issue-architecture",
+        "base": "main",
+        "status": "open",
+        "review_note": "Contains INDEX.md, syllabus/topic-map.json, CODEOWNERS, and a validation workflow; merge decision remains with the authorized maintainer."
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "unified-day1-day16",
+      "name": "GSDIPLOMAREVISION — Unified Day1-Day16",
+      "canonical": true,
+      "days": {
+        "from": 1,
+        "to": 16
+      },
+      "eight_day_mode": "A condensed review path derived from the same approved records; it is not an independent unverified bank.",
+      "content_states": ["planned", "in_review", "approved", "ready", "archived"]
+    },
+    {
+      "id": "legacy-640-mcq",
+      "name": "Previous site — advertised 640 MCQ bank",
+      "canonical": false,
+      "advertised_question_count": 640,
+      "verified_question_count": null,
+      "status": "advertised_unverified",
+      "integration_rule": "Reconcile against the unified stable-ID inventory before import, display, or counting toward the approved target."
+    }
+  ],
+  "question_record_schema": {
+    "required_fields": [
+      "question_id",
+      "product_id",
+      "day",
+      "chapter",
+      "section",
+      "question",
+      "options",
+      "answer",
+      "explanation",
+      "source_ref",
+      "importance",
+      "review_state",
+      "reviewer",
+      "review_date",
+      "version"
+    ],
+    "options_count": 4,
+    "review_states": ["raw", "needs_review", "in_review", "clinically_approved", "rejected", "archived"],
+    "duplicate_labels": ["D1_exact", "D2_near_duplicate", "D3_distinct_learning_value"],
+    "counting_rule": "Only records with a stable ID, source, answer, explanation, review state, and review date may be counted as approved; high_yield requires clinical approval."
+  },
+  "baseline_metrics": {
+    "confirmed_day1_questions": 80,
+    "confirmed_source_linked_questions": 8,
+    "advertised_640_questions": 640,
+    "flagged_for_review": 90,
+    "tagged_as_duplicates": 413,
+    "target_approved_unique_high_yield_questions": 500,
+    "warning": "Advertised, flagged, and duplicate counts are not verified unique approved counts."
+  },
+  "workflow": {
+    "content_pipeline": [
+      "inventory",
+      "stable_id_assignment",
+      "source_linking",
+      "editorial_review",
+      "clinical_review",
+      "duplicate_disposition",
+      "technical_qa",
+      "release_review"
+    ],
+    "release_gates": [
+      "named clinical reviewer",
+      "verified source for application and question bank",
+      "no unresolved release-set review or duplicate flags",
+      "all release questions have required fields",
+      "mobile, keyboard, accessibility, source-link, and progress tests pass",
+      "no critical defect and explicit Go decision"
+    ],
+    "github_policy": [
+      "Do not modify main directly.",
+      "Use a task branch and pull request.",
+      "Require independent review before merge.",
+      "Do not store secrets, patient data, or unverified medical claims."
+    ]
+  },
+  "roles": [
+    "agent1 — مدير المشروع والحوكمة",
+    "agent2 — مخطط المنتج وبنية المحتوى",
+    "agent3 — أمين المصادر والأرشيف التقني",
+    "agent4 — المراجع الطبي وضمان جودة الأسئلة",
+    "agent5 — مصمم تجربة المستخدم وضمان الجودة التقنية",
+    "agent6 — المراجع السريري",
+    "agent7 — قائد المحتوى والتحرير",
+    "agent8 — المالك التقني والتنفيذ",
+    "agent9 — مسؤول ضمان الجودة والإصدار"
+  ]
+}

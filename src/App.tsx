@@ -1,143 +1,90 @@
-import { useState } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
+import { revisionDays, type PreviewQuestion, type RevisionDay } from './data/revisionDays';
+import './styles.css';
 
-const previewLinks = {
-  day16: 'https://day1quiz-hg9nk85o.manus.space',
-  mcq640: 'https://gsexam-zv2uu94a.manus.space',
-};
+type Page = 'home' | 'revision' | 'banks' | 'library' | 'about' | 'account';
+type IconName = 'home' | 'calendar' | 'layers' | 'book' | 'info' | 'user' | 'arrow' | 'check' | 'lock' | 'external' | 'menu' | 'close' | 'rotate';
+type SavedProgress = { currentDay: number; answers: Record<string, number>; scores: Record<string, number> };
 
-const assetBase = '/general-surgery-diploma-review/';
-
-const days = [
-  ['Day 1', 'Surgical anatomy'],
-  ['Day 2', 'Physiology and perioperative care'],
-  ['Day 3', 'Trauma and emergency surgery'],
-  ['Day 4', 'Abdominal surgery'],
-  ['Day 5', 'Hepatobiliary surgery'],
-  ['Day 6', 'Pancreatic and splenic surgery'],
-  ['Day 7', 'Colorectal surgery'],
-  ['Day 8', 'Anorectal conditions'],
-  ['Day 9', 'Breast and endocrine surgery'],
-  ['Day 10', 'Vascular surgery'],
-  ['Day 11', 'Urology and related topics'],
-  ['Day 12', 'Paediatric surgery'],
-  ['Day 13', 'Transplantation and oncology'],
-  ['Day 14', 'Critical care and complications'],
-  ['Day 15', 'Operative decision-making'],
-  ['Day 16', 'Final integrated revision'],
+const base = window.location.pathname.startsWith('/general-surgery-diploma-review') ? '/general-surgery-diploma-review/' : '/';
+const externalLinks = { revision: 'https://day1quiz-hg9nk85o.manus.space', mcq640: 'https://gsexam-zv2uu94a.manus.space' };
+const storageKey = 'gsdiploma.preview-progress.v1';
+const navItems: Array<{ id: Page; label: string; icon: IconName }> = [
+  { id: 'home', label: 'الرئيسية', icon: 'home' }, { id: 'revision', label: 'مسار المراجعة', icon: 'calendar' },
+  { id: 'banks', label: 'بنوك الأسئلة', icon: 'layers' }, { id: 'library', label: 'المكتبة العلمية', icon: 'book' }, { id: 'about', label: 'عن المنصة', icon: 'info' },
+];
+const topicGroups = [
+  ['أساسيات الجراحة', 'General Surgery Core', ['الرعاية المحيطة بالجراحة', 'السوائل والكهارل', 'العدوى الجراحية']], ['الإصابات', 'Trauma', ['التقييم الأولي', 'الصدمة', 'إصابات الصدر', 'إصابات البطن']],
+  ['جراحة الثدي', 'Breast Surgery', ['أمراض الثدي الحميدة', 'سرطان الثدي']], ['جراحة القولون والمستقيم', 'Colorectal Surgery', ['سرطان القولون والمستقيم', 'أمراض الأمعاء الالتهابية', 'أمراض الشرج والمستقيم']],
+  ['الجهاز الهضمي العلوي', 'Upper GI Surgery', ['المريء', 'المعدة', 'جراحات السمنة']], ['الكبد والبنكرياس والقنوات الصفراوية', 'HPB Surgery', ['الكبد', 'القنوات الصفراوية', 'البنكرياس']],
+  ['الأوعية الدموية', 'Vascular Surgery', ['أمراض الشرايين', 'أمراض الأوردة']], ['جراحة الغدد الصماء', 'Endocrine Surgery', ['الغدة الدرقية', 'الغدد جارات الدرقية', 'الغدة الكظرية']],
 ] as const;
 
-export default function App() {
-  const [modalTitle, setModalTitle] = useState<string | null>(null);
-  const openComingSoon = (title: string) => setModalTitle(title);
-
-  return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col font-sans" dir="ltr">
-      <header className="bg-white shadow-sm border-b border-slate-100 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 h-20 flex justify-between items-center gap-4">
-          <a href="#top" className="flex items-center gap-3 min-w-0">
-            <img src={`${assetBase}assets/platform-cover.svg`} alt="GSDiplomaRevision" className="w-11 h-11 rounded-xl object-cover shadow-sm" />
-            <div className="min-w-0">
-              <h1 className="text-lg font-bold text-teal-900 leading-tight truncate">GSDIPLOMAREVISION</h1>
-              <p className="text-xs text-slate-500 truncate">Dr. Ragab Al-Barbar — Unified Revision System</p>
-            </div>
-          </a>
-          <button onClick={() => openComingSoon('Doctor account')} className="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm font-semibold rounded-lg transition whitespace-nowrap">
-            Doctor account (coming soon)
-          </button>
-        </div>
-      </header>
-
-      <main id="top" className="max-w-7xl mx-auto px-4 py-8 sm:py-10 flex-grow w-full">
-        <section className="bg-gradient-to-br from-teal-900 via-teal-800 to-cyan-900 text-white rounded-3xl p-5 sm:p-8 mb-10 shadow-xl overflow-hidden relative">
-          <div className="absolute -left-10 -bottom-16 w-56 h-56 rounded-full bg-cyan-400/10" />
-          <div className="relative grid lg:grid-cols-[1fr_240px] gap-8 items-center">
-            <div>
-              <span className="bg-emerald-400 text-teal-950 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider inline-block mb-4">
-                Platform status: active preview
-              </span>
-              <h2 className="text-2xl sm:text-4xl font-black mb-3">Your integrated clinical and exam revision platform</h2>
-              <p className="text-teal-100 text-sm sm:text-base max-w-2xl leading-7">
-                A unified gateway for the Day 1–Day 16 revision pathway, verified question banks, and future clinical learning services.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-3 mt-6">
-                <a href={previewLinks.day16} target="_blank" rel="noreferrer" className="px-5 py-3 bg-white text-teal-900 font-bold rounded-xl text-center shadow hover:bg-teal-50 transition">
-                  Open Day 1–Day 16 Revision ↗
-                </a>
-                <a href={previewLinks.mcq640} target="_blank" rel="noreferrer" className="px-5 py-3 bg-teal-700 hover:bg-teal-600 text-white font-bold rounded-xl text-center shadow transition border border-teal-500">
-                  Open 640 MCQ ↗
-                </a>
-              </div>
-            </div>
-            <img src={`${assetBase}assets/platform-cover.svg`} alt="General Surgery Diploma revision platform cover" className="hidden lg:block w-full rounded-2xl shadow-2xl ring-1 ring-white/20" />
-          </div>
-        </section>
-
-        <section className="mb-10">
-          <div className="flex items-end justify-between gap-4 mb-5">
-            <div>
-              <p className="text-xs font-bold text-teal-700 uppercase tracking-[0.18em]">Primary pathway</p>
-              <h3 className="text-2xl font-black text-slate-900">Day 1–Day 16 Revision</h3>
-            </div>
-            <a href={previewLinks.day16} target="_blank" rel="noreferrer" className="text-sm font-bold text-teal-700 hover:text-teal-900">Open full site ↗</a>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-3">
-            {days.map(([day, topic], index) => (
-              <a key={day} href={previewLinks.day16} target="_blank" rel="noreferrer" className="group bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
-                <img src={`${assetBase}assets/day-icons/day-${String(index + 1).padStart(2, '0')}.svg`} alt={`${day} icon`} className="w-full aspect-[380/214] object-cover" />
-                <div className="p-3">
-                  <p className="text-sm font-black text-slate-900">{day}</p>
-                  <p className="text-[11px] leading-4 text-slate-500 mt-1">{topic}</p>
-                </div>
-              </a>
-            ))}
-          </div>
-        </section>
-
-        <section>
-          <h3 className="text-xl font-bold text-slate-800 mb-5">Central services</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            <a href={previewLinks.day16} target="_blank" rel="noreferrer" className="bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border-2 border-teal-100 hover:border-teal-300 transition">
-              <div className="w-12 h-12 rounded-xl overflow-hidden mb-4"><img src={`${assetBase}assets/day-icons/day-16.svg`} alt="Day 16" className="w-full h-full object-cover" /></div>
-              <h4 className="font-bold text-slate-900 mb-1">Day 1–Day 16 Revision</h4>
-              <p className="text-xs text-slate-500">The structured 16-day revision website — available now.</p>
-            </a>
-            <a href={previewLinks.mcq640} target="_blank" rel="noreferrer" className="bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border border-blue-100 hover:border-blue-300 transition">
-              <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center font-bold text-xl mb-4">MCQ</div>
-              <h4 className="font-bold text-slate-900 mb-1">640 MCQ</h4>
-              <p className="text-xs text-slate-500">The intensive question-bank website — available now.</p>
-            </a>
-            <a href={`${assetBase}qbank3/`} className="block text-left bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border border-amber-100 hover:border-amber-300 transition">
-              <div className="w-12 h-12 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center font-bold text-sm mb-4">ANAT</div>
-              <h4 className="font-bold text-slate-900 mb-1">MCQ Bank 03 — Anatomy</h4>
-              <p className="text-xs text-slate-500">Open the Anatomy bank status, source references, and review workflow.</p>
-            </a>
-            {[
-              ['🎥', 'Surgical skills videos', 'The visual library for essential operative skills.'],
-              ['📚', 'Lecture index', 'The academic map and curriculum topics.'],
-            ].map(([icon, title, description]) => (
-              <button key={title} onClick={() => openComingSoon(title)} className="text-left bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border border-slate-200 transition">
-                <div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center text-xl mb-4">{icon}</div>
-                <h4 className="font-bold text-slate-900 mb-1">{title}</h4>
-                <p className="text-xs text-slate-500">{description}</p>
-              </button>
-            ))}
-          </div>
-        </section>
-      </main>
-
-      <footer className="bg-white border-t border-slate-100 py-6 text-center text-xs text-slate-500">
-        <p>© 2026 GSDIPLOMAREVISION — General Surgery Diploma Revision</p>
-      </footer>
-
-      {modalTitle && (
-        <div className="fixed inset-0 bg-slate-950/50 flex items-center justify-center p-4 z-50" role="dialog" aria-modal="true">
-          <div className="bg-white rounded-2xl p-6 max-w-sm w-full shadow-xl text-center">
-            <h3 className="text-lg font-bold text-slate-900 mb-2">{modalTitle}</h3>
-            <p className="text-sm text-slate-600 mb-6">This section is under development and will be activated in a future release.</p>
-            <button onClick={() => setModalTitle(null)} className="w-full py-2 bg-teal-800 text-white font-semibold rounded-xl">Close</button>
-          </div>
-        </div>
-      )}
-    </div>
-  );
+function Icon({ name, size = 20 }: { name: IconName; size?: number }) {
+  const common = { width: size, height: size, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 1.8, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const, 'aria-hidden': true };
+  const paths: Record<IconName, ReactNode> = {
+    home: <><path d="m3 10 9-7 9 7" /><path d="M5 9.5V21h14V9.5" /><path d="M9 21v-6h6v6" /></>,
+    calendar: <><rect x="3" y="4.5" width="18" height="16" rx="2" /><path d="M16 2.5v4M8 2.5v4M3 9h18" /><path d="M8 13h2M14 13h2M8 17h2" /></>,
+    layers: <><path d="m12 3 8 4-8 4-8-4 8-4Z" /><path d="m4 12 8 4 8-4M4 17l8 4 8-4" /></>,
+    book: <><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17H6.5A2.5 2.5 0 0 0 4 21.5v-17Z" /><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" /><path d="M8 6h8M8 10h7" /></>,
+    info: <><circle cx="12" cy="12" r="9" /><path d="M12 10.5v5M12 7.5h.01" /></>, user: <><circle cx="12" cy="8" r="3.5" /><path d="M4.5 21a7.5 7.5 0 0 1 15 0" /></>,
+    arrow: <><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></>, check: <><path d="m5 12 4 4L19 6" /></>, lock: <><rect x="5" y="10" width="14" height="11" rx="2" /><path d="M8 10V7a4 4 0 0 1 8 0v3" /></>,
+    external: <><path d="M14 4h6v6M20 4l-9 9M18 13v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5" /></>, menu: <><path d="M4 7h16M4 12h16M4 17h16" /></>, close: <><path d="m6 6 12 12M18 6 6 18" /></>, rotate: <><path d="M20 11a8 8 0 1 0 1 4" /><path d="M20 5v6h-6" /></>,
+  };
+  return <svg {...common}>{paths[name]}</svg>;
 }
+
+function pageFromHash(): Page { const value = window.location.hash.replace(/^#\/?/, '').split('?')[0]; return navItems.some((item) => item.id === value) || value === 'account' ? value as Page : 'home'; }
+function loadProgress(): SavedProgress { try { return JSON.parse(localStorage.getItem(storageKey) || '') as SavedProgress; } catch { return { currentDay: 1, answers: {}, scores: {} }; } }
+
+export default function App() {
+  const [page, setPage] = useState<Page>(pageFromHash);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [progress, setProgress] = useState<SavedProgress>(loadProgress);
+  const [notice, setNotice] = useState(false);
+  useEffect(() => { localStorage.setItem(storageKey, JSON.stringify(progress)); }, [progress]);
+  useEffect(() => { const onHash = () => { setPage(pageFromHash()); setMenuOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }; window.addEventListener('hashchange', onHash); return () => window.removeEventListener('hashchange', onHash); }, []);
+  const navigate = (next: Page) => { window.location.hash = `/${next}`; setPage(next); setMenuOpen(false); };
+  const updateProgress = (next: Partial<SavedProgress>) => setProgress((current) => ({ ...current, ...next }));
+  return <div className="app-shell" dir="rtl">
+    <header className="site-header"><div className="header-inner"><a className="brand" href={`${base}#/home`} onClick={() => navigate('home')}><span className="brand-mark"><img src={`${base}assets/platform-cover.svg`} alt="" /></span><span className="brand-copy"><strong>GSDIPLOMA<span>REVISION</span></strong><small>منصة مراجعة دبلومة الجراحة العامة</small></span></a><nav className={`main-nav ${menuOpen ? 'is-open' : ''}`} aria-label="التنقل الرئيسي">{navItems.map((item) => <button key={item.id} className={`nav-link ${page === item.id ? 'active' : ''}`} onClick={() => navigate(item.id)} aria-current={page === item.id ? 'page' : undefined}><Icon name={item.icon} size={17} /><span>{item.label}</span></button>)}</nav><div className="header-actions"><button className="account-button" onClick={() => navigate('account')}><Icon name="user" size={17} /><span>حساب الطبيب</span></button><button className="menu-button" onClick={() => setMenuOpen((value) => !value)} aria-label="القائمة"><Icon name={menuOpen ? 'close' : 'menu'} /></button></div></div></header>
+    <main className="main-content">{page === 'home' && <HomePage navigate={navigate} progress={progress} />}{page === 'revision' && <RevisionPage progress={progress} updateProgress={updateProgress} />}{page === 'banks' && <BanksPage />}{page === 'library' && <LibraryPage />}{page === 'about' && <AboutPage />}{page === 'account' && <AccountPage onNotice={() => setNotice(true)} />}</main>
+    <footer className="site-footer"><div className="footer-inner"><div><strong>GSDIPLOMA<span>REVISION</span></strong><p>بوابة منظمة للمراجعة، مع فصل واضح بين المعاينة التقنية والمحتوى السريري المعتمد.</p></div><div className="footer-links"><button onClick={() => navigate('about')}>منهجية المراجعة</button><button onClick={() => navigate('banks')}>حالة بنوك الأسئلة</button><a href="https://github.com/albrbar/general-surgery-diploma-review" target="_blank" rel="noreferrer">المستودع على GitHub <Icon name="external" size={14} /></a></div><small>© 2026 GSDIPLOMAREVISION</small></div></footer>
+    {notice && <div className="modal-backdrop" onClick={() => setNotice(false)}><div className="modal-card" role="dialog" aria-modal="true" aria-labelledby="notice-title" onClick={(event) => event.stopPropagation()}><span className="modal-icon"><Icon name="user" size={22} /></span><h2 id="notice-title">الحسابات قيد الإعداد</h2><p>ستتم إضافة حفظ التقدم الشخصي والحسابات في إصدار لاحق. التقدم الحالي محفوظ محليًا في المتصفح لأغراض المعاينة فقط.</p><button className="button button-primary button-wide" onClick={() => setNotice(false)}>حسنًا</button></div></div>}
+  </div>;
+}
+
+function PageHeader({ eyebrow, title, description, action }: { eyebrow: string; title: string; description: string; action?: ReactNode }) { return <section className="page-heading"><div><span className="eyebrow">{eyebrow}</span><h1>{title}</h1><p>{description}</p></div>{action}</section>; }
+function HomePage({ navigate, progress }: { navigate: (page: Page) => void; progress: SavedProgress }) {
+  const completed = Object.keys(progress.scores).length;
+  return <><section className="hero-section"><div className="hero-copy"><span className="status-pill"><span className="status-dot" /> المعاينة التقنية متاحة</span><h1>راجع بوضوح.<br /><em>تقدم بثقة.</em></h1><p>بوابة واحدة تجمع مسار المراجعة على 16 يومًا، بنوك الأسئلة، وخريطة موضوعات دبلومة الجراحة العامة في تجربة منظمة.</p><div className="hero-actions"><button className="button button-light" onClick={() => navigate('revision')}>ابدأ معاينة المسار <Icon name="arrow" size={16} /></button><button className="button button-ghost" onClick={() => navigate('banks')}>استكشف بنوك الأسئلة <Icon name="arrow" size={17} /></button></div><div className="hero-note"><Icon name="check" size={16} /><span>أسئلة المسار الحالية تجريبية تقنية فقط؛ لا تمثل اعتمادًا طبيًا أو محتوى امتحانيًا.</span></div></div><div className="hero-visual"><div className="hero-orbit orbit-one" /><div className="hero-orbit orbit-two" /><div className="hero-panel"><div className="hero-panel-top"><span className="tiny-label">REVISION PATH</span><span className="live-indicator"><span /> PREVIEW</span></div><div className="hero-number">16</div><div className="hero-panel-title">يومًا من المراجعة المنظمة</div><div className="hero-progress"><span style={{ width: `${Math.round((completed / 16) * 100)}%` }} /></div><div className="hero-panel-foot"><span>تقدم محفوظ محليًا</span><strong>{completed} / 16 أيام</strong></div></div><div className="floating-card floating-top"><span className="floating-icon teal"><Icon name="layers" size={17} /></span><span><strong>8 × 16</strong><small>أسئلة معاينة لكل يوم</small></span></div><div className="floating-card floating-bottom"><span className="floating-icon gold"><Icon name="lock" size={16} /></span><span><strong>معلّق</strong><small>المحتوى السريري قيد المراجعة</small></span></div></div></section><section className="stats-row"><Stat value="16" label="يوم مراجعة" /><Stat value="8" label="أسئلة لكل صفحة" /><Stat value="640+" label="سؤال خارجي متاح" /><Stat value="No-Go" label="اعتماد سريري مؤقتًا" /></section><section className="section-block"><div className="section-heading"><div><span className="eyebrow">مساران متكاملان</span><h2>اختر نقطة البداية</h2></div><button className="text-link" onClick={() => navigate('about')}>كيف تعمل المنصة؟ <Icon name="arrow" size={15} /></button></div><div className="feature-grid"><FeatureCard tone="teal" icon="calendar" title="مسار المراجعة — 16 يومًا" description="واجهة معاينة تقنية لكل يوم، ثمانية أسئلة، كشف فوري للشرح، وحفظ محلي للتقدم والنتيجة." action="فتح المسار" onClick={() => navigate('revision')} /><FeatureCard tone="blue" icon="layers" title="بنوك الأسئلة" description="الوصول إلى بنك 640 MCQ الحالي، مع صفحة مستقلة لبنك Anatomy الذي ما زال في المراجعة السريرية." action="عرض البنوك" onClick={() => navigate('banks')} /></div></section><section className="section-block compact-block"><div className="section-heading"><div><span className="eyebrow">حالة الإصدار</span><h2>نشر مسؤول قبل كل شيء</h2></div><span className="quiet-badge"><Icon name="check" size={14} /> المعاينة فقط</span></div><div className="release-grid"><ReleaseItem label="مسار Day 1–Day 16" value="واجهة معاينة تقنية" tone="success" /><ReleaseItem label="640 MCQ" value="متاح في الموقع الخارجي" tone="success" /><ReleaseItem label="MCQ Bank 03 — Anatomy" value="مراجعة سريرية معلقة" tone="warning" /><ReleaseItem label="الحسابات" value="قيد الإعداد" tone="neutral" /></div></section></>;
+}
+function Stat({ value, label }: { value: string; label: string }) { return <div className="stat-item"><strong>{value}</strong><span>{label}</span></div>; }
+function FeatureCard({ tone, icon, title, description, action, onClick }: { tone: 'teal' | 'blue'; icon: IconName; title: string; description: string; action: string; onClick: () => void }) { return <article className={`feature-card ${tone}`}><div className="feature-card-head"><span className="feature-icon"><Icon name={icon} size={22} /></span><span className="feature-tag">واجهة جاهزة</span></div><h3>{title}</h3><p>{description}</p><button className="card-link" onClick={onClick}>{action}<Icon name="arrow" size={16} /></button></article>; }
+function ReleaseItem({ label, value, tone }: { label: string; value: string; tone: 'success' | 'warning' | 'neutral' }) { return <div className="release-item"><span className={`release-dot ${tone}`} /><div><strong>{label}</strong><span>{value}</span></div></div>; }
+
+function RevisionPage({ progress, updateProgress }: { progress: SavedProgress; updateProgress: (next: Partial<SavedProgress>) => void }) {
+  const [selectedDay, setSelectedDay] = useState(progress.currentDay || 1);
+  const day = revisionDays[selectedDay - 1];
+  const [quizOpen, setQuizOpen] = useState(true);
+  const setDay = (number: number) => { setSelectedDay(number); updateProgress({ currentDay: number }); setQuizOpen(true); window.scrollTo({ top: 0, behavior: 'smooth' }); };
+  return <div className="content-container"><PageHeader eyebrow="Primary pathway / المسار الأساسي" title="مسار المراجعة على 16 يومًا" description="كل صفحة يومية تحتوي على 8 أسئلة معاينة تقنية. الاختيار يكشف الإجابة والشرح فورًا، والتقدم يُحفظ محليًا لأغراض التحقق فقط." action={<a className="button button-outline" href={externalLinks.revision} target="_blank" rel="noreferrer">فتح الموقع التعليمي الخارجي <Icon name="external" size={16} /></a>} /><div className="preview-warning"><Icon name="info" size={18} /><div><strong>وضع المعاينة التقنية — الحالة الطبية No-Go</strong><p>الأسئلة الظاهرة أدناه لا تمثل مادة امتحانية ولا اعتمادًا سريريًا. لن تُستبدل ببيانات طبية قبل وصول المصادر والموافقة المطلوبة.</p></div></div><div className="day-selector"><div><span className="eyebrow">اختر اليوم</span><h2>{day.title}</h2><span className="day-selector-en">{day.english}</span></div><div className="day-select-buttons">{revisionDays.map((item) => <button key={item.number} className={item.number === selectedDay ? 'selected' : ''} onClick={() => setDay(item.number)} aria-label={`اليوم ${item.number}`}>{String(item.number).padStart(2, '0')}</button>)}</div></div>{quizOpen ? <DayQuiz day={day} progress={progress} updateProgress={updateProgress} /> : <button className="button button-primary" onClick={() => setQuizOpen(true)}>فتح أسئلة اليوم</button>}<section className="source-strip"><Icon name="book" size={18} /><div><strong>مصادر اليوم</strong><p>الرابط الخارجي للمسار الحقيقي متاح، أما أسئلة المعاينة فهي بيانات منفصلة غير سريرية.</p></div><a href={externalLinks.revision} target="_blank" rel="noreferrer">فتح المصدر الخارجي <Icon name="external" size={14} /></a></section><div className="day-grid compact-day-grid">{revisionDays.map((item) => <button className={`day-card mini-day ${item.number === selectedDay ? 'is-selected' : ''}`} key={item.code} onClick={() => setDay(item.number)}><img src={`${base}assets/day-icons/day-${String(item.number).padStart(2, '0')}.svg`} alt="" /><div className="day-card-body"><span className="day-number">DAY {String(item.number).padStart(2, '0')}</span><h3>{item.title}</h3><span className="day-open">{progress.scores[item.code] !== undefined ? `النتيجة ${progress.scores[item.code]}/8` : 'فتح اليوم'} <Icon name="arrow" size={13} /></span></div></button>)}</div></div>;
+}
+
+function DayQuiz({ day, progress, updateProgress }: { day: RevisionDay; progress: SavedProgress; updateProgress: (next: Partial<SavedProgress>) => void }) {
+  const [answers, setAnswers] = useState<Record<string, number>>(progress.answers);
+  const answered = day.questions.filter((question) => answers[question.id] !== undefined).length;
+  const score = day.questions.filter((question) => answers[question.id] === question.correctOptionIndex).length;
+  useEffect(() => { setAnswers(progress.answers); }, [day.number]);
+  const choose = (question: PreviewQuestion, optionIndex: number) => { if (answers[question.id] !== undefined) return; const next = { ...answers, [question.id]: optionIndex }; setAnswers(next); const nextScore = day.questions.filter((item) => next[item.id] === item.correctOptionIndex).length; updateProgress({ answers: next, scores: { ...progress.scores, [day.code]: nextScore } }); };
+  const retry = () => { const next = { ...answers }; day.questions.forEach((question) => delete next[question.id]); const scores = { ...progress.scores }; delete scores[day.code]; setAnswers(next); updateProgress({ answers: next, scores }); };
+  return <section className="quiz-section" aria-labelledby="quiz-title"><div className="quiz-heading"><div><span className="eyebrow">Daily quiz / اختبار اليوم</span><h2 id="quiz-title">{day.title}</h2><p>اختيار واحد لكل سؤال — كشف فوري بعد الإجابة.</p></div><div className="quiz-score"><strong>{score} / 8</strong><span>{answered === 8 ? 'اكتمل اليوم' : `${answered} من 8 مجاب`}</span></div></div><div className="quiz-progress"><span style={{ width: `${(answered / 8) * 100}%` }} /></div><div className="question-list">{day.questions.map((question, index) => <QuestionCard key={question.id} question={question} number={index + 1} answer={answers[question.id]} onChoose={choose} />)}</div><div className="quiz-footer"><span><Icon name="check" size={15} /> يُحفظ التقدم تلقائيًا في هذا المتصفح</span><button className="button button-outline" onClick={retry}><Icon name="rotate" size={15} /> إعادة محاولة اليوم الحالي</button></div></section>;
+}
+function QuestionCard({ question, number, answer, onChoose }: { question: PreviewQuestion; number: number; answer?: number; onChoose: (question: PreviewQuestion, option: number) => void }) { const revealed = answer !== undefined; return <article className={`question-card ${revealed ? 'revealed' : ''}`}><div className="question-meta"><span>السؤال {String(number).padStart(2, '0')}</span><span className="question-state">{revealed ? (answer === question.correctOptionIndex ? 'إجابة صحيحة' : 'راجع الإجابة') : 'بانتظار الاختيار'}</span></div><h3>{question.stem}</h3><div className="options-list">{question.options.map((option, index) => <button key={option} className={`${revealed && index === question.correctOptionIndex ? 'correct' : ''} ${revealed && index === answer && index !== question.correctOptionIndex ? 'wrong' : ''}`} onClick={() => onChoose(question, index)} disabled={revealed}><span className="option-letter">{String.fromCharCode(65 + index)}</span><span>{option}</span>{revealed && index === question.correctOptionIndex && <Icon name="check" size={16} />}</button>)}</div>{revealed && <div className="answer-reveal"><div><strong>{answer === question.correctOptionIndex ? 'أحسنت — الإجابة صحيحة' : 'الإجابة الصحيحة موضحة أدناه'}</strong><p>{question.explanation}</p></div><a href={question.sourceUrl} target="_blank" rel="noreferrer">{question.sourceLabel} <Icon name="external" size={13} /></a></div>}</article>; }
+
+function BanksPage() { return <div className="content-container"><PageHeader eyebrow="Assessment / التقييم" title="بنوك الأسئلة" description="تدريب حالي واضح، وبنوك جديدة تبقى منفصلة حتى اكتمال المراجعة السريرية." /><div className="bank-grid"><article className="bank-card bank-active"><div className="bank-card-top"><span className="bank-icon blue">MCQ</span><span className="status-chip success"><span /> متاح للتدريب</span></div><h2>640 MCQ</h2><p>بنك الأسئلة المكثف للمراجعة والتدريب، متاح في موقع الاختبار الحالي.</p><div className="bank-meta"><span><strong>640+</strong> سؤال</span><span><strong>متاح</strong> الآن</span></div><a className="button button-primary button-wide" href={externalLinks.mcq640} target="_blank" rel="noreferrer">فتح بنك 640 MCQ <Icon name="external" size={16} /></a></article><article className="bank-card bank-pending"><div className="bank-card-top"><span className="bank-icon amber">ANAT</span><span className="status-chip warning"><span /> مراجعة معلقة</span></div><h2>MCQ Bank 03 — Anatomy</h2><p>80 سؤالًا تشريحيًا موثقًا عبر خمسة محاور. صفحة الحالة والمصادر فقط؛ لا يوجد اختبار متاح بعد.</p><div className="bank-meta"><span><strong>80</strong> سؤالًا مسودة</span><span><strong>5</strong> محاور</span></div><a className="button button-outline button-wide" href={`${base}qbank3/`}>عرض حالة البنك <Icon name="arrow" size={16} /></a></article></div><section className="review-rules"><div className="review-rules-heading"><span className="feature-icon gold"><Icon name="lock" size={19} /></span><div><span className="eyebrow">Release policy / سياسة الإتاحة</span><h2>المسودة لا تصبح اختبارًا تلقائيًا</h2></div></div><div className="rules-grid"><Rule icon="check" title="مراجعة السؤال" text="تدقيق الإجابة والبدائل والشرح لكل سؤال على حدة." /><Rule icon="book" title="مطابقة المصدر" text="التأكد من رقم الصفحة ورقم الشريحة المطبوعة في المحاضرة." /><Rule icon="lock" title="نشر آمن" text="تبقى المسودات مخفية حتى اعتمادها سريريًا وتحريريًا." /></div></section></div>; }
+function Rule({ icon, title, text }: { icon: IconName; title: string; text: string }) { return <div className="rule"><span className="rule-icon"><Icon name={icon} size={17} /></span><div><strong>{title}</strong><p>{text}</p></div></div>; }
+function LibraryPage() { return <div className="content-container"><PageHeader eyebrow="Curriculum map / خريطة المنهج" title="المكتبة العلمية" description="خريطة أولية لموضوعات الدبلومة. تربط الواجهة ببنية المستودع دون الادعاء بأن كل محاضرة أصبحت متاحة." action={<span className="quiet-badge"><Icon name="book" size={14} /> الفهرس قيد البناء</span>} /><div className="library-grid">{topicGroups.map(([title, english, items], index) => <article className="topic-card" key={title}><div className="topic-index">0{index + 1}</div><div><span className="topic-english">{english}</span><h2>{title}</h2><ul>{items.map((item) => <li key={item}><span /><span>{item}</span></li>)}</ul></div></article>)}</div><div className="callout callout-amber"><span className="callout-icon"><Icon name="info" size={19} /></span><div><strong>المحتوى التفصيلي سيُضاف تدريجيًا</strong><p>لا تُعامل الخريطة كاعتماد للمحاضرات أو المراجع؛ هي طبقة تنظيمية للمعاينة الحالية.</p></div></div></div>; }
+function AboutPage() { return <div className="content-container"><PageHeader eyebrow="Platform principles / مبادئ المنصة" title="مراجعة منظمة، ومحتوى يمكن تتبعه" description="تفصل المنصة بين المعاينة التقنية، التدريب المتاح، والمحتوى الذي يحتاج إلى مراجعة سريرية قبل الإتاحة." /><div className="principles-grid"><article className="principle-card"><span className="principle-number">01</span><h2>مسار واضح</h2><p>بوابة واحدة تربط خطة Day 1–Day 16، بنك الأسئلة الحالي، وخريطة موضوعات المنهج.</p></article><article className="principle-card"><span className="principle-number">02</span><h2>مصدر لكل سؤال</h2><p>تحمل الأسئلة الجديدة معرّفات ثابتة ومواقع مصدر قابلة للفحص بدل المحتوى غير الموثق.</p></article><article className="principle-card"><span className="principle-number">03</span><h2>نشر مسؤول</h2><p>لا تظهر المسودات قيد المراجعة السريرية في واجهة الاختبار، ولا تُضاف صور الإجابات قبل الاعتماد.</p></article></div><section className="workflow-card"><div><span className="eyebrow">Content workflow / سير المحتوى</span><h2>من المصدر إلى المتعلم</h2></div><div className="workflow-steps"><WorkflowStep number="01" title="تحضير" text="صياغة السؤال من مصدر محدد" /><span className="workflow-line" /><WorkflowStep number="02" title="تحقق" text="فحص آلي ومراجعة مستقلة" /><span className="workflow-line" /><WorkflowStep number="03" title="إتاحة" text="فتح السؤال بعد الاعتماد" /></div></section></div>; }
+function WorkflowStep({ number, title, text }: { number: string; title: string; text: string }) { return <div className="workflow-step"><span>{number}</span><strong>{title}</strong><p>{text}</p></div>; }
+function AccountPage({ onNotice }: { onNotice: () => void }) { return <div className="content-container narrow-container"><PageHeader eyebrow="Doctor account / الحساب" title="حساب الطبيب" description="الحسابات وحفظ التقدم السحابي قيد الإعداد. لا نطلب بيانات شخصية في هذه المعاينة." /><div className="empty-state"><span className="empty-icon"><Icon name="user" size={30} /></span><h2>مساحة شخصية قادمة</h2><p>التقدم الحالي محفوظ محليًا في المتصفح لأغراض المعاينة فقط، ولا يمثل حسابًا أو سجلًا طبيًا.</p><button className="button button-primary" onClick={onNotice}>معرفة المزيد</button></div><div className="privacy-note"><Icon name="lock" size={16} /><span>لا توجد جلسة مستخدم أو بيانات سريرية محفوظة في هذه النسخة.</span></div></div>; }

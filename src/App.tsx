@@ -106,11 +106,11 @@ export default function App() {
               <h4 className="font-bold text-slate-900 mb-1">640 MCQ</h4>
               <p className="text-xs text-slate-500">The intensive question-bank website — available now.</p>
             </a>
-            <button onClick={() => openComingSoon('MCQ Bank 03 — Anatomy')} className="text-left bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border border-amber-100 hover:border-amber-300 transition">
+            <a href={`${assetBase}qbank3/`} className="block text-left bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border border-amber-100 hover:border-amber-300 transition">
               <div className="w-12 h-12 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center font-bold text-sm mb-4">ANAT</div>
               <h4 className="font-bold text-slate-900 mb-1">MCQ Bank 03 — Anatomy</h4>
-              <p className="text-xs text-slate-500">80 source-grounded draft questions are being prepared for clinical review.</p>
-            </button>
+              <p className="text-xs text-slate-500">Open the Anatomy bank status, source references, and review workflow.</p>
+            </a>
             {[
               ['🎥', 'Surgical skills videos', 'The visual library for essential operative skills.'],
               ['📚', 'Lecture index', 'The academic map and curriculum topics.'],

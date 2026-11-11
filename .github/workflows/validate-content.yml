@@ -27,12 +27,23 @@ jobs:
           python3 - <<'PY'
           import json
           import pathlib
+          import re
           import sys
 
           errors = []
-          json_files = sorted(pathlib.Path('.').rglob('*.json'))
+          ignored_dirs = {'.git', 'node_modules', 'dist'}
+          json_files = sorted(path for path in pathlib.Path('.').rglob('*.json') if not ignored_dirs.intersection(path.parts))
           question_files = sorted(pathlib.Path('question-bank').rglob('*.json')) if pathlib.Path('question-bank').exists() else []
           seen_ids = {}
+          slide_map_path = pathlib.Path('source-manifests/anatomy03-slide-map.json')
+          slide_map = {}
+          if slide_map_path.exists():
+              manifest = json.loads(slide_map_path.read_text(encoding='utf-8'))
+              for source in manifest.get('sources', []):
+                  slide_map[source.get('fileName')] = {
+                      'sourceLink': source.get('sourceLink'),
+                      'pages': {page.get('pdfPage'): page.get('slideNumber') for page in source.get('pages', [])},
+                  }
 
           for path in json_files:
               try:
@@ -49,14 +60,17 @@ jobs:
               errors.append(f'{path}: question file must be a list or contain a questions list')
               return []
 
-          required = ('id', 'question', 'options', 'answer', 'explanation', 'source')
+          required = ('id', 'options', 'explanation', 'source')
           for path in question_files:
               try:
                   with path.open(encoding='utf-8') as handle:
                       data = json.load(handle)
               except Exception:
                   continue
-              for index, item in enumerate(questions_from(data, path), start=1):
+              question_items = questions_from(data, path)
+              if path.name.startswith('anatomy03-') and len(question_items) != 16:
+                  errors.append(f'{path}: expected exactly 16 questions in each Anatomy topic file')
+              for index, item in enumerate(question_items, start=1):
                   location = f'{path} question #{index}'
                   if not isinstance(item, dict):
                       errors.append(f'{location}: question must be an object')
@@ -64,6 +78,8 @@ jobs:
                   missing = [field for field in required if field not in item or item[field] in ('', None)]
                   if missing:
                       errors.append(f'{location}: missing required fields: {", ".join(missing)}')
+                  if not item.get('stem') and not item.get('question'):
+                      errors.append(f'{location}: missing question stem (stem or question)')
                   question_id = item.get('id')
                   if question_id in seen_ids:
                       errors.append(f'{location}: duplicate id {question_id!r}; already used in {seen_ids[question_id]}')
@@ -72,6 +88,28 @@ jobs:
                   options = item.get('options')
                   if not isinstance(options, list) or len(options) != 4:
                       errors.append(f'{location}: options must contain exactly four items')
+                  answer_index = item.get('correctOptionIndex', item.get('answer'))
+                  if not isinstance(answer_index, int) or isinstance(answer_index, bool) or answer_index not in range(4):
+                      errors.append(f'{location}: answer must be a zero-based option index from 0 to 3')
+                  locator = item.get('source_locator', '')
+                  if path.as_posix().startswith('question-bank/drafts/anatomy03-'):
+                      if not re.fullmatch(r'PDF p\. [1-9][0-9]*; slide [1-9][0-9]*', locator):
+                          errors.append(f'{location}: source_locator must use "PDF p. N; slide M"')
+                      if item.get('status') != 'draft' or item.get('reviewStatus') != 'pending-clinical-review':
+                          errors.append(f'{location}: Anatomy Q Bank 3 items must remain draft / pending-clinical-review')
+                      source = slide_map.get(item.get('source'), {})
+                      page = item.get('pdfPage')
+                      expected_slide = source.get('pages', {}).get(page)
+                      if expected_slide is None or locator != f'PDF p. {page}; slide {expected_slide}':
+                          errors.append(f'{location}: source_locator does not match the checked printed-slide map')
+                      if item.get('sourceLink') != source.get('sourceLink'):
+                          errors.append(f'{location}: sourceLink does not match its source-manifest entry')
+                  image = item.get('answerImage')
+                  if image:
+                      if re.match(r'^https?://', image, re.I) or 'drive.google.com' in image:
+                          errors.append(f'{location}: answerImage must be a local GitHub asset, not an external/Drive URL')
+                      if item.get('status') == 'draft':
+                          errors.append(f'{location}: draft questions must not publish answer images')
 
           if errors:
               print('\n'.join(f'::error::{error}' for error in errors))

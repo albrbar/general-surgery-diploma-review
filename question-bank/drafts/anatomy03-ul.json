@@ -1,0 +1,344 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Q Bank 03 — Anatomy",
+  "language": "en",
+  "answerVisibility": "hidden-until-submitted",
+  "questions": [
+    {
+      "id": "GS-ANAT03-UL-0001",
+      "topic": "Brachial plexus variations",
+      "stem": "A brachial plexus with a major contribution from C4 is described in the lecture as which variant?",
+      "options": [
+        "Prefixed brachial plexus",
+        "Postfixed brachial plexus",
+        "Trunk-free brachial plexus",
+        "Infraclavicular plexus"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The lecture calls the plexus prefixed when it has a major C4 contribution; a major T2 contribution is termed postfixed.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 50,
+      "source_locator": "PDF p. 50; slide 50",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "Slide 50 states that a prefixed plexus has a major C4 contribution and a postfixed plexus a major T2 contribution.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-UL-0002",
+      "topic": "Pectoral nerves",
+      "stem": "Which nerve pierces pectoralis minor before supplying it and then continues to supply pectoralis major?",
+      "options": [
+        "Lateral pectoral nerve",
+        "Medial pectoral nerve",
+        "Long thoracic nerve",
+        "Thoracodorsal nerve"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The medial pectoral nerve pierces pectoralis minor, supplies it, and then supplies pectoralis major.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 62,
+      "source_locator": "PDF p. 62; slide 62",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "Slide 62 describes the medial pectoral nerve leaving the axilla by piercing pectoralis minor and supplying both pectoral muscles.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-UL-0003",
+      "topic": "Pectoral nerves",
+      "stem": "Which muscle is supplied by the lateral pectoral nerve according to the lecture?",
+      "options": [
+        "Pectoralis minor only",
+        "Pectoralis major only",
+        "Both pectoralis major and minor",
+        "Serratus anterior only"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The lateral pectoral nerve is described as supplying pectoralis major only.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 63,
+      "source_locator": "PDF p. 63; slide 63",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "Slide 63 says the lateral pectoral nerve arises from the lateral cord and supplies pectoralis major muscle only.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-UL-0004",
+      "topic": "Cutaneous innervation of the upper limb",
+      "stem": "Which two nerves are exceptions to the brachial-plexus supply of upper-limb skin, as noted in the lecture?",
+      "options": [
+        "Supraclavicular and intercostobrachial nerves",
+        "Axillary and radial nerves",
+        "Median and ulnar nerves",
+        "Musculocutaneous and medial cutaneous nerves of forearm"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The lecture identifies skin above the deltoid and upper medial arm as supplied by the supraclavicular and intercostobrachial nerves, respectively.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 74,
+      "source_locator": "PDF p. 74; slide 74",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "Slide 74 lists supraclavicular and intercostobrachial nerves as exceptions to brachial-plexus cutaneous supply.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-UL-0005",
+      "topic": "Brachial artery relations",
+      "stem": "In the cubital fossa, what structure separates the brachial artery from the median cubital vein?",
+      "options": [
+        "Flexor retinaculum",
+        "Bicipital aponeurosis",
+        "Palmar aponeurosis",
+        "Interosseous membrane"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The bicipital aponeurosis lies over the brachial artery and separates it from the median cubital vein.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 76,
+      "source_locator": "PDF p. 76; slide 76",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "Slide 76 notes that the bicipital aponeurosis crosses the brachial artery and separates it from the median cubital vein.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-UL-0006",
+      "topic": "Elbow arterial anastomosis",
+      "stem": "Which pair forms the arterial anastomosis in front of the medial epicondyle?",
+      "options": [
+        "Superior ulnar collateral and posterior ulnar recurrent arteries",
+        "Anterior branch of inferior ulnar collateral and anterior ulnar recurrent arteries",
+        "Radial recurrent and posterior descending profunda brachii arteries",
+        "Posterior ulnar recurrent and interosseous recurrent arteries"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The anterior branch of the inferior ulnar collateral artery joins the anterior ulnar recurrent artery in front of the medial epicondyle.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 80,
+      "source_locator": "PDF p. 80; slide 80",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "Slide 80 lists the anterior branch of the inferior ulnar collateral and anterior ulnar recurrent arteries in front of the medial epicondyle.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-UL-0007",
+      "topic": "Arterial supply of the humerus",
+      "stem": "At which landmark does the nutrient artery of the humerus enter the bone?",
+      "options": [
+        "Insertion of coracobrachialis",
+        "Deltoid tuberosity",
+        "Surgical neck",
+        "Medial epicondyle"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The lecture places the humeral nutrient artery entry at the insertion of coracobrachialis.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 82,
+      "source_locator": "PDF p. 82; slide 82",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "Slide 82 states that the nutrient artery enters the humerus at the insertion of coracobrachialis.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-UL-0008",
+      "topic": "Radial nerve course",
+      "stem": "Which artery accompanies the radial nerve in the spiral groove of the humerus?",
+      "options": [
+        "Superior ulnar collateral artery",
+        "Profunda brachii artery",
+        "Anterior circumflex humeral artery",
+        "Thoracoacromial artery"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The radial nerve travels in the spiral groove with the profunda brachii artery.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 82,
+      "source_locator": "PDF p. 82; slide 82",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "Slide 82 says the profunda brachii accompanies the radial nerve in the spiral groove of the humerus.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-UL-0009",
+      "topic": "Cubital fossa",
+      "stem": "Moving from medial to lateral through the cubital fossa, which sequence of contents is correct?",
+      "options": [
+        "Median nerve, brachial artery, bicipital tendon, radial nerve",
+        "Brachial artery, median nerve, radial nerve, bicipital tendon",
+        "Bicipital tendon, brachial artery, median nerve, radial nerve",
+        "Radial nerve, bicipital tendon, brachial artery, median nerve"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The listed order from medial to lateral is median nerve, brachial artery, bicipital tendon, and radial nerve.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 92,
+      "source_locator": "PDF p. 92; slide 92",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "Slide 92 explicitly lists the cubital-fossa contents from medial to lateral, including median nerve then brachial artery; slide 93 completes the list with tendon and radial nerve.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-UL-0010",
+      "topic": "Median nerve in the forearm",
+      "stem": "How does the median nerve enter the forearm from the cubital fossa?",
+      "options": [
+        "Between the two heads of pronator teres",
+        "Behind the medial epicondyle between the heads of flexor carpi ulnaris",
+        "Through the carpal tunnel",
+        "Between the heads of the first dorsal interosseous"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The median nerve passes between the two heads of pronator teres as it leaves the cubital fossa.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 101,
+      "source_locator": "PDF p. 101; slide 101",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "Slide 101 describes the median nerve leaving the cubital fossa between the two heads of pronator teres.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-UL-0011",
+      "topic": "Anterior interosseous nerve course",
+      "stem": "On which structure does the anterior interosseous nerve descend, and which artery accompanies it?",
+      "options": [
+        "On the anterior surface of the interosseous membrane with the anterior interosseous artery",
+        "On the posterior surface of the ulna with the ulnar artery",
+        "Within the carpal tunnel with the radial artery",
+        "Along the posterior surface of the radius with the posterior interosseous artery"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The slide describes the anterior interosseous nerve descending on the front of the interosseous membrane with the anterior interosseous artery.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 102,
+      "source_locator": "PDF p. 102; slide 102",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "The slide places the nerve on the anterior membrane surface and pairs it with the anterior interosseous artery.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-UL-0012",
+      "topic": "Ulnar nerve in the hand",
+      "stem": "At the wrist, how does the ulnar nerve enter the hand relative to the flexor retinaculum?",
+      "options": [
+        "Deep to it through the carpal tunnel",
+        "Superficial to it, just lateral to the pisiform",
+        "Through the anatomical snuffbox",
+        "Between the two heads of pronator teres"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The ulnar nerve passes over the flexor retinaculum, just lateral to the pisiform, before dividing in the hand.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 109,
+      "source_locator": "PDF p. 109; slide 109",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "Slide 109 states that the ulnar nerve enters over the flexor retinaculum just lateral to pisiform.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-UL-0013",
+      "topic": "Radial nerve branches",
+      "stem": "The deep terminal branch of the radial nerve becomes which nerve after piercing the supinator?",
+      "options": [
+        "Anterior interosseous nerve",
+        "Posterior interosseous nerve",
+        "Lateral cutaneous nerve of forearm",
+        "Dorsal scapular nerve"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The deep branch pierces the supinator and continues as the posterior interosseous nerve.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 114,
+      "source_locator": "PDF p. 114; slide 114",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "Slide 114 identifies the deep branch of the radial nerve as the posterior interosseous nerve and describes its passage through supinator.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-UL-0014",
+      "topic": "Radial artery course",
+      "stem": "After crossing the anatomical snuffbox, through which interval does the radial artery enter the palm?",
+      "options": [
+        "Between the two heads of the first dorsal interosseous",
+        "Between the two heads of pronator teres",
+        "Through the carpal tunnel",
+        "Between the heads of flexor carpi ulnaris"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The radial artery enters the palm between the two heads of the first dorsal interosseous muscle.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 122,
+      "source_locator": "PDF p. 122; slide 122",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "Slide 122 states that the radial artery enters the palm between the two heads of the first dorsal interosseous, then continues as the deep palmar arch.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-UL-0015",
+      "topic": "Ulnar artery course",
+      "stem": "In the lower two-thirds of the forearm, what is the ulnar artery's position relative to the ulnar nerve?",
+      "options": [
+        "Lateral to the ulnar nerve",
+        "Medial to the ulnar nerve",
+        "Posterior to the ulnar nerve within the carpal tunnel",
+        "Superficial to the ulnar nerve in the anatomical snuffbox"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The ulnar artery descends lateral to the ulnar nerve in the lower two-thirds of the forearm.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 128,
+      "source_locator": "PDF p. 128; slide 128",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "Slide 128 describes the artery in the lower two-thirds as deep to FCU, superficial to FDP, and lateral to the ulnar nerve.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-UL-0016",
+      "topic": "Wrist arterial anastomosis",
+      "stem": "Which artery contributes its descending carpal branch to the anterior carpal arch?",
+      "options": [
+        "Anterior interosseous artery",
+        "Posterior interosseous artery",
+        "Profunda brachii artery",
+        "Posterior circumflex humeral artery"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The descending carpal branch of the anterior interosseous artery is one of the contributors to the anterior carpal arch.",
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 130,
+      "source_locator": "PDF p. 130; slide 130",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "sourceEvidence": "Slide 130 lists the descending carpal branch of the anterior interosseous artery among the anterior carpal arch contributors.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    }
+  ]
+}

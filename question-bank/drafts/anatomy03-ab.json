@@ -1,0 +1,344 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Q Bank 03 — Anatomy",
+  "language": "en",
+  "answerVisibility": "hidden-until-submitted",
+  "questions": [
+    {
+      "id": "GS-ANAT03-AB-0001",
+      "topic": "Stomach anatomy",
+      "stem": "Which statement correctly distinguishes the two gastric orifices in terms of sphincters?",
+      "options": [
+        "Both have anatomical and physiological sphincters",
+        "The cardiac orifice has no anatomical sphincter but has a physiological one; the pyloric orifice has both",
+        "The cardiac orifice has an anatomical sphincter only; the pyloric has a physiological sphincter only",
+        "Neither orifice has a sphincter"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The lecture describes a physiological sphincter at the cardiac orifice, while the pyloric orifice has anatomical and physiological sphincters.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 46,
+      "source_locator": "PDF p. 46; slide 84",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The page states that the cardiac orifice lacks an anatomical sphincter but has a physiological one, whereas the pyloric orifice has both.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-AB-0002",
+      "topic": "Stomach peritoneum",
+      "stem": "Where does the stomach have its described bare area?",
+      "options": [
+        "On the anterior surface near the pylorus",
+        "On the posterior surface close to the cardiac orifice",
+        "Along the greater curvature",
+        "On the inferior surface near the angular notch"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The stomach is generally covered by peritoneum except for a bare area on its posterior surface near the cardiac orifice.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 48,
+      "source_locator": "PDF p. 48; slide 86",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The page specifies the bare area on the posterior surface close to the cardiac orifice.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-AB-0003",
+      "topic": "Gastric parasympathetic innervation",
+      "stem": "According to the lecture, which vagal nerves provide parasympathetic supply to the stomach?",
+      "options": [
+        "Anterior and posterior gastric nerves, from the left and right vagus respectively",
+        "Greater and lesser splanchnic nerves",
+        "Pelvic splanchnic nerves from S2–S4",
+        "Phrenic nerves bilaterally"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The anterior and posterior gastric nerves are identified as vagal branches from the left and right vagus, respectively.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 55,
+      "source_locator": "PDF p. 55; slide 93",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The page assigns parasympathetic supply to anterior and posterior gastric nerves from left and right vagus, respectively.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-AB-0004",
+      "topic": "Duodenal mucosa",
+      "stem": "How does the duodenal mucosa differ between its first part and the remainder, as described in the lecture?",
+      "options": [
+        "It is folded in the first part and smooth throughout the rest",
+        "It is smooth in the first part; the remainder forms plicae circulares",
+        "It has villi only in the first part",
+        "It is smooth throughout all four parts"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The first part is described as smooth, while the rest of the duodenum has folds called plicae circulares.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 63,
+      "source_locator": "PDF p. 63; slide 101",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The page explicitly contrasts smooth mucosa in the first part with plicae circulares in the rest.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-AB-0005",
+      "topic": "Duodenal arterial supply",
+      "stem": "Which pair of arterial sources supplies the duodenum across its foregut–midgut transition?",
+      "options": [
+        "Coeliac trunk and superior mesenteric artery",
+        "Inferior mesenteric artery and coeliac trunk",
+        "Renal arteries and superior mesenteric artery",
+        "Hepatic artery and inferior mesenteric artery"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The lecture identifies coeliac supply from the foregut and superior mesenteric supply from the midgut.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 62,
+      "source_locator": "PDF p. 62; slide 100",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The page states that duodenal supply comes from the coeliac trunk and superior mesenteric artery, reflecting its embryological divisions.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-AB-0006",
+      "topic": "Jejunum and ileum",
+      "stem": "Which mesenteric arterial-arcade pattern is characteristic of the ileum in the lecture's comparison?",
+      "options": [
+        "Simple arcades, usually one or two",
+        "Complicated arterial arcades",
+        "No arterial arcades",
+        "A single direct artery without arcades"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The lecture contrasts the jejunum's simple arcades with complicated arterial arcades in the ileum.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 66,
+      "source_locator": "PDF p. 66; slide 104",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The comparison table describes ileal arcades as complicated and jejunal arcades as simple (one or two).",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-AB-0007",
+      "topic": "Foregut, midgut and hindgut",
+      "stem": "Which artery supplies the hindgut territory defined in the lecture?",
+      "options": [
+        "Coeliac trunk",
+        "Superior mesenteric artery",
+        "Inferior mesenteric artery",
+        "Internal iliac artery"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The inferior mesenteric artery supplies the hindgut, extending in the lecture's definition from the proximal two-thirds of the transverse colon to the upper half of the anal canal.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 69,
+      "source_locator": "PDF p. 69; slide 124",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The page assigns the hindgut territory to the inferior mesenteric artery.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-AB-0008",
+      "topic": "Spleen",
+      "stem": "Which description correctly identifies the two surfaces of the spleen?",
+      "options": [
+        "Medial diaphragmatic surface and lateral visceral surface",
+        "Medial visceral surface containing the hilum and lateral diaphragmatic surface",
+        "Anterior renal surface and posterior gastric surface",
+        "Superior visceral surface and inferior diaphragmatic surface"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The medial surface is visceral and contains the hilum; the lateral surface is related to the diaphragm.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 78,
+      "source_locator": "PDF p. 78; slide 133",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The page labels the medial surface as visceral with the hilum and the lateral surface as diaphragmatic.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-AB-0009",
+      "topic": "Spleen peritoneal ligaments",
+      "stem": "Which structures are contained in the lienorenal ligament according to the lecture?",
+      "options": [
+        "Short gastric vessels",
+        "Splenic vessels and the tail of the pancreas",
+        "Common bile duct and portal vein",
+        "Left gastric vessels and the stomach fundus"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The lienorenal ligament connects the spleen with the left kidney and contains the splenic vessels and pancreatic tail.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 80,
+      "source_locator": "PDF p. 80; slide 135",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The page states the lienorenal ligament contains the splenic vessels and pancreatic tail.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-AB-0010",
+      "topic": "Liver lobes",
+      "stem": "Which structure separates the right and left anatomical lobes of the liver posteriorly?",
+      "options": [
+        "Falciform ligament",
+        "Ligamentum teres",
+        "Ligamentum venosum",
+        "Coronary ligament"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The lecture assigns the ligamentum venosum to the posterior separation of the right and left lobes.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 85,
+      "source_locator": "PDF p. 85; slide 140",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The page lists ligamentum venosum posteriorly, ligamentum teres inferiorly, and falciform ligament superiorly and anteriorly.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-AB-0011",
+      "topic": "Liver peritoneum",
+      "stem": "Which structure forms the base of the triangular bare area of the liver?",
+      "options": [
+        "Fossa for the gall bladder",
+        "Groove for the inferior vena cava",
+        "Fissure for ligamentum teres",
+        "Porta hepatis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The base of the triangular bare area is formed by the groove for the inferior vena cava.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 89,
+      "source_locator": "PDF p. 89; slide 144",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The page defines the bare area's base as the IVC groove, its apex as the right triangular ligament, and its boundaries as the coronary ligaments.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-AB-0012",
+      "topic": "Porta hepatis",
+      "stem": "At the porta hepatis, which structure is positioned posteriorly in the lecture's arrangement?",
+      "options": [
+        "Right and left hepatic ducts",
+        "Right and left hepatic artery branches",
+        "Right and left portal vein branches",
+        "Hepatic lymphatics"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The portal vein branches are posterior; the hepatic ducts are anterior and hepatic artery branches are in the middle.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 95,
+      "source_locator": "PDF p. 95; slide 150",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The page gives the porta hepatis arrangement as ducts anterior, artery middle, and portal vein posterior, alongside nerves and lymphatics.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-AB-0013",
+      "topic": "Fetal remnants of liver",
+      "stem": "The ligamentum venosum is the obliterated remnant of which fetal vessel?",
+      "options": [
+        "Left umbilical vein",
+        "Ductus venosus",
+        "Vitelline artery",
+        "Umbilical artery"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The ligamentum venosum is the obliterated ductus venosus; the ligamentum teres is the remnant of the left umbilical vein.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 96,
+      "source_locator": "PDF p. 96; slide 151",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The page directly identifies ligamentum venosum as obliterated ductus venosus and contrasts it with ligamentum teres.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-AB-0014",
+      "topic": "Common bile duct",
+      "stem": "Which sequence correctly names the three parts of the common bile duct described in the lecture?",
+      "options": [
+        "Supraduodenal, retroduodenal and infraduodenal",
+        "Intrahepatic, intrapancreatic and pelvic",
+        "Retropyloric, transmesenteric and subhepatic",
+        "Suprapancreatic, intragastric and infrapyloric"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The common bile duct is divided into supraduodenal, retroduodenal and infraduodenal parts.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 99,
+      "source_locator": "PDF p. 99; slide 154",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The page identifies the CBD's three parts using these names after describing its course.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-AB-0015",
+      "topic": "Gall bladder",
+      "stem": "Which statement about the gall bladder's peritoneal covering is correct according to the lecture?",
+      "options": [
+        "It is covered on its under surface only, while the fundus is completely covered",
+        "It is completely retroperitoneal",
+        "It is covered only on its superior surface, including the fundus",
+        "It is completely covered except at the neck"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The lecture states that the gall bladder is covered by peritoneum on its under surface, with the fundus completely covered.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 101,
+      "source_locator": "PDF p. 101; slide 156",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The page describes the gall bladder's peritoneum as covering the under surface only, except that the fundus is completely covered.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-AB-0016",
+      "topic": "Pancreas anatomy",
+      "stem": "Which pancreatic part is embedded in the splenic hilum and passes within the lienorenal ligament?",
+      "options": [
+        "Head",
+        "Uncinate process",
+        "Neck",
+        "Tail"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "The pancreatic tail extends to the splenic hilum and lies within the lienorenal ligament.",
+      "source": "The Abdomen — Slides.pdf",
+      "pdfPage": 103,
+      "source_locator": "PDF p. 103; slide 158",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "sourceEvidence": "The page states that the tail is embedded in the splenic hilum and passes inside the lienorenal ligament.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    }
+  ]
+}

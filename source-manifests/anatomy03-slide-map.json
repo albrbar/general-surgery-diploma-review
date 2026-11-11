@@ -1,0 +1,301 @@
+{
+  "version": "1.0",
+  "description": "Printed slide numbers were extracted from the footer text of the corresponding original Drive PDF pages; the source PDFs remain in the linked Drive folder.",
+  "sources": [
+    {
+      "fileName": "The Abdomen — Slides.pdf",
+      "driveFileId": "1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3",
+      "sourceLink": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view",
+      "pages": [
+        {
+          "pdfPage": 46,
+          "slideNumber": 84
+        },
+        {
+          "pdfPage": 48,
+          "slideNumber": 86
+        },
+        {
+          "pdfPage": 55,
+          "slideNumber": 93
+        },
+        {
+          "pdfPage": 62,
+          "slideNumber": 100
+        },
+        {
+          "pdfPage": 63,
+          "slideNumber": 101
+        },
+        {
+          "pdfPage": 66,
+          "slideNumber": 104
+        },
+        {
+          "pdfPage": 69,
+          "slideNumber": 124
+        },
+        {
+          "pdfPage": 78,
+          "slideNumber": 133
+        },
+        {
+          "pdfPage": 80,
+          "slideNumber": 135
+        },
+        {
+          "pdfPage": 85,
+          "slideNumber": 140
+        },
+        {
+          "pdfPage": 89,
+          "slideNumber": 144
+        },
+        {
+          "pdfPage": 95,
+          "slideNumber": 150
+        },
+        {
+          "pdfPage": 96,
+          "slideNumber": 151
+        },
+        {
+          "pdfPage": 99,
+          "slideNumber": 154
+        },
+        {
+          "pdfPage": 101,
+          "slideNumber": 156
+        },
+        {
+          "pdfPage": 103,
+          "slideNumber": 158
+        }
+      ]
+    },
+    {
+      "fileName": "The Pelvis & Perineum — Slides.pdf",
+      "driveFileId": "1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "pages": [
+        {
+          "pdfPage": 14,
+          "slideNumber": 151
+        },
+        {
+          "pdfPage": 15,
+          "slideNumber": 152
+        },
+        {
+          "pdfPage": 18,
+          "slideNumber": 155
+        },
+        {
+          "pdfPage": 19,
+          "slideNumber": 156
+        },
+        {
+          "pdfPage": 21,
+          "slideNumber": 158
+        },
+        {
+          "pdfPage": 22,
+          "slideNumber": 159
+        },
+        {
+          "pdfPage": 23,
+          "slideNumber": 160
+        },
+        {
+          "pdfPage": 25,
+          "slideNumber": 162
+        },
+        {
+          "pdfPage": 26,
+          "slideNumber": 163
+        },
+        {
+          "pdfPage": 27,
+          "slideNumber": 164
+        },
+        {
+          "pdfPage": 28,
+          "slideNumber": 165
+        }
+      ]
+    },
+    {
+      "fileName": "The Breast — Slides.pdf",
+      "driveFileId": "1H258r4PBB9X4NgsltIjRYfiimESqDooa",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "pages": [
+        {
+          "pdfPage": 9,
+          "slideNumber": 9
+        },
+        {
+          "pdfPage": 10,
+          "slideNumber": 10
+        },
+        {
+          "pdfPage": 13,
+          "slideNumber": 13
+        },
+        {
+          "pdfPage": 15,
+          "slideNumber": 15
+        },
+        {
+          "pdfPage": 19,
+          "slideNumber": 19
+        },
+        {
+          "pdfPage": 21,
+          "slideNumber": 21
+        },
+        {
+          "pdfPage": 24,
+          "slideNumber": 24
+        }
+      ]
+    },
+    {
+      "fileName": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "driveFileId": "15uSelNmzERVZjbTNK3amoakDt6o93F_l",
+      "sourceLink": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view",
+      "pages": [
+        {
+          "pdfPage": 50,
+          "slideNumber": 50
+        },
+        {
+          "pdfPage": 62,
+          "slideNumber": 62
+        },
+        {
+          "pdfPage": 63,
+          "slideNumber": 63
+        },
+        {
+          "pdfPage": 74,
+          "slideNumber": 74
+        },
+        {
+          "pdfPage": 76,
+          "slideNumber": 76
+        },
+        {
+          "pdfPage": 80,
+          "slideNumber": 80
+        },
+        {
+          "pdfPage": 82,
+          "slideNumber": 82
+        },
+        {
+          "pdfPage": 92,
+          "slideNumber": 92
+        },
+        {
+          "pdfPage": 101,
+          "slideNumber": 101
+        },
+        {
+          "pdfPage": 102,
+          "slideNumber": 102
+        },
+        {
+          "pdfPage": 109,
+          "slideNumber": 109
+        },
+        {
+          "pdfPage": 114,
+          "slideNumber": 114
+        },
+        {
+          "pdfPage": 122,
+          "slideNumber": 122
+        },
+        {
+          "pdfPage": 128,
+          "slideNumber": 128
+        },
+        {
+          "pdfPage": 130,
+          "slideNumber": 130
+        }
+      ]
+    },
+    {
+      "fileName": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "driveFileId": "13ILGATEeEtK-tCyLzobKIfWiXKUWojQb",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "pages": [
+        {
+          "pdfPage": 48,
+          "slideNumber": 48
+        },
+        {
+          "pdfPage": 49,
+          "slideNumber": 49
+        },
+        {
+          "pdfPage": 50,
+          "slideNumber": 50
+        },
+        {
+          "pdfPage": 52,
+          "slideNumber": 52
+        },
+        {
+          "pdfPage": 56,
+          "slideNumber": 56
+        },
+        {
+          "pdfPage": 58,
+          "slideNumber": 58
+        },
+        {
+          "pdfPage": 60,
+          "slideNumber": 60
+        },
+        {
+          "pdfPage": 61,
+          "slideNumber": 61
+        },
+        {
+          "pdfPage": 64,
+          "slideNumber": 64
+        },
+        {
+          "pdfPage": 66,
+          "slideNumber": 66
+        },
+        {
+          "pdfPage": 68,
+          "slideNumber": 68
+        },
+        {
+          "pdfPage": 70,
+          "slideNumber": 70
+        },
+        {
+          "pdfPage": 71,
+          "slideNumber": 71
+        },
+        {
+          "pdfPage": 75,
+          "slideNumber": 75
+        },
+        {
+          "pdfPage": 76,
+          "slideNumber": 76
+        },
+        {
+          "pdfPage": 81,
+          "slideNumber": 81
+        }
+      ]
+    }
+  ]
+}

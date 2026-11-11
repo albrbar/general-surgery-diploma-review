@@ -1,0 +1,12 @@
+{
+  "routes": [
+    { "path": "/", "title": "الرئيسية | GSDIPLOMAREVISION" },
+    { "path": "/#/home", "title": "الرئيسية | GSDIPLOMAREVISION" },
+    { "path": "/#/revision", "title": "مسار المراجعة | GSDIPLOMAREVISION" },
+    { "path": "/#/banks", "title": "بنوك الأسئلة | GSDIPLOMAREVISION" },
+    { "path": "/#/library", "title": "المكتبة العلمية | GSDIPLOMAREVISION" },
+    { "path": "/#/about", "title": "عن المنصة | GSDIPLOMAREVISION" },
+    { "path": "/#/account", "title": "حساب الطبيب | GSDIPLOMAREVISION" },
+    { "path": "/qbank3/", "title": "MCQ Bank 03 — Anatomy" }
+  ]
+}

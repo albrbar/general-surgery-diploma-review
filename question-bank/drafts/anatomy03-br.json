@@ -1,0 +1,344 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Q Bank 03 — Anatomy",
+  "language": "en",
+  "answerVisibility": "hidden-until-submitted",
+  "questions": [
+    {
+      "id": "GS-ANAT03-BR-0001",
+      "topic": "Breast microstructure",
+      "stem": "Approximately how many alveoli form one lobule of the breast?",
+      "options": [
+        "1–10",
+        "10–100",
+        "100–200",
+        "200–400"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The slide states that about 10 to 100 alveoli form one lobule.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 9,
+      "source_locator": "PDF p. 9; slide 9",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The slide specifies approximately 10–100 alveoli per lobule.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-BR-0002",
+      "topic": "Breast microstructure",
+      "stem": "Approximately how many lobules form one breast lobe?",
+      "options": [
+        "2–5",
+        "5–10",
+        "20–40",
+        "50–100"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The lecture gives a range of 20 to 40 lobules per lobe.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 9,
+      "source_locator": "PDF p. 9; slide 9",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The slide states that 20–40 lobules form one lobe.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-BR-0003",
+      "topic": "Breast structure",
+      "stem": "Which statement about the breast's capsule is consistent with the lecture?",
+      "options": [
+        "It is enclosed by a thick fibrous capsule",
+        "It has no capsule and is embedded in fatty tissue",
+        "It is enclosed by a synovial capsule",
+        "It has a capsule only around the ducts"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The slide notes that the breast has no capsule and is embedded in fatty tissue.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 9,
+      "source_locator": "PDF p. 9; slide 9",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The note explicitly says the breast has no capsule and is embedded in fatty tissue.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-BR-0004",
+      "topic": "Nipple",
+      "stem": "In which direction is the nipple typically directed?",
+      "options": [
+        "Upward and medially",
+        "Downward and outward",
+        "Horizontally laterally",
+        "Downward and medially"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The lecture describes the nipple as directed downward and outward.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 9,
+      "source_locator": "PDF p. 9; slide 9",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The slide's note states the nipple is directed downward and outward.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-BR-0005",
+      "topic": "Nipple",
+      "stem": "In a large breast, how may the usual nipple position relative to the fourth intercostal space change?",
+      "options": [
+        "It may lie higher",
+        "It may lie lower",
+        "It moves to the midline",
+        "It remains at the same level in all cases"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The slide notes that the nipple may be lower in a large breast.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 10,
+      "source_locator": "PDF p. 10; slide 10",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The text states the nipple is opposite the fourth intercostal space but is lower if the breast is large.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-BR-0006",
+      "topic": "Nipple",
+      "stem": "What is the approximate distance of the nipple from the midline described in the lecture?",
+      "options": [
+        "2 inches",
+        "4 inches",
+        "6 inches",
+        "8 inches"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The slide gives an approximate distance of four inches from the midline.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 10,
+      "source_locator": "PDF p. 10; slide 10",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The nipple landmark is stated as four inches from the midline.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-BR-0007",
+      "topic": "Lymphatic drainage",
+      "stem": "Which breast-skin region drains to the apical group of lymph nodes, excluding the nipple and areola?",
+      "options": [
+        "Lower quadrants",
+        "Upper quadrants",
+        "Lateral quadrants only",
+        "Medial quadrants"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The skin of the upper quadrants drains to the apical lymph-node group.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 13,
+      "source_locator": "PDF p. 13; slide 13",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The skin-drainage list assigns upper quadrants to apical nodes.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-BR-0008",
+      "topic": "Lymphatic drainage",
+      "stem": "Where does lymph from the skin of the lower breast quadrants (excluding nipple and areola) drain according to the lecture?",
+      "options": [
+        "Apical axillary nodes",
+        "Internal thoracic nodes",
+        "Rectus sheath and subphrenic plexuses",
+        "Posterior intercostal nodes only"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The lower-quadrant skin drains to the lymph plexus of the rectus sheath and the subphrenic plexus.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 13,
+      "source_locator": "PDF p. 13; slide 13",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The stated drainage routes for lower-quadrant skin are rectus sheath and subphrenic plexuses.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-BR-0009",
+      "topic": "Lymphatic drainage",
+      "stem": "Which lymphatic connection is described for some lymphatics from the medial breast?",
+      "options": [
+        "They cross the sternum to anastomose with the opposite breast",
+        "They pass directly to the deep cervical nodes",
+        "They join the portal venous system",
+        "They cross the diaphragm to the liver"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Some medial lymphatics cross the front of the sternum and communicate with the opposite breast.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 13,
+      "source_locator": "PDF p. 13; slide 13",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The text describes intermammary lymphatics crossing anterior to the sternum to the opposite breast.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-BR-0010",
+      "topic": "Lymphatic drainage",
+      "stem": "A small proportion of lymph from breast tissue is described as draining to which nodes?",
+      "options": [
+        "Deep cervical nodes",
+        "Paravertebral (posterior intercostal) nodes",
+        "Inguinal nodes",
+        "Pretracheal nodes"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The lecture assigns about 5% of breast-tissue lymph to paravertebral, posterior intercostal nodes.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 15,
+      "source_locator": "PDF p. 15; slide 15",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The drainage proportions list 5% to paravertebral (posterior intercostal) nodes.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-BR-0011",
+      "topic": "Blood supply",
+      "stem": "Which arterial source contributes perforating branches to the breast?",
+      "options": [
+        "Internal thoracic artery",
+        "Inferior mesenteric artery",
+        "Facial artery",
+        "Ulnar artery"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Perforating branches of the internal thoracic artery are listed among the breast's arterial supply.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 19,
+      "source_locator": "PDF p. 19; slide 19",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The blood-supply list names perforating branches of the internal thoracic artery.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-BR-0012",
+      "topic": "Blood supply",
+      "stem": "From which range of intercostal arteries do branches supplying the breast arise?",
+      "options": [
+        "First to second",
+        "Second to fifth",
+        "Sixth to ninth",
+        "Ninth to twelfth"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The slide specifies anterior and posterior intercostal branches from the second through fifth intercostal arteries.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 19,
+      "source_locator": "PDF p. 19; slide 19",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The text specifies the second to fifth intercostal arteries.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-BR-0013",
+      "topic": "Blood supply",
+      "stem": "According to the breast arterial-source table, which artery supplies the medial part (about 30%)?",
+      "options": [
+        "Lateral thoracic artery",
+        "Internal thoracic artery",
+        "Intercostal artery",
+        "Superior thoracic artery"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The internal thoracic artery is listed as supplying the medial part, about 30%.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 21,
+      "source_locator": "PDF p. 21; slide 21",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The table pairs internal thoracic artery with medial part (30%).",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-BR-0014",
+      "topic": "Blood supply",
+      "stem": "Which arteries are listed as supplying the upper part of the breast (about 1–5%)?",
+      "options": [
+        "Thoracoacromial and superior thoracic arteries",
+        "Internal thoracic artery alone",
+        "Lateral thoracic artery alone",
+        "Posterior intercostal artery alone"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The table assigns the upper part (about 1–5%) to thoracoacromial and superior thoracic arteries.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 21,
+      "source_locator": "PDF p. 21; slide 21",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The arterial table lists thoracoacromial and superior thoracic arteries for upper part (1–5%).",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-BR-0015",
+      "topic": "Male breast ducts",
+      "stem": "According to the lecture, how far does the male breast duct system extend?",
+      "options": [
+        "Beyond the axillary tail",
+        "To the margin of the areola, without extending beyond it",
+        "Only to the nipple, with no ducts beneath the areola",
+        "Across the pectoral region"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The slide describes the male duct system as embedded in connective tissue and not extending beyond the areolar margin.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 24,
+      "source_locator": "PDF p. 24; slide 24",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The slide says the male duct system does not extend beyond the margin of the areola.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-BR-0016",
+      "topic": "Clinical anatomy",
+      "stem": "Which venous feature provides a route by which breast cancer may spread to vertebrae?",
+      "options": [
+        "Valveless veins connecting with the vertebral venous plexus",
+        "The great saphenous vein",
+        "The portal venous system",
+        "Valved veins draining to the pulmonary veins"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The slides note valveless veins connect the breast to the vertebral venous plexus, enabling spread to vertebrae.",
+      "source": "The Breast — Slides.pdf",
+      "pdfPage": 24,
+      "source_locator": "PDF p. 24; slide 24",
+      "sourceLink": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view",
+      "sourceEvidence": "The note links valveless veins to the vertebral venous plexus with possible vertebral spread.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    }
+  ]
+}

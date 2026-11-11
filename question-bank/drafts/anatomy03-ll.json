@@ -1,0 +1,344 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Q Bank 03 — Anatomy",
+  "language": "en",
+  "answerVisibility": "hidden-until-submitted",
+  "questions": [
+    {
+      "id": "GS-ANAT03-LL-0001",
+      "topic": "Profunda femoris artery",
+      "stem": "The profunda femoris artery reaches the posterior compartment of the thigh by giving off which set of branches?",
+      "options": [
+        "Four perforating branches",
+        "Four circumflex branches",
+        "Two genicular branches",
+        "Three muscular branches"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The profunda femoris enters the medial compartment and sends four perforating branches to the posterior compartment.",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 48,
+      "source_locator": "PDF p. 48; slide 48",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "Profunda femoris sends four perforators posteriorly.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-LL-0002",
+      "topic": "Obturator artery",
+      "stem": "Which structure does the articular branch of the obturator artery enter to supply the head of the femur?",
+      "options": [
+        "Ligament of the head of the femur (ligamentum teres)",
+        "Transverse acetabular ligament",
+        "Iliofemoral ligament",
+        "Obturator membrane"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The articular branch enters the ligament of the head of the femur (ligamentum teres).",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 49,
+      "source_locator": "PDF p. 49; slide 49",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "Articular branch enters ligamentum teres and supplies femoral head.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-LL-0003",
+      "topic": "Obturator artery",
+      "stem": "During femoral hernia surgery, which arterial variant is highlighted as a potential source of dangerous bleeding near the lacunar ligament?",
+      "options": [
+        "An inferior epigastric pubic branch replacing the obturator artery",
+        "A superficial circumflex iliac artery crossing the femoral ring",
+        "A descending genicular artery entering the femoral canal",
+        "A medial circumflex femoral artery crossing the inguinal ligament"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The pubic branch of the inferior epigastric artery may replace the obturator artery and descend in the free margin of the lacunar ligament.",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 50,
+      "source_locator": "PDF p. 50; slide 50",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "Inferior epigastric pubic branch may replace obturator and descend in lacunar ligament margin.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-LL-0004",
+      "topic": "Popliteal artery",
+      "stem": "Which artery is listed as a branch of the popliteal artery that supplies the knee joint centrally?",
+      "options": [
+        "Middle genicular artery",
+        "Descending genicular artery",
+        "Anterior tibial recurrent artery",
+        "Circumflex fibular artery"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The popliteal artery branches include the middle genicular artery.",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 52,
+      "source_locator": "PDF p. 52; slide 52",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "Middle genicular artery listed among popliteal branches.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-LL-0005",
+      "topic": "Popliteal vein formation",
+      "stem": "At the lower border of popliteus, which veins unite to form the popliteal vein?",
+      "options": [
+        "Venae comitantes of the anterior and posterior tibial arteries",
+        "Great and small saphenous veins",
+        "Anterior tibial and fibular veins only",
+        "Medial and lateral plantar veins"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The lecture describes the popliteal vein as beginning at the lower border of popliteus by union of the venae comitantes of the anterior and posterior tibial arteries.",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 56,
+      "source_locator": "PDF p. 56; slide 56",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "The slide locates the union at the lower border of popliteus and names the two venae comitantes.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-LL-0006",
+      "topic": "Trochanteric anastomosis",
+      "stem": "Which pair of arteries contributes to the trochanteric anastomosis from the internal iliac system?",
+      "options": [
+        "Superior and inferior gluteal arteries",
+        "Obturator and internal pudendal arteries",
+        "Iliolumbar and lateral sacral arteries",
+        "Superior and inferior vesical arteries"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The trochanteric anastomosis includes superior and inferior gluteal arteries, alongside medial and lateral circumflex femoral arteries.",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 58,
+      "source_locator": "PDF p. 58; slide 58",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "Superior and inferior gluteal arteries are listed contributors.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-LL-0007",
+      "topic": "Anastomosis around ASIS",
+      "stem": "Which artery contributes to the anastomosis around the anterior superior iliac spine from the external iliac system?",
+      "options": [
+        "Deep circumflex iliac artery",
+        "Inferior gluteal artery",
+        "Medial circumflex femoral artery",
+        "Descending genicular artery"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The deep circumflex iliac artery is an external iliac contributor to the anastomosis around the ASIS.",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 60,
+      "source_locator": "PDF p. 60; slide 60",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "Deep circumflex iliac listed as external iliac contributor.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-LL-0008",
+      "topic": "Genicular anastomosis",
+      "stem": "Which recurrent artery is listed as participating in the arterial anastomosis around the knee?",
+      "options": [
+        "Posterior tibial recurrent artery",
+        "Radial recurrent artery",
+        "Ulnar recurrent artery",
+        "Circumflex scapular artery"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The knee anastomosis list includes anterior and posterior tibial recurrent arteries.",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 61,
+      "source_locator": "PDF p. 61; slide 61",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "Posterior tibial recurrent artery appears in knee anastomosis list.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-LL-0009",
+      "topic": "Femoral nerve",
+      "stem": "Which two cutaneous nerves are listed as branches of the anterior division of the femoral nerve?",
+      "options": [
+        "Medial and intermediate cutaneous nerves of the thigh",
+        "Saphenous and sural nerves",
+        "Lateral cutaneous nerve of thigh and saphenous nerve",
+        "Medial cutaneous nerve of thigh and deep peroneal nerve"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The anterior division gives medial and intermediate cutaneous nerves of the thigh.",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 64,
+      "source_locator": "PDF p. 64; slide 64",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "Anterior-division cutaneous branches are medial and intermediate thigh nerves.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-LL-0010",
+      "topic": "Saphenous nerve",
+      "stem": "After passing between sartorius and gracilis, the saphenous nerve descends along which side of the leg?",
+      "options": [
+        "Medial side",
+        "Lateral side",
+        "Anterior midline",
+        "Posterior midline"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The saphenous nerve becomes superficial between sartorius and gracilis and descends at the medial side of the knee and leg.",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 66,
+      "source_locator": "PDF p. 66; slide 66",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "Course is medial at knee and leg after becoming superficial.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-LL-0011",
+      "topic": "Obturator nerve",
+      "stem": "Which knee-related branch is attributed to the posterior division of the obturator nerve?",
+      "options": [
+        "An articular branch passing through the adductor hiatus",
+        "A cutaneous branch to the lateral calf",
+        "A muscular branch to gastrocnemius",
+        "A saphenous branch accompanying the great saphenous vein"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The posterior division gives an articular branch to the knee, passing through the adductor hiatus.",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 68,
+      "source_locator": "PDF p. 68; slide 68",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "Posterior division articular branch reaches knee through hiatus.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-LL-0012",
+      "topic": "Sciatic nerve",
+      "stem": "In the gluteal region, which muscle is the sciatic nerve described as passing deep to as it leaves the region?",
+      "options": [
+        "Long head of biceps femoris",
+        "Sartorius",
+        "Adductor longus",
+        "Vastus medialis"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The sciatic nerve leaves the gluteal region by passing deep to the long head of biceps femoris.",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 70,
+      "source_locator": "PDF p. 70; slide 70",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "Sciatic nerve leaves gluteal region deep to biceps long head.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-LL-0013",
+      "topic": "Sciatic nerve",
+      "stem": "Which hamstring muscle is supplied through the common peroneal portion of the sciatic nerve rather than the tibial portion?",
+      "options": [
+        "Short head of biceps femoris",
+        "Semitendinosus",
+        "Semimembranosus",
+        "Long head of biceps femoris"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The posterior thigh muscles are supplied through the tibial portion except the short head of biceps, supplied by the common peroneal portion.",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 71,
+      "source_locator": "PDF p. 71; slide 71",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "Short head of biceps is the stated exception.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-LL-0014",
+      "topic": "Tibial nerve course in leg",
+      "stem": "As the tibial nerve runs with the posterior tibial artery in the leg, which sequence of positions relative to the artery is described?",
+      "options": [
+        "Medial, then superficial, then lateral",
+        "Lateral, then deep, then medial",
+        "Anterior, then posterior, then medial",
+        "Superficial, then medial, then posterior"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The lecture gives the tibial nerve’s relation to the posterior tibial artery as medial, then superficial, then lateral.",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 75,
+      "source_locator": "PDF p. 75; slide 75",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "The slide explicitly marks the sequence M → S → L alongside the posterior tibial artery.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-LL-0015",
+      "topic": "Tibial nerve",
+      "stem": "Which cutaneous branch of the tibial nerve supplies the medial side of the heel?",
+      "options": [
+        "Medial calcaneal nerve",
+        "Sural nerve",
+        "Lateral plantar nerve",
+        "Saphenous nerve"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The medial calcaneal nerve is listed among tibial nerve cutaneous branches.",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 76,
+      "source_locator": "PDF p. 76; slide 76",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "Medial calcaneal nerve is listed as tibial cutaneous branch.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-LL-0016",
+      "topic": "Cutaneous innervation of the foot",
+      "stem": "A sensory deficit on the lateral side of the little toe most directly implicates which nerve?",
+      "options": [
+        "Sural nerve",
+        "Deep peroneal nerve",
+        "Saphenous nerve",
+        "Medial plantar nerve"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The sural nerve supplies the lateral side of the foot and lateral side of the fifth toe.",
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "pdfPage": 81,
+      "source_locator": "PDF p. 81; slide 81",
+      "sourceLink": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view",
+      "sourceEvidence": "Sural supplies lateral foot and lateral side of little toe.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    }
+  ]
+}

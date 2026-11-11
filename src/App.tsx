@@ -44,6 +44,12 @@ export default function App() {
   const [notice, setNotice] = useState(false);
   useEffect(() => { localStorage.setItem(storageKey, JSON.stringify(progress)); }, [progress]);
   useEffect(() => { const onHash = () => { setPage(pageFromHash()); setMenuOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }; window.addEventListener('hashchange', onHash); return () => window.removeEventListener('hashchange', onHash); }, []);
+  useEffect(() => {
+    if (!notice) return;
+    const onKeyDown = (event: KeyboardEvent) => { if (event.key === 'Escape') setNotice(false); };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [notice]);
   const navigate = (next: Page) => { window.location.hash = `/${next}`; setPage(next); setMenuOpen(false); };
   const updateProgress = (next: Partial<SavedProgress>) => setProgress((current) => ({ ...current, ...next }));
   return <div className="app-shell" dir="ltr">

@@ -7,7 +7,7 @@ type IconName = 'home' | 'calendar' | 'layers' | 'book' | 'info' | 'user' | 'arr
 type SavedProgress = { currentDay: number; answers: Record<string, number>; scores: Record<string, number> };
 
 const base = window.location.pathname.startsWith('/general-surgery-diploma-review') ? '/general-surgery-diploma-review/' : '/';
-const externalLinks = { revision: 'https://day1quiz-hg9nk85o.manus.space', mcq640: 'https://gsexam-zv2uu94a.manus.space' };
+const externalLinks = { revision: `${base}day1-16/`, mcq640: 'https://gsexam-zv2uu94a.manus.space' };
 const storageKey = 'gsdiploma.preview-progress.v1';
 const navItems: Array<{ id: Page; label: string; icon: IconName }> = [
   { id: 'home', label: 'Home', icon: 'home' }, { id: 'revision', label: 'Revision Path', icon: 'calendar' },

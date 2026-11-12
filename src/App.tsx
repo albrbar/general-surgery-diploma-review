@@ -45,8 +45,8 @@ const banks: Bank[] = [
   {
     id: 'microbiology',
     file: 'microbiology-80.json',
-    shortTitle: 'Microbiology',
-    title: 'Microbiology MCQ',
+    shortTitle: 'Microbiology & Immunology',
+    title: 'Microbiology & Immunology MCQ',
     description: 'Specimen diagnostics, antimicrobial resistance, infection prevention, and immunology.',
     subject: 'MICRO',
     color: 'text-emerald-800',
@@ -56,8 +56,8 @@ const banks: Bank[] = [
   {
     id: 'breast',
     file: 'breast-80.json',
-    shortTitle: 'Breast Anatomy',
-    title: 'Breast Anatomy MCQ',
+    shortTitle: 'Chest / Breast Anatomy',
+    title: 'Chest (Breast) Anatomy MCQ',
     description: 'Structure, lymphatic drainage, blood supply, and clinical anatomy.',
     subject: 'BRST',
     color: 'text-amber-800',
@@ -65,6 +65,68 @@ const banks: Bank[] = [
     border: 'border-amber-200 hover:border-amber-400',
   },
 ];
+
+type SubjectCategory = {
+  number: string;
+  title: string;
+  topics: string[];
+  bankIds: string[];
+};
+
+const basicSubjects: SubjectCategory[] = [
+  {
+    number: '1',
+    title: 'Anatomy',
+    topics: [
+      'Abdomen',
+      'Chest / Breast',
+      'The Pelvis & Perineum',
+      'Lower Limb: Nerves, Vessels & Lymphatics',
+      'Upper Limb: Nerves, Vessels & Lymphatics',
+    ],
+    bankIds: ['abdomen', 'breast'],
+  },
+  {
+    number: '2',
+    title: 'Microbiology & Immunology',
+    topics: ['Diagnostic Microbiology & Specimen Collection', 'Antimicrobial Resistance', 'Immunology & Serology'],
+    bankIds: ['microbiology'],
+  },
+  {
+    number: '3',
+    title: 'Pathology',
+    topics: ['Principles of Diagnostic Pathology', 'Cell Injury and Death', 'Inflammation', 'Circulatory Disturbances', 'Neoplasia: Grading, Staging & Biomarkers'],
+    bankIds: [],
+  },
+  {
+    number: '4',
+    title: 'Pharmacology',
+    topics: ['Antimicrobial Chemotherapy & Antibiotics', 'Drugs for GIT Disorders', 'Drugs for Peptic Ulcer', 'Analgesics for Surgery', 'Cancer Chemotherapy & Blood-Disorder Drugs'],
+    bankIds: [],
+  },
+];
+
+const principlesTopics = [
+  'Fluids & Electrolytes',
+  'Shock',
+  'Hemorrhage',
+  'Blood and Blood Products',
+  'Wound Healing',
+  'Sterilisation and Disinfection',
+  'Medical Ethics',
+  'Consent',
+  'Breaking Bad News',
+  'Metabolic Response to Surgery and Trauma',
+  'Nutritional Support in Surgical Patients',
+  'Principles of Surgical Oncology',
+  'Surgical Infections I',
+  'Surgical Infections II',
+  'Septic Shock',
+  'Venous Thromboembolism',
+  'Acid–Base Disturbances',
+];
+
+const publishedBankOrder = [banks[0], banks[2], banks[1]];
 
 function QuestionBank({ bank }: { bank: Bank }) {
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -180,6 +242,7 @@ export default function App() {
           </a>
           <nav className="flex items-center gap-3 text-xs font-bold sm:gap-6 sm:text-sm" aria-label="Main navigation">
             <a href="#question-banks" className="text-slate-600 transition hover:text-teal-800">Question banks</a>
+            <a href="#principles" className="hidden text-slate-600 transition hover:text-teal-800 lg:inline">Principles of Surgery</a>
             <a href="#other-resources" className="hidden text-slate-600 transition hover:text-teal-800 sm:inline">Other resources</a>
             <a href="#abdomen" className="rounded-lg bg-teal-800 px-3 py-2 text-white transition hover:bg-teal-700 sm:px-4">Open Abdomen MCQ</a>
           </nav>
@@ -212,29 +275,61 @@ export default function App() {
         <section id="question-banks" className="scroll-mt-24 pt-10 sm:pt-12">
           <div className="mb-5 flex flex-wrap items-end justify-between gap-3 sm:mb-6">
             <div>
-              <p className="text-xs font-black uppercase tracking-[0.18em] text-teal-700">Choose a subject</p>
-              <h2 className="mt-1 text-2xl font-black text-slate-950 sm:text-3xl">Question banks</h2>
-              <p className="mt-2 text-sm text-slate-500">Select a bank to jump straight to its practice questions.</p>
+              <p className="text-xs font-black uppercase tracking-[0.18em] text-teal-700">Course directory</p>
+              <h2 className="mt-1 text-2xl font-black text-slate-950 sm:text-3xl">Lectures & Question Banks</h2>
+              <p className="mt-2 text-sm text-slate-500">Browse the course subjects and open the question banks currently published on this site.</p>
             </div>
-            <span className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-600">3 banks · 80 questions each</span>
+            <span className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-600">3 published banks · 240 questions</span>
           </div>
-          <div className="grid gap-4 md:grid-cols-3">
-            {banks.map((bank) => (
-              <a key={bank.id} href={`#${bank.id}`} className={`group rounded-2xl border bg-white p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-lg ${bank.border}`}>
-                <div className="flex items-start justify-between gap-3">
-                  <span className={`flex h-12 w-12 items-center justify-center rounded-2xl text-xs font-black ${bank.tint} ${bank.color}`}>{bank.subject}</span>
-                  <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-600">80 MCQs</span>
+          <h3 className="mb-4 text-lg font-black text-slate-900 sm:text-xl">Lectures in Basic Surgical Sciences</h3>
+          <div className="grid gap-4 lg:grid-cols-2">
+            {basicSubjects.map((subject) => (
+              <article key={subject.number} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+                <div className="flex items-center gap-3">
+                  <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-teal-900 text-sm font-black text-white">{subject.number}</span>
+                  <h4 className="text-lg font-black text-slate-900">{subject.title}</h4>
                 </div>
-                <h3 className="mt-5 text-lg font-black text-slate-900">{bank.shortTitle}</h3>
-                <p className="mt-2 min-h-[3rem] text-sm leading-6 text-slate-500">{bank.description}</p>
-                <span className="mt-4 inline-flex items-center gap-2 text-sm font-black text-teal-800 group-hover:text-teal-950">Start practice <span aria-hidden="true">→</span></span>
-              </a>
+                <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+                  {subject.topics.map((topic) => (
+                    <li key={topic} className="rounded-lg bg-slate-50 px-3 py-2 text-sm leading-5 text-slate-700">{topic}</li>
+                  ))}
+                </ul>
+                <div className="mt-4 flex flex-wrap gap-2 border-t border-slate-100 pt-4">
+                  {subject.bankIds.map((bankId) => {
+                    const bank = banks.find((item) => item.id === bankId);
+                    if (!bank) return null;
+                    return (
+                      <a key={bank.id} href={`#${bank.id}`} className={`rounded-lg border px-3 py-2 text-xs font-black transition hover:bg-teal-50 ${bank.border}`}>
+                        Open {bank.shortTitle} · 80 MCQs
+                      </a>
+                    );
+                  })}
+                  {subject.bankIds.length === 0 && (
+                    <span className="text-xs font-semibold text-slate-500">Lecture topics listed · interactive question bank not yet published</span>
+                  )}
+                </div>
+              </article>
             ))}
           </div>
         </section>
 
         <section aria-label="Interactive question banks" className="pt-2">
-          {banks.map((bank) => <QuestionBank key={bank.id} bank={bank} />)}
+          {publishedBankOrder.map((bank) => <QuestionBank key={bank.id} bank={bank} />)}
+        </section>
+
+        <section id="principles" className="scroll-mt-24 mt-12">
+          <div className="mb-5">
+            <p className="text-xs font-black uppercase tracking-[0.18em] text-teal-700">Course directory</p>
+            <h2 className="mt-1 text-2xl font-black text-slate-950 sm:text-3xl">Lectures in Principles of Surgery</h2>
+          </div>
+          <ol className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {principlesTopics.map((topic, index) => (
+              <li key={topic} className="flex items-start gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm leading-6 text-slate-700">
+                <span className="mt-0.5 font-black tabular-nums text-teal-800">{String(index + 1).padStart(2, '0')}</span>
+                <span>{topic}</span>
+              </li>
+            ))}
+          </ol>
         </section>
 
         <section id="other-resources" className="scroll-mt-24 mt-10 rounded-2xl border border-slate-200 bg-white p-5 sm:p-7">

@@ -28,7 +28,8 @@ const days = [
 
 type MicroQuestion = {
   id: string;
-  topic: string;
+  topic?: string;
+  subject?: string;
   difficulty: string;
   stem: string;
   options: string[];
@@ -68,12 +69,12 @@ function QuestionBank({ id, file, title, eyebrow, description }: { id: string; f
         </div>
         {questions.length > 0 && <span className="text-sm font-bold text-slate-500">{current + 1} / {questions.length}</span>}
       </div>
-      {loadError && <p className="text-red-700 bg-red-50 rounded-xl p-4">The microbiology question bank could not be loaded.</p>}
+      {loadError && <p className="text-red-700 bg-red-50 rounded-xl p-4">This question bank could not be loaded.</p>}
       {!loadError && !question && <p className="text-slate-500">Loading the approved question bank…</p>}
       {question && (
         <div>
           <div className="flex flex-wrap gap-2 mb-4">
-            <span className="px-3 py-1 rounded-full bg-teal-50 text-teal-800 text-xs font-bold">{question.topic}</span>
+            <span className="px-3 py-1 rounded-full bg-teal-50 text-teal-800 text-xs font-bold">{question.topic ?? question.subject ?? 'General surgery'}</span>
             <span className="px-3 py-1 rounded-full bg-slate-100 text-slate-700 text-xs font-bold">{question.difficulty}</span>
           </div>
           <h4 className="text-lg sm:text-xl font-bold leading-8 text-slate-900 mb-5">{question.stem}</h4>
@@ -193,6 +194,11 @@ export default function App() {
               <h4 className="font-bold text-slate-900 mb-1">Breast Anatomy MCQ</h4>
               <p className="text-xs text-slate-500">80 approved anatomy questions with answer feedback.</p>
             </a>
+            <a href="#abdomen" className="text-left bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border border-orange-100 hover:border-orange-300 transition">
+              <div className="w-12 h-12 rounded-xl bg-orange-50 text-orange-700 flex items-center justify-center font-bold text-sm mb-4">ABD</div>
+              <h4 className="font-bold text-slate-900 mb-1">Abdomen Anatomy MCQ</h4>
+              <p className="text-xs text-slate-500">80 approved anatomy questions with answer feedback.</p>
+            </a>
             {[
               ['🎥', 'Surgical skills videos', 'The visual library for essential operative skills.'],
               ['📚', 'Lecture index', 'The academic map and curriculum topics.'],
@@ -208,6 +214,7 @@ export default function App() {
 
         <QuestionBank id="microbiology" file="microbiology-80.json" eyebrow="Approved question bank" title="Microbiology MCQ — 80 Questions" description="Specimen diagnostics, antimicrobial resistance, infection prevention, and immunology." />
         <QuestionBank id="breast" file="breast-80.json" eyebrow="Approved question bank" title="Breast Anatomy MCQ — 80 Questions" description="Structure, lymphatic drainage, blood supply, and clinical anatomy." />
+        <QuestionBank id="abdomen" file="abdomen-80.json" eyebrow="Approved question bank" title="Abdomen Anatomy MCQ — 80 Questions" description="Abdominal wall, inguinal region, gastrointestinal tract, hepatobiliary anatomy, pancreas, spleen, and peritoneum." />
       </main>
 
       <footer className="bg-white border-t border-slate-100 py-6 text-center text-xs text-slate-500">

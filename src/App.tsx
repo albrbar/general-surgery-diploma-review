@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const previewLinks = {
   day16: 'https://day1quiz-hg9nk85o.manus.space',
@@ -25,6 +25,80 @@ const days = [
   ['Day 15', 'Operative decision-making'],
   ['Day 16', 'Final integrated revision'],
 ] as const;
+
+type MicroQuestion = {
+  id: string;
+  topic: string;
+  difficulty: string;
+  stem: string;
+  options: string[];
+  correctOptionIndex: number;
+  explanation: string;
+};
+
+function MicrobiologyBank() {
+  const [questions, setQuestions] = useState<MicroQuestion[]>([]);
+  const [current, setCurrent] = useState(0);
+  const [selected, setSelected] = useState<number | null>(null);
+  const [submitted, setSubmitted] = useState(false);
+  const [loadError, setLoadError] = useState(false);
+
+  useEffect(() => {
+    fetch(`${assetBase}assets/mcq-answers/microbiology-80.json`)
+      .then((response) => response.ok ? response.json() : Promise.reject(new Error('bank unavailable')))
+      .then((data) => setQuestions(data.questions))
+      .catch(() => setLoadError(true));
+  }, []);
+
+  const question = questions[current];
+  const next = () => {
+    setCurrent((value) => (value + 1) % questions.length);
+    setSelected(null);
+    setSubmitted(false);
+  };
+
+  return (
+    <section id="microbiology" className="mt-10 bg-white rounded-3xl border border-emerald-100 shadow-sm p-5 sm:p-8">
+      <div className="flex flex-wrap items-center justify-between gap-3 mb-5">
+        <div>
+          <p className="text-xs font-bold text-emerald-700 uppercase tracking-[0.18em]">Approved question bank</p>
+          <h3 className="text-2xl font-black text-slate-900">Microbiology MCQ — 80 Questions</h3>
+        </div>
+        {questions.length > 0 && <span className="text-sm font-bold text-slate-500">{current + 1} / {questions.length}</span>}
+      </div>
+      {loadError && <p className="text-red-700 bg-red-50 rounded-xl p-4">The microbiology question bank could not be loaded.</p>}
+      {!loadError && !question && <p className="text-slate-500">Loading the approved question bank…</p>}
+      {question && (
+        <div>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <span className="px-3 py-1 rounded-full bg-teal-50 text-teal-800 text-xs font-bold">{question.topic}</span>
+            <span className="px-3 py-1 rounded-full bg-slate-100 text-slate-700 text-xs font-bold">{question.difficulty}</span>
+          </div>
+          <h4 className="text-lg sm:text-xl font-bold leading-8 text-slate-900 mb-5">{question.stem}</h4>
+          <div className="grid gap-3">
+            {question.options.map((option, index) => {
+              const isCorrect = submitted && index === question.correctOptionIndex;
+              const isWrong = submitted && selected === index && index !== question.correctOptionIndex;
+              return (
+                <button key={option} onClick={() => !submitted && setSelected(index)} className={`text-left rounded-xl border p-4 transition ${isCorrect ? 'border-emerald-500 bg-emerald-50' : isWrong ? 'border-red-500 bg-red-50' : selected === index ? 'border-teal-500 bg-teal-50' : 'border-slate-200 hover:border-teal-300'}`}>
+                  <span className="font-bold mr-2">{String.fromCharCode(65 + index)}.</span>{option}
+                </button>
+              );
+            })}
+          </div>
+          <div className="flex flex-wrap gap-3 mt-5">
+            {!submitted ? (
+              <button disabled={selected === null} onClick={() => setSubmitted(true)} className="px-5 py-3 rounded-xl bg-teal-800 text-white font-bold disabled:opacity-40">Submit answer</button>
+            ) : (
+              <button onClick={next} className="px-5 py-3 rounded-xl bg-teal-800 text-white font-bold">Next question</button>
+            )}
+          </div>
+          {submitted && <div className="mt-5 rounded-xl bg-slate-50 border border-slate-200 p-4 text-sm leading-7"><strong>{selected === question.correctOptionIndex ? 'Correct.' : 'Review the highlighted answer.'}</strong> {question.explanation}</div>}
+        </div>
+      )}
+    </section>
+  );
+}
 
 export default function App() {
   const [modalTitle, setModalTitle] = useState<string | null>(null);
@@ -106,6 +180,11 @@ export default function App() {
               <h4 className="font-bold text-slate-900 mb-1">640 MCQ</h4>
               <p className="text-xs text-slate-500">The intensive question-bank website — available now.</p>
             </a>
+            <a href="#microbiology" className="bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border-2 border-emerald-100 hover:border-emerald-300 transition">
+              <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center font-bold text-sm mb-4">MICRO</div>
+              <h4 className="font-bold text-slate-900 mb-1">Microbiology MCQ</h4>
+              <p className="text-xs text-slate-500">80 approved questions with answer feedback.</p>
+            </a>
             <button onClick={() => openComingSoon('MCQ Bank 03 — Anatomy')} className="text-left bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border border-amber-100 hover:border-amber-300 transition">
               <div className="w-12 h-12 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center font-bold text-sm mb-4">ANAT</div>
               <h4 className="font-bold text-slate-900 mb-1">MCQ Bank 03 — Anatomy</h4>
@@ -123,6 +202,8 @@ export default function App() {
             ))}
           </div>
         </section>
+
+        <MicrobiologyBank />
       </main>
 
       <footer className="bg-white border-t border-slate-100 py-6 text-center text-xs text-slate-500">

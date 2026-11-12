@@ -1,32 +1,12 @@
 import { useEffect, useState } from 'react';
 
 const previewLinks = {
-  day16: 'https://day1quiz-hg9nk85o.manus.space',
   mcq640: 'https://gsexam-zv2uu94a.manus.space',
 };
 
 const assetBase = '/general-surgery-diploma-review/';
 
-const days = [
-  ['Day 1', 'Surgical anatomy'],
-  ['Day 2', 'Physiology and perioperative care'],
-  ['Day 3', 'Trauma and emergency surgery'],
-  ['Day 4', 'Abdominal surgery'],
-  ['Day 5', 'Hepatobiliary surgery'],
-  ['Day 6', 'Pancreatic and splenic surgery'],
-  ['Day 7', 'Colorectal surgery'],
-  ['Day 8', 'Anorectal conditions'],
-  ['Day 9', 'Breast and endocrine surgery'],
-  ['Day 10', 'Vascular surgery'],
-  ['Day 11', 'Urology and related topics'],
-  ['Day 12', 'Paediatric surgery'],
-  ['Day 13', 'Transplantation and oncology'],
-  ['Day 14', 'Critical care and complications'],
-  ['Day 15', 'Operative decision-making'],
-  ['Day 16', 'Final integrated revision'],
-] as const;
-
-type MicroQuestion = {
+type Question = {
   id: string;
   topic?: string;
   subject?: string;
@@ -38,19 +18,70 @@ type MicroQuestion = {
   explanation: string;
 };
 
-function QuestionBank({ id, file, title, eyebrow, description }: { id: string; file: string; title: string; eyebrow: string; description: string }) {
-  const [questions, setQuestions] = useState<MicroQuestion[]>([]);
+type Bank = {
+  id: string;
+  file: string;
+  shortTitle: string;
+  title: string;
+  description: string;
+  subject: string;
+  color: string;
+  tint: string;
+  border: string;
+};
+
+const banks: Bank[] = [
+  {
+    id: 'abdomen',
+    file: 'abdomen-80.json',
+    shortTitle: 'Abdomen Anatomy',
+    title: 'Abdomen Anatomy MCQ',
+    description: 'Abdominal wall, inguinal region, gastrointestinal tract, hepatobiliary anatomy, pancreas, spleen, and peritoneum.',
+    subject: 'ABD',
+    color: 'text-orange-800',
+    tint: 'bg-orange-100',
+    border: 'border-orange-200 hover:border-orange-400',
+  },
+  {
+    id: 'microbiology',
+    file: 'microbiology-80.json',
+    shortTitle: 'Microbiology',
+    title: 'Microbiology MCQ',
+    description: 'Specimen diagnostics, antimicrobial resistance, infection prevention, and immunology.',
+    subject: 'MICRO',
+    color: 'text-emerald-800',
+    tint: 'bg-emerald-100',
+    border: 'border-emerald-200 hover:border-emerald-400',
+  },
+  {
+    id: 'breast',
+    file: 'breast-80.json',
+    shortTitle: 'Breast Anatomy',
+    title: 'Breast Anatomy MCQ',
+    description: 'Structure, lymphatic drainage, blood supply, and clinical anatomy.',
+    subject: 'BRST',
+    color: 'text-amber-800',
+    tint: 'bg-amber-100',
+    border: 'border-amber-200 hover:border-amber-400',
+  },
+];
+
+function QuestionBank({ bank }: { bank: Bank }) {
+  const [questions, setQuestions] = useState<Question[]>([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [loadError, setLoadError] = useState(false);
 
   useEffect(() => {
-    fetch(`${assetBase}assets/mcq-answers/${file}`)
+    fetch(`${assetBase}assets/mcq-answers/${bank.file}`)
       .then((response) => response.ok ? response.json() : Promise.reject(new Error('bank unavailable')))
-      .then((data) => setQuestions(data.questions.map((item: MicroQuestion) => ({ ...item, correctOptionIndex: item.correctOptionIndex ?? item.answer_index }))))
+      .then((data) => setQuestions(data.questions.map((item: Question) => ({
+        ...item,
+        correctOptionIndex: item.correctOptionIndex ?? item.answer_index,
+      }))))
       .catch(() => setLoadError(true));
-  }, []);
+  }, [bank.file]);
 
   const question = questions[current];
   const next = () => {
@@ -60,176 +91,169 @@ function QuestionBank({ id, file, title, eyebrow, description }: { id: string; f
   };
 
   return (
-    <section id={id} className="mt-10 bg-white rounded-3xl border border-emerald-100 shadow-sm p-5 sm:p-8">
-      <div className="flex flex-wrap items-center justify-between gap-3 mb-5">
-        <div>
-          <p className="text-xs font-bold text-emerald-700 uppercase tracking-[0.18em]">{eyebrow}</p>
-          <h3 className="text-2xl font-black text-slate-900">{title}</h3>
-          <p className="text-sm text-slate-500 mt-1">{description}</p>
+    <section id={bank.id} className="scroll-mt-24 mt-8 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+      <div className="flex flex-wrap items-center justify-between gap-4 border-b border-slate-100 px-5 py-5 sm:px-8">
+        <div className="flex items-center gap-4">
+          <span className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl text-xs font-black ${bank.tint} ${bank.color}`}>{bank.subject}</span>
+          <div>
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-teal-700">Approved question bank · 80 questions</p>
+            <h3 className="text-xl font-black text-slate-900 sm:text-2xl">{bank.title}</h3>
+            <p className="mt-1 max-w-3xl text-sm leading-6 text-slate-500">{bank.description}</p>
+          </div>
         </div>
-        {questions.length > 0 && <span className="text-sm font-bold text-slate-500">{current + 1} / {questions.length}</span>}
+        {questions.length > 0 && (
+          <span className="rounded-full bg-slate-100 px-3 py-1.5 text-sm font-bold text-slate-600">
+            Question {current + 1} of {questions.length}
+          </span>
+        )}
       </div>
-      {loadError && <p className="text-red-700 bg-red-50 rounded-xl p-4">This question bank could not be loaded.</p>}
-      {!loadError && !question && <p className="text-slate-500">Loading the approved question bank…</p>}
-      {question && (
-        <div>
-          <div className="flex flex-wrap gap-2 mb-4">
-            <span className="px-3 py-1 rounded-full bg-teal-50 text-teal-800 text-xs font-bold">{question.topic ?? question.subject ?? 'General surgery'}</span>
-            <span className="px-3 py-1 rounded-full bg-slate-100 text-slate-700 text-xs font-bold">{question.difficulty}</span>
-          </div>
-          <h4 className="text-lg sm:text-xl font-bold leading-8 text-slate-900 mb-5">{question.stem}</h4>
-          <div className="grid gap-3">
-            {question.options.map((option, index) => {
-              const correctIndex = question.correctOptionIndex ?? question.answer_index ?? -1;
-              const isCorrect = submitted && index === correctIndex;
-              const isWrong = submitted && selected === index && index !== correctIndex;
-              return (
-                <button key={option} onClick={() => !submitted && setSelected(index)} className={`text-left rounded-xl border p-4 transition ${isCorrect ? 'border-emerald-500 bg-emerald-50' : isWrong ? 'border-red-500 bg-red-50' : selected === index ? 'border-teal-500 bg-teal-50' : 'border-slate-200 hover:border-teal-300'}`}>
-                  <span className="font-bold mr-2">{String.fromCharCode(65 + index)}.</span>{option}
+
+      <div className="p-5 sm:p-8">
+        {loadError && <p className="rounded-xl bg-red-50 p-4 text-red-700">This question bank could not be loaded. Please refresh the page and try again.</p>}
+        {!loadError && !question && <p className="text-slate-500">Loading questions…</p>}
+        {question && (
+          <div dir="ltr">
+            <div className="mb-4 flex flex-wrap gap-2">
+              <span className="rounded-full bg-teal-50 px-3 py-1 text-xs font-bold text-teal-800">{question.topic ?? question.subject ?? bank.subject}</span>
+              <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-700">{question.difficulty}</span>
+            </div>
+            <h4 className="mb-5 text-lg font-bold leading-8 text-slate-900 sm:text-xl">{question.stem}</h4>
+            <div className="grid gap-3">
+              {question.options.map((option, index) => {
+                const correctIndex = question.correctOptionIndex ?? question.answer_index ?? -1;
+                const isCorrect = submitted && index === correctIndex;
+                const isWrong = submitted && selected === index && index !== correctIndex;
+                const style = isCorrect
+                  ? 'border-emerald-500 bg-emerald-50'
+                  : isWrong
+                    ? 'border-red-500 bg-red-50'
+                    : selected === index
+                      ? 'border-teal-500 bg-teal-50'
+                      : 'border-slate-200 hover:border-teal-300';
+                return (
+                  <button
+                    key={`${question.id}-${index}`}
+                    type="button"
+                    aria-pressed={selected === index}
+                    onClick={() => !submitted && setSelected(index)}
+                    className={`rounded-xl border p-4 text-left transition ${style}`}
+                  >
+                    <span className="mr-2 font-bold">{String.fromCharCode(65 + index)}.</span>{option}
+                  </button>
+                );
+              })}
+            </div>
+            <div className="mt-5 flex flex-wrap gap-3">
+              {!submitted ? (
+                <button disabled={selected === null} onClick={() => setSubmitted(true)} className="rounded-xl bg-teal-800 px-5 py-3 font-bold text-white transition hover:bg-teal-700 disabled:cursor-not-allowed disabled:opacity-40">
+                  Submit answer
                 </button>
-              );
-            })}
-          </div>
-          <div className="flex flex-wrap gap-3 mt-5">
-            {!submitted ? (
-              <button disabled={selected === null} onClick={() => setSubmitted(true)} className="px-5 py-3 rounded-xl bg-teal-800 text-white font-bold disabled:opacity-40">Submit answer</button>
-            ) : (
-              <button onClick={next} className="px-5 py-3 rounded-xl bg-teal-800 text-white font-bold">Next question</button>
+              ) : (
+                <button onClick={next} className="rounded-xl bg-teal-800 px-5 py-3 font-bold text-white transition hover:bg-teal-700">
+                  Next question
+                </button>
+              )}
+            </div>
+            {submitted && (
+              <div className="mt-5 rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm leading-7">
+                <strong>{selected === (question.correctOptionIndex ?? question.answer_index) ? 'Correct.' : 'Review the highlighted answer.'}</strong> {question.explanation}
+              </div>
             )}
           </div>
-          {submitted && <div className="mt-5 rounded-xl bg-slate-50 border border-slate-200 p-4 text-sm leading-7"><strong>{selected === (question.correctOptionIndex ?? question.answer_index) ? 'Correct.' : 'Review the highlighted answer.'}</strong> {question.explanation}</div>}
-        </div>
-      )}
+        )}
+      </div>
     </section>
   );
 }
 
 export default function App() {
-  const [modalTitle, setModalTitle] = useState<string | null>(null);
-  const openComingSoon = (title: string) => setModalTitle(title);
-
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col font-sans" dir="ltr">
-      <header className="bg-white shadow-sm border-b border-slate-100 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 h-20 flex justify-between items-center gap-4">
-          <a href="#top" className="flex items-center gap-3 min-w-0">
-            <img src={`${assetBase}assets/platform-cover.svg`} alt="GSDiplomaRevision" className="w-11 h-11 rounded-xl object-cover shadow-sm" />
-            <div className="min-w-0">
-              <h1 className="text-lg font-bold text-teal-900 leading-tight truncate">GSDIPLOMAREVISION</h1>
-              <p className="text-xs text-slate-500 truncate">Dr. Ragab Al-Barbar — Unified Revision System</p>
-            </div>
+    <div id="top" className="min-h-screen bg-slate-50 font-sans text-slate-900" dir="ltr">
+      <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 shadow-sm backdrop-blur">
+        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:h-[76px] sm:px-6">
+          <a href="#top" className="flex min-w-0 items-center gap-3" aria-label="GSDIPLOMAREVISION home">
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-teal-900 text-sm font-black tracking-tight text-white">GS</span>
+            <span className="min-w-0">
+              <span className="block truncate text-sm font-black tracking-wide text-teal-950 sm:text-base">GSDIPLOMAREVISION</span>
+              <span className="hidden text-xs text-slate-500 sm:block">General Surgery Diploma · Revision & MCQs</span>
+            </span>
           </a>
-          <button onClick={() => openComingSoon('Doctor account')} className="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm font-semibold rounded-lg transition whitespace-nowrap">
-            Doctor account (coming soon)
-          </button>
+          <nav className="flex items-center gap-3 text-xs font-bold sm:gap-6 sm:text-sm" aria-label="Main navigation">
+            <a href="#question-banks" className="text-slate-600 transition hover:text-teal-800">Question banks</a>
+            <a href="#other-resources" className="hidden text-slate-600 transition hover:text-teal-800 sm:inline">Other resources</a>
+            <a href="#abdomen" className="rounded-lg bg-teal-800 px-3 py-2 text-white transition hover:bg-teal-700 sm:px-4">Open Abdomen MCQ</a>
+          </nav>
         </div>
       </header>
 
-      <main id="top" className="max-w-7xl mx-auto px-4 py-8 sm:py-10 flex-grow w-full">
-        <section className="bg-gradient-to-br from-teal-900 via-teal-800 to-cyan-900 text-white rounded-3xl p-5 sm:p-8 mb-10 shadow-xl overflow-hidden relative">
-          <div className="absolute -left-10 -bottom-16 w-56 h-56 rounded-full bg-cyan-400/10" />
-          <div className="relative grid lg:grid-cols-[1fr_240px] gap-8 items-center">
+      <main className="mx-auto w-full max-w-7xl px-4 pb-12 pt-6 sm:px-6 sm:pt-10">
+        <section className="relative isolate overflow-hidden rounded-[2rem] bg-gradient-to-br from-teal-950 via-teal-900 to-cyan-900 px-5 py-8 text-white shadow-xl sm:px-10 sm:py-12 lg:px-14">
+          <div className="absolute -right-16 -top-20 -z-10 h-72 w-72 rounded-full border-[36px] border-white/5" />
+          <div className="absolute -bottom-24 left-1/3 -z-10 h-64 w-64 rounded-full bg-cyan-400/10 blur-2xl" />
+          <div className="grid items-center gap-8 lg:grid-cols-[minmax(0,1fr)_280px]">
             <div>
-              <span className="bg-emerald-400 text-teal-950 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider inline-block mb-4">
-                Platform status: active preview
-              </span>
-              <h2 className="text-2xl sm:text-4xl font-black mb-3">Your integrated clinical and exam revision platform</h2>
-              <p className="text-teal-100 text-sm sm:text-base max-w-2xl leading-7">
-                A unified gateway for the Day 1–Day 16 revision pathway, verified question banks, and future clinical learning services.
+              <span className="inline-flex rounded-full border border-teal-200/30 bg-white/10 px-3 py-1.5 text-xs font-bold tracking-wide text-teal-100">GENERAL SURGERY DIPLOMA</span>
+              <h1 className="mt-5 max-w-3xl text-3xl font-black leading-tight sm:text-4xl lg:text-5xl">Focused revision. Clear progress.</h1>
+              <p className="mt-4 max-w-2xl text-sm leading-7 text-teal-100 sm:text-base">
+                Practice from focused, interactive question banks and review each answer as you go.
               </p>
-              <div className="flex flex-col sm:flex-row gap-3 mt-6">
-                <a href={previewLinks.day16} target="_blank" rel="noreferrer" className="px-5 py-3 bg-white text-teal-900 font-bold rounded-xl text-center shadow hover:bg-teal-50 transition">
-                  Open Day 1–Day 16 Revision ↗
-                </a>
-                <a href={previewLinks.mcq640} target="_blank" rel="noreferrer" className="px-5 py-3 bg-teal-700 hover:bg-teal-600 text-white font-bold rounded-xl text-center shadow transition border border-teal-500">
-                  Open 640 MCQ ↗
-                </a>
-              </div>
+              <a href="#question-banks" className="mt-6 inline-flex items-center gap-2 rounded-xl bg-white px-5 py-3 text-sm font-black text-teal-950 shadow-lg transition hover:-translate-y-0.5 hover:bg-teal-50">
+                Browse question banks <span aria-hidden="true">↓</span>
+              </a>
             </div>
-            <img src={`${assetBase}assets/platform-cover.svg`} alt="General Surgery Diploma revision platform cover" className="hidden lg:block w-full rounded-2xl shadow-2xl ring-1 ring-white/20" />
+            <div className="grid grid-cols-3 gap-2 rounded-2xl border border-white/15 bg-white/10 p-4 text-center backdrop-blur sm:gap-3 sm:p-5">
+              <div><span className="block text-2xl font-black sm:text-3xl">3</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Question banks</span></div>
+              <div className="border-x border-white/15"><span className="block text-2xl font-black sm:text-3xl">240</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Questions</span></div>
+              <div><span className="block text-2xl font-black sm:text-3xl">MCQ</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Instant feedback</span></div>
+            </div>
           </div>
         </section>
 
-        <section className="mb-10">
-          <div className="flex items-end justify-between gap-4 mb-5">
+        <section id="question-banks" className="scroll-mt-24 pt-10 sm:pt-12">
+          <div className="mb-5 flex flex-wrap items-end justify-between gap-3 sm:mb-6">
             <div>
-              <p className="text-xs font-bold text-teal-700 uppercase tracking-[0.18em]">Primary pathway</p>
-              <h3 className="text-2xl font-black text-slate-900">Day 1–Day 16 Revision</h3>
+              <p className="text-xs font-black uppercase tracking-[0.18em] text-teal-700">Choose a subject</p>
+              <h2 className="mt-1 text-2xl font-black text-slate-950 sm:text-3xl">Question banks</h2>
+              <p className="mt-2 text-sm text-slate-500">Select a bank to jump straight to its practice questions.</p>
             </div>
-            <a href={previewLinks.day16} target="_blank" rel="noreferrer" className="text-sm font-bold text-teal-700 hover:text-teal-900">Open full site ↗</a>
+            <span className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-600">3 banks · 80 questions each</span>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-3">
-            {days.map(([day, topic], index) => (
-              <a key={day} href={previewLinks.day16} target="_blank" rel="noreferrer" className="group bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
-                <img src={`${assetBase}assets/day-icons/day-${String(index + 1).padStart(2, '0')}.svg`} alt={`${day} icon`} className="w-full aspect-[380/214] object-cover" />
-                <div className="p-3">
-                  <p className="text-sm font-black text-slate-900">{day}</p>
-                  <p className="text-[11px] leading-4 text-slate-500 mt-1">{topic}</p>
+          <div className="grid gap-4 md:grid-cols-3">
+            {banks.map((bank) => (
+              <a key={bank.id} href={`#${bank.id}`} className={`group rounded-2xl border bg-white p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-lg ${bank.border}`}>
+                <div className="flex items-start justify-between gap-3">
+                  <span className={`flex h-12 w-12 items-center justify-center rounded-2xl text-xs font-black ${bank.tint} ${bank.color}`}>{bank.subject}</span>
+                  <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-600">80 MCQs</span>
                 </div>
+                <h3 className="mt-5 text-lg font-black text-slate-900">{bank.shortTitle}</h3>
+                <p className="mt-2 min-h-[3rem] text-sm leading-6 text-slate-500">{bank.description}</p>
+                <span className="mt-4 inline-flex items-center gap-2 text-sm font-black text-teal-800 group-hover:text-teal-950">Start practice <span aria-hidden="true">→</span></span>
               </a>
             ))}
           </div>
         </section>
 
-        <section>
-          <h3 className="text-xl font-bold text-slate-800 mb-5">Central services</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            <a href={previewLinks.day16} target="_blank" rel="noreferrer" className="bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border-2 border-teal-100 hover:border-teal-300 transition">
-              <div className="w-12 h-12 rounded-xl overflow-hidden mb-4"><img src={`${assetBase}assets/day-icons/day-16.svg`} alt="Day 16" className="w-full h-full object-cover" /></div>
-              <h4 className="font-bold text-slate-900 mb-1">Day 1–Day 16 Revision</h4>
-              <p className="text-xs text-slate-500">The structured 16-day revision website — available now.</p>
-            </a>
-            <a href={previewLinks.mcq640} target="_blank" rel="noreferrer" className="bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border border-blue-100 hover:border-blue-300 transition">
-              <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center font-bold text-xl mb-4">MCQ</div>
-              <h4 className="font-bold text-slate-900 mb-1">640 MCQ</h4>
-              <p className="text-xs text-slate-500">The intensive question-bank website — available now.</p>
-            </a>
-            <a href="#microbiology" className="bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border-2 border-emerald-100 hover:border-emerald-300 transition">
-              <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center font-bold text-sm mb-4">MICRO</div>
-              <h4 className="font-bold text-slate-900 mb-1">Microbiology MCQ</h4>
-              <p className="text-xs text-slate-500">80 approved questions with answer feedback.</p>
-            </a>
-            <a href="#breast" className="text-left bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border border-amber-100 hover:border-amber-300 transition">
-              <div className="w-12 h-12 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center font-bold text-sm mb-4">ANAT</div>
-              <h4 className="font-bold text-slate-900 mb-1">Breast Anatomy MCQ</h4>
-              <p className="text-xs text-slate-500">80 approved anatomy questions with answer feedback.</p>
-            </a>
-            <a href="#abdomen" className="text-left bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border border-orange-100 hover:border-orange-300 transition">
-              <div className="w-12 h-12 rounded-xl bg-orange-50 text-orange-700 flex items-center justify-center font-bold text-sm mb-4">ABD</div>
-              <h4 className="font-bold text-slate-900 mb-1">Abdomen Anatomy MCQ</h4>
-              <p className="text-xs text-slate-500">80 approved anatomy questions with answer feedback.</p>
-            </a>
-            {[
-              ['🎥', 'Surgical skills videos', 'The visual library for essential operative skills.'],
-              ['📚', 'Lecture index', 'The academic map and curriculum topics.'],
-            ].map(([icon, title, description]) => (
-              <button key={title} onClick={() => openComingSoon(title)} className="text-left bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border border-slate-200 transition">
-                <div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center text-xl mb-4">{icon}</div>
-                <h4 className="font-bold text-slate-900 mb-1">{title}</h4>
-                <p className="text-xs text-slate-500">{description}</p>
-              </button>
-            ))}
-          </div>
+        <section aria-label="Interactive question banks" className="pt-2">
+          {banks.map((bank) => <QuestionBank key={bank.id} bank={bank} />)}
         </section>
 
-        <QuestionBank id="microbiology" file="microbiology-80.json" eyebrow="Approved question bank" title="Microbiology MCQ — 80 Questions" description="Specimen diagnostics, antimicrobial resistance, infection prevention, and immunology." />
-        <QuestionBank id="breast" file="breast-80.json" eyebrow="Approved question bank" title="Breast Anatomy MCQ — 80 Questions" description="Structure, lymphatic drainage, blood supply, and clinical anatomy." />
-        <QuestionBank id="abdomen" file="abdomen-80.json" eyebrow="Approved question bank" title="Abdomen Anatomy MCQ — 80 Questions" description="Abdominal wall, inguinal region, gastrointestinal tract, hepatobiliary anatomy, pancreas, spleen, and peritoneum." />
+        <section id="other-resources" className="scroll-mt-24 mt-10 rounded-2xl border border-slate-200 bg-white p-5 sm:p-7">
+          <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
+            <div>
+              <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">Additional resource</p>
+              <h2 className="mt-1 text-xl font-black text-slate-900">640 MCQ practice site</h2>
+              <p className="mt-1 text-sm text-slate-500">Open the separate intensive question-bank website.</p>
+            </div>
+            <a href={previewLinks.mcq640} target="_blank" rel="noreferrer" className="inline-flex shrink-0 items-center justify-center rounded-xl border border-teal-800 px-5 py-3 text-sm font-bold text-teal-900 transition hover:bg-teal-50">
+              Open 640 MCQ <span className="ml-2" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </section>
       </main>
 
-      <footer className="bg-white border-t border-slate-100 py-6 text-center text-xs text-slate-500">
-        <p>© 2026 GSDIPLOMAREVISION — General Surgery Diploma Revision</p>
+      <footer className="border-t border-slate-200 bg-white px-4 py-6 text-center text-xs text-slate-500">
+        <p>© 2026 GSDIPLOMAREVISION · General Surgery Diploma Revision</p>
       </footer>
-
-      {modalTitle && (
-        <div className="fixed inset-0 bg-slate-950/50 flex items-center justify-center p-4 z-50" role="dialog" aria-modal="true">
-          <div className="bg-white rounded-2xl p-6 max-w-sm w-full shadow-xl text-center">
-            <h3 className="text-lg font-bold text-slate-900 mb-2">{modalTitle}</h3>
-            <p className="text-sm text-slate-600 mb-6">This section is under development and will be activated in a future release.</p>
-            <button onClick={() => setModalTitle(null)} className="w-full py-2 bg-teal-800 text-white font-semibold rounded-xl">Close</button>
-          </div>
-        </div>
-      )}
     </div>
   );
 }

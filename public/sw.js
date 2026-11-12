@@ -1,4 +1,4 @@
-const CACHE_NAME = 'gsdiploma-revision-v1';
+const CACHE_NAME = 'gsdiploma-revision-v2';
 const BASE = new URL('./', self.registration.scope).pathname;
 const APP_SHELL = [
   BASE,

@@ -1,0 +1,2008 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Microbiology MCQ Draft – Specimen Diagnostics, Resistance, IPC, and Immunology",
+  "language": "en",
+  "answerVisibility": "hidden-until-submitted",
+  "questions": [
+    {
+      "id": "GS-MICRO-0001",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "When should a diagnostic specimen ideally be collected?",
+      "options": [
+        "After a full course of empiric antimicrobials",
+        "Before antimicrobial therapy whenever possible",
+        "Only after symptoms resolve",
+        "After freezing at -20°C"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Collection before therapy maximizes recovery of viable pathogens.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "specimen-collection",
+        "timing"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0002",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "Which medium is recommended for transporting enteric pathogens in stool?",
+      "options": [
+        "Amies with charcoal",
+        "Cary-Blair",
+        "Michel solution",
+        "Boric acid"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Cary-Blair preserves enteric bacterial pathogens during transport.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "stool",
+        "transport-medium"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0003",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "Which organism should not be refrigerated during transport because it is cold-sensitive?",
+      "options": [
+        "Yersinia enterocolitica",
+        "Shigella species",
+        "E. coli O157",
+        "C. difficile toxin"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The source identifies Shigella as cold-sensitive and unsuitable for refrigeration without medium.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "stool",
+        "transport"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0004",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "Which transport system improves survival of fastidious organisms such as Neisseria and Haemophilus?",
+      "options": [
+        "Plain cotton swab without medium",
+        "Charcoal-containing Amies or Stuart medium",
+        "Formalin-saline",
+        "Liquid broth at 4°C"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Charcoal-containing systems neutralize toxic substances and improve survival.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "fastidious-organisms",
+        "swab"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0005",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "What is the gold-standard urine specimen for an infant or unclear UTI case?",
+      "options": [
+        "Pediatric bag urine",
+        "Random clean-catch urine",
+        "Suprapubic aspirate",
+        "Foley drainage-bag effluent"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Suprapubic aspirate bypasses urethral contamination and is the sterile gold standard.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "urine",
+        "UTI"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0006",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "What additive is used in grey-top urine tubes when transport is delayed beyond 30 minutes?",
+      "options": [
+        "SPS",
+        "Boric acid",
+        "Guanidine thiocyanate",
+        "Buffered formalin"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Boric acid inhibits overgrowth while preserving urine culture characteristics.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "urine",
+        "preservative"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0007",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "How should CSF suspected of containing Neisseria meningitidis or Haemophilus influenzae be handled?",
+      "options": [
+        "Refrigerate for 48 hours",
+        "Process immediately at room temperature and do not refrigerate",
+        "Freeze at -80°C",
+        "Place in formalin"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Rapid processing at room temperature is required because these organisms are cold-sensitive.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "CSF",
+        "transport"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0008",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "What system is required for NAAT targeting Chlamydia trachomatis or Mycoplasma genitalium?",
+      "options": [
+        "Standard charcoal swab",
+        "NAAT-specific tube with lysis buffer",
+        "Thayer-Martin agar",
+        "Cary-Blair medium"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "NAAT systems use specialized liquid buffers that stabilize target nucleic acids.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "NAAT",
+        "PCR"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0009",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "Which specimen is appropriate for suspected C. difficile testing?",
+      "options": [
+        "Formed stool",
+        "Liquid or unformed stool in a clean container",
+        "Deep rectal swab",
+        "Perianal tape"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "C. difficile testing requires liquid or unformed stool; swabs are unacceptable in the source.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "C-difficile",
+        "stool"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0010",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "What is preferred for a deep wound infection or abscess?",
+      "options": [
+        "Superficial skin swab",
+        "Tissue biopsy or direct needle aspiration of pus",
+        "Surface irrigation",
+        "Tape strip"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Tissue and pus aspirates avoid surface colonizers and outperform superficial swabs.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "wound",
+        "aspirate"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0011",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "Why should wound swabs for anaerobic culture not be refrigerated?",
+      "options": [
+        "Cold causes aerobic overgrowth",
+        "Cold can kill fastidious anaerobes",
+        "Cold creates spores",
+        "Cold inactivates all buffers"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Refrigeration is detrimental to anaerobic and other fastidious organisms.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "anaerobes",
+        "transport"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0012",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "Which protocol best describes lower-respiratory sputum collection?",
+      "options": [
+        "Collect saliva after breakfast",
+        "Rinse with water, deep-breathe, cough deep sputum into a sterile cup before antibiotics",
+        "Swab the pharynx",
+        "Store 72 hours at 4°C"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Deep bronchial sputum, at least 1 mL, should be collected before antibiotics while avoiding saliva.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "sputum",
+        "collection"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0013",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "Which eye specimen requires immediate bedside inoculation into aerobic and anaerobic blood-culture bottles?",
+      "options": [
+        "Lid-margin swab",
+        "Vitreous aspirate or anterior-chamber fluid in endophthalmitis",
+        "Conjunctival swab",
+        "Punctum discharge"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Tiny endophthalmitis samples require immediate inoculation or transport within 30 minutes.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "eye",
+        "endophthalmitis"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0014",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "Why are synthetic flocked swabs preferred over cotton swabs?",
+      "options": [
+        "They are cheaper",
+        "Cotton may contain inhibitory fatty acids and toxic substances",
+        "Cotton cannot absorb fluid",
+        "Synthetic swabs dissolve"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Cotton residues can impair viability of fastidious bacteria.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "swab",
+        "collection"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0015",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "Which situation is a valid reason to reject a specimen?",
+      "options": [
+        "Complete labeling",
+        "Leaking container, wrong medium, insufficient volume, or major delay",
+        "Prompt delivery",
+        "Completed request form"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Leaking, inadequate, improperly transported, or delayed specimens require rejection.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "quality",
+        "rejection"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0016",
+      "status": "pending-clinical-review",
+      "topic": "Specimen collection and transport",
+      "difficulty": "high-yield",
+      "stem": "What method enhances recovery of Yersinia enterocolitica from stool?",
+      "options": [
+        "42°C anaerobic incubation",
+        "Cold enrichment at 4°C for 2–4 weeks",
+        "Flash freezing",
+        "Alkaline peptone water at room temperature"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Yersinia benefits from prolonged cold enrichment at 4°C.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "Yersinia",
+        "enrichment"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0017",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "Which details belong on a microbiology requisition?",
+      "options": [
+        "Only billing code",
+        "Patient identifiers, location, date/time, history, provisional diagnosis, and clinician signature",
+        "Technician home address",
+        "Dietary preference"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Complete clinical context and identifiers guide processing and interpretation.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "requisition",
+        "quality"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0018",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "What is required when handling clinical specimens?",
+      "options": [
+        "Unsealed hand transport",
+        "Universal precautions, barrier PPE, and leak-proof secondary bags",
+        "Requisition inside specimen fluid",
+        "Municipal trash disposal"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Specimens are biohazards and require PPE and sealed double-pouch transport.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "biosafety",
+        "transport"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0019",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "Which agar is used to screen stool for E. coli O157:H7?",
+      "options": [
+        "Blood agar",
+        "Sorbitol-MacConkey agar",
+        "TCBS agar",
+        "Lowenstein-Jensen"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "E. coli O157:H7 fails to ferment sorbitol, supporting use of Sorbitol-MacConkey agar.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "stool",
+        "culture"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0020",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "Why is specimen quality foundational to diagnostic microbiology?",
+      "options": [
+        "Equipment is infallible",
+        "Poor collection can cause false results and inappropriate therapy",
+        "Media sterilize contaminants",
+        "It is only for billing"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Poor specimen handling produces misleading results and can worsen outcomes.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "quality",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0021",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "Which specimen best avoids contamination when investigating an abscess?",
+      "options": [
+        "Surface swab",
+        "Direct needle aspirate of pus",
+        "Saline wash",
+        "Dry gauze"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Direct aspirate samples the infected focus rather than colonized surface flora.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "abscess",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0022",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "A delayed CSF sample for suspected meningococcal disease should be handled by which principle?",
+      "options": [
+        "Refrigerate routinely",
+        "Keep at room temperature and process urgently",
+        "Add formalin",
+        "Freeze immediately"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Urgent room-temperature processing protects recovery of cold-sensitive pathogens.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "CSF",
+        "meningitis"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0023",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "Which test format uses a liquid buffer to stabilize nucleic acid rather than preserve viable organisms?",
+      "options": [
+        "Routine culture swab",
+        "NAAT/PCR collection system",
+        "Cary-Blair stool medium",
+        "Blood agar plate"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "NAAT collection tubes stabilize target nucleic acids for molecular testing.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "molecular-diagnostics",
+        "NAAT"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0024",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "Which stool consistency is acceptable for routine C. difficile testing in the source?",
+      "options": [
+        "Only formed stool",
+        "Liquid or unformed stool",
+        "Any rectal swab",
+        "Perianal tape"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The source specifies liquid or unformed stool and rejects swabs for this testing.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "C-difficile",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0025",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "What does Sorbitol-MacConkey selection exploit for E. coli O157:H7?",
+      "options": [
+        "Sorbitol fermentation",
+        "Failure to ferment sorbitol",
+        "Urease production",
+        "Anaerobic growth"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The organism fails to ferment sorbitol, enabling screening on this agar.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "E-coli",
+        "culture"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0026",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "Which collection error most directly risks a false-negative culture?",
+      "options": [
+        "Collection before therapy",
+        "Collection after antimicrobial therapy",
+        "Correct medium",
+        "Adequate volume"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Antimicrobials can reduce viable pathogen recovery.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "culture",
+        "pre-analytic"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0027",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "Which sample is least suitable for deep wound culture?",
+      "options": [
+        "Tissue biopsy",
+        "Pus aspirate",
+        "Superficial swab",
+        "Direct material from abscess"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Superficial swabs are more likely to recover colonizers than deep pathogens.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "wound",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0028",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "Which pair is specifically described as fastidious and cold-sensitive in CSF?",
+      "options": [
+        "N. meningitidis and H. influenzae",
+        "E. coli and Salmonella",
+        "Candida and Aspergillus",
+        "S. aureus and Pseudomonas"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The source specifically warns that meningococcus and H. influenzae are cold-sensitive.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "CSF",
+        "fastidious"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0029",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "What is the minimum sputum volume stated for lower respiratory culture?",
+      "options": [
+        "0.1 mL",
+        "At least 1 mL",
+        "10 mL exactly",
+        "Any saliva volume"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The source specifies at least 1 mL of deep bronchial sputum.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "sputum",
+        "collection"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0030",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "What is the main diagnostic advantage of a complete clinical request form?",
+      "options": [
+        "It replaces culture",
+        "It provides context for processing, organism selection, and urgency",
+        "It sterilizes the sample",
+        "It prevents all contamination"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Clinical context helps the laboratory choose appropriate processing and interpretation.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "requisition",
+        "laboratory"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0031",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "How should a tiny vitreous sample for endophthalmitis be handled?",
+      "options": [
+        "Hold refrigerated overnight",
+        "Immediately inoculate aerobic and anaerobic blood-culture bottles",
+        "Dilute in formalin",
+        "Send in a dry swab"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Immediate bedside inoculation maximizes recovery from the very small volume.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "endophthalmitis",
+        "eye"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0032",
+      "status": "pending-clinical-review",
+      "topic": "Diagnostic microbiology",
+      "difficulty": "medium",
+      "stem": "What is the main purpose of charcoal in Amies/Stuart transport media?",
+      "options": [
+        "To ferment sorbitol",
+        "To neutralize toxic substances and improve survival",
+        "To lyse host cells",
+        "To freeze samples"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Charcoal neutralizes inhibitory substances affecting fastidious organisms.",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "transport",
+        "fastidious"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0033",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "What is the foundational property of an ideal antimicrobial?",
+      "options": [
+        "Universal broad spectrum",
+        "Selective toxicity",
+        "Only bacteriostatic activity",
+        "Resistance to liver metabolism"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Selective toxicity harms the pathogen while minimizing host-cell injury.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "antimicrobial",
+        "principles"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0034",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "What causes high-level methicillin resistance in MRSA?",
+      "options": [
+        "Class A beta-lactamase only",
+        "mecA-mediated alteration of PBPs",
+        "Porin deletion",
+        "msrA efflux"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "mecA encodes altered PBPs such as PBP2a with reduced beta-lactam binding.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "MRSA",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0035",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "Which disk is the standard surrogate screen for MRSA?",
+      "options": [
+        "Ampicillin",
+        "Cefoxitin",
+        "Penicillin G",
+        "Imipenem"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The cefoxitin disk is the reliable surrogate for mecA-mediated resistance.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "MRSA",
+        "susceptibility"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0036",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "What defines metallo-beta-lactamases such as NDM, VIM, and IMP?",
+      "options": [
+        "Zinc-dependent hydrolysis of most beta-lactams except aztreonam",
+        "Aminoglycoside efflux",
+        "50S methylation",
+        "Folate inhibition"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "MBLs require zinc and hydrolyze carbapenems and other beta-lactams except aztreonam.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "MBL",
+        "carbapenemase"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0037",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "Which combination is described for MBL-producing gram-negative infections?",
+      "options": [
+        "Ampicillin-sulbactam",
+        "Aztreonam plus ceftazidime-avibactam",
+        "Vancomycin-gentamicin",
+        "Imipenem-relebactam"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Aztreonam escapes MBL hydrolysis while avibactam inhibits co-produced serine carbapenemases.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "MBL",
+        "therapy"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0038",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "What does a clindamycin D-zone indicate?",
+      "options": [
+        "Inducible erm-mediated clindamycin resistance",
+        "Loss of erythromycin resistance",
+        "msrA efflux only",
+        "Synergy"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Erythromycin induces ribosomal methylation, flattening the clindamycin zone into a D.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "D-test",
+        "Staphylococcus"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0039",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "What is biofilm tolerance?",
+      "options": [
+        "Irreversible chromosomal mutation",
+        "Temporary physiological survival of surface communities at high drug concentrations",
+        "Only plasmid MBL production",
+        "Planktonic-only growth"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Biofilm tolerance is a reversible physiological state in an EPS matrix, distinct from genetic resistance.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "biofilm",
+        "tolerance"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0040",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "How can Pseudomonas aeruginosa lose OprD and resist imipenem?",
+      "options": [
+        "KPC only",
+        "Reduced permeability together with efflux",
+        "rRNA methylation",
+        "Folate mutation"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "OprD loss reduces outer-membrane permeability and may combine with efflux.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "Pseudomonas",
+        "porin"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0041",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "Which antimicrobial type is emphasized for endocarditis, meningitis, or neutropenic sepsis?",
+      "options": [
+        "Bacteriostatic drugs",
+        "Bactericidal drugs",
+        "Topical antiseptics",
+        "Antifungals"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The source identifies bactericidal therapy as required in these severe or sanctuary-site infections.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "stewardship",
+        "bactericidal"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0042",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "What does susceptibility category I mean in updated CLSI/EUCAST guidance?",
+      "options": [
+        "Intrinsic resistance",
+        "Susceptible with increased exposure",
+        "Inactive in vitro",
+        "Technical error"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "I indicates efficacy is expected with increased exposure through dosing or pharmacokinetic optimization.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "susceptibility",
+        "guidelines"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0043",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "What genetic element spreads blaNDM-1 rapidly between bacteria?",
+      "options": [
+        "Core rpoB mutations",
+        "Highly mobile plasmids",
+        "Defective phage coats",
+        "Mitochondrial insertions"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Mobile plasmids facilitate horizontal transfer of blaNDM-1.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "NDM",
+        "horizontal-transfer"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0044",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "Which platform provides rapid multiplex PCR from blood cultures in about one hour?",
+      "options": [
+        "Lowenstein-Jensen",
+        "BioFire or GenMark ePlex",
+        "Tube agglutination",
+        "Kirby-Bauer"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "These syndromic panels detect pathogens and resistance targets rapidly.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "rapid-diagnostics",
+        "PCR"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0045",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "When should empiric antimicrobials be reviewed for de-escalation?",
+      "options": [
+        "Never",
+        "At 48–72 hours using microbiology data",
+        "After 24 hours of symptom relief",
+        "After 14 days regardless of cultures"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Review and de-escalation at 48–72 hours reduces toxicity and resistance pressure.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "stewardship",
+        "de-escalation"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0046",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "Which practice is discouraged to avoid treating colonization?",
+      "options": [
+        "Perioperative cefazolin prophylaxis",
+        "Treating asymptomatic urinary Candida",
+        "Pre-antibiotic blood cultures",
+        "Surgical debridement"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Asymptomatic Candida in urine should not be treated without clinical infection.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "stewardship",
+        "colonization"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0047",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "What is the purpose of chlorhexidine washes and nasal mupirocin before surgery?",
+      "options": [
+        "Eradicate systemic fungi",
+        "Reduce MRSA carriage and surgical-site infection",
+        "Induce endotoxin tolerance",
+        "Sterilize the gut"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Preoperative decolonization targets skin and nasal MRSA carriage.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "infection-control",
+        "MRSA"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0048",
+      "status": "pending-clinical-review",
+      "topic": "Antimicrobial resistance and stewardship",
+      "difficulty": "high-yield",
+      "stem": "About what proportion of emerging infectious diseases are zoonotic according to the source?",
+      "options": [
+        "10%",
+        "30%",
+        "70%",
+        "99%"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The source states that roughly 70% originate from animal reservoirs.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "emerging-infections",
+        "zoonosis"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0049",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "Which event fostered complacency that infectious diseases had been conquered?",
+      "options": [
+        "Penicillin discovery",
+        "Smallpox eradication in 1977",
+        "Human genome sequencing",
+        "Electron microscope invention"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Smallpox eradication, alongside antibiotic discoveries, fostered a false sense of security.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "emerging-infections",
+        "public-health"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0050",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "Which factor drives zoonotic spillover?",
+      "options": [
+        "Strict quarantine",
+        "Human intrusion into wildlife habitats",
+        "Universal vaccination",
+        "Wastewater sequencing"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Deforestation, urbanization, and agriculture increase contact with reservoirs.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "zoonosis",
+        "One-Health"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0051",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "Which pathogen class has high mutation and recombination potential via drift and shift?",
+      "options": [
+        "dsDNA bacteriophages",
+        "RNA viruses",
+        "Intracellular bacteria",
+        "Trematodes"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "RNA viruses such as influenza and SARS-CoV-2 evolve rapidly through mutation and reassortment.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "RNA-virus",
+        "emerging-infections"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0052",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "What is the natural reservoir and route for Lassa fever?",
+      "options": [
+        "Aedes mosquitoes",
+        "Mastomys rats and contaminated excreta/food",
+        "Waterfowl",
+        "Cattle"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Mastomys rodents shed virus in urine and droppings that contaminate food or environments.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "Lassa",
+        "reservoir"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0053",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "Which vector transmits Oropouche virus?",
+      "options": [
+        "Anopheles",
+        "Ixodes",
+        "Culicoides paraensis midges and some mosquitoes",
+        "Tsetse flies"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The source identifies biting midges and certain mosquitoes.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "Oropouche",
+        "vector"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0054",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "What is the primary reservoir host for MERS-CoV?",
+      "options": [
+        "Fruit bats",
+        "Dromedary camels",
+        "Swine",
+        "Poultry"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Dromedary camels are identified as the primary reservoir and zoonotic source.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "MERS",
+        "reservoir"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0055",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "What describes the spread of mpox clades IIb and Ib?",
+      "options": [
+        "Obligate waterborne spread",
+        "From regional African outbreaks to global multi-country emergencies",
+        "Housefly-only spread",
+        "Stable aerosol spread across continents"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The source describes transition from geographically confined outbreaks to global dissemination.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "mpox",
+        "outbreaks"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0056",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "Which fungus is listed as critical-priority multidrug-resistant yeast?",
+      "options": [
+        "Candida albicans",
+        "Candida auris",
+        "Nakaseomyces glabrata",
+        "Coccidioides immitis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Candida auris is described as a critical-priority MDR yeast causing healthcare outbreaks.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "Candida-auris",
+        "healthcare"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0057",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "What drives azole resistance in Aspergillus fumigatus?",
+      "options": [
+        "Topical oral antifungals",
+        "Agricultural fungicide use",
+        "Cat scratches",
+        "Ventilation systems"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Environmental agricultural azole exposure can drive cross-resistance.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "Aspergillus",
+        "resistance"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0058",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "How is Sporothrix brasiliensis commonly transmitted in South America?",
+      "options": [
+        "Bat-cave dust",
+        "Infected cat scratches, bites, and contact",
+        "Undercooked crustaceans",
+        "Tick bites"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The source describes zoonotic transmission from infected cats.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "Sporothrix",
+        "zoonosis"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0059",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "What is the core One Health philosophy?",
+      "options": [
+        "Human treatment only",
+        "Integration of human, animal, and environmental health",
+        "PCR without fieldwork",
+        "Permanent trade bans"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "One Health requires cross-sector collaboration because these domains are interconnected.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "One-Health",
+        "public-health"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0060",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "What do crowdsourced genomic surveillance and metagenomics enable?",
+      "options": [
+        "Replace physical exams",
+        "Early identification and tracking of pathogen evolution",
+        "Neutralize viruses",
+        "Enforce quarantine automatically"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "They support early detection and monitoring of variants and genetic shifts.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "surveillance",
+        "genomics"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0061",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "What amplifies nosocomial transmission during Ebola or MERS outbreaks?",
+      "options": [
+        "High vaccine uptake",
+        "Overwhelmed facilities, PPE shortages, and poor IPC",
+        "High temperature",
+        "Disposable instruments"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Weak IPC and PPE shortages turn healthcare facilities into transmission amplifiers.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "IPC",
+        "outbreaks"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0062",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "What does a very high R0 indicate?",
+      "options": [
+        "Mild self-limited infection",
+        "Easier spread and more difficult control",
+        "No droplet spread",
+        "Decades-long incubation"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A high basic reproductive number signals high transmissibility and harder containment.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "epidemiology",
+        "R0"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0063",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "Which measures include masks, gowns, gloves, isolation, quarantine, and contact tracing?",
+      "options": [
+        "Stewardship",
+        "Infection Prevention and Control",
+        "Vector pesticides",
+        "Metagenomics"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "IPC includes standard and transmission-based precautions plus isolation and tracing.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "IPC",
+        "infection-control"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0064",
+      "status": "pending-clinical-review",
+      "topic": "Infection prevention and control",
+      "difficulty": "medium",
+      "stem": "What is the most sustainable approach to emerging and re-emerging infections?",
+      "options": [
+        "Reactive action only",
+        "Early detection, rapid response, surveillance, and strong public health infrastructure",
+        "Stop all air travel",
+        "Ban diagnostic labs"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The source emphasizes proactive surveillance, rapid response, and strengthened systems.",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "public-health",
+        "surveillance"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0065",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "What defines an antigen or immunogen?",
+      "options": [
+        "A plasma-cell protein only",
+        "A substance that stimulates a specific immune response",
+        "A complement enzyme",
+        "A fungal-wall carbohydrate only"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "An antigen is a substance capable of stimulating a specific immune response.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "antigen",
+        "immunity"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0066",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "What immunology milestone did Pasteur achieve in 1885?",
+      "options": [
+        "Smallpox eradication",
+        "First attenuated rabies vaccine in a human",
+        "Complement discovery",
+        "Electrophoresis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Pasteur administered an attenuated rabies vaccine to Joseph Meister.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "vaccines",
+        "history"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0067",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "Which features distinguish adaptive from innate immunity?",
+      "options": [
+        "No lag and broad reactivity",
+        "Specificity, diversity, and memory",
+        "Only physical barriers",
+        "Fixed non-rearranging receptors"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Adaptive immunity has specificity, diversity, and long-lasting memory.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "adaptive-immunity",
+        "memory"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0068",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "Where do T lymphocytes mature and what immunity do they mediate?",
+      "options": [
+        "Bone marrow; humoral",
+        "Thymus; cell-mediated",
+        "Spleen; innate",
+        "Lymph nodes; mucosal"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "T cells mature in the thymus and mediate cell-mediated immunity.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "T-cells",
+        "thymus"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0069",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "In serum electrophoresis, where are antibodies primarily found?",
+      "options": [
+        "Albumin",
+        "Alpha-1 globulin",
+        "Beta globulin",
+        "Gamma globulin"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Immunoglobulins migrate mainly with the gamma-globulin fraction.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "immunoglobulin",
+        "serology"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0070",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "What is the basic structure of a monomeric immunoglobulin?",
+      "options": [
+        "Two identical heavy and two identical light chains linked by disulfides",
+        "Four identical chains",
+        "Pentameric ring",
+        "One secretory component and three light chains"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "A monomer contains two identical heavy and two identical light chains joined by disulfide bonds.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "antibody",
+        "structure"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0071",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "Which immunoglobulin is most abundant in serum and crosses the placenta?",
+      "options": [
+        "IgM",
+        "IgA",
+        "IgG",
+        "IgE"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "IgG represents 75–85% of serum immunoglobulin and crosses the placenta.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "IgG",
+        "placenta"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0072",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "What structure characterizes secretory IgA?",
+      "options": [
+        "Pentamer with hexameric J-chain",
+        "Dimer joined by J-chain and secretory component",
+        "Monomer only",
+        "Heat-labile monomer"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Secretory IgA is a protected J-chain-linked dimer in mucosal secretions.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "IgA",
+        "mucosal"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0073",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "Which immunoglobulin appears first in primary infection and strongly activates complement?",
+      "options": [
+        "IgG",
+        "IgD",
+        "IgM",
+        "IgE"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "IgM is mainly pentameric, appears early, and fixes complement.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "IgM",
+        "complement"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0074",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "Which antibody mediates type I hypersensitivity and helminth defense?",
+      "options": [
+        "IgG",
+        "IgA",
+        "IgD",
+        "IgE"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "IgE binds mast cells and basophils and is associated with allergy and helminths.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "IgE",
+        "hypersensitivity"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0075",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "What is the primary recognized function of IgD?",
+      "options": [
+        "Placental protection",
+        "Membrane B-cell receptor with IgM",
+        "Enteric toxin neutralization",
+        "Alternative complement activation"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "IgD is a membrane-bound B-cell receptor on B cells alongside IgM.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "IgD",
+        "B-cells"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0076",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "What characterizes a secondary immune response?",
+      "options": [
+        "Short lag and massive IgG in primary response",
+        "Prompt, powerful, prolonged response with high IgG",
+        "Memory T cells only",
+        "Slower and lower titers"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Memory produces a rapid, high-titer, predominantly IgG response on re-exposure.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "memory",
+        "IgG"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0077",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "How is passive immunization achieved and what is its limitation?",
+      "options": [
+        "Live vaccine and lifelong protection",
+        "Transfer of preformed antibodies; temporary protection",
+        "Wild infection",
+        "DNA plasmid transfer"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Passive immunity supplies antibodies immediately but does not create lasting host memory.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "passive-immunity",
+        "antibodies"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0078",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "What is a major disadvantage of live-attenuated vaccines?",
+      "options": [
+        "Non-antigenic",
+        "Possible genetic reversion to virulence",
+        "Need boosters every six months",
+        "Cannot replicate"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Attenuated organisms carry a small risk of reverting toward virulence.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "vaccines",
+        "safety"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0079",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "Which group consists of killed/inactivated vaccines in the source?",
+      "options": [
+        "BCG and oral typhoid",
+        "MMR and varicella",
+        "DTPw, whole-cell typhoid, IPV, rabies, and hepatitis A",
+        "Toxoids only"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The source lists these as killed vaccines that remain antigenic but often require multiple doses.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "vaccines",
+        "inactivated"
+      ]
+    },
+    {
+      "id": "GS-MICRO-0080",
+      "status": "pending-clinical-review",
+      "topic": "Immunology and serology",
+      "difficulty": "high-yield",
+      "stem": "Which is NOT a valid contraindication to routine immunization?",
+      "options": [
+        "Congenital immunodeficiency",
+        "Minor URI, mild diarrhea, low-grade fever, prematurity, or penicillin allergy",
+        "High-dose immunosuppression",
+        "Profound CD4 depletion"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Minor illness, prematurity, and penicillin allergy are not contraindications in the source.",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "pending-clinical-review"
+      },
+      "tags": [
+        "vaccines",
+        "contraindications"
+      ]
+    }
+  ]
+}

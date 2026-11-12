@@ -1,0 +1,728 @@
+Here are the 80 multiple-choice questions (MCQs) for The Abdomen (Dr. Khalid Milad, Faculty of Medicine, University of Tripoli), fully structured according to your §5 schema (30% easy, 50% medium, 20% advanced/detailed). Every question is derived strictly from the text and snapshots of the provided PDF lecture, verified against the previous question databases.
+Questions (1 to 80)
+1. Abdominal Wall Anatomy & Applied Landmarks
+Question 1:
+Which spinal nerve segment provides cutaneous sensory innervation to the skin surrounding the umbilicus?
+ * A) T7
+ * B) T10
+ * C) T12
+ * D) L1
+ * Correct Answer: B
+ * Level: Medium
+ * Reference Snapshot: Page 6 of the file (Dermatomes and cutaneous nerves of the anterior abdominal wall, showing T10 at the umbilical level).
+Question 2:
+Which deep membranous layer of the superficial fascia of the anterior abdominal wall continues into the perineum as "Colles' fascia"?
+ * A) Camper's fascia (superficial fatty layer)
+ * B) Scarpa's fascia (deep membranous layer)
+ * C) Transversalis fascia
+ * D) Deep investing fascia
+ * Correct Answer: B
+ * Level: Advanced
+ * Reference Snapshot: Page 7 of the file (Superficial fascia: Camper's and Scarpa's layers and their perineal continuity).
+Question 3:
+Which of the following muscles does not contribute its fibers to form the cremasteric muscle and fascia of the spermatic cord?
+ * A) Internal oblique muscle
+ * B) Transversus abdominis muscle
+ * C) External oblique muscle
+ * D) Only fibers derived from the internal oblique
+ * Correct Answer: B
+ * Level: Advanced
+ * Reference Snapshot: Pages 32 and 34 of the file (Note explaining that the transversus abdominis muscle is not involved in covering the testis/cord because its arch is higher).
+Question 4:
+The lower limit of the posterior wall of the rectus sheath, where the inferior epigastric vessels enter, is called the:
+ * A) Linea alba
+ * B) Linea semilunaris
+ * C) Arcuate line
+ * D) Inguinal ligament
+ * Correct Answer: C
+ * Level: Easy
+ * Reference Snapshot: Page 17 of the file (Transverse sections of the rectus sheath, locating the arcuate line).
+Question 5:
+Which of the following structures passes through the inguinal canal exclusively in females?
+ * A) Spermatic cord
+ * B) Ilioinguinal nerve
+ * C) Round ligament of the uterus
+ * D) B & C together
+ * Correct Answer: C
+ * Level: Medium
+ * Reference Snapshot: Pages 27 and 29 of the file (Contents of the inguinal canal in males and females).
+Question 6:
+Hesselbach's inguinal triangle is bounded medially by the:
+ * A) Inferior epigastric artery
+ * B) Inguinal ligament
+ * C) Lateral border of the rectus abdominis muscle
+ * D) Conjoint tendon
+ * Correct Answer: C
+ * Level: Medium
+ * Reference Snapshot: Page 25 of the file (The inguinal triangle and direct hernia site).
+Question 7:
+The layer covering the testis that is directly derived from the fascia transversalis is the:
+ * A) Cremasteric fascia
+ * B) External spermatic fascia
+ * C) Internal spermatic fascia
+ * D) Tunica vaginalis
+ * Correct Answer: C
+ * Level: Easy
+ * Reference Snapshot: Pages 29 and 33 of the file (Continuity of abdominal wall layers with the coverings of the spermatic cord and testis).
+Question 8:
+The lymphatic drainage of the scrotal skin primarily flows into which group of lymph nodes?
+ * A) Para-aortic lymph nodes
+ * B) Superficial inguinal lymph nodes
+ * C) External iliac lymph nodes
+ * D) Axillary lymph nodes
+ * Correct Answer: B
+ * Level: Medium
+ * Reference Snapshot: Pages 31 and 33 of the file (Distinction between scrotal skin and testicular lymph drainage).
+Question 9:
+The lymphatic drainage of the testis itself terminates directly into the:
+ * A) Superficial inguinal lymph nodes
+ * B) Para-aortic (lumbar) lymph nodes at the L1 level
+ * C) Internal iliac lymph nodes
+ * D) External iliac lymph nodes
+ * Correct Answer: B
+ * Level: Medium
+ * Reference Snapshot: Pages 33 and 37 of the file (Lymphatic drainage of the testis to para-aortic L.N. at L1 level).
+Question 10:
+An indirect inguinal hernia typically enters the inguinal canal through the:
+ * A) Deep inguinal ring
+ * B) Hesselbach's triangle
+ * C) Superficial inguinal ring only
+ * D) Femoral ring
+ * Correct Answer: A
+ * Level: Easy
+ * Reference Snapshot: Pages 37 and 39 of the file (Indirect and direct inguinal hernias compared).
+2. Stomach & Upper Gastrointestinal Tract
+Question 11:
+Where is the anatomical cardiac orifice of the stomach typically located?
+ * A) At one inch from the tip of the 7th left costal cartilage, 4 inches deep
+ * B) At the level of the 10th thoracic vertebra (T10)
+ * C) At the L3 vertebral level
+ * D) Behind the 9th right costal cartilage
+ * Correct Answer: A
+ * Level: Advanced
+ * Reference Snapshot: Page 49 of the file (Surface anatomy of the cardiac orifice).
+Question 12:
+The vein known as the "vein of Mayo" serves as an important surgical landmark lying in front of the:
+ * A) Cardiac orifice
+ * B) Pylorus
+ * C) Angular notch (incisura angularis)
+ * D) Fundus
+ * Correct Answer: B
+ * Level: Medium
+ * Reference Snapshot: Page 47 of the file (Prepyloric vein of Mayo in front of the pylorus).
+Question 13:
+Which of the following structures is not part of the posterior "stomach bed"?
+ * A) Spleen
+ * B) Left kidney
+ * C) Liver (left and quadrate lobes)
+ * D) Pancreas
+ * Correct Answer: C
+ * Level: Medium
+ * Reference Snapshot: Page 50 of the file (The stomach bed: structures lying behind the stomach).
+Question 14:
+The right gastric artery typically originates as a direct branch of the:
+ * A) Celiac trunk
+ * B) Proper/Common hepatic artery
+ * C) Splenic artery
+ * D) Superior mesenteric artery
+ * Correct Answer: B
+ * Level: Easy
+ * Reference Snapshot: Page 52 of the file (Arterial supply of the stomach from the celiac trunk).
+3. Duodenum & Small Intestine
+Question 15:
+Which part of the duodenum is considered completely covered by peritoneum (free and mobile)?
+ * A) The first inch of the first part (duodenal bulb)
+ * B) The entire second part
+ * C) The third part
+ * D) The fourth part
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 59 and 97 of the file (Peritoneal covering of the duodenum).
+Question 16:
+The major duodenal papilla, which receives the common bile duct and main pancreatic duct, is located on the posteromedial wall of the:
+ * A) First part of the duodenum
+ * B) Second part of the duodenum (descending part)
+ * C) Third part of the duodenum
+ * D) Duodenojejunal flexure
+ * Correct Answer: B
+ * Level: Easy
+ * Reference Snapshot: Pages 63, 98, and 153 of the file (Interior of the second part of the duodenum and major duodenal papilla).
+Question 17:
+Which feature characterizes the jejunum compared to the ileum?
+ * A) Thinner wall and fewer vascular arcades
+ * B) Absence of plicae circulares
+ * C) Plicae circulares are more numerous and larger
+ * D) Abundant Peyer's patches along its border
+ * Correct Answer: C
+ * Level: Medium
+ * Reference Snapshot: Pages 65 and 104 of the file (External and internal differences between the jejunum and ileum).
+Question 18:
+Meckel's diverticulum is typically located at which standard distance from the ileocaecal junction?
+ * A) 2 feet on the antimesenteric border
+ * B) 5 feet on the mesenteric border
+ * C) 10 inches from the pylorus
+ * D) 1 meter before the ascending colon
+ * Correct Answer: A
+ * Level: Advanced
+ * Reference Snapshot: Page 105 of the file (Meckel's diverticulum incidence and location).
+4. Liver, Gallbladder, & Biliary System
+Question 19:
+Which liver lobe lies on the posterior surface and is bounded on its left side by the fissure for the ligamentum venosum?
+ * A) Quadrate lobe
+ * B) Caudate lobe
+ * C) Right true lobe
+ * D) Left lobe
+ * Correct Answer: B
+ * Level: Medium
+ * Reference Snapshot: Pages 85 and 141 of the file (Description of the caudate lobe boundaries).
+Question 20:
+What is the approximate percentage of oxygen delivered to the liver by the portal vein compared to the hepatic artery?
+ * A) 20% portal and 80% arterial
+ * B) 50% portal and 50% arterial
+ * C) 70% portal and 30% arterial
+ * D) 90% arterial exclusively
+ * Correct Answer: B
+ * Level: Advanced
+ * Reference Snapshot: Page 148 of the file (Note on liver blood and oxygen delivery: 50% hepatic and 50% portal oxygen).
+Question 21:
+What is the correct anterior-to-posterior arrangement of structures within the porta hepatis?
+ * A) Portal vein, hepatic artery, bile duct
+ * B) Hepatic ducts (anterior), hepatic arteries (middle), portal branches (posterior)
+ * C) Hepatic artery, portal vein, bile duct
+ * D) Lymphatics, portal vein, hepatic artery
+ * Correct Answer: B
+ * Level: Medium
+ * Reference Snapshot: Pages 95 and 150 of the file (Structures at the porta hepatis).
+Question 22:
+Which feature of the cystic duct helps keep its lumen constantly open?
+ * A) Sphincter of Oddi
+ * B) Spiral valve (spiral fold)
+ * C) Anatomical pyloric valve
+ * D) Thick circular smooth muscle coat
+ * Correct Answer: B
+ * Level: Medium
+ * Reference Snapshot: Pages 98 and 153 of the file (Spiral valve in the cystic duct and neck of gallbladder).
+5. Pancreas, Spleen, & Vascular Supply
+Question 23:
+Which part of the pancreas travels inside the lienorenal ligament to reach the hilum of the spleen?
+ * A) Head
+ * B) Neck
+ * C) Body
+ * D) Tail
+ * Correct Answer: D
+ * Level: Easy
+ * Reference Snapshot: Pages 103 and 158 of the file (Tail of the pancreas embedded in the lienorenal ligament).
+Question 24:
+The hepatic portal vein is formed directly behind the neck of the pancreas by the union of the:
+ * A) Splenic vein and superior mesenteric vein
+ * B) Inferior mesenteric vein and renal vein
+ * C) Right and left gastric veins
+ * D) Right and left hepatic veins
+ * Correct Answer: A
+ * Level: Easy
+ * Reference Snapshot: Pages 74 and 129 of the file (Formation of the portal vein behind the neck of the pancreas).
+Question 25:
+What are the standard dimensions and features of the spleen according to the memory rule (1, 3, 5, 7, 9–11)?
+ * A) 1 inch thick, 3 inches wide, 5 inches long, 7 ounces in weight, related to ribs 9–11
+ * B) 1 inch long, 3 kg weight
+ * C) Aligned strictly with the 12th rib
+ * D) 1 kg weight and 7 inches long
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 78 and 133 of the file (Spleen description and dimensions rule).
+Question 26:
+Sites of portosystemic (portacaval) anastomoses include all of the following except:
+ * A) Lower end of the oesophagus (oesophageal varices)
+ * B) Upper end of the rectum (haemorrhoids/piles)
+ * C) Renal hilum and renal vessels directly
+ * D) Umbilicus via paraumbilical veins (caput medusae)
+ * Correct Answer: C
+ * Level: Advanced
+ * Reference Snapshot: Pages 76 and 131 of the file (Portasystemic anastomoses sites).
+6. Comprehensive Curriculum Questions (27 to 80)
+Question 27:
+The pyramidalis muscle in the anterior abdominal wall is innervated by which nerve?
+ * A) Subcostal nerve (T12)
+ * B) Ilioinguinal nerve (L1)
+ * C) Genital branch of genitofemoral nerve
+ * D) First sacral nerve
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Page 15 of the file (Nerve supply of the pyramidalis by the subcostal nerve).
+Question 28:
+The vertical blood vessels running inside the rectus sheath to supply the rectus abdominis muscle are the superior epigastric and:
+ * A) Lumbar arteries
+ * B) Inferior epigastric artery
+ * C) Superficial circumflex iliac artery
+ * D) Left gastric artery
+ * Correct Answer: B
+ * Level: Easy
+ * Reference Snapshot: Pages 10 and 18 of the file (Contents of the rectus sheath including superior and inferior epigastric vessels).
+Question 29:
+Which layer of the anterior abdominal wall directly gives rise to the external spermatic fascia of the spermatic cord?
+ * A) Internal oblique muscle
+ * B) External oblique aponeurosis
+ * C) Fascia transversalis
+ * D) Peritoneum
+ * Correct Answer: B
+ * Level: Easy
+ * Reference Snapshot: Pages 29 and 31 of the file (Coverings of the spermatic cord and their fascial origins).
+Question 30:
+The posterior border of the lumbar triangle (Petit's triangle) is formed by the:
+ * A) Latissimus dorsi muscle
+ * B) External oblique muscle
+ * C) Iliac crest (middle part)
+ * D) Erector spinae muscle
+ * Correct Answer: A
+ * Level: Advanced
+ * Reference Snapshot: Pages 22 and 24 of the file (Boundaries of the lumbar triangle).
+Question 31:
+The inguinal ligament (Poupart's ligament) extends anatomically between which two main points?
+ * A) Anterior superior iliac spine (ASIS) and pubic tubercle
+ * B) Pubic symphysis and posterior iliac crest
+ * C) Spinous processes and 12th rib
+ * D) Xiphoid process and abdomen
+ * Correct Answer: A
+ * Level: Easy
+ * Reference Snapshot: Page 23 of the file (The inguinal ligament attachments).
+Question 32:
+What structure forms the posterior boundary of the omental foramen (of Winslow)?
+ * A) Portal vein and hepatic artery
+ * B) Inferior vena cava (IVC) covered by peritoneum
+ * C) Caudate lobe of liver
+ * D) First part of the duodenum
+ * Correct Answer: B
+ * Level: Advanced
+ * Reference Snapshot: Pages 4 and 88 of the file (Omental foramen and its boundaries including the IVC).
+Question 33:
+The short gastric arteries arise directly as branches from the:
+ * A) Splenic artery
+ * B) Left gastric artery
+ * C) Common hepatic artery
+ * D) Superior mesenteric artery
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 52 and 125 of the file (Arterial supply of the stomach from the celiac trunk/splenic branches).
+Question 34:
+Parasympathetic nerve supply to the foregut derivatives (from oesophagus to half of the duodenum) is delivered via the:
+ * A) Vagus nerve (anterior and posterior gastric nerves)
+ * B) Pelvic splanchnic nerves
+ * C) Lumbar plexus
+ * D) Phrenic nerve
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Page 55 of the file (Distribution of anterior and posterior vagal trunks on the stomach).
+Question 35:
+What is the approximate length of the second part of the duodenum?
+ * A) 1 inch
+ * B) 2 inches
+ * C) 3 inches
+ * D) 4 inches
+ * Correct Answer: C
+ * Level: Easy
+ * Reference Snapshot: Pages 58 and 96 of the file (Duodenal part measurements).
+Question 36:
+The suspensory muscle of the duodenum ( ligament of Treitz) attaches superiorly to the:
+ * A) Right crus of the diaphragm
+ * B) Aortic arch
+ * C) Liver
+ * D) Spleen
+ * Correct Answer: A
+ * Level: Advanced
+ * Reference Snapshot: Pages 63 and 101 of the file (Duodenojejunal flexure attachment to the right crus of the diaphragm).
+Question 37:
+The arterial blood supply of the duodenum is derived from embryonic contributions of both the:
+ * A) Celiac trunk and superior mesenteric artery (foregut and midgut)
+ * B) Internal and external iliac arteries
+ * C) Thoracic aorta only
+ * D) Renal artery
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 62 and 100 of the file (Duodenal arterial supply from celiac and superior mesenteric sources).
+Question 38:
+The space situated posterior to the stomach and anterior to the pancreas and posterior abdominal wall is called the:
+ * A) Omental bursa (lesser sac)
+ * B) Greater peritoneal cavity
+ * C) Pelvic pouch
+ * D) Renal recess
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 4 and 88 of the file (The lesser sac / omental bursa).
+Question 39:
+The left gastric vein drains directly into the:
+ * A) Portal vein
+ * B) Splenic vein
+ * C) Superior mesenteric vein
+ * D) Inferior vena cava
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Page 53 of the file (Tributaries of the portal vein including left gastric vein).
+Question 40:
+How many principal smooth muscle layers does the stomach possess in comparison to other parts of the GI tract?
+ * A) Two layers (circular and longitudinal)
+ * B) Three layers (longitudinal, circular, and an oblique layer)
+ * C) Four layers
+ * D) Only one smooth muscle layer
+ * Correct Answer: B
+ * Level: Medium
+ * Reference Snapshot: Pages 46 and 48 of the file (Gross anatomy of the stomach showing the oblique muscle coat).
+Question 41:
+Which part of the stomach lies most superiorly under the left dome of the diaphragm?
+ * A) Pylorus
+ * B) Fundus
+ * C) Body
+ * D) Angular notch
+ * Correct Answer: B
+ * Level: Easy
+ * Reference Snapshot: Pages 46 and 49 of the file (Fundus surface anatomy and relations).
+Question 42:
+The vein that runs directly in front of the pylorus and serves as a key surgical landmark is the:
+ * A) Right gastric vein
+ * B) Prepyloric vein (vein of Mayo)
+ * C) Splenic vein
+ * D) Right colic vein
+ * Correct Answer: B
+ * Level: Medium
+ * Reference Snapshot: Page 47 of the file (Prepyloric vein of Mayo in front of the pylorus).
+Question 43:
+The left gastric artery is a direct branch of the:
+ * A) Celiac trunk
+ * B) Common hepatic artery
+ * C) Splenic artery
+ * D) Abdominal aorta (lateral branch)
+ * Correct Answer: A
+ * Level: Easy
+ * Reference Snapshot: Pages 52 and 125 of the file (Branches of the celiac trunk).
+Question 44:
+The superior mesenteric artery supplies the midgut structures down to which landmark on the colon?
+ * A) Proximal two-thirds of the transverse colon
+ * B) Whole sigmoid colon
+ * C) Upper rectum
+ * D) Left third of the transverse colon
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 69 and 71 of the file (Embryological divisions of the gut supplied by SMA).
+Question 45:
+The inferior mesenteric artery originates from the abdominal aorta at the level of the:
+ * A) L1 vertebra
+ * B) L2 vertebra
+ * C) L3 vertebra
+ * D) L5 vertebra
+ * Correct Answer: C
+ * Level: Medium
+ * Reference Snapshot: Page 127 of the file (Origin of the inferior mesenteric artery at L3 level).
+Question 46:
+The main pancreatic duct (duct of Wirsung) unites with the common bile duct to form the:
+ * A) Hepatopancreatic ampulla (ampulla of Vater)
+ * B) Cystic duct
+ * C) Minor duodenal papilla
+ * D) Common hepatic duct
+ * Correct Answer: A
+ * Level: Easy
+ * Reference Snapshot: Pages 98 and 153 of the file (Duct union and formation of the ampulla of Vater).
+Question 47:
+The accessory pancreatic duct (duct of Santorini) opens into the second part of the duodenum at the:
+ * A) Major duodenal papilla
+ * B) Minor duodenal papilla
+ * C) Pyloric orifice
+ * D) Duodenojejunal flexure
+ * Correct Answer: B
+ * Level: Advanced
+ * Reference Snapshot: Pages 101 and 158 of the file (Accessory pancreatic duct opening at the minor duodenal papilla).
+Question 48:
+The bare area of the liver is bounded above and below by the:
+ * A) Upper and lower coronary ligaments
+ * B) Falciform ligament
+ * C) Round ligament
+ * D) Diaphragm directly
+ * Correct Answer: A
+ * Level: Advanced
+ * Reference Snapshot: Pages 85 and 144 of the file (Bare area of the liver bounded by coronary ligaments).
+Question 49:
+The ligamentum teres hepatis represents the embryonic remnant of the:
+ * A) Obliterated left umbilical vein
+ * B) Pancreatic duct
+ * C) Primitive portal vein
+ * D) Vitellointestinal duct
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 96 and 151 of the file (Ligamentum teres as obliterated left umbilical vein).
+Question 50:
+The ligamentum venosum of the liver represents the embryonic remnant of the:
+ * A) Ductus venosus
+ * B) Ductus arteriosus
+ * C) Inferior vena cava
+ * D) Right umbilical vein
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 96 and 151 of the file (Ligamentum venosum connecting left portal branch to IVC).
+Question 51:
+The smooth muscle sphincter surrounding the hepatopancreatic ampulla that regulates bile and pancreatic juice flow is called the:
+ * A) Sphincter of Oddi (sphincter of the hepatopancreatic ampulla)
+ * B) Pyloric sphincter
+ * C) Cardiac sphincter
+ * D) Anal sphincter
+ * Correct Answer: A
+ * Level: Easy
+ * Reference Snapshot: Pages 153 and 156 of the file (Sphincters of the ampulla of Vater).
+Question 52:
+Which part of the pancreas features the uncinate process projecting behind the superior mesenteric vessels?
+ * A) Head
+ * B) Neck
+ * C) Body
+ * D) Tail
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 103 and 158 of the file (Head of pancreas and uncinate process).
+Question 53:
+The splenic artery is clinically and anatomically characterized by being:
+ * A) Straight and rigid
+ * B) Highly tortuous
+ * C) Short and unbranched
+ * D) A branch of the external iliac artery
+ * Correct Answer: B
+ * Level: Easy
+ * Reference Snapshot: Pages 82, 137, and 163 of the file (Description of the tortuous splenic artery).
+Question 54:
+On the visceral surface of the spleen, the renal impression is located:
+ * A) Inferior and posterior to the hilum
+ * B) Superior and anterior to the hilum
+ * C) On the sharp anterior border exclusively
+ * D) There is no renal impression
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 78 and 136 of the file (Visceral surface relations of the spleen).
+Question 55:
+Which ribs are related to the diaphragmatic surface of the spleen?
+ * A) Ribs 9, 10, and 11
+ * B) Rib 6
+ * C) Rib 12 only
+ * D) Ribs 2 to 5
+ * Correct Answer: A
+ * Level: Advanced
+ * Reference Snapshot: Pages 78 and 133 of the file (Rib relations of the spleen: 9th, 10th, and 11th ribs).
+Question 56:
+The intertubercular plane passes at the level of which vertebral body?
+ * A) L3
+ * B) L4
+ * C) L5
+ * D) S1
+ * Correct Answer: C
+ * Level: Advanced
+ * Reference Snapshot: Page 40 of the file (Intertubercular plane at the level of the L5 body).
+Question 57:
+The transpyloric plane is located at the level of which vertebra?
+ * A) L1
+ * B) L3
+ * C) L4
+ * D) T12
+ * Correct Answer: A
+ * Level: Easy
+ * Reference Snapshot: Page 40 of the file (Transpyloric plane at the level of the L1 body).
+Question 58:
+The surface marking for the fundus of the gallbladder is identified by the meeting of the transpyloric plane, the linea semilunaris, and:
+ * A) The tip of the right 9th costal cartilage
+ * B) The midclavicular point
+ * C) The midline umbilicus
+ * D) The left 5th intercostal space
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 57 and 142 of the file (Surface markings of the gallbladder fundus).
+Question 59:
+What is the normal capacity of the gallbladder?
+ * A) 10–20 ml
+ * B) 30–50 ml
+ * C) 100–150 ml
+ * D) 500 ml
+ * Correct Answer: B
+ * Level: Easy
+ * Reference Snapshot: Page 156 of the file (Gallbladder capacity of 30–50 ml).
+Question 60:
+Which abdominal wall muscle directly contributes fibers to form the cremasteric muscle and fascia?
+ * A) Internal oblique muscle
+ * B) External oblique muscle
+ * C) Transversalis fascia
+ * D) Parietal peritoneum
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 14 and 16 of the file (Internal oblique fibers forming cremasteric muscle).
+Question 61:
+The motor nerve supply to the cremasteric muscle is provided by the:
+ * A) Ilioinguinal nerve
+ * B) Genital branch of the genitofemoral nerve
+ * C) Obturator nerve
+ * D) Sciatic nerve
+ * Correct Answer: B
+ * Level: Medium
+ * Reference Snapshot: Pages 15 and 30 of the file (Cremasteric muscle nerve supply).
+Question 62:
+What structure forms the posterior wall of the rectus sheath below the arcuate line?
+ * A) Aponeuroses of all three flat muscles
+ * B) Fascia transversalis only
+ * C) Posterior lamella of internal oblique
+ * D) Costal cartilages
+ * Correct Answer: B
+ * Level: Medium
+ * Reference Snapshot: Pages 17 and 19 of the file (Transverse sections of rectus sheath below arcuate line).
+Question 63:
+The superior pancreaticoduodenal artery is a branch of the:
+ * A) Gastroduodenal artery (from hepatic artery/celiac trunk)
+ * B) Inferior mesenteric artery
+ * C) Splenic artery directly
+ * D) Renal artery
+ * Correct Answer: A
+ * Level: Advanced
+ * Reference Snapshot: Pages 62 and 125 of the file (Superior pancreaticoduodenal artery origin).
+Question 64:
+The conjoint tendon (inguinal falx) is formed by the fusion of the lowermost fibers of the internal oblique and the:
+ * A) Transversus abdominis muscle
+ * B) Rectus abdominis muscle
+ * C) External oblique muscle
+ * D) Pyramidalis muscle
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 24 and 26 of the file (The conjoint tendon formation).
+Question 65:
+Before uniting with the superior mesenteric vein, the splenic vein receives the:
+ * A) Inferior mesenteric vein
+ * B) Right renal vein
+ * C) Jugular vein
+ * D) Hepatic veins
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 74 and 129 of the file (Formation of portal vein and tributaries of splenic vein).
+Question 66:
+The ultimate lymphatic drainage of the entire stomach primarily terminates in the:
+ * A) Celiac group of lymph nodes (coeliac L.N.)
+ * B) Superficial inguinal lymph nodes
+ * C) Anterior axillary lymph nodes
+ * D) Internal iliac lymph nodes
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 54 and 92 of the file (Lymphatic drainage of the stomach to celiac nodes).
+Question 67:
+Which part of the stomach contains a thick circular smooth muscle coat forming the anatomical and physiological pyloric sphincter?
+ * A) Cardia
+ * B) Fundus
+ * C) Pylorus
+ * D) Greater curvature
+ * Correct Answer: C
+ * Level: Easy
+ * Reference Snapshot: Pages 46 and 48 of the file (Pyloric sphincter structure).
+Question 68:
+The gastrosplenic ligament anatomically contains the:
+ * A) Short gastric and left gastroepiploic (gastro-omental) vessels
+ * B) Hepatic artery and portal vein
+ * C) Common bile duct
+ * D) Renal vessels
+ * Correct Answer: A
+ * Level: Advanced
+ * Reference Snapshot: Pages 80, 86, and 135 of the file (Contents of the gastrosplenic ligament).
+Question 69:
+The diaphragmatic surface of the liver is directly related to the diaphragm, pleura, lungs, and:
+ * A) Heart and pericardium
+ * B) Transverse colon only
+ * C) Coils of small intestine
+ * D) Pelvic cavity
+ * Correct Answer: A
+ * Level: Easy
+ * Reference Snapshot: Pages 85 and 145 of the file (Superior/diaphragmatic surface relations of the liver).
+Question 70:
+What forms the superior boundary of the caudate lobe of the liver?
+ * A) Left hepatic vein / upper branches
+ * B) Lower border of the liver
+ * C) Inferior vena cava
+ * D) Bile duct
+ * Correct Answer: A
+ * Level: Advanced
+ * Reference Snapshot: Pages 85 and 141 of the file (Caudate lobe boundaries).
+Question 71:
+The fatty layer of superficial fascia (Camper's fascia) in the wall of the scrotum is replaced by the:
+ * A) Dartos muscle
+ * B) Internal spermatic fascia
+ * C) Peritoneal membrane
+ * D) Subcutaneous fat (persists unchanged)
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 7 and 30 of the file (Camper's fascia replaced by dartos muscle in the scrotum).
+Question 72:
+The first inch of the first part of the duodenum (duodenal bulb) is characterized by having a:
+ * A) Smooth mucous membrane without circular folds (plicae circulares)
+ * B) Dense cluster of lymphoid follicles
+ * C) Complete retroperitoneal fixation
+ * D) Thick muscular wall resembling the stomach
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 63 and 101 of the file (Interior of the first part of the duodenum / duodenal bulb).
+Question 73:
+How many tendinous intersections typically divide the rectus abdominis muscle in a normal individual?
+ * A) One intersection
+ * B) Two intersections
+ * C) Three intersections (at xiphoid, umbilicus, and midway between them)
+ * D) Five intersections
+ * Correct Answer: C
+ * Level: Easy
+ * Reference Snapshot: Pages 14 and 16 of the file (Tendinous intersections of the rectus abdominis muscle).
+Question 74:
+The appendicular artery, which supplies the appendix and cecum, is a direct branch of the:
+ * A) Ileocolic artery
+ * B) Right colic artery
+ * C) Middle colic artery
+ * D) Gastric artery
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 71 and 126 of the file (Superior mesenteric artery branches including ileocolic and appendicular artery).
+Question 75:
+Lymphatic drainage from the region of the anterior abdominal wall below the umbilicus drains directly into the:
+ * A) Horizontal group of superficial inguinal lymph nodes
+ * B) Anterior axillary lymph nodes
+ * C) Internal thoracic lymph nodes
+ * D) Splenic lymph nodes
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 8 and 9 of the file (Superficial lymphatic drainage above and below the umbilicus).
+Question 76:
+The lateral thoracic vein plays a role in the venous drainage of the anterior abdominal wall:
+ * A) Above the umbilicus into the axillary vein
+ * B) Below the umbilicus into the femoral vein
+ * C) Directly into the portal system
+ * D) Into the renal veins
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 9 and 11 of the file (Venous drainage above the umbilicus via lateral thoracic vein).
+Question 77:
+A femoral hernia sac bulges through the femoral ring, with its neck lying:
+ * A) Below and lateral to the pubic tubercle
+ * B) Above and medial to the pubic tubercle
+ * C) In the middle of Hesselbach's triangle
+ * D) Behind the rectus abdominis muscle
+ * Correct Answer: A
+ * Level: Advanced
+ * Reference Snapshot: Pages 38 and 40 of the file (Inguinal vs. femoral hernia anatomical relations with the pubic tubercle).
+Question 78:
+The posterior part of the visceral surface of the liver exhibits an impression for the right suprarenal gland immediately adjacent to the:
+ * A) Groove for the inferior vena cava (IVC)
+ * B) Left lobe
+ * C) Cardiac orifice
+ * D) Gallbladder fossa
+ * Correct Answer: A
+ * Level: Advanced
+ * Reference Snapshot: Pages 85 and 146 of the file (Visceral relations of the liver including suprarenal impression).
+Question 79:
+Which nerve passes through the inguinal canal in both males and females, accompanying the spermatic cord or round ligament?
+ * A) Ilioinguinal nerve
+ * B) Genitofemoral nerve
+ * C) Sciatic nerve
+ * D) Lateral cutaneous nerve of thigh
+ * Correct Answer: A
+ * Level: Medium
+ * Reference Snapshot: Pages 26 and 29 of the file (Contents of the inguinal canal including the ilioinguinal nerve).
+Question 80:
+The left triangular ligament of the liver is formed by the apposition of the:
+ * A) Upper and lower layers of peritoneum of the left lobe
+ * B) Falciform ligament and stomach
+ * C) Lesser omentum
+ * D) Pelvic peritoneum
+ * Correct Answer: A
+ * Level: Advanced
+ * Reference Snapshot: Pages 85 and 140 of the file (Peritoneal ligaments of the liver including the left triangular ligament).

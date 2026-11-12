@@ -64,6 +64,39 @@ const banks: Bank[] = [
     tint: 'bg-amber-100',
     border: 'border-amber-200 hover:border-amber-400',
   },
+  {
+    id: 'pelvis-perineum',
+    file: 'pelvis-perineum-80.json',
+    shortTitle: 'Pelvis & Perineum',
+    title: 'Pelvis & Perineum Anatomy MCQ',
+    description: '80 source-provided questions with answers and explanations covering pelvic and perineal anatomy.',
+    subject: 'PELV',
+    color: 'text-violet-800',
+    tint: 'bg-violet-100',
+    border: 'border-violet-200 hover:border-violet-400',
+  },
+  {
+    id: 'lower-limb',
+    file: 'lower-limb-80.json',
+    shortTitle: 'Lower Limb Anatomy',
+    title: 'Lower Limb Anatomy MCQ',
+    description: '80 source-provided questions with answers and explanations covering lower-limb anatomy.',
+    subject: 'LOWER',
+    color: 'text-sky-800',
+    tint: 'bg-sky-100',
+    border: 'border-sky-200 hover:border-sky-400',
+  },
+  {
+    id: 'upper-limb',
+    file: 'upper-limb-80.json',
+    shortTitle: 'Upper Limb Anatomy',
+    title: 'Upper Limb Anatomy MCQ',
+    description: '80 source-provided questions with answers and explanations covering upper-limb anatomy.',
+    subject: 'UPPER',
+    color: 'text-indigo-800',
+    tint: 'bg-indigo-100',
+    border: 'border-indigo-200 hover:border-indigo-400',
+  },
 ];
 
 type SubjectCategory = {
@@ -84,7 +117,7 @@ const basicSubjects: SubjectCategory[] = [
       'Lower Limb: Nerves, Vessels & Lymphatics',
       'Upper Limb: Nerves, Vessels & Lymphatics',
     ],
-    bankIds: ['abdomen', 'breast'],
+    bankIds: ['abdomen', 'breast', 'pelvis-perineum', 'lower-limb', 'upper-limb'],
   },
   {
     number: '2',
@@ -126,7 +159,7 @@ const principlesTopics = [
   'Acid–Base Disturbances',
 ];
 
-const publishedBankOrder = [banks[0], banks[2], banks[1]];
+const publishedBankOrder = [banks[0], banks[2], banks[3], banks[4], banks[5], banks[1]];
 
 function QuestionBank({ bank }: { bank: Bank }) {
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -158,7 +191,7 @@ function QuestionBank({ bank }: { bank: Bank }) {
         <div className="flex items-center gap-4">
           <span className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl text-xs font-black ${bank.tint} ${bank.color}`}>{bank.subject}</span>
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.16em] text-teal-700">Approved question bank · 80 questions</p>
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-teal-700">Question bank · 80 questions</p>
             <h3 className="text-xl font-black text-slate-900 sm:text-2xl">{bank.title}</h3>
             <p className="mt-1 max-w-3xl text-sm leading-6 text-slate-500">{bank.description}</p>
           </div>
@@ -265,8 +298,8 @@ export default function App() {
               </a>
             </div>
             <div className="grid grid-cols-3 gap-2 rounded-2xl border border-white/15 bg-white/10 p-4 text-center backdrop-blur sm:gap-3 sm:p-5">
-              <div><span className="block text-2xl font-black sm:text-3xl">3</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Question banks</span></div>
-              <div className="border-x border-white/15"><span className="block text-2xl font-black sm:text-3xl">240</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Questions</span></div>
+              <div><span className="block text-2xl font-black sm:text-3xl">6</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Question banks</span></div>
+              <div className="border-x border-white/15"><span className="block text-2xl font-black sm:text-3xl">480</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Questions</span></div>
               <div><span className="block text-2xl font-black sm:text-3xl">MCQ</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Instant feedback</span></div>
             </div>
           </div>
@@ -279,7 +312,7 @@ export default function App() {
               <h2 className="mt-1 text-2xl font-black text-slate-950 sm:text-3xl">Lectures & Question Banks</h2>
               <p className="mt-2 text-sm text-slate-500">Browse the course subjects and open the question banks currently published on this site.</p>
             </div>
-            <span className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-600">3 published banks · 240 questions</span>
+            <span className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-600">6 published banks · 480 questions</span>
           </div>
           <h3 className="mb-4 text-lg font-black text-slate-900 sm:text-xl">Lectures in Basic Surgical Sciences</h3>
           <div className="grid gap-4 lg:grid-cols-2">

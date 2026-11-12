@@ -32,11 +32,12 @@ type MicroQuestion = {
   difficulty: string;
   stem: string;
   options: string[];
-  correctOptionIndex: number;
+  correctOptionIndex?: number;
+  answer_index?: number;
   explanation: string;
 };
 
-function MicrobiologyBank() {
+function QuestionBank({ id, file, title, eyebrow, description }: { id: string; file: string; title: string; eyebrow: string; description: string }) {
   const [questions, setQuestions] = useState<MicroQuestion[]>([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
@@ -44,9 +45,9 @@ function MicrobiologyBank() {
   const [loadError, setLoadError] = useState(false);
 
   useEffect(() => {
-    fetch(`${assetBase}assets/mcq-answers/microbiology-80.json`)
+    fetch(`${assetBase}assets/mcq-answers/${file}`)
       .then((response) => response.ok ? response.json() : Promise.reject(new Error('bank unavailable')))
-      .then((data) => setQuestions(data.questions))
+      .then((data) => setQuestions(data.questions.map((item: MicroQuestion) => ({ ...item, correctOptionIndex: item.correctOptionIndex ?? item.answer_index }))))
       .catch(() => setLoadError(true));
   }, []);
 
@@ -58,11 +59,12 @@ function MicrobiologyBank() {
   };
 
   return (
-    <section id="microbiology" className="mt-10 bg-white rounded-3xl border border-emerald-100 shadow-sm p-5 sm:p-8">
+    <section id={id} className="mt-10 bg-white rounded-3xl border border-emerald-100 shadow-sm p-5 sm:p-8">
       <div className="flex flex-wrap items-center justify-between gap-3 mb-5">
         <div>
-          <p className="text-xs font-bold text-emerald-700 uppercase tracking-[0.18em]">Approved question bank</p>
-          <h3 className="text-2xl font-black text-slate-900">Microbiology MCQ — 80 Questions</h3>
+          <p className="text-xs font-bold text-emerald-700 uppercase tracking-[0.18em]">{eyebrow}</p>
+          <h3 className="text-2xl font-black text-slate-900">{title}</h3>
+          <p className="text-sm text-slate-500 mt-1">{description}</p>
         </div>
         {questions.length > 0 && <span className="text-sm font-bold text-slate-500">{current + 1} / {questions.length}</span>}
       </div>
@@ -77,8 +79,9 @@ function MicrobiologyBank() {
           <h4 className="text-lg sm:text-xl font-bold leading-8 text-slate-900 mb-5">{question.stem}</h4>
           <div className="grid gap-3">
             {question.options.map((option, index) => {
-              const isCorrect = submitted && index === question.correctOptionIndex;
-              const isWrong = submitted && selected === index && index !== question.correctOptionIndex;
+              const correctIndex = question.correctOptionIndex ?? question.answer_index ?? -1;
+              const isCorrect = submitted && index === correctIndex;
+              const isWrong = submitted && selected === index && index !== correctIndex;
               return (
                 <button key={option} onClick={() => !submitted && setSelected(index)} className={`text-left rounded-xl border p-4 transition ${isCorrect ? 'border-emerald-500 bg-emerald-50' : isWrong ? 'border-red-500 bg-red-50' : selected === index ? 'border-teal-500 bg-teal-50' : 'border-slate-200 hover:border-teal-300'}`}>
                   <span className="font-bold mr-2">{String.fromCharCode(65 + index)}.</span>{option}
@@ -93,7 +96,7 @@ function MicrobiologyBank() {
               <button onClick={next} className="px-5 py-3 rounded-xl bg-teal-800 text-white font-bold">Next question</button>
             )}
           </div>
-          {submitted && <div className="mt-5 rounded-xl bg-slate-50 border border-slate-200 p-4 text-sm leading-7"><strong>{selected === question.correctOptionIndex ? 'Correct.' : 'Review the highlighted answer.'}</strong> {question.explanation}</div>}
+          {submitted && <div className="mt-5 rounded-xl bg-slate-50 border border-slate-200 p-4 text-sm leading-7"><strong>{selected === (question.correctOptionIndex ?? question.answer_index) ? 'Correct.' : 'Review the highlighted answer.'}</strong> {question.explanation}</div>}
         </div>
       )}
     </section>
@@ -185,11 +188,11 @@ export default function App() {
               <h4 className="font-bold text-slate-900 mb-1">Microbiology MCQ</h4>
               <p className="text-xs text-slate-500">80 approved questions with answer feedback.</p>
             </a>
-            <button onClick={() => openComingSoon('MCQ Bank 03 — Anatomy')} className="text-left bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border border-amber-100 hover:border-amber-300 transition">
+            <a href="#breast" className="text-left bg-white p-5 rounded-2xl shadow-sm hover:shadow-md border border-amber-100 hover:border-amber-300 transition">
               <div className="w-12 h-12 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center font-bold text-sm mb-4">ANAT</div>
-              <h4 className="font-bold text-slate-900 mb-1">MCQ Bank 03 — Anatomy</h4>
-              <p className="text-xs text-slate-500">80 source-grounded draft questions are being prepared for clinical review.</p>
-            </button>
+              <h4 className="font-bold text-slate-900 mb-1">Breast Anatomy MCQ</h4>
+              <p className="text-xs text-slate-500">80 approved anatomy questions with answer feedback.</p>
+            </a>
             {[
               ['🎥', 'Surgical skills videos', 'The visual library for essential operative skills.'],
               ['📚', 'Lecture index', 'The academic map and curriculum topics.'],
@@ -203,7 +206,8 @@ export default function App() {
           </div>
         </section>
 
-        <MicrobiologyBank />
+        <QuestionBank id="microbiology" file="microbiology-80.json" eyebrow="Approved question bank" title="Microbiology MCQ — 80 Questions" description="Specimen diagnostics, antimicrobial resistance, infection prevention, and immunology." />
+        <QuestionBank id="breast" file="breast-80.json" eyebrow="Approved question bank" title="Breast Anatomy MCQ — 80 Questions" description="Structure, lymphatic drainage, blood supply, and clinical anatomy." />
       </main>
 
       <footer className="bg-white border-t border-slate-100 py-6 text-center text-xs text-slate-500">

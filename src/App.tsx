@@ -16,6 +16,7 @@ type Question = {
   correctOptionIndex?: number;
   answer_index?: number;
   explanation: string;
+  reference_snapshot?: string;
 };
 
 type Bank = {
@@ -28,6 +29,7 @@ type Bank = {
   color: string;
   tint: string;
   border: string;
+  reviewNotice?: string;
 };
 
 const banks: Bank[] = [
@@ -97,6 +99,18 @@ const banks: Bank[] = [
     tint: 'bg-indigo-100',
     border: 'border-indigo-200 hover:border-indigo-400',
   },
+  {
+    id: 'pathology-lecture1',
+    file: 'pathology-lecture1-80.json',
+    shortTitle: 'Diagnostic Pathology · Lecture 1',
+    title: 'Principles of Diagnostic & Surgical Pathology — Lecture 1',
+    description: 'Core diagnostic principles, biopsy types, specimen handling, fixation, labeling, and transportation.',
+    subject: 'PATH 1',
+    color: 'text-rose-800',
+    tint: 'bg-rose-100',
+    border: 'border-rose-200 hover:border-rose-400',
+    reviewNotice: 'Source material · not independently clinically reviewed',
+  },
 ];
 
 type SubjectCategory = {
@@ -129,7 +143,7 @@ const basicSubjects: SubjectCategory[] = [
     number: '3',
     title: 'Pathology',
     topics: ['Principles of Diagnostic Pathology', 'Cell Injury and Death', 'Inflammation', 'Circulatory Disturbances', 'Neoplasia: Grading, Staging & Biomarkers'],
-    bankIds: [],
+    bankIds: ['pathology-lecture1'],
   },
   {
     number: '4',
@@ -159,7 +173,7 @@ const principlesTopics = [
   'Acid–Base Disturbances',
 ];
 
-const publishedBankOrder = [banks[0], banks[2], banks[3], banks[4], banks[5], banks[1]];
+const publishedBankOrder = [banks[0], banks[2], banks[3], banks[4], banks[5], banks[6], banks[1]];
 
 function QuestionBank({ bank }: { bank: Bank }) {
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -191,7 +205,7 @@ function QuestionBank({ bank }: { bank: Bank }) {
         <div className="flex items-center gap-4">
           <span className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl text-xs font-black ${bank.tint} ${bank.color}`}>{bank.subject}</span>
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.16em] text-teal-700">Question bank · 80 questions</p>
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-teal-700">{bank.reviewNotice ?? 'Question bank · 80 questions'}</p>
             <h3 className="text-xl font-black text-slate-900 sm:text-2xl">{bank.title}</h3>
             <p className="mt-1 max-w-3xl text-sm leading-6 text-slate-500">{bank.description}</p>
           </div>
@@ -254,6 +268,12 @@ function QuestionBank({ bank }: { bank: Bank }) {
                 <strong>{selected === (question.correctOptionIndex ?? question.answer_index) ? 'Correct.' : 'Review the highlighted answer.'}</strong> {question.explanation}
               </div>
             )}
+            {question.reference_snapshot && (
+              <details className="mt-4 rounded-xl border border-teal-200 bg-teal-50/70 p-4 text-sm leading-6 text-slate-700">
+                <summary className="cursor-pointer font-bold text-teal-900">Slide evidence card</summary>
+                <p className="mt-3">{question.reference_snapshot}</p>
+              </details>
+            )}
           </div>
         )}
       </div>
@@ -298,8 +318,8 @@ export default function App() {
               </a>
             </div>
             <div className="grid grid-cols-3 gap-2 rounded-2xl border border-white/15 bg-white/10 p-4 text-center backdrop-blur sm:gap-3 sm:p-5">
-              <div><span className="block text-2xl font-black sm:text-3xl">6</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Question banks</span></div>
-              <div className="border-x border-white/15"><span className="block text-2xl font-black sm:text-3xl">480</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Questions</span></div>
+              <div><span className="block text-2xl font-black sm:text-3xl">7</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Question banks</span></div>
+              <div className="border-x border-white/15"><span className="block text-2xl font-black sm:text-3xl">560</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Questions</span></div>
               <div><span className="block text-2xl font-black sm:text-3xl">MCQ</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Instant feedback</span></div>
             </div>
           </div>
@@ -312,7 +332,7 @@ export default function App() {
               <h2 className="mt-1 text-2xl font-black text-slate-950 sm:text-3xl">Lectures & Question Banks</h2>
               <p className="mt-2 text-sm text-slate-500">Browse the course subjects and open the question banks currently published on this site.</p>
             </div>
-            <span className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-600">6 published banks · 480 questions</span>
+            <span className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-600">7 published banks · 560 questions</span>
           </div>
           <h3 className="mb-4 text-lg font-black text-slate-900 sm:text-xl">Lectures in Basic Surgical Sciences</h3>
           <div className="grid gap-4 lg:grid-cols-2">

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0-governance",
-  "title": "General Surgery Diploma — Abdomen MCQ Bank (96 Questions)",
+  "title": "General Surgery Diploma — Abdomen MCQ Bank (96 Questions) (96 Questions)",
   "language": "en",
   "answerVisibility": "hidden-until-submitted",
   "statusPolicy": "approved-by-project-owner",
@@ -24,7 +24,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 6 of the file (Dermatomes and cutaneous nerves of the anterior abdominal wall, showing T10 at the umbilical level).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0004",
@@ -45,7 +45,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 7 of the file (Superficial fascia: Camper's and Scarpa's layers and their perineal continuity).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0005",
@@ -66,7 +66,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 32 and 34 of the file (Note explaining that the transversus abdominis muscle is not involved in covering the testis/cord because its arch is higher).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0006",
@@ -87,7 +87,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 17 of the file (Transverse sections of the rectus sheath, locating the arcuate line).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0007",
@@ -108,7 +108,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 27 and 29 of the file (Contents of the inguinal canal in males and females).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0008",
@@ -129,7 +129,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 25 of the file (The inguinal triangle and direct hernia site).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0009",
@@ -150,7 +150,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 29 and 33 of the file (Continuity of abdominal wall layers with the coverings of the spermatic cord and testis).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0010",
@@ -171,7 +171,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 31 and 33 of the file (Distinction between scrotal skin and testicular lymph drainage).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0011",
@@ -192,7 +192,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 33 and 37 of the file (Lymphatic drainage of the testis to para-aortic L.N. at L1 level).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0012",
@@ -213,7 +213,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 37 and 39 of the file (Indirect and direct inguinal hernias compared).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0013",
@@ -234,7 +234,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 49 of the file (Surface anatomy of the cardiac orifice).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0014",
@@ -255,7 +255,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 47 of the file (Prepyloric vein of Mayo in front of the pylorus).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0015",
@@ -276,7 +276,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 50 of the file (The stomach bed: structures lying behind the stomach).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0016",
@@ -297,7 +297,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 52 of the file (Arterial supply of the stomach from the celiac trunk).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0017",
@@ -318,7 +318,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 59 and 97 of the file (Peritoneal covering of the duodenum).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0018",
@@ -339,7 +339,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 63, 98, and 153 of the file (Interior of the second part of the duodenum and major duodenal papilla).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0019",
@@ -360,7 +360,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 65 and 104 of the file (External and internal differences between the jejunum and ileum).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0020",
@@ -381,7 +381,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 105 of the file (Meckel's diverticulum incidence and location).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0021",
@@ -402,7 +402,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 85 and 141 of the file (Description of the caudate lobe boundaries).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0022",
@@ -423,7 +423,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 148 of the file (Note on liver blood and oxygen delivery: 50% hepatic and 50% portal oxygen).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0023",
@@ -444,7 +444,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 95 and 150 of the file (Structures at the porta hepatis).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0024",
@@ -465,7 +465,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 98 and 153 of the file (Spiral valve in the cystic duct and neck of gallbladder).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0025",
@@ -486,7 +486,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 103 and 158 of the file (Tail of the pancreas embedded in the lienorenal ligament).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0026",
@@ -507,7 +507,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 74 and 129 of the file (Formation of the portal vein behind the neck of the pancreas).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0027",
@@ -528,7 +528,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 78 and 133 of the file (Spleen description and dimensions rule).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0028",
@@ -549,7 +549,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 76 and 131 of the file (Portasystemic anastomoses sites).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0029",
@@ -570,7 +570,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 15 of the file (Nerve supply of the pyramidalis by the subcostal nerve).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0030",
@@ -591,7 +591,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 10 and 18 of the file (Contents of the rectus sheath including superior and inferior epigastric vessels).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0031",
@@ -612,7 +612,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 29 and 31 of the file (Coverings of the spermatic cord and their fascial origins).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0032",
@@ -633,7 +633,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 22 and 24 of the file (Boundaries of the lumbar triangle).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0033",
@@ -654,7 +654,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 23 of the file (The inguinal ligament attachments).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0034",
@@ -675,7 +675,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 4 and 88 of the file (Omental foramen and its boundaries including the IVC).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0035",
@@ -696,7 +696,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 52 and 125 of the file (Arterial supply of the stomach from the celiac trunk/splenic branches).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0036",
@@ -717,7 +717,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 55 of the file (Distribution of anterior and posterior vagal trunks on the stomach).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0037",
@@ -738,7 +738,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 58 and 96 of the file (Duodenal part measurements).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0038",
@@ -759,7 +759,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 63 and 101 of the file (Duodenojejunal flexure attachment to the right crus of the diaphragm).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0039",
@@ -780,7 +780,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 62 and 100 of the file (Duodenal arterial supply from celiac and superior mesenteric sources).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0040",
@@ -801,7 +801,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 4 and 88 of the file (The lesser sac / omental bursa).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0041",
@@ -822,7 +822,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 53 of the file (Tributaries of the portal vein including left gastric vein).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0042",
@@ -843,7 +843,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 46 and 48 of the file (Gross anatomy of the stomach showing the oblique muscle coat).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0043",
@@ -864,7 +864,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 46 and 49 of the file (Fundus surface anatomy and relations).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0044",
@@ -885,7 +885,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 47 of the file (Prepyloric vein of Mayo in front of the pylorus).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0045",
@@ -906,7 +906,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 52 and 125 of the file (Branches of the celiac trunk).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0046",
@@ -927,7 +927,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 69 and 71 of the file (Embryological divisions of the gut supplied by SMA).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0047",
@@ -948,7 +948,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 127 of the file (Origin of the inferior mesenteric artery at L3 level).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0048",
@@ -969,7 +969,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 98 and 153 of the file (Duct union and formation of the ampulla of Vater).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0049",
@@ -990,7 +990,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 101 and 158 of the file (Accessory pancreatic duct opening at the minor duodenal papilla).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0050",
@@ -1011,7 +1011,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 85 and 144 of the file (Bare area of the liver bounded by coronary ligaments).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0051",
@@ -1032,7 +1032,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 96 and 151 of the file (Ligamentum teres as obliterated left umbilical vein).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0052",
@@ -1053,7 +1053,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 96 and 151 of the file (Ligamentum venosum connecting left portal branch to IVC).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0053",
@@ -1074,7 +1074,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 153 and 156 of the file (Sphincters of the ampulla of Vater).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0054",
@@ -1095,7 +1095,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 103 and 158 of the file (Head of pancreas and uncinate process).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0055",
@@ -1116,7 +1116,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 82, 137, and 163 of the file (Description of the tortuous splenic artery).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0056",
@@ -1137,7 +1137,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 78 and 136 of the file (Visceral surface relations of the spleen).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0057",
@@ -1158,7 +1158,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 78 and 133 of the file (Rib relations of the spleen: 9th, 10th, and 11th ribs).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0058",
@@ -1179,7 +1179,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 40 of the file (Intertubercular plane at the level of the L5 body).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0059",
@@ -1200,7 +1200,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 40 of the file (Transpyloric plane at the level of the L1 body).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0060",
@@ -1221,7 +1221,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 57 and 142 of the file (Surface markings of the gallbladder fundus).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0061",
@@ -1242,7 +1242,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Page 156 of the file (Gallbladder capacity of 30–50 ml).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0062",
@@ -1263,7 +1263,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 14 and 16 of the file (Internal oblique fibers forming cremasteric muscle).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0063",
@@ -1284,7 +1284,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 15 and 30 of the file (Cremasteric muscle nerve supply).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0064",
@@ -1305,7 +1305,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 17 and 19 of the file (Transverse sections of rectus sheath below arcuate line).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0065",
@@ -1326,7 +1326,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 62 and 125 of the file (Superior pancreaticoduodenal artery origin).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0066",
@@ -1347,7 +1347,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 24 and 26 of the file (The conjoint tendon formation).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0067",
@@ -1368,7 +1368,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 74 and 129 of the file (Formation of portal vein and tributaries of splenic vein).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0068",
@@ -1389,7 +1389,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 54 and 92 of the file (Lymphatic drainage of the stomach to celiac nodes).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0069",
@@ -1410,7 +1410,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 46 and 48 of the file (Pyloric sphincter structure).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0070",
@@ -1431,7 +1431,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 80, 86, and 135 of the file (Contents of the gastrosplenic ligament).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0071",
@@ -1452,7 +1452,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 85 and 145 of the file (Superior/diaphragmatic surface relations of the liver).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0072",
@@ -1473,7 +1473,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 85 and 141 of the file (Caudate lobe boundaries).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0073",
@@ -1494,7 +1494,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 7 and 30 of the file (Camper's fascia replaced by dartos muscle in the scrotum).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0074",
@@ -1515,7 +1515,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 63 and 101 of the file (Interior of the first part of the duodenum / duodenal bulb).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0075",
@@ -1536,7 +1536,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 14 and 16 of the file (Tendinous intersections of the rectus abdominis muscle).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0076",
@@ -1557,7 +1557,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 71 and 126 of the file (Superior mesenteric artery branches including ileocolic and appendicular artery).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0077",
@@ -1578,7 +1578,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 8 and 9 of the file (Superficial lymphatic drainage above and below the umbilicus).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0078",
@@ -1599,7 +1599,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 9 and 11 of the file (Venous drainage above the umbilicus via lateral thoracic vein).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0079",
@@ -1620,7 +1620,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 38 and 40 of the file (Inguinal vs. femoral hernia anatomical relations with the pubic tubercle).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0080",
@@ -1641,7 +1641,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 85 and 146 of the file (Visceral relations of the liver including suprarenal impression).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0081",
@@ -1662,7 +1662,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 26 and 29 of the file (Contents of the inguinal canal including the ilioinguinal nerve).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ABD-0082",
@@ -1683,7 +1683,7 @@
       "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/imported abdomen MCQs (source attachment)",
       "reference_snapshot": "Pages 85 and 140 of the file (Peritoneal ligaments of the liver including the left triangular ligament).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-ANAT03-AB-0001",
@@ -2038,5 +2038,5 @@
       "clinicalReviewStatus": "approved-by-owner"
     }
   ],
-  "clinicalReviewNote": "Includes 80 project questions plus 16 owner-approved Anatomy03 questions from the Manus collaboration folder."
+  "clinicalReviewNote": "Published after explicit approval by the project owner for the unified collaboration work."
 }

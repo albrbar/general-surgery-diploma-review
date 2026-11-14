@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0-governance",
-  "title": "General Surgery Diploma — Breast Anatomy MCQ Bank",
+  "title": "General Surgery Diploma — Breast Anatomy MCQ Bank (96 Questions)",
   "language": "en",
   "answerVisibility": "hidden-until-submitted",
   "statusPolicy": "approved-by-project-owner",
@@ -24,7 +24,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 4 of the file (Note stating that the breast is a modified sweat gland).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0002",
@@ -45,7 +45,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 6 of the file (Shape and position: base extending from the second to the sixth ribs).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0003",
@@ -66,7 +66,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 6 of the file (Muscle bed of the breast: pectoralis major as the main bed).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0004",
@@ -87,7 +87,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 6 of the file (Muscle bed: pectoralis major, serratus anterior, external oblique).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0005",
@@ -108,7 +108,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 6 of the file (Shape and position: axillary tail pierces deep fascia at lower border of pectoralis major).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0006",
@@ -129,7 +129,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 8 of the file (Retromammary space filled with loose areolar tissue).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0007",
@@ -150,7 +150,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 23 of the file (Clinical notes: invasion of retromammary space into muscle causing fixation).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0008",
@@ -171,7 +171,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 6 of the file (Shape and position: from lateral border of sternum to midaxillary line).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0009",
@@ -192,7 +192,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 8 of the file (Consists of 15-20 lobes separated by fibrous septa).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0010",
@@ -213,7 +213,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 8 of the file (Fibrous septa more developed in upper part forming suspensory/Cooper's ligament).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0011",
@@ -234,7 +234,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 23 of the file (Suspensory ligaments invaded by cancer causing skin dimpling).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0012",
@@ -255,7 +255,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 9 of the file (10 to 100 alveoli form one lobule; 20 to 40 lobules form one lobe).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0013",
@@ -276,7 +276,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 8 of the file (Lactiferous duct forms lactiferous sinus/ampulla before its end).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0014",
@@ -297,7 +297,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 9 of the file (Note: The breast has no capsule but embedded in fatty tissue).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0015",
@@ -318,7 +318,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 9 of the file (Note: Nipple is directed downward and outward).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0016",
@@ -339,7 +339,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 10 of the file (Lactiferous ducts radiate outwards; incision should be made in a radial direction).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0017",
@@ -360,7 +360,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 10 of the file (Nipple: lies opposite to 4th intercostal space, 4 inches from midline).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0018",
@@ -381,7 +381,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 10 of the file (Areola changes to dark brown by melanin at first pregnancy for ever).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0019",
@@ -402,7 +402,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 10 of the file (Areola contains sebaceous glands forming cutaneous tubercles/Montgomery glands).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0020",
@@ -423,7 +423,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 10 of the file (Both nipple and areola have no fat under its skin).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0021",
@@ -444,7 +444,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 24 of the file (Breast of male and immature female: system of ducts embedded in connective tissue not extending beyond areola margin).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0022",
@@ -465,7 +465,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 23 of the file (Male breast may enlarge in some disease -> gynaecomastia).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0023",
@@ -486,7 +486,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 24 of the file (Poland syndrome: absent pectoralis major and/or breast).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0024",
@@ -507,7 +507,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 11 and 23 of the file (Breast changes during menstrual cycle and puberty under ovarian hormones).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0025",
@@ -528,7 +528,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 15 of the file (75% to axillary LN).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0026",
@@ -549,7 +549,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 15 of the file (20% to parasternal LN / internal thoracic LN).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0027",
@@ -570,7 +570,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 15 of the file (5% to paravertebral LN / post. IC LN).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0028",
@@ -591,7 +591,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 13 of the file (Lateral quadrants drain into anterior/pectoral group and lateral axillary LN).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0029",
@@ -612,7 +612,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 13 of the file (Lower quadrants into lymph plexus of rectus sheath & subphrenic plexus).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0030",
@@ -633,7 +633,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 13 of the file (Lymphatics of medial part across sternum to opposite breast: intermammary lymphatics).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0031",
@@ -654,7 +654,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 17 of the file (The three levels of the axillary lymph nodes in relation to pectoralis minor).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0032",
@@ -675,7 +675,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 14 and 24 of the file (Subareolar lymphatic plexus beneath areola).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0033",
@@ -696,7 +696,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 24 of the file (Note: Connected to vertebral venous plexus by valveless veins so cancer breast can spread to vertebrae).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0034",
@@ -717,7 +717,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 24 of the file (Interpectoral nodes / Rotter's).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0035",
@@ -738,7 +738,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 20 and 21 of the file (Lateral thoracic artery supplies ~60% of the breast).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0036",
@@ -759,7 +759,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 20 and 21 of the file (Internal thoracic artery supplies medial part ~30%).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0037",
@@ -780,7 +780,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 19 and 21 of the file (Internal thoracic artery branches from subclavian artery).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0038",
@@ -801,7 +801,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 21 of the file (Intercostal arteries supply lower lateral quadrant 5-10%).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0039",
@@ -822,7 +822,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 21 of the file (Thoracoacromial and superior thoracic arteries supply upper part 1-5%).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0040",
@@ -843,7 +843,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 19 and 21 of the file (Veins correspond to arteries, including intercostal and internal thoracic veins).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0041",
@@ -864,7 +864,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 24 of the file (Mastitis: inflammation of breast).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0042",
@@ -885,7 +885,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 23 of the file (Edema of skin: Peau d'orange sign).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0043",
@@ -906,7 +906,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 25 of the file (Breast mammogram is used for screening of tumours).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0044",
@@ -927,7 +927,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 23 of the file (Nipple retraction and deviation, abnormal contours).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0045",
@@ -948,7 +948,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 23 of the file (Breasts at puberty assume hemispherical shape under influence of ovarian hormones & size increase by fat deposition).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0046",
@@ -969,7 +969,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 10 of the file (Axillary tail reach up to 3rd rib).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0047",
@@ -990,7 +990,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 24 of the file (Interlobular plexus lies between the lobules, sub-areolar plexus lies beneath areola).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0048",
@@ -1011,7 +1011,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 24 of the file (Few lymph vessels follow posterior intercostal arteries to drain into posterior intercostal lymph nodes).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0049",
@@ -1032,7 +1032,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 5 and 9 of the file (Lobules of mammary gland resting vs. lactating / acini secreting milk).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0050",
@@ -1053,7 +1053,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 1 of the file (Figures selected from Netter's, Snell's, Moore's, THIEME, and Dr. Milad's own drawings).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0051",
@@ -1074,7 +1074,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 7 of the file (Bed of breast with pectoral fascia stripped away: pectoralis major above and serratus anterior inferolaterally).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0052",
@@ -1095,7 +1095,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 8 of the file (Each lobe has one duct so there is 15-20 ducts in breast).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0053",
@@ -1116,7 +1116,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 8 of the file (Retromammary space filled with loose areolar tissue).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0054",
@@ -1137,7 +1137,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 13 of the file (Superolateral quadrant accounting for ~60% of drainage/tissue distribution).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0055",
@@ -1158,7 +1158,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 13 of the file (Inferomedial quadrant skin lymph drainage ~10%).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0056",
@@ -1179,7 +1179,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 13 of the file (Superomedial quadrant skin lymph drainage ~15%).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0057",
@@ -1200,7 +1200,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 13 of the file (Inferolateral quadrant skin lymph drainage ~5%).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0058",
@@ -1221,7 +1221,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 14 of the file (Subclavian lymphatic trunk, right lymphatic duct, inferior deep cervical nodes).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0059",
@@ -1242,7 +1242,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 20 and 21 of the file (Medial mammary branches of internal thoracic artery).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0060",
@@ -1263,7 +1263,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 20 and 21 of the file (Lateral mammary branches of lateral thoracic artery).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0061",
@@ -1282,7 +1282,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 5 and 10 of the file (Skin covers the breast, areola, and nipple, though modified).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0062",
@@ -1303,7 +1303,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 25 of the file (Mammogram showing a carcinoma with tumour in the substance of the gland).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0063",
@@ -1324,7 +1324,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 17 of the file (Levels I, II, and III of axillary lymph nodes in relation to pectoralis minor).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0064",
@@ -1345,7 +1345,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 17 of the file (Level II axillary nodes behind pectoralis minor).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0065",
@@ -1366,7 +1366,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 17 of the file (Level III axillary nodes medial/superior to pectoralis minor).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0066",
@@ -1387,7 +1387,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 6 of the file (The breast is conical in shape).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0067",
@@ -1408,7 +1408,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 11 of the file (Diagram showing extent of ducts and secretory alveoli after cessation of lactation and after menopause).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0068",
@@ -1429,7 +1429,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 14 and 16 of the file (Anterior axillary or pectoral lymph nodes).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0069",
@@ -1450,7 +1450,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 21 of the file (Dorsal branch of posterior intercostal a.).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0070",
@@ -1471,7 +1471,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 21 of the file (Cephalic v., axillary v., lateral thoracic v. in venous vasculature of breast).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0071",
@@ -1492,7 +1492,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 6, 14, and 15 of the file (Parasternal / internal thoracic lymph nodes).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0072",
@@ -1513,7 +1513,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 5 and 8 of the file (Transmits milk by a lactiferous duct that opens into the nipple).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0073",
@@ -1532,7 +1532,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 4, 6, and 7 of the file (Axillary process/tail extending into the axilla).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0074",
@@ -1553,7 +1553,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 11 and 23 of the file (Puberty and ovarian hormones influencing breast size and shape).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0075",
@@ -1574,7 +1574,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 5, 8, and 9 of the file (Adipose tissue and fibrous septa embedding the mammary gland).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0076",
@@ -1595,7 +1595,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 14 and 24 of the file (Subareolar lymphatic plexus location and drainage pathways).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0077",
@@ -1616,7 +1616,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Pages 20 and 21 of the file (Lateral cutaneous branches of posterior intercostal arteries/nerves).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0078",
@@ -1637,7 +1637,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 23 of the file (Nipple retraction and deviation caused by malignant traction).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0079",
@@ -1658,7 +1658,7 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 4 of the file (Female breast / mamma is formed by the mammary gland secreting milk).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-BRST-0080",
@@ -1679,8 +1679,360 @@
       "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
       "origin_file": "Google Drive/Manus/Z.ai/TheBreast—Slides.pdf and imported question text",
       "reference_snapshot": "Page 1 of the file (Figures selected from standard atlases and Dr. Milad's own drawings. For private study only).",
-      "clinicalReviewStatus": "approved-by-project-owner"
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0001",
+      "subject": "BRST",
+      "topic": "Breast microstructure",
+      "stem": "Approximately how many alveoli form one lobule of the breast?",
+      "options": [
+        "1–10",
+        "10–100",
+        "100–200",
+        "200–400"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The slide states that about 10 to 100 alveoli form one lobule.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The slide specifies approximately 10–100 alveoli per lobule. PDF p. 9; slide 9",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0002",
+      "subject": "BRST",
+      "topic": "Breast microstructure",
+      "stem": "Approximately how many lobules form one breast lobe?",
+      "options": [
+        "2–5",
+        "5–10",
+        "20–40",
+        "50–100"
+      ],
+      "answer_index": 2,
+      "answer_letter": "C",
+      "explanation": "The lecture gives a range of 20 to 40 lobules per lobe.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The slide states that 20–40 lobules form one lobe. PDF p. 9; slide 9",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0003",
+      "subject": "BRST",
+      "topic": "Breast structure",
+      "stem": "Which statement about the breast's capsule is consistent with the lecture?",
+      "options": [
+        "It is enclosed by a thick fibrous capsule",
+        "It has no capsule and is embedded in fatty tissue",
+        "It is enclosed by a synovial capsule",
+        "It has a capsule only around the ducts"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The slide notes that the breast has no capsule and is embedded in fatty tissue.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The note explicitly says the breast has no capsule and is embedded in fatty tissue. PDF p. 9; slide 9",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0004",
+      "subject": "BRST",
+      "topic": "Nipple",
+      "stem": "In which direction is the nipple typically directed?",
+      "options": [
+        "Upward and medially",
+        "Downward and outward",
+        "Horizontally laterally",
+        "Downward and medially"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The lecture describes the nipple as directed downward and outward.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The slide's note states the nipple is directed downward and outward. PDF p. 9; slide 9",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0005",
+      "subject": "BRST",
+      "topic": "Nipple",
+      "stem": "In a large breast, how may the usual nipple position relative to the fourth intercostal space change?",
+      "options": [
+        "It may lie higher",
+        "It may lie lower",
+        "It moves to the midline",
+        "It remains at the same level in all cases"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The slide notes that the nipple may be lower in a large breast.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The text states the nipple is opposite the fourth intercostal space but is lower if the breast is large. PDF p. 10; slide 10",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0006",
+      "subject": "BRST",
+      "topic": "Nipple",
+      "stem": "What is the approximate distance of the nipple from the midline described in the lecture?",
+      "options": [
+        "2 inches",
+        "4 inches",
+        "6 inches",
+        "8 inches"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The slide gives an approximate distance of four inches from the midline.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The nipple landmark is stated as four inches from the midline. PDF p. 10; slide 10",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0007",
+      "subject": "BRST",
+      "topic": "Lymphatic drainage",
+      "stem": "Which breast-skin region drains to the apical group of lymph nodes, excluding the nipple and areola?",
+      "options": [
+        "Lower quadrants",
+        "Upper quadrants",
+        "Lateral quadrants only",
+        "Medial quadrants"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The skin of the upper quadrants drains to the apical lymph-node group.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The skin-drainage list assigns upper quadrants to apical nodes. PDF p. 13; slide 13",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0008",
+      "subject": "BRST",
+      "topic": "Lymphatic drainage",
+      "stem": "Where does lymph from the skin of the lower breast quadrants (excluding nipple and areola) drain according to the lecture?",
+      "options": [
+        "Apical axillary nodes",
+        "Internal thoracic nodes",
+        "Rectus sheath and subphrenic plexuses",
+        "Posterior intercostal nodes only"
+      ],
+      "answer_index": 2,
+      "answer_letter": "C",
+      "explanation": "The lower-quadrant skin drains to the lymph plexus of the rectus sheath and the subphrenic plexus.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The stated drainage routes for lower-quadrant skin are rectus sheath and subphrenic plexuses. PDF p. 13; slide 13",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0009",
+      "subject": "BRST",
+      "topic": "Lymphatic drainage",
+      "stem": "Which lymphatic connection is described for some lymphatics from the medial breast?",
+      "options": [
+        "They cross the sternum to anastomose with the opposite breast",
+        "They pass directly to the deep cervical nodes",
+        "They join the portal venous system",
+        "They cross the diaphragm to the liver"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "Some medial lymphatics cross the front of the sternum and communicate with the opposite breast.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The text describes intermammary lymphatics crossing anterior to the sternum to the opposite breast. PDF p. 13; slide 13",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0010",
+      "subject": "BRST",
+      "topic": "Lymphatic drainage",
+      "stem": "A small proportion of lymph from breast tissue is described as draining to which nodes?",
+      "options": [
+        "Deep cervical nodes",
+        "Paravertebral (posterior intercostal) nodes",
+        "Inguinal nodes",
+        "Pretracheal nodes"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The lecture assigns about 5% of breast-tissue lymph to paravertebral, posterior intercostal nodes.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The drainage proportions list 5% to paravertebral (posterior intercostal) nodes. PDF p. 15; slide 15",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0011",
+      "subject": "BRST",
+      "topic": "Blood supply",
+      "stem": "Which arterial source contributes perforating branches to the breast?",
+      "options": [
+        "Internal thoracic artery",
+        "Inferior mesenteric artery",
+        "Facial artery",
+        "Ulnar artery"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "Perforating branches of the internal thoracic artery are listed among the breast's arterial supply.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The blood-supply list names perforating branches of the internal thoracic artery. PDF p. 19; slide 19",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0012",
+      "subject": "BRST",
+      "topic": "Blood supply",
+      "stem": "From which range of intercostal arteries do branches supplying the breast arise?",
+      "options": [
+        "First to second",
+        "Second to fifth",
+        "Sixth to ninth",
+        "Ninth to twelfth"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The slide specifies anterior and posterior intercostal branches from the second through fifth intercostal arteries.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The text specifies the second to fifth intercostal arteries. PDF p. 19; slide 19",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0013",
+      "subject": "BRST",
+      "topic": "Blood supply",
+      "stem": "According to the breast arterial-source table, which artery supplies the medial part (about 30%)?",
+      "options": [
+        "Lateral thoracic artery",
+        "Internal thoracic artery",
+        "Intercostal artery",
+        "Superior thoracic artery"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The internal thoracic artery is listed as supplying the medial part, about 30%.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The table pairs internal thoracic artery with medial part (30%). PDF p. 21; slide 21",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0014",
+      "subject": "BRST",
+      "topic": "Blood supply",
+      "stem": "Which arteries are listed as supplying the upper part of the breast (about 1–5%)?",
+      "options": [
+        "Thoracoacromial and superior thoracic arteries",
+        "Internal thoracic artery alone",
+        "Lateral thoracic artery alone",
+        "Posterior intercostal artery alone"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The table assigns the upper part (about 1–5%) to thoracoacromial and superior thoracic arteries.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The arterial table lists thoracoacromial and superior thoracic arteries for upper part (1–5%). PDF p. 21; slide 21",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0015",
+      "subject": "BRST",
+      "topic": "Male breast ducts",
+      "stem": "According to the lecture, how far does the male breast duct system extend?",
+      "options": [
+        "Beyond the axillary tail",
+        "To the margin of the areola, without extending beyond it",
+        "Only to the nipple, with no ducts beneath the areola",
+        "Across the pectoral region"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The slide describes the male duct system as embedded in connective tissue and not extending beyond the areolar margin.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The slide says the male duct system does not extend beyond the margin of the areola. PDF p. 24; slide 24",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-BR-0016",
+      "subject": "BRST",
+      "topic": "Clinical anatomy",
+      "stem": "Which venous feature provides a route by which breast cancer may spread to vertebrae?",
+      "options": [
+        "Valveless veins connecting with the vertebral venous plexus",
+        "The great saphenous vein",
+        "The portal venous system",
+        "Valved veins draining to the pulmonary veins"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The slides note valveless veins connect the breast to the vertebral venous plexus, enabling spread to vertebrae.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Breast — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The note links valveless veins to the vertebral venous plexus with possible vertebral spread. PDF p. 24; slide 24",
+      "clinicalReviewStatus": "approved-by-owner"
     }
   ],
-  "clinicalReviewNote": "Approved for publication by the project owner/reviewer on 2026-11-13."
+  "clinicalReviewNote": "Published after explicit approval by the project owner for the unified collaboration work."
 }

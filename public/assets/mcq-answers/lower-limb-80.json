@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0-governance",
-  "title": "General Surgery Diploma — Lower Limb: Nerves, Vessels & Lymphatics MCQ Bank",
+  "title": "General Surgery Diploma — Lower Limb: Nerves, Vessels & Lymphatics MCQ Bank (96 Questions)",
   "language": "en",
   "answerVisibility": "hidden-until-submitted",
-  "statusPolicy": "source-provided; not independently clinically reviewed",
+  "statusPolicy": "approved-by-project-owner",
   "questions": [
     {
       "id": "GS-LL-0001",
@@ -20,11 +20,11 @@
       "answer_letter": "B",
       "explanation": "The piriformis muscle passes through the greater sciatic foramen, dividing it into suprapiriform and infrapiriform compartments.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0002",
@@ -41,11 +41,11 @@
       "answer_letter": "B",
       "explanation": "The superior gluteal nerve and vessels are the sole neurovascular structures passing through the greater sciatic foramen above the piriformis.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0003",
@@ -62,11 +62,11 @@
       "answer_letter": "B",
       "explanation": "The pudendal nerve, internal pudendal vessels, and nerve to obturator internus exit below piriformis, hook around the ischial spine/sacrospinous ligament, and enter the perineum via the lesser sciatic foramen.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0004",
@@ -83,11 +83,11 @@
       "answer_letter": "B",
       "explanation": "The upper outer quadrant is safely away from the sciatic nerve and superior/inferior gluteal neurovascular bundles.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0005",
@@ -104,11 +104,11 @@
       "answer_letter": "B",
       "explanation": "Gluteus medius and minimus abduct the hip and stabilize the pelvis during single-leg stance; paralysis causes a positive Trendelenburg sign.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0006",
@@ -125,11 +125,11 @@
       "answer_letter": "B",
       "explanation": "Gluteus maximus is solely innervated by the inferior gluteal nerve (L5, S1, S2).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0007",
@@ -146,11 +146,11 @@
       "answer_letter": "B",
       "explanation": "The lateral femoral cutaneous nerve (L2, L3) passes behind the lateral end of the inguinal ligament and supplies the lateral thigh and lower lateral buttock.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0008",
@@ -167,11 +167,11 @@
       "answer_letter": "B",
       "explanation": "Compression of the lateral femoral cutaneous nerve near the ASIS/inguinal ligament produces burning pain and numbness over the anterolateral thigh (meralgia paresthetica).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0009",
@@ -188,11 +188,11 @@
       "answer_letter": "B",
       "explanation": "The femoral branch of the genitofemoral nerve enters behind the middle of the inguinal ligament to supply skin over the femoral triangle.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0010",
@@ -209,11 +209,11 @@
       "answer_letter": "D",
       "explanation": "The patellar plexus is formed anteriorly by the infrapatellar branch of the saphenous nerve and the lateral, intermediate, and medial cutaneous nerves of the thigh.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0011",
@@ -230,11 +230,11 @@
       "answer_letter": "B",
       "explanation": "The posterior femoral cutaneous nerve arises from the sacral plexus (S1-S3) and runs down the back of the thigh beneath fascia lata.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0012",
@@ -251,11 +251,11 @@
       "answer_letter": "B",
       "explanation": "The obturator nerve arises from the anterior (ventral) divisions of L2, L3, and L4 of the lumbar plexus, whereas the femoral nerve arises from the dorsal divisions.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0013",
@@ -272,11 +272,11 @@
       "answer_letter": "B",
       "explanation": "The tendon of obturator internus turns sharply around the lesser sciatic notch/ischial spine to exit via the lesser sciatic foramen.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0014",
@@ -293,11 +293,11 @@
       "answer_letter": "B",
       "explanation": "The nerve to obturator internus innervates obturator internus and the superior gemellus, whereas the nerve to quadratus femoris innervates quadratus femoris and inferior gemellus.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0015",
@@ -314,11 +314,11 @@
       "answer_letter": "B",
       "explanation": "The attachment of Colles' fascia to the fascia lata along Holden's line prevents urine from descending into the thigh following bulbar urethral rupture.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0016",
@@ -335,11 +335,11 @@
       "answer_letter": "B",
       "explanation": "The dorsal venous arch lies in the subcutaneous tissue over the heads of the metatarsals and gives rise to the great and small saphenous veins.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0017",
@@ -356,11 +356,11 @@
       "answer_letter": "B",
       "explanation": "The great saphenous vein passes directly in front of the medial malleolus (accompanied by the saphenous nerve), making this the classic anatomical landmark for emergency venous cutdown.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0018",
@@ -377,11 +377,11 @@
       "answer_letter": "B",
       "explanation": "The great saphenous vein pierces the cribriform fascia at the saphenous hiatus (~4 cm inferolateral to the pubic tubercle) to join the femoral vein.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0019",
@@ -398,11 +398,11 @@
       "answer_letter": "B",
       "explanation": "The superficial epigastric vein communicates with the lateral thoracic vein, forming an important collateral pathway between the IVC and SVC.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0020",
@@ -419,11 +419,11 @@
       "answer_letter": "B",
       "explanation": "The small saphenous vein arises from the lateral dorsal venous arch, passes behind the lateral malleolus (with the sural nerve), and pierces the popliteal fascia to enter the popliteal vein.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0021",
@@ -440,11 +440,11 @@
       "answer_letter": "B",
       "explanation": "Normal perforator valves direct blood from superficial to deep veins; valvular incompetence allows high-pressure deep venous blood to reflux into the unsupported superficial veins.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0022",
@@ -461,11 +461,11 @@
       "answer_letter": "B",
       "explanation": "The saphenous nerve accompanies the great saphenous vein along the medial leg and anterior to the medial malleolus.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0023",
@@ -482,11 +482,11 @@
       "answer_letter": "D",
       "explanation": "The testis drains directly along the testicular vessels to the para-aortic (lumbar) lymph nodes, bypassing the inguinal nodes completely.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0024",
@@ -503,11 +503,11 @@
       "answer_letter": "A",
       "explanation": "Lateral horizontal superficial inguinal nodes drain the gluteal region and back below the iliac crest.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0025",
@@ -524,11 +524,11 @@
       "answer_letter": "A",
       "explanation": "Superficial lymphatics accompanying the great saphenous vein drain into the vertical group of superficial inguinal nodes.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0026",
@@ -545,11 +545,11 @@
       "answer_letter": "B",
       "explanation": "Deep inguinal nodes (1–3 nodes) lie along the medial side of the femoral vein and drain upwards through the femoral canal into external iliac nodes.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0027",
@@ -566,11 +566,11 @@
       "answer_letter": "B",
       "explanation": "Cloquet's node lies within the femoral ring and drains the glans penis/clitoris as well as deep inguinal afferents.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0028",
@@ -587,11 +587,11 @@
       "answer_letter": "B",
       "explanation": "Superficial lymphatics along the small saphenous vein drain first into the popliteal lymph nodes embedded in the popliteal fossa fat.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0029",
@@ -608,11 +608,11 @@
       "answer_letter": "B",
       "explanation": "Efferents from popliteal nodes travel upwards with the popliteal and femoral vessels through the adductor canal to reach the deep inguinal nodes.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0030",
@@ -629,11 +629,11 @@
       "answer_letter": "B",
       "explanation": "Approximately 6 small popliteal lymph nodes lie embedded in the fatty tissue around the popliteal vessels.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0031",
@@ -650,11 +650,11 @@
       "answer_letter": "B",
       "explanation": "Lymph from the lateral foot/heel tracks along the small saphenous vein directly to the popliteal lymph nodes.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0032",
@@ -671,11 +671,11 @@
       "answer_letter": "B",
       "explanation": "The femoral artery gives off three superficial branches just below the inguinal ligament: superficial circumflex iliac, superficial epigastric, and superficial external pudendal.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0033",
@@ -692,11 +692,11 @@
       "answer_letter": "B",
       "explanation": "The femoral sheath encloses the femoral artery (lateral compartment), femoral vein (intermediate compartment), and femoral canal (medial compartment). The femoral nerve lies outside the sheath.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0034",
@@ -713,11 +713,11 @@
       "answer_letter": "B",
       "explanation": "The femoral sheath is a downward prolongation of fascia transversalis anteriorly and fascia iliaca posteriorly for about 1 inch (2.5–4 cm) below the inguinal ligament.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0035",
@@ -734,11 +734,11 @@
       "answer_letter": "A",
       "explanation": "The femoral ring is bounded anteriorly by the inguinal ligament, posteriorly by Astley Cooper's pectineal ligament, medially by Gimbernat's lacunar ligament, and laterally by the femoral vein.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0036",
@@ -755,11 +755,11 @@
       "answer_letter": "B",
       "explanation": "The tight, rigid margins of the femoral ring—particularly the sharp lacunar ligament medially—make femoral hernias highly susceptible to irreducibility and strangulation.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0037",
@@ -776,11 +776,11 @@
       "answer_letter": "B",
       "explanation": "Femoral hernias emerge through the saphenous opening below and lateral to the pubic tubercle, whereas inguinal hernias emerge above and medial to it.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0038",
@@ -797,11 +797,11 @@
       "answer_letter": "B",
       "explanation": "The femoral triangle is bounded superiorly by the inguinal ligament, laterally by the medial border of sartorius, and medially by the medial border of adductor longus.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0039",
@@ -818,11 +818,11 @@
       "answer_letter": "A",
       "explanation": "From lateral to medial, the gutter-shaped floor of the femoral triangle is formed by iliacus, psoas major, pectineus, and adductor longus.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0040",
@@ -839,11 +839,11 @@
       "answer_letter": "B",
       "explanation": "The adductor canal extends through the middle third of the medial thigh from the apex of the femoral triangle to the adductor hiatus.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0041",
@@ -860,11 +860,11 @@
       "answer_letter": "D",
       "explanation": "The femoral nerve divides in the femoral triangle; only its saphenous branch and nerve to vastus medialis enter the adductor canal alongside the femoral vessels.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0042",
@@ -881,11 +881,11 @@
       "answer_letter": "A",
       "explanation": "The femoral artery and vein pass through the adductor hiatus to become the popliteal vessels, accompanied by the genicular branch of the posterior obturator nerve and lymphatics.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0043",
@@ -902,11 +902,11 @@
       "answer_letter": "A",
       "explanation": "The diamond-shaped popliteal fossa is bounded superolaterally by biceps femoris, superomedially by semimembranosus/semitendinosus, and inferiorly by the two heads of gastrocnemius.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0044",
@@ -923,11 +923,11 @@
       "answer_letter": "A",
       "explanation": "The deep floor of the popliteal fossa consists superiorly of the popliteal surface of the femur, centrally of the posterior knee capsule/oblique popliteal ligament, and inferiorly of the popliteus muscle.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0045",
@@ -944,11 +944,11 @@
       "answer_letter": "B",
       "explanation": "From superficial (posterior) to deep (anterior) inside the popliteal fossa, the order is Tibial Nerve, Popliteal Vein, and Popliteal Artery (deepest, directly against the femur/capsule).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0046",
@@ -965,11 +965,11 @@
       "answer_letter": "B",
       "explanation": "In the upper fossa, the vein is lateral to the artery; in the middle, superficial/posterior to it; and distally, medial to it (making the artery Medial, Deep, then Lateral relative to the vein).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0047",
@@ -986,11 +986,11 @@
       "answer_letter": "B",
       "explanation": "The common peroneal nerve leaves the popliteal fossa along the medial border of biceps femoris and wraps superficially around the neck of the fibula.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0048",
@@ -1007,11 +1007,11 @@
       "answer_letter": "B",
       "explanation": "The external iliac artery becomes the femoral artery behind the inguinal ligament at the midinguinal point (halfway between the ASIS and the symphysis pubis).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0049",
@@ -1028,11 +1028,11 @@
       "answer_letter": "A",
       "explanation": "The profunda femoris arises from the posterolateral side of the femoral artery roughly 4 cm below the inguinal ligament and supplies the thigh compartments via circumflex and perforating branches.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0050",
@@ -1049,11 +1049,11 @@
       "answer_letter": "B",
       "explanation": "The popliteal artery ends at the lower border of the popliteus muscle by bifurcating into the anterior and posterior tibial arteries.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0051",
@@ -1070,11 +1070,11 @@
       "answer_letter": "A",
       "explanation": "The trochanteric anastomosis is formed by the superior and inferior gluteal arteries anastomosing with ascending branches of the medial and lateral circumflex femoral arteries; it provides the main blood supply to the femoral head.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0052",
@@ -1091,11 +1091,11 @@
       "answer_letter": "B",
       "explanation": "The femoral head depends predominantly on retinacular branches from the medial circumflex femoral artery traveling along the femoral neck capsule.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0053",
@@ -1112,11 +1112,11 @@
       "answer_letter": "A",
       "explanation": "The cruciate anastomosis connects the internal iliac system (inferior gluteal) with the profunda femoris system (medial/lateral circumflex femoral and 1st perforating arteries).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0054",
@@ -1133,11 +1133,11 @@
       "answer_letter": "B",
       "explanation": "Arising at the lower border of popliteus, the anterior tibial artery passes anteriorly above the upper margin of the interosseous membrane into the anterior leg compartment.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0055",
@@ -1154,11 +1154,11 @@
       "answer_letter": "A",
       "explanation": "In front of the ankle joint, midway between the two malleoli, the anterior tibial artery becomes the dorsalis pedis artery (palpable just lateral to the extensor hallucis longus tendon).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0056",
@@ -1175,11 +1175,11 @@
       "answer_letter": "B",
       "explanation": "The peroneal (fibular) artery arises from the posterior tibial artery ~2.5 cm below popliteus and descends along the fibula, giving a perforating branch to the ankle.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0057",
@@ -1196,11 +1196,11 @@
       "answer_letter": "A",
       "explanation": "The posterior tibial artery passes behind the medial malleolus deep to the flexor retinaculum and divides into medial and lateral plantar arteries.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0058",
@@ -1217,11 +1217,11 @@
       "answer_letter": "A",
       "explanation": "From medial/anterior to lateral/posterior under the flexor retinaculum: Tibialis posterior tendon, Flexor digitorum longus tendon, Posterior tibial vessels, Tibial nerve, and Flexor hallucis longus tendon.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0059",
@@ -1238,11 +1238,11 @@
       "answer_letter": "B",
       "explanation": "The deep plantar branch of the dorsalis pedis dives between the two heads of the 1st dorsal interosseous muscle to anastomose with the lateral plantar artery, completing the deep plantar arch.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0060",
@@ -1259,11 +1259,11 @@
       "answer_letter": "B",
       "explanation": "The deep peroneal nerve descends along the anterior surface of the interosseous membrane alongside the anterior tibial artery.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0061",
@@ -1280,11 +1280,11 @@
       "answer_letter": "B",
       "explanation": "The deep peroneal nerve supplies all muscles of the anterior leg compartment and terminates cutaneously in the first dorsal web space (between the 1st and 2nd toes).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0062",
@@ -1301,11 +1301,11 @@
       "answer_letter": "B",
       "explanation": "The superficial peroneal nerve innervates the lateral compartment muscles (peroneus longus and brevis—foot evertors) and supplies skin over the lower anterolateral leg and most of the dorsum of the foot.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0063",
@@ -1322,11 +1322,11 @@
       "answer_letter": "B",
       "explanation": "Common peroneal nerve palsy paralyzes both the anterior (dorsiflexors) and lateral (evertors) compartments, causing unopposed plantarflexion and inversion (foot drop).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0064",
@@ -1343,11 +1343,11 @@
       "answer_letter": "B",
       "explanation": "Tibial nerve paralysis eliminates plantarflexion (gastrocnemius/soleus) and inversion (tibialis posterior), leaving the foot pulled into dorsiflexion and eversion (calcaneovalgus).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0065",
@@ -1364,11 +1364,11 @@
       "answer_letter": "B",
       "explanation": "The tibial nerve enters the leg medial to the posterior tibial artery, crosses posterior (superficial) to it, and lies lateral to the artery at the ankle.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0066",
@@ -1385,11 +1385,11 @@
       "answer_letter": "B",
       "explanation": "The sural nerve (formed by medial sural cutaneous branch of tibial nerve and sural communicating branch of common peroneal nerve) descends with the small saphenous vein to supply the lateral foot.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0067",
@@ -1406,11 +1406,11 @@
       "answer_letter": "A",
       "explanation": "Just like the median nerve in the hand, the medial plantar nerve supplies the medial 3½ toes and innervates abductor hallucis, flexor digitorum brevis, flexor hallucis brevis, and the 1st lumbrical.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0068",
@@ -1427,11 +1427,11 @@
       "answer_letter": "B",
       "explanation": "Analogous to the ulnar nerve in the hand, the lateral plantar nerve supplies the lateral 1½ digits and all interossei, adductor hallucis, lateral 3 lumbricals, and quadratus plantae.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0069",
@@ -1448,11 +1448,11 @@
       "answer_letter": "B",
       "explanation": "Medial calcaneal branches arise directly from the tibial nerve proximal to its bifurcation to supply the skin of the heel.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0070",
@@ -1469,11 +1469,11 @@
       "answer_letter": "B",
       "explanation": "The saphenous nerve is the longest cutaneous branch of the femoral nerve, extending along the medial foot as far as the head of the 1st metatarsal.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0071",
@@ -1490,11 +1490,11 @@
       "answer_letter": "B",
       "explanation": "The obturator nerve innervates the medial (adductor) compartment of the thigh and sends a cutaneous branch to the medial thigh and an articular branch to the hip and knee.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0072",
@@ -1511,11 +1511,11 @@
       "answer_letter": "A",
       "explanation": "The obturator nerve supplies articular branches to both the hip and knee joints as well as cutaneous sensation to the medial thigh, explaining referred knee pain in hip disease.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0073",
@@ -1532,11 +1532,11 @@
       "answer_letter": "B",
       "explanation": "The adductor portion of adductor magnus is innervated by the posterior division of the obturator nerve, while its hamstring portion (attaching to the adductor tubercle) is innervated by the tibial nerve.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0074",
@@ -1553,11 +1553,11 @@
       "answer_letter": "B",
       "explanation": "Pectineus is innervated primarily by the femoral nerve and frequently receives an accessory branch from the obturator nerve.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0075",
@@ -1574,11 +1574,11 @@
       "answer_letter": "B",
       "explanation": "The long head of biceps femoris is supplied by the tibial division of the sciatic nerve, whereas the short head is supplied by the common peroneal division.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0076",
@@ -1595,11 +1595,11 @@
       "answer_letter": "A",
       "explanation": "During walking, contraction of the calf muscles within the unyielding deep fascia squeezes blood centrally through valved deep veins and draws blood inward through perforators.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0077",
@@ -1616,11 +1616,11 @@
       "answer_letter": "A",
       "explanation": "Compression of the tibial nerve beneath the flexor retinaculum in the tarsal tunnel causes burning pain and paresthesia over the sole of the foot (tarsal tunnel syndrome).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0078",
@@ -1637,11 +1637,11 @@
       "answer_letter": "A",
       "explanation": "The rich genicular anastomosis around the patella and femoral/tibial condyles links the femoral, profunda femoris, popliteal, and anterior tibial arteries.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0079",
@@ -1658,11 +1658,11 @@
       "answer_letter": "A",
       "explanation": "The profunda femoris acts as the critical collateral lifeline of the thigh, connecting proximally via the cruciate anastomosis and distally via the genicular anastomosis.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-LL-0080",
@@ -1679,11 +1679,364 @@
       "answer_letter": "B",
       "explanation": "The femoral nerve lies immediately lateral to the femoral artery (outside the femoral sheath) in the femoral triangle; its injury paralyzes the quadriceps, abolishes knee extension and the patellar jerk, and causes sensory loss over the anterior thigh and medial leg.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Lower_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0001",
+      "subject": "LL",
+      "topic": "Profunda femoris artery",
+      "stem": "The profunda femoris artery reaches the posterior compartment of the thigh by giving off which set of branches?",
+      "options": [
+        "Four perforating branches",
+        "Four circumflex branches",
+        "Two genicular branches",
+        "Three muscular branches"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The profunda femoris enters the medial compartment and sends four perforating branches to the posterior compartment.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Profunda femoris sends four perforators posteriorly. PDF p. 48; slide 48",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0002",
+      "subject": "LL",
+      "topic": "Obturator artery",
+      "stem": "Which structure does the articular branch of the obturator artery enter to supply the head of the femur?",
+      "options": [
+        "Ligament of the head of the femur (ligamentum teres)",
+        "Transverse acetabular ligament",
+        "Iliofemoral ligament",
+        "Obturator membrane"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The articular branch enters the ligament of the head of the femur (ligamentum teres).",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Articular branch enters ligamentum teres and supplies femoral head. PDF p. 49; slide 49",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0003",
+      "subject": "LL",
+      "topic": "Obturator artery",
+      "stem": "During femoral hernia surgery, which arterial variant is highlighted as a potential source of dangerous bleeding near the lacunar ligament?",
+      "options": [
+        "An inferior epigastric pubic branch replacing the obturator artery",
+        "A superficial circumflex iliac artery crossing the femoral ring",
+        "A descending genicular artery entering the femoral canal",
+        "A medial circumflex femoral artery crossing the inguinal ligament"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The pubic branch of the inferior epigastric artery may replace the obturator artery and descend in the free margin of the lacunar ligament.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Inferior epigastric pubic branch may replace obturator and descend in lacunar ligament margin. PDF p. 50; slide 50",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0004",
+      "subject": "LL",
+      "topic": "Popliteal artery",
+      "stem": "Which artery is listed as a branch of the popliteal artery that supplies the knee joint centrally?",
+      "options": [
+        "Middle genicular artery",
+        "Descending genicular artery",
+        "Anterior tibial recurrent artery",
+        "Circumflex fibular artery"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The popliteal artery branches include the middle genicular artery.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Middle genicular artery listed among popliteal branches. PDF p. 52; slide 52",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0005",
+      "subject": "LL",
+      "topic": "Popliteal vein formation",
+      "stem": "At the lower border of popliteus, which veins unite to form the popliteal vein?",
+      "options": [
+        "Venae comitantes of the anterior and posterior tibial arteries",
+        "Great and small saphenous veins",
+        "Anterior tibial and fibular veins only",
+        "Medial and lateral plantar veins"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The lecture describes the popliteal vein as beginning at the lower border of popliteus by union of the venae comitantes of the anterior and posterior tibial arteries.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The slide locates the union at the lower border of popliteus and names the two venae comitantes. PDF p. 56; slide 56",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0006",
+      "subject": "LL",
+      "topic": "Trochanteric anastomosis",
+      "stem": "Which pair of arteries contributes to the trochanteric anastomosis from the internal iliac system?",
+      "options": [
+        "Superior and inferior gluteal arteries",
+        "Obturator and internal pudendal arteries",
+        "Iliolumbar and lateral sacral arteries",
+        "Superior and inferior vesical arteries"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The trochanteric anastomosis includes superior and inferior gluteal arteries, alongside medial and lateral circumflex femoral arteries.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Superior and inferior gluteal arteries are listed contributors. PDF p. 58; slide 58",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0007",
+      "subject": "LL",
+      "topic": "Anastomosis around ASIS",
+      "stem": "Which artery contributes to the anastomosis around the anterior superior iliac spine from the external iliac system?",
+      "options": [
+        "Deep circumflex iliac artery",
+        "Inferior gluteal artery",
+        "Medial circumflex femoral artery",
+        "Descending genicular artery"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The deep circumflex iliac artery is an external iliac contributor to the anastomosis around the ASIS.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Deep circumflex iliac listed as external iliac contributor. PDF p. 60; slide 60",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0008",
+      "subject": "LL",
+      "topic": "Genicular anastomosis",
+      "stem": "Which recurrent artery is listed as participating in the arterial anastomosis around the knee?",
+      "options": [
+        "Posterior tibial recurrent artery",
+        "Radial recurrent artery",
+        "Ulnar recurrent artery",
+        "Circumflex scapular artery"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The knee anastomosis list includes anterior and posterior tibial recurrent arteries.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Posterior tibial recurrent artery appears in knee anastomosis list. PDF p. 61; slide 61",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0009",
+      "subject": "LL",
+      "topic": "Femoral nerve",
+      "stem": "Which two cutaneous nerves are listed as branches of the anterior division of the femoral nerve?",
+      "options": [
+        "Medial and intermediate cutaneous nerves of the thigh",
+        "Saphenous and sural nerves",
+        "Lateral cutaneous nerve of thigh and saphenous nerve",
+        "Medial cutaneous nerve of thigh and deep peroneal nerve"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The anterior division gives medial and intermediate cutaneous nerves of the thigh.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Anterior-division cutaneous branches are medial and intermediate thigh nerves. PDF p. 64; slide 64",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0010",
+      "subject": "LL",
+      "topic": "Saphenous nerve",
+      "stem": "After passing between sartorius and gracilis, the saphenous nerve descends along which side of the leg?",
+      "options": [
+        "Medial side",
+        "Lateral side",
+        "Anterior midline",
+        "Posterior midline"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The saphenous nerve becomes superficial between sartorius and gracilis and descends at the medial side of the knee and leg.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Course is medial at knee and leg after becoming superficial. PDF p. 66; slide 66",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0011",
+      "subject": "LL",
+      "topic": "Obturator nerve",
+      "stem": "Which knee-related branch is attributed to the posterior division of the obturator nerve?",
+      "options": [
+        "An articular branch passing through the adductor hiatus",
+        "A cutaneous branch to the lateral calf",
+        "A muscular branch to gastrocnemius",
+        "A saphenous branch accompanying the great saphenous vein"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The posterior division gives an articular branch to the knee, passing through the adductor hiatus.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Posterior division articular branch reaches knee through hiatus. PDF p. 68; slide 68",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0012",
+      "subject": "LL",
+      "topic": "Sciatic nerve",
+      "stem": "In the gluteal region, which muscle is the sciatic nerve described as passing deep to as it leaves the region?",
+      "options": [
+        "Long head of biceps femoris",
+        "Sartorius",
+        "Adductor longus",
+        "Vastus medialis"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The sciatic nerve leaves the gluteal region by passing deep to the long head of biceps femoris.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Sciatic nerve leaves gluteal region deep to biceps long head. PDF p. 70; slide 70",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0013",
+      "subject": "LL",
+      "topic": "Sciatic nerve",
+      "stem": "Which hamstring muscle is supplied through the common peroneal portion of the sciatic nerve rather than the tibial portion?",
+      "options": [
+        "Short head of biceps femoris",
+        "Semitendinosus",
+        "Semimembranosus",
+        "Long head of biceps femoris"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The posterior thigh muscles are supplied through the tibial portion except the short head of biceps, supplied by the common peroneal portion.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Short head of biceps is the stated exception. PDF p. 71; slide 71",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0014",
+      "subject": "LL",
+      "topic": "Tibial nerve course in leg",
+      "stem": "As the tibial nerve runs with the posterior tibial artery in the leg, which sequence of positions relative to the artery is described?",
+      "options": [
+        "Medial, then superficial, then lateral",
+        "Lateral, then deep, then medial",
+        "Anterior, then posterior, then medial",
+        "Superficial, then medial, then posterior"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The lecture gives the tibial nerve’s relation to the posterior tibial artery as medial, then superficial, then lateral.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The slide explicitly marks the sequence M → S → L alongside the posterior tibial artery. PDF p. 75; slide 75",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0015",
+      "subject": "LL",
+      "topic": "Tibial nerve",
+      "stem": "Which cutaneous branch of the tibial nerve supplies the medial side of the heel?",
+      "options": [
+        "Medial calcaneal nerve",
+        "Sural nerve",
+        "Lateral plantar nerve",
+        "Saphenous nerve"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The medial calcaneal nerve is listed among tibial nerve cutaneous branches.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Medial calcaneal nerve is listed as tibial cutaneous branch. PDF p. 76; slide 76",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-LL-0016",
+      "subject": "LL",
+      "topic": "Cutaneous innervation of the foot",
+      "stem": "A sensory deficit on the lateral side of the little toe most directly implicates which nerve?",
+      "options": [
+        "Sural nerve",
+        "Deep peroneal nerve",
+        "Saphenous nerve",
+        "Medial plantar nerve"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The sural nerve supplies the lateral side of the foot and lateral side of the fifth toe.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Sural supplies lateral foot and lateral side of little toe. PDF p. 81; slide 81",
+      "clinicalReviewStatus": "approved-by-owner"
     }
-  ]
+  ],
+  "clinicalReviewNote": "Published after explicit approval by the project owner for the unified collaboration work."
 }

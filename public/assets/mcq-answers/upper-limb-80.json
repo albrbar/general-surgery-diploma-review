@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0-governance",
-  "title": "General Surgery Diploma — Upper Limb: Nerves, Vessels & Lymphatics MCQ Bank",
+  "title": "General Surgery Diploma — Upper Limb: Nerves, Vessels & Lymphatics MCQ Bank (96 Questions)",
   "language": "en",
   "answerVisibility": "hidden-until-submitted",
-  "statusPolicy": "source-provided; not independently clinically reviewed",
+  "statusPolicy": "approved-by-project-owner",
   "questions": [
     {
       "id": "GS-UL-0001",
@@ -20,11 +20,11 @@
       "answer_letter": "A",
       "explanation": "Four structures pierce the clavipectoral fascia: cephalic vein, thoracoacromial artery (and vein), lateral pectoral nerve, and lymphatics passing to apical axillary nodes.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0002",
@@ -41,11 +41,11 @@
       "answer_letter": "B",
       "explanation": "The axillary sheath is a tubular prolongation of the prevertebral fascia extending from the neck into the axilla around the axillary artery and brachial plexus cords.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0003",
@@ -62,11 +62,11 @@
       "answer_letter": "B",
       "explanation": "The lateral thoracic artery supplies approximately 60% of the breast (mainly lateral quadrants) via lateral mammary branches, while perforators of the internal thoracic artery supply the medial part.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0004",
@@ -83,11 +83,11 @@
       "answer_letter": "B",
       "explanation": "Approximately 75% of breast lymph—especially from the lateral quadrants and nipple/areola—drains first into the anterior (pectoral) axillary nodes located along the lower border of pectoralis minor.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0005",
@@ -104,11 +104,11 @@
       "answer_letter": "B",
       "explanation": "Lymphatics from the inferomedial breast communicate through the upper anterior abdominal wall with the subperitoneal/subphrenic plexus, allowing transcoelomic spread (e.g., Krukenberg tumor).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0006",
@@ -125,11 +125,11 @@
       "answer_letter": "B",
       "explanation": "The cephalic vein arises from the lateral end of the dorsal venous arch, ascends along the lateral arm, runs in the deltopectoral groove, and pierces the clavipectoral fascia to enter the axillary vein.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0007",
@@ -146,11 +146,11 @@
       "answer_letter": "B",
       "explanation": "The basilic vein pierces the deep fascia near the mid-arm, accompanies the brachial artery, and unites with the venae comitantes at the lower border of teres major to form the axillary vein.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0008",
@@ -167,11 +167,11 @@
       "answer_letter": "B",
       "explanation": "The bicipital aponeurosis separates the superficial median cubital vein from the deeper brachial artery and median nerve, preventing accidental intra-arterial injection.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0009",
@@ -188,11 +188,11 @@
       "answer_letter": "B",
       "explanation": "Supratrochlear nodes lie in superficial fascia above the medial epicondyle along the basilic vein and drain the medial (ulnar) hand and forearm before sending efferents to the lateral axillary nodes.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0010",
@@ -209,11 +209,11 @@
       "answer_letter": "B",
       "explanation": "Deltopectoral nodes accompany the cephalic vein from the radial side of the limb and send efferent vessels through the clavipectoral fascia directly to the apical axillary lymph nodes.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0011",
@@ -230,11 +230,11 @@
       "answer_letter": "D",
       "explanation": "The apical group lies at the apex of the axilla medial to the 1st part of the axillary vein; it receives lymph from the central, anterior, posterior, lateral, and infraclavicular nodes and forms the subclavian lymph trunk.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0012",
@@ -251,11 +251,11 @@
       "answer_letter": "A",
       "explanation": "The quadrangular space is bounded above by teres minor (and subscapularis), below by teres major, medially by the long head of triceps, and laterally by the surgical neck of the humerus.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0013",
@@ -272,11 +272,11 @@
       "answer_letter": "B",
       "explanation": "The axillary nerve and posterior circumflex humeral vessels traverse the quadrangular space closely applied to the surgical neck of the humerus and inferior capsule of the shoulder joint.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0014",
@@ -293,11 +293,11 @@
       "answer_letter": "B",
       "explanation": "The circumflex scapular branch of the subscapular artery passes posteriorly through the upper triangular space to enter the infraspinous fossa and join the scapular anastomosis.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0015",
@@ -314,11 +314,11 @@
       "answer_letter": "B",
       "explanation": "The radial nerve and profunda brachii vessels exit the axilla inferiorly through the triangular interval to enter the spiral (radial) groove on the posterior humerus.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0016",
@@ -335,11 +335,11 @@
       "answer_letter": "C",
       "explanation": "Classic anatomical rule ('Army over the bridge, Navy under the bridge'): the suprascapular artery runs above the transverse scapular ligament, whereas the suprascapular nerve passes through the foramen underneath it.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0017",
@@ -356,11 +356,11 @@
       "answer_letter": "B",
       "explanation": "The intercostobrachial nerve (T2) crosses the axilla to supply the skin of the upper medial arm; it is frequently encountered (and preserved if possible) during axillary lymph node clearance.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0018",
@@ -377,11 +377,11 @@
       "answer_letter": "B",
       "explanation": "All skin of the upper limb is supplied by the brachial plexus EXCEPT the skin over the shoulder tip (supraclavicular nerves, C3–C4) and the upper medial arm (intercostobrachial nerve, T2).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0019",
@@ -398,11 +398,11 @@
       "answer_letter": "B",
       "explanation": "Every muscle acting on the upper limb is supplied by the brachial plexus EXCEPT the trapezius, which receives motor innervation from the spinal part of the accessory nerve (CN XI).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0020",
@@ -419,11 +419,11 @@
       "answer_letter": "B",
       "explanation": "The axillary vein lies medial to the axillary artery; between them run the medial cord, ulnar nerve, and medial antebrachial cutaneous nerve.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0021",
@@ -440,11 +440,11 @@
       "answer_letter": "A",
       "explanation": "The axillary artery extends from the outer border of the 1st rib to the lower border of teres major, divided into three parts by the pectoralis minor muscle.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0022",
@@ -461,11 +461,11 @@
       "answer_letter": "B",
       "explanation": "The 1st part of the axillary artery gives off 1 branch (superior thoracic), the 2nd part gives 2 branches (thoracoacromial and lateral thoracic), and the 3rd part gives 3 branches (subscapular, anterior & posterior circumflex humeral).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0023",
@@ -482,11 +482,11 @@
       "answer_letter": "A",
       "explanation": "The thoracoacromial trunk pierces the clavipectoral fascia and immediately divides into four branches: pectoral, acromial, clavicular, and deltoid (mnemonic: 'ABCD' / 'Cadavers Are Dead People').",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0024",
@@ -503,11 +503,11 @@
       "answer_letter": "B",
       "explanation": "The subscapular artery is the largest branch of the axillary artery; it descends along the posterior axillary wall, gives off the circumflex scapular artery, and continues as the thoracodorsal artery to latissimus dorsi.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0025",
@@ -524,11 +524,11 @@
       "answer_letter": "B",
       "explanation": "The long thoracic nerve (C5–C7) descends behind the 1st part of the axillary artery onto the external surface of serratus anterior.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0026",
@@ -545,11 +545,11 @@
       "answer_letter": "A",
       "explanation": "The scapular anastomosis links the 1st part of the subclavian artery (via thyrocervical trunk: suprascapular & dorsal scapular) with the 3rd part of the axillary artery (via subscapular & circumflex scapular), bypassing occlusion between them.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0027",
@@ -566,11 +566,11 @@
       "answer_letter": "A",
       "explanation": "The rich scapular anastomosis connects proximal subclavian branches to the subscapular artery; occlusion distal to the subscapular artery compromises perfusion of the upper limb.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0028",
@@ -587,11 +587,11 @@
       "answer_letter": "B",
       "explanation": "The roots (C5–T1 ventral rami) and trunks (upper, middle, lower) lie in the posterior triangle of the neck; the divisions pass behind the clavicle, and the cords lie in the axilla.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0029",
@@ -608,11 +608,11 @@
       "answer_letter": "B",
       "explanation": "Both the dorsal scapular nerve (C5) and the long thoracic nerve (C5, C6, C7) arise directly from the roots of the brachial plexus in the neck.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0030",
@@ -629,11 +629,11 @@
       "answer_letter": "B",
       "explanation": "Serratus anterior holds the medial border of the scapula against the thoracic wall and rotates the glenoid upward for overhead abduction (>90°).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0031",
@@ -650,11 +650,11 @@
       "answer_letter": "B",
       "explanation": "The upper trunk is the only trunk that gives off branches: the suprascapular nerve (to supraspinatus and infraspinatus) and the nerve to subclavius.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0032",
@@ -671,11 +671,11 @@
       "answer_letter": "A",
       "explanation": "C5–C6 loss paralyzes abductors/lateral rotators (deltoid, supraspinatus, infraspinatus, teres minor) and elbow flexors/supinators (biceps, brachialis, brachioradialis, supinator), leaving the limb adducted, internally rotated, extended, and pronated.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0033",
@@ -692,11 +692,11 @@
       "answer_letter": "B",
       "explanation": "C8–T1 supplies all small muscles of the hand via the ulnar and median nerves; avulsion of T1 also disrupts preganglionic sympathetic fibers, causing ptosis, miosis, and anhidrosis (Horner's syndrome).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0034",
@@ -713,11 +713,11 @@
       "answer_letter": "A",
       "explanation": "The posterior cord (formed by posterior divisions of all three trunks) gives rise to: Upper subscapular, Lower subscapular, Thoracodorsal, Radial, and Axillary nerves.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0035",
@@ -734,11 +734,11 @@
       "answer_letter": "B",
       "explanation": "The thoracodorsal nerve arises from the posterior cord and enters the deep surface of latissimus dorsi; it must be identified and preserved during axillary lymphadenectomy.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0036",
@@ -755,11 +755,11 @@
       "answer_letter": "B",
       "explanation": "The axillary nerve winds closely around the surgical neck of the humerus; its injury paralyzes deltoid (flattening the shoulder contour and impairing abduction beyond 15°) and teres minor, with sensory loss over the 'regimental badge' area.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0037",
@@ -776,11 +776,11 @@
       "answer_letter": "A",
       "explanation": "The median nerve (C5–T1) is formed anterior to the 3rd part of the axillary artery by the union of the lateral root (from lateral cord) and medial root (from medial cord).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0038",
@@ -797,11 +797,11 @@
       "answer_letter": "A",
       "explanation": "The lateral pectoral nerve supplies pectoralis major, whereas the medial pectoral nerve pierces pectoralis minor (innervating it) to reach pectoralis major.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0039",
@@ -818,11 +818,11 @@
       "answer_letter": "B",
       "explanation": "Arising from the lateral cord, the musculocutaneous nerve pierces coracobrachialis, descends between biceps brachii and brachialis (supplying all three anterior arm muscles: 'BBC'), and terminates as the lateral antebrachial cutaneous nerve.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0040",
@@ -839,11 +839,11 @@
       "answer_letter": "B",
       "explanation": "The cords of the brachial plexus are named after their exact relationship to the 2nd part of the axillary artery behind pectoralis minor.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0041",
@@ -860,11 +860,11 @@
       "answer_letter": "B",
       "explanation": "The ulnar nerve descends medial to the brachial artery in the upper arm, then pierces the medial intermuscular septum (accompanied by the superior ulnar collateral vessels) to enter the posterior compartment and pass behind the medial epicondyle.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0042",
@@ -881,11 +881,11 @@
       "answer_letter": "B",
       "explanation": "After traversing the spiral groove posteriorly, the radial nerve and radial collateral artery pierce the lateral intermuscular septum to lie between brachialis and brachioradialis anteriorly.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0043",
@@ -902,11 +902,11 @@
       "answer_letter": "B",
       "explanation": "In the upper arm, the median nerve lies lateral to the brachial artery; at the mid-arm (insertion of coracobrachialis), it crosses anteriorly from lateral to medial, lying medial to the artery in the cubital fossa.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0044",
@@ -923,11 +923,11 @@
       "answer_letter": "B",
       "explanation": "The radial nerve and profunda brachii artery lie directly against the bone in the spiral groove; mid-shaft humeral fracture causes wrist drop (loss of wrist/finger extension) and sensory loss over the dorsal 1st web space, while sparing triceps (whose branches arise higher).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0045",
@@ -944,11 +944,11 @@
       "answer_letter": "B",
       "explanation": "The ulnar nerve is subcutaneous behind the medial epicondyle ('funny bone') before entering the forearm between the two heads of flexor carpi ulnaris.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0046",
@@ -965,11 +965,11 @@
       "answer_letter": "B",
       "explanation": "Posterior displacement of the distal humeral fragment in a supracondylar fracture can injure the brachial artery (risking Volkmann's ischemic contracture) and the median nerve.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0047",
@@ -986,11 +986,11 @@
       "answer_letter": "B",
       "explanation": "From lateral to medial within the cubital fossa: Radial nerve (deep to brachioradialis), Biceps tendon, Brachial artery, and Median nerve.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0048",
@@ -1007,11 +1007,11 @@
       "answer_letter": "B",
       "explanation": "The brachial artery bifurcates into the radial and ulnar arteries opposite the neck of the radius in the distal cubital fossa.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0049",
@@ -1028,11 +1028,11 @@
       "answer_letter": "A",
       "explanation": "Anterior to the medial epicondyle, the anterior branch of the inferior ulnar collateral artery anastomoses with the anterior ulnar recurrent artery.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0050",
@@ -1049,11 +1049,11 @@
       "answer_letter": "A",
       "explanation": "Behind the medial epicondyle, the superior ulnar collateral and posterior branch of inferior ulnar collateral anastomose with the posterior ulnar recurrent artery.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0051",
@@ -1070,11 +1070,11 @@
       "answer_letter": "A",
       "explanation": "Around the lateral epicondyle, the two descending terminal branches of profunda brachii anastomose anteriorly with the radial recurrent artery and posteriorly with the interosseous recurrent artery.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0052",
@@ -1091,11 +1091,11 @@
       "answer_letter": "C",
       "explanation": "Neither the median nerve nor the ulnar nerve supplies any muscles in the arm (except the median nerve occasionally giving a twig to pronator teres just above the elbow).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0053",
@@ -1112,11 +1112,11 @@
       "answer_letter": "B",
       "explanation": "Coracobrachialis is pierced and innervated by the musculocutaneous nerve and acts solely on the shoulder joint (flexion and weak adduction).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0054",
@@ -1133,11 +1133,11 @@
       "answer_letter": "B",
       "explanation": "Biceps brachii is the most powerful supinator of the flexed forearm (e.g., driving a screw), whereas supinator acts best when the elbow is extended.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0055",
@@ -1154,11 +1154,11 @@
       "answer_letter": "B",
       "explanation": "Brachialis inserts onto the tuberosity of the ulna (which cannot rotate), making it the pure workhorse flexor of the elbow in all forearm positions.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0056",
@@ -1175,11 +1175,11 @@
       "answer_letter": "A",
       "explanation": "Anconeus is supplied by the branch of the radial nerve to the medial head of triceps within the spiral groove.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0057",
@@ -1196,11 +1196,11 @@
       "answer_letter": "B",
       "explanation": "The nutrient artery arises from the brachial artery and enters the humerus near the coracobrachialis insertion, running distally toward the elbow ('to the elbow I go, from the knee I flee').",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0058",
@@ -1217,11 +1217,11 @@
       "answer_letter": "B",
       "explanation": "The cubital fossa is bounded laterally by the medial border of brachioradialis, medially by the lateral border of pronator teres, and superiorly by an imaginary line between the humeral epicondyles.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0059",
@@ -1238,11 +1238,11 @@
       "answer_letter": "A",
       "explanation": "Ten structures traverse the carpal tunnel: the median nerve plus 9 flexor tendons (4 FDS, 4 FDP, and 1 FPL). The ulnar nerve/artery pass superficially through Guyon's canal.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0060",
@@ -1259,11 +1259,11 @@
       "answer_letter": "B",
       "explanation": "The palmar cutaneous branch of the median nerve branches off in the distal forearm and runs above the flexor retinaculum, escaping compression inside the carpal tunnel.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0061",
@@ -1280,11 +1280,11 @@
       "answer_letter": "A",
       "explanation": "The median nerve supplies the 'LOAF' muscles in the hand; all other intrinsic hand muscles (hypothenar, interossei, adductor pollicis, medial 2 lumbricals) are supplied by the deep branch of the ulnar nerve.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0062",
@@ -1301,11 +1301,11 @@
       "answer_letter": "A",
       "explanation": "The median nerve supplies the palmar skin of the lateral 3½ fingers and wraps around to supply the dorsal skin over their distal phalanges.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0063",
@@ -1322,11 +1322,11 @@
       "answer_letter": "B",
       "explanation": "Every muscle in the anterior forearm is supplied by the median nerve EXCEPT flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are innervated by the ulnar nerve.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0064",
@@ -1343,11 +1343,11 @@
       "answer_letter": "B",
       "explanation": "In a high median nerve lesion, loss of FDS and the lateral half of FDP prevents flexion of the index and middle fingers during fist formation ('hand of benediction'), alongside ape-hand thumb deformity.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0065",
@@ -1364,11 +1364,11 @@
       "answer_letter": "B",
       "explanation": "The ulnar nerve and ulnar artery pass superficial to the flexor retinaculum in Guyon's canal, radial to the pisiform bone and ulnar to the hook of the hamate.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0066",
@@ -1385,11 +1385,11 @@
       "answer_letter": "B",
       "explanation": "Intact FDP tendons in a distal ulnar nerve injury pull the IP joints into marked flexion while MCP joints hyperextend (unopposed extensors + paralyzed lumbricals/interossei), worsening the claw deformity.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0067",
@@ -1406,11 +1406,11 @@
       "answer_letter": "B",
       "explanation": "Froment's sign tests adductor pollicis (deep branch of ulnar nerve); when weak, the patient substitutes thumb flexion via FPL (median nerve).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0068",
@@ -1427,11 +1427,11 @@
       "answer_letter": "B",
       "explanation": "Dorsal interossei abduct the 2nd, 3rd, and 4th digits away from the axial line of the middle finger; palmar interossei adduct them ('PAD'). All interossei are supplied by the deep ulnar nerve.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0069",
@@ -1448,11 +1448,11 @@
       "answer_letter": "B",
       "explanation": "Because extensor carpi radialis longus is innervated proximal to the bifurcation of the radial nerve, wrist extension (with radial deviation) is preserved, and the posterior interosseous nerve is purely motor.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0070",
@@ -1469,11 +1469,11 @@
       "answer_letter": "A",
       "explanation": "The anatomical snuffbox is bounded laterally by APL and EPB tendons, medially by the EPL tendon, with the scaphoid and trapezium forming its floor.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0071",
@@ -1490,11 +1490,11 @@
       "answer_letter": "A",
       "explanation": "The radial artery crosses the floor of the anatomical snuffbox over the scaphoid to enter the 1st dorsal interosseous space, while the cephalic vein and superficial radial nerve cross its roof.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0072",
@@ -1511,11 +1511,11 @@
       "answer_letter": "A",
       "explanation": "The superficial palmar arch lies just deep to the palmar aponeurosis (at the level of the fully extended thumb's distal border) and is mainly derived from the ulnar artery.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0073",
@@ -1532,11 +1532,11 @@
       "answer_letter": "A",
       "explanation": "The deep palmar arch lies ~1 cm proximal to the superficial palmar arch directly across the bases of the metacarpals and interossei, supplied mainly by the radial artery.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0074",
@@ -1553,11 +1553,11 @@
       "answer_letter": "B",
       "explanation": "Upon entering the palm, the radial artery gives off the princeps pollicis and radialis indicis arteries before continuing as the deep palmar arch.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0075",
@@ -1574,11 +1574,11 @@
       "answer_letter": "B",
       "explanation": "At the wrist, the radial pulse is palpated directly against the distal radius between the tendon of brachioradialis laterally and the tendon of flexor carpi radialis medially.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0076",
@@ -1595,11 +1595,11 @@
       "answer_letter": "A",
       "explanation": "In the middle and lower thirds of the forearm, the ulnar artery is accompanied on its medial side by the ulnar nerve, both lying beneath flexor carpi ulnaris.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0077",
@@ -1616,11 +1616,11 @@
       "answer_letter": "A",
       "explanation": "The flexor tendon sheaths of the thumb (radial bursa) and little finger (ulnar bursa) extend through the carpal tunnel into the forearm and often intercommunicate, allowing 'horseshoe' spread of tenosynovitis.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0078",
@@ -1637,11 +1637,11 @@
       "answer_letter": "A",
       "explanation": "Brachioradialis and extensor carpi radialis longus arise from the lateral supracondylar ridge and are supplied by the main radial nerve trunk before it divides into superficial and deep (posterior interosseous) branches.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0079",
@@ -1658,11 +1658,11 @@
       "answer_letter": "B",
       "explanation": "The modified Allen's test occludes both radial and ulnar arteries while the patient clenches the fist, then releases the ulnar artery to verify rapid palmar flushing (<5–10 seconds) through the palmar arches.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-UL-0080",
@@ -1679,11 +1679,364 @@
       "answer_letter": "B",
       "explanation": "The median nerve lies immediately medial to the flexor carpi radialis tendon (and deep to palmaris longus) just proximal to the carpal tunnel; laceration here causes ape-hand deformity, loss of thumb opposition, and sensory loss over the lateral 3½ digits.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Upper_Limb_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0001",
+      "subject": "UL",
+      "topic": "Brachial plexus variations",
+      "stem": "A brachial plexus with a major contribution from C4 is described in the lecture as which variant?",
+      "options": [
+        "Prefixed brachial plexus",
+        "Postfixed brachial plexus",
+        "Trunk-free brachial plexus",
+        "Infraclavicular plexus"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The lecture calls the plexus prefixed when it has a major C4 contribution; a major T2 contribution is termed postfixed.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Slide 50 states that a prefixed plexus has a major C4 contribution and a postfixed plexus a major T2 contribution. PDF p. 50; slide 50",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0002",
+      "subject": "UL",
+      "topic": "Pectoral nerves",
+      "stem": "Which nerve pierces pectoralis minor before supplying it and then continues to supply pectoralis major?",
+      "options": [
+        "Lateral pectoral nerve",
+        "Medial pectoral nerve",
+        "Long thoracic nerve",
+        "Thoracodorsal nerve"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The medial pectoral nerve pierces pectoralis minor, supplies it, and then supplies pectoralis major.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Slide 62 describes the medial pectoral nerve leaving the axilla by piercing pectoralis minor and supplying both pectoral muscles. PDF p. 62; slide 62",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0003",
+      "subject": "UL",
+      "topic": "Pectoral nerves",
+      "stem": "Which muscle is supplied by the lateral pectoral nerve according to the lecture?",
+      "options": [
+        "Pectoralis minor only",
+        "Pectoralis major only",
+        "Both pectoralis major and minor",
+        "Serratus anterior only"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The lateral pectoral nerve is described as supplying pectoralis major only.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Slide 63 says the lateral pectoral nerve arises from the lateral cord and supplies pectoralis major muscle only. PDF p. 63; slide 63",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0004",
+      "subject": "UL",
+      "topic": "Cutaneous innervation of the upper limb",
+      "stem": "Which two nerves are exceptions to the brachial-plexus supply of upper-limb skin, as noted in the lecture?",
+      "options": [
+        "Supraclavicular and intercostobrachial nerves",
+        "Axillary and radial nerves",
+        "Median and ulnar nerves",
+        "Musculocutaneous and medial cutaneous nerves of forearm"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The lecture identifies skin above the deltoid and upper medial arm as supplied by the supraclavicular and intercostobrachial nerves, respectively.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Slide 74 lists supraclavicular and intercostobrachial nerves as exceptions to brachial-plexus cutaneous supply. PDF p. 74; slide 74",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0005",
+      "subject": "UL",
+      "topic": "Brachial artery relations",
+      "stem": "In the cubital fossa, what structure separates the brachial artery from the median cubital vein?",
+      "options": [
+        "Flexor retinaculum",
+        "Bicipital aponeurosis",
+        "Palmar aponeurosis",
+        "Interosseous membrane"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The bicipital aponeurosis lies over the brachial artery and separates it from the median cubital vein.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Slide 76 notes that the bicipital aponeurosis crosses the brachial artery and separates it from the median cubital vein. PDF p. 76; slide 76",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0006",
+      "subject": "UL",
+      "topic": "Elbow arterial anastomosis",
+      "stem": "Which pair forms the arterial anastomosis in front of the medial epicondyle?",
+      "options": [
+        "Superior ulnar collateral and posterior ulnar recurrent arteries",
+        "Anterior branch of inferior ulnar collateral and anterior ulnar recurrent arteries",
+        "Radial recurrent and posterior descending profunda brachii arteries",
+        "Posterior ulnar recurrent and interosseous recurrent arteries"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The anterior branch of the inferior ulnar collateral artery joins the anterior ulnar recurrent artery in front of the medial epicondyle.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Slide 80 lists the anterior branch of the inferior ulnar collateral and anterior ulnar recurrent arteries in front of the medial epicondyle. PDF p. 80; slide 80",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0007",
+      "subject": "UL",
+      "topic": "Arterial supply of the humerus",
+      "stem": "At which landmark does the nutrient artery of the humerus enter the bone?",
+      "options": [
+        "Insertion of coracobrachialis",
+        "Deltoid tuberosity",
+        "Surgical neck",
+        "Medial epicondyle"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The lecture places the humeral nutrient artery entry at the insertion of coracobrachialis.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Slide 82 states that the nutrient artery enters the humerus at the insertion of coracobrachialis. PDF p. 82; slide 82",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0008",
+      "subject": "UL",
+      "topic": "Radial nerve course",
+      "stem": "Which artery accompanies the radial nerve in the spiral groove of the humerus?",
+      "options": [
+        "Superior ulnar collateral artery",
+        "Profunda brachii artery",
+        "Anterior circumflex humeral artery",
+        "Thoracoacromial artery"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The radial nerve travels in the spiral groove with the profunda brachii artery.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Slide 82 says the profunda brachii accompanies the radial nerve in the spiral groove of the humerus. PDF p. 82; slide 82",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0009",
+      "subject": "UL",
+      "topic": "Cubital fossa",
+      "stem": "Moving from medial to lateral through the cubital fossa, which sequence of contents is correct?",
+      "options": [
+        "Median nerve, brachial artery, bicipital tendon, radial nerve",
+        "Brachial artery, median nerve, radial nerve, bicipital tendon",
+        "Bicipital tendon, brachial artery, median nerve, radial nerve",
+        "Radial nerve, bicipital tendon, brachial artery, median nerve"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The listed order from medial to lateral is median nerve, brachial artery, bicipital tendon, and radial nerve.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Slide 92 explicitly lists the cubital-fossa contents from medial to lateral, including median nerve then brachial artery; slide 93 completes the list with tendon and radial nerve. PDF p. 92; slide 92",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0010",
+      "subject": "UL",
+      "topic": "Median nerve in the forearm",
+      "stem": "How does the median nerve enter the forearm from the cubital fossa?",
+      "options": [
+        "Between the two heads of pronator teres",
+        "Behind the medial epicondyle between the heads of flexor carpi ulnaris",
+        "Through the carpal tunnel",
+        "Between the heads of the first dorsal interosseous"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The median nerve passes between the two heads of pronator teres as it leaves the cubital fossa.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Slide 101 describes the median nerve leaving the cubital fossa between the two heads of pronator teres. PDF p. 101; slide 101",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0011",
+      "subject": "UL",
+      "topic": "Anterior interosseous nerve course",
+      "stem": "On which structure does the anterior interosseous nerve descend, and which artery accompanies it?",
+      "options": [
+        "On the anterior surface of the interosseous membrane with the anterior interosseous artery",
+        "On the posterior surface of the ulna with the ulnar artery",
+        "Within the carpal tunnel with the radial artery",
+        "Along the posterior surface of the radius with the posterior interosseous artery"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The slide describes the anterior interosseous nerve descending on the front of the interosseous membrane with the anterior interosseous artery.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The slide places the nerve on the anterior membrane surface and pairs it with the anterior interosseous artery. PDF p. 102; slide 102",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0012",
+      "subject": "UL",
+      "topic": "Ulnar nerve in the hand",
+      "stem": "At the wrist, how does the ulnar nerve enter the hand relative to the flexor retinaculum?",
+      "options": [
+        "Deep to it through the carpal tunnel",
+        "Superficial to it, just lateral to the pisiform",
+        "Through the anatomical snuffbox",
+        "Between the two heads of pronator teres"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The ulnar nerve passes over the flexor retinaculum, just lateral to the pisiform, before dividing in the hand.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Slide 109 states that the ulnar nerve enters over the flexor retinaculum just lateral to pisiform. PDF p. 109; slide 109",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0013",
+      "subject": "UL",
+      "topic": "Radial nerve branches",
+      "stem": "The deep terminal branch of the radial nerve becomes which nerve after piercing the supinator?",
+      "options": [
+        "Anterior interosseous nerve",
+        "Posterior interosseous nerve",
+        "Lateral cutaneous nerve of forearm",
+        "Dorsal scapular nerve"
+      ],
+      "answer_index": 1,
+      "answer_letter": "B",
+      "explanation": "The deep branch pierces the supinator and continues as the posterior interosseous nerve.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Slide 114 identifies the deep branch of the radial nerve as the posterior interosseous nerve and describes its passage through supinator. PDF p. 114; slide 114",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0014",
+      "subject": "UL",
+      "topic": "Radial artery course",
+      "stem": "After crossing the anatomical snuffbox, through which interval does the radial artery enter the palm?",
+      "options": [
+        "Between the two heads of the first dorsal interosseous",
+        "Between the two heads of pronator teres",
+        "Through the carpal tunnel",
+        "Between the heads of flexor carpi ulnaris"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The radial artery enters the palm between the two heads of the first dorsal interosseous muscle.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Slide 122 states that the radial artery enters the palm between the two heads of the first dorsal interosseous, then continues as the deep palmar arch. PDF p. 122; slide 122",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0015",
+      "subject": "UL",
+      "topic": "Ulnar artery course",
+      "stem": "In the lower two-thirds of the forearm, what is the ulnar artery's position relative to the ulnar nerve?",
+      "options": [
+        "Lateral to the ulnar nerve",
+        "Medial to the ulnar nerve",
+        "Posterior to the ulnar nerve within the carpal tunnel",
+        "Superficial to the ulnar nerve in the anatomical snuffbox"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The ulnar artery descends lateral to the ulnar nerve in the lower two-thirds of the forearm.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Slide 128 describes the artery in the lower two-thirds as deep to FCU, superficial to FDP, and lateral to the ulnar nerve. PDF p. 128; slide 128",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-UL-0016",
+      "subject": "UL",
+      "topic": "Wrist arterial anastomosis",
+      "stem": "Which artery contributes its descending carpal branch to the anterior carpal arch?",
+      "options": [
+        "Anterior interosseous artery",
+        "Posterior interosseous artery",
+        "Profunda brachii artery",
+        "Posterior circumflex humeral artery"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The descending carpal branch of the anterior interosseous artery is one of the contributors to the anterior carpal arch.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "Slide 130 lists the descending carpal branch of the anterior interosseous artery among the anterior carpal arch contributors. PDF p. 130; slide 130",
+      "clinicalReviewStatus": "approved-by-owner"
     }
-  ]
+  ],
+  "clinicalReviewNote": "Published after explicit approval by the project owner for the unified collaboration work."
 }

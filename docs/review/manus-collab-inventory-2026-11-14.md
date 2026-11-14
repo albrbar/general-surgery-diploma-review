@@ -7,3 +7,5 @@ The owner-approved `anatomy03-ab-v2.json` contribution contains 16 Abdomen quest
 The other Anatomy03 files inspected from the client handoff contain 16 questions each for Upper Limb, Pelvis & Perineum, Lower Limb, Breast, and an additional Abdomen set. Their records are marked `status: draft` and `reviewStatus: pending-clinical-review`; they were not promoted or published automatically. The existing 80-question banks remain unchanged.
 
 The HTML landing-page file, archive ZIPs, screenshots, governance documents, and handoff notes were treated as reference material only. No external HTML application was copied into the production site, and no Drive URL was used as a learner-facing asset host.
+
+The project owner instructed that the five pending QBank 3 batches be treated as approved and published. The GitHub collaboration branch was used as a stable copy when Drive content access was inconsistent; 16 questions were merged into each corresponding bank.

@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0-governance",
-  "title": "General Surgery Diploma — The Pelvis & Perineum MCQ Bank",
+  "title": "General Surgery Diploma — The Pelvis & Perineum MCQ Bank (96 Questions)",
   "language": "en",
   "answerVisibility": "hidden-until-submitted",
-  "statusPolicy": "source-provided; not independently clinically reviewed",
+  "statusPolicy": "approved-by-project-owner",
   "questions": [
     {
       "id": "GS-PELV-0001",
@@ -20,11 +20,11 @@
       "answer_letter": "C",
       "explanation": "The sigmoid colon begins at the pelvic brim as a continuation of the descending colon and ends at the middle piece of the sacrum (S3) where it becomes the rectum.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0002",
@@ -41,11 +41,11 @@
       "answer_letter": "A",
       "explanation": "The root of the sigmoid mesocolon has an inverted V-shape, with its left limb along the external iliac artery and right limb extending to the 3rd piece of the sacrum.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0003",
@@ -62,11 +62,11 @@
       "answer_letter": "B",
       "explanation": "The rectum measures approximately 5 inches (13 cm) in length, following the curve of the sacrum and coccyx.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0004",
@@ -83,11 +83,11 @@
       "answer_letter": "B",
       "explanation": "Houston’s valves are formed by the mucous membrane folding along with the inner circular muscle layer (two on the left, one on the right).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0005",
@@ -104,11 +104,11 @@
       "answer_letter": "A",
       "explanation": "Peritoneum covers the upper third on front and sides, middle third on the front only, and leaves the lower third completely bare.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0006",
@@ -125,11 +125,11 @@
       "answer_letter": "C",
       "explanation": "The superior rectal artery is the direct continuation of the inferior mesenteric artery supplying the upper rectum.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0007",
@@ -146,11 +146,11 @@
       "answer_letter": "B",
       "explanation": "Superior rectal vein drains into the inferior mesenteric vein, establishing the portal venous drainage of the upper rectum.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0008",
@@ -167,11 +167,11 @@
       "answer_letter": "C",
       "explanation": "The rectum and upper anal canal possess autonomic innervation (inferior hypogastric plexus) and are sensitive exclusively to stretch, not somatic pain.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0009",
@@ -188,11 +188,11 @@
       "answer_letter": "C",
       "explanation": "Anterior relations of the lower third of the rectum in males include the bladder base, seminal vesicles, and ampulla of the vas deferens.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0010",
@@ -209,11 +209,11 @@
       "answer_letter": "C",
       "explanation": "The upper two-thirds of the female rectum are separated anteriorly from coils of small bowel and sigmoid by the rectouterine pouch (Douglas’ pouch).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0011",
@@ -230,11 +230,11 @@
       "answer_letter": "B",
       "explanation": "The fascia of Waldeyer (mesorectal fascia) suspends the rectum from the sacrum and is a key surgical landmark in total mesorectal excision (TME).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0012",
@@ -251,11 +251,11 @@
       "answer_letter": "A",
       "explanation": "The middle rectal artery arises directly from the anterior division of the internal iliac artery.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0013",
@@ -272,11 +272,11 @@
       "answer_letter": "C",
       "explanation": "Upper rectal lymphatics follow the superior rectal vessels to pararectal nodes and up to the inferior mesenteric lymph node chain.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0014",
@@ -293,11 +293,11 @@
       "answer_letter": "B",
       "explanation": "The lower rectum and anal canal receive blood from the inferior rectal arteries branching from the internal pudendal arteries.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0015",
@@ -314,11 +314,11 @@
       "answer_letter": "B",
       "explanation": "Sympathetic fibers originate from T11-L2 via lumbar splanchnics and the hypogastric plexuses, mediating inhibition of peristalsis and contraction of sphincters.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0016",
@@ -335,11 +335,11 @@
       "answer_letter": "C",
       "explanation": "Pelvic splanchnic nerves (S2-S4) provide parasympathetic motor supply to the distal gut and inhibitory input to the internal anal sphincter.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0017",
@@ -356,11 +356,11 @@
       "answer_letter": "B",
       "explanation": "Preservation of pelvic splanchnic nerves and hypogastric plexuses is critical to avoid postoperative urinary retention and sexual dysfunction.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0018",
@@ -377,11 +377,11 @@
       "answer_letter": "A",
       "explanation": "At the rectosigmoid junction, the three separate taeniae coli spread out to form a continuous longitudinal muscle layer around the rectum.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0019",
@@ -398,11 +398,11 @@
       "answer_letter": "B",
       "explanation": "The rectouterine pouch (Douglas' pouch) is the most dependent part of the female peritoneal cavity, where fluid or pelvic pathology accumulates.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0020",
@@ -419,11 +419,11 @@
       "answer_letter": "B",
       "explanation": "Waldeyer's fascia (posterior mesorectal fascia) is the avascular plane behind the rectum that must be sharply dissected during rectal cancer surgery.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0021",
@@ -440,11 +440,11 @@
       "answer_letter": "A",
       "explanation": "The anal canal extends downward and backward from the anorectal junction to the anus, measuring about 4 cm (1.5 inches).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0022",
@@ -461,11 +461,11 @@
       "answer_letter": "A",
       "explanation": "The dentate line represents the embryological transition zone between endoderm (hindgut) and ectoderm (proctodeum), creating a major landmark for innervation, venous drainage, and lymphatic spread.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0023",
@@ -482,11 +482,11 @@
       "answer_letter": "C",
       "explanation": "Above the pectinate line, the anal canal is lined by columnar/transitional epithelium, supplied by visceral afferents (stretch-sensitive), and drains to internal iliac nodes.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0024",
@@ -503,11 +503,11 @@
       "answer_letter": "A",
       "explanation": "Below the dentate line, the anoderm is somatic-innervated by the inferior rectal nerve (pudendal branch), making it exquisitely sensitive to pain, touch, and temperature.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0025",
@@ -524,11 +524,11 @@
       "answer_letter": "B",
       "explanation": "Internal hemorrhoids are prolapsing submucosal vascular cushions located above the pectinate line at specific clock positions (3, 7, and 11 o'clock in lithotomy position).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0026",
@@ -545,11 +545,11 @@
       "answer_letter": "C",
       "explanation": "External hemorrhoids are dilatations of the inferior rectal venous plexus located below the pectinate line, covered by somatically innervated anoderm.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0027",
@@ -566,11 +566,11 @@
       "answer_letter": "B",
       "explanation": "The anorectal ring is a crucial muscular ring formed by the puborectalis, deep external sphincter, and upper internal sphincter; its transection causes permanent fecal incontinence.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0028",
@@ -587,11 +587,11 @@
       "answer_letter": "B",
       "explanation": "The internal sphincter is an involuntary smooth muscle thickening formed by the inner circular layer of the rectal muscle coat.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0029",
@@ -608,11 +608,11 @@
       "answer_letter": "A",
       "explanation": "The external sphincter is voluntary skeletal muscle divided into subcutaneous, superficial, and deep portions.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0030",
@@ -629,11 +629,11 @@
       "answer_letter": "A",
       "explanation": "Voluntary control of the external anal sphincter is provided by the inferior rectal nerve (pudendal nerve, S2-S4).",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0031",
@@ -650,11 +650,11 @@
       "answer_letter": "B",
       "explanation": "Hilton’s white line marks the intersphincteric groove position inside the anal canal, separating non-keratinized stratified squamous epithelium from true perianal skin.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0032",
@@ -671,11 +671,11 @@
       "answer_letter": "C",
       "explanation": "Because the lower anal canal is somatic/cutaneous, its lymph drains directly into the superficial inguinal lymph nodes.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0033",
@@ -692,11 +692,11 @@
       "answer_letter": "B",
       "explanation": "The wedge-shaped ischiorectal fossa is bounded medially by the levator ani and anal canal, and laterally by the obturator internus muscle.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0034",
@@ -713,11 +713,11 @@
       "answer_letter": "A",
       "explanation": "Alcock’s canal is a fascial tunnel within the obturator fascia on the lateral wall of the ischiorectal fossa.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0035",
@@ -734,11 +734,11 @@
       "answer_letter": "B",
       "explanation": "The pudendal canal transmits the internal pudendal artery and vein, and the pudendal nerve.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0036",
@@ -755,11 +755,11 @@
       "answer_letter": "A",
       "explanation": "The perineal body is a vital fibromuscular junction where multiple perineal muscles converge, essential for pelvic floor integrity.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0037",
@@ -776,11 +776,11 @@
       "answer_letter": "A",
       "explanation": "The perineal body anchors the urogenital and anal triangles, receiving insertions from bulbospongiosus, transverse perinei, external sphincter, and levator ani.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0038",
@@ -797,11 +797,11 @@
       "answer_letter": "B",
       "explanation": "Over 85-90% of typical anal fissures occur in the posterior midline because of relatively sparse blood perfusion in that zone.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0039",
@@ -818,11 +818,11 @@
       "answer_letter": "B",
       "explanation": "Denonvilliers’ fascia is the rectovesical septum separating the posterior prostate and seminal vesicles from the anterior rectal wall.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0040",
@@ -839,11 +839,11 @@
       "answer_letter": "A",
       "explanation": "Intersphincteric abscesses are located in the intersphincteric space between the internal and external anal sphincters.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0041",
@@ -860,11 +860,11 @@
       "answer_letter": "B",
       "explanation": "Puborectalis acts as a dynamic muscular sling that maintains the acute anorectal flexure, crucial for resting fecal continence.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0042",
@@ -881,11 +881,11 @@
       "answer_letter": "A",
       "explanation": "Ischiorectal abscesses fill the fossa with pus, producing marked systemic sepsis signs, throbbing pain, and fluctuant swelling beside the anus.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0043",
@@ -902,11 +902,11 @@
       "answer_letter": "A",
       "explanation": "Infection originating in posterior crypts can track through the deep post-anal space into both ischiorectal fossae, forming a horseshoe abscess.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0044",
@@ -923,11 +923,11 @@
       "answer_letter": "A",
       "explanation": "Pelvic lymph eventually ascends via lumbar trunks into the cisterna chyli and thoracic duct.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0045",
@@ -944,11 +944,11 @@
       "answer_letter": "A",
       "explanation": "The pudendal nerve provides somatic sensation to the entire perineum, including scrotum/labia and the anal canal below the dentate line.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0046",
@@ -965,11 +965,11 @@
       "answer_letter": "C",
       "explanation": "When fully distended, the adult bladder can hold 500 ml or more as it rises above the pubic crest into the hypogastric region.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0047",
@@ -986,11 +986,11 @@
       "answer_letter": "B",
       "explanation": "The trigone is bounded by the two ureteric orifices and the internal urethral meatus; its mucosa is smooth and tightly bound because it lacks a submucosal layer.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0048",
@@ -1007,11 +1007,11 @@
       "answer_letter": "B",
       "explanation": "The superior surface of the bladder is intraperitoneal, covered by peritoneum that reflects onto the anterior abdominal wall and uterus/rectum.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0049",
@@ -1028,11 +1028,11 @@
       "answer_letter": "A",
       "explanation": "Sympathetic preganglionic fibers originate from thoracolumbar segments T11-L2 via the superior and inferior hypogastric plexuses.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0050",
@@ -1049,11 +1049,11 @@
       "answer_letter": "C",
       "explanation": "Parasympathetic fibers (nervi erigentes) originate from sacral segments S2-S4 to mediate bladder emptying.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0051",
@@ -1070,11 +1070,11 @@
       "answer_letter": "A",
       "explanation": "The retropubic space of Retzius is an extraperitoneal fat-containing space between the pubic bones and the anterior bladder wall.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0052",
@@ -1091,11 +1091,11 @@
       "answer_letter": "B",
       "explanation": "The posterior surface (base) of the male bladder rests against the seminal vesicles and vas deferens.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0053",
@@ -1112,11 +1112,11 @@
       "answer_letter": "B",
       "explanation": "Ureters pierce the posterolateral wall of the bladder obliquely at the upper corners of the trigone, creating a valvelike antireflux mechanism.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0054",
@@ -1133,11 +1133,11 @@
       "answer_letter": "B",
       "explanation": "The tunnel-like oblique course of the ureter through the detrusor muscle acts as a physiological one-way valve during bladder contraction.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0055",
@@ -1154,11 +1154,11 @@
       "answer_letter": "A",
       "explanation": "Superior and inferior vesical arteries branching from the anterior division of the internal iliac artery supply the bladder.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0056",
@@ -1175,11 +1175,11 @@
       "answer_letter": "B",
       "explanation": "The vesical venous plexus drains into the internal iliac veins.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0057",
@@ -1196,11 +1196,11 @@
       "answer_letter": "A",
       "explanation": "Lymphatic drainage from the bladder follows vesical vessels to internal and external iliac lymph nodes.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0058",
@@ -1217,11 +1217,11 @@
       "answer_letter": "A",
       "explanation": "The urachus (embryonic allantoic stalk) obliterates to form the median umbilical ligament extending from bladder apex to umbilicus.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0059",
@@ -1238,11 +1238,11 @@
       "answer_letter": "B",
       "explanation": "The sphincter urethrae muscle surrounding the membranous urethra in the urogenital diaphragm provides voluntary urinary control.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0060",
@@ -1259,11 +1259,11 @@
       "answer_letter": "B",
       "explanation": "The female urethra is short (about 4 cm long), passing directly from bladder to vestibule anterior to the vagina.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0061",
@@ -1280,11 +1280,11 @@
       "answer_letter": "B",
       "explanation": "The prostatic urethra traverses the prostate gland from base to apex, receiving prostatic ducts and ejaculatory ducts at the verumontanum.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0062",
@@ -1301,11 +1301,11 @@
       "answer_letter": "B",
       "explanation": "The membranous urethra is fixed within the urogenital diaphragm and represents a narrow, less distensible segment prone to tearing.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0063",
@@ -1322,11 +1322,11 @@
       "answer_letter": "C",
       "explanation": "Shear forces at the prostatomembranous junction during pelvic ring fractures commonly cause posterior urethral disruption.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0064",
@@ -1343,11 +1343,11 @@
       "answer_letter": "A",
       "explanation": "Entering the deep ring, the vas deferens hooks around the inferior epigastric artery and crosses external iliac vessels to enter the pelvis.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0065",
@@ -1364,11 +1364,11 @@
       "answer_letter": "A",
       "explanation": "Seminal vesicles lie retrovesically between the posterior bladder base and the anterior rectal wall.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0066",
@@ -1385,11 +1385,11 @@
       "answer_letter": "B",
       "explanation": "The pelvic floor (diaphragm) is formed primarily by the paired levator ani and coccygeus muscles.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0067",
@@ -1406,11 +1406,11 @@
       "answer_letter": "A",
       "explanation": "Levator ani is subdivided into puborectalis, pubococcygeus, and iliococcygeus.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0068",
@@ -1427,11 +1427,11 @@
       "answer_letter": "A",
       "explanation": "Levator ani is innervated directly by anterior primary rami of S4 and the perineal branch of the pudendal nerve.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0069",
@@ -1448,11 +1448,11 @@
       "answer_letter": "B",
       "explanation": "The piriformis muscle originates from the anterior sacrum and passes laterally through the greater sciatic foramen to the greater trochanter.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0070",
@@ -1469,11 +1469,11 @@
       "answer_letter": "A",
       "explanation": "The tendon of obturator internus turns at a right angle around the ischial spine (lesser sciatic notch) to enter the lesser sciatic foramen.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0071",
@@ -1490,11 +1490,11 @@
       "answer_letter": "A",
       "explanation": "The sacral plexus lies on the piriformis muscle, with the large sciatic nerve emerging directly anterior to it.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0072",
@@ -1511,11 +1511,11 @@
       "answer_letter": "B",
       "explanation": "The pudendal nerve crosses the sacrospinous ligament near its attachment to the ischial spine, making the ischial spine the target landmark for infiltration.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0073",
@@ -1532,11 +1532,11 @@
       "answer_letter": "A",
       "explanation": "The obturator nerve and vessels pass through the obturator canal in the superior pubic ramus.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0074",
@@ -1553,11 +1553,11 @@
       "answer_letter": "B",
       "explanation": "The ureter passes under the uterine artery near the lateral fornix of the vagina ('water under the bridge'), placing it at high risk during ligation of uterine vessels.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0075",
@@ -1574,11 +1574,11 @@
       "answer_letter": "A",
       "explanation": "Internal iliac and obturator lymph nodes receive primary drainage from deep pelvic viscera and genitalia.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0076",
@@ -1595,11 +1595,11 @@
       "answer_letter": "A",
       "explanation": "The cardinal ligaments extend from the lateral pelvic walls to the cervix/upper vagina, transmitting the uterine vessels.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0077",
@@ -1616,11 +1616,11 @@
       "answer_letter": "B",
       "explanation": "Apical support (cardinal/uterosacral complex) and level diaphragm support (levator ani) cooperate to maintain uterine position.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0078",
@@ -1637,11 +1637,11 @@
       "answer_letter": "A",
       "explanation": "Dissection in the 'holy plane' between the parietal pelvic fascia and visceral mesorectal fascia protects pelvic autonomic nerves and removes regional lymph nodes intact.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0079",
@@ -1658,11 +1658,11 @@
       "answer_letter": "A",
       "explanation": "The pelvic brim (linea terminalis) forms the circular inlet dividing the abdominal false pelvis from the true pelvic cavity.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
     },
     {
       "id": "GS-PELV-0080",
@@ -1679,11 +1679,364 @@
       "answer_letter": "A",
       "explanation": "The posterior and anterior divisions of the internal iliac artery supply the pelvic walls and viscera and are the primary source of life-threatening bleeding in unstable pelvic ring fractures.",
       "difficulty": "unrated",
-      "status": "source-provided",
+      "status": "approved",
       "high_yield": false,
       "source": "Dr. Khalid Milad — supplied question bank",
       "origin_file": "Pelvis_Perineum_80_MCQs_Dr_Khalid_Milad.docx",
-      "clinicalReviewStatus": "not-independently-reviewed"
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0001",
+      "subject": "PELV",
+      "topic": "Anal triangle",
+      "stem": "Which structures are contained in the anal triangle of the perineum?",
+      "options": [
+        "The anal canal and ischiorectal fossae",
+        "The urinary bladder and prostate",
+        "The urethra and external genitalia only",
+        "The rectum and uterine cavity"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The anal triangle contains the anal canal and the ischiorectal fossae.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The slide states that the anal triangle contains the anal canal and ischiorectal fossae. PDF p. 14; slide 151",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0002",
+      "subject": "PELV",
+      "topic": "Anal canal relations",
+      "stem": "Which structure is listed as an anterior relation of the anal canal?",
+      "options": [
+        "Perineal body and urogenital diaphragm",
+        "Anococcygeal body",
+        "Obturator internus",
+        "Sacrotuberous ligament"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The perineal body and urogenital diaphragm are the stated anterior relations of the anal canal.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The relations list names the perineal body and urogenital diaphragm anteriorly. PDF p. 15; slide 152",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0003",
+      "subject": "PELV",
+      "topic": "Anal canal relations",
+      "stem": "What is the posterior relation of the anal canal?",
+      "options": [
+        "Anococcygeal body",
+        "Perineal body",
+        "Urogenital diaphragm",
+        "Obturator fascia"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The slide identifies the anococcygeal body as the posterior relation.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The relations list gives the anococcygeal body posteriorly. PDF p. 15; slide 152",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0004",
+      "subject": "PELV",
+      "topic": "Anal canal orientation",
+      "stem": "In which direction does the anal canal pass from the anorectal junction toward the anus?",
+      "options": [
+        "Downward and backward",
+        "Upward and forward",
+        "Horizontally to the right",
+        "Downward and forward"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The anal canal passes downward and backward from the anorectal junction.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The slide describes the canal as passing downward and backward. PDF p. 15; slide 152",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0005",
+      "subject": "PELV",
+      "topic": "External anal sphincter innervation",
+      "stem": "Which nerve supply is specified for the external anal sphincter?",
+      "options": [
+        "Inferior rectal nerve and perineal branch of S4",
+        "Obturator nerve and L2",
+        "Pelvic splanchnic nerves only",
+        "Superior gluteal nerve and S1"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The external sphincter receives the inferior rectal nerve (from the pudendal nerve) and the perineal branch of S4.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The slide directly names the inferior rectal nerve and S4 perineal branch. PDF p. 18; slide 155",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0006",
+      "subject": "PELV",
+      "topic": "Anal canal muscle coat",
+      "stem": "Where does the outer longitudinal smooth-muscle layer of the anal canal descend?",
+      "options": [
+        "Between the internal and external anal sphincters",
+        "Within the pudendal canal",
+        "Between the two layers of the bladder wall",
+        "Through the obturator canal"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The outer longitudinal layer continues from the rectum and descends in the interval between the two anal sphincters.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The slide describes this layer as descending between the internal and external sphincters. PDF p. 19; slide 156",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0007",
+      "subject": "PELV",
+      "topic": "Anal mucosa",
+      "stem": "Which epithelial lining characterizes the lower half of the anal canal in the lecture slides?",
+      "options": [
+        "Stratified squamous epithelium",
+        "Columnar epithelium forming anal columns",
+        "Transitional epithelium",
+        "Simple cuboidal epithelium"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The lower half is lined by stratified squamous epithelium and lacks anal columns and valves.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The lower-half column specifies stratified squamous epithelium and absence of columns and valves. PDF p. 21; slide 158",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0008",
+      "subject": "PELV",
+      "topic": "Anal canal arterial supply",
+      "stem": "Which artery supplies the lower half of the anal canal according to the slides?",
+      "options": [
+        "Inferior rectal artery",
+        "Superior rectal artery",
+        "Middle rectal artery",
+        "Superior vesical artery"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The lower half is supplied by the inferior rectal artery, a branch of the internal pudendal artery.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The lower-half arterial supply entry names the inferior rectal artery from the internal pudendal artery. PDF p. 22; slide 159",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0009",
+      "subject": "PELV",
+      "topic": "Anal canal venous drainage",
+      "stem": "The inferior rectal vein drains first into which vein, as described in the slides?",
+      "options": [
+        "Internal pudendal vein",
+        "Inferior mesenteric vein",
+        "Splenic vein",
+        "External iliac vein"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The inferior rectal vein drains into the internal pudendal vein before reaching the internal iliac vein and systemic circulation.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The lower-half venous drainage pathway begins with the inferior rectal vein entering the internal pudendal vein. PDF p. 22; slide 159",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0010",
+      "subject": "PELV",
+      "topic": "Anal canal lymph drainage",
+      "stem": "Which lymph nodes receive lymph from the upper half of the anal canal in the slide table?",
+      "options": [
+        "Superior rectal nodes, then pararectal and inferior mesenteric nodes",
+        "Superficial inguinal nodes only",
+        "Internal iliac nodes only",
+        "Deep inguinal nodes, then external iliac nodes"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The upper-half pathway runs through superior rectal nodes and pararectal nodes to inferior mesenteric nodes.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The upper-half lymph entry lists superior rectal nodes, pararectal nodes, and inferior mesenteric nodes in sequence. PDF p. 22; slide 159",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0011",
+      "subject": "PELV",
+      "topic": "Puborectalis sling",
+      "stem": "What configuration do the puborectalis fibres form around the anorectal junction?",
+      "options": [
+        "A U-shaped sling",
+        "A complete circular ring around the anal verge",
+        "A straight band between the ischial tuberosities",
+        "A V-shaped ligament behind the coccyx"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The puborectalis fibres blend with the deep external sphincter to form a U-shaped sling.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The slide describes the puborectalis fibres as blending with the deep external sphincter into a U-shaped sling. PDF p. 23; slide 160",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0012",
+      "subject": "PELV",
+      "topic": "Ischiorectal fossa boundaries",
+      "stem": "Which structures form the lateral wall of the ischiorectal fossa?",
+      "options": [
+        "Obturator internus, obturator fascia, and pudendal canal",
+        "Levator ani and anal canal",
+        "Skin and superficial fascia",
+        "Sacrum and coccyx"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The lateral wall is formed by obturator internus, its fascia, and the pudendal canal.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The boundary list explicitly names obturator internus, obturator fascia, and pudendal canal laterally. PDF p. 25; slide 162",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0013",
+      "subject": "PELV",
+      "topic": "Ischiorectal fossa boundaries",
+      "stem": "What forms the anterior boundary of the ischiorectal fossa?",
+      "options": [
+        "Superficial and deep transverse perineal muscles",
+        "Sacrotuberous ligament",
+        "Obturator internus and pudendal canal",
+        "Levator ani and anal canal"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The anterior boundary is formed by the superficial and deep transverse perineal muscles.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The boundary list names the superficial and deep transverse perineal muscles anteriorly. PDF p. 25; slide 162",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0014",
+      "subject": "PELV",
+      "topic": "Ischiorectal fossa contents",
+      "stem": "Which named nerve and vessels are contents of the ischiorectal fossa?",
+      "options": [
+        "Inferior rectal nerve and vessels",
+        "Superior rectal nerve and vessels",
+        "Obturator nerve and vessels",
+        "Femoral nerve and vessels"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The fossa contains the inferior rectal nerve and vessels; the pudendal nerve and internal pudendal vessels lie within the pudendal canal.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The contents list includes inferior rectal nerve and vessels, followed by pudendal structures within the canal. PDF p. 26; slide 163",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0015",
+      "subject": "PELV",
+      "topic": "Pudendal canal",
+      "stem": "What forms the pudendal canal?",
+      "options": [
+        "A splitting of the obturator fascia",
+        "A tunnel through the sacrotuberous ligament",
+        "A passage through the levator ani",
+        "A division of the perineal membrane"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The pudendal canal is a tunnel formed by splitting of the obturator fascia.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The slide defines the canal as a tunnel formed by splitting of obturator fascia. PDF p. 27; slide 164",
+      "clinicalReviewStatus": "approved-by-owner"
+    },
+    {
+      "id": "GS-ANAT03-PE-0016",
+      "subject": "PELV",
+      "topic": "Pudendal nerve branches",
+      "stem": "Which territory is supplied by the perineal nerve, a branch of the pudendal nerve?",
+      "options": [
+        "Urogenital triangle muscles and skin on the posterior scrotum or labia majora",
+        "Lower half of the anal canal and perianal skin only",
+        "Bladder wall and ureteric orifices",
+        "Levator ani and skin over the sacrum"
+      ],
+      "answer_index": 0,
+      "answer_letter": "A",
+      "explanation": "The perineal nerve supplies muscles of the urogenital triangle and skin on the posterior scrotum or labia majora.",
+      "difficulty": "hard",
+      "status": "approved",
+      "high_yield": true,
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "origin_file": "GitHub collaboration branch / QBank 3 Anatomy",
+      "reference_snapshot": "The slide assigns urogenital-triangle muscles and posterior scrotal/labial skin to the perineal nerve. PDF p. 28; slide 165",
+      "clinicalReviewStatus": "approved-by-owner"
     }
-  ]
+  ],
+  "clinicalReviewNote": "Published after explicit approval by the project owner for the unified collaboration work."
 }

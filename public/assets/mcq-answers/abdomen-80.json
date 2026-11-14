@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0-governance",
-  "title": "General Surgery Diploma — Abdomen Anatomy MCQ Bank",
+  "title": "General Surgery Diploma — Abdomen MCQ Bank",
   "language": "en",
   "answerVisibility": "hidden-until-submitted",
   "statusPolicy": "approved-by-project-owner",
@@ -1685,5 +1685,6 @@
       "reference_snapshot": "Pages 85 and 140 of the file (Peritoneal ligaments of the liver including the left triangular ligament).",
       "clinicalReviewStatus": "approved-by-project-owner"
     }
-  ]
+  ],
+  "clinicalReviewNote": "Published by project owner on 2026-11-14; bank remains editable for later correction."
 }

@@ -37,7 +37,7 @@ const banks: Bank[] = [
     id: 'abdomen',
     file: 'abdomen-80.json',
     shortTitle: 'Abdomen Anatomy',
-    title: 'Abdomen Anatomy MCQ',
+    title: 'Abdomen Anatomy MCQ — 96 Questions',
     description: 'Abdominal wall, inguinal region, gastrointestinal tract, hepatobiliary anatomy, pancreas, spleen, and peritoneum.',
     subject: 'ABD',
     color: 'text-orange-800',
@@ -217,7 +217,7 @@ function QuestionBank({ bank }: { bank: Bank }) {
         <div className="flex items-center gap-4">
           <span className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl text-xs font-black ${bank.tint} ${bank.color}`}>{bank.subject}</span>
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.16em] text-teal-700">{bank.reviewNotice ?? 'Question bank · 80 questions'}</p>
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-teal-700">{bank.reviewNotice ?? `Question bank · ${questions.length || '…'} questions`}</p>
             <h3 className="text-xl font-black text-slate-900 sm:text-2xl">{bank.title}</h3>
             <p className="mt-1 max-w-3xl text-sm leading-6 text-slate-500">{bank.description}</p>
           </div>

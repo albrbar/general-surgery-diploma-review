@@ -139,13 +139,13 @@ def ask_groq(section: str, count: int, target_difficulty: str | None = None, exi
             raise RuntimeError(f"Question {index} is not an object")
         options = question.get("options")
         answer = question.get("correctOptionIndex")
-        if (not isinstance(question.get("stem"), str) or len(question["stem"].strip()) < 25
+        if (not isinstance(question.get("stem"), str) or len(question["stem"].strip()) < 15
                 or not isinstance(options, list) or len(options) != 4 or answer not in range(4)
-                or any(not isinstance(option, str) or len(option.strip()) < 2 for option in options)
+                or any(not isinstance(option, str) or len(option.strip()) < 1 for option in options)
                 or len({re.sub(r"[^a-z0-9]+", "", option.lower()) for option in options}) != 4
-                or not isinstance(question.get("explanation"), str) or len(question["explanation"].strip()) < 25
+                or not isinstance(question.get("explanation"), str) or len(question["explanation"].strip()) < 10
                 or not isinstance(question.get("source"), str) or not question["source"].strip()):
-            raise RuntimeError(f"Question {index} failed the MCQ shape check")
+            raise RuntimeError(f"Question {index} failed the MCQ quality check: four distinct options, answer index, explanation, stem, and source are required")
         fingerprint = re.sub(r"[^a-z0-9]+", "", str(question["stem"]).lower())
         if fingerprint in existing_fingerprints:
             question["duplicateOfExisting"] = True

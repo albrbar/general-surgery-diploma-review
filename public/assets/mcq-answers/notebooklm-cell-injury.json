@@ -1,0 +1,387 @@
+{
+  "questions": [
+    {
+      "id": "notebooklm-1",
+      "stem": "What is universally recognized as the most common etiology of cell injury in clinical medicine and surgical practice?",
+      "options": [
+        "Ionizing radiation exposure",
+        "Hypoxia and Ischemia (loss of oxygen or blood supply) 1",
+        "Vitamin B12 deficiency",
+        "Anaphylactic hypersensitivity"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Hypoxia and ischemia represent the most common cause of cell injury, depriving tissues of molecular oxygen and essential metabolic substrates required for ATP generation 1 .",
+      "difficulty": "easy",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-2",
+      "stem": "Which intracellular events represent the critical \"point of no return\" that transitions a cell from reversible injury to irreversible cell death?",
+      "options": [
+        "Detachment of ribosomes from the rough endoplasmic reticulum 1",
+        "Reversible cellular (hydropic) swelling due to temporary N a + / K + pump sluggishness 1",
+        "Severe mitochondrial damage with failure of ATP production, marked C a 2 + influx, and plasma/lysosomal membrane rupture 1",
+        "Mild clumping of nuclear chromatin 1"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Irreversible injury is defined by profound mitochondrial dysfunction (ATP failure), marked cytosolic calcium influx, extensive plasma membrane damage, and lysosomal membrane rupture leading to necrosis or apoptosis 1 .",
+      "difficulty": "medium",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-3",
+      "stem": "What is the earliest gross and light microscopic manifestation of almost all forms of acute reversible cell injury?",
+      "options": [
+        "Fatty change (steatosis) 1",
+        "Cellular (hydropic) swelling (\"cloudy swelling\") 1",
+        "Karyolysis and nuclear dissolution 1",
+        "Formation of myelin figures 1"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Cellular (hydropic) swelling is the earliest manifestation of reversible cell injury. It occurs when failure of energy-dependent N a + / K + ATPase pumps allows sodium and water to enter cells 1 . Grossly, affected organs show pallor, increased turgor, and increased weight 1 .",
+      "difficulty": "easy",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-4",
+      "stem": "When hypoxia impairs oxidative phosphorylation, what metabolic shift occurs within the cell, and what is its immediate biochemical outcome?",
+      "options": [
+        "Increased protein synthesis and nuclear alkalosis",
+        "Compensatory increase in anaerobic glycolysis, leading to lactic acid accumulation and a fall in intracellular pH 1",
+        "Immediate activation of membrane phospholipases",
+        "Upregulation of glycogen stores"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Hypoxia forces cells into anaerobic glycolysis to generate ATP, which rapidly depletes glycogen stores and accumulates lactic acid, dropping intracellular pH and denaturing structural enzymes 1 .",
+      "difficulty": "medium",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-5",
+      "stem": "Which pro-apoptotic protein leaks from the intermembrane space of damaged mitochondria into the cytosol to activate the intrinsic apoptotic pathway?",
+      "options": [
+        "Cytochrome c 1",
+        "Phospholipase A2 1",
+        "Caspase-8 1",
+        "Acid hydrolase 1"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Opening of the mitochondrial permeability transition pore (mPTP) leads to failure of ATP synthesis and leakage of cytochrome c into the cytosol, which triggers caspase-9 and the intrinsic apoptotic pathway 1 .",
+      "difficulty": "medium",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-6",
+      "stem": "Sustained influx of calcium ( C a 2 + ) into the cytosol during ischemic or toxic injury damages cells by activating which set of intracellular enzymes?",
+      "options": [
+        "Cyclins and cyclin-dependent kinases",
+        "Phospholipases, proteases, endonucleases, and ATPases 1",
+        "Reverse transcriptase and telomerase",
+        "Polymerases and ligases"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "High cytosolic calcium activates phospholipases (degrade cell membranes), proteases (break down cytoskeletal/membrane proteins), endonucleases (fragment DNA), and ATPases (accelerate ATP depletion) 1 .",
+      "difficulty": "medium",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-7",
+      "stem": "What are the primary molecular targets of Reactive Oxygen Species (ROS) during oxidative stress in injured cells?",
+      "options": [
+        "Lipid peroxidation of membranes, protein cross-linking/fragmentation, and DNA strand breaks 1",
+        "Active glycogen synthesis and cell wall thickening",
+        "Stabilization of mitochondrial membrane potentials",
+        "Upregulation of lysosomal acid hydrolases"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Free radicals contain unpaired electrons that react with lipids (causing membrane peroxidation), proteins (causing cross-linking and fragmentation), and nucleic acids (causing single/double strand DNA breaks) 1 .",
+      "difficulty": "medium",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-8",
+      "stem": "Rupture of lysosomal membranes during severe, irreversible cell injury leads to which pathological event?",
+      "options": [
+        "Secretion of basement membrane collagen",
+        "Release of hydrolytic enzymes (RNases, DNases, proteases) into the cytosol causing cellular autodigestion 1",
+        "Immediate activation of the extrinsic Fas death receptor",
+        "Conversion of triglycerides into lipofuscin"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Lysosomal membrane breach releases active acid hydrolases (RNases, DNases, proteases) into the cytoplasm, resulting in enzymatic digestion of cellular components (autodigestion) 1 .",
+      "difficulty": "medium",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-9",
+      "stem": "What defines Fatty Change (Steatosis), and in which organ is it most commonly encountered following hypoxic, toxic, or metabolic injury?",
+      "options": [
+        "Glycogen accumulation in renal tubules",
+        "Accumulation of triglyceride vacuoles within the cytoplasm, observed predominantly in the liver 1",
+        "Deposition of lipofuscin in cardiac myocytes 1",
+        "Cholesterol accumulation in vessel walls"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Steatosis is the abnormal accumulation of triglyceride lipid vacuoles within parenchyma cells, occurring most commonly in the liver as a response to alcohol, toxins, obesity, diabetes, or hypoxia 1 .",
+      "difficulty": "easy",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-10",
+      "stem": "What is the correct chronological sequence of nuclear morphological changes observed during Necrosis?",
+      "options": [
+        "Karyolysis → Pyknosis → Karyorrhexis",
+        "Pyknosis → Karyorrhexis → Karyolysis 1",
+        "Karyorrhexis → Karyolysis → Pyknosis",
+        "Chromatin margination → Mitosis → Apoptosis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Nuclear changes in necrosis follow a set sequence: (1) Pyknosis (nuclear shrinkage and chromatin condensation), (2) Karyorrhexis (nuclear fragmentation), and (3) Karyolysis (chromatin fading due to DNase digestion) 1 .",
+      "difficulty": "medium",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-11",
+      "stem": "Which pattern of necrosis is characterized by denaturation of structural proteins and enzymes, preserving the basic tissue architecture (\"ghost outlines\") in solid organs like the heart, kidney, and spleen?",
+      "options": [
+        "Liquefactive necrosis 1",
+        "Caseous necrosis 1",
+        "Coagulative necrosis 1",
+        "Fibrinoid necrosis 1"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Coagulative necrosis is the classic pattern of hypoxic/ischemic death in solid organs (heart, kidney, liver, spleen). Protein denaturation blocks enzymatic lysis, preserving basic tissue architecture and cell shape (\"ghost outlines\") for days 1 .",
+      "difficulty": "easy",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-12",
+      "stem": "Why does hypoxic or ischemic cell death in the Central Nervous System (CNS/brain) characteristically produce Liquefactive Necrosis rather than Coagulative Necrosis?",
+      "options": [
+        "The brain has a rich anastomotic arterial blood supply",
+        "Brain tissue has a high lipid content, scant collagenous stroma, and dead cells are rapidly digested by hydrolytic enzymes into a viscous liquid mass 1",
+        "Neurons lack lysosomes entirely",
+        "Microglia convert ischemic tissue into caseous granulomas"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Unlike solid organs where denatured proteins preserve tissue shape, hypoxic CNS tissue lacks a dense collagenous stroma and has high lipid content. Dead neural cells are completely digested by hydrolytic enzymes, forming a liquefied viscous mass 1 .",
+      "difficulty": "medium",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-13",
+      "stem": "What gross and microscopic features define Caseous Necrosis, and what is its classic etiology?",
+      "options": [
+        "Bright pink amorphous vessel wall deposits seen in vasculitis 1",
+        "Friable, white, \"cheese-like\" central debris enclosed by granulomatous inflammation with Langhans giant cells; classic for Mycobacterium tuberculosis 1",
+        "Liquefied purulent exudate caused by Staphylococcus aureus 1",
+        "Chalky white soap deposits in peripancreatic fat 1"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Caseous necrosis displays a friable, white, cheese-like gross appearance. Microscopically, it presents as central acellular eosinophilic debris surrounded by granulomatous inflammation (epithelioid macrophages, Langhans giant cells, lymphocytes) characteristic of tuberculosis 1 .",
+      "difficulty": "easy",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-14",
+      "stem": "What biochemical process accounts for the chalky white deposits observed grossly in Fat Necrosis associated with acute pancreatitis?",
+      "options": [
+        "Fibrin deposition from leaked plasma",
+        "Saponification, where free fatty acids liberated by active lipases combine with calcium 1",
+        "Dystrophic calcification secondary to hyperparathyroidism 1",
+        "Bacterial putrefaction of subcutaneous triglycerides 1"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "In acute pancreatitis, leaked activated pancreatic lipases digest peripancreatic adipose tissue. The liberated free fatty acids bind calcium ions to form insoluble chalky white soap deposits (saponification) 1 .",
+      "difficulty": "medium",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-15",
+      "stem": "Which form of necrosis presents microscopically as a bright pink, amorphous deposit within blood vessel walls caused by immune complex and fibrin deposition?",
+      "options": [
+        "Coagulative necrosis 1",
+        "Caseous necrosis 1",
+        "Fibrinoid necrosis 1",
+        "Fat necrosis 1"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Fibrinoid necrosis is a specialized pattern seen in immune-mediated vasculitic syndromes (e.g., Polyarteritis nodosa) and malignant hypertension. Deposition of antigen-antibody complexes and leaked plasma proteins/fibrin creates a bright pink amorphous ring in arterial walls 1 .",
+      "difficulty": "medium",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-16",
+      "stem": "What are the primary clinical and pathological differences between Dry Gangrene and Wet Gangrene?",
+      "options": [
+        "Dry gangrene involves bacterial superinfection, whereas wet gangrene is sterile",
+        "Dry gangrene is caused by ischemia alone (mummified, dry, black with a clear demarcation line); Wet gangrene involves ischemia with bacterial superinfection (swollen, foul-smelling, lacking demarcation line, carrying high sepsis risk) 1",
+        "Dry gangrene requires emergency surgery, whereas wet gangrene can be managed expectantly 1",
+        "Wet gangrene occurs exclusively in the brain, while dry gangrene occurs in internal viscera"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Dry gangrene results from pure arterial ischemia without significant infection, forming dry, black, mummified tissue with a clear line of demarcation 1 . Wet gangrene features secondary bacterial superinfection, producing swollen, foul-smelling tissue without a clear demarcation line, requiring urgent surgical intervention due to high sepsis risk 1 .",
+      "difficulty": "medium",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-17",
+      "stem": "What is the primary causative organism of Gas Gangrene, and what clinical presentation requires immediate surgical intervention?",
+      "options": [
+        "Staphylococcus aureus ; purulent cutaneous bullae",
+        "Clostridium perfringens ; muscle necrosis, dark non-contractile muscle, brown foul-smelling discharge, and subcuticular crepitus 1",
+        "Mycobacterium tuberculosis ; caseous lymphadenopathy 1",
+        "Pseudomonas aeruginosa ; green wound exudate"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Gas gangrene is a life-threatening soft tissue infection caused by Clostridium perfringens . Bacterial exotoxins cause rapid muscle necrosis, while anaerobic fermentation produces gas ( H 2 ​ , C O 2 ​ ) presenting as crepitus, dark non-contractile muscle, and foul discharge. Urgent surgical removal of all dead tissue is mandatory 1 .",
+      "difficulty": "medium",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-18",
+      "stem": "How does Apoptosis fundamentally differ from Necrosis regarding energy requirement, plasma membrane integrity, and surrounding tissue response?",
+      "options": [
+        "Apoptosis is energy-independent, causes plasma membrane breakdown, and triggers severe inflammation 1",
+        "Apoptosis is an active, energy-dependent (ATP-requiring) process where the plasma membrane remains intact, forming apoptotic bodies that are phagocytosed without inciting an inflammatory response 1",
+        "Necrosis requires active gene transcription and preserves cellular organelles",
+        "Both pathways result in widespread tissue scar formation 1"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Apoptosis is an organized, ATP-dependent programmed death pathway. The plasma membrane remains intact, blebbing into apoptotic bodies that are cleared by macrophages without provoking an inflammatory response or leaving a scar 1 . Necrosis is passive, uncontrolled, ruptures membranes, and triggers acute inflammation 1 .",
+      "difficulty": "easy",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-19",
+      "stem": "Which initiator caspase is activated in the Extrinsic (Death Receptor) pathway versus the Intrinsic (Mitochondrial) pathway of apoptosis?",
+      "options": [
+        "Extrinsic = Caspase-8; Intrinsic = Caspase-9 1",
+        "Extrinsic = Caspase-3; Intrinsic = Caspase-1",
+        "Extrinsic = Caspase-9; Intrinsic = Caspase-8",
+        "Extrinsic = Caspase-12; Intrinsic = Caspase-1"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The extrinsic pathway uses Fas/TNF death receptors to recruit adaptors and activate initiator Caspase-8 1 . The intrinsic pathway relies on mitochondrial cytochrome c release to form the apoptosome and activate initiator Caspase-9 1 . Both converge on executioner caspases (e.g., Caspase-3) 1 .",
+      "difficulty": "hard",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-20",
+      "stem": "What is the defining distinction between Dystrophic Calcification and Metastatic Calcification?",
+      "options": [
+        "Dystrophic calcification occurs in healthy tissue with elevated serum calcium; Metastatic calcification occurs in dead tissue with low calcium",
+        "Dystrophic calcification occurs in dead or damaged tissue in the presence of NORMAL serum calcium levels; Metastatic calcification occurs in normal healthy tissue secondary to HYPERCALCEMIA 1",
+        "Dystrophic calcification affects only the renal interstitium and gastric mucosa 1",
+        "Metastatic calcification is caused exclusively by tuberculous caseous necrosis 1"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Dystrophic calcification deposits calcium phosphate in necrotic or injured tissue (e.g., atherosclerotic plaques, damaged valves, TB foci) while serum calcium levels are completely normal 1 . Metastatic calcification occurs in normal healthy tissues (favoring renal, pulmonary, and gastric interstitium) secondary to systemic hypercalcemia 1 .",
+      "difficulty": "medium",
+      "source": "Cell Injury and Death-Lecture 2.pdf",
+      "topic": "Cell Injury and Death-Lecture 2.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    }
+  ],
+  "source": "Cell Injury and Death-Lecture 2.pdf",
+  "section": "Pathology",
+  "status": "notebooklm-draft-supervisor-approved"
+}

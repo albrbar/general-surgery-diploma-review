@@ -42,6 +42,7 @@ sources=[
  ('diagnostic-pathology','Draft MCQ Bank: Principles of Surgical &','Principles of diagnostic pathology-Lecture 1.pdf','Pathology'),
  ('diagnostic-microbiology','dignostic microbilogy .collecting sample.26.pdf','dignostic microbilogy .collecting sample.26.pdf','Microbiology and Immunology'),
  ('immunology','Draft MCQ Bank: Basic & Clinical Immunology and Serology','immunology NO .4.26.pptx','Microbiology and Immunology'),
+ ('cell-injury','Draft MCQ Bank: Cell Injury, Necrosis & Apoptosis','Cell Injury and Death-Lecture 2.pdf','Pathology'),
 ]
 for name,marker,source,section in sources:
     text=latest_text(marker)

@@ -4,12 +4,12 @@
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
-  "bankQuestionCount": 1541,
-  "generatedAt": "2026-11-15T20:47:51.339946+00:00",
+  "bankQuestionCount": 1561,
+  "generatedAt": "2026-11-15T21:24:35.684560+00:00",
   "questions": [
     {
-      "id": "ai-microbiology-immunology-20261115204728-01",
-      "stem": "Which of the following organisms is most commonly responsible for causing surgical site infections after abdominal surgery?",
+      "id": "ai-microbiology-immunology-20261115212416-01",
+      "stem": "Which of the following organisms is a common cause of surgical site infections following abdominal surgery?",
       "options": [
         "Staphylococcus aureus",
         "Escherichia coli",
@@ -17,7 +17,7 @@
         "Candida albicans"
       ],
       "correctOptionIndex": 0,
-      "explanation": "Staphylococcus aureus, particularly methicillin‑sensitive strains, is the leading cause of post‑operative wound infections in abdominal surgery. Escherichia coli and Pseudomonas are less common and Candida is usually a later opportunistic infection.",
+      "explanation": "Staphylococcus aureus is the most frequent pathogen in post‑operative wound infections, especially in abdominal procedures. Escherichia coli, Pseudomonas aeruginosa and Candida albicans can cause infections but are less common as the primary organism.",
       "source": "Basic surgical microbiology principles",
       "difficulty": "very easy",
       "section": "Microbiology and Immunology",
@@ -25,16 +25,16 @@
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115204734-01",
-      "stem": "A 45‑year‑old patient presents with a purulent wound infection after a minor laceration. Gram staining of the exudate shows Gram‑positive cocci in chains. Which organism is most likely responsible?",
+      "id": "ai-microbiology-immunology-20261115212420-01",
+      "stem": "A 45‑year‑old patient presents with a purulent wound infection after a minor laceration. Gram staining of the pus shows gram‑positive cocci in chains. Which organism is most likely responsible?",
       "options": [
         "Staphylococcus aureus",
         "Streptococcus pyogenes",
-        "Enterococcus faecalis",
-        "Pseudomonas aeruginosa"
+        "Pseudomonas aeruginosa",
+        "Escherichia coli"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Streptococcus pyogenes is a Gram‑positive coccus that forms chains and is a common cause of skin and soft‑tissue infections. Staphylococcus aureus is also Gram‑positive but typically appears in clusters. Enterococcus faecalis is a Gram‑positive coccus but is usually a chain‑forming organism found in the gut and less common in superficial wound infections. Pseudomonas aeruginosa is Gram‑negative and would not appear as Gram‑positive cocci.",
+      "explanation": "Streptococcus pyogenes is a gram‑positive cocci that forms chains and is a common cause of skin and soft tissue infections. Staphylococcus aureus is also gram‑positive but typically appears in clusters. Pseudomonas aeruginosa and Escherichia coli are gram‑negative organisms and would not appear as gram‑positive cocci.",
       "source": "Basic principles of bacterial morphology and common skin pathogens",
       "difficulty": "easy",
       "section": "Microbiology and Immunology",
@@ -42,51 +42,51 @@
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115204739-01",
-      "stem": "A 45‑year‑old man presents with a purulent, foul‑smelling discharge from a chronic sinus tract over the left lower leg. Gram‑stain of the exudate shows gram‑positive cocci in chains. Which organism is most likely responsible for this wound infection?",
+      "id": "ai-microbiology-immunology-20261115212425-01",
+      "stem": "A 45‑year‑old man presents with a purulent wound infection after a minor laceration. Gram staining of the exudate shows gram‑positive cocci in chains. Which of the following antibiotics is most appropriate for empirical therapy pending culture results?",
       "options": [
-        "Staphylococcus aureus",
-        "Streptococcus pyogenes",
-        "Streptococcus agalactiae",
-        "Streptococcus pneumoniae"
+        "A. Amoxicillin‑clavulanate",
+        "B. Cefazolin",
+        "C. Vancomycin",
+        "D. Ciprofloxacin"
       ],
-      "correctOptionIndex": 0,
-      "explanation": "Staphylococcus aureus is the most common cause of chronic, purulent wound infections and appears as gram‑positive cocci in clusters, not chains. The other streptococci are typically associated with different clinical syndromes (e.g., GAS with cellulitis, GBS with neonatal sepsis, and pneumococci with pneumonia).",
-      "source": "Basic principles of wound microbiology",
+      "correctOptionIndex": 1,
+      "explanation": "The organism is most likely Staphylococcus aureus or streptococci; cefazolin is a first‑generation cephalosporin with excellent activity against gram‑positive cocci and is the preferred empirical drug for skin and soft‑tissue infections. Amoxicillin‑clavulanate is broader but less targeted; vancomycin is reserved for MRSA; ciprofloxacin is ineffective against gram‑positive cocci.",
+      "source": "Principles of antibiotic selection for skin and soft‑tissue infections",
       "difficulty": "moderate",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115204745-01",
-      "stem": "A 45‑year‑old man presents with a 3‑week history of fever, night sweats, weight loss, and a non‑productive cough. Chest radiography shows a solitary pulmonary nodule. Bronchoalveolar lavage fluid is sent for culture and histopathology. Which of the following organisms is most likely responsible for this presentation and is known to form a characteristic “safety‑pin” appearance on histology?",
+      "id": "ai-microbiology-immunology-20261115212430-01",
+      "stem": "A 45‑year‑old male presents with a purulent, necrotic ulcer on the lower leg after a minor crush injury. Gram stain of the exudate shows gram‑positive cocci in chains, but the culture grows a slow‑growing, non‑hemolytic, catalase‑negative organism that is oxidase‑positive and produces a characteristic sweet, fruity odor. Which organism is most likely responsible for this infection?",
       "options": [
-        "Mycobacterium tuberculosis",
-        "Histoplasma capsulatum",
-        "Coccidioides immitis",
-        "Cryptococcus neoformans"
+        "Staphylococcus aureus",
+        "Streptococcus pyogenes",
+        "Streptococcus agalactiae",
+        "Streptococcus dysgalactiae"
       ],
-      "correctOptionIndex": 1,
-      "explanation": "Histoplasma capsulatum causes a chronic pulmonary infection that can present as a solitary nodule and is classically identified by a safety‑pin appearance of the yeast on histology. Mycobacterium tuberculosis typically produces caseating granulomas but not a safety‑pin morphology. Coccidioides immitis causes a cavitary lung disease with spherules, and Cryptococcus neoformans shows a thick capsule but not the safety‑pin sign.",
-      "source": "Microbiology: fungal pathogens; histopathological features",
+      "correctOptionIndex": 2,
+      "explanation": "The description of a slow‑growing, non‑hemolytic, catalase‑negative, oxidase‑positive organism with a sweet, fruity odor is classic for Streptococcus dysgalactiae (group C/G). Staphylococcus aureus is catalase‑positive and produces a characteristic golden pigment. Streptococcus pyogenes is hemolytic and does not produce a fruity odor. Streptococcus agalactiae (group B) is typically associated with neonatal infections and is not known for a fruity odor. Therefore, Streptococcus dysgalactiae is the most likely pathogen.",
+      "source": "Basic principles of streptococcal identification",
       "difficulty": "hard",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115204751-01",
-      "stem": "A 45‑year‑old man with a history of chronic pancreatitis presents with a sudden onset of severe epigastric pain radiating to the back and a fever of 39.5 °C. Laboratory studies reveal leukocytosis, elevated serum amylase, and a markedly raised serum procalcitonin level. Imaging shows a necrotic collection in the lesser sac. Which of the following bacterial species is most likely responsible for the infection of the necrotic pancreatic tissue in this patient?",
+      "id": "ai-microbiology-immunology-20261115212435-01",
+      "stem": "A 45‑year‑old man presents with a 3‑week history of fever, night sweats, weight loss, and a progressively enlarging left supraclavicular lymph node. Fine‑needle aspiration cytology of the node shows numerous epithelioid cells surrounded by a rim of lymphocytes and occasional Langhans giant cells. Ziehl‑Neelsen staining is negative. A PCR assay of the aspirate detects a 16S rRNA gene sequence that is 99.8% identical to that of *Mycobacterium avium* complex. Which of the following statements best explains the likely pathogenesis of this patient’s disease?",
       "options": [
-        "Enterococcus faecalis",
-        "Pseudomonas aeruginosa",
-        "Clostridium perfringens",
-        "Streptococcus pyogenes"
+        "The infection is caused by a rapidly growing non‑tuberculous mycobacterium that preferentially colonises the lymphatic system.",
+        "The disease represents a disseminated infection with *M. avium* complex that has spread from a pulmonary focus to the lymph nodes.",
+        "The patient has a primary immunodeficiency that predisposes to *M. avium* complex infection of the lymph nodes.",
+        "The lesion is a tuberculous granuloma caused by *M. tuberculosis* that was missed on Ziehl‑Neelsen staining due to paucibacillary disease."
       ],
-      "correctOptionIndex": 2,
-      "explanation": "Pancreatic necrosis is most commonly infected by anaerobic and facultative Gram‑negative rods; Clostridium perfringens is a frequent pathogen in necrotizing pancreatitis and is associated with rapid tissue destruction and high procalcitonin. Enterococcus and Pseudomonas can also infect but are less typical as the initial pathogen. Streptococcus pyogenes is usually a cause of necrotizing fasciitis rather than pancreatic infection.",
-      "source": "Principles of surgical microbiology",
+      "correctOptionIndex": 1,
+      "explanation": "The PCR sequence matches *M. avium* complex, a non‑tuberculous mycobacterium that commonly causes disseminated disease in immunocompetent adults, often involving lymph nodes after a pulmonary focus. Rapidly growing mycobacteria (e.g., *M. fortuitum*) are usually skin or soft‑tissue infections, not lymphadenitis. Primary immunodeficiency is unlikely in a 45‑year‑old with no prior history. A missed *M. tuberculosis* infection would show acid‑fast bacilli on staining and is less likely given the PCR result.",
+      "source": "Non‑tuberculous mycobacteria pathogenesis; PCR diagnostics",
       "difficulty": "very hard",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",

@@ -4,39 +4,38 @@
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
-  "bankQuestionCount": 1541,
-  "generatedAt": "2026-11-15T20:48:14.713146+00:00",
+  "bankQuestionCount": 1561,
+  "generatedAt": "2026-11-15T21:24:56.398017+00:00",
   "questions": [
     {
-      "id": "ai-principles-of-surgery-20261115204757-01",
-      "stem": "Which of the following is the most important principle to maintain during any surgical procedure?",
+      "id": "ai-principles-of-surgery-20261115212440-01",
+      "stem": "Which of the following is the primary goal of surgical wound closure?",
       "options": [
-        "A. Rapid removal of the tumour",
-        "B. Minimising blood loss",
-        "C. Maintaining aseptic technique",
-        "D. Using the most advanced technology"
+        "A) Rapid healing",
+        "B) Aesthetic appearance",
+        "C) Prevention of infection",
+        "D) Minimizing operative time"
       ],
       "correctOptionIndex": 2,
-      "explanation": "Maintaining aseptic technique (option C) is the fundamental principle that prevents surgical site infections and ensures patient safety. While rapid tumour removal, blood loss control, and technology are important, they are secondary to keeping the surgical field sterile.",
-      "source": "Fundamental principles of surgery",
+      "explanation": "The foremost objective of wound closure is to prevent infection by restoring the integrity of the skin and underlying tissues. While rapid healing, aesthetics, and operative efficiency are important, they are secondary to ensuring a sterile, well-approximated wound.",
+      "source": "Basic principles of wound management",
       "difficulty": "very easy",
-      "duplicateOfExisting": true,
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115204759-01",
+      "id": "ai-principles-of-surgery-20261115212443-01",
       "stem": "Which of the following is the most important principle to prevent postoperative wound infection?",
       "options": [
-        "A. Use of prophylactic antibiotics before incision",
-        "B. Strict aseptic technique during surgery",
-        "C. Immediate postoperative wound dressing",
+        "A. Strict aseptic technique during surgery",
+        "B. Use of prophylactic antibiotics for all patients",
+        "C. Immediate removal of all drains",
         "D. Early mobilization of the patient"
       ],
-      "correctOptionIndex": 1,
-      "explanation": "Strict aseptic technique (option B) is the cornerstone of preventing wound infection, as it eliminates contamination during surgery. Prophylactic antibiotics (A) are adjunctive and not sufficient alone. Immediate dressing (C) and early mobilization (D) do not address the primary source of infection.",
-      "source": "Fundamental surgical principles",
+      "correctOptionIndex": 0,
+      "explanation": "Strict aseptic technique during surgery is the cornerstone of infection prevention; it reduces contamination of the wound. Prophylactic antibiotics are useful but not sufficient alone, drains and mobilization do not directly prevent infection.",
+      "source": "Fundamental principles of asepsis",
       "difficulty": "easy",
       "duplicateOfExisting": true,
       "section": "Principles of Surgery",
@@ -44,51 +43,51 @@
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115204802-01",
-      "stem": "A 45‑year‑old man presents with a 2‑cm, firm, mobile, non‑tender mass in the left upper quadrant. Imaging shows a well‑defined lesion adjacent to the spleen with no invasion of surrounding structures. Which of the following is the most appropriate next step in management?",
+      "id": "ai-principles-of-surgery-20261115212449-01",
+      "stem": "A 45‑year‑old man presents with a 2‑cm, firm, mobile, non‑tender mass in the left upper quadrant. The mass is located in the mesentery of the small bowel. Which of the following is the most appropriate initial diagnostic step?",
       "options": [
-        "A. Immediate exploratory laparotomy",
-        "B. Fine‑needle aspiration cytology",
-        "C. Observation with serial imaging",
-        "D. Chemotherapy"
+        "A. Routine abdominal ultrasound",
+        "B. Contrast‑enhanced CT scan of the abdomen",
+        "C. Exploratory laparotomy",
+        "D. Colonoscopy"
       ],
-      "correctOptionIndex": 2,
-      "explanation": "The lesion is likely a benign splenic cyst or hemangioma; it is small, well‑defined, and asymptomatic. Observation with serial imaging is appropriate to monitor for growth or complications. Immediate surgery is unnecessary, FNAC is not routinely recommended for splenic lesions due to bleeding risk, and chemotherapy has no role for benign masses.",
-      "source": "Principles of Surgery – Management of asymptomatic abdominal masses",
+      "correctOptionIndex": 1,
+      "explanation": "Contrast‑enhanced CT provides detailed information on the size, location, and relationship of a mesenteric mass to adjacent structures, guiding further management. Ultrasound is less sensitive for deep mesenteric lesions, colonoscopy does not visualize mesentery, and laparotomy is invasive and should be reserved for definitive diagnosis or treatment.",
+      "source": "Imaging of abdominal masses; standard surgical principles",
       "difficulty": "moderate",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115204811-01",
-      "stem": "A 55‑year‑old man presents with a perforated duodenal ulcer. In the operative setting, which of the following steps is most critical to prevent postoperative septic complications?",
+      "id": "ai-principles-of-surgery-20261115212449-01",
+      "stem": "A 45‑year‑old man presents with a 2‑cm, firm, non‑tender mass in the left lower quadrant. Imaging shows a well‑defined lesion arising from the mesentery with no evidence of vascular invasion. Which of the following statements best describes the appropriate surgical management of this lesion?",
       "options": [
-        "A. Perform a Graham patch over the perforation",
-        "B. Administer high‑dose intravenous antibiotics immediately",
-        "C. Irrigate the peritoneal cavity with warm saline and ensure adequate drainage",
-        "D. Place a nasogastric tube to decompress the stomach"
+        "A. Perform a simple enucleation of the mass with preservation of the surrounding mesenteric vessels.",
+        "B. Undertake a segmental small bowel resection with primary anastomosis to ensure clear margins.",
+        "C. Execute a wedge resection of the mesentery and ligate the feeding vessel to achieve complete excision.",
+        "D. Observe the lesion with serial imaging, as it is likely a benign lipoma that will not progress."
       ],
       "correctOptionIndex": 2,
-      "explanation": "Adequate peritoneal lavage and drainage (option C) are essential to remove bacterial contamination and reduce the risk of intra‑abdominal sepsis. While a Graham patch (A) repairs the perforation, antibiotics (B) and NG decompression (D) are supportive but do not address the primary source of contamination.",
-      "source": "Principles of abdominal contamination and source control",
+      "explanation": "The lesion is a mesenteric tumor that must be completely excised with clear margins to prevent recurrence. A wedge resection of the mesentery with ligation of the feeding vessel (option C) achieves this while preserving bowel continuity. Simple enucleation (A) risks incomplete removal and recurrence. Segmental bowel resection (B) is unnecessary if the mass is confined to the mesentery. Observation (D) is inappropriate because even benign mesenteric tumors can become symptomatic or malignant.",
+      "source": "Principles of Surgical Oncology – Complete Excision of Mesenteric Tumors",
       "difficulty": "hard",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115204814-01",
-      "stem": "A 45‑year‑old man presents with a 2‑cm submucosal mass in the proximal jejunum identified on CT enterography. Endoscopic ultrasound shows a well‑circumscribed lesion with a central echogenic halo and no evidence of invasion into the muscularis propria. Which of the following statements best describes the optimal surgical approach for this lesion?",
+      "id": "ai-principles-of-surgery-20261115212456-01",
+      "stem": "A 58‑year‑old man presents with a 3‑month history of progressive dysphagia to solids, weight loss, and a palpable epigastric mass. Endoscopy shows a circumferential ulcerating lesion at the gastro‑esophageal junction. Biopsy confirms moderately differentiated adenocarcinoma. Imaging reveals a 4‑cm tumor invading the cardia but no distant metastases. Which of the following operative strategies provides the best chance of long‑term survival while preserving adequate gastric function?",
       "options": [
-        "A. Laparoscopic wedge resection with a 2‑cm margin of normal jejunal tissue is adequate.",
-        "B. A segmental resection with 5‑cm proximal and distal margins is required to prevent recurrence.",
-        "C. Endoscopic full‑thickness resection is preferred to avoid laparotomy.",
-        "D. Resection is unnecessary; the lesion can be observed with serial imaging."
+        "A. Total gastrectomy with D2 lymphadenectomy",
+        "B. Subtotal (distal) gastrectomy with Billroth II reconstruction",
+        "C. Transhiatal esophagectomy with proximal gastrectomy",
+        "D. Pylorus‑preserving gastrectomy with Roux‑en‑Y reconstruction"
       ],
       "correctOptionIndex": 0,
-      "explanation": "The lesion is a submucosal tumor (likely a GIST) confined to the submucosa with no muscularis invasion. Current evidence supports a laparoscopic wedge resection with a small margin (≈2 cm) to achieve oncologic clearance while preserving bowel length. Larger margins are unnecessary and increase morbidity, and endoscopic full‑thickness resection is not routinely recommended for jejunal GISTs due to risk of perforation and incomplete resection. Observation is inappropriate for a potentially malignant lesion.",
-      "source": "Principles of surgical oncology for gastrointestinal stromal tumours",
+      "explanation": "The lesion is located at the gastro‑esophageal junction and invades the cardia. The optimal curative approach is a total gastrectomy with a D2 lymphadenectomy, which provides adequate margins and nodal clearance for this proximal gastric cancer. Subtotal gastrectomy would leave residual disease; a transhiatal esophagectomy is unnecessary and more morbid; pylorus‑preserving gastrectomy is unsuitable for a cardia tumour. Thus option A is correct.",
+      "source": "Principles of oncologic resection for proximal gastric cancer",
       "difficulty": "very hard",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",

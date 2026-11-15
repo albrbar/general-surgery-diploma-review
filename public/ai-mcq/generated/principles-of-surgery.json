@@ -4,21 +4,21 @@
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
-  "bankQuestionCount": 1521,
-  "generatedAt": "2026-11-15T20:44:03.641276+00:00",
+  "bankQuestionCount": 1541,
+  "generatedAt": "2026-11-15T20:48:14.713146+00:00",
   "questions": [
     {
-      "id": "ai-principles-of-surgery-20261115204349-01",
+      "id": "ai-principles-of-surgery-20261115204757-01",
       "stem": "Which of the following is the most important principle to maintain during any surgical procedure?",
       "options": [
-        "A. Rapid closure of the wound",
-        "B. Strict aseptic technique",
-        "C. Use of the most expensive instruments",
-        "D. Minimizing operative time"
+        "A. Rapid removal of the tumour",
+        "B. Minimising blood loss",
+        "C. Maintaining aseptic technique",
+        "D. Using the most advanced technology"
       ],
-      "correctOptionIndex": 1,
-      "explanation": "Strict aseptic technique is fundamental to prevent surgical site infections and is a core principle taught to all surgical trainees. Rapid closure, expensive instruments, and minimizing time are secondary considerations that do not replace asepsis.",
-      "source": "Basic surgical principles",
+      "correctOptionIndex": 2,
+      "explanation": "Maintaining aseptic technique (option C) is the fundamental principle that prevents surgical site infections and ensures patient safety. While rapid tumour removal, blood loss control, and technology are important, they are secondary to keeping the surgical field sterile.",
+      "source": "Fundamental principles of surgery",
       "difficulty": "very easy",
       "duplicateOfExisting": true,
       "section": "Principles of Surgery",
@@ -26,68 +26,69 @@
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115204352-01",
-      "stem": "Which of the following is the most important principle to maintain during any surgical procedure to prevent postoperative infection?",
+      "id": "ai-principles-of-surgery-20261115204759-01",
+      "stem": "Which of the following is the most important principle to prevent postoperative wound infection?",
       "options": [
-        "A. Use of sterile gloves only",
-        "B. Strict aseptic technique throughout the operation",
-        "C. Administration of prophylactic antibiotics before incision",
-        "D. Immediate closure of the wound after the procedure"
+        "A. Use of prophylactic antibiotics before incision",
+        "B. Strict aseptic technique during surgery",
+        "C. Immediate postoperative wound dressing",
+        "D. Early mobilization of the patient"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Strict aseptic technique (option B) is the cornerstone of preventing postoperative infection, as it eliminates contamination at every step. While sterile gloves, antibiotics, and timely closure are important, they are adjuncts to the overarching principle of asepsis.",
-      "source": "Fundamental principles of asepsis",
+      "explanation": "Strict aseptic technique (option B) is the cornerstone of preventing wound infection, as it eliminates contamination during surgery. Prophylactic antibiotics (A) are adjunctive and not sufficient alone. Immediate dressing (C) and early mobilization (D) do not address the primary source of infection.",
+      "source": "Fundamental surgical principles",
       "difficulty": "easy",
+      "duplicateOfExisting": true,
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115204355-01",
-      "stem": "A 45‑year‑old man presents with a perforated duodenal ulcer. Which of the following is the most appropriate initial surgical step to control contamination and prevent further sepsis?",
+      "id": "ai-principles-of-surgery-20261115204802-01",
+      "stem": "A 45‑year‑old man presents with a 2‑cm, firm, mobile, non‑tender mass in the left upper quadrant. Imaging shows a well‑defined lesion adjacent to the spleen with no invasion of surrounding structures. Which of the following is the most appropriate next step in management?",
       "options": [
-        "A. Immediate duodenal resection with primary anastomosis",
-        "B. Primary closure of the perforation with a Graham patch",
-        "C. Placement of a percutaneous drain and observation",
-        "D. Laparoscopic lavage and drainage only"
+        "A. Immediate exploratory laparotomy",
+        "B. Fine‑needle aspiration cytology",
+        "C. Observation with serial imaging",
+        "D. Chemotherapy"
       ],
-      "correctOptionIndex": 1,
-      "explanation": "The gold standard for a perforated duodenal ulcer is primary closure of the perforation with a Graham patch (a patch of omentum). This provides immediate control of contamination and is technically simpler than resection. Observation or lavage alone would not adequately control the perforation, and resection is unnecessary and more morbid.",
-      "source": "Principle of surgical management of perforated peptic ulcer",
+      "correctOptionIndex": 2,
+      "explanation": "The lesion is likely a benign splenic cyst or hemangioma; it is small, well‑defined, and asymptomatic. Observation with serial imaging is appropriate to monitor for growth or complications. Immediate surgery is unnecessary, FNAC is not routinely recommended for splenic lesions due to bleeding risk, and chemotherapy has no role for benign masses.",
+      "source": "Principles of Surgery – Management of asymptomatic abdominal masses",
       "difficulty": "moderate",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115204400-01",
-      "stem": "A 45‑year‑old man presents with a 3‑month history of intermittent abdominal pain, weight loss, and a palpable epigastric mass. CT imaging shows a large, heterogeneous mass arising from the pancreas head with encasement of the superior mesenteric artery (SMA) but no distant metastases. Which of the following statements best reflects the current surgical principle for resectability assessment in this scenario?",
+      "id": "ai-principles-of-surgery-20261115204811-01",
+      "stem": "A 55‑year‑old man presents with a perforated duodenal ulcer. In the operative setting, which of the following steps is most critical to prevent postoperative septic complications?",
       "options": [
-        "A. The tumor is unresectable because it involves the SMA; no surgery should be attempted.",
-        "B. The tumor is resectable; a standard pancreaticoduodenectomy can be performed regardless of SMA involvement.",
-        "C. The tumor is potentially resectable; neoadjuvant chemotherapy should be considered to downstage the disease before attempting resection.",
-        "D. The tumor is resectable only if the SMA can be resected and reconstructed; otherwise, the patient should receive palliative care."
+        "A. Perform a Graham patch over the perforation",
+        "B. Administer high‑dose intravenous antibiotics immediately",
+        "C. Irrigate the peritoneal cavity with warm saline and ensure adequate drainage",
+        "D. Place a nasogastric tube to decompress the stomach"
       ],
       "correctOptionIndex": 2,
-      "explanation": "In pancreatic head cancer with SMA involvement but no distant metastasis, the tumor is considered potentially resectable. Current surgical principles recommend neoadjuvant chemotherapy to reduce tumour burden and improve margin status before attempting a pancreaticoduodenectomy. Option A is incorrect because SMA involvement alone does not automatically preclude surgery. Option B is incorrect because standard resection without addressing SMA involvement risks incomplete resection. Option D is incorrect because SMA resection is rarely performed and not the first-line approach.",
-      "source": "Principles of Pancreatic Cancer Surgery",
+      "explanation": "Adequate peritoneal lavage and drainage (option C) are essential to remove bacterial contamination and reduce the risk of intra‑abdominal sepsis. While a Graham patch (A) repairs the perforation, antibiotics (B) and NG decompression (D) are supportive but do not address the primary source of contamination.",
+      "source": "Principles of abdominal contamination and source control",
       "difficulty": "hard",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115204403-01",
-      "stem": "A 45‑year‑old man presents with a 3‑month history of intermittent right upper quadrant pain, nausea and a palpable mass in the right hypochondrium. Imaging shows a 6‑cm heterogeneous lesion arising from the liver surface with a central scar. Which of the following statements best describes the most appropriate surgical management of this patient?",
+      "id": "ai-principles-of-surgery-20261115204814-01",
+      "stem": "A 45‑year‑old man presents with a 2‑cm submucosal mass in the proximal jejunum identified on CT enterography. Endoscopic ultrasound shows a well‑circumscribed lesion with a central echogenic halo and no evidence of invasion into the muscularis propria. Which of the following statements best describes the optimal surgical approach for this lesion?",
       "options": [
-        "A) Perform a right hepatectomy with en bloc resection of the tumor and adjacent segment IVb, followed by adjuvant chemotherapy.",
-        "B) Undertake a wedge resection of the lesion with negative margins, as the lesion is likely a focal nodular hyperplasia.",
-        "C) Conduct a segmental resection of segment V/VI with careful preservation of the hepatic veins, given the lesion’s probable diagnosis of hepatocellular carcinoma.",
-        "D) Proceed with a left lateral sectionectomy, because the lesion is located in the left hepatic lobe and is likely a metastatic neuroendocrine tumour."
+        "A. Laparoscopic wedge resection with a 2‑cm margin of normal jejunal tissue is adequate.",
+        "B. A segmental resection with 5‑cm proximal and distal margins is required to prevent recurrence.",
+        "C. Endoscopic full‑thickness resection is preferred to avoid laparotomy.",
+        "D. Resection is unnecessary; the lesion can be observed with serial imaging."
       ],
-      "correctOptionIndex": 2,
-      "explanation": "The imaging description (heterogeneous lesion with central scar) is classic for hepatocellular carcinoma (HCC). In a non‑cirrhotic liver, the standard surgical approach is a segmental (or subsegmental) resection of the involved segments (V/VI) with negative margins, preserving hepatic venous outflow. Option A over‑resects and adds chemotherapy unnecessarily. Option B incorrectly assumes focal nodular hyperplasia, which is benign and would not require resection. Option D misidentifies the lesion’s location and diagnosis. Therefore, option C is correct.",
-      "source": "Principles of hepatic tumour resection",
+      "correctOptionIndex": 0,
+      "explanation": "The lesion is a submucosal tumor (likely a GIST) confined to the submucosa with no muscularis invasion. Current evidence supports a laparoscopic wedge resection with a small margin (≈2 cm) to achieve oncologic clearance while preserving bowel length. Larger margins are unnecessary and increase morbidity, and endoscopic full‑thickness resection is not routinely recommended for jejunal GISTs due to risk of perforation and incomplete resection. Observation is inappropriate for a potentially malignant lesion.",
+      "source": "Principles of surgical oncology for gastrointestinal stromal tumours",
       "difficulty": "very hard",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",

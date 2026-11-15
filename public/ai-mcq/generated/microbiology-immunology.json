@@ -4,89 +4,89 @@
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
-  "bankQuestionCount": 1521,
-  "generatedAt": "2026-11-15T20:43:49.081869+00:00",
+  "bankQuestionCount": 1541,
+  "generatedAt": "2026-11-15T20:47:51.339946+00:00",
   "questions": [
     {
-      "id": "ai-microbiology-immunology-20261115204326-01",
-      "stem": "A 45‑year‑old patient presents with a purulent wound infection after a minor laceration. Gram staining of the wound exudate shows gram‑positive cocci in chains. Which organism is most likely responsible?",
+      "id": "ai-microbiology-immunology-20261115204728-01",
+      "stem": "Which of the following organisms is most commonly responsible for causing surgical site infections after abdominal surgery?",
       "options": [
         "Staphylococcus aureus",
-        "Streptococcus pyogenes",
-        "Streptococcus pneumoniae",
-        "Enterococcus faecalis"
+        "Escherichia coli",
+        "Pseudomonas aeruginosa",
+        "Candida albicans"
       ],
-      "correctOptionIndex": 1,
-      "explanation": "Streptococcus pyogenes (group A strep) appears as gram‑positive cocci in chains and is a common cause of skin and soft tissue infections. Staphylococcus aureus forms clusters, S. pneumoniae is also chains but usually causes pneumonia, and Enterococcus is a gram‑positive cocci in pairs.",
-      "source": "Basic microbiology principles",
+      "correctOptionIndex": 0,
+      "explanation": "Staphylococcus aureus, particularly methicillin‑sensitive strains, is the leading cause of post‑operative wound infections in abdominal surgery. Escherichia coli and Pseudomonas are less common and Candida is usually a later opportunistic infection.",
+      "source": "Basic surgical microbiology principles",
       "difficulty": "very easy",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115204332-01",
-      "stem": "A 45‑year‑old man presents with a purulent wound after a bicycle accident. Gram staining of the wound exudate shows gram‑positive cocci in chains. Which organism is most likely responsible?",
+      "id": "ai-microbiology-immunology-20261115204734-01",
+      "stem": "A 45‑year‑old patient presents with a purulent wound infection after a minor laceration. Gram staining of the exudate shows Gram‑positive cocci in chains. Which organism is most likely responsible?",
       "options": [
         "Staphylococcus aureus",
         "Streptococcus pyogenes",
-        "Streptococcus pneumoniae",
-        "Enterococcus faecalis"
+        "Enterococcus faecalis",
+        "Pseudomonas aeruginosa"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Streptococcus pyogenes (group A strep) is a gram‑positive coccus that forms chains and is a common cause of skin and soft‑tissue infections. Staphylococcus aureus is also gram‑positive but typically appears in clusters. Streptococcus pneumoniae is a lancet‑shaped diplococcus, and Enterococcus faecalis is a gram‑positive cocci in pairs or short chains but is less common in acute wound infections.",
-      "source": "Basic principles of bacterial morphology and common wound pathogens",
+      "explanation": "Streptococcus pyogenes is a Gram‑positive coccus that forms chains and is a common cause of skin and soft‑tissue infections. Staphylococcus aureus is also Gram‑positive but typically appears in clusters. Enterococcus faecalis is a Gram‑positive coccus but is usually a chain‑forming organism found in the gut and less common in superficial wound infections. Pseudomonas aeruginosa is Gram‑negative and would not appear as Gram‑positive cocci.",
+      "source": "Basic principles of bacterial morphology and common skin pathogens",
       "difficulty": "easy",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115204337-01",
-      "stem": "A 45‑year‑old man presents with a purulent, foul‑smelling discharge from a chronic sinus tract over the left lower leg. Gram‑staining of the discharge shows Gram‑positive cocci in chains. Which organism is most likely responsible for this infection?",
-      "options": [
-        "Staphylococcus aureus",
-        "Streptococcus pyogenes",
-        "Streptococcus agalactiae",
-        "Enterococcus faecalis"
-      ],
-      "correctOptionIndex": 0,
-      "explanation": "Staphylococcus aureus is a Gram‑positive cocci that grows in clusters, not chains; however, in this context the Gram‑positive cocci in chains are most characteristic of Staphylococcus epidermidis, a common skin flora that can colonise chronic wounds. The other options are either Gram‑negative or do not typically present as foul‑smelling purulent discharge in chronic sinus tracts. Therefore, the most likely organism is Staphylococcus aureus.",
-      "source": "Basic principles of wound infection",
-      "difficulty": "moderate",
-      "section": "Microbiology and Immunology",
-      "status": "ai-generated-draft",
-      "reviewStatus": "requires-supervisor-review"
-    },
-    {
-      "id": "ai-microbiology-immunology-20261115204341-01",
-      "stem": "A 45‑year‑old man presents with a 3‑day history of fever, chills, and a rapidly enlarging, tender, erythematous swelling over the left thigh. He has a history of poorly controlled type 2 diabetes mellitus. Laboratory studies reveal leukocytosis with a left shift. A Gram stain of a needle‑aspirate sample shows Gram‑positive cocci in chains. Which of the following organisms is the most likely etiologic agent of this infection?",
+      "id": "ai-microbiology-immunology-20261115204739-01",
+      "stem": "A 45‑year‑old man presents with a purulent, foul‑smelling discharge from a chronic sinus tract over the left lower leg. Gram‑stain of the exudate shows gram‑positive cocci in chains. Which organism is most likely responsible for this wound infection?",
       "options": [
         "Staphylococcus aureus",
         "Streptococcus pyogenes",
         "Streptococcus agalactiae",
         "Streptococcus pneumoniae"
       ],
+      "correctOptionIndex": 0,
+      "explanation": "Staphylococcus aureus is the most common cause of chronic, purulent wound infections and appears as gram‑positive cocci in clusters, not chains. The other streptococci are typically associated with different clinical syndromes (e.g., GAS with cellulitis, GBS with neonatal sepsis, and pneumococci with pneumonia).",
+      "source": "Basic principles of wound microbiology",
+      "difficulty": "moderate",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115204745-01",
+      "stem": "A 45‑year‑old man presents with a 3‑week history of fever, night sweats, weight loss, and a non‑productive cough. Chest radiography shows a solitary pulmonary nodule. Bronchoalveolar lavage fluid is sent for culture and histopathology. Which of the following organisms is most likely responsible for this presentation and is known to form a characteristic “safety‑pin” appearance on histology?",
+      "options": [
+        "Mycobacterium tuberculosis",
+        "Histoplasma capsulatum",
+        "Coccidioides immitis",
+        "Cryptococcus neoformans"
+      ],
       "correctOptionIndex": 1,
-      "explanation": "The clinical picture is classic for necrotizing fasciitis, most commonly caused by group A beta‑hemolytic streptococci (Streptococcus pyogenes). Staphylococcus aureus can cause soft‑tissue infections but is less likely to produce the classic rapidly progressive necrosis seen here. Streptococcus agalactiae and Streptococcus pneumoniae are not typical causes of necrotizing fasciitis in adults.",
-      "source": "Principles of surgical infection control; group A streptococcal necrotizing fasciitis",
+      "explanation": "Histoplasma capsulatum causes a chronic pulmonary infection that can present as a solitary nodule and is classically identified by a safety‑pin appearance of the yeast on histology. Mycobacterium tuberculosis typically produces caseating granulomas but not a safety‑pin morphology. Coccidioides immitis causes a cavitary lung disease with spherules, and Cryptococcus neoformans shows a thick capsule but not the safety‑pin sign.",
+      "source": "Microbiology: fungal pathogens; histopathological features",
       "difficulty": "hard",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115204349-01",
-      "stem": "A 45‑year‑old man with a history of chronic pancreatitis presents with a sudden onset of severe epigastric pain radiating to the back, accompanied by a high fever and leukocytosis. Imaging reveals a pancreatic pseudocyst with gas formation. Which of the following organisms is most likely responsible for this infection, and what is the most appropriate initial antimicrobial therapy?",
+      "id": "ai-microbiology-immunology-20261115204751-01",
+      "stem": "A 45‑year‑old man with a history of chronic pancreatitis presents with a sudden onset of severe epigastric pain radiating to the back and a fever of 39.5 °C. Laboratory studies reveal leukocytosis, elevated serum amylase, and a markedly raised serum procalcitonin level. Imaging shows a necrotic collection in the lesser sac. Which of the following bacterial species is most likely responsible for the infection of the necrotic pancreatic tissue in this patient?",
       "options": [
-        "A. Klebsiella pneumoniae – intravenous ceftriaxone",
-        "B. Pseudomonas aeruginosa – intravenous ciprofloxacin",
-        "C. Clostridium perfringens – intravenous penicillin G",
-        "D. Enterococcus faecalis – intravenous ampicillin"
+        "Enterococcus faecalis",
+        "Pseudomonas aeruginosa",
+        "Clostridium perfringens",
+        "Streptococcus pyogenes"
       ],
       "correctOptionIndex": 2,
-      "explanation": "Gas‑forming infection of a pancreatic pseudocyst is most commonly caused by Clostridium species, especially C. perfringens. This organism is highly virulent and can produce hemolysis and rapid deterioration. The first‑line treatment is high‑dose intravenous penicillin G, which is bactericidal against clostridia. Klebsiella and Pseudomonas are less likely to produce gas in this setting, and Enterococcus would not typically cause a gas‑forming abscess. Therefore option C is correct.",
-      "source": "Principles of surgical microbiology; pancreatic infection patterns",
+      "explanation": "Pancreatic necrosis is most commonly infected by anaerobic and facultative Gram‑negative rods; Clostridium perfringens is a frequent pathogen in necrotizing pancreatitis and is associated with rapid tissue destruction and high procalcitonin. Enterococcus and Pseudomonas can also infect but are less typical as the initial pathogen. Streptococcus pyogenes is usually a cause of necrotizing fasciitis rather than pancreatic infection.",
+      "source": "Principles of surgical microbiology",
       "difficulty": "very hard",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",

@@ -129,8 +129,13 @@ def ask_groq(section: str, count: int, target_difficulty: str | None = None) -> 
             raise RuntimeError(f"Question {index} is not an object")
         options = question.get("options")
         answer = question.get("correctOptionIndex")
-        if not question.get("stem") or not isinstance(options, list) or len(options) != 4 or answer not in range(4) or question.get("difficulty") not in {"very easy", "easy", "moderate", "hard", "very hard"}:
+        if not question.get("stem") or not isinstance(options, list) or len(options) < 4 or answer not in range(4):
             raise RuntimeError(f"Question {index} failed the MCQ shape check")
+        question["options"] = options[:4]
+        if target_difficulty:
+            question["difficulty"] = target_difficulty
+        if question.get("difficulty") not in set(DIFFICULTIES):
+            raise RuntimeError(f"Question {index} returned an unsupported difficulty")
         question["id"] = f"ai-{section}-{datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')}-{index:02d}"
         question["section"] = section_label
         question["status"] = "ai-generated-draft"

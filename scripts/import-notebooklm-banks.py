@@ -16,7 +16,7 @@ def latest_text(marker):
     if not candidates: raise SystemExit(f'missing {marker}')
     t=max(candidates,key=lambda x:x[0])[1]
     marker_pos=t.rfind(marker)
-    start=t.rfind('Draft MCQ Bank:', 0, marker_pos + 1)
+    start=t.rfind('Draft MCQ Bank:', 0, marker_pos + len(marker))
     return t[start if start >= 0 else marker_pos:]
 
 def parse(text):
@@ -41,6 +41,7 @@ sources=[
  ('blood-disorder-drugs','Draft MCQ Bank: Hematologic','Blood Disorder Drugs & Cancer ChemoRx.pdf','Pharmacology'),
  ('diagnostic-pathology','Draft MCQ Bank: Principles of Surgical &','Principles of diagnostic pathology-Lecture 1.pdf','Pathology'),
  ('diagnostic-microbiology','dignostic microbilogy .collecting sample.26.pdf','dignostic microbilogy .collecting sample.26.pdf','Microbiology and Immunology'),
+ ('immunology','Draft MCQ Bank: Basic & Clinical Immunology and Serology','immunology NO .4.26.pptx','Microbiology and Immunology'),
 ]
 for name,marker,source,section in sources:
     text=latest_text(marker)

@@ -2,15 +2,15 @@
   "questions": [
     {
       "id": "notebooklm-1",
-      "stem": "According to the duration-based classification of pain presented in the source, how is subacute pain categorized?",
+      "stem": "Which coagulation factor deficiency specifically defines Hemophilia B (Christmas disease)?",
       "options": [
-        "Pain lasting less than 1 month",
-        "Pain lasting between 1 and 3 months",
-        "Pain persisting for more than 3 months",
-        "Pain persisting for more than 6 months"
+        "Factor VIII",
+        "Factor IX",
+        "Factor XI",
+        "Factor VII"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Acute pain is defined as lasting less than 1 month, subacute pain spans 1 to 3 months, and chronic pain is defined as persisting for more than 3 months 1 .",
+      "explanation": "Factor VIII deficiency causes Hemophilia A (classic hemophilia), whereas Factor IX (Christmas factor) deficiency causes Hemophilia B (Christmas disease). Factor XI deficiency is termed Plasma Thromboplastin Antecedent (PTA) deficiency.",
       "difficulty": "easy",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
@@ -21,15 +21,15 @@
     },
     {
       "id": "notebooklm-2",
-      "stem": "Which pain assessment tool is specifically validated for evaluating pain in sedated or mechanically ventilated unconscious surgical patients?",
+      "stem": "What is the precise biochemical mechanism of action of unfractionated heparin (UFH)?",
       "options": [
-        "Visual Analogue Scale (VAS)",
-        "FLACC Scale",
-        "Wong-Baker FACES Scale",
-        "Behavioral Pain Scale (BPS)"
+        "Direct competitive inhibition of the thrombin catalytic site",
+        "Binding to antithrombin III to accelerate inactivation of factors IIa, IXa, Xa, XIa, and XIIa",
+        "Irreversible acetylation of platelet cyclooxygenase-1 (COX-1)",
+        "Inhibition of hepatic vitamin K epoxide reductase (VKORC1)"
       ],
-      "correctOptionIndex": 3,
-      "explanation": "The Behavioral Pain Scale (BPS) evaluates pain in sedated or unconscious patients using three parameters: facial expression, upper limb movement, and compliance with mechanical ventilation 2 . The FLACC scale is used for pediatric patients aged 2 months to 7 years 3 , while Wong-Baker FACES is used for pediatric or cognitively impaired patients 2 .",
+      "correctOptionIndex": 1,
+      "explanation": "Unfractionated heparin acts indirectly by binding to antithrombin III, which markedly accelerates the inactivation of clotting factors IIa (thrombin), IXa, Xa, XIa, and XIIa.",
       "difficulty": "medium",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
@@ -40,15 +40,15 @@
     },
     {
       "id": "notebooklm-3",
-      "stem": "What is the distinct biochemical mechanism of action of paracetamol (acetaminophen) compared to classic NSAIDs?",
+      "stem": "In a patient receiving therapeutic unfractionated heparin (UFH), what is the target activated Partial Thromboplastin Time (aPTT) therapeutic range relative to baseline?",
       "options": [
-        "Irreversible acetylation of peripheral COX-1 enzymes",
-        "Competitive antagonism of central NMDA receptors",
-        "Nonselective COX inhibition acting at the peroxide site of the enzyme",
-        "Direct activation of GABA-A receptors in the spinal cord"
+        "0.8 to 1.2 times baseline",
+        "1.5 to 2.0 times baseline",
+        "2.0 to 3.0 times baseline",
+        "4.0 to 5.0 times baseline"
       ],
       "correctOptionIndex": 2,
-      "explanation": "Paracetamol is a nonselective COX inhibitor that acts uniquely at the peroxide site of the cyclooxygenase enzyme 4 . High concentrations of peroxides present at sites of tissue inflammation reduce its COX-inhibitory activity, which explains why paracetamol exhibits strong analgesic and antipyretic effects but only weak anti-inflammatory activity 5 .",
+      "explanation": "Normal aPTT is 25–33 seconds. In heparin toxicity or over-anticoagulation, target controlled aPTT (CaPTT) is maintained at 2 to 3 times the normal baseline value.",
       "difficulty": "medium",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
@@ -59,16 +59,16 @@
     },
     {
       "id": "notebooklm-4",
-      "stem": "In adult patients, what single ingested dose of paracetamol is recognized to cause hepatotoxicity, and what dose is considered potentially fatal?",
+      "stem": "Why can warfarin administration paradoxically precipitate acute skin necrosis early during the initiation of therapy?",
       "options": [
-        "Hepatotoxicity at 4 g; fatal at 8 g",
-        "Hepatotoxicity at 10–15 g; fatal at 20–25 g or more",
-        "Hepatotoxicity at 20 g; fatal at 40 g",
-        "Hepatotoxicity at 5 g; fatal at 10 g"
+        "Warfarin causes direct non-immunologic necrosis of vascular smooth muscle cells",
+        "Warfarin inhibits endogenous anticoagulant Protein C and Protein S faster than clotting factors II, IX, and X",
+        "Warfarin induces rapid local histamine release and mast cell degranulation",
+        "Warfarin triggers acute immune complex deposition in dermal capillaries"
       ],
       "correctOptionIndex": 1,
-      "explanation": "The maximum recommended adult oral dose of paracetamol is 4 g/day (500 mg–1 g every 4–6 hours) 5 . Hepatotoxicity can occur after a single acute ingestion of 10–15 g, whereas single doses of 20–25 g or more are potentially fatal 6 .",
-      "difficulty": "medium",
+      "explanation": "Warfarin inhibits the gamma-carboxylation of Vitamin K-dependent clotting factors (II, VII, IX, X) and anticoagulant proteins (Protein C and Protein S). Because Protein C has a shorter half-life than factors II, IX, and X, its levels drop first, resulting in a transient hypercoagulable state and microvascular thrombosis (skin necrosis) before full anticoagulation is achieved.",
+      "difficulty": "hard",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "section": "Pharmacology",
@@ -78,15 +78,15 @@
     },
     {
       "id": "notebooklm-5",
-      "stem": "Why are conventional NSAIDs generally ineffective against pain originating from hollow viscera, with the primary clinical exception of primary dysmenorrhea?",
+      "stem": "Which feature correctly distinguishes Low Molecular Weight Heparin (LMWH, e.g., enoxaparin) from Unfractionated Heparin (UFH)?",
       "options": [
-        "Visceral smooth muscle lacks COX-1 and COX-2 receptors",
-        "NSAIDs cannot penetrate visceral peritoneal membranes",
-        "Primary dysmenorrhea cramps are specifically driven by endometrial prostaglandin release",
-        "Visceral pain is exclusively mediated by central mu-opioid pathways"
+        "LMWH requires routine daily aPTT monitoring",
+        "LMWH has lower oral bioavailability and a shorter half-life than UFH",
+        "LMWH is excreted renally and its neutralization by protamine sulfate is only partial",
+        "LMWH carries a higher risk of Heparin-Induced Thrombocytopenia (>5%)"
       ],
       "correctOptionIndex": 2,
-      "explanation": "NSAIDs are effective against low-to-moderate inflammatory somatic pain (such as arthritic and postoperative pain) but are less effective against hollow visceral pain 7 . Primary dysmenorrhea is a major exception because uterine cramps and associated symptoms are directly caused by the local release of prostaglandins by the endometrium during menstruation 7 .",
+      "explanation": "LMWH has high subcutaneous bioavailability (90%), a longer half-life (4 hours), is eliminated via renal excretion, carries a lower risk of HIT (<1%), and requires no routine monitoring. Crucially, protamine sulfate provides complete neutralization for UFH, but only partial neutralization for LMWH (enoxaparin).",
       "difficulty": "hard",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
@@ -97,16 +97,16 @@
     },
     {
       "id": "notebooklm-6",
-      "stem": "Co-administration of non-selective NSAIDs (such as ibuprofen) with low-dose cardioprotective aspirin results in which adverse drug interaction?",
+      "stem": "Which direct oral anticoagulant (DOAC) functions as a direct thrombin inhibitor and has a specific FDA-approved monoclonal antibody reversal agent (Idarucizumab)?",
       "options": [
-        "Synergistic inhibition of platelet aggregation",
-        "Increased risk of GI adverse events and prevention of aspirin access to its COX-1 acetylation target",
-        "Rapid renal clearance of aspirin leading to subtherapeutic levels",
-        "Severe hypoglycemia via enhanced sulfonylurea release"
+        "Rivaroxaban",
+        "Apixaban",
+        "Dabigatran",
+        "Argatroban"
       ],
-      "correctOptionIndex": 1,
-      "explanation": "Concomitant administration of low-dose aspirin and non-selective NSAIDs increases the risk of gastrointestinal adverse events 8 . Furthermore, NSAIDs can competitively block aspirin from accessing its target acetylation site on COX-1, thereby blunting the irreversible cardioprotective antiplatelet effect of aspirin 8 9 .",
-      "difficulty": "hard",
+      "correctOptionIndex": 2,
+      "explanation": "Dabigatran is an oral direct thrombin (Factor IIa) inhibitor with predictable pharmacokinetics that requires no routine monitoring. Its anticoagulant activity can be rapidly and completely reversed by the specific monoclonal antibody Idarucizumab. Rivaroxaban inhibits Factor Xa (reversed by Andexanet alfa).",
+      "difficulty": "medium",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "section": "Pharmacology",
@@ -116,15 +116,15 @@
     },
     {
       "id": "notebooklm-7",
-      "stem": "According to the pharmacological classification of opioids in the source material, which of the following agents is classified as a strong mu-opioid receptor agonist?",
+      "stem": "According to preoperative holding protocols, how many days before elective surgery must oral Warfarin be held, and how many hours before surgery must therapeutic Low Molecular Weight Heparin (LMWH) be stopped?",
       "options": [
-        "Tramadol",
-        "Codeine",
-        "Hydromorphone",
-        "Hydrocodone"
+        "Warfarin held 2 days before; LMWH held 6 hours before",
+        "Warfarin held 5 days before; LMWH held 24 hours before",
+        "Warfarin held 7 days before; LMWH held 48 hours before",
+        "Warfarin held 1 day before; LMWH held 12 hours before"
       ],
-      "correctOptionIndex": 2,
-      "explanation": "Strong opioid agonists include morphine, hydromorphone, oxymorphone, methadone, fentanyl, and meperidine 10 . Codeine, dihydrocodeine, hydrocodone, oxycodone, and tramadol are classified as mild-to-moderate agonists 10 .",
+      "correctOptionIndex": 1,
+      "explanation": "Elective surgery guidelines specify holding oral Warfarin 5 days before surgery. Therapeutic LMWH must be stopped 24 hours before surgery (prophylactic LMWH is held 12 hours before; IV unfractionated heparin is held 4–6 hours before).",
       "difficulty": "medium",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
@@ -135,16 +135,16 @@
     },
     {
       "id": "notebooklm-8",
-      "stem": "Which peripheral pharmacological action is directly produced by morphine administration?",
+      "stem": "What pharmacological rationale explains why low-dose aspirin (60–325 mg daily) remains uniquely effective as an antiplatelet agent compared to non-selective NSAIDs like ibuprofen?",
       "options": [
-        "Tachycardia via vagal inhibition",
-        "Diarrhea due to accelerated fecal mass transit",
-        "Urinary retention due to increased bladder and sphincter tone",
-        "Uterine hyper-stimulation causing rapid precipitous labor"
+        "Aspirin reversibly blocks ADP P2Y12 receptors on vascular endothelium",
+        "Mature platelets are anucleate and cannot synthesize new COX-1 enzymes following irreversible acetylation by aspirin",
+        "Aspirin selectively inhibits COX-2 in mature circulating platelets",
+        "Ibuprofen permanently destroys hepatic cytochrome P450 enzymes"
       ],
-      "correctOptionIndex": 2,
-      "explanation": "Morphine produces peripheral actions including vagal stimulation (bradycardia), histamine release (hypotension and pruritus), constipation (delayed fecal mass transit and increased water absorption), biliary colic (biliary smooth muscle contraction), and urinary retention (increased bladder and sphincter tone) 11 12 .",
-      "difficulty": "medium",
+      "correctOptionIndex": 1,
+      "explanation": "Aspirin selectively and irreversibly acetylates platelet COX-1 (100 times more potent than against COX-2). Because circulating platelets lack nuclei, they cannot synthesize new COX-1 protein, resulting in permanent enzyme inhibition for the remainder of the platelet lifespan (7–10 days). Non-selective NSAIDs (like ibuprofen) inhibit COX-1 reversibly and lack persistent antithrombotic effects.",
+      "difficulty": "hard",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "section": "Pharmacology",
@@ -154,16 +154,16 @@
     },
     {
       "id": "notebooklm-9",
-      "stem": "Why is head trauma listed as a key contraindication for morphine administration?",
+      "stem": "To prevent ibuprofen from interfering with the antiplatelet cardioprotective effect of low-dose aspirin, what administration timing rule must be followed?",
       "options": [
-        "Morphine causes direct cortical necrosis",
-        "Morphine induces central respiratory depression and carbon dioxide retention, elevating intracranial pressure (ICP)",
-        "Morphine causes acute seizure activity in head-injured patients",
-        "Morphine mask scalp laceration bleeding"
+        "Take aspirin simultaneously with ibuprofen at mealtime",
+        "Take aspirin at least 1 hour before or at least 8 hours after ibuprofen",
+        "Take ibuprofen strictly 30 minutes before aspirin",
+        "Double the dose of ibuprofen when taking aspirin"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Morphine is contraindicated in head trauma because respiratory depression leads to hypercapnia (CO2 retention), which induces cerebral vasodilation and increases intracranial pressure (ICP) 12 13 .",
-      "difficulty": "medium",
+      "explanation": "Ibuprofen reversibly binds COX-1 and competitively prevents aspirin from reaching its target acetylation site. Therefore, aspirin should be ingested at least 1 hour before or at least 8 hours after ibuprofen.",
+      "difficulty": "hard",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "section": "Pharmacology",
@@ -173,16 +173,16 @@
     },
     {
       "id": "notebooklm-10",
-      "stem": "What classic clinical triad defines acute opioid toxicity (morphine overdose)?",
+      "stem": "Which antiplatelet drug is an oral phosphodiesterase (PDE) inhibitor approved specifically for symptomatic management of intermittent claudication, but strictly contraindicated in heart failure (CHF)?",
       "options": [
-        "Hypertension, hyperthermia, and dilated pupils",
-        "Coma, respiratory depression, and pinpoint pupils",
-        "Delirium, tachycardia, and diarrhea",
-        "Seizures, hyperreflexia, and nystagmus"
+        "Dipyridamole",
+        "Cilostazol",
+        "Prasugrel",
+        "Abciximab"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Acute opioid toxicity presents with the classic clinical triad of coma, respiratory depression, and pinpoint (miotic) pupils 14 15 . Definitive treatment includes supportive ventilation and the administration of naloxone 15 .",
-      "difficulty": "easy",
+      "explanation": "Cilostazol is an oral PDE inhibitor that increases cAMP, causing vasodilation and antiplatelet activity. It is indicated for intermittent claudication in peripheral arterial disease, but is strictly contraindicated in patients with Congestive Heart Failure (CHF). Dipyridamole causes the \"coronary steal phenomenon\" in clinically unstable angina.",
+      "difficulty": "medium",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "section": "Pharmacology",
@@ -192,15 +192,15 @@
     },
     {
       "id": "notebooklm-11",
-      "stem": "Which of the following is a primary contraindication to the administration of ketamine for acute analgesia?",
+      "stem": "Which fibrinolytic agent is a recombinant human tissue plasminogen activator (rtPA) characterized by a long half-life that allows it to be administered as a single IV BOLUS?",
       "options": [
-        "Hypovolemic shock",
-        "Eclampsia or pre-eclampsia",
-        "Bronchial asthma",
-        "Hypotension"
+        "Streptokinase",
+        "Urokinase",
+        "Alteplase",
+        "Tenecteplase"
       ],
-      "correctOptionIndex": 1,
-      "explanation": "Ketamine is a glutamate/NMDA receptor antagonist that causes cardiac stimulation (increase in heart rate and blood pressure) 15 . It is strictly contraindicated in patients with eclampsia or pre-eclampsia, uncontrolled hypertension, and severe cardiac disease 15 .",
+      "correctOptionIndex": 3,
+      "explanation": "Fibrin-specific thrombolytic agents include Alteplase and Tenecteplase (recombinant human tPAs). Tenecteplase has a prolonged half-life (t½), enabling rapid administration as a single IV bolus. Streptokinase and Urokinase are non-fibrin-specific agents.",
       "difficulty": "medium",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
@@ -211,53 +211,15 @@
     },
     {
       "id": "notebooklm-12",
-      "stem": "What is the mechanism of action and maximum daily dose of methoxyflurane when used for emergency analgesia?",
+      "stem": "Which condition is listed as an ABSOLUTE contraindication to thrombolytic/fibrinolytic therapy?",
       "options": [
-        "NMDA antagonist; maximum 10 ml daily",
-        "GABA receptor agonist; maximum daily dose of 6 ml (2 handheld inhalers)",
-        "Sodium channel blocker; maximum 12 ml daily",
-        "Mu-opioid agonist; maximum 3 ml daily"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Methoxyflurane acts as a GABA receptor agonist 16 . It is administered via a 3 ml handheld inhaler, with a maximum daily dose of 6 ml (2 inhalers) 16 . High anesthetic doses carry risks of hepatotoxicity and nephrotoxicity 16 .",
-      "difficulty": "hard",
-      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
-      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
-      "section": "Pharmacology",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "eligibleForExam": true
-    },
-    {
-      "id": "notebooklm-13",
-      "stem": "Local anesthetics (such as lidocaine, bupivacaine, and ropivacaine) produce nerve blockades by targeting which cellular channel?",
-      "options": [
-        "Voltage-gated sodium channels",
-        "L-type calcium channels",
-        "NMDA glutamate receptors",
-        "Potassium leak channels"
-      ],
-      "correctOptionIndex": 0,
-      "explanation": "Local anesthetics act as sodium channel blockers to inhibit nerve impulse conduction during local and regional nerve blockades 17 18 . Concurrent use with Class I antiarrhythmics (quinidine) or prior amiodarone use are noted contraindications 18 .",
-      "difficulty": "easy",
-      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
-      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
-      "section": "Pharmacology",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "eligibleForExam": true
-    },
-    {
-      "id": "notebooklm-14",
-      "stem": "When managing acute pain in emergency settings, what essential rule governs analgesic dose escalation for patients experiencing severe pain?",
-      "options": [
-        "Always double the initial dose of the currently administered NSAID",
-        "Combine two different NSAIDs simultaneously",
-        "Ensure any newly added analgesic drug belongs to a different pharmacological class",
-        "Discontinue all non-opioid medications immediately"
+        "Active menstrual bleeding (menses)",
+        "Ischemic stroke occurring 12 months ago",
+        "Ischemic stroke within the preceding 3 months",
+        "Controlled essential hypertension"
       ],
       "correctOptionIndex": 2,
-      "explanation": "Guidelines for managing acute pain in emergency settings mandate that when stepping up therapy for moderate or severe pain, additional analgesic options must be of a different pharmacological class 19 more_horiz . Administering a second different NSAID to a patient already receiving an NSAID is strictly contraindicated 21 22 .",
+      "explanation": "Absolute contraindications to thrombolytics include: severe intracranial hemorrhage, structural cerebral vascular lesions, retinal hemorrhage, malignant intracranial neoplasms, ischemic stroke within 3 months, active bleeding ( excluding menses ), and significant closed-head or facial trauma/surgery within 3 months.",
       "difficulty": "medium",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
@@ -267,17 +229,55 @@
       "eligibleForExam": true
     },
     {
-      "id": "notebooklm-15",
-      "stem": "According to the postsurgical pain protocol for colorectal surgery, which oral adjuvant medication is initiated to target neuropathic pain components until discharge?",
+      "id": "notebooklm-13",
+      "stem": "What is the mechanism of action and clinical contraindication of Tranexamic Acid (TXA) in bleeding management?",
       "options": [
-        "Diazepam 5 mg PO",
-        "Gabapentin 300 mg PO every 8 hours (or Pregabalin 50–75 mg PO every 12 hours)",
-        "Haloperidol 2 mg IV bolus",
-        "Ketamine 50 mg PO every 6 hours"
+        "Direct factor VIIa activator; contraindicated in severe liver disease",
+        "Lysine analogue blocking plasminogen/plasmin lysine-binding sites; contraindicated in renal disease",
+        "Vitamin K epoxide reductase activator; contraindicated in hypertension",
+        "Glycoprotein IIb/IIIa antagonist; contraindicated in heart failure"
       ],
       "correctOptionIndex": 1,
-      "explanation": "The postoperative protocol for colorectal surgery (from postoperative day 0 until discharge) includes oral paracetamol, conventional NSAIDs or celecoxib, breakthrough opioids, and gabapentin (300 mg PO 8-hourly) or pregabalin (50–75 mg PO 12-hourly) 23 24 .",
+      "explanation": "Tranexamic acid (and EACA) is a synthetic lysine analogue that blocks the lysine-binding sites on plasminogen and plasmin, preventing plasmin-mediated fibrin degradation. It is contraindicated in renal disease.",
+      "difficulty": "medium",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "section": "Pharmacology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-14",
+      "stem": "Why is the subcutaneous (SC) route of Vitamin K1 (Phytonadione) administration clinically avoided, and what life-threatening risk is associated with rapid IV push of Vitamin K1?",
+      "options": [
+        "SC causes immediate skin necrosis; rapid IV causes renal failure",
+        "SC shows an erratic absorption pattern; rapid IV causes severe dyspnea, chest/back pain, flushing, and death",
+        "SC precipitates deep vein thrombosis; rapid IV causes severe hypoglycemia",
+        "SC causes osteotoxicity; rapid IV causes acute red man syndrome"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Subcutaneous administration of Vitamin K1 is avoided because of an erratic absorption pattern. Rapid IV push of Vitamin K1 can trigger severe anaphylactoid infusion reactions presenting with dyspnea, chest and back pain, flushing, vascular collapse, and death.",
       "difficulty": "hard",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "section": "Pharmacology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-15",
+      "stem": "When transfusing Cryoprecipitate to an Rh-negative (Rh -ve) pregnant patient, what special blood banking directive must be strictly observed?",
+      "options": [
+        "Cryoprecipitate must be infused over a minimum of 24 hours",
+        "Cryoprecipitate must be strictly Rh-negative (Rh -ve)",
+        "Cryoprecipitate must be co-administered with high-dose aspirin",
+        "Cryoprecipitate must be reconstituted with 5% Dextrose"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Cryoprecipitate is a concentrated plasma protein fraction containing Factor VIII, vWF, and fibrinogen. When administered to Rh-negative (Rh -ve) pregnant women, Cryoprecipitate must be strictly Rh-negative to avoid Rh isoimmunization.",
+      "difficulty": "medium",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "section": "Pharmacology",
@@ -287,16 +287,16 @@
     },
     {
       "id": "notebooklm-16",
-      "stem": "What is the recommended starting dose and titration schedule for pregabalin in the management of chronic neuropathic pain?",
+      "stem": "What percentage of human cancers reactivate the reverse transcriptase enzyme telomerase to bypass cellular senescence and achieve immortality?",
       "options": [
-        "Start 300 mg once daily at bedtime; increase to 300 mg TID after 2 days",
-        "Start 75 mg twice daily; increase to 150 mg twice daily (300 mg/day total) after 1 week",
-        "Start 150 mg twice daily; increase to 600 mg/day after 3 days",
-        "Start 50 mg three times daily; increase to 100 mg TID after 1 month"
+        "~10%",
+        "~30%",
+        "~50%",
+        "~90%"
       ],
-      "correctOptionIndex": 1,
-      "explanation": "Pregabalin for chronic neuropathic pain is started at 75 mg twice daily and may be titrated after 1 week to 150 mg twice daily (300 mg/day total) based on patient response 25 . Gabapentin starts at 300 mg once daily at bedtime (Days 1–2), building to 300 mg TID by Days 5–7 25 .",
-      "difficulty": "hard",
+      "correctOptionIndex": 3,
+      "explanation": "Telomeres consist of repetitive TTAGGG DNA end-cap sequences. Approximately 90% of human cancers reactivate telomerase (a reverse transcriptase enzyme), preventing telomere shortening and conferring cellular immortality.",
+      "difficulty": "easy",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "section": "Pharmacology",
@@ -306,15 +306,15 @@
     },
     {
       "id": "notebooklm-17",
-      "stem": "Which drug-drug interaction warning specifically applies to the concurrent use of pregabalin and gabapentin?",
+      "stem": "Which antimetabolite anticancer agent acts as a folic acid antagonist, and what specific rescue drug is administered on non-treatment days to mitigate severe mucosal and hematologic toxicity?",
       "options": [
-        "Causes acute liver necrosis",
-        "Multiplies side effects dramatically without providing additional pain relief",
-        "Triggers immediate hypertensive crisis",
-        "Induces rapid renal stone formation"
+        "5-Fluorouracil; rescued by Thymidine",
+        "6-Mercaptopurine; rescued by Allopurinol",
+        "Methotrexate; rescued by Folinic Acid (Leucovorin)",
+        "Cytarabine; rescued by Pyridoxine"
       ],
-      "correctOptionIndex": 1,
-      "explanation": "Combining pregabalin and gabapentin together dramatically multiplies adverse side effects (such as dizziness and drowsiness) without increasing therapeutic pain relief 26 .",
+      "correctOptionIndex": 2,
+      "explanation": "Methotrexate is a folic acid antagonist antimetabolite. To prevent lethal normal tissue toxicity (megaloblastic anemia, mucosal ulceration, hepatotoxicity), Folinic Acid (Leucovorin) rescue is administered on non-methotrexate days.",
       "difficulty": "medium",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
@@ -325,34 +325,15 @@
     },
     {
       "id": "notebooklm-18",
-      "stem": "What is the primary cellular mechanism by which glucocorticoids exert their potent anti-inflammatory effects?",
+      "stem": "Hemorrhagic cystitis (hematuria) is a classic adverse effect of Cyclophosphamide caused by acrolein accumulation. Which agent is administered to prevent or manage this complication?",
       "options": [
-        "Direct blockade of histamine H1 receptors",
-        "Inhibition of phospholipase A2 enzyme",
-        "Selective inhibition of COX-3 in the central nervous system",
-        "Degradation of circulating leukotrienes"
+        "Folinic acid",
+        "MESNA (or N-acetylcysteine)",
+        "Dexrazoxane",
+        "Amifostine"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Glucocorticoids inhibit phospholipase A2, suppressing the release of arachidonic acid from membrane phospholipids and thereby blocking downstream synthesis of both leukotrienes and prostaglandins 27 28 .",
-      "difficulty": "medium",
-      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
-      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
-      "section": "Pharmacology",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "eligibleForExam": true
-    },
-    {
-      "id": "notebooklm-19",
-      "stem": "What single intravenous dose of dexamethasone is recommended at anesthesia induction for the prevention of postoperative nausea and vomiting (PONV)?",
-      "options": [
-        "1 to 2 mg",
-        "4 to 8 mg",
-        "16 to 20 mg",
-        "50 mg"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "A single IV dose of 4 to 8 mg dexamethasone in adults is commonly administered at the induction of anesthesia to prevent postoperative nausea and vomiting (PONV) and reduce postoperative edema 29 .",
+      "explanation": "Cyclophosphamide is an alkylating prodrug metabolized into phosphoramide mustard (active cytotoxic agent) and acrolein (toxic metabolite causing hemorrhagic cystitis). It is managed with aggressive fluid intake, MESNA, or N-acetylcysteine.",
       "difficulty": "easy",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
@@ -362,17 +343,36 @@
       "eligibleForExam": true
     },
     {
-      "id": "notebooklm-20",
-      "stem": "For a patient on chronic systemic glucocorticoid therapy undergoing major abdominal or cardiac surgery, what perioperative stress-dose steroid regimen is indicated?",
+      "id": "notebooklm-19",
+      "stem": "Match the cytotoxic antibiotic to its pathognomonic organ-specific toxicity: Doxorubicin | Bleomycin | Mitomycin",
       "options": [
-        "Continue home dose only without supplemental steroids",
-        "Hydrocortisone 100 mg IV at induction, followed by 200 mg over 24 hours (infusion), then double the usual home oral dose for 24–48 hours once taking oral meds",
-        "Dexamethasone 40 mg IV push every 6 hours for 5 days",
-        "Stop all steroids 24 hours prior to surgery to ensure wound healing"
+        "Doxorubicin = Pulmonary fibrosis; Bleomycin = Nephrotoxicity; Mitomycin = Cardiotoxicity",
+        "Doxorubicin = Cardiotoxicity; Bleomycin = Pneumonitis & Pulmonary Fibrosis; Mitomycin = Nephrotoxicity",
+        "Doxorubicin = Ototoxicity; Bleomycin = Cardiotoxicity; Mitomycin = Hepatotoxicity",
+        "Doxorubicin = Nephrotoxicity; Bleomycin = Neurotoxicity; Mitomycin = Cardiotoxicity"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Major surgical stress requires perioperative hydrocortisone coverage to prevent acute adrenal crisis: 100 mg IV at induction, followed by a continuous IV infusion of 200 mg over 24 hours. Once the patient resumes oral intake, double their usual home dose for 24–48 hours before returning to baseline maintenance 29 .",
+      "explanation": "Cytotoxic antibiotics exhibit distinct organ toxicities: Doxorubicin causes cardiotoxicity; Bleomycin causes pneumonitis and pulmonary fibrosis; Mitomycin causes nephrotoxicity.",
       "difficulty": "hard",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "section": "Pharmacology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-20",
+      "stem": "Regarding cancer chemotherapy during pregnancy, during which gestational period is cytotoxic chemotherapy strictly an absolute classic contraindication?",
+      "options": [
+        "1st Trimester (Organogenesis stage)",
+        "2nd Trimester",
+        "3rd Trimester",
+        "Post-partum lactation period only"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Cytotoxic chemotherapy is strictly avoided during the 1st Trimester (organogenesis stage) due to high teratogenic risk. Methotrexate is highlighted as an absolute classic contraindication.",
+      "difficulty": "easy",
       "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       "section": "Pharmacology",

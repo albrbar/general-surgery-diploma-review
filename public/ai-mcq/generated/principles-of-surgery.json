@@ -4,90 +4,90 @@
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
-  "bankQuestionCount": 1481,
-  "generatedAt": "2026-11-15T20:33:04.154375+00:00",
+  "bankQuestionCount": 1501,
+  "generatedAt": "2026-11-15T20:40:05.293459+00:00",
   "questions": [
     {
-      "id": "ai-principles-of-surgery-20261115203244-01",
-      "stem": "Which of the following is the most important principle to maintain during any surgical procedure to prevent postoperative infection?",
+      "id": "ai-principles-of-surgery-20261115203942-01",
+      "stem": "Which of the following is the most important principle to maintain during any surgical procedure?",
       "options": [
-        "A. Use of prophylactic antibiotics",
-        "B. Strict aseptic technique",
-        "C. Minimizing operative time",
-        "D. Early postoperative mobilization"
+        "A. Rapid closure of the wound",
+        "B. Adequate hemostasis",
+        "C. Use of the largest possible instruments",
+        "D. Avoidance of all antibiotics"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Strict aseptic technique is the foundational principle that reduces bacterial contamination during surgery, thereby preventing infection. While antibiotics, operative time, and mobilization are important, they are secondary to maintaining a sterile field.",
+      "explanation": "Adequate hemostasis prevents postoperative bleeding and infection; it is a fundamental surgical principle. Rapid closure, instrument size, and blanket avoidance of antibiotics are not primary concerns.",
       "source": "Fundamental surgical principles",
       "difficulty": "very easy",
-      "section": "Principles of Surgery",
-      "status": "ai-generated-draft",
-      "reviewStatus": "requires-supervisor-review"
-    },
-    {
-      "id": "ai-principles-of-surgery-20261115203249-01",
-      "stem": "Which of the following is the most important principle to maintain during any surgical procedure to prevent postoperative infection?",
-      "options": [
-        "A. Use of sterile gloves only",
-        "B. Strict aseptic technique throughout the operation",
-        "C. Application of topical antibiotics to the wound",
-        "D. Immediate closure of the incision"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Strict aseptic technique throughout the operation is the cornerstone of preventing postoperative infection. While sterile gloves, topical antibiotics, and timely closure are important, they are secondary to maintaining a sterile field and minimizing contamination.",
-      "source": "Fundamental surgical principles",
-      "difficulty": "easy",
       "duplicateOfExisting": true,
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115203255-01",
-      "stem": "A 45‑year‑old man presents with a 2‑cm ulcerated lesion on the anterior surface of the left thigh. The lesion is firm, non‑tender, and has irregular borders. Which of the following is the most appropriate next step in management?",
+      "id": "ai-principles-of-surgery-20261115203945-01",
+      "stem": "Which of the following is the most important principle to maintain during the surgical removal of a tumour to prevent dissemination of malignant cells?",
       "options": [
-        "A. Perform a punch biopsy of the lesion",
-        "B. Apply topical silver sulfadiazine and observe for 2 weeks",
-        "C. Initiate empirical oral antibiotics",
-        "D. Refer for immediate wide‑local excision"
+        "A. Use of cold scissors",
+        "B. Gentle handling of the tumour",
+        "C. Immediate postoperative radiotherapy",
+        "D. Administration of high-dose steroids"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Gentle handling of the tumour (option B) is the key principle to avoid tumour spillage and local recurrence. Cold scissors are not a recognized technique for this purpose, postoperative radiotherapy and steroids do not prevent intraoperative dissemination.",
+      "source": "Fundamental surgical principles",
+      "difficulty": "easy",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115203953-01",
+      "stem": "A 45‑year‑old man presents with a 2‑week history of progressive abdominal distension and constipation. Examination reveals a firm, non‑tender mass in the left upper quadrant. Imaging shows a large, well‑encapsulated cystic lesion arising from the splenic hilum. Which of the following is the most appropriate first step in management?",
+      "options": [
+        "A. Immediate exploratory laparotomy",
+        "B. Percutaneous fine‑needle aspiration under imaging guidance",
+        "C. Observation with serial abdominal ultrasounds",
+        "D. Endoscopic ultrasound‑guided drainage"
       ],
       "correctOptionIndex": 0,
-      "explanation": "The lesion’s size, ulceration, firmness, and irregular borders raise suspicion for malignant melanoma. The gold‑standard diagnostic step is a punch biopsy to confirm histology. A punch biopsy is minimally invasive, provides adequate tissue, and is the recommended first step. Topical silver sulfadiazine (B) is used for superficial burns, not for suspected melanoma. Empirical antibiotics (C) are inappropriate because the lesion is not an acute infection. Immediate wide‑local excision (D) is premature without a definitive diagnosis.",
-      "source": "Principles of Surgical Diagnosis",
+      "explanation": "The lesion is a large, well‑encapsulated cystic mass arising from the splenic hilum, most consistent with a splenic cyst or pseudocyst. The safest and most definitive first step is immediate exploratory laparotomy with possible splenectomy or cystectomy, as the mass is large and symptomatic. Percutaneous aspiration is contraindicated in cystic lesions of the spleen due to risk of rupture and infection, and observation would delay definitive treatment. Endoscopic drainage is not applicable for a splenic mass.",
+      "source": "Principles of surgical management of cystic splenic lesions",
       "difficulty": "moderate",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115203258-01",
-      "stem": "A 45‑year‑old man presents with a 3‑month history of intermittent right upper quadrant pain, nausea and a palpable mass in the right hypochondrium. Ultrasound shows a 6‑cm heterogeneous lesion arising from the liver with a central scar. Which of the following statements best describes the most appropriate next step in management?",
+      "id": "ai-principles-of-surgery-20261115203956-01",
+      "stem": "A 68‑year‑old man presents with a large, exophytic, ulcerated lesion on the left flank. Imaging shows a 12 cm mass arising from the left adrenal gland with invasion of the adjacent kidney and a small area of pulmonary nodules. The patient is otherwise medically fit. Which of the following statements best reflects the current surgical principle for management of this tumour?",
       "options": [
-        "A. Perform a percutaneous core needle biopsy to confirm the diagnosis before any definitive treatment",
-        "B. Proceed directly to surgical resection (right hepatectomy) without prior tissue diagnosis",
-        "C. Initiate antiviral therapy for hepatitis B and repeat imaging in 6 months",
-        "D. Offer stereotactic body radiotherapy as the first line of treatment"
+        "A. Perform a staged approach with initial adrenalectomy followed by nephrectomy and later metastasectomy",
+        "B. Undertake a single‑stage en bloc resection of the adrenal gland, kidney, and involved retroperitoneal tissue, followed by adjuvant chemotherapy",
+        "C. Opt for palliative debulking surgery to relieve pain, deferring systemic therapy",
+        "D. Rely on stereotactic body radiotherapy alone, as surgery offers no survival benefit in metastatic adrenal carcinoma"
       ],
       "correctOptionIndex": 1,
-      "explanation": "The imaging findings are classic for a hepatocellular carcinoma (HCC) in a non‑cirrhotic liver. Current surgical principles recommend proceeding to resection when the tumour is resectable, without a prior biopsy, to avoid tumour seeding and to avoid unnecessary delay. A biopsy is reserved for cases where imaging is inconclusive or for lesions that are not clearly malignant. Antiviral therapy and radiotherapy are not first‑line treatments in this setting.",
-      "source": "Principles of Surgical Oncology – Hepatocellular Carcinoma",
+      "explanation": "The optimal surgical principle for a locally advanced adrenal carcinoma with limited metastatic disease is a single‑stage en bloc resection of all involved organs (adrenal, kidney, retroperitoneum) to achieve negative margins, followed by adjuvant systemic therapy. Staged surgery (option A) risks tumour seeding and delays definitive treatment. Palliative debulking (option C) is reserved for unresectable disease. Stereotactic radiotherapy (option D) is not the standard of care for primary adrenal carcinoma with local invasion.",
+      "source": "Principle of en bloc resection in locally advanced adrenal carcinoma",
       "difficulty": "hard",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115203304-01",
-      "stem": "A 45‑year‑old man presents with a 3‑month history of intermittent right upper quadrant pain, nausea, and a palpable mass in the right hypochondrium. Imaging shows a 6‑cm cystic lesion with a solid component and a thickened wall. Which of the following statements best describes the most appropriate surgical management of this lesion?",
+      "id": "ai-principles-of-surgery-20261115204005-01",
+      "stem": "A 45‑year‑old man presents with a 3‑month history of intermittent right upper quadrant pain, nausea, and a palpable mass in the right hypochondrium. Imaging shows a 6‑cm cystic lesion arising from the gallbladder with irregular thickening of the cyst wall and focal calcifications. Which of the following statements best reflects the most appropriate surgical management of this lesion?",
       "options": [
-        "A) Perform a laparoscopic cystectomy with enucleation of the cyst wall, preserving the gallbladder.",
-        "B) Undertake an open cholecystectomy with removal of the cystic mass en bloc, followed by histopathological examination.",
-        "C) Execute a laparoscopic partial splenectomy to excise the lesion, given its proximity to the splenic hilum.",
-        "D) Conduct a percutaneous needle aspiration and sclerotherapy to reduce the cyst size before definitive surgery."
+        "A. Elective laparoscopic cholecystectomy with intra‑operative frozen section of the cyst wall",
+        "B. Open cholecystectomy with en bloc resection of the cyst and adjacent liver segments 4b and 5",
+        "C. Percutaneous drainage of the cyst followed by observation",
+        "D. Endoscopic retrograde cholangiopancreatography (ERCP) with sphincterotomy and stent placement"
       ],
       "correctOptionIndex": 1,
-      "explanation": "The lesion is a cystic mass with a solid component and thick wall, raising concern for a cystic neoplasm such as a mucinous cystic neoplasm or cystadenocarcinoma. The safest approach is en bloc resection with clear margins; laparoscopic cholecystectomy with removal of the mass is appropriate. Enucleation alone (A) risks leaving malignant tissue; partial splenectomy (C) is irrelevant as the lesion is not splenic; percutaneous aspiration (D) is contraindicated for cystic neoplasms due to risk of seeding.",
-      "source": "Principles of Surgical Oncology",
+      "explanation": "The imaging findings are highly suspicious for gallbladder carcinoma arising within a cystic lesion. The standard of care is an open cholecystectomy with en bloc resection of the involved liver segments (usually segments 4b and 5) to achieve negative margins. Laparoscopic removal alone (option A) carries a risk of tumor spillage and incomplete resection. Percutaneous drainage (option C) is inappropriate for a malignant cystic mass, and ERCP (option D) is not therapeutic for gallbladder carcinoma.",
+      "source": "Principles of Surgical Oncology – Gallbladder Cancer",
       "difficulty": "very hard",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",

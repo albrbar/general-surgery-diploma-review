@@ -4,20 +4,20 @@
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
-  "bankQuestionCount": 1481,
-  "generatedAt": "2026-11-15T20:32:40.246783+00:00",
+  "bankQuestionCount": 1501,
+  "generatedAt": "2026-11-15T20:39:41.696692+00:00",
   "questions": [
     {
-      "id": "ai-microbiology-immunology-20261115203222-01",
-      "stem": "Which of the following organisms is most commonly responsible for causing surgical site infections after abdominal surgery?",
+      "id": "ai-microbiology-immunology-20261115203917-01",
+      "stem": "Which of the following organisms is a common cause of surgical wound infection after abdominal surgery?",
       "options": [
         "Staphylococcus aureus",
-        "Escherichia coli",
         "Pseudomonas aeruginosa",
-        "Candida albicans"
+        "Candida albicans",
+        "Mycobacterium tuberculosis"
       ],
       "correctOptionIndex": 0,
-      "explanation": "Staphylococcus aureus, especially methicillin‑resistant strains, is the leading cause of post‑operative wound infections due to its prevalence on skin and its ability to form biofilms on sutures. Escherichia coli and Pseudomonas can cause infections but are less common, while Candida is usually a later opportunistic pathogen.",
+      "explanation": "Staphylococcus aureus is the most frequent pathogen in post‑operative wound infections, especially in abdominal procedures. Pseudomonas and Candida are less common and tuberculosis is a rare cause of acute wound infection.",
       "source": "Basic surgical microbiology principles",
       "difficulty": "very easy",
       "section": "Microbiology and Immunology",
@@ -25,33 +25,33 @@
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115203228-01",
-      "stem": "A 45‑year‑old patient presents with a purulent wound infection after a minor laceration. Gram staining of the exudate shows Gram‑positive cocci in chains. Which organism is most likely responsible?",
+      "id": "ai-microbiology-immunology-20261115203924-01",
+      "stem": "Which of the following organisms is most commonly responsible for postoperative wound infections in abdominal surgery?",
       "options": [
         "Staphylococcus aureus",
-        "Streptococcus pyogenes",
         "Escherichia coli",
-        "Pseudomonas aeruginosa"
+        "Pseudomonas aeruginosa",
+        "Candida albicans"
       ],
-      "correctOptionIndex": 1,
-      "explanation": "Streptococcus pyogenes is a Gram‑positive coccus that forms chains and is a common cause of skin and soft tissue infections. Staphylococcus aureus is also Gram‑positive but typically appears in clusters. E. coli and P. aeruginosa are Gram‑negative and would not appear as Gram‑positive cocci.",
-      "source": "Basic principles of bacterial morphology and common skin pathogens",
+      "correctOptionIndex": 0,
+      "explanation": "Staphylococcus aureus is the leading cause of surgical site infections, especially in abdominal procedures, due to its prevalence on skin and ability to form biofilms. Escherichia coli, Pseudomonas aeruginosa, and Candida albicans can cause infections but are less common as primary postoperative wound pathogens.",
+      "source": "Basic surgical microbiology principles",
       "difficulty": "easy",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115203229-01",
-      "stem": "A 45‑year‑old man presents with a purulent wound after a dog bite. Gram staining of the exudate shows Gram‑positive cocci in chains. Which organism is most likely responsible for the infection?",
+      "id": "ai-microbiology-immunology-20261115203928-01",
+      "stem": "A 45‑year‑old man presents with a purulent, foul‑smelling wound after a road traffic accident. Gram staining of the wound exudate shows gram‑negative bacilli that are oxidase negative and produce a characteristic sweet odor. Which organism is most likely responsible?",
       "options": [
+        "Pseudomonas aeruginosa",
         "Staphylococcus aureus",
-        "Streptococcus pyogenes",
-        "Streptococcus agalactiae",
-        "Streptococcus pneumoniae"
+        "Clostridium perfringens",
+        "Bacteroides fragilis"
       ],
-      "correctOptionIndex": 1,
-      "explanation": "Streptococcus pyogenes (group A strep) is a common cause of dog‑bite wound infections and appears as Gram‑positive cocci in chains on Gram stain. Staphylococcus aureus appears in clusters, while S. agalactiae and S. pneumoniae are less common in this setting.",
+      "correctOptionIndex": 3,
+      "explanation": "Bacteroides fragilis is a gram‑negative anaerobic bacillus that is oxidase negative and produces a characteristic sweet, foul odor from tissue necrosis. Pseudomonas is oxidase positive and produces a greenish pigment; Staphylococcus aureus is gram‑positive cocci; Clostridium perfringens is gram‑positive, spore‑forming, and produces a gas‑forming, not sweet, odor.",
       "source": "Basic principles of wound infection microbiology",
       "difficulty": "moderate",
       "section": "Microbiology and Immunology",
@@ -59,34 +59,34 @@
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115203234-01",
-      "stem": "A 45‑year‑old man presents with a 3‑week history of fever, night sweats, weight loss, and a non‑productive cough. Chest radiography shows bilateral hilar lymphadenopathy. Bronchoscopy with transbronchial lymph node biopsy reveals non‑caseating granulomas. Acid‑fast bacilli are not seen on Ziehl‑Neelsen staining, and cultures for Mycobacterium tuberculosis are negative. Which of the following is the most appropriate next step in the diagnostic work‑up?",
+      "id": "ai-microbiology-immunology-20261115203932-01",
+      "stem": "A 68‑year‑old man with a history of chronic obstructive pulmonary disease presents with fever, productive cough and pleuritic chest pain. Chest radiography shows a right lower lobe infiltrate. Blood cultures grow Gram‑positive cocci in clusters that are catalase positive, coagulase positive and produce a β‑hemolytic colony on blood agar. Which of the following is the most appropriate empiric antibiotic therapy for this patient while awaiting susceptibility results?",
       "options": [
-        "Serum angiotensin‑converting enzyme (ACE) level",
-        "Mantoux skin test",
-        "High‑resolution CT scan of the chest",
-        "Serum IgE level"
+        "A. Amoxicillin‑clavulanate",
+        "B. Ceftriaxone",
+        "C. Vancomycin",
+        "D. Azithromycin"
       ],
-      "correctOptionIndex": 0,
-      "explanation": "The presentation is classic for sarcoidosis, which is characterized by non‑caseating granulomas and often shows an elevated serum ACE level. A Mantoux test would be negative in sarcoidosis and is not diagnostic. High‑resolution CT may show characteristic findings but does not confirm the diagnosis. Serum IgE is not routinely used in this setting. Therefore, measuring serum ACE is the most appropriate next step.",
-      "source": "Sarcoidosis diagnostic principles",
+      "correctOptionIndex": 2,
+      "explanation": "The organism is Staphylococcus aureus, a Gram‑positive cocci in clusters that is catalase and coagulase positive. In a community‑acquired pneumonia setting, empiric coverage should include MRSA if risk factors are present. Vancomycin provides reliable coverage against MRSA and is the preferred empiric agent in this scenario. Amoxicillin‑clavulanate and ceftriaxone are ineffective against MRSA, and azithromycin is a macrolide with no activity against Gram‑positive cocci. Therefore, vancomycin is the best choice.",
+      "source": "Principles of antimicrobial therapy in community‑acquired pneumonia",
       "difficulty": "hard",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115203240-01",
-      "stem": "A 45‑year‑old man presents with a 3‑week history of fever, night sweats, and weight loss. He has a history of chronic hepatitis C infection and is on interferon therapy. Blood cultures grow a gram‑negative rod that is oxidase‑positive, non‑fermenting, and produces a characteristic sweet, fruity odor. Which of the following is the most likely organism and the most appropriate initial antibiotic therapy?",
+      "id": "ai-microbiology-immunology-20261115203941-01",
+      "stem": "A 45‑year‑old man with a history of chronic pancreatitis presents with a sudden onset of severe epigastric pain radiating to the back, hypotension, and a markedly elevated serum amylase. An emergent CT scan shows a necrotic collection in the peripancreatic space. Which of the following organisms is most likely to be the primary pathogen responsible for infected pancreatic necrosis in this patient?",
       "options": [
-        "Pseudomonas aeruginosa – high‑dose ciprofloxacin",
-        "Acinetobacter baumannii – carbapenem",
-        "Burkholderia pseudomallei – doxycycline plus ceftazidime",
-        "Klebsiella pneumoniae – ampicillin‑sulbactam"
+        "Staphylococcus aureus",
+        "Enterococcus faecalis",
+        "Pseudomonas aeruginosa",
+        "Clostridium perfringens"
       ],
-      "correctOptionIndex": 2,
-      "explanation": "The description (oxidase‑positive, non‑fermenting, fruity odor) is classic for Burkholderia pseudomallei, the causative agent of melioidosis. The first‑line treatment is a combination of doxycycline (or TMP‑SMX) with a third‑generation cephalosporin such as ceftazidime. The other organisms listed do not fit the biochemical profile or the typical odor, and their recommended antibiotics differ.",
-      "source": "Principles of infectious disease management; microbiology of gram‑negative rods",
+      "correctOptionIndex": 3,
+      "explanation": "Infected pancreatic necrosis is most commonly caused by gram‑positive anaerobes and gram‑negative rods that translocate from the gut. The classic pathogen is Clostridium perfringens, a gram‑positive anaerobic rod that can rapidly produce gas and toxins, leading to necrosis. Staphylococcus aureus and Enterococcus faecalis are less common, while Pseudomonas aeruginosa is usually seen in hospital‑acquired infections but not as the primary organism in acute necrotizing pancreatitis.",
+      "source": "Principles of surgical infection in necrotizing pancreatitis",
       "difficulty": "very hard",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",

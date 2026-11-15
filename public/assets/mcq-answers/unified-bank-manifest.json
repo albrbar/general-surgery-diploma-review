@@ -1,25 +1,25 @@
 {
   "bankName": "GS Diploma Unified MCQ Bank",
   "version": "2026-11-15-drive-notebook-merge-1",
-  "totalQuestions": 1541,
-  "rawQuestionsBeforeDeduplication": 1543,
+  "totalQuestions": 1561,
+  "rawQuestionsBeforeDeduplication": 1563,
   "duplicatesCollapsed": 2,
   "sections": {
     "Anatomy": 558,
     "Pathology": 326,
     "Microbiology and Immunology": 239,
     "Pharmacology": 107,
-    "Principles of Surgery": 311
+    "Principles of Surgery": 331
   },
   "difficulty": {
     "hard": 315,
-    "easy": 566,
-    "moderate": 608,
+    "easy": 576,
+    "moderate": 618,
     "very easy": 5,
     "very hard": 47
   },
   "quality": {
-    "approved": 1541
+    "approved": 1561
   },
   "topSources": [
     [
@@ -147,6 +147,10 @@
       20
     ],
     [
+      "consent - Copy.pptx",
+      20
+    ],
+    [
       "Immunology and Serology",
       19
     ],
@@ -176,10 +180,6 @@
     ],
     [
       "The Pelvis & Perineum — Slides.pdf",
-      16
-    ],
-    [
-      "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
       16
     ]
   ],
@@ -216,6 +216,7 @@
     "notebooklm-blood-disorder-drugs.json",
     "notebooklm-cell-injury.json",
     "notebooklm-circulatory-disturbances.json",
+    "notebooklm-consent.json",
     "notebooklm-diagnostic-microbiology.json",
     "notebooklm-diagnostic-pathology.json",
     "notebooklm-immunology.json",

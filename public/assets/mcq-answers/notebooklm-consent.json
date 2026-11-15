@@ -1,0 +1,387 @@
+{
+  "questions": [
+    {
+      "id": "notebooklm-1",
+      "stem": "According to the lecture, how is medical consent formally defined?",
+      "options": [
+        "A financial agreement binding the patient to hospital fees",
+        "To give permission or agreement to receive any type of medical treatment, test, examination, or communication",
+        "A legal waiver transferring all surgical liability from the physician to the patient",
+        "An authorization given exclusively by a court judge prior to emergency intervention"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Consent is defined as giving permission or agreement to receive any type of medical treatment, test, examination, or communication.",
+      "difficulty": "easy",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-2",
+      "stem": "According to the lecture, obtaining consent is fundamentally essential for which key ethical, professional, and legal principle?",
+      "options": [
+        "Paternalism and doctor authority",
+        "Respect for patient autonomy and self-determination",
+        "Complete immunity from hospital administrative audits",
+        "Maximizing surgical patient throughput per day"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Obtaining consent is a fundamental principle of medical law and ethics, serving as an essential demonstration of respect for patient autonomy and self-determination.",
+      "difficulty": "easy",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-3",
+      "stem": "What are the two explicit types of consent categorized in the lecture material?",
+      "options": [
+        "Implied and Presumed",
+        "Verbal and Written",
+        "Immediate and Delayed",
+        "Direct and Indirect"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The lecture explicitly categorizes consent into two types: Verbal consent and Written consent.",
+      "difficulty": "easy",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-4",
+      "stem": "According to the lecture guidelines, during which of the following clinical encounters is taking consent required?",
+      "options": [
+        "Major surgical operations under general anesthesia only",
+        "History taking, physical examination, performing investigations, procedures, surgery, anesthesia, high-risk medications, treatment, and research",
+        "High-risk medication administration and clinical research exclusively",
+        "Organ transplantation procedures only"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Consent is needed across every patient encounter, including history taking, physical examination, diagnostic investigations, clinical procedures, surgical interventions, general anesthesia, high-risk medications, treatment, and research.",
+      "difficulty": "medium",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-5",
+      "stem": "Which four core elements must be observed for an informed consent to be considered valid?",
+      "options": [
+        "Age, Financial status, Legal representation, and Notarization",
+        "Comprehension, Voluntariness, Informed state, and Capacity",
+        "Written signature, Witness presence, Hospital approval, and Pre-payment",
+        "Physician authority, Family approval, Emergency status, and Documentation"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "For a consent to be valid, four essential elements must be observed: Comprehension (patient understands clearly), Voluntariness (free of pressure), Informed state (knows risks, benefits, and alternatives), and Capacity.",
+      "difficulty": "medium",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-6",
+      "stem": "What does the \"Voluntary\" element of an informed consent specifically mandate?",
+      "options": [
+        "The patient pays for all medical procedures out of pocket",
+        "The patient is not under pressure or coercion to give consent",
+        "The patient agrees to participate in clinical research without financial compensation",
+        "The patient undergoes surgery on a non-emergency weekend schedule"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Voluntariness means the patient gives consent freely and is not under external pressure or coercion from family, staff, or circumstances.",
+      "difficulty": "easy",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-7",
+      "stem": "How is \"Capacity\" defined in the context of medical consent?",
+      "options": [
+        "The physical ability of an organ system to withstand surgical stress",
+        "The ability to understand and use information to make a decision and communicate any decision made",
+        "Being at least 21 years of age with full legal status",
+        "The physiological respiratory volume during general anesthesia"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Capacity is defined as the functional ability to understand and use relevant information to make a healthcare decision and to communicate that decision.",
+      "difficulty": "easy",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-8",
+      "stem": "What constitutes an \"Informed Consent\" as defined in the presentation?",
+      "options": [
+        "A signed form obtained quickly without detailed discussion to save clinic time",
+        "Obtaining consent after full explanation and education to the patient about treatment, intervention, or research",
+        "Verbal agreement obtained while the patient is under sedating premedication",
+        "A unilateral decision made by the attending physician in the patient's best interest"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Informed consent is defined as obtaining permission after full explanation and education provided to the patient regarding the treatment, intervention, or research project.",
+      "difficulty": "easy",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-9",
+      "stem": "During the communication process of obtaining informed consent, which of the following details must be clearly explained to the patient?",
+      "options": [
+        "Only the anticipated benefits of the surgical procedure",
+        "Why treatment is needed, risks/complications, benefits, expected outcomes, alternative treatments (with their risks/benefits/outcomes), and what happens if treatment is refused",
+        "The cost of surgical instruments and hospital operating fees",
+        "Only the risks associated with refusing the proposed procedure"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Full disclosure requires explaining why treatment is needed, its risks and complications, benefits, expected outcomes, alternative treatments (including their risks, benefits, and outcomes), and the consequences of non-treatment or refusal.",
+      "difficulty": "medium",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-10",
+      "stem": "Regarding the timeline of consent, when does a patient retain the legal and ethical right to withdraw their consent?",
+      "options": [
+        "Only within 24 hours of signing the written consent form",
+        "At any time before the start of the intervention or treatment",
+        "Only after consulting a hospital legal representative",
+        "Patients cannot withdraw consent once it has been documented in the chart"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A patient retains the right to withdraw their consent at any point prior to the commencement of the intervention or treatment.",
+      "difficulty": "easy",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-11",
+      "stem": "In which clinical scenario is obtaining consent explicitly NOT required according to the lecture guidelines?",
+      "options": [
+        "Routine elective herniorrhaphy in a competent adult",
+        "Emergency treatment needed to save life in an unconscious patient",
+        "Outpatient diagnostic blood sampling",
+        "Administration of routine post-operative analgesics"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Consent is not needed when emergency treatment is required immediately to save life in an unconscious patient where delay would cause harm.",
+      "difficulty": "easy",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-12",
+      "stem": "If an immediate additional emergency procedure becomes necessary during an ongoing surgical operation, what is the consent rule stated in the lecture?",
+      "options": [
+        "The surgeon must pause surgery and awaken the patient to obtain verbal consent",
+        "Consent is not needed for immediate additional emergency procedures during an operation",
+        "Surgery must be terminated immediately and rescheduled",
+        "The procedure can only proceed if a court order is obtained in theatre"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Consent is not required if other immediate additional emergency procedures become necessary during the course of an ongoing operation.",
+      "difficulty": "medium",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-13",
+      "stem": "Medical consent is NOT required for treating a patient with a severe mental health condition (such as schizophrenia, bipolar disorder, or dementia) under which specific condition?",
+      "options": [
+        "The patient is over 65 years old",
+        "The patient lacks the capacity to consent",
+        "The patient is admitted to a private hospital ward",
+        "The patient has a history of essential hypertension"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Consent is not needed for patients with severe mental health conditions (e.g., schizophrenia, bipolar disorder, dementia) specifically when the patient lacks the decision-making capacity to consent.",
+      "difficulty": "medium",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-14",
+      "stem": "Who holds the legal authority to give medical consent for children and young people up to the age of 16 to 18 years?",
+      "options": [
+        "Any attending healthcare worker in the hospital",
+        "Anyone with parental responsibility (child, mother, appointed guardian, or court)",
+        "School teachers and headmasters",
+        "The child alone regardless of parental involvement"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Consent for children up to 16–18 years should be given by anyone possessing parental responsibility, which includes the child, mother, appointed legal guardian, or the court.",
+      "difficulty": "easy",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-15",
+      "stem": "What legal action can be taken if a person with parental responsibility refuses medical treatment for a child that may lead to death or severe permanent injury?",
+      "options": [
+        "The child must be discharged without treatment immediately",
+        "The refusal decision can be overruled by the court",
+        "The attending physician is held criminally liable if they report the case",
+        "Treatment must be permanently withheld"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "If a parent/guardian refuses treatment for a child that could lead to death or severe permanent injury, the court has the authority to overrule that refusal to protect the child.",
+      "difficulty": "medium",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-16",
+      "stem": "A person lacks capacity if their mind is impaired or disturbed. Which of the following is explicitly listed in the lecture as a clinical cause of impaired capacity?",
+      "options": [
+        "Mild fatigue after a normal working day",
+        "Mental health conditions, dementia, severe learning disabilities, brain damage (e.g., stroke/injury), or intoxication by alcohol or drugs",
+        "High professional education level",
+        "Normal physiological aging without cognitive decline"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Impairment of capacity results from conditions affecting mental function, including mental health disorders, dementia, severe learning disabilities, brain damage (stroke/trauma), and acute intoxication from alcohol or drugs.",
+      "difficulty": "easy",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-17",
+      "stem": "When should patient capacity be assessed, and who is authorized to conduct the assessment?",
+      "options": [
+        "At hospital admission by an administrative clerk",
+        "At the time consent is required, conducted by an appropriately trained and experienced health professional who is either recommending or involved in carrying out the treatment",
+        "After completion of the surgical procedure by a recovery room nurse",
+        "Exclusively by a court-appointed judge prior to any clinical encounter"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Capacity must be assessed at the exact time consent is required by an appropriately trained healthcare professional who is recommending or executing the procedure.",
+      "difficulty": "medium",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-18",
+      "stem": "Under what circumstances can life support treatment be stopped according to the lecture protocol?",
+      "options": [
+        "Unilaterally by the attending doctor without consulting family",
+        "When there is agreement that continuing treatment is not in the person's best interest, after discussion with relatives and friends",
+        "Automatically after 72 hours in all intensive care cases",
+        "Only if the patient leaves a written financial bequest to the hospital"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Life support can be stopped if there is consensus that continuing treatment is not in the patient's best interest, established through discussions with relatives and friends (with court referral if agreement fails).",
+      "difficulty": "medium",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-19",
+      "stem": "A person's capacity to consent can fluctuate over time. Which transient physiological or psychological states can temporarily impair capacity?",
+      "options": [
+        "Normal circadian rhythm and healthy diet",
+        "Shock, panic, fatigue, and medication",
+        "Wearing prescription eyeglasses",
+        "Living in a warm climate"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Capacity is decision-specific and fluid; it can be temporarily compromised by acute shock, severe panic, extreme fatigue, or sedating/psychoactive medications.",
+      "difficulty": "medium",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-20",
+      "stem": "Which of the following is explicitly listed as a major issue of concern or barrier regarding informed consent in clinical practice?",
+      "options": [
+        "Over-disclosure of medical research data",
+        "Lack of patient comprehension, language barriers, cultural differences, time pressures, changing medical circumstances, incomplete disclosure, and inadequate documentation",
+        "Excessive time available for doctor-patient discussion",
+        "Universal health literacy among all surgical patients"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Major challenges in obtaining valid informed consent include lack of patient comprehension, language barriers, cultural differences, severe time pressures, fluid medical circumstances, incomplete disclosure, and inadequate documentation.",
+      "difficulty": "medium",
+      "source": "consent - Copy.pptx",
+      "topic": "consent - Copy.pptx",
+      "section": "Principles of Surgery",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    }
+  ],
+  "source": "consent - Copy.pptx",
+  "section": "Principles of Surgery",
+  "status": "notebooklm-draft-supervisor-approved"
+}

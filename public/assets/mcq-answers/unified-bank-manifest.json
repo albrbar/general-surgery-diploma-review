@@ -1,25 +1,25 @@
 {
   "bankName": "GS Diploma Unified MCQ Bank",
   "version": "2026-11-15-drive-notebook-merge-1",
-  "totalQuestions": 1501,
-  "rawQuestionsBeforeDeduplication": 1503,
+  "totalQuestions": 1521,
+  "rawQuestionsBeforeDeduplication": 1523,
   "duplicatesCollapsed": 2,
   "sections": {
     "Anatomy": 558,
     "Pathology": 306,
     "Microbiology and Immunology": 239,
     "Pharmacology": 107,
-    "Principles of Surgery": 291
+    "Principles of Surgery": 311
   },
   "difficulty": {
-    "hard": 310,
-    "easy": 552,
-    "moderate": 587,
+    "hard": 312,
+    "easy": 557,
+    "moderate": 600,
     "very easy": 5,
     "very hard": 47
   },
   "quality": {
-    "approved": 1501
+    "approved": 1521
   },
   "topSources": [
     [
@@ -139,6 +139,10 @@
       20
     ],
     [
+      "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      20
+    ],
+    [
       "Immunology and Serology",
       19
     ],
@@ -177,10 +181,6 @@
     [
       "Principles of Diagnostic Pathology",
       16
-    ],
-    [
-      "Anatomy of the upper abdomen; relationship of pancreas to adjacent organs",
-      1
     ]
   ],
   "sourceFiles": [
@@ -215,6 +215,7 @@
     "notebooklm-analgesics.json",
     "notebooklm-blood-disorder-drugs.json",
     "notebooklm-cell-injury.json",
+    "notebooklm-circulatory-disturbances.json",
     "notebooklm-diagnostic-microbiology.json",
     "notebooklm-diagnostic-pathology.json",
     "notebooklm-immunology.json",

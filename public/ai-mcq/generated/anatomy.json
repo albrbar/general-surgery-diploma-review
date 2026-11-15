@@ -3,19 +3,21 @@
   "sectionId": "anatomy",
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
-  "generatedAt": "2026-11-15T16:04:37.256323+00:00",
+  "bankReference": "public/assets/mcq-answers/unified-bank.json",
+  "bankQuestionCount": 1441,
+  "generatedAt": "2026-11-15T19:36:18.582452+00:00",
   "questions": [
     {
-      "id": "ai-anatomy-20261115160434-01",
-      "stem": "Which of the following structures is the most superficial layer of the abdominal wall?",
+      "id": "ai-anatomy-20261115193616-01",
+      "stem": "Which of the following structures is part of the abdominal wall and is innervated by the thoracoabdominal nerves (T7–T11)?",
       "options": [
-        "External oblique muscle",
-        "Internal oblique muscle",
-        "Transversus abdominis muscle",
-        "Rectus sheath"
+        "Rectus abdominis",
+        "External oblique",
+        "Transversus abdominis",
+        "Internal oblique"
       ],
       "correctOptionIndex": 0,
-      "explanation": "The external oblique muscle lies on top of the internal oblique and transversus abdominis, making it the most superficial layer of the abdominal wall. The other muscles are deeper, and the rectus sheath encloses the rectus abdominis rather than forming a superficial layer.",
+      "explanation": "The rectus abdominis is supplied by the thoracoabdominal nerves (T7–T11). The other three layers receive innervation from the lower intercostal nerves (T12–L1).",
       "source": "Basic abdominal wall anatomy",
       "difficulty": "very easy",
       "section": "Anatomy",
@@ -23,68 +25,68 @@
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-anatomy-20261115160435-01",
-      "stem": "Which of the following structures lies directly anterior to the pancreas?",
+      "id": "ai-anatomy-20261115193616-01",
+      "stem": "Which of the following structures is the primary arterial supply to the liver?",
       "options": [
-        "A. Splenic vein",
-        "B. Portal vein",
-        "C. Common bile duct",
-        "D. Superior mesenteric artery"
+        "A. Superior mesenteric artery",
+        "B. Splenic artery",
+        "C. Hepatic artery proper",
+        "D. Inferior mesenteric artery"
       ],
       "correctOptionIndex": 2,
-      "explanation": "The common bile duct runs posterior to the first part of the duodenum and lies anterior to the pancreas. The splenic vein and portal vein are posterior, while the superior mesenteric artery is posterior and lateral. Thus option C is correct.",
-      "source": "Basic abdominal anatomy",
+      "explanation": "The hepatic artery proper, a branch of the common hepatic artery, supplies oxygenated blood to the liver. The superior mesenteric artery supplies the midgut, the splenic artery supplies the spleen, and the inferior mesenteric artery supplies the hindgut. Thus option C is correct.",
+      "source": "Basic hepatic arterial anatomy",
       "difficulty": "easy",
       "section": "Anatomy",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-anatomy-20261115160436-01",
-      "stem": "A 45‑year‑old man presents with a palpable mass in the left upper quadrant. Imaging shows a well‑defined, encapsulated lesion adjacent to the spleen. Which of the following structures is most likely to be involved if the mass originates from the organ of the left upper quadrant and is resected with a short segment of the adjacent organ?",
+      "id": "ai-anatomy-20261115193617-01",
+      "stem": "A 45‑year‑old man undergoes a laparoscopic cholecystectomy. During dissection of Calot’s triangle, the surgeon identifies a short, anomalous cystic artery that runs posterior to the common bile duct. Which of the following statements best describes the anatomical relationship of this artery to the cystic duct and common hepatic duct?",
       "options": [
-        "Pancreatic tail",
-        "Left adrenal gland",
-        "Left kidney",
-        "Colon (splenic flexure)"
+        "It courses anterior to the cystic duct and posterior to the common hepatic duct",
+        "It lies posterior to the cystic duct and anterior to the common hepatic duct",
+        "It runs between the cystic duct and the common hepatic duct",
+        "It is situated anterior to both the cystic duct and the common hepatic duct"
       ],
-      "correctOptionIndex": 0,
-      "explanation": "The lesion is most consistent with a pancreatic tail tumour, which lies adjacent to the spleen and is often resected with a splenectomy. The left adrenal gland and kidney are posterior and would not be involved in a typical upper‑quadrant mass. The splenic flexure of the colon is not in close contact with the pancreas and would not be resected with a pancreatic tail lesion.",
-      "source": "Anatomy of the upper abdomen; relationship of pancreas to adjacent organs",
+      "correctOptionIndex": 1,
+      "explanation": "The anomalous cystic artery described is a classic variant that runs posterior to the cystic duct but anterior to the common hepatic duct, making it vulnerable during dissection of Calot’s triangle. Option 1 is incorrect because it reverses the relationship to the cystic duct. Option 3 incorrectly places the artery between the ducts, and option 4 places it anterior to both ducts, which is not typical for this variant.",
+      "source": "Anatomy of Calot’s triangle and arterial variations",
       "difficulty": "moderate",
       "section": "Anatomy",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-anatomy-20261115160436-01",
-      "stem": "A 45‑year‑old man undergoes a left hemicolectomy for a transverse colon carcinoma. In the operative field, the surgeon identifies a short, well‑defined arterial trunk that supplies the splenic flexure and drains into the superior mesenteric vein. Which of the following arteries is most likely being encountered?",
+      "id": "ai-anatomy-20261115193617-01",
+      "stem": "A 45‑year‑old man undergoes a laparoscopic cholecystectomy. During dissection of the cystic duct, the surgeon identifies a short, anomalous artery that supplies the gallbladder and runs between the cystic duct and the common bile duct. Which of the following anatomical variations best explains this finding?",
       "options": [
-        "Left colic artery",
-        "Sigmoid artery",
-        "Ileocolic artery",
-        "Marginal artery of Drummond"
+        "Cystic artery arising from the right hepatic artery",
+        "Cystic artery arising from the left hepatic artery",
+        "Cystic artery arising from the gastroduodenal artery",
+        "Cystic artery arising from the superior mesenteric artery"
       ],
       "correctOptionIndex": 0,
-      "explanation": "The splenic flexure is supplied by the left colic artery, a branch of the inferior mesenteric artery. It is a short, well‑defined trunk that often drains into the superior mesenteric vein via the marginal artery. The sigmoid artery supplies the sigmoid colon, the ileocolic artery supplies the terminal ileum and cecum, and the marginal artery is a continuous arcade rather than a single trunk.",
-      "source": "Colonic arterial supply; standard surgical anatomy",
+      "explanation": "The most common anomalous supply to the gallbladder is a cystic artery originating from the right hepatic artery, which frequently courses between the cystic duct and common bile duct. The other options are rare and would not typically lie in that inter‑ductal space.",
+      "source": "Anatomy of the hepatobiliary system; standard surgical teaching",
       "difficulty": "hard",
       "section": "Anatomy",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-anatomy-20261115160437-01",
-      "stem": "A 58‑year‑old man undergoes a left hemicolectomy for a transverse colon carcinoma. Intraoperatively the surgeon identifies a segment of the inferior mesenteric vein that drains the left colic artery and is found to be adherent to the posterior wall of the pancreas. Which of the following statements best describes the anatomical relationship that explains this finding?",
+      "id": "ai-anatomy-20261115193618-01",
+      "stem": "A 45‑year‑old male presents with a 3‑month history of progressive abdominal distension and early satiety. Imaging reveals a large, well‑defined mass occupying the left upper quadrant and extending into the lesser sac. The mass is adherent to the splenic flexure of the colon but does not invade the pancreas. Which of the following structures is most likely to be displaced anteriorly by this tumour?",
       "options": [
-        "The inferior mesenteric vein courses posterior to the pancreas and joins the splenic vein before forming the portal vein.",
-        "The left colic artery originates from the superior mesenteric artery and its accompanying vein lies anterior to the pancreas.",
-        "The inferior mesenteric vein is a tributary of the splenic vein and runs in the mesentery of the splenic flexure, which is in close proximity to the tail of the pancreas.",
-        "The left colic artery is a branch of the inferior mesenteric artery and its vein follows the posterior aspect of the pancreas as it enters the portal system."
+        "Left colic artery",
+        "Left gastric artery",
+        "Short gastric arteries",
+        "Left renal vein"
       ],
-      "correctOptionIndex": 0,
-      "explanation": "The inferior mesenteric vein (IMV) drains the left colic region and typically runs posterior to the pancreas, joining the splenic vein to form the portal vein. This posterior course explains why it can be adherent to the posterior pancreatic wall during a left hemicolectomy. The other options misstate the venous drainage or arterial origin, or incorrectly describe the vein’s relationship to the pancreas.",
-      "source": "Inferior mesenteric vein anatomy; portal venous system",
+      "correctOptionIndex": 2,
+      "explanation": "A large mass in the left upper quadrant that extends into the lesser sac will push the stomach and spleen anteriorly. The short gastric arteries, which arise from the splenic artery and supply the fundus of the stomach, lie in the lesser omentum and are most likely to be displaced. The left colic artery runs along the colon and would be displaced laterally, the left gastric artery lies in the lesser omentum but is more medial, and the left renal vein is posterior and would not be displaced anteriorly.",
+      "source": "Principles of abdominal anatomy and tumour displacement",
       "difficulty": "very hard",
       "section": "Anatomy",
       "status": "ai-generated-draft",

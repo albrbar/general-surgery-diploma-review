@@ -1,0 +1,80 @@
+{
+  "report_title": "تقرير متابعة مشروع مراجعة دبلومة الجراحة العامة وتدقيق بنك 100 سؤال",
+  "prepared_on": "2026-11-15",
+  "project": "general-surgery-diploma-review",
+  "decision": "لم تتم إضافة بنك الـ100 سؤال إلى الموقع؛ لا يحتوي محتوى جديدًا بعد مقارنة المصادر.",
+  "source_bank": {
+    "file_name": "General Surgery Diploma - 100 MCQs from Lectures.docx",
+    "modified_on": "2026-11-09",
+    "question_count": 100,
+    "sections": {
+      "Wound healing": 20,
+      "SIRS, sepsis & septic shock": 20,
+      "Surgical infections": 20,
+      "Surgical oncology": 20,
+      "Surgical nutritional support": 20
+    },
+    "complete_records": 100,
+    "records_with_four_options_answer_and_explanation": 100,
+    "embedded_answer_images": 0,
+    "question_level_slide_or_page_locators": false,
+    "clinical_accuracy_reviewed": false
+  },
+  "duplicate_audit": {
+    "method": "Exact normalized question-stem matching, then option-text and correct-answer comparison on exact matches.",
+    "comparators": [
+      {
+        "bank": "640-MCQ source JSON (8 days)",
+        "count": 640,
+        "exact_stem_matches": 78,
+        "same_options_correct_answer_and_explanation": 78
+      },
+      {
+        "bank": "Day 1–Day 16 integrated route (PR preview)",
+        "count": 1280,
+        "exact_stem_matches": 76,
+        "same_option_set_and_correct_answer_text": 76,
+        "same_explanation": 58
+      },
+      {
+        "bank": "Nutritional Support — 40 Practice MCQs (Drive; site status unconfirmed)",
+        "count": 40,
+        "exact_stem_matches": 20
+      }
+    ],
+    "overlap_640_and_day1_16": 74,
+    "union_exact_matches_in_published_comparators": 80,
+    "remaining_20_match_nutrition40": true,
+    "matches_in_github_starter_bank": 0,
+    "matches_in_qbank3_anatomy_drafts": 0,
+    "internal_exact_duplicate_stems": 0,
+    "unique_questions_across_all_checked_comparators": 0
+  },
+  "website_and_pr": {
+    "live_home": "https://albrbar.github.io/general-surgery-diploma-review/",
+    "repository": "https://github.com/albrbar/general-surgery-diploma-review",
+    "pull_request": "https://github.com/albrbar/general-surgery-diploma-review/pull/6",
+    "pull_request_state": "OPEN, not merged",
+    "branch": "content/issue-5-qbank3-anatomy",
+    "latest_checked_commit": "d1f3861",
+    "local_build": "PASS",
+    "local_content_validator": "PASS: 15 JSON files, 5 question files, 80 unique question IDs",
+    "github_checks_at_audit": "No status-check results reported in PR response.",
+    "publication_note": "The home URL is the current published site. /day1-16/ and /qbank3/ remain unmerged PR routes and are not live.",
+    "application_change_for_this_audit": "None; the 100-question bank was excluded as duplicate content."
+  },
+  "other_services": {
+    "cloudflare": "One accessible account; 0 Pages projects and 0 DNS zones; no deployment created.",
+    "notebooklm": "Used only as source-discovery aid; not clinical approval; no source modified in this audit."
+  },
+  "next_actions": [
+    "Obtain independent review of PR #6 and confirm checks before merge.",
+    "Keep Q Bank 3 Anatomy questions draft / pending clinical review until qualified item-by-item review.",
+    "Do not add the duplicate 100-question bank; request a genuinely new, traceable question set if needed.",
+    "Choose public pages.dev preview or custom-domain plan before any Cloudflare deployment."
+  ],
+  "limitations": [
+    "This is a duplication and completeness audit, not a clinical validation.",
+    "The 100-question DOCX lacks question-level slide/page locators."
+  ]
+}

@@ -1,25 +1,25 @@
 {
   "bankName": "GS Diploma Unified MCQ Bank",
   "version": "2026-11-15-drive-notebook-merge-1",
-  "totalQuestions": 1521,
-  "rawQuestionsBeforeDeduplication": 1523,
+  "totalQuestions": 1541,
+  "rawQuestionsBeforeDeduplication": 1543,
   "duplicatesCollapsed": 2,
   "sections": {
     "Anatomy": 558,
-    "Pathology": 306,
+    "Pathology": 326,
     "Microbiology and Immunology": 239,
     "Pharmacology": 107,
     "Principles of Surgery": 311
   },
   "difficulty": {
-    "hard": 312,
-    "easy": 557,
-    "moderate": 600,
+    "hard": 315,
+    "easy": 566,
+    "moderate": 608,
     "very easy": 5,
     "very hard": 47
   },
   "quality": {
-    "approved": 1521
+    "approved": 1541
   },
   "topSources": [
     [
@@ -111,6 +111,10 @@
       20
     ],
     [
+      "Inflammation Lecture-3.pdf",
+      20
+    ],
+    [
       "Principles of diagnostic pathology-Lecture 1.pdf",
       20
     ],
@@ -177,10 +181,6 @@
     [
       "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
       16
-    ],
-    [
-      "Principles of Diagnostic Pathology",
-      16
     ]
   ],
   "sourceFiles": [
@@ -219,6 +219,7 @@
     "notebooklm-diagnostic-microbiology.json",
     "notebooklm-diagnostic-pathology.json",
     "notebooklm-immunology.json",
+    "notebooklm-inflammation.json",
     "pathology-cell-injury-80.json",
     "pathology-lecture1-80.json",
     "pathology.json",

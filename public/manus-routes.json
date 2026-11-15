@@ -8,6 +8,7 @@
     { "path": "/#/about", "title": "عن المنصة | GSDIPLOMAREVISION" },
     { "path": "/#/account", "title": "حساب الطبيب | GSDIPLOMAREVISION" },
     { "path": "/qbank3/", "title": "MCQ Bank 03 — Anatomy" },
-    { "path": "/midterm/", "title": "امتحان النصفي — 80 MCQ" }
+    { "path": "/midterm/", "title": "Midterm Examination — 80 MCQs" },
+    { "path": "/ai-mcq/", "title": "AI MCQ Generator" }
   ]
 }

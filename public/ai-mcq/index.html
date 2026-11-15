@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI MCQ Generator | GSDIPLOMAREVISION</title>
+  <style>
+    :root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:#17313b;background:#f3f8f7}*{box-sizing:border-box}body{margin:0}a{color:inherit}.topbar{background:#fff;border-bottom:1px solid #d9e8e5}.bar,.shell{max-width:1180px;margin:auto}.bar{padding:14px 22px;display:flex;justify-content:space-between;gap:16px}.brand,.back{color:#0f766e;text-decoration:none;font-weight:850}.shell{padding:32px 22px 60px}.hero{background:linear-gradient(125deg,#0d3d46,#0f766e 64%,#0e7490);color:#fff;border-radius:24px;padding:34px;box-shadow:0 18px 44px #134e4a25}.eyebrow{font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;color:#bce9e3;font-weight:850}.hero h1{font-size:clamp(2rem,5vw,3.2rem);margin:.6rem 0 .8rem}.hero p{max-width:760px;line-height:1.75;color:#d9f4f0}.notice{margin-top:18px;background:#fff8e6;color:#713f12;padding:14px 16px;border-radius:10px;line-height:1.6}.controls,.draft-card{background:#fff;border:1px solid #d9e8e5;border-radius:18px;padding:20px;margin-top:18px}.controls h2{margin-top:0}.controls p,.draft-card p{color:#5c7175;line-height:1.6}.run{display:inline-block;background:#0f766e;color:#fff;padding:11px 15px;border-radius:10px;text-decoration:none;font-weight:800}.groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}.draft-card h2{color:#0f766e;margin:0 0 6px}.meta{font-size:.82rem;color:#6c7f84}.empty{padding:16px;background:#f7fbfa;border-radius:10px;color:#527078}@media(max-width:720px){.groups{grid-template-columns:1fr}.shell{padding:22px 14px 48px}.hero{padding:25px}.bar{padding:13px 14px}}
+  </style>
+</head>
+<body>
+  <header class="topbar"><div class="bar"><a class="brand" href="../">GSDIPLOMAREVISION</a><a class="back" href="../">← Back to the main portal</a></div></header>
+  <main class="shell">
+    <section class="hero"><span class="eyebrow">Groq-powered educational tool</span><h1>AI MCQ Generator</h1><p>Generate new question drafts for each General Surgery Diploma section through Groq. Generated items are clearly labelled as AI drafts and must be reviewed by the supervising physician before they are used as examination content.</p><div class="notice"><strong>Safety boundary</strong> This page never exposes the Groq API key. Generation runs in GitHub Actions using the repository secret <code>GROQ_API_KEY</code>. The generated questions are not automatically added to the official banks.</div></section>
+    <section class="controls"><h2>Run generation</h2><p>Open the repository’s GitHub Actions workflow, choose a section or all sections, and set the number of questions per section. After the workflow completes, refresh this page to view the generated drafts.</p><a class="run" href="https://github.com/albrbar/general-surgery-diploma-review/actions/workflows/generate-ai-mcqs.yml" target="_blank" rel="noreferrer">Open Generate AI MCQ workflow ↗</a></section>
+    <section id="groups" class="groups" aria-live="polite"><div class="empty">Loading generated drafts…</div></section>
+  </main>
+<script>
+const groups=document.getElementById('groups');
+fetch('./manifest.json').then(r=>r.json()).then(manifest=>{if(!manifest.groups?.length){groups.innerHTML='<div class="empty">No generated drafts yet. Run the workflow above to create the first set.</div>';return}groups.innerHTML=manifest.groups.map(group=>`<article class="draft-card"><h2>${group.label}</h2><p>AI-generated draft set. Every item requires supervisor review before educational or examination use.</p><div class="meta">${group.count} questions · ${group.status} · ${group.model} · ${new Date(group.generatedAt).toLocaleString()}</div><p><a class="run" href="${group.file}">Open draft questions</a></p></article>`).join('')}).catch(()=>{groups.innerHTML='<div class="empty">No generated drafts are available yet.</div>'});
+</script>
+</body>
+</html>

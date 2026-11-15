@@ -1,0 +1,387 @@
+{
+  "questions": [
+    {
+      "id": "notebooklm-1",
+      "stem": "Which coagulation factor deficiency specifically defines Hemophilia B (Christmas disease)?",
+      "options": [
+        "Factor VIII",
+        "Factor IX",
+        "Factor XI",
+        "Factor VII"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Factor VIII deficiency causes Hemophilia A (classic hemophilia), whereas Factor IX (Christmas factor) deficiency causes Hemophilia B (Christmas disease). Factor XI deficiency is termed Plasma Thromboplastin Antecedent (PTA) deficiency.",
+      "difficulty": "easy",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-2",
+      "stem": "What is the precise biochemical mechanism of action of unfractionated heparin (UFH)?",
+      "options": [
+        "Direct competitive inhibition of the thrombin catalytic site",
+        "Binding to antithrombin III to accelerate inactivation of factors IIa, IXa, Xa, XIa, and XIIa",
+        "Irreversible acetylation of platelet cyclooxygenase-1 (COX-1)",
+        "Inhibition of hepatic vitamin K epoxide reductase (VKORC1)"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Unfractionated heparin acts indirectly by binding to antithrombin III, which markedly accelerates the inactivation of clotting factors IIa (thrombin), IXa, Xa, XIa, and XIIa.",
+      "difficulty": "medium",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-3",
+      "stem": "In a patient receiving therapeutic unfractionated heparin (UFH), what is the target activated Partial Thromboplastin Time (aPTT) therapeutic range relative to baseline?",
+      "options": [
+        "0.8 to 1.2 times baseline",
+        "1.5 to 2.0 times baseline",
+        "2.0 to 3.0 times baseline",
+        "4.0 to 5.0 times baseline"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Normal aPTT is 25–33 seconds. In heparin toxicity or over-anticoagulation, target controlled aPTT (CaPTT) is maintained at 2 to 3 times the normal baseline value.",
+      "difficulty": "medium",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-4",
+      "stem": "Why can warfarin administration paradoxically precipitate acute skin necrosis early during the initiation of therapy?",
+      "options": [
+        "Warfarin causes direct non-immunologic necrosis of vascular smooth muscle cells",
+        "Warfarin inhibits endogenous anticoagulant Protein C and Protein S faster than clotting factors II, IX, and X",
+        "Warfarin induces rapid local histamine release and mast cell degranulation",
+        "Warfarin triggers acute immune complex deposition in dermal capillaries"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Warfarin inhibits the gamma-carboxylation of Vitamin K-dependent clotting factors (II, VII, IX, X) and anticoagulant proteins (Protein C and Protein S). Because Protein C has a shorter half-life than factors II, IX, and X, its levels drop first, resulting in a transient hypercoagulable state and microvascular thrombosis (skin necrosis) before full anticoagulation is achieved.",
+      "difficulty": "hard",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-5",
+      "stem": "Which feature correctly distinguishes Low Molecular Weight Heparin (LMWH, e.g., enoxaparin) from Unfractionated Heparin (UFH)?",
+      "options": [
+        "LMWH requires routine daily aPTT monitoring",
+        "LMWH has lower oral bioavailability and a shorter half-life than UFH",
+        "LMWH is excreted renally and its neutralization by protamine sulfate is only partial",
+        "LMWH carries a higher risk of Heparin-Induced Thrombocytopenia (>5%)"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "LMWH has high subcutaneous bioavailability (90%), a longer half-life (4 hours), is eliminated via renal excretion, carries a lower risk of HIT (<1%), and requires no routine monitoring. Crucially, protamine sulfate provides complete neutralization for UFH, but only partial neutralization for LMWH (enoxaparin).",
+      "difficulty": "hard",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-6",
+      "stem": "Which direct oral anticoagulant (DOAC) functions as a direct thrombin inhibitor and has a specific FDA-approved monoclonal antibody reversal agent (Idarucizumab)?",
+      "options": [
+        "Rivaroxaban",
+        "Apixaban",
+        "Dabigatran",
+        "Argatroban"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Dabigatran is an oral direct thrombin (Factor IIa) inhibitor with predictable pharmacokinetics that requires no routine monitoring. Its anticoagulant activity can be rapidly and completely reversed by the specific monoclonal antibody Idarucizumab. Rivaroxaban inhibits Factor Xa (reversed by Andexanet alfa).",
+      "difficulty": "medium",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-7",
+      "stem": "According to preoperative holding protocols, how many days before elective surgery must oral Warfarin be held, and how many hours before surgery must therapeutic Low Molecular Weight Heparin (LMWH) be stopped?",
+      "options": [
+        "Warfarin held 2 days before; LMWH held 6 hours before",
+        "Warfarin held 5 days before; LMWH held 24 hours before",
+        "Warfarin held 7 days before; LMWH held 48 hours before",
+        "Warfarin held 1 day before; LMWH held 12 hours before"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Elective surgery guidelines specify holding oral Warfarin 5 days before surgery. Therapeutic LMWH must be stopped 24 hours before surgery (prophylactic LMWH is held 12 hours before; IV unfractionated heparin is held 4–6 hours before).",
+      "difficulty": "medium",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-8",
+      "stem": "What pharmacological rationale explains why low-dose aspirin (60–325 mg daily) remains uniquely effective as an antiplatelet agent compared to non-selective NSAIDs like ibuprofen?",
+      "options": [
+        "Aspirin reversibly blocks ADP P2Y12 receptors on vascular endothelium",
+        "Mature platelets are anucleate and cannot synthesize new COX-1 enzymes following irreversible acetylation by aspirin",
+        "Aspirin selectively inhibits COX-2 in mature circulating platelets",
+        "Ibuprofen permanently destroys hepatic cytochrome P450 enzymes"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Aspirin selectively and irreversibly acetylates platelet COX-1 (100 times more potent than against COX-2). Because circulating platelets lack nuclei, they cannot synthesize new COX-1 protein, resulting in permanent enzyme inhibition for the remainder of the platelet lifespan (7–10 days). Non-selective NSAIDs (like ibuprofen) inhibit COX-1 reversibly and lack persistent antithrombotic effects.",
+      "difficulty": "hard",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-9",
+      "stem": "To prevent ibuprofen from interfering with the antiplatelet cardioprotective effect of low-dose aspirin, what administration timing rule must be followed?",
+      "options": [
+        "Take aspirin simultaneously with ibuprofen at mealtime",
+        "Take aspirin at least 1 hour before or at least 8 hours after ibuprofen",
+        "Take ibuprofen strictly 30 minutes before aspirin",
+        "Double the dose of ibuprofen when taking aspirin"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Ibuprofen reversibly binds COX-1 and competitively prevents aspirin from reaching its target acetylation site. Therefore, aspirin should be ingested at least 1 hour before or at least 8 hours after ibuprofen.",
+      "difficulty": "hard",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-10",
+      "stem": "Which antiplatelet drug is an oral phosphodiesterase (PDE) inhibitor approved specifically for symptomatic management of intermittent claudication, but strictly contraindicated in heart failure (CHF)?",
+      "options": [
+        "Dipyridamole",
+        "Cilostazol",
+        "Prasugrel",
+        "Abciximab"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Cilostazol is an oral PDE inhibitor that increases cAMP, causing vasodilation and antiplatelet activity. It is indicated for intermittent claudication in peripheral arterial disease, but is strictly contraindicated in patients with Congestive Heart Failure (CHF). Dipyridamole causes the \"coronary steal phenomenon\" in clinically unstable angina.",
+      "difficulty": "medium",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-11",
+      "stem": "Which fibrinolytic agent is a recombinant human tissue plasminogen activator (rtPA) characterized by a long half-life that allows it to be administered as a single IV BOLUS?",
+      "options": [
+        "Streptokinase",
+        "Urokinase",
+        "Alteplase",
+        "Tenecteplase"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Fibrin-specific thrombolytic agents include Alteplase and Tenecteplase (recombinant human tPAs). Tenecteplase has a prolonged half-life (t½), enabling rapid administration as a single IV bolus. Streptokinase and Urokinase are non-fibrin-specific agents.",
+      "difficulty": "medium",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-12",
+      "stem": "Which condition is listed as an ABSOLUTE contraindication to thrombolytic/fibrinolytic therapy?",
+      "options": [
+        "Active menstrual bleeding (menses)",
+        "Ischemic stroke occurring 12 months ago",
+        "Ischemic stroke within the preceding 3 months",
+        "Controlled essential hypertension"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Absolute contraindications to thrombolytics include: severe intracranial hemorrhage, structural cerebral vascular lesions, retinal hemorrhage, malignant intracranial neoplasms, ischemic stroke within 3 months, active bleeding ( excluding menses ), and significant closed-head or facial trauma/surgery within 3 months.",
+      "difficulty": "medium",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-13",
+      "stem": "What is the mechanism of action and clinical contraindication of Tranexamic Acid (TXA) in bleeding management?",
+      "options": [
+        "Direct factor VIIa activator; contraindicated in severe liver disease",
+        "Lysine analogue blocking plasminogen/plasmin lysine-binding sites; contraindicated in renal disease",
+        "Vitamin K epoxide reductase activator; contraindicated in hypertension",
+        "Glycoprotein IIb/IIIa antagonist; contraindicated in heart failure"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Tranexamic acid (and EACA) is a synthetic lysine analogue that blocks the lysine-binding sites on plasminogen and plasmin, preventing plasmin-mediated fibrin degradation. It is contraindicated in renal disease.",
+      "difficulty": "medium",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-14",
+      "stem": "Why is the subcutaneous (SC) route of Vitamin K1 (Phytonadione) administration clinically avoided, and what life-threatening risk is associated with rapid IV push of Vitamin K1?",
+      "options": [
+        "SC causes immediate skin necrosis; rapid IV causes renal failure",
+        "SC shows an erratic absorption pattern; rapid IV causes severe dyspnea, chest/back pain, flushing, and death",
+        "SC precipitates deep vein thrombosis; rapid IV causes severe hypoglycemia",
+        "SC causes osteotoxicity; rapid IV causes acute red man syndrome"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Subcutaneous administration of Vitamin K1 is avoided because of an erratic absorption pattern. Rapid IV push of Vitamin K1 can trigger severe anaphylactoid infusion reactions presenting with dyspnea, chest and back pain, flushing, vascular collapse, and death.",
+      "difficulty": "hard",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-15",
+      "stem": "When transfusing Cryoprecipitate to an Rh-negative (Rh -ve) pregnant patient, what special blood banking directive must be strictly observed?",
+      "options": [
+        "Cryoprecipitate must be infused over a minimum of 24 hours",
+        "Cryoprecipitate must be strictly Rh-negative (Rh -ve)",
+        "Cryoprecipitate must be co-administered with high-dose aspirin",
+        "Cryoprecipitate must be reconstituted with 5% Dextrose"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Cryoprecipitate is a concentrated plasma protein fraction containing Factor VIII, vWF, and fibrinogen. When administered to Rh-negative (Rh -ve) pregnant women, Cryoprecipitate must be strictly Rh-negative to avoid Rh isoimmunization.",
+      "difficulty": "medium",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-16",
+      "stem": "What percentage of human cancers reactivate the reverse transcriptase enzyme telomerase to bypass cellular senescence and achieve immortality?",
+      "options": [
+        "~10%",
+        "~30%",
+        "~50%",
+        "~90%"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Telomeres consist of repetitive TTAGGG DNA end-cap sequences. Approximately 90% of human cancers reactivate telomerase (a reverse transcriptase enzyme), preventing telomere shortening and conferring cellular immortality.",
+      "difficulty": "easy",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-17",
+      "stem": "Which antimetabolite anticancer agent acts as a folic acid antagonist, and what specific rescue drug is administered on non-treatment days to mitigate severe mucosal and hematologic toxicity?",
+      "options": [
+        "5-Fluorouracil; rescued by Thymidine",
+        "6-Mercaptopurine; rescued by Allopurinol",
+        "Methotrexate; rescued by Folinic Acid (Leucovorin)",
+        "Cytarabine; rescued by Pyridoxine"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Methotrexate is a folic acid antagonist antimetabolite. To prevent lethal normal tissue toxicity (megaloblastic anemia, mucosal ulceration, hepatotoxicity), Folinic Acid (Leucovorin) rescue is administered on non-methotrexate days.",
+      "difficulty": "medium",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-18",
+      "stem": "Hemorrhagic cystitis (hematuria) is a classic adverse effect of Cyclophosphamide caused by acrolein accumulation. Which agent is administered to prevent or manage this complication?",
+      "options": [
+        "Folinic acid",
+        "MESNA (or N-acetylcysteine)",
+        "Dexrazoxane",
+        "Amifostine"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Cyclophosphamide is an alkylating prodrug metabolized into phosphoramide mustard (active cytotoxic agent) and acrolein (toxic metabolite causing hemorrhagic cystitis). It is managed with aggressive fluid intake, MESNA, or N-acetylcysteine.",
+      "difficulty": "easy",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-19",
+      "stem": "Match the cytotoxic antibiotic to its pathognomonic organ-specific toxicity: Doxorubicin | Bleomycin | Mitomycin",
+      "options": [
+        "Doxorubicin = Pulmonary fibrosis; Bleomycin = Nephrotoxicity; Mitomycin = Cardiotoxicity",
+        "Doxorubicin = Cardiotoxicity; Bleomycin = Pneumonitis & Pulmonary Fibrosis; Mitomycin = Nephrotoxicity",
+        "Doxorubicin = Ototoxicity; Bleomycin = Cardiotoxicity; Mitomycin = Hepatotoxicity",
+        "Doxorubicin = Nephrotoxicity; Bleomycin = Neurotoxicity; Mitomycin = Cardiotoxicity"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Cytotoxic antibiotics exhibit distinct organ toxicities: Doxorubicin causes cardiotoxicity; Bleomycin causes pneumonitis and pulmonary fibrosis; Mitomycin causes nephrotoxicity.",
+      "difficulty": "hard",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-20",
+      "stem": "Regarding cancer chemotherapy during pregnancy, during which gestational period is cytotoxic chemotherapy strictly an absolute classic contraindication?",
+      "options": [
+        "1st Trimester (Organogenesis stage)",
+        "2nd Trimester",
+        "3rd Trimester",
+        "Post-partum lactation period only"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Cytotoxic chemotherapy is strictly avoided during the 1st Trimester (organogenesis stage) due to high teratogenic risk. Methotrexate is highlighted as an absolute classic contraindication.",
+      "difficulty": "easy",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    }
+  ],
+  "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+  "section": "Pathology",
+  "status": "notebooklm-draft-supervisor-approved"
+}

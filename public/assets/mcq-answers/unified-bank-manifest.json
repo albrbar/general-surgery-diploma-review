@@ -1,25 +1,25 @@
 {
   "bankName": "GS Diploma Unified MCQ Bank",
   "version": "2026-11-15-drive-notebook-merge-1",
-  "totalQuestions": 1381,
-  "rawQuestionsBeforeDeduplication": 1383,
-  "duplicatesCollapsed": 2,
+  "totalQuestions": 1441,
+  "rawQuestionsBeforeDeduplication": 1463,
+  "duplicatesCollapsed": 22,
   "sections": {
     "Anatomy": 558,
-    "Pathology": 286,
-    "Microbiology and Immunology": 199,
-    "Pharmacology": 67,
+    "Pathology": 306,
+    "Microbiology and Immunology": 219,
+    "Pharmacology": 87,
     "Principles of Surgery": 271
   },
   "difficulty": {
-    "hard": 287,
-    "easy": 521,
-    "moderate": 521,
+    "hard": 303,
+    "easy": 536,
+    "moderate": 550,
     "very easy": 5,
     "very hard": 47
   },
   "quality": {
-    "approved": 1381
+    "approved": 1441
   },
   "topSources": [
     [
@@ -111,7 +111,19 @@
       20
     ],
     [
+      "Principles of diagnostic pathology-Lecture 1.pdf",
+      20
+    ],
+    [
       "Wound healing",
+      20
+    ],
+    [
+      "dignostic microbilogy .collecting sample.26.pdf",
+      20
+    ],
+    [
+      "Analgesics for surgery.pdf",
       20
     ],
     [
@@ -169,18 +181,6 @@
     [
       "Colonic arterial supply; standard surgical anatomy",
       1
-    ],
-    [
-      "Inferior mesenteric vein anatomy; portal venous system",
-      1
-    ],
-    [
-      "Basic histopathology of skin cancers",
-      1
-    ],
-    [
-      "Basic surgical pathology of splenic lesions",
-      1
     ]
   ],
   "sourceFiles": [
@@ -212,6 +212,9 @@
     "lower-limb-80.json",
     "microbiology-80.json",
     "microbiology-immunology.json",
+    "notebooklm-analgesics.json",
+    "notebooklm-diagnostic-microbiology.json",
+    "notebooklm-diagnostic-pathology.json",
     "pathology-cell-injury-80.json",
     "pathology-lecture1-80.json",
     "pathology.json",

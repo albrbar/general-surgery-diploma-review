@@ -1,0 +1,387 @@
+{
+  "questions": [
+    {
+      "id": "notebooklm-1",
+      "stem": "What is the fixative of choice for routine surgical pathology specimens, and what is the required minimum volume ratio of fixative to tissue?",
+      "options": [
+        "70% Ethanol at a 5:1 ratio",
+        "10% Neutral Buffered Formalin (NBF) at a 10:1 ratio",
+        "Normal Saline (0.9% NaCl) at a 20:1 ratio",
+        "Glutaraldehyde at a 2:1 ratio"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The fixative of choice for routine histology is 10% Neutral Buffered Formalin (NBF). Proper tissue preservation requires a 10:1 volume ratio of fixative to tissue. Using normal saline instead of formalin for routine histology is strictly prohibited as it leads to tissue autolysis.",
+      "difficulty": "easy",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-2",
+      "stem": "What is the approximate tissue penetration rate of 10% Neutral Buffered Formalin, and what is the minimum required fixation duration for routine histology?",
+      "options": [
+        "~1 mm/hour penetration rate; minimum 6–8 hours fixation",
+        "~5 mm/hour penetration rate; minimum 1–2 hours fixation",
+        "~10 mm/hour penetration rate; minimum 12–15 hours fixation",
+        "~0.1 mm/hour penetration rate; minimum 48 hours fixation"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Formalin penetrates tissue at a rate of approximately 1 mm/hour. Standard processing requires a minimum fixation time of 6–8 hours, while 24 hours is optimal for cellular preservation and ancillary testing.",
+      "difficulty": "medium",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-3",
+      "stem": "Why is a shave biopsy strictly contraindicated when evaluating a patient for suspected cutaneous malignant melanoma?",
+      "options": [
+        "It triggers rapid hematogenous dissemination of malignant cells",
+        "It performs a horizontal cut through the superficial dermis and fails to assess deep margins",
+        "It causes immediate melanocytic cellular lysis upon air exposure",
+        "It prevents formalin fixative penetration into the dermis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A shave biopsy makes a horizontal slice through the superficial dermis and does not assess deep margins. It is strictly contraindicated in suspected melanoma because determining vertical Breslow invasion depth requires an intact deep dermal margin.",
+      "difficulty": "medium",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-4",
+      "stem": "What is the primary diagnostic limitation of Fine Needle Aspiration (FNA) compared to Core Needle Biopsy (CNB)?",
+      "options": [
+        "FNA carries a significantly higher risk of tissue hematoma",
+        "FNA provides no tissue architecture, making it impossible to distinguish in-situ from invasive carcinoma",
+        "FNA cannot aspirate fluid from cystic neck masses",
+        "FNA requires routine general anesthesia in an operating suite"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "FNA collects isolated cells and fluid using a small needle, making it rapid and minimally invasive. However, because tissue architecture is not preserved, FNA cannot evaluate basement membrane integrity or differentiate in-situ carcinoma from invasive carcinoma.",
+      "difficulty": "medium",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-5",
+      "stem": "How must a surgical tissue specimen intended for intraoperative Frozen Section (FS) consultation be handled and transported to the laboratory?",
+      "options": [
+        "Submerged in 10% Neutral Buffered Formalin at room temperature",
+        "Placed in 0.9% Normal Saline for 1 hour",
+        "Sent completely fresh immediately on ice or dry (NEVER fixed in formalin)",
+        "Immersed in glutaraldehyde fixative"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Specimens for frozen section must NEVER be placed in formalin because chemical fixation prevents rapid intraoperative freezing and sectioning. They must be sent completely fresh immediately on ice or dry, with prior notification to the pathology lab.",
+      "difficulty": "easy",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-6",
+      "stem": "What is the reported diagnostic sensitivity of an intraoperative frozen section biopsy, and what is its typical reporting time?",
+      "options": [
+        "~75% sensitivity; 1–2 hours reporting time",
+        "~85% sensitivity; 45–60 minutes reporting time",
+        "~95% sensitivity; 15–30 minutes reporting time",
+        "100% sensitivity; 2–5 working days reporting time"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Frozen section consultation provides rapid intraoperative diagnosis within 15–30 minutes with an established diagnostic sensitivity of approximately 95%.",
+      "difficulty": "easy",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-7",
+      "stem": "According to standard surgical pathology conventions, how are short and long sutures applied to orient an excised specimen?",
+      "options": [
+        "Short suture = Superior margin; Long suture = Lateral margin",
+        "Short suture = Anterior margin; Long suture = Posterior margin",
+        "Short suture = Deep margin; Long suture = Superficial margin",
+        "Short suture = Medial margin; Long suture = Inferior margin"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Unless an alternative convention is explicitly agreed upon with the local pathology department, the universal suture orientation standard designates a short suture at the superior margin and a long suture at the lateral margin.",
+      "difficulty": "easy",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-8",
+      "stem": "What is the standard color-coded ink convention used by pathologists to delineate distinct surgical margins on a resected specimen?",
+      "options": [
+        "Black = Anterior; Blue = Posterior; Yellow = Inferior; Green = Superior",
+        "Black = Posterior; Blue = Anterior; Yellow = Superior; Green = Inferior",
+        "Red = Superior; Green = Inferior; Blue = Lateral; Yellow = Medial",
+        "Black = Superior; Blue = Inferior; Yellow = Anterior; Green = Posterior"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Standard multi-color margin ink conventions use Black for posterior, Blue for anterior, Yellow for superior, and Green for inferior margins.",
+      "difficulty": "medium",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-9",
+      "stem": "When performing an incisional biopsy of a large soft tissue mass, which area should be selected for sampling?",
+      "options": [
+        "Central necrotic and hemorrhagic core",
+        "Interface of normal and abnormal viable peripheral tissue",
+        "Surrounding skin epidermis only",
+        "Overlying subcutaneous adipose layer"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Incisional biopsies remove a partial sample for diagnostic purposes. Key technical rules require including the junction/interface between normal and abnormal tissue while avoiding central necrotic areas, which yield non-diagnostic debris.",
+      "difficulty": "medium",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-10",
+      "stem": "If electron microscopy analysis is specifically required for a specialized biopsy specimen, which fixative must be used?",
+      "options": [
+        "Bouin's solution",
+        "Glutaraldehyde",
+        "70% Isopropanol",
+        "10% Neutral Buffered Formalin"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Electron microscopy requires glutaraldehyde fixation to preserve cellular ultrastructure and organelle membranes. Routine 10% NBF is unsuitable for electron microscopy studies.",
+      "difficulty": "medium",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-11",
+      "stem": "To preserve hormone receptors (ER/PR/HER2) and immunohistochemical markers in breast resections, fixation in 10% NBF should ideally begin within what cold ischemia timeframe post-excision?",
+      "options": [
+        "Within 15 minutes only",
+        "Within 1 hour post-excision (cold ischemia time ≤1 hour)",
+        "Within 6 hours post-excision",
+        "Timing does not affect receptor preservation"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Immunohistochemistry and hormone receptor testing yield optimal results when tissue is placed in 10% NBF within 1 hour of surgical excision (cold ischemia time ≤1 hour). Delays beyond 30–60 minutes risk protein degradation and autolysis.",
+      "difficulty": "hard",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-12",
+      "stem": "Where should patient identification labels be physically placed on a surgical specimen container?",
+      "options": [
+        "Directly on the removable lid for easy visibility",
+        "Directly on the body of the container itself (NEVER on the lid)",
+        "Tied directly around orientation sutures",
+        "Taped onto the outer biohazard transport bag only"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Labels must be written or placed directly on the container body, NEVER on the lid. Lids can be accidentally mismatched or swapped during processing, leading to catastrophic patient misidentification.",
+      "difficulty": "easy",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-13",
+      "stem": "According to mandatory specimen labeling standards, how many patient identifiers are required on every surgical specimen container?",
+      "options": [
+        "One identifier (Patient full name only)",
+        "At least two identifiers (e.g., Patient full name AND Date of Birth / Hospital ID)",
+        "Three identifiers including bed number and ward name",
+        "Only the surgeon's full name"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Best practice guidelines require at least two patient identifiers on every specimen container (e.g., patient's full name with no abbreviations, plus date of birth or hospital ID number).",
+      "difficulty": "easy",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-14",
+      "stem": "What type of tissue artefact is caused by squeezing or grasping delicate tissue tightly with surgical forceps during excision?",
+      "options": [
+        "Drying artefact",
+        "Crush artefact",
+        "Fixation artefact",
+        "Autolysis artefact"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Crush artefact is an artificial tissue distortion caused by mechanical squeezing with forceps. It crushes delicate cell structures and causes nuclear smearing, obscuring microscopic detail.",
+      "difficulty": "easy",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-15",
+      "stem": "What is the primary clinical consequence of submitting a pathology request form without relevant clinical history or imaging details?",
+      "options": [
+        "Immediate destruction and rejection of the tissue specimen",
+        "Non-specific reporting and failure to consider important differential diagnoses",
+        "Automatic execution of molecular DNA sequencing",
+        "Mandatory immediate repeat surgical biopsy"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Providing missing clinical history forces the pathologist to evaluate tissue in isolation, leading to non-specific reporting and potential failure to consider key differential diagnoses relevant to the patient's presentation.",
+      "difficulty": "medium",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-16",
+      "stem": "Which biopsy technique yields a cylindrical full-thickness skin core (2–8 mm) encompassing epidermis, dermis, and subcutaneous fat?",
+      "options": [
+        "Shave biopsy",
+        "Punch biopsy",
+        "Fine needle aspiration",
+        "Core needle aspiration"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A punch biopsy uses a circular blade to procure a full-thickness 2–8 mm cylindrical skin sample, making it ideal for inflammatory dermatoses and pigmented lesions.",
+      "difficulty": "medium",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-17",
+      "stem": "Why is it a strict technical rule that a surgical excision specimen must NOT be cut or sectioned (bivalved) before margin inking?",
+      "options": [
+        "Cutting prevents formalin fixative from entering tissue",
+        "Inking after cutting allows ink to seep into internal cut surfaces, creating false-positive surgical margins",
+        "Cutting destroys all intracellular DNA",
+        "Inking before cutting dissolves orientation sutures"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Specimens must be oriented and inked BEFORE any sectioning or bivalving occurs. Cutting tissue prior to inking allows dark ink to flow into internal surgical cuts, which the pathologist will misinterpret under the microscope as a positive resection margin.",
+      "difficulty": "hard",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-18",
+      "stem": "What is the standard routine turnaround time (TAT) for small diagnostic biopsies versus large, complex surgical resection specimens?",
+      "options": [
+        "Small biopsies: 15–30 minutes; Large specimens: 1–3 working days",
+        "Small biopsies: 1–3 working days; Large or complex specimens: 5–10 working days or longer",
+        "Small biopsies: 5–10 working days; Large specimens: 24 hours",
+        "Both take 3–4 weeks"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Routine turnaround time for small biopsies is 1–3 working days. Large or complex specimens require 5–10 working days or longer due to extensive grossing, fixation time, and potential special/immunohistochemical stains.",
+      "difficulty": "medium",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-19",
+      "stem": "Which of the following diagnostic procedures CANNOT be performed on a formalin-fixed (10% NBF) specimen?",
+      "options": [
+        "Routine H&E histological evaluation",
+        "Flow cytometry for suspected lymphoma and microbiology bacterial culture",
+        "Diagnostic immunohistochemical cytokeratin staining",
+        "Pathological TNM staging"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Flow cytometry (which requires live intact cells) and microbiology cultures (which require viable microbes) CANNOT be performed on formalin-fixed tissue. Formalin cross-links proteins and kills microorganisms; these procedures require fresh, unfixed tissue.",
+      "difficulty": "hard",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-20",
+      "stem": "According to the golden rules of specimen orientation, when should orientation sutures ideally be placed by the surgeon?",
+      "options": [
+        "After the specimen has been fixed in formalin for 24 hours",
+        "While the specimen is still in situ prior to complete surgical detachment",
+        "In the pathology laboratory after gross sectioning",
+        "Only if a positive margin is identified on permanent section"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Golden Rule #3 dictates that orientation should be established while the specimen is still in situ prior to complete excision. Once a soft-tissue mass is detached, it collapses and rotates, making retrospective orientation prone to error.",
+      "difficulty": "hard",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    }
+  ],
+  "source": "dignostic microbilogy .collecting sample.26.pdf",
+  "section": "Microbiology and Immunology",
+  "status": "notebooklm-draft-supervisor-approved"
+}

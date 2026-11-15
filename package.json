@@ -4,8 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "check": "tsc --noEmit",
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:static": "npm run build",
     "preview": "vite preview"
   },
   "dependencies": {

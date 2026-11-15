@@ -1,0 +1,344 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Q Bank 03 — Anatomy",
+  "language": "en",
+  "answerVisibility": "hidden-until-submitted",
+  "questions": [
+    {
+      "id": "GS-ANAT03-PE-0001",
+      "topic": "Anal triangle",
+      "stem": "Which structures are contained in the anal triangle of the perineum?",
+      "options": [
+        "The anal canal and ischiorectal fossae",
+        "The urinary bladder and prostate",
+        "The urethra and external genitalia only",
+        "The rectum and uterine cavity"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The anal triangle contains the anal canal and the ischiorectal fossae.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 14,
+      "source_locator": "PDF p. 14; slide 151",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The slide states that the anal triangle contains the anal canal and ischiorectal fossae.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-PE-0002",
+      "topic": "Anal canal relations",
+      "stem": "Which structure is listed as an anterior relation of the anal canal?",
+      "options": [
+        "Perineal body and urogenital diaphragm",
+        "Anococcygeal body",
+        "Obturator internus",
+        "Sacrotuberous ligament"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The perineal body and urogenital diaphragm are the stated anterior relations of the anal canal.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 15,
+      "source_locator": "PDF p. 15; slide 152",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The relations list names the perineal body and urogenital diaphragm anteriorly.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-PE-0003",
+      "topic": "Anal canal relations",
+      "stem": "What is the posterior relation of the anal canal?",
+      "options": [
+        "Anococcygeal body",
+        "Perineal body",
+        "Urogenital diaphragm",
+        "Obturator fascia"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The slide identifies the anococcygeal body as the posterior relation.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 15,
+      "source_locator": "PDF p. 15; slide 152",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The relations list gives the anococcygeal body posteriorly.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-PE-0004",
+      "topic": "Anal canal orientation",
+      "stem": "In which direction does the anal canal pass from the anorectal junction toward the anus?",
+      "options": [
+        "Downward and backward",
+        "Upward and forward",
+        "Horizontally to the right",
+        "Downward and forward"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The anal canal passes downward and backward from the anorectal junction.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 15,
+      "source_locator": "PDF p. 15; slide 152",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The slide describes the canal as passing downward and backward.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-PE-0005",
+      "topic": "External anal sphincter innervation",
+      "stem": "Which nerve supply is specified for the external anal sphincter?",
+      "options": [
+        "Inferior rectal nerve and perineal branch of S4",
+        "Obturator nerve and L2",
+        "Pelvic splanchnic nerves only",
+        "Superior gluteal nerve and S1"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The external sphincter receives the inferior rectal nerve (from the pudendal nerve) and the perineal branch of S4.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 18,
+      "source_locator": "PDF p. 18; slide 155",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The slide directly names the inferior rectal nerve and S4 perineal branch.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-PE-0006",
+      "topic": "Anal canal muscle coat",
+      "stem": "Where does the outer longitudinal smooth-muscle layer of the anal canal descend?",
+      "options": [
+        "Between the internal and external anal sphincters",
+        "Within the pudendal canal",
+        "Between the two layers of the bladder wall",
+        "Through the obturator canal"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The outer longitudinal layer continues from the rectum and descends in the interval between the two anal sphincters.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 19,
+      "source_locator": "PDF p. 19; slide 156",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The slide describes this layer as descending between the internal and external sphincters.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-PE-0007",
+      "topic": "Anal mucosa",
+      "stem": "Which epithelial lining characterizes the lower half of the anal canal in the lecture slides?",
+      "options": [
+        "Stratified squamous epithelium",
+        "Columnar epithelium forming anal columns",
+        "Transitional epithelium",
+        "Simple cuboidal epithelium"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The lower half is lined by stratified squamous epithelium and lacks anal columns and valves.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 21,
+      "source_locator": "PDF p. 21; slide 158",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The lower-half column specifies stratified squamous epithelium and absence of columns and valves.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-PE-0008",
+      "topic": "Anal canal arterial supply",
+      "stem": "Which artery supplies the lower half of the anal canal according to the slides?",
+      "options": [
+        "Inferior rectal artery",
+        "Superior rectal artery",
+        "Middle rectal artery",
+        "Superior vesical artery"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The lower half is supplied by the inferior rectal artery, a branch of the internal pudendal artery.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 22,
+      "source_locator": "PDF p. 22; slide 159",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The lower-half arterial supply entry names the inferior rectal artery from the internal pudendal artery.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-PE-0009",
+      "topic": "Anal canal venous drainage",
+      "stem": "The inferior rectal vein drains first into which vein, as described in the slides?",
+      "options": [
+        "Internal pudendal vein",
+        "Inferior mesenteric vein",
+        "Splenic vein",
+        "External iliac vein"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The inferior rectal vein drains into the internal pudendal vein before reaching the internal iliac vein and systemic circulation.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 22,
+      "source_locator": "PDF p. 22; slide 159",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The lower-half venous drainage pathway begins with the inferior rectal vein entering the internal pudendal vein.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-PE-0010",
+      "topic": "Anal canal lymph drainage",
+      "stem": "Which lymph nodes receive lymph from the upper half of the anal canal in the slide table?",
+      "options": [
+        "Superior rectal nodes, then pararectal and inferior mesenteric nodes",
+        "Superficial inguinal nodes only",
+        "Internal iliac nodes only",
+        "Deep inguinal nodes, then external iliac nodes"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The upper-half pathway runs through superior rectal nodes and pararectal nodes to inferior mesenteric nodes.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 22,
+      "source_locator": "PDF p. 22; slide 159",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The upper-half lymph entry lists superior rectal nodes, pararectal nodes, and inferior mesenteric nodes in sequence.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-PE-0011",
+      "topic": "Puborectalis sling",
+      "stem": "What configuration do the puborectalis fibres form around the anorectal junction?",
+      "options": [
+        "A U-shaped sling",
+        "A complete circular ring around the anal verge",
+        "A straight band between the ischial tuberosities",
+        "A V-shaped ligament behind the coccyx"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The puborectalis fibres blend with the deep external sphincter to form a U-shaped sling.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 23,
+      "source_locator": "PDF p. 23; slide 160",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The slide describes the puborectalis fibres as blending with the deep external sphincter into a U-shaped sling.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-PE-0012",
+      "topic": "Ischiorectal fossa boundaries",
+      "stem": "Which structures form the lateral wall of the ischiorectal fossa?",
+      "options": [
+        "Obturator internus, obturator fascia, and pudendal canal",
+        "Levator ani and anal canal",
+        "Skin and superficial fascia",
+        "Sacrum and coccyx"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The lateral wall is formed by obturator internus, its fascia, and the pudendal canal.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 25,
+      "source_locator": "PDF p. 25; slide 162",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The boundary list explicitly names obturator internus, obturator fascia, and pudendal canal laterally.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-PE-0013",
+      "topic": "Ischiorectal fossa boundaries",
+      "stem": "What forms the anterior boundary of the ischiorectal fossa?",
+      "options": [
+        "Superficial and deep transverse perineal muscles",
+        "Sacrotuberous ligament",
+        "Obturator internus and pudendal canal",
+        "Levator ani and anal canal"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The anterior boundary is formed by the superficial and deep transverse perineal muscles.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 25,
+      "source_locator": "PDF p. 25; slide 162",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The boundary list names the superficial and deep transverse perineal muscles anteriorly.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-PE-0014",
+      "topic": "Ischiorectal fossa contents",
+      "stem": "Which named nerve and vessels are contents of the ischiorectal fossa?",
+      "options": [
+        "Inferior rectal nerve and vessels",
+        "Superior rectal nerve and vessels",
+        "Obturator nerve and vessels",
+        "Femoral nerve and vessels"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The fossa contains the inferior rectal nerve and vessels; the pudendal nerve and internal pudendal vessels lie within the pudendal canal.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 26,
+      "source_locator": "PDF p. 26; slide 163",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The contents list includes inferior rectal nerve and vessels, followed by pudendal structures within the canal.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-PE-0015",
+      "topic": "Pudendal canal",
+      "stem": "What forms the pudendal canal?",
+      "options": [
+        "A splitting of the obturator fascia",
+        "A tunnel through the sacrotuberous ligament",
+        "A passage through the levator ani",
+        "A division of the perineal membrane"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The pudendal canal is a tunnel formed by splitting of the obturator fascia.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 27,
+      "source_locator": "PDF p. 27; slide 164",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The slide defines the canal as a tunnel formed by splitting of obturator fascia.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    },
+    {
+      "id": "GS-ANAT03-PE-0016",
+      "topic": "Pudendal nerve branches",
+      "stem": "Which territory is supplied by the perineal nerve, a branch of the pudendal nerve?",
+      "options": [
+        "Urogenital triangle muscles and skin on the posterior scrotum or labia majora",
+        "Lower half of the anal canal and perianal skin only",
+        "Bladder wall and ureteric orifices",
+        "Levator ani and skin over the sacrum"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The perineal nerve supplies muscles of the urogenital triangle and skin on the posterior scrotum or labia majora.",
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "pdfPage": 28,
+      "source_locator": "PDF p. 28; slide 165",
+      "sourceLink": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view",
+      "sourceEvidence": "The slide assigns urogenital-triangle muscles and posterior scrotal/labial skin to the perineal nerve.",
+      "difficulty": "draft-high-yield",
+      "status": "draft",
+      "reviewStatus": "pending-clinical-review"
+    }
+  ]
+}

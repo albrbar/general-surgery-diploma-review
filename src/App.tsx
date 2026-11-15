@@ -1,419 +1,96 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
+import { revisionDays, type PreviewQuestion, type RevisionDay } from './data/revisionDays';
+import './styles.css';
 
-const previewLinks = {
-  mcq640: 'https://gsexam-zv2uu94a.manus.space',
-};
+type Page = 'home' | 'revision' | 'banks' | 'library' | 'about' | 'account';
+type IconName = 'home' | 'calendar' | 'layers' | 'book' | 'info' | 'user' | 'arrow' | 'check' | 'lock' | 'external' | 'menu' | 'close' | 'rotate';
+type SavedProgress = { currentDay: number; answers: Record<string, number>; scores: Record<string, number> };
 
-const assetBase = '/general-surgery-diploma-review/';
-
-type Question = {
-  id: string;
-  topic?: string;
-  subject?: string;
-  difficulty: string;
-  stem: string;
-  options: string[];
-  correctOptionIndex?: number;
-  answer_index?: number;
-  explanation: string;
-  reference_snapshot?: string;
-};
-
-type Bank = {
-  id: string;
-  file: string;
-  shortTitle: string;
-  title: string;
-  description: string;
-  subject: string;
-  color: string;
-  tint: string;
-  border: string;
-  reviewNotice?: string;
-};
-
-const banks: Bank[] = [
-  {
-    id: 'abdomen',
-    file: 'abdomen-80.json',
-    shortTitle: 'Abdomen Anatomy',
-    title: 'Abdomen Anatomy MCQ — 96 Questions',
-    description: 'Abdominal wall, inguinal region, gastrointestinal tract, hepatobiliary anatomy, pancreas, spleen, and peritoneum.',
-    subject: 'ABD',
-    color: 'text-orange-800',
-    tint: 'bg-orange-100',
-    border: 'border-orange-200 hover:border-orange-400',
-  },
-  {
-    id: 'microbiology',
-    file: 'microbiology-80.json',
-    shortTitle: 'Microbiology & Immunology',
-    title: 'Microbiology & Immunology MCQ',
-    description: 'Specimen diagnostics, antimicrobial resistance, infection prevention, and immunology.',
-    subject: 'MICRO',
-    color: 'text-emerald-800',
-    tint: 'bg-emerald-100',
-    border: 'border-emerald-200 hover:border-emerald-400',
-  },
-  {
-    id: 'breast',
-    file: 'breast-80.json',
-    shortTitle: 'Chest / Breast Anatomy',
-    title: 'Chest (Breast) Anatomy MCQ',
-    description: 'Structure, lymphatic drainage, blood supply, and clinical anatomy.',
-    subject: 'BRST',
-    color: 'text-amber-800',
-    tint: 'bg-amber-100',
-    border: 'border-amber-200 hover:border-amber-400',
-  },
-  {
-    id: 'pelvis-perineum',
-    file: 'pelvis-perineum-80.json',
-    shortTitle: 'Pelvis & Perineum',
-    title: 'Pelvis & Perineum Anatomy MCQ',
-    description: '80 source-provided questions with answers and explanations covering pelvic and perineal anatomy.',
-    subject: 'PELV',
-    color: 'text-violet-800',
-    tint: 'bg-violet-100',
-    border: 'border-violet-200 hover:border-violet-400',
-  },
-  {
-    id: 'lower-limb',
-    file: 'lower-limb-80.json',
-    shortTitle: 'Lower Limb Anatomy',
-    title: 'Lower Limb Anatomy MCQ',
-    description: '80 source-provided questions with answers and explanations covering lower-limb anatomy.',
-    subject: 'LOWER',
-    color: 'text-sky-800',
-    tint: 'bg-sky-100',
-    border: 'border-sky-200 hover:border-sky-400',
-  },
-  {
-    id: 'upper-limb',
-    file: 'upper-limb-80.json',
-    shortTitle: 'Upper Limb Anatomy',
-    title: 'Upper Limb Anatomy MCQ',
-    description: '80 source-provided questions with answers and explanations covering upper-limb anatomy.',
-    subject: 'UPPER',
-    color: 'text-indigo-800',
-    tint: 'bg-indigo-100',
-    border: 'border-indigo-200 hover:border-indigo-400',
-  },
-  {
-    id: 'pathology-lecture1',
-    file: 'pathology-lecture1-80.json',
-    shortTitle: 'Diagnostic Pathology · Lecture 1',
-    title: 'Principles of Diagnostic & Surgical Pathology — Lecture 1',
-    description: 'Core diagnostic principles, biopsy types, specimen handling, fixation, labeling, and transportation.',
-    subject: 'PATH 1',
-    color: 'text-rose-800',
-    tint: 'bg-rose-100',
-    border: 'border-rose-200 hover:border-rose-400',
-    reviewNotice: 'Source material · not independently clinically reviewed',
-  },
-  {
-    id: 'pathology-cell-injury',
-    file: 'pathology-cell-injury-80.json',
-    shortTitle: 'Cell Injury & Death · Lecture 2',
-    title: 'Cell Injury and Death — Lecture 2',
-    description: 'Causes and mechanisms of injury, necrosis, apoptosis, calcification, cellular accumulations, and aging.',
-    subject: 'PATH 2',
-    color: 'text-fuchsia-800',
-    tint: 'bg-fuchsia-100',
-    border: 'border-fuchsia-200 hover:border-fuchsia-400',
-    reviewNotice: 'Source material · not independently clinically reviewed',
-  },
+const base = window.location.pathname.startsWith('/general-surgery-diploma-review') ? '/general-surgery-diploma-review/' : '/';
+const externalLinks = { revision: `${base}day1-16/`, mcq640: 'https://gsexam-zv2uu94a.manus.space' };
+const storageKey = 'gsdiploma.preview-progress.v1';
+const navItems: Array<{ id: Page; label: string; icon: IconName }> = [
+  { id: 'home', label: 'Home', icon: 'home' }, { id: 'revision', label: 'Revision Path', icon: 'calendar' },
+  { id: 'banks', label: 'Question Banks', icon: 'layers' }, { id: 'library', label: 'Academic Library', icon: 'book' }, { id: 'about', label: 'About the Platform', icon: 'info' },
 ];
+const topicGroups = [
+  ['Core Surgery', 'General Surgery Core', ['Perioperative care', 'Fluids and electrolytes', 'Surgical infection']], ['Trauma', 'Trauma Surgery', ['Primary survey', 'Shock', 'Thoracic trauma', 'Abdominal trauma']],
+  ['Breast Surgery', 'Breast Surgery', ['Benign breast disease', 'Breast cancer']], ['Colorectal Surgery', 'Colorectal Surgery', ['Colorectal cancer', 'Inflammatory bowel disease', 'Anorectal disease']],
+  ['Upper GI Surgery', 'Upper GI Surgery', ['Oesophagus', 'Stomach', 'Bariatric surgery']], ['Hepatopancreatobiliary Surgery', 'HPB Surgery', ['Liver', 'Biliary tract', 'Pancreas']],
+  ['Vascular Surgery', 'Vascular Surgery', ['Arterial disease', 'Venous disease']], ['Endocrine Surgery', 'Endocrine Surgery', ['Thyroid', 'Parathyroid', 'Adrenal gland']],
+] as const;
 
-type SubjectCategory = {
-  number: string;
-  title: string;
-  topics: string[];
-  bankIds: string[];
-};
-
-const basicSubjects: SubjectCategory[] = [
-  {
-    number: '1',
-    title: 'Anatomy',
-    topics: [
-      'Abdomen',
-      'Chest / Breast',
-      'The Pelvis & Perineum',
-      'Lower Limb: Nerves, Vessels & Lymphatics',
-      'Upper Limb: Nerves, Vessels & Lymphatics',
-    ],
-    bankIds: ['abdomen', 'breast', 'pelvis-perineum', 'lower-limb', 'upper-limb'],
-  },
-  {
-    number: '2',
-    title: 'Microbiology & Immunology',
-    topics: ['Diagnostic Microbiology & Specimen Collection', 'Antimicrobial Resistance', 'Immunology & Serology'],
-    bankIds: ['microbiology'],
-  },
-  {
-    number: '3',
-    title: 'Pathology',
-    topics: ['Principles of Diagnostic Pathology', 'Cell Injury and Death', 'Inflammation', 'Circulatory Disturbances', 'Neoplasia: Grading, Staging & Biomarkers'],
-    bankIds: ['pathology-lecture1', 'pathology-cell-injury'],
-  },
-  {
-    number: '4',
-    title: 'Pharmacology',
-    topics: ['Antimicrobial Chemotherapy & Antibiotics', 'Drugs for GIT Disorders', 'Drugs for Peptic Ulcer', 'Analgesics for Surgery', 'Cancer Chemotherapy & Blood-Disorder Drugs'],
-    bankIds: [],
-  },
-];
-
-const principlesTopics = [
-  'Fluids & Electrolytes',
-  'Shock',
-  'Hemorrhage',
-  'Blood and Blood Products',
-  'Wound Healing',
-  'Sterilisation and Disinfection',
-  'Medical Ethics',
-  'Consent',
-  'Breaking Bad News',
-  'Metabolic Response to Surgery and Trauma',
-  'Nutritional Support in Surgical Patients',
-  'Principles of Surgical Oncology',
-  'Surgical Infections I',
-  'Surgical Infections II',
-  'Septic Shock',
-  'Venous Thromboembolism',
-  'Acid–Base Disturbances',
-];
-
-const publishedBankOrder = [banks[0], banks[2], banks[3], banks[4], banks[5], banks[6], banks[7], banks[1]];
-
-function QuestionBank({ bank }: { bank: Bank }) {
-  const [questions, setQuestions] = useState<Question[]>([]);
-  const [current, setCurrent] = useState(0);
-  const [selected, setSelected] = useState<number | null>(null);
-  const [submitted, setSubmitted] = useState(false);
-  const [loadError, setLoadError] = useState(false);
-
-  useEffect(() => {
-    fetch(`${assetBase}assets/mcq-answers/${bank.file}`)
-      .then((response) => response.ok ? response.json() : Promise.reject(new Error('bank unavailable')))
-      .then((data) => setQuestions(data.questions.map((item: Question) => ({
-        ...item,
-        correctOptionIndex: item.correctOptionIndex ?? item.answer_index,
-      }))))
-      .catch(() => setLoadError(true));
-  }, [bank.file]);
-
-  const question = questions[current];
-  const next = () => {
-    setCurrent((value) => (value + 1) % questions.length);
-    setSelected(null);
-    setSubmitted(false);
+function Icon({ name, size = 20 }: { name: IconName; size?: number }) {
+  const common = { width: size, height: size, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 1.8, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const, 'aria-hidden': true };
+  const paths: Record<IconName, ReactNode> = {
+    home: <><path d="m3 10 9-7 9 7" /><path d="M5 9.5V21h14V9.5" /><path d="M9 21v-6h6v6" /></>,
+    calendar: <><rect x="3" y="4.5" width="18" height="16" rx="2" /><path d="M16 2.5v4M8 2.5v4M3 9h18" /><path d="M8 13h2M14 13h2M8 17h2" /></>,
+    layers: <><path d="m12 3 8 4-8 4-8-4 8-4Z" /><path d="m4 12 8 4 8-4M4 17l8 4 8-4" /></>,
+    book: <><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17H6.5A2.5 2.5 0 0 0 4 21.5v-17Z" /><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" /><path d="M8 6h8M8 10h7" /></>,
+    info: <><circle cx="12" cy="12" r="9" /><path d="M12 10.5v5M12 7.5h.01" /></>, user: <><circle cx="12" cy="8" r="3.5" /><path d="M4.5 21a7.5 7.5 0 0 1 15 0" /></>,
+    arrow: <><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></>, check: <><path d="m5 12 4 4L19 6" /></>, lock: <><rect x="5" y="10" width="14" height="11" rx="2" /><path d="M8 10V7a4 4 0 0 1 8 0v3" /></>,
+    external: <><path d="M14 4h6v6M20 4l-9 9M18 13v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5" /></>, menu: <><path d="M4 7h16M4 12h16M4 17h16" /></>, close: <><path d="m6 6 12 12M18 6 6 18" /></>, rotate: <><path d="M20 11a8 8 0 1 0 1 4" /><path d="M20 5v6h-6" /></>,
   };
-
-  return (
-    <section id={bank.id} className="scroll-mt-24 mt-8 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
-      <div className="flex flex-wrap items-center justify-between gap-4 border-b border-slate-100 px-5 py-5 sm:px-8">
-        <div className="flex items-center gap-4">
-          <span className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl text-xs font-black ${bank.tint} ${bank.color}`}>{bank.subject}</span>
-          <div>
-            <p className="text-xs font-bold uppercase tracking-[0.16em] text-teal-700">{bank.reviewNotice ?? `Question bank · ${questions.length || '…'} questions`}</p>
-            <h3 className="text-xl font-black text-slate-900 sm:text-2xl">{bank.title}</h3>
-            <p className="mt-1 max-w-3xl text-sm leading-6 text-slate-500">{bank.description}</p>
-          </div>
-        </div>
-        {questions.length > 0 && (
-          <span className="rounded-full bg-slate-100 px-3 py-1.5 text-sm font-bold text-slate-600">
-            Question {current + 1} of {questions.length}
-          </span>
-        )}
-      </div>
-
-      <div className="p-5 sm:p-8">
-        {loadError && <p className="rounded-xl bg-red-50 p-4 text-red-700">This question bank could not be loaded. Please refresh the page and try again.</p>}
-        {!loadError && !question && <p className="text-slate-500">Loading questions…</p>}
-        {question && (
-          <div dir="ltr">
-            <div className="mb-4 flex flex-wrap gap-2">
-              <span className="rounded-full bg-teal-50 px-3 py-1 text-xs font-bold text-teal-800">{question.topic ?? question.subject ?? bank.subject}</span>
-              <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-700">{question.difficulty}</span>
-            </div>
-            <h4 className="mb-5 text-lg font-bold leading-8 text-slate-900 sm:text-xl">{question.stem}</h4>
-            <div className="grid gap-3">
-              {question.options.map((option, index) => {
-                const correctIndex = question.correctOptionIndex ?? question.answer_index ?? -1;
-                const isCorrect = submitted && index === correctIndex;
-                const isWrong = submitted && selected === index && index !== correctIndex;
-                const style = isCorrect
-                  ? 'border-emerald-500 bg-emerald-50'
-                  : isWrong
-                    ? 'border-red-500 bg-red-50'
-                    : selected === index
-                      ? 'border-teal-500 bg-teal-50'
-                      : 'border-slate-200 hover:border-teal-300';
-                return (
-                  <button
-                    key={`${question.id}-${index}`}
-                    type="button"
-                    aria-pressed={selected === index}
-                    onClick={() => !submitted && setSelected(index)}
-                    className={`rounded-xl border p-4 text-left transition ${style}`}
-                  >
-                    <span className="mr-2 font-bold">{String.fromCharCode(65 + index)}.</span>{option}
-                  </button>
-                );
-              })}
-            </div>
-            <div className="mt-5 flex flex-wrap gap-3">
-              {!submitted ? (
-                <button disabled={selected === null} onClick={() => setSubmitted(true)} className="rounded-xl bg-teal-800 px-5 py-3 font-bold text-white transition hover:bg-teal-700 disabled:cursor-not-allowed disabled:opacity-40">
-                  Submit answer
-                </button>
-              ) : (
-                <button onClick={next} className="rounded-xl bg-teal-800 px-5 py-3 font-bold text-white transition hover:bg-teal-700">
-                  Next question
-                </button>
-              )}
-            </div>
-            {submitted && (
-              <div className="mt-5 rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm leading-7">
-                <strong>{selected === (question.correctOptionIndex ?? question.answer_index) ? 'Correct.' : 'Review the highlighted answer.'}</strong> {question.explanation}
-              </div>
-            )}
-            {question.reference_snapshot && (
-              <details className="mt-4 rounded-xl border border-teal-200 bg-teal-50/70 p-4 text-sm leading-6 text-slate-700">
-                <summary className="cursor-pointer font-bold text-teal-900">Slide evidence card</summary>
-                <p className="mt-3">{question.reference_snapshot}</p>
-              </details>
-            )}
-          </div>
-        )}
-      </div>
-    </section>
-  );
+  return <svg {...common}>{paths[name]}</svg>;
 }
+
+function pageFromHash(): Page { const value = window.location.hash.replace(/^#\/?/, '').split('?')[0]; return navItems.some((item) => item.id === value) || value === 'account' ? value as Page : 'home'; }
+function loadProgress(): SavedProgress { try { return JSON.parse(localStorage.getItem(storageKey) || '') as SavedProgress; } catch { return { currentDay: 1, answers: {}, scores: {} }; } }
 
 export default function App() {
-  return (
-    <div id="top" className="min-h-screen bg-slate-50 font-sans text-slate-900" dir="ltr">
-      <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 shadow-sm backdrop-blur">
-        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:h-[76px] sm:px-6">
-          <a href="#top" className="flex min-w-0 items-center gap-3" aria-label="GSDIPLOMAREVISION home">
-            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-teal-900 text-sm font-black tracking-tight text-white">GS</span>
-            <span className="min-w-0">
-              <span className="block truncate text-sm font-black tracking-wide text-teal-950 sm:text-base">GSDIPLOMAREVISION</span>
-              <span className="hidden text-xs text-slate-500 sm:block">General Surgery Diploma · Revision & MCQs</span>
-            </span>
-          </a>
-          <nav className="flex items-center gap-3 text-xs font-bold sm:gap-6 sm:text-sm" aria-label="Main navigation">
-            <a href="#question-banks" className="text-slate-600 transition hover:text-teal-800">Question banks</a>
-            <a href="#principles" className="hidden text-slate-600 transition hover:text-teal-800 lg:inline">Principles of Surgery</a>
-            <a href="#other-resources" className="hidden text-slate-600 transition hover:text-teal-800 sm:inline">Other resources</a>
-            <a href="#abdomen" className="rounded-lg bg-teal-800 px-3 py-2 text-white transition hover:bg-teal-700 sm:px-4">Open Abdomen MCQ</a>
-          </nav>
-        </div>
-      </header>
-
-      <main className="mx-auto w-full max-w-7xl px-4 pb-12 pt-6 sm:px-6 sm:pt-10">
-        <section className="relative isolate overflow-hidden rounded-[2rem] bg-gradient-to-br from-teal-950 via-teal-900 to-cyan-900 px-5 py-8 text-white shadow-xl sm:px-10 sm:py-12 lg:px-14">
-          <div className="absolute -right-16 -top-20 -z-10 h-72 w-72 rounded-full border-[36px] border-white/5" />
-          <div className="absolute -bottom-24 left-1/3 -z-10 h-64 w-64 rounded-full bg-cyan-400/10 blur-2xl" />
-          <div className="grid items-center gap-8 lg:grid-cols-[minmax(0,1fr)_280px]">
-            <div>
-              <span className="inline-flex rounded-full border border-teal-200/30 bg-white/10 px-3 py-1.5 text-xs font-bold tracking-wide text-teal-100">GENERAL SURGERY DIPLOMA</span>
-              <h1 className="mt-5 max-w-3xl text-3xl font-black leading-tight sm:text-4xl lg:text-5xl">Focused revision. Clear progress.</h1>
-              <p className="mt-4 max-w-2xl text-sm leading-7 text-teal-100 sm:text-base">
-                Practice from focused, interactive question banks and review each answer as you go.
-              </p>
-              <a href="#question-banks" className="mt-6 inline-flex items-center gap-2 rounded-xl bg-white px-5 py-3 text-sm font-black text-teal-950 shadow-lg transition hover:-translate-y-0.5 hover:bg-teal-50">
-                Browse question banks <span aria-hidden="true">↓</span>
-              </a>
-            </div>
-            <div className="grid grid-cols-3 gap-2 rounded-2xl border border-white/15 bg-white/10 p-4 text-center backdrop-blur sm:gap-3 sm:p-5">
-              <div><span className="block text-2xl font-black sm:text-3xl">8</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Question banks</span></div>
-              <div className="border-x border-white/15"><span className="block text-2xl font-black sm:text-3xl">640</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Questions</span></div>
-              <div><span className="block text-2xl font-black sm:text-3xl">MCQ</span><span className="mt-1 block text-[10px] leading-4 text-teal-100 sm:text-xs">Instant feedback</span></div>
-            </div>
-          </div>
-        </section>
-
-        <section id="question-banks" className="scroll-mt-24 pt-10 sm:pt-12">
-          <div className="mb-5 flex flex-wrap items-end justify-between gap-3 sm:mb-6">
-            <div>
-              <p className="text-xs font-black uppercase tracking-[0.18em] text-teal-700">Course directory</p>
-              <h2 className="mt-1 text-2xl font-black text-slate-950 sm:text-3xl">Lectures & Question Banks</h2>
-              <p className="mt-2 text-sm text-slate-500">Browse the course subjects and open the question banks currently published on this site.</p>
-            </div>
-            <span className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-600">8 published banks · 640 questions</span>
-          </div>
-          <h3 className="mb-4 text-lg font-black text-slate-900 sm:text-xl">Lectures in Basic Surgical Sciences</h3>
-          <div className="grid gap-4 lg:grid-cols-2">
-            {basicSubjects.map((subject) => (
-              <article key={subject.number} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
-                <div className="flex items-center gap-3">
-                  <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-teal-900 text-sm font-black text-white">{subject.number}</span>
-                  <h4 className="text-lg font-black text-slate-900">{subject.title}</h4>
-                </div>
-                <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-                  {subject.topics.map((topic) => (
-                    <li key={topic} className="rounded-lg bg-slate-50 px-3 py-2 text-sm leading-5 text-slate-700">{topic}</li>
-                  ))}
-                </ul>
-                <div className="mt-4 flex flex-wrap gap-2 border-t border-slate-100 pt-4">
-                  {subject.bankIds.map((bankId) => {
-                    const bank = banks.find((item) => item.id === bankId);
-                    if (!bank) return null;
-                    return (
-                      <a key={bank.id} href={`#${bank.id}`} className={`rounded-lg border px-3 py-2 text-xs font-black transition hover:bg-teal-50 ${bank.border}`}>
-                        Open {bank.shortTitle} · 80 MCQs
-                      </a>
-                    );
-                  })}
-                  {subject.bankIds.length === 0 && (
-                    <span className="text-xs font-semibold text-slate-500">Lecture topics listed · interactive question bank not yet published</span>
-                  )}
-                </div>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section aria-label="Interactive question banks" className="pt-2">
-          {publishedBankOrder.map((bank) => <QuestionBank key={bank.id} bank={bank} />)}
-        </section>
-
-        <section id="principles" className="scroll-mt-24 mt-12">
-          <div className="mb-5">
-            <p className="text-xs font-black uppercase tracking-[0.18em] text-teal-700">Course directory</p>
-            <h2 className="mt-1 text-2xl font-black text-slate-950 sm:text-3xl">Lectures in Principles of Surgery</h2>
-          </div>
-          <ol className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-            {principlesTopics.map((topic, index) => (
-              <li key={topic} className="flex items-start gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm leading-6 text-slate-700">
-                <span className="mt-0.5 font-black tabular-nums text-teal-800">{String(index + 1).padStart(2, '0')}</span>
-                <span>{topic}</span>
-              </li>
-            ))}
-          </ol>
-        </section>
-
-        <section id="other-resources" className="scroll-mt-24 mt-10 rounded-2xl border border-slate-200 bg-white p-5 sm:p-7">
-          <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
-            <div>
-              <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">Additional resource</p>
-              <h2 className="mt-1 text-xl font-black text-slate-900">640 MCQ practice site</h2>
-              <p className="mt-1 text-sm text-slate-500">Open the separate intensive question-bank website.</p>
-            </div>
-            <a href={previewLinks.mcq640} target="_blank" rel="noreferrer" className="inline-flex shrink-0 items-center justify-center rounded-xl border border-teal-800 px-5 py-3 text-sm font-bold text-teal-900 transition hover:bg-teal-50">
-              Open 640 MCQ <span className="ml-2" aria-hidden="true">↗</span>
-            </a>
-          </div>
-        </section>
-      </main>
-
-      <footer className="border-t border-slate-200 bg-white px-4 py-6 text-center text-xs text-slate-500">
-        <p>© 2026 GSDIPLOMAREVISION · General Surgery Diploma Revision</p>
-      </footer>
-    </div>
-  );
+  const [page, setPage] = useState<Page>(pageFromHash);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [progress, setProgress] = useState<SavedProgress>(loadProgress);
+  const [notice, setNotice] = useState(false);
+  useEffect(() => { localStorage.setItem(storageKey, JSON.stringify(progress)); }, [progress]);
+  useEffect(() => { const onHash = () => { setPage(pageFromHash()); setMenuOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }; window.addEventListener('hashchange', onHash); return () => window.removeEventListener('hashchange', onHash); }, []);
+  useEffect(() => {
+    if (!notice) return;
+    const onKeyDown = (event: KeyboardEvent) => { if (event.key === 'Escape') setNotice(false); };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [notice]);
+  const navigate = (next: Page) => { window.location.hash = `/${next}`; setPage(next); setMenuOpen(false); };
+  const updateProgress = (next: Partial<SavedProgress>) => setProgress((current) => ({ ...current, ...next }));
+  return <div className="app-shell" dir="ltr">
+    <header className="site-header"><div className="header-inner"><a className="brand" href={`${base}#/home`} onClick={() => navigate('home')}><span className="brand-mark"><img src={`${base}assets/platform-cover.svg`} alt="" /></span><span className="brand-copy"><strong>GSDIPLOMA<span>REVISION</span></strong><small>General Surgery Diploma Review Platform</small></span></a><nav className={`main-nav ${menuOpen ? 'is-open' : ''}`} aria-label="Primary navigation">{navItems.map((item) => <button key={item.id} className={`nav-link ${page === item.id ? 'active' : ''}`} onClick={() => navigate(item.id)} aria-current={page === item.id ? 'page' : undefined}><Icon name={item.icon} size={17} /><span>{item.label}</span></button>)}</nav><div className="header-actions"><button className="account-button" onClick={() => navigate('account')}><Icon name="user" size={17} /><span>Doctor Account</span></button><button className="menu-button" onClick={() => setMenuOpen((value) => !value)} aria-label="Menu"><Icon name={menuOpen ? 'close' : 'menu'} /></button></div></div></header>
+    <main className="main-content">{page === 'home' && <HomePage navigate={navigate} progress={progress} />}{page === 'revision' && <RevisionPage progress={progress} updateProgress={updateProgress} />}{page === 'banks' && <BanksPage />}{page === 'library' && <LibraryPage />}{page === 'about' && <AboutPage />}{page === 'account' && <AccountPage onNotice={() => setNotice(true)} />}</main>
+    <footer className="site-footer"><div className="footer-inner"><div><strong>GSDIPLOMA<span>REVISION</span></strong><p>A structured revision portal with a clear separation between technical preview and clinically approved content.</p></div><div className="footer-links"><button onClick={() => navigate('about')}>Review methodology</button><button onClick={() => navigate('banks')}>Question bank status</button><a href="https://github.com/albrbar/general-surgery-diploma-review" target="_blank" rel="noreferrer">GitHub repository <Icon name="external" size={14} /></a></div><small>© 2026 GSDIPLOMAREVISION</small></div></footer>
+    {notice && <div className="modal-backdrop" onClick={() => setNotice(false)}><div className="modal-card" role="dialog" aria-modal="true" aria-labelledby="notice-title" onClick={(event) => event.stopPropagation()}><span className="modal-icon"><Icon name="user" size={22} /></span><h2 id="notice-title">Accounts in preparation</h2><p>Personal progress sync and accounts will be added in a later release. Current progress is saved locally for preview purposes only.</p><button className="button button-primary button-wide" onClick={() => setNotice(false)}>OK</button></div></div>}
+  </div>;
 }
+
+function PageHeader({ eyebrow, title, description, action }: { eyebrow: string; title: string; description: string; action?: ReactNode }) { return <section className="page-heading"><div><span className="eyebrow">{eyebrow}</span><h1>{title}</h1><p>{description}</p></div>{action}</section>; }
+function HomePage({ navigate, progress }: { navigate: (page: Page) => void; progress: SavedProgress }) {
+  const completed = Object.keys(progress.scores).length;
+  return <><section className="hero-section"><div className="hero-copy"><span className="status-pill"><span className="status-dot" /> Technical preview available</span><h1>Review with clarity.<br /><em>Advance with confidence.</em></h1><p>One portal bringing together the 16-Day Revision Path, question banks, and the General Surgery Diploma curriculum map in one structured experience.</p><div className="hero-actions"><button className="button button-light" onClick={() => navigate('revision')}>Start pathway preview <Icon name="arrow" size={16} /></button><button className="button button-ghost" onClick={() => navigate('banks')}>Explore question banks <Icon name="arrow" size={17} /></button></div><div className="hero-note"><Icon name="check" size={16} /><span>The current pathway questions are technical preview items only; they are not clinically approved or examination content.</span></div></div><div className="hero-visual"><div className="hero-orbit orbit-one" /><div className="hero-orbit orbit-two" /><div className="hero-panel"><div className="hero-panel-top"><span className="tiny-label">REVISION PATH</span><span className="live-indicator"><span /> PREVIEW</span></div><div className="hero-number">16</div><div className="hero-panel-title">days of structured revision</div><div className="hero-progress"><span style={{ width: `${Math.round((completed / 16) * 100)}%` }} /></div><div className="hero-panel-foot"><span>Progress saved locally</span><strong>{completed} / 16 days</strong></div></div><div className="floating-card floating-top"><span className="floating-icon teal"><Icon name="layers" size={17} /></span><span><strong>8 × 16</strong><small>preview questions per day</small></span></div><div className="floating-card floating-bottom"><span className="floating-icon gold"><Icon name="lock" size={16} /></span><span><strong>Pending</strong><small>clinical content under review</small></span></div></div></section><section className="stats-row"><Stat value="16" label="revision days" /><Stat value="8" label="questions per page" /><Stat value="640+" label="external questions available" /><Stat value="Pending" label="clinical approval pending" /></section><section className="section-block"><div className="section-heading"><div><span className="eyebrow">Two complementary pathways</span><h2>Choose your starting point</h2></div><button className="text-link" onClick={() => navigate('about')}>How does the platform work? <Icon name="arrow" size={15} /></button></div><div className="feature-grid"><FeatureCard tone="teal" icon="calendar" title="Revision Path — 16 Days" description="A technical preview for each day with eight questions, instant explanations, and local progress and score persistence." action="Open pathway" onClick={() => navigate('revision')} /><FeatureCard tone="blue" icon="layers" title="Question Banks" description="Access the current 640-MCQ bank and a separate status page for the Anatomy bank under clinical review." action="View banks" onClick={() => navigate('banks')} /></div></section><section className="section-block compact-block"><div className="section-heading"><div><span className="eyebrow">Release status</span><h2>Responsible release first</h2></div><span className="quiet-badge"><Icon name="check" size={14} /> Preview only</span></div><div className="release-grid"><ReleaseItem label="Day 1–Day 16 Path" value="Technical preview interface" tone="success" /><ReleaseItem label="640 MCQ" value="Available on external site" tone="success" /><ReleaseItem label="MCQ Bank 03 — Anatomy" value="Clinical review pending" tone="warning" /><ReleaseItem label="Accounts" value="In preparation" tone="neutral" /></div></section></>;
+}
+function Stat({ value, label }: { value: string; label: string }) { return <div className="stat-item"><strong>{value}</strong><span>{label}</span></div>; }
+function FeatureCard({ tone, icon, title, description, action, onClick }: { tone: 'teal' | 'blue'; icon: IconName; title: string; description: string; action: string; onClick: () => void }) { return <article className={`feature-card ${tone}`}><div className="feature-card-head"><span className="feature-icon"><Icon name={icon} size={22} /></span><span className="feature-tag">Interface ready</span></div><h3>{title}</h3><p>{description}</p><button className="card-link" onClick={onClick}>{action}<Icon name="arrow" size={16} /></button></article>; }
+function ReleaseItem({ label, value, tone }: { label: string; value: string; tone: 'success' | 'warning' | 'neutral' }) { return <div className="release-item"><span className={`release-dot ${tone}`} /><div><strong>{label}</strong><span>{value}</span></div></div>; }
+
+function RevisionPage({ progress, updateProgress }: { progress: SavedProgress; updateProgress: (next: Partial<SavedProgress>) => void }) {
+  const [selectedDay, setSelectedDay] = useState(progress.currentDay || 1);
+  const day = revisionDays[selectedDay - 1];
+  const [quizOpen, setQuizOpen] = useState(true);
+  const setDay = (number: number) => { setSelectedDay(number); updateProgress({ currentDay: number }); setQuizOpen(true); window.scrollTo({ top: 0, behavior: 'smooth' }); };
+  return <div className="content-container"><PageHeader eyebrow="Primary pathway" title="16-Day Revision Path" description="Each daily page contains 8 technical preview questions. Selecting an option reveals the answer and explanation immediately; progress is saved locally for verification only." action={<a className="button button-outline" href={externalLinks.revision} target="_blank" rel="noreferrer">Open external learning site <Icon name="external" size={16} /></a>} /><div className="preview-warning"><Icon name="info" size={18} /><div><strong>Technical preview mode — clinical release pending</strong><p>The questions below are not examination material or clinically approved content. They will not be replaced with medical data until the required sources and approvals are available.</p></div></div><div className="day-selector"><div><span className="eyebrow">Select a day</span><h2>{day.title}</h2><span className="day-selector-en">{day.english}</span></div><div className="day-select-buttons">{revisionDays.map((item) => <button key={item.number} className={item.number === selectedDay ? 'selected' : ''} onClick={() => setDay(item.number)} aria-label={`Day ${item.number}`}>{String(item.number).padStart(2, '0')}</button>)}</div></div>{quizOpen ? <DayQuiz day={day} progress={progress} updateProgress={updateProgress} /> : <button className="button button-primary" onClick={() => setQuizOpen(true)}>Open today’s questions</button>}<section className="source-strip"><Icon name="book" size={18} /><div><strong>Day sources</strong><p>The external pathway is available; preview questions are separate, non-clinical data.</p></div><a href={externalLinks.revision} target="_blank" rel="noreferrer">Open external source <Icon name="external" size={14} /></a></section><div className="day-grid compact-day-grid">{revisionDays.map((item) => <button className={`day-card mini-day ${item.number === selectedDay ? 'is-selected' : ''}`} key={item.code} onClick={() => setDay(item.number)}><img src={`${base}assets/day-icons/day-${String(item.number).padStart(2, '0')}.svg`} alt="" /><div className="day-card-body"><span className="day-number">DAY {String(item.number).padStart(2, '0')}</span><h3>{item.title}</h3><span className="day-open">{progress.scores[item.code] !== undefined ? `Score ${progress.scores[item.code]}/8` : 'Open day'} <Icon name="arrow" size={13} /></span></div></button>)}</div></div>;
+}
+
+function DayQuiz({ day, progress, updateProgress }: { day: RevisionDay; progress: SavedProgress; updateProgress: (next: Partial<SavedProgress>) => void }) {
+  const [answers, setAnswers] = useState<Record<string, number>>(progress.answers);
+  const answered = day.questions.filter((question) => answers[question.id] !== undefined).length;
+  const score = day.questions.filter((question) => answers[question.id] === question.correctOptionIndex).length;
+  useEffect(() => { setAnswers(progress.answers); }, [day.number]);
+  const choose = (question: PreviewQuestion, optionIndex: number) => { if (answers[question.id] !== undefined) return; const next = { ...answers, [question.id]: optionIndex }; setAnswers(next); const nextScore = day.questions.filter((item) => next[item.id] === item.correctOptionIndex).length; updateProgress({ answers: next, scores: { ...progress.scores, [day.code]: nextScore } }); };
+  const retry = () => { const next = { ...answers }; day.questions.forEach((question) => delete next[question.id]); const scores = { ...progress.scores }; delete scores[day.code]; setAnswers(next); updateProgress({ answers: next, scores }); };
+  return <section className="quiz-section" aria-labelledby="quiz-title"><div className="quiz-heading"><div><span className="eyebrow">Daily quiz / Daily quiz</span><h2 id="quiz-title">{day.title}</h2><p>One selection per question — instant feedback after answering.</p></div><div className="quiz-score"><strong>{score} / 8</strong><span>{answered === 8 ? 'Day complete' : `${answered} of 8 answered`}</span></div></div><div className="quiz-progress"><span style={{ width: `${(answered / 8) * 100}%` }} /></div><div className="question-list">{day.questions.map((question, index) => <QuestionCard key={question.id} question={question} number={index + 1} answer={answers[question.id]} onChoose={choose} />)}</div><div className="quiz-footer"><span><Icon name="check" size={15} /> Progress is saved automatically in this browser</span><button className="button button-outline" onClick={retry}><Icon name="rotate" size={15} /> Retry current day</button></div></section>;
+}
+function QuestionCard({ question, number, answer, onChoose }: { question: PreviewQuestion; number: number; answer?: number; onChoose: (question: PreviewQuestion, option: number) => void }) { const revealed = answer !== undefined; return <article className={`question-card ${revealed ? 'revealed' : ''}`}><div className="question-meta"><span>Question {String(number).padStart(2, '0')}</span><span className="question-state">{revealed ? (answer === question.correctOptionIndex ? 'Correct answer' : 'Review the answer') : 'Awaiting selection'}</span></div><h3>{question.stem}</h3><div className="options-list">{question.options.map((option, index) => <button key={option} className={`${revealed && index === question.correctOptionIndex ? 'correct' : ''} ${revealed && index === answer && index !== question.correctOptionIndex ? 'wrong' : ''}`} onClick={() => onChoose(question, index)} disabled={revealed}><span className="option-letter">{String.fromCharCode(65 + index)}</span><span>{option}</span>{revealed && index === question.correctOptionIndex && <Icon name="check" size={16} />}</button>)}</div>{revealed && <div className="answer-reveal"><div><strong>{answer === question.correctOptionIndex ? 'Correct — well done' : 'The correct answer is shown below'}</strong><p>{question.explanation}</p></div><a href={question.sourceUrl} target="_blank" rel="noreferrer">{question.sourceLabel} <Icon name="external" size={13} /></a></div>}</article>; }
+
+  function BanksPage() { return <div className="content-container"><PageHeader eyebrow="Assessment" title="Question Banks" description="Clear current training, with new banks kept separate until clinical review is complete." /><div className="bank-grid"><article className="bank-card bank-active"><div className="bank-card-top"><span className="bank-icon blue">MCQ</span><span className="status-chip success"><span /> Available for practice</span></div><h2>640 MCQ</h2><p>The intensive question bank for revision and practice, available on the current external test site.</p><div className="bank-meta"><span><strong>640+</strong> questions</span><span><strong>available</strong> now</span></div><a className="button button-primary button-wide" href={externalLinks.mcq640} target="_blank" rel="noreferrer">Open 640 MCQ <Icon name="external" size={16} /></a></article><article className="bank-card bank-pending"><div className="bank-card-top"><span className="bank-icon amber">ANAT</span><span className="status-chip warning"><span /> Review pending</span></div><h2>MCQ Bank 03 — Anatomy</h2><p>80 source-traceable anatomy questions across five topics. This is a status and source page only; no learner quiz is available yet.</p><div className="bank-meta"><span><strong>80</strong> draft questions</span><span><strong>5</strong> topics</span></div><a className="button button-outline button-wide" href={`${base}qbank3/`}>View bank status <Icon name="arrow" size={16} /></a></article></div><section className="review-rules"><div className="review-rules-heading"><span className="feature-icon gold"><Icon name="lock" size={19} /></span><div><span className="eyebrow">Release policy</span><h2>A draft does not automatically become a test</h2></div></div><div className="rules-grid"><Rule icon="check" title="Item review" text="Review the answer key, distractors, and explanation for every item." /><Rule icon="book" title="Source matching" text="Verify the PDF page and printed lecture-slide number." /><Rule icon="lock" title="Safe release" text="Drafts remain hidden until clinical and editorial approval." /></div></section></div>; }
+function Rule({ icon, title, text }: { icon: IconName; title: string; text: string }) { return <div className="rule"><span className="rule-icon"><Icon name={icon} size={17} /></span><div><strong>{title}</strong><p>{text}</p></div></div>; }
+function LibraryPage() { return <div className="content-container"><PageHeader eyebrow="Curriculum map / Curriculum map" title="Academic Library" description="An initial map of diploma topics. It connects the interface to the repository structure without claiming that every lecture is available." action={<span className="quiet-badge"><Icon name="book" size={14} /> Index under construction</span>} /><div className="library-grid">{topicGroups.map(([title, english, items], index) => <article className="topic-card" key={title}><div className="topic-index">0{index + 1}</div><div><span className="topic-english">{english}</span><h2>{title}</h2><ul>{items.map((item) => <li key={item}><span /><span>{item}</span></li>)}</ul></div></article>)}</div><div className="callout callout-amber"><span className="callout-icon"><Icon name="info" size={19} /></span><div><strong>Detailed content will be added progressively</strong><p>This map is not an approval of lectures or references; it is an organizational layer for the current preview.</p></div></div></div>; }
+function AboutPage() { return <div className="content-container"><PageHeader eyebrow="Platform principles / Platform principles" title="Structured revision with traceable content" description="The platform separates technical preview, available training, and content requiring clinical review before release." /><div className="principles-grid"><article className="principle-card"><span className="principle-number">01</span><h2>A clear pathway</h2><p>One portal connecting the Day 1–Day 16 plan, the current question bank, and the curriculum map.</p></article><article className="principle-card"><span className="principle-number">02</span><h2>A source for every question</h2><p>New questions carry stable IDs and verifiable source locations instead of untraceable content.</p></article><article className="principle-card"><span className="principle-number">03</span><h2>Responsible release</h2><p>Drafts under clinical review do not appear in the learner quiz, and answer images are not added before approval.</p></article></div><section className="workflow-card"><div><span className="eyebrow">Content workflow / Content workflow</span><h2>From source to learner</h2></div><div className="workflow-steps"><WorkflowStep number="01" title="Prepare" text="Draft a question from a defined source" /><span className="workflow-line" /><WorkflowStep number="02" title="Verify" text="Automated checks and independent review" /><span className="workflow-line" /><WorkflowStep number="03" title="Release" text="Open the question after approval" /></div></section></div>; }
+function WorkflowStep({ number, title, text }: { number: string; title: string; text: string }) { return <div className="workflow-step"><span>{number}</span><strong>{title}</strong><p>{text}</p></div>; }
+function AccountPage({ onNotice }: { onNotice: () => void }) { return <div className="content-container narrow-container"><PageHeader eyebrow="Doctor account / Account" title="Doctor Account" description="Accounts and cloud progress sync are being prepared. No personal data is requested in this preview." /><div className="empty-state"><span className="empty-icon"><Icon name="user" size={30} /></span><h2>Personal workspace coming soon</h2><p>Current progress is saved locally for preview purposes only; it is not an account or medical record.</p><button className="button button-primary" onClick={onNotice}>Learn more</button></div><div className="privacy-note"><Icon name="lock" size={16} /><span>There is no user session or clinical data stored in this version.</span></div></div>; }

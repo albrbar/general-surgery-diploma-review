@@ -1,0 +1,70 @@
+{
+  "source": "Google Drive folder: GS diploma",
+  "groups": [
+    {
+      "id": "anatomy",
+      "label": "Anatomy",
+      "note": "Lecture slides in AnatomyDrKhaledMilad",
+      "links": [
+        {"label": "The Abdomen — Slides", "url": "https://drive.google.com/file/d/1aYR0B2VCrX8i5OZh14wrNzwiIPlqb1d3/view?usp=drivesdk"},
+        {"label": "The Breast — Slides", "url": "https://drive.google.com/file/d/1H258r4PBB9X4NgsltIjRYfiimESqDooa/view?usp=drivesdk"},
+        {"label": "The Upper Limb — Nerves, Vessels & Lymphatics", "url": "https://drive.google.com/file/d/15uSelNmzERVZjbTNK3amoakDt6o93F_l/view?usp=drivesdk"},
+        {"label": "The Lower Limb — Nerves, Vessels & Lymphatics", "url": "https://drive.google.com/file/d/13ILGATEeEtK-tCyLzobKIfWiXKUWojQb/view?usp=drivesdk"},
+        {"label": "The Pelvis & Perineum — Slides", "url": "https://drive.google.com/file/d/1iA07-fh3uG6nuNwvzC-kEpdfjoAOer8R/view?usp=drivesdk"}
+      ]
+    },
+    {
+      "id": "pathology",
+      "label": "Pathology",
+      "note": "Lecture 1 and Lecture 2 files in pathologyDrAllaAdala",
+      "links": [
+        {"label": "Principles of Diagnostic Pathology — Lecture 1", "url": "https://drive.google.com/file/d/1y41uPQRRAUrfXqjB_GR06mBKjlAIR8Dr/view?usp=drivesdk"},
+        {"label": "Cell Injury and Death — Lecture 2", "url": "https://drive.google.com/file/d/1c6kkJDH8ByMXAM3omx945Omgi5yk7xKT/view?usp=drivesdk"}
+      ]
+    },
+    {
+      "id": "microbiology-immunology",
+      "label": "Microbiology & Immunology",
+      "note": "Microbiology and immunology files found in GS diploma",
+      "links": [
+        {"label": "Diagnostic Microbiology & Specimen Collection", "url": "https://docs.google.com/document/d/1g1LRIFgBN7mdoOz124gQz9uDzZE4g25QrEf31au-1Hg/edit?usp=drivesdk"},
+        {"label": "Immunology and Serology", "url": "https://docs.google.com/document/d/1xPPF32zacBU2vuQSoCRYxv9NlvIAMy59X4xviGEDbB8/edit?usp=drivesdk"},
+        {"label": "Microbiology", "url": "https://docs.google.com/document/d/1a_jc_V47gYZBkBrg5-zZ8b3S9AY6cD6F/edit?usp=drivesdk&ouid=106726597345827031028&rtpof=true&sd=true"}
+      ]
+    },
+    {
+      "id": "principles-of-surgery",
+      "label": "Principles of Surgery",
+      "note": "Available principles and perioperative lectures in GS diploma",
+      "links": [
+        {"label": "Fluids and Electrolytes", "url": "https://drive.google.com/file/d/1s5JyW8goWFZ55Z4_G7o48PkIVzKN_JIq/view?usp=drivesdk"},
+        {"label": "Shock", "url": "https://docs.google.com/presentation/d/17f8aDsU--ptIcVcOMGS0pAZXubgUVZlM/edit?usp=drivesdk&ouid=106726597345827031028&rtpof=true&sd=true"},
+        {"label": "Hemorrhage in Surgery", "url": "https://docs.google.com/presentation/d/1mu0XpnLTE1ZFe9UQPEnxkRSO0gZPr3-Y/edit?usp=drivesdk&ouid=106726597345827031028&rtpof=true&sd=true"},
+        {"label": "Blood and Blood Products", "url": "https://drive.google.com/file/d/1mVIVfKOxfHklK4SEMen_pqR2HwDgsToo/view?usp=drivesdk"},
+        {"label": "Wound Healing", "url": "https://docs.google.com/presentation/d/1oe3_tcSIZdNFw8XUwNvxy42MzFAAVaYe/edit?usp=drivesdk&ouid=106726597345827031028&rtpof=true&sd=true"},
+        {"label": "Sterilization and Disinfection", "url": "https://docs.google.com/presentation/d/1IQZry8YBYnrBePy76aY98QGqZOJ4_z4K/edit?usp=drivesdk&ouid=106726597345827031028&rtpof=true&sd=true"},
+        {"label": "Medical Ethics", "url": "https://docs.google.com/presentation/d/1fu1x2QJ_8jcqroEDQZ-8hF_uXHfKtdcg/edit?usp=drivesdk&ouid=106726597345827031028&rtpof=true&sd=true"},
+        {"label": "Consent", "url": "https://docs.google.com/presentation/d/1XEf_nL_qbCVgHUdySDei6LFK7PWsbVqK/edit?usp=drivesdk&ouid=106726597345827031028&rtpof=true&sd=true"},
+        {"label": "Breaking Bad News", "url": "https://docs.google.com/presentation/d/1lFbKwJNcQDxaccfsm_PLkn0rjZOaumC7/edit?usp=drivesdk&ouid=106726597345827031028&rtpof=true&sd=true"},
+        {"label": "Metabolic Response to Trauma", "url": "https://docs.google.com/presentation/d/1D_Tk4VjlRRr8JSXLFY9OkNte5DfUkGG4/edit?usp=drivesdk&ouid=106726597345827031028&rtpof=true&sd=true"},
+        {"label": "Nutritional Support in Surgical Patients", "url": "https://drive.google.com/file/d/1MqxpwAIFvp36Z24IG6A6PUp5xUt8gFcf/view?usp=drivesdk"},
+        {"label": "Surgical Infections I", "url": "https://docs.google.com/presentation/d/1lTk8hcB3pl0h7l6Vdu0x5hGaJjZdB9bz/edit?usp=drivesdk&ouid=106726597345827031028&rtpof=true&sd=true"},
+        {"label": "Surgical Infections II", "url": "https://docs.google.com/presentation/d/1swwyG_DgfCndwJkMgRTrgDPOxtm8xx81/edit?usp=drivesdk&ouid=106726597345827031028&rtpof=true&sd=true"},
+        {"label": "Septic Shock", "url": "https://docs.google.com/document/d/1vDBLmUehm8xD3xr6TcV5DkbjI1e1dPi80pka8mwEw_A/edit?usp=drivesdk"},
+        {"label": "VTE & Acid–Base Balance", "url": "https://docs.google.com/document/d/1Mf36yX2x6pNbSONvXWDU9sw4oEhyrEq_123uxBmNHgY/edit?usp=drivesdk"},
+        {"label": "Principles of Surgical Oncology", "url": "https://docs.google.com/document/d/1xhL0nV8gMo6UOOXTSrHXq4ij1UnNnauhohinT-aEgF4/edit?usp=drivesdk"}
+      ]
+    },
+    {
+      "id": "pharmacology",
+      "label": "Pharmacology",
+      "note": "Found in GS diploma Drive; not represented as a separate question section in the current 80-question bank",
+      "links": [
+        {"label": "Blood Disorder Drugs & Cancer Chemotherapy", "url": "https://drive.google.com/file/d/1QF-BMZ2-4vc7tyiPzB5yS_tzOtKSgoF7/view?usp=drivesdk"},
+        {"label": "Analgesics for Surgery", "url": "https://drive.google.com/file/d/1W2HD87SlWaK7E3jWZuz-w8Vn_K9g0Svc/view?usp=drivesdk"},
+        {"label": "Antibiotics — Lecture 3", "url": "https://docs.google.com/document/d/1_efmK_nOle5xFaKwCEcR1fOWRQ4DVPsF/edit?usp=drivesdk&ouid=106726597345827031028&rtpof=true&sd=true"},
+        {"label": "Pharmacology Summary 3", "url": "https://docs.google.com/document/d/1uX5fKZAW79ftKR4Td1fdsx3KuN_nZ_Kf/edit?usp=drivesdk&ouid=106726597345827031028&rtpof=true&sd=true"}
+      ]
+    }
+  ]
+}

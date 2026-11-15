@@ -1,0 +1,387 @@
+{
+  "questions": [
+    {
+      "id": "notebooklm-1",
+      "stem": "Which chemical mediators are specifically responsible for inducing pain (dolor) during the acute inflammatory response?",
+      "options": [
+        "Histamine and Serotonin",
+        "Prostaglandin E 2 ​ ( P G E 2 ​ ) and Bradykinin",
+        "Leukotriene B 4 ​ ( L T B 4 ​ ) and Complement C 3 a",
+        "Interleukin-1 β ( I L − 1 β ) and Tumor Necrosis Factor- α ( T N F − α )"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Redness (rubor) and heat (calor) are driven by vasodilation and increased blood flow; swelling (tumor) is caused by edema from increased vascular permeability; pain (dolor) is specifically mediated by P G E 2 ​ and bradykinin.",
+      "difficulty": "easy",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-2",
+      "stem": "What is the correct chronological sequence of leukocyte recruitment steps from the vascular lumen to the site of tissue injury?",
+      "options": [
+        "Rolling → Adhesion → Margination → Diapedesis → Chemotaxis",
+        "Margination → Rolling → Adhesion → Diapedesis → Chemotaxis",
+        "Chemotaxis → Diapedesis → Adhesion → Rolling → Margination",
+        "Adhesion → Margination → Rolling → Chemotaxis → Diapedesis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Leukocyte recruitment follows a strict sequential pathway: (1) Margination (leukocytes move to vessel periphery), (2) Rolling (selectin-mediated), (3) Adhesion (integrin-mediated), (4) Diapedesis (transmigration via PECAM-1), and (5) Chemotaxis (migration along chemical gradients).",
+      "difficulty": "easy",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-3",
+      "stem": "Which class of cell adhesion molecules mediates the firm attachment (adhesion) of leukocytes to endothelial ICAM-1 and VCAM-1 during acute inflammation?",
+      "options": [
+        "Selectins",
+        "Integrins",
+        "Cadherins",
+        "Immunoglobulins"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Leukocyte rolling along the endothelial surface is mediated by selectins, whereas firm adhesion is mediated by leukocyte integrins binding to endothelial ICAM-1 and VCAM-1.",
+      "difficulty": "medium",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-4",
+      "stem": "Transmigration of leukocytes through endothelial cell junctions (diapedesis) is primarily mediated by which adhesion molecule?",
+      "options": [
+        "E-selectin",
+        "Platelet-Endothelial Cell Adhesion Molecule-1 (PECAM-1 / CD31)",
+        "Vascular Cell Adhesion Molecule-1 (VCAM-1)",
+        "Intercellular Adhesion Molecule-1 (ICAM-1)"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Diapedesis (passage of leukocytes across the vascular basement membrane and endothelial junctions) is mediated primarily via PECAM-1 (CD31).",
+      "difficulty": "medium",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-5",
+      "stem": "How does an Exudate differ biochemically and physically from a Transudate?",
+      "options": [
+        "Exudates have low protein (<3 g/dL) and clear appearance due to hydrostatic force imbalances",
+        "Exudates have high protein (>3 g/dL), high specific gravity (>1.020), and a turbid appearance due to increased vascular permeability from inflammation",
+        "Transudates have high specific gravity (>1.020) and are rich in inflammatory neutrophils",
+        "Both fluids have identical protein concentrations but differ in temperature"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Exudates are turbid, inflammatory fluids formed by increased vascular permeability, featuring protein >3 g/dL and specific gravity >1.020. Transudates are clear ultrafiltrates caused by hydrostatic or oncotic pressure imbalances without significant inflammation, featuring protein <3 g/dL and specific gravity <1.012.",
+      "difficulty": "easy",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-6",
+      "stem": "Which cell type acts as the principal \"first responder\" in acute inflammation, arriving within 6 to 24 hours at the site of injury?",
+      "options": [
+        "Monocyte / Macrophage",
+        "Polymorphonuclear Neutrophil (PMN)",
+        "Plasma cell",
+        "Eosinophil"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Polymorphonuclear neutrophils (PMNs) are the primary first responders (arriving within 6–24 hours). They execute phagocytosis, oxidative burst ( H 2 ​ O 2 ​ , HOCl), and degranulation, and form neutrophil extracellular traps (NETs) before undergoing apoptosis within hours to form pus.",
+      "difficulty": "easy",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-7",
+      "stem": "Which arachidonic acid metabolite derived from the lipoxygenase pathway acts as a potent chemoattractant for leukocyte recruitment?",
+      "options": [
+        "Prostaglandin E 2 ​ ( P G E 2 ​ )",
+        "Prostacyclin ( P G I 2 ​ )",
+        "Leukotriene B 4 ​ ( L T B 4 ​ )",
+        "Thromboxane A 2 ​ ( T X A 2 ​ )"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The cyclooxygenase (COX) pathway yields P G E 2 ​ and P G I 2 ​ (mediating pain, fever, and vasodilation), whereas the lipoxygenase pathway yields L T B 4 ​ , a potent chemotactic factor for neutrophils.",
+      "difficulty": "medium",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-8",
+      "stem": "Which cytokines released by activated tissue macrophages are primarily responsible for driving the systemic acute-phase response and fever?",
+      "options": [
+        "Interleukin-4 ( I L − 4 ) and Interleukin-10 ( I L − 10 )",
+        "Interleukin-1 β ( I L − 1 β ) and Tumor Necrosis Factor- α ( T N F − α )",
+        "Transforming Growth Factor- β ( T GF − β ) and Interferon- γ ( I F N − γ )",
+        "Bradykinin and Histamine"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Macrophage-derived I L − 1 β and T N F − α serve as key systemic cytokines that induce pyrexia (fever) and stimulate liver synthesis of acute-phase reactant proteins.",
+      "difficulty": "medium",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-9",
+      "stem": "What is the defining clinical management rule for a localized surgical Abscess?",
+      "options": [
+        "It resolves completely with high-dose intravenous systemic antibiotic monotherapy",
+        "It requires surgical incision and drainage because antibiotics alone cannot penetrate and resolve a walled-off pus collection",
+        "It requires immediate anti-inflammatory steroid injections into the cavity",
+        "It should be observed expectantly as neutrophils auto-digest the wall within 48 hours"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "An abscess is a localized collection of pus (PMNs + necrotic debris) surrounded by a dense fibrous wall. Because systemic blood flow cannot penetrate the central necrotic core, antibiotics treat surrounding cellulitis but cannot resolve the collection itself; surgical drainage is mandatory.",
+      "difficulty": "easy",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-10",
+      "stem": "What pathognomonic triad defines Chronic Inflammation?",
+      "options": [
+        "Neutrophilic infiltration, vasodilation, and rapid tissue resolution",
+        "Infiltration by mononuclear inflammatory cells, ongoing tissue destruction, and simultaneous attempts at repair (fibrosis and angiogenesis)",
+        "Complete absence of immune cells, vascular thrombosis, and liquefactive necrosis",
+        "Serous fluid effusion, fever, and leukocytosis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Chronic inflammation is a prolonged response (weeks to years) characterized by three simultaneous processes: (1) mononuclear cell infiltration (macrophages, lymphocytes, plasma cells), (2) persistent tissue destruction, and (3) repair via fibrosis and angiogenesis.",
+      "difficulty": "easy",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-11",
+      "stem": "Which cell type acts as the central orchestrator of chronic inflammation, executing phagocytosis, antigen presentation, and release of fibrogenic cytokines like T GF − β ?",
+      "options": [
+        "Neutrophil",
+        "Tissue Macrophage",
+        "Plasma cell",
+        "Mast cell"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Macrophages are the central orchestrators of chronic inflammation. They perform phagocytosis, present antigens to CD4+ T-cells, release cytokines, and activate tissue repair and fibrosis via growth factors such as T GF − β .",
+      "difficulty": "medium",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-12",
+      "stem": "Histological identification of foamy, lipid-laden macrophages defines which morphological pattern of chronic inflammation, known as an important surgical mimic of malignancy?",
+      "options": [
+        "Non-specific chronic inflammation",
+        "Follicular inflammation",
+        "Xanthomatous inflammation",
+        "Caseating granulomatous inflammation"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Xanthomatous inflammation is characterized by accumulation of foamy lipid-laden macrophages. It is surgically critical because it forms mass lesions that clinically and radiologically mimic carcinoma (e.g., xanthogranulomatous pyelonephritis and xanthogranulomatous cholecystitis).",
+      "difficulty": "hard",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-13",
+      "stem": "Prolonged, severe chronic inflammatory disease carries a risk for developing which systemic protein accumulation disorder?",
+      "options": [
+        "Primary AL Amyloidosis",
+        "Secondary AA-type Amyloidosis",
+        "Dystrophic saponification",
+        "Hemochromatosis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Persistent long-standing chronic inflammation causes sustained hepatic synthesis of Serum Amyloid A (SAA), which can deposit in tissues as insoluble fibrillar deposits, causing secondary (AA-type) amyloidosis.",
+      "difficulty": "medium",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-14",
+      "stem": "Which cytokine released by activated Th1 CD4+ T-lymphocytes is essential for driving macrophage activation and transformation into epithelioid histiocytes during granuloma formation?",
+      "options": [
+        "Interleukin-4 ( I L − 4 )",
+        "Interferon- γ ( I F N − γ )",
+        "Interleukin-10 ( I L − 10 )",
+        "Tumor Necrosis Factor- α ( T N F − α )"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "In granulomatous inflammation, antigen-presenting macrophages activate Th1 CD4+ T-cells, which secrete I F N − γ . I F N − γ induces macrophage activation, epithelioid cell transformation, and subsequent cell fusion into multinucleated giant cells.",
+      "difficulty": "hard",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-15",
+      "stem": "What microscopic combination defines a Tuberculosis granuloma on surgical biopsy?",
+      "options": [
+        "Non-caseating central matrix enclosed by foreign body giant cells",
+        "Central caseating necrosis surrounded by epithelioid macrophages and Langhans giant cells with peripheral horseshoe-arranged nuclei",
+        "Foamy lipid macrophages surrounding cholesterol clefts",
+        "Neutrophilic abscess surrounded by a thin endothelial wall"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Tuberculosis produces caseating granulomas (central amorphous pink acellular debris) surrounded by epithelioid macrophages, lymphocytes, and Langhans giant cells (characterized by horseshoe-shaped peripheral nuclei).",
+      "difficulty": "easy",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-16",
+      "stem": "Which histological features characterize the granulomas seen in transmural bowel resections of patients with Crohn's Disease?",
+      "options": [
+        "Central caseating necrosis with Langhans giant cells",
+        "Non-caseating granulomas with foreign-body type giant cells",
+        "Suppurative neutrophilic micro-abscesses with Schaumann bodies",
+        "Abundant foam cells filled with lipid droplets"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Unlike tuberculosis, Crohn's disease produces non-caseating granulomas (lacking central necrosis) containing foreign-body type giant cells within the transmural layers of the intestinal wall.",
+      "difficulty": "medium",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-17",
+      "stem": "Multinucleated giant cells with haphazardly scattered nuclei arranged throughout their cytoplasm are characteristic of which granulomatous process?",
+      "options": [
+        "Tuberculous lymphadenitis",
+        "Sarcoidosis",
+        "Foreign body reaction (e.g., around surgical sutures or mesh)",
+        "Pulmonary histoplasmosis"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Foreign body giant cells contain nuclei scattered haphazardly throughout the cytoplasm and form around non-digestible exogenously introduced materials such as surgical sutures, synthetic mesh, or prosthetic hardware. Langhans giant cells have nuclei arranged in a peripheral horseshoe arc.",
+      "difficulty": "medium",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-18",
+      "stem": "What does a pathology report reading \"acute suppurative inflammation with abscess formation\" indicate regarding the specimen's cellular contents?",
+      "options": [
+        "Mononuclear cell infiltrate dominated by plasma cells and macrophages",
+        "Abundant polymorphonuclear neutrophils (PMNs), cellular debris, and bacteria (pus)",
+        "Epithelioid histiocytes and non-caseating giant cells",
+        "Avascular fibrous scar tissue with low cellularity"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Acute suppurative inflammation is defined pathologically by pus formation, which consists of dead and dying neutrophils (PMNs), liquefied cellular debris, fibrin, and bacteria.",
+      "difficulty": "easy",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-19",
+      "stem": "What is the established pathophysiological link connecting long-standing chronic mucosal inflammation to malignant transformation (such as H. pylori and gastric cancer)?",
+      "options": [
+        "Persistent acute neutrophilic degranulation destroys all basement membranes",
+        "Chronic inflammation causes sustained release of mutagenic Reactive Oxygen Species (ROS) and pro-inflammatory cytokines, driving genomic instability",
+        "Chronic inflammation causes immediate apoptosis of precancerous stem cells",
+        "Mononuclear cells synthesize direct oncogenic viral particles"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Prolonged chronic inflammation generates high local concentrations of mutagenic ROS and cytokines that promote cellular proliferation, inhibit apoptosis, and induce DNA mutations. Classic clinical examples include H. pylori leading to gastric adenocarcinoma/MALT lymphoma and long-standing IBD leading to colorectal cancer.",
+      "difficulty": "hard",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-20",
+      "stem": "What is the practical clinical \"rule of thumb\" when evaluating a surgical biopsy containing caseating granulomatous inflammation?",
+      "options": [
+        "It represents Sarcoidosis until proven otherwise",
+        "A caseating granuloma is Tuberculosis (TB) until proven otherwise",
+        "It is a benign reaction to suture material requiring no follow-up",
+        "It indicates immediate malignant transformation"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A cardinal rule for surgical trainees dictates that finding a caseating granuloma on histology must be considered Tuberculosis (TB) until proven otherwise. Non-caseating granulomas raise differential diagnoses including sarcoidosis, Crohn's disease, or foreign body reaction.",
+      "difficulty": "easy",
+      "source": "Inflammation Lecture-3.pdf",
+      "topic": "Inflammation Lecture-3.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    }
+  ],
+  "source": "Inflammation Lecture-3.pdf",
+  "section": "Pathology",
+  "status": "notebooklm-draft-supervisor-approved"
+}

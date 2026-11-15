@@ -44,6 +44,7 @@ sources=[
  ('immunology','Draft MCQ Bank: Basic & Clinical Immunology and Serology','immunology NO .4.26.pptx','Microbiology and Immunology'),
  ('cell-injury','Draft MCQ Bank: Cell Injury, Necrosis & Apoptosis','Cell Injury and Death-Lecture 2.pdf','Pathology'),
  ('circulatory-disturbances','Draft MCQ Bank: Surgical Circulatory Disturbances & Hemodynamic Pathology','Circulatory Disturbances - Lecture 4- pathology.pdf','Pathology'),
+ ('inflammation','Draft MCQ Bank: Mechanisms, Morphology & Surgical Relevance of Inflammation','Inflammation Lecture-3.pdf','Pathology'),
 ]
 for name,marker,source,section in sources:
     text=latest_text(marker)

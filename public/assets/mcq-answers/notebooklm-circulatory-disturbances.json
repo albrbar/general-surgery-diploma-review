@@ -1,0 +1,387 @@
+{
+  "questions": [
+    {
+      "id": "notebooklm-1",
+      "stem": "What is the fundamental pathophysiological mechanism that distinguishes Active Hyperemia from Passive Congestion?",
+      "options": [
+        "Hyperemia is a passive process caused by impaired arterial inflow; Congestion is an active process caused by dilated veins",
+        "Hyperemia is an active process driven by arteriolar/capillary dilation (increased blood inflow); Congestion is a passive process driven by impaired venous outflow",
+        "Hyperemia occurs exclusively in response to right heart failure; Congestion occurs only during skeletal muscle exercise",
+        "Hyperemia produces cool cyanotic tissue; Congestion produces warm erythematous tissue"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Hyperemia is an active process resulting from arteriolar dilation that increases blood inflow, causing tissue to become redder and warmer (e.g., exercise, inflammation). Congestion is a passive process resulting from impaired venous drainage, causing blood backup that turns tissue blue-red (cyanotic) and cooler (e.g., heart failure, venous obstruction).",
+      "difficulty": "easy",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-2",
+      "stem": "What macroscopic and microscopic features define the classic \"Nutmeg Liver\" in chronic passive hepatic congestion?",
+      "options": [
+        "Uniform pale yellow discoloration across all lobules due to glycogen overload",
+        "Centrilobular congestion, microhemorrhage, and necrosis paired with periportal (Zone 1) fatty change, creating a red-brown mottled cut surface",
+        "Diffuse fibrous portal tract replacement with total central vein preservation",
+        "Multiple fluid-filled abscesses lined by granulating tissue"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Chronic passive hepatic congestion (typically from right heart failure) causes blood to pool in central veins, producing centrilobular congestion, microhemorrhage, and necrosis (dark red areas). Surrounding periportal hepatocytes undergo hypoxia-induced fatty change (yellowish areas), yielding a mottled cut surface resembling a nutmeg kernel. Long-standing cases progress to \"cardiac sclerosis.\"",
+      "difficulty": "medium",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-3",
+      "stem": "What are \"Heart Failure Cells\" in the context of chronic passive pulmonary congestion?",
+      "options": [
+        "Hypertrophied myocardial cells circulating in the pulmonary venules",
+        "Hemosiderin-laden alveolar macrophages formed after phagocytosing extravasated red blood cells",
+        "Apoptotic type II pneumocytes shed into the alveolar spaces",
+        "Neutrophils forming extracellular traps inside pulmonary capillaries"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Chronic pulmonary congestion (usually from left heart failure or mitral stenosis) engorges septal capillaries and leads to microhemorrhages into alveoli. Alveolar macrophages phagocytose the extravasated erythrocytes and break down hemoglobin into golden-brown hemosiderin, becoming \"heart failure cells.\"",
+      "difficulty": "medium",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-4",
+      "stem": "How does a Transudate differ from an Exudate regarding protein concentration, specific gravity, and underlying mechanism?",
+      "options": [
+        "Transudates have high protein (>3 g/dL) and high specific gravity (>1.020) due to increased vascular permeability",
+        "Transudates have low protein (<3 g/dL) and low specific gravity (<1.012) due to Starling-force imbalance; Exudates have high protein (>3 g/dL) and high specific gravity (>1.020) due to increased vascular permeability",
+        "Transudates are rich in inflammatory neutrophils, whereas exudates contain very few cells",
+        "Transudates are caused exclusively by localized bacterial infections"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A transudate is a non-inflammatory fluid ultrafiltrate caused by Starling-force imbalances (high hydrostatic pressure or low oncotic pressure), featuring low protein (<3 g/dL), low specific gravity (<1.012), and low cellularity. An exudate is an inflammatory fluid caused by increased endothelial permeability (infection, malignancy), featuring high protein (>3 g/dL), high specific gravity (>1.020), and rich inflammatory cellularity.",
+      "difficulty": "medium",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-5",
+      "stem": "Which set of physiological mechanisms accounts for the four primary causes of clinical Edema?",
+      "options": [
+        "Increased hydrostatic pressure, decreased plasma oncotic pressure, lymphatic obstruction, and sodium/water retention",
+        "Decreased hydrostatic pressure, increased oncotic pressure, arteriolar spasm, and hypokalemia",
+        "Primary capillary calcification, acute thrombocytosis, hypercalcemia, and metabolic alkalosis",
+        "Increased systemic vascular resistance, decreased ADH secretion, hyperalbuminemia, and diuresis"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Edema occurs whenever capillary filtration exceeds reabsorption and lymphatic clearance. The four primary pathophysiological mechanisms are: (1) Increased hydrostatic pressure (e.g., heart failure, DVT), (2) Decreased plasma oncotic pressure (e.g., liver failure, nephrotic syndrome), (3) Lymphatic obstruction (e.g., lymph node dissection, tumor), and (4) Sodium and water retention (e.g., renal failure, RAAS activation).",
+      "difficulty": "easy",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-6",
+      "stem": "In evaluating clinical tissue viability, how does a surgeon distinguish a congested flap from an ischemic flap?",
+      "options": [
+        "A congested flap is pale and bloodless; an ischemic flap is blue and oozes dark blood",
+        "A congested flap is blue and oozes dark blood; an ischemic flap is pale and bloodless",
+        "Both congested and ischemic flaps appear bright pink with rapid capillary refill",
+        "Flap color and bleeding characteristics provide no diagnostic value"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "In surgical flap evaluation, a congested flap suffers from venous outflow obstruction, making it cyanotic (blue) and prone to oozing dark venous blood upon puncture. An ischemic flap suffers from arterial inflow failure, rendering it pale, cool, and bloodless. This distinction guides urgent surgical re-exploration.",
+      "difficulty": "medium",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-7",
+      "stem": "What type of cutaneous or mucosal hemorrhage is defined as pinpoint lesions measuring 1 to 2 mm, typically indicating low platelet count or platelet dysfunction?",
+      "options": [
+        "Ecchymosis",
+        "Purpura",
+        "Petechiae",
+        "Hematoma"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Petechiae are pinpoint hemorrhages measuring 1–2 mm, typically caused by severe thrombocytopenia or defective platelet function. Purpura refers to slightly larger lesions (>3 mm), ecchymoses are larger subcutaneous bruises (1–2 cm), and a hematoma is a confined mass of blood within a tissue space.",
+      "difficulty": "easy",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-8",
+      "stem": "What is the \"rule of thumb\" regarding acute blood loss and the development of hemorrhagic shock?",
+      "options": [
+        "Acute loss of more than ~5% of blood volume causes immediate cardiac arrest",
+        "Acute loss of more than ~20% of blood volume risks hemorrhagic shock",
+        "Patients easily tolerate acute loss of 50% blood volume without hemodynamic changes",
+        "Shock occurs only when blood loss is chronic over several months"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Volume lost is the single most important determinant of the clinical impact of hemorrhage. As a clinical rule of thumb, acute loss of more than approximately 20% of total blood volume risks precipitating hemorrhagic shock.",
+      "difficulty": "medium",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-9",
+      "stem": "How is a true Thrombus pathologically distinguished from a Postmortem Clot?",
+      "options": [
+        "A thrombus forms after death, is unattached, and shows a layered \"chicken-fat / currant-jelly\" appearance",
+        "A thrombus is a pathologic solid mass formed within an intact vessel during life, attached to the vessel wall, and contains Lines of Zahn; a postmortem clot forms after death, is unattached, and shows \"chicken-fat / currant-jelly\" layering",
+        "Postmortem clots contain Lines of Zahn and strictly adhere to arterial bifurcations",
+        "Both structures are morphologically and biologically identical"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A thrombus forms from blood elements within an intact vessel or heart chamber during life, is firmly attached to the endothelium, and exhibits microscopic Lines of Zahn. A postmortem clot forms after death, is non-adherent, soft, gelatinous, and exhibits gravity-dependent \"chicken-fat\" (plasma) and \"currant-jelly\" (RBC) layering.",
+      "difficulty": "medium",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-10",
+      "stem": "What three pathological factors constitute Virchow's Triad in thrombosis?",
+      "options": [
+        "Endothelial injury, abnormal blood flow (stasis or turbulence), and hypercoagulability",
+        "Hypertension, hyperglycemia, and hypercalcemia",
+        "Hypoxia, hypothermia, and acidosis",
+        "Arterial vasospasm, venous dilation, and lymphatic blockage"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Virchow's triad outlines the primary predisposing factors for pathological thrombosis: (1) Endothelial injury (the most critical factor for arterial and cardiac thrombi), (2) Abnormal blood flow (stasis or turbulence), and (3) Hypercoagulability (inherited or acquired). Surgical trauma classically triggers all three factors simultaneously.",
+      "difficulty": "easy",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-11",
+      "stem": "What are \"Lines of Zahn,\" and in which type of thrombus are they characteristically observed?",
+      "options": [
+        "Concentric bacterial rings seen in postmortem clots",
+        "Alternating pale layers (platelets and fibrin) and dark layers (erythrocytes) seen in arterial (\"white\") thrombi formed in flowing blood",
+        "Deposits of calcium soaps in fat necrosis",
+        "Fibrinoid deposits within necrotic capillary walls"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Lines of Zahn are alternating pale bands of aggregated platelets and fibrin interleaved with darker bands of red blood cells. They represent laminations produced as blood flows past a forming clot and are characteristic of arterial (\"white\") thrombi and cardiac mural thrombi, proving the clot formed during life.",
+      "difficulty": "medium",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-12",
+      "stem": "What are the five possible clinical and pathological fates of a newly formed thrombus?",
+      "options": [
+        "Propagation, Embolization, Dissolution, Organization, and Recanalization",
+        "Hyperemia, Congestion, Transudation, Exudation, and Calcification",
+        "Pyknosis, Karyorrhexis, Karyolysis, Suppuration, and Gangrene",
+        "Saponification, Caseation, Liquefaction, Fibrinoid decay, and Erosion"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "A thrombus can undergo five potential fates: (1) Propagation (enlarging to occlude the vessel), (2) Embolization (dislodging to travel elsewhere), (3) Dissolution (cleared by rapid fibrinolysis), (4) Organization (ingrowth of endothelial cells, smooth muscle, and fibroblasts), and (5) Recanalization (formation of new capillary channels restoring partial flow).",
+      "difficulty": "medium",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-13",
+      "stem": "What anatomical site accounts for more than 95% of all Pulmonary Thromboemboli (PE)?",
+      "options": [
+        "Superficial veins of the upper arm (cephalic and basilic veins)",
+        "Deep veins of the lower extremities (femoral, popliteal, and iliac veins)",
+        "Hepatic portal vein system",
+        "Renal vein network"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Over 95% of pulmonary thromboemboli originate from deep vein thrombosis (DVT) involving the proximal deep veins of the lower limbs above the knee—specifically the femoral, popliteal, and iliac veins.",
+      "difficulty": "easy",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-14",
+      "stem": "What is a \"Saddle Embolus,\" and what is its primary acute clinical outcome?",
+      "options": [
+        "A tiny embolus in a renal arteriole causing microscopic hematuria",
+        "A large embolus straddling the main pulmonary artery bifurcation, often causing sudden death",
+        "A fat globule trapped in a cerebral capillary causing focal seizures",
+        "A air bubble lodged in the coronary artery"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A saddle embolus is a massive thromboembolus that lodges at the bifurcation of the main pulmonary artery trunk, straddling both right and left pulmonary arteries. It acutely blocks pulmonary blood flow, precipitating acute right heart failure (cor pulmonale) or sudden cardiac arrest.",
+      "difficulty": "medium",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-15",
+      "stem": "A trauma patient suffers a closed double femur fracture and develops dyspnea, confusion, and a petechial rash 48 hours later. What condition should be suspected?",
+      "options": [
+        "Amniotic fluid embolism",
+        "Air embolism",
+        "Fat Embolism Syndrome",
+        "Septic shock"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Fat Embolism Syndrome typically manifests 1 to 3 days following long-bone fractures or major orthopedic surgery. Microscopic marrow fat globules and tissue trauma release lipids into the circulation, presenting with the classic clinical triad of pulmonary distress (dyspnea), neurological dysfunction (confusion/coma), and a petechial skin rash.",
+      "difficulty": "medium",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-16",
+      "stem": "What estimated minimum volume of intravenous air is required to produce a life-threatening \"gas lock\" in the right ventricular outflow tract?",
+      "options": [
+        "~1 mL",
+        "~10 mL",
+        "~100 mL",
+        "~1,000 mL"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "While tiny air bubbles introduced during IV therapy are absorbed harmlessly, approximately 100 mL or more of air introduced rapidly into the venous system (e.g., via neck/chest trauma, central line insertion/removal, or laparoscopic insufflation) can create a fatal \"gas lock\" obstructing right ventricular outflow.",
+      "difficulty": "medium",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-17",
+      "stem": "What anatomical and vascular conditions determine whether an organ develops a White (Anemic) Infarct versus a Red (Hemorrhagic) Infarct?",
+      "options": [
+        "White = Solid organs with end-arterial supply; Red = Loose tissues or organs with dual blood supply, venous occlusion, or post-ischemic reperfusion",
+        "White = Loose tissue with venous occlusion; Red = Solid organs with single arterial supply",
+        "White = Organs affected exclusively by septic emboli; Red = Organs affected by sterile fat emboli",
+        "White = CNS tissue; Red = Cardiac muscle only"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "White (anemic) infarcts occur following arterial occlusion in solid organs with single end-arterial blood supplies (e.g., heart, spleen, kidney), where tissue density limits hemorrhage. Red (hemorrhagic) infarcts occur in loose tissues (lung), organs with dual blood supply (lung, small intestine), sites of venous occlusion (testicular torsion, bowel strangulation), or tissue subjected to arterial reperfusion.",
+      "difficulty": "hard",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-18",
+      "stem": "How does tissue vulnerability to ischemia differ between CNS neurons and cardiac myocytes?",
+      "options": [
+        "Neurons tolerate 20–30 minutes of ischemia; Myocytes tolerate only 3–4 minutes",
+        "Neurons tolerate only 3–4 minutes of ischemia; Myocytes tolerate 20–30 minutes",
+        "Both cell types survive up to 6 hours of complete ischemia without injury",
+        "Neither cell type experiences irreversible injury from hypoxia"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Susceptibility to ischemic injury varies greatly across tissue types. CNS neurons are the most sensitive, undergoing irreversible damage after only 3 to 4 minutes of total ischemia. Cardiac myocytes tolerate ischemia for approximately 20 to 30 minutes before irreversible necrosis occurs, whereas fibroblasts can withstand hours of ischemia.",
+      "difficulty": "medium",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-19",
+      "stem": "What features characterize the Nonprogressive (Compensated) stage of Shock?",
+      "options": [
+        "Compensatory neurohormonal reflex mechanisms (tachycardia, peripheral vasoconstriction, renal fluid retention) maintain vital organ perfusion",
+        "Complete breakdown of blood pressure leading to severe metabolic acidosis",
+        "Widespread multi-organ dysfunction syndrome and refractory hypotension",
+        "Immediate resolution of shock without any cardiovascular response"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "In Stage 1 (Nonprogressive/Compensated Shock), neurohormonal reflexes—including baroreceptor activation, sympathetic tachycardia, peripheral cutaneous/visceral vasoconstriction, and renal fluid conservation via RAAS/ADH—maintain blood pressure and blood flow to critical organs (brain and heart). Identifying shock at this stage before overt hypotension develops is essential.",
+      "difficulty": "medium",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-20",
+      "stem": "Match the \"Shock Organ\" to its characteristic morphological lesion resulting from prolonged systemic hypoperfusion: Kidney | Lung | Gastrointestinal tract",
+      "options": [
+        "Kidney = Acute tubular necrosis; Lung = Diffuse alveolar damage (ARDS); GI tract = Mucosal hemorrhage and stress ulceration",
+        "Kidney = Liquefactive necrosis; Lung = Caseous granulomas; GI tract = Fibrinoid vasculitis",
+        "Kidney = Nutmeg change; Lung = Fat saponification; GI tract = Ghost cell outlines",
+        "Kidney = Dystrophic calcification; Lung = Hyaline arteriosclerosis; GI tract = Lymphedema"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Sustained hypoperfusion causes distinct organ-specific pathology: Kidneys develop Acute Tubular Necrosis (ATN, a major cause of acute kidney injury); Lungs develop Diffuse Alveolar Damage (\"shock lung\" evolving into ARDS); the GI tract develops superficial mucosal hemorrhage and stress ulceration.",
+      "difficulty": "hard",
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "section": "Pathology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    }
+  ],
+  "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+  "section": "Pathology",
+  "status": "notebooklm-draft-supervisor-approved"
+}

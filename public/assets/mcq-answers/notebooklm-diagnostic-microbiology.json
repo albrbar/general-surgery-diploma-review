@@ -2,15 +2,15 @@
   "questions": [
     {
       "id": "notebooklm-1",
-      "stem": "What is the fixative of choice for routine surgical pathology specimens, and what is the required minimum volume ratio of fixative to tissue?",
+      "stem": "What is the primary general principle regarding antimicrobial administration when collecting microbiological clinical specimens?",
       "options": [
-        "70% Ethanol at a 5:1 ratio",
-        "10% Neutral Buffered Formalin (NBF) at a 10:1 ratio",
-        "Normal Saline (0.9% NaCl) at a 20:1 ratio",
-        "Glutaraldehyde at a 2:1 ratio"
+        "Collect the specimen after at least 48 hours of empirical broad-spectrum antibiotic therapy",
+        "Collect the specimen before administering antimicrobial agents whenever possible",
+        "Administer a single prophylactic dose of penicillin immediately before taking the sample",
+        "Antimicrobial timing has no impact on the diagnostic yield of bacterial cultures"
       ],
       "correctOptionIndex": 1,
-      "explanation": "The fixative of choice for routine histology is 10% Neutral Buffered Formalin (NBF). Proper tissue preservation requires a 10:1 volume ratio of fixative to tissue. Using normal saline instead of formalin for routine histology is strictly prohibited as it leads to tissue autolysis.",
+      "explanation": "Collecting specimens prior to initiating antimicrobial therapy prevents suppression of pathogen growth and minimizes false-negative culture results.",
       "difficulty": "easy",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
@@ -21,15 +21,15 @@
     },
     {
       "id": "notebooklm-2",
-      "stem": "What is the approximate tissue penetration rate of 10% Neutral Buffered Formalin, and what is the minimum required fixation duration for routine histology?",
+      "stem": "Which bacterial pathogen is explicitly highlighted as cold-sensitive, meaning its stool specimen must NOT be refrigerated even during transport delays greater than 2 hours?",
       "options": [
-        "~1 mm/hour penetration rate; minimum 6–8 hours fixation",
-        "~5 mm/hour penetration rate; minimum 1–2 hours fixation",
-        "~10 mm/hour penetration rate; minimum 12–15 hours fixation",
-        "~0.1 mm/hour penetration rate; minimum 48 hours fixation"
+        "Clostridioides difficile toxin",
+        "Yersinia enterocolitica",
+        "Shigella species",
+        "Escherichia coli O157:H7"
       ],
-      "correctOptionIndex": 0,
-      "explanation": "Formalin penetrates tissue at a rate of approximately 1 mm/hour. Standard processing requires a minimum fixation time of 6–8 hours, while 24 hours is optimal for cellular preservation and ancillary testing.",
+      "correctOptionIndex": 2,
+      "explanation": "While refrigeration at 4°C is generally used for delayed specimens (>2 hours), Shigella is cold-sensitive and can be killed by refrigeration without transport medium. C. difficile toxin is also an exception because freeze-thaw cycles destroy the toxin, whereas Yersinia utilizes cold enrichment.",
       "difficulty": "medium",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
@@ -40,15 +40,15 @@
     },
     {
       "id": "notebooklm-3",
-      "stem": "Why is a shave biopsy strictly contraindicated when evaluating a patient for suspected cutaneous malignant melanoma?",
+      "stem": "Charcoal is added to transport media (such as Amies or Stuart with charcoal) primarily to improve the survival of which category of microorganisms?",
       "options": [
-        "It triggers rapid hematogenous dissemination of malignant cells",
-        "It performs a horizontal cut through the superficial dermis and fails to assess deep margins",
-        "It causes immediate melanocytic cellular lysis upon air exposure",
-        "It prevents formalin fixative penetration into the dermis"
+        "Obligate intracellular viruses",
+        "Fastidious organisms (e.g., Neisseria , Bordetella , Campylobacter , Haemophilus )",
+        "Spore-forming anaerobic bacilli",
+        "Non-pathogenic indigenous skin flora"
       ],
       "correctOptionIndex": 1,
-      "explanation": "A shave biopsy makes a horizontal slice through the superficial dermis and does not assess deep margins. It is strictly contraindicated in suspected melanoma because determining vertical Breslow invasion depth requires an intact deep dermal margin.",
+      "explanation": "Charcoal neutralizes toxic fatty acids and metabolic substances, enhancing the survival of fastidious organisms that have complex or specific nutritional and environmental requirements.",
       "difficulty": "medium",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
@@ -59,16 +59,16 @@
     },
     {
       "id": "notebooklm-4",
-      "stem": "What is the primary diagnostic limitation of Fine Needle Aspiration (FNA) compared to Core Needle Biopsy (CNB)?",
+      "stem": "According to universal sample safety considerations, how should high-risk specimens such as suspected Tuberculosis sputum or Cholera fecal samples be transported to the laboratory?",
       "options": [
-        "FNA carries a significantly higher risk of tissue hematoma",
-        "FNA provides no tissue architecture, making it impossible to distinguish in-situ from invasive carcinoma",
-        "FNA cannot aspirate fluid from cystic neck masses",
-        "FNA requires routine general anesthesia in an operating suite"
+        "Hand-carried in unsealed open glass tubes without paperwork",
+        "In plastic sealable bags with a separate pouch for requisition orders, clearly labeled as high risk",
+        "Submerged in 10% neutral buffered formalin",
+        "Packed in dry ice inside an airtight wooden box"
       ],
       "correctOptionIndex": 1,
-      "explanation": "FNA collects isolated cells and fluid using a small needle, making it rapid and minimally invasive. However, because tissue architecture is not preserved, FNA cannot evaluate basement membrane integrity or differentiate in-situ carcinoma from invasive carcinoma.",
-      "difficulty": "medium",
+      "explanation": "Safety guidelines mandate treating all specimens as biohazardous, using barrier protection, placing specimens in sealable plastic bags with a separate pouch for paperwork to prevent external container contamination, and clearly labeling high-risk specimens.",
+      "difficulty": "easy",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
       "section": "Microbiology and Immunology",
@@ -78,16 +78,16 @@
     },
     {
       "id": "notebooklm-5",
-      "stem": "How must a surgical tissue specimen intended for intraoperative Frozen Section (FS) consultation be handled and transported to the laboratory?",
+      "stem": "What is the proper procedure for collecting a diagnostic sputum sample for lower respiratory tract culture?",
       "options": [
-        "Submerged in 10% Neutral Buffered Formalin at room temperature",
-        "Placed in 0.9% Normal Saline for 1 hour",
-        "Sent completely fresh immediately on ice or dry (NEVER fixed in formalin)",
-        "Immersed in glutaraldehyde fixative"
+        "Collect 10 mL of clear, foamy oral saliva after eating",
+        "Rinse mouth with clear water, take deep breaths, and cough up deep bronchial sputum (≥1 mL) into a sterile container prior to antibiotics",
+        "Perform a superficial swab of the anterior tongue surface",
+        "Swab the submandibular salivary gland duct"
       ],
-      "correctOptionIndex": 2,
-      "explanation": "Specimens for frozen section must NEVER be placed in formalin because chemical fixation prevents rapid intraoperative freezing and sectioning. They must be sent completely fresh immediately on ice or dry, with prior notification to the pathology lab.",
-      "difficulty": "easy",
+      "correctOptionIndex": 1,
+      "explanation": "Expectorated sputum must originate from deep coughing (avoiding salivary contamination), measure at least 1 mL, and be collected into a sterile container before antibiotic administration. Clear and foamy samples represent saliva and are non-diagnostic.",
+      "difficulty": "medium",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
       "section": "Microbiology and Immunology",
@@ -97,16 +97,16 @@
     },
     {
       "id": "notebooklm-6",
-      "stem": "What is the reported diagnostic sensitivity of an intraoperative frozen section biopsy, and what is its typical reporting time?",
+      "stem": "Which of the following specimens must be processed in the microbiology laboratory within 2 hours of collection due to pathogen fragility?",
       "options": [
-        "~75% sensitivity; 1–2 hours reporting time",
-        "~85% sensitivity; 45–60 minutes reporting time",
-        "~95% sensitivity; 15–30 minutes reporting time",
-        "100% sensitivity; 2–5 working days reporting time"
+        "Tissue biopsy for mycobacteria",
+        "Middle ear fluid and sputum (if Streptococcus pneumoniae is suspected)",
+        "Routine urine for boric acid preservation",
+        "Environmental water sample for chemical analysis"
       ],
-      "correctOptionIndex": 2,
-      "explanation": "Frozen section consultation provides rapid intraoperative diagnosis within 15–30 minutes with an established diagnostic sensitivity of approximately 95%.",
-      "difficulty": "easy",
+      "correctOptionIndex": 1,
+      "explanation": "Middle ear fluid, sputum (if S. pneumoniae is suspected), bronchoalveolar lavage (BAL), and Legionella cultures must be processed within 2 hours of collection to ensure organism viability.",
+      "difficulty": "medium",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
       "section": "Microbiology and Immunology",
@@ -116,15 +116,15 @@
     },
     {
       "id": "notebooklm-7",
-      "stem": "According to standard surgical pathology conventions, how are short and long sutures applied to orient an excised specimen?",
+      "stem": "What is the recommended transport medium for stool specimens delayed for more than 2 hours to maintain the viability of enteric pathogens like Salmonella , Shigella , and Campylobacter ?",
       "options": [
-        "Short suture = Superior margin; Long suture = Lateral margin",
-        "Short suture = Anterior margin; Long suture = Posterior margin",
-        "Short suture = Deep margin; Long suture = Superficial margin",
-        "Short suture = Medial margin; Long suture = Inferior margin"
+        "Alkaline peptone water",
+        "Cary-Blair transport medium",
+        "Guanidine thiocyanate PCR buffer",
+        "Michel's fixative solution"
       ],
-      "correctOptionIndex": 0,
-      "explanation": "Unless an alternative convention is explicitly agreed upon with the local pathology department, the universal suture orientation standard designates a short suture at the superior margin and a long suture at the lateral margin.",
+      "correctOptionIndex": 1,
+      "explanation": "Stool samples delayed >2 hours should be placed in Cary-Blair transport medium, which maintains the viability of enteric pathogens such as Salmonella , Shigella , Campylobacter , and Vibrio .",
       "difficulty": "easy",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
@@ -135,16 +135,16 @@
     },
     {
       "id": "notebooklm-8",
-      "stem": "What is the standard color-coded ink convention used by pathologists to delineate distinct surgical margins on a resected specimen?",
+      "stem": "When collecting a stool sample from a patient with suspected Campylobacter jejuni gastroenteritis, which specific environmental condition and medium are required?",
       "options": [
-        "Black = Anterior; Blue = Posterior; Yellow = Inferior; Green = Superior",
-        "Black = Posterior; Blue = Anterior; Yellow = Superior; Green = Inferior",
-        "Red = Superior; Green = Inferior; Blue = Lateral; Yellow = Medial",
-        "Black = Superior; Blue = Inferior; Yellow = Anterior; Green = Posterior"
+        "Anaerobic jar at 4°C in saline",
+        "Microaerophilic conditions using a charcoal transport medium (without refrigeration)",
+        "Aerobic broth containing 10% formalin",
+        "Cold enrichment at 4°C for 4 weeks in boric acid"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Standard multi-color margin ink conventions use Black for posterior, Blue for anterior, Yellow for superior, and Green for inferior margins.",
-      "difficulty": "medium",
+      "explanation": "C. jejuni requires microaerophilic conditions and charcoal-containing transport medium. It is listed under organisms that should NOT be refrigerated.",
+      "difficulty": "hard",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
       "section": "Microbiology and Immunology",
@@ -154,15 +154,15 @@
     },
     {
       "id": "notebooklm-9",
-      "stem": "When performing an incisional biopsy of a large soft tissue mass, which area should be selected for sampling?",
+      "stem": "What type of specimen is required for diagnosing Clostridioides difficile antibiotic-associated diarrhea, and what collection method is strictly prohibited?",
       "options": [
-        "Central necrotic and hemorrhagic core",
-        "Interface of normal and abnormal viable peripheral tissue",
-        "Surrounding skin epidermis only",
-        "Overlying subcutaneous adipose layer"
+        "Solid formed stool; cotton swabs are mandatory",
+        "Liquid or unformed stool in a sterile container; swabs must NOT be used",
+        "Rectal swab in Cary-Blair medium; liquid stool is rejected",
+        "Gastric aspirate in sodium hydroxide"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Incisional biopsies remove a partial sample for diagnostic purposes. Key technical rules require including the junction/interface between normal and abnormal tissue while avoiding central necrotic areas, which yield non-diagnostic debris.",
+      "explanation": "C. difficile testing requires unformed or liquid stool collected in a sterile container (and refrigerated at 4°C if delayed). Formed stool and swabs are inappropriate and rejected.",
       "difficulty": "medium",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
@@ -173,34 +173,15 @@
     },
     {
       "id": "notebooklm-10",
-      "stem": "If electron microscopy analysis is specifically required for a specialized biopsy specimen, which fixative must be used?",
+      "stem": "What specialized technique can be used to enhance the laboratory recovery of Yersinia enterocolitica from stool specimens?",
       "options": [
-        "Bouin's solution",
-        "Glutaraldehyde",
-        "70% Isopropanol",
-        "10% Neutral Buffered Formalin"
+        "Incubation at 42°C for 48 hours",
+        "Cold enrichment by storing the specimen at 4°C for 2 to 4 weeks",
+        "Boiling the stool sample in peptone water for 10 minutes",
+        "Adding high concentrations of penicillin to the transport tube"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Electron microscopy requires glutaraldehyde fixation to preserve cellular ultrastructure and organelle membranes. Routine 10% NBF is unsuitable for electron microscopy studies.",
-      "difficulty": "medium",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "section": "Microbiology and Immunology",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "eligibleForExam": true
-    },
-    {
-      "id": "notebooklm-11",
-      "stem": "To preserve hormone receptors (ER/PR/HER2) and immunohistochemical markers in breast resections, fixation in 10% NBF should ideally begin within what cold ischemia timeframe post-excision?",
-      "options": [
-        "Within 15 minutes only",
-        "Within 1 hour post-excision (cold ischemia time ≤1 hour)",
-        "Within 6 hours post-excision",
-        "Timing does not affect receptor preservation"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Immunohistochemistry and hormone receptor testing yield optimal results when tissue is placed in 10% NBF within 1 hour of surgical excision (cold ischemia time ≤1 hour). Delays beyond 30–60 minutes risk protein degradation and autolysis.",
+      "explanation": "Yersinia enterocolitica tolerates and multiplies at cold temperatures; cold enrichment at 4°C for 2–4 weeks enhances its recovery over other fecal flora.",
       "difficulty": "hard",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
@@ -210,17 +191,36 @@
       "eligibleForExam": true
     },
     {
-      "id": "notebooklm-12",
-      "stem": "Where should patient identification labels be physically placed on a surgical specimen container?",
+      "id": "notebooklm-11",
+      "stem": "Which urinary specimen collection method is considered the sterile \"gold standard\" for obtaining completely uncontaminated bladder urine in infants?",
       "options": [
-        "Directly on the removable lid for easy visibility",
-        "Directly on the body of the container itself (NEVER on the lid)",
-        "Tied directly around orientation sutures",
-        "Taped onto the outer biohazard transport bag only"
+        "Pediatric adhesive bag urine",
+        "Midstream clean-catch urine",
+        "Suprapubic Aspirate (SPA)",
+        "Foley catheter drainage bag aspirate"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Suprapubic aspiration involves inserting a needle percutaneously through the lower abdominal wall directly into the bladder, bypassing urethral flora to obtain a completely sterile sample.",
+      "difficulty": "easy",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-12",
+      "stem": "If a midstream clean-catch urine sample cannot be delivered to the laboratory within 30 minutes, what preservative tube should be used to prevent bacterial overgrowth?",
+      "options": [
+        "Sodium citrate tube (blue-top)",
+        "Boric acid preservative tube (grey-top)",
+        "EDTA tube (purple-top)",
+        "Heparinized blood tube (green-top)"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Labels must be written or placed directly on the container body, NEVER on the lid. Lids can be accidentally mismatched or swapped during processing, leading to catastrophic patient misidentification.",
-      "difficulty": "easy",
+      "explanation": "Boric acid preservative tubes (grey-top) inhibit bacterial overgrowth while allowing culture viability if urine transport is delayed beyond 30 minutes.",
+      "difficulty": "medium",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
       "section": "Microbiology and Immunology",
@@ -230,16 +230,16 @@
     },
     {
       "id": "notebooklm-13",
-      "stem": "According to mandatory specimen labeling standards, how many patient identifiers are required on every surgical specimen container?",
+      "stem": "Why are nucleic acid amplification test (NAAT / PCR) specimens for Chlamydia trachomatis or Mycoplasma genitalium collected in liquid-based NAAT transport tubes rather than standard Amies charcoal swabs?",
       "options": [
-        "One identifier (Patient full name only)",
-        "At least two identifiers (e.g., Patient full name AND Date of Birth / Hospital ID)",
-        "Three identifiers including bed number and ward name",
-        "Only the surgeon's full name"
+        "NAAT transport tubes contain guanidine thiocyanate buffers that lyse cells, inactivate nucleases (DNase/RNase), and stabilize DNA/RNA",
+        "Amies charcoal transport medium destroys bacterial DNA within 5 minutes",
+        "NAAT tubes maintain live bacterial motility for darkfield microscopy",
+        "NAAT tubes allow simultaneous aerobic bacterial culture growth"
       ],
-      "correctOptionIndex": 1,
-      "explanation": "Best practice guidelines require at least two patient identifiers on every specimen container (e.g., patient's full name with no abbreviations, plus date of birth or hospital ID number).",
-      "difficulty": "easy",
+      "correctOptionIndex": 0,
+      "explanation": "NAAT transport tubes contain specialized lysis buffers (e.g., guanidine thiocyanate) that lyse cells, neutralize destructive nucleases (DNases/RNases), and preserve target nucleic acids for PCR testing.",
+      "difficulty": "hard",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
       "section": "Microbiology and Immunology",
@@ -249,16 +249,16 @@
     },
     {
       "id": "notebooklm-14",
-      "stem": "What type of tissue artefact is caused by squeezing or grasping delicate tissue tightly with surgical forceps during excision?",
+      "stem": "What is a critical transport temperature rule for clinical specimens suspected of containing Neisseria gonorrhoeae ?",
       "options": [
-        "Drying artefact",
-        "Crush artefact",
-        "Fixation artefact",
-        "Autolysis artefact"
+        "Freeze immediately at -20°C",
+        "Store at room temperature and do NOT refrigerate, as N. gonorrhoeae is sensitive to cold",
+        "Incubate at 4°C in a cold enrichment broth for 14 days",
+        "Keep on wet ice for 48 hours"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Crush artefact is an artificial tissue distortion caused by mechanical squeezing with forceps. It crushes delicate cell structures and causes nuclear smearing, obscuring microscopic detail.",
-      "difficulty": "easy",
+      "explanation": "Neisseria gonorrhoeae is fragile and cold-sensitive. Genital or eye specimens for gonococcal culture must be kept at room temperature and plated promptly (within 6 hours if using transport medium).",
+      "difficulty": "medium",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
       "section": "Microbiology and Immunology",
@@ -268,15 +268,15 @@
     },
     {
       "id": "notebooklm-15",
-      "stem": "What is the primary clinical consequence of submitting a pathology request form without relevant clinical history or imaging details?",
+      "stem": "How must Cerebrospinal Fluid (CSF) collected via lumbar puncture for suspected bacterial meningitis be handled and transported?",
       "options": [
-        "Immediate destruction and rejection of the tissue specimen",
-        "Non-specific reporting and failure to consider important differential diagnoses",
-        "Automatic execution of molecular DNA sequencing",
-        "Mandatory immediate repeat surgical biopsy"
+        "Refrigerate immediately at 4°C to prevent leukocyte autolysis",
+        "Transport to the lab immediately within 15–30 minutes at room temperature (35–37°C); do NOT refrigerate",
+        "Freeze at -80°C in a glycerol bath",
+        "Mix with an equal volume of 70% ethanol"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Providing missing clinical history forces the pathologist to evaluate tissue in isolation, leading to non-specific reporting and potential failure to consider key differential diagnoses relevant to the patient's presentation.",
+      "explanation": "Fastidious neuro-pathogens like Neisseria meningitidis and Haemophilus influenzae are killed by cold. CSF must be kept at room temperature (or 35–37°C) and transported immediately within 15–30 minutes.",
       "difficulty": "medium",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
@@ -287,15 +287,15 @@
     },
     {
       "id": "notebooklm-16",
-      "stem": "Which biopsy technique yields a cylindrical full-thickness skin core (2–8 mm) encompassing epidermis, dermis, and subcutaneous fat?",
+      "stem": "What is the recommended handling procedure for a corneal scraping specimen obtained from a patient with suspected bacterial or fungal keratitis?",
       "options": [
-        "Shave biopsy",
-        "Punch biopsy",
-        "Fine needle aspiration",
-        "Core needle aspiration"
+        "Store in a refrigerator at 4°C for up to 48 hours",
+        "Process within 15–30 minutes at room temperature (do NOT refrigerate)",
+        "Immerse in formalin solution for 2 hours",
+        "Freeze immediately at -20°C"
       ],
       "correctOptionIndex": 1,
-      "explanation": "A punch biopsy uses a circular blade to procure a full-thickness 2–8 mm cylindrical skin sample, making it ideal for inflammatory dermatoses and pigmented lesions.",
+      "explanation": "Corneal scrapings dry out quickly and cold temperatures can kill fungi and delicate bacteria. They must be kept at room temperature and processed within 15–30 minutes.",
       "difficulty": "medium",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
@@ -306,15 +306,15 @@
     },
     {
       "id": "notebooklm-17",
-      "stem": "Why is it a strict technical rule that a surgical excision specimen must NOT be cut or sectioned (bivalved) before margin inking?",
+      "stem": "In a patient with endophthalmitis, how should a small-volume vitreous aspirate (0.1–0.2 mL) be handled if transport to the laboratory will be delayed for more than 1 hour?",
       "options": [
-        "Cutting prevents formalin fixative from entering tissue",
-        "Inking after cutting allows ink to seep into internal cut surfaces, creating false-positive surgical margins",
-        "Cutting destroys all intracellular DNA",
-        "Inking before cutting dissolves orientation sutures"
+        "Store in a household refrigerator at 4°C",
+        "Inoculate directly into blood culture bottles (aerobic + anaerobic) and hold at 37°C in an incubator",
+        "Dilute with 10 mL of sterile tap water",
+        "Apply to a dry paper strip at room temperature"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Specimens must be oriented and inked BEFORE any sectioning or bivalving occurs. Cutting tissue prior to inking allows dark ink to flow into internal surgical cuts, which the pathologist will misinterpret under the microscope as a positive resection margin.",
+      "explanation": "Endophthalmitis vitreous aspirates are emergency samples of tiny volume (0.1–0.2 mL). If transport is delayed >1 hour, the aspirate should be inoculated directly into blood culture bottles and stored in a 37°C incubator.",
       "difficulty": "hard",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
@@ -325,16 +325,16 @@
     },
     {
       "id": "notebooklm-18",
-      "stem": "What is the standard routine turnaround time (TAT) for small diagnostic biopsies versus large, complex surgical resection specimens?",
+      "stem": "What is the diagnostic GOLD STANDARD specimen for investigating a deep wound or surgical site infection?",
       "options": [
-        "Small biopsies: 15–30 minutes; Large specimens: 1–3 working days",
-        "Small biopsies: 1–3 working days; Large or complex specimens: 5–10 working days or longer",
-        "Small biopsies: 5–10 working days; Large specimens: 24 hours",
-        "Both take 3–4 weeks"
+        "Superficial wound swab of intact surrounding skin",
+        "Tissue biopsy or direct aspirate of pus",
+        "Saline rinse of the outer dressing",
+        "Dry cotton swab of the superficial wound margin"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Routine turnaround time for small biopsies is 1–3 working days. Large or complex specimens require 5–10 working days or longer due to extensive grossing, fixation time, and potential special/immunohistochemical stains.",
-      "difficulty": "medium",
+      "explanation": "Tissue biopsy or direct needle aspirate of pus is the gold standard for wound infections. Swabs are acceptable only for superficial wounds when tissue/aspirate is not feasible, because swabs often capture superficial colonizing skin microbiota.",
+      "difficulty": "easy",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
       "section": "Microbiology and Immunology",
@@ -344,16 +344,16 @@
     },
     {
       "id": "notebooklm-19",
-      "stem": "Which of the following diagnostic procedures CANNOT be performed on a formalin-fixed (10% NBF) specimen?",
+      "stem": "Why must wound swab samples submitted for anaerobic bacterial culture NEVER be refrigerated?",
       "options": [
-        "Routine H&E histological evaluation",
-        "Flow cytometry for suspected lymphoma and microbiology bacterial culture",
-        "Diagnostic immunohistochemical cytokeratin staining",
-        "Pathological TNM staging"
+        "Cold temperatures stimulate rapid fungal overgrowth",
+        "Cold kills anaerobes and fastidious bacteria",
+        "Refrigeration inactivates liquid Amies transport media",
+        "Cold causes immediate lysis of human red blood cells"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Flow cytometry (which requires live intact cells) and microbiology cultures (which require viable microbes) CANNOT be performed on formalin-fixed tissue. Formalin cross-links proteins and kills microorganisms; these procedures require fresh, unfixed tissue.",
-      "difficulty": "hard",
+      "explanation": "Wound swabs must be kept at room temperature (20–26°C) and delivered within 2 hours. Refrigeration is strictly avoided because cold kills fastidious anaerobes (e.g., Bacteroides , Peptostreptococcus , Clostridium ).",
+      "difficulty": "medium",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
       "section": "Microbiology and Immunology",
@@ -363,16 +363,16 @@
     },
     {
       "id": "notebooklm-20",
-      "stem": "According to the golden rules of specimen orientation, when should orientation sutures ideally be placed by the surgeon?",
+      "stem": "What documentation process creates an unbroken paper trail tracking every individual who handles a clinical sample from collection to final disposal, ensuring legal defensibility?",
       "options": [
-        "After the specimen has been fixed in formalin for 24 hours",
-        "While the specimen is still in situ prior to complete surgical detachment",
-        "In the pathology laboratory after gross sectioning",
-        "Only if a positive margin is identified on permanent section"
+        "Institutional Review Board (IRB) Approval",
+        "Chain of Custody",
+        "Antibiogram Surveillance",
+        "Universal Precautions Audit"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Golden Rule #3 dictates that orientation should be established while the specimen is still in situ prior to complete excision. Once a soft-tissue mass is detached, it collapses and rotates, making retrospective orientation prone to error.",
-      "difficulty": "hard",
+      "explanation": "The Chain of Custody documents every person who handles a sample from collection to disposal, creating a paper trail crucial for legal defensibility and traceability.",
+      "difficulty": "easy",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
       "section": "Microbiology and Immunology",

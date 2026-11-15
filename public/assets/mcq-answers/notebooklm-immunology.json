@@ -1,0 +1,387 @@
+{
+  "questions": [
+    {
+      "id": "notebooklm-1",
+      "stem": "According to the foundational terminologies in immunology presented in the lecture, how is an \"antigen\" defined?",
+      "options": [
+        "A serum enzyme produced by activated neutrophils during acute inflammation",
+        "A substance capable of stimulating the human immune system to produce an immune response",
+        "A specialized antibody class found exclusively in mucosal epithelial secretions",
+        "A cell surface receptor expressed only on mature CD8+ T-lymphocytes"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "An antigen is defined as any substance capable of stimulating the human immune system to produce a specific immune response against it.",
+      "difficulty": "easy",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-2",
+      "stem": "In 1939, A. Tiselius subjected blood serum to electrophoresis and demonstrated that antibodies reside within which specific protein fraction?",
+      "options": [
+        "Albumin fraction",
+        "Alpha-globulin fraction",
+        "Beta-globulin fraction",
+        "Gamma-globulin fraction"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Electrophoresis separates serum proteins into albumin, alpha, beta, and gamma globulins. Tiselius demonstrated that antibodies are located in the gamma-globulin fraction, earning them the name immunoglobulins.",
+      "difficulty": "medium",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-3",
+      "stem": "According to the cellular development classification of the immune system, what percentage of circulating white blood cells is represented by agranular leukocytes (plasma cells, T/B/NK lymphocytes, monocytes, and dendritic cells)?",
+      "options": [
+        "~5%",
+        "~15%",
+        "~35%",
+        "~75%"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Leukocytes in circulation are categorized as granular or agranular. Agranular leukocytes make up 35% of circulating immune cells and include monocytes, plasma cells, dendritic cells, and lymphocytes (T, B, NK).",
+      "difficulty": "medium",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-4",
+      "stem": "By what precise mechanism do Natural Killer (NK) cells selectively eliminate unhealthy or virus-infected target cells during immunological surveillance?",
+      "options": [
+        "Secreting dimeric IgA antibodies across epithelial basolateral membranes",
+        "Using perforins to form transmembrane pores and granzymes to initiate apoptosis",
+        "Producing high concentrations of hydrochloric acid inside the phagolysosome",
+        "Converting serum fibrinogen into cross-linked insoluble fibrin threads"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "NK cells recognize unhealthy target cells (expressing abnormal or viral proteins) and release perforin (which forms a transmembrane pore) and granzymes (which enter through the pore to trigger programmed cell death / apoptosis via gene expression).",
+      "difficulty": "medium",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-5",
+      "stem": "Which of the following is explicitly listed as one of the three cardinal features of the adaptive immune system?",
+      "options": [
+        "Absence of immunological memory",
+        "Memory (exposure enhances the ability to respond faster and larger to subsequent challenges)",
+        "Instantaneous onset with zero time lag",
+        "Non-specific action against all foreign particles equally"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The cardinal features of adaptive immunity are Specificity, Diversity, and Memory. Immunological memory ensures that subsequent exposures to the same antigen yield a faster, larger secondary immune response.",
+      "difficulty": "easy",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-6",
+      "stem": "What is the basic molecular structure and polypeptide chain composition of a monomeric immunoglobulin molecule?",
+      "options": [
+        "A single polypeptide chain with a molecular weight of 25,000 Da",
+        "A Y-shaped heterodimer composed of two identical light (L) chains (25 kDa each) and two identical heavy (H) chains (50 kDa or more each)",
+        "A pentameric ring of ten light chains linked by disulfide bridges",
+        "Four identical heavy chains bound to a central secretory component"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "An antibody is a Y-shaped heterodimer consisting of four polypeptide chains: two identical light chains (MW ~25,000 Da each) and two identical heavy chains (MW ~50,000 Da or more each), joined by disulfide bonds and noncovalent interactions.",
+      "difficulty": "easy",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-7",
+      "stem": "Which immunoglobulin class constitutes approximately 75–85% of total serum antibodies, has a half-life of 23 days, and possesses the unique ability to cross the placenta?",
+      "options": [
+        "IgM",
+        "IgA",
+        "IgG",
+        "IgE"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "IgG represents 75–85% of total serum antibodies, has the longest half-life (23 days), possesses two paratopes, acts against bacteria and viruses, and crosses the placenta to confer natural passive immunity to the fetus and neonate.",
+      "difficulty": "easy",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-8",
+      "stem": "What is the specific structural function of the \"Secretory Component\" attached to dimeric IgA in mucosal secretions?",
+      "options": [
+        "It initiates the classical complement cascade",
+        "It protects IgA from denaturation by bacterial proteases produced by intestinal flora",
+        "It binds to Fc receptors on mast cells to trigger immediate histamine degranulation",
+        "It binds directly to oxygen molecules to transport them across mucosal membranes"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Dimeric secretory IgA consists of two monomeric units joined by a J-chain and wrapped in a secretory component (derived from epithelial poly-Ig receptors). The secretory component shields IgA from destruction by bacterial proteases in the gut lumen.",
+      "difficulty": "hard",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-9",
+      "stem": "Which immunoglobulin class is the largest in size (MW ~900 kDa, existing mostly as a pentamer bound by a J-chain), appears first during a primary infection, and cannot cross the placenta?",
+      "options": [
+        "IgD",
+        "IgA",
+        "IgM",
+        "IgE"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "IgM is the largest antibody (MW 900 kDa), constructed of 5 or 6 units (mostly pentamers) bound by a J-chain. It is the first antibody to appear in response to initial antigen exposure, fixes complement, acts as an opsonin, and cannot cross the placenta.",
+      "difficulty": "medium",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-10",
+      "stem": "Which antibody class is present in the lowest serum concentration (0.019%), has the shortest half-life (2.5 days), is uniquely heat-labile (inactivated at 56°C in 1 hour), and mediates Type I hypersensitivity?",
+      "options": [
+        "IgG",
+        "IgD",
+        "IgE",
+        "IgM"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "IgE has the lowest serum concentration (0.019%), shortest half-life (2.5 days), is the only heat-labile antibody (inactivated at 56°C for 1 hour), exhibits homocytotropism for mast cell/basophil Fc receptors, and drives Type I allergic hypersensitivity.",
+      "difficulty": "medium",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-11",
+      "stem": "What is the established physiological function of Immunoglobulin D (IgD)?",
+      "options": [
+        "Direct opsonization of encapsulated bacteria in intravascular spaces",
+        "Acting as a membrane-bound B-cell receptor alongside IgM on the surface of B cells",
+        "Neutralizing viral enterotoxins within the lumen of the small intestine",
+        "Crossing the placental barrier during the third trimester of pregnancy"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "IgD is found as membrane Ig on the surface of B cells, functioning as a B-cell antigen receptor alongside monomeric IgM. It has the highest carbohydrate content among immunoglobulins and no other known effector function.",
+      "difficulty": "medium",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-12",
+      "stem": "Which set of characteristics distinguishes a Primary Immune Response from a Secondary (Anamnestic) Immune Response?",
+      "options": [
+        "Primary response has a short lag phase and produces massive high-titer IgG",
+        "Primary response is slow, sluggish, and short-lived with a long lag phase, producing low titers dominated by IgM",
+        "Primary response produces high-titer antibodies that persist for decades",
+        "Primary response relies exclusively on memory T-lymphocytes"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The primary response is slow, sluggish, and short-lived, featuring a long lag phase, low antibody titers that do not persist, and IgM as the primary antibody. The secondary response is prompt, powerful, prolonged, features a negligible lag phase, and is dominated by high-titer IgG.",
+      "difficulty": "medium",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-13",
+      "stem": "How is passive immunization distinguished from active immunization regarding its duration of effect and acquisition mechanism?",
+      "options": [
+        "Passive immunization provides permanent protection by generating memory B and T cells",
+        "Passive immunization involves transferring preformed antibodies (maternal or antitoxins) and provides temporary protection",
+        "Active immunization is acquired exclusively through intravenous injection of preformed animal sera",
+        "Active immunization fails to stimulate T and B lymphocyte proliferation"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Passive immunization transfers preformed antibodies (naturally via placenta/milk or artificially via antitoxins/immune globulins), offering immediate but temporary protection without memory cell formation. Active immunization (via infection or vaccines) stimulates T/B cells to form memory cells, providing relatively permanent immunity.",
+      "difficulty": "medium",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-14",
+      "stem": "Which cluster of differentiation (CD) markers is specifically associated with B-lymphocytes and humoral immunity in the comparison diagrams?",
+      "options": [
+        "CD4 and CD8",
+        "CD19 and CD20",
+        "CD2 and CD3",
+        "CD16 and CD56"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "B-cells mature in the bone marrow, mediate humoral immunity, and express markers such as CD19, CD20, CD22, CD40, CD80, and CD86. T-cells mature in the thymus and express CD4+ and CD8+ for cell-mediated immunity.",
+      "difficulty": "medium",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-15",
+      "stem": "What is the primary diagnostic principle underlying Latex Agglutination tests in clinical serology?",
+      "options": [
+        "Photon emission triggered by enzyme-substrate reactions",
+        "Visible clumping occurring when antibodies bind to target antigens coated onto inert polystyrene latex particles",
+        "UV light visualization of fluorescently-labeled spirochetes",
+        "Electrophoretic separation of serum into four distinct globulin bands"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "In latex agglutination tests (such as CRP testing or bacterial serotyping), visible clumping occurs when specific antibodies react with target antigens attached to the surface of inert polystyrene latex beads.",
+      "difficulty": "medium",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-16",
+      "stem": "Which diagnostic serological technique uses fluorescently-labeled antibodies viewed under a specialized microscope and is commonly applied for Antinuclear Antibody (ANA) testing in systemic lupus erythematosus?",
+      "options": [
+        "Chemiluminescence Immunoassay (CLIA)",
+        "Rapid Plasma Reagin (RPR) test",
+        "Immunofluorescence Assay (IFA)",
+        "Radial Immunodiffusion (RID)"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Immunofluorescence Assay (IFA) utilizes fluorophore-labeled antibodies to visualize antigen location in tissues or cells under a fluorescence microscope. Key applications include ANA testing for lupus and direct detection of respiratory viruses.",
+      "difficulty": "medium",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-17",
+      "stem": "What is the operational principle and primary advantage of Chemiluminescence Immunoassays (CLIA) in diagnostic serology?",
+      "options": [
+        "Measures radioactive isotope decay to count target molecules",
+        "Combines antigen-antibody binding with chemical reactions that emit light, offering exceptionally high sensitivity and easy automation",
+        "Uses heat at 56°C to denature competing non-specific proteins",
+        "Measures bacterial growth rates in liquid broth over 14 days"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "CLIA combines antigen-antibody reactions with light-emitting chemical markers. When a target analyte binds, a chemical reaction triggers photon emission strictly proportional to the analyte concentration, providing high sensitivity and automated throughput.",
+      "difficulty": "hard",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-18",
+      "stem": "When analyzing paired serum samples (acute and convalescent sera) from a patient, what finding confirms a recent active infection?",
+      "options": [
+        "A stable, unchanged IgG antibody titer across both samples drawn 3 weeks apart",
+        "A fourfold or greater rise in IgG antibody titer between acute and convalescent samples",
+        "Complete absence of serum IgM combined with a normal white blood cell count",
+        "A single positive nontreponemal RPR test result"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Demonstrating a fourfold (or greater) rise in specific IgG antibody titer between an acute-phase serum sample and a convalescent-phase sample (drawn 2–3 weeks later) confirms a recent active infection.",
+      "difficulty": "medium",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-19",
+      "stem": "Which chemical factors present in saliva and tear secretions contribute to the chemical barriers of innate immunity?",
+      "options": [
+        "Perforins, granzymes, and memory immunoglobulins",
+        "Lysozyme, peroxidase, and lactoferrin",
+        "Histamine, bradykinin, and leukotriene B4",
+        "Coagulation factors II, VII, and X"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Antimicrobial chemical factors present in saliva, tears, and secretions include lysozyme (cleaves bacterial peptidoglycan), peroxidase, and lactoferrin (sequesters iron), serving as the first line of innate defense.",
+      "difficulty": "medium",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    },
+    {
+      "id": "notebooklm-20",
+      "stem": "What is the correct chronological sequence of intracellular events during phagocytosis by leukocytes following initial receptor binding?",
+      "options": [
+        "Phagolysosome formation → Phagosome formation → Exocytosis",
+        "Phagosome formation → Fusion with lysosome to form phagolysosome → Intracellular killing and exocytosis of soluble debris",
+        "Exocytosis → Phagosome formation → Receptor clustering",
+        "Perforin pore formation → Granzyme release → Apoptosis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Phagocytosis follows a step-by-step sequence: (1) receptor binding, (2) engulfment into a phagosome, (3) fusion with a lysosome to form a phagolysosome, (4) intracellular killing via enzymes/ROS/NO, and (5) exocytosis of soluble debris.",
+      "difficulty": "medium",
+      "source": "immunology NO .4.26.pptx",
+      "topic": "immunology NO .4.26.pptx",
+      "section": "Microbiology and Immunology",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "eligibleForExam": true
+    }
+  ],
+  "source": "immunology NO .4.26.pptx",
+  "section": "Microbiology and Immunology",
+  "status": "notebooklm-draft-supervisor-approved"
+}

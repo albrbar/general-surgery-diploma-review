@@ -1,25 +1,25 @@
 {
   "bankName": "GS Diploma Unified MCQ Bank",
   "version": "2026-11-15-drive-notebook-merge-1",
-  "totalQuestions": 1441,
-  "rawQuestionsBeforeDeduplication": 1463,
-  "duplicatesCollapsed": 22,
+  "totalQuestions": 1481,
+  "rawQuestionsBeforeDeduplication": 1483,
+  "duplicatesCollapsed": 2,
   "sections": {
     "Anatomy": 558,
     "Pathology": 306,
-    "Microbiology and Immunology": 219,
-    "Pharmacology": 87,
+    "Microbiology and Immunology": 239,
+    "Pharmacology": 107,
     "Principles of Surgery": 271
   },
   "difficulty": {
-    "hard": 303,
-    "easy": 536,
-    "moderate": 550,
+    "hard": 309,
+    "easy": 546,
+    "moderate": 574,
     "very easy": 5,
     "very hard": 47
   },
   "quality": {
-    "approved": 1441
+    "approved": 1481
   },
   "topSources": [
     [
@@ -123,7 +123,15 @@
       20
     ],
     [
+      "immunology NO .4.26.pptx",
+      20
+    ],
+    [
       "Analgesics for surgery.pdf",
+      20
+    ],
+    [
+      "Blood Disorder Drugs & Cancer ChemoRx.pdf",
       20
     ],
     [
@@ -173,14 +181,6 @@
     [
       "Basic abdominal anatomy",
       1
-    ],
-    [
-      "Basic abdominal wall anatomy",
-      1
-    ],
-    [
-      "Colonic arterial supply; standard surgical anatomy",
-      1
     ]
   ],
   "sourceFiles": [
@@ -213,8 +213,10 @@
     "microbiology-80.json",
     "microbiology-immunology.json",
     "notebooklm-analgesics.json",
+    "notebooklm-blood-disorder-drugs.json",
     "notebooklm-diagnostic-microbiology.json",
     "notebooklm-diagnostic-pathology.json",
+    "notebooklm-immunology.json",
     "pathology-cell-injury-80.json",
     "pathology-lecture1-80.json",
     "pathology.json",

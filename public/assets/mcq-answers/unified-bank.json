@@ -7,7 +7,7 @@
     "Google Drive Exam folder and lecture source folders",
     "Gemini NotebookLM source inventory: General surgery diploma revision"
   ],
-  "totalQuestions": 1441,
+  "totalQuestions": 1481,
   "questions": [
     {
       "id": "local-GS-ABD-0079",
@@ -27140,49 +27140,16 @@
       ]
     },
     {
-      "id": "local-notebooklm-7",
-      "stem": "According to preoperative holding protocols, how many days before elective surgery must oral Warfarin be held, and how many hours before surgery must therapeutic Low Molecular Weight Heparin (LMWH) be stopped?",
+      "id": "local-notebooklm-13",
+      "stem": "According to mandatory specimen labeling standards, how many patient identifiers are required on every surgical specimen container?",
       "options": [
-        "Warfarin held 2 days before; LMWH held 6 hours before",
-        "Warfarin held 5 days before; LMWH held 24 hours before",
-        "Warfarin held 7 days before; LMWH held 48 hours before",
-        "Warfarin held 1 day before; LMWH held 12 hours before"
+        "One identifier (Patient full name only)",
+        "At least two identifiers (e.g., Patient full name AND Date of Birth / Hospital ID)",
+        "Three identifiers including bed number and ward name",
+        "Only the surgeon's full name"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Elective surgery guidelines specify holding oral Warfarin 5 days before surgery. Therapeutic LMWH must be stopped 24 hours before surgery (prophylactic LMWH is held 12 hours before; IV unfractionated heparin is held 4–6 hours before).",
-      "section": "Pathology",
-      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "sourceUrl": "",
-      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "difficulty": "moderate",
-      "sourceDifficulty": "moderate",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-pathology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-pathology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-18",
-      "stem": "Hemorrhagic cystitis (hematuria) is a classic adverse effect of Cyclophosphamide caused by acrolein accumulation. Which agent is administered to prevent or manage this complication?",
-      "options": [
-        "Folinic acid",
-        "MESNA (or N-acetylcysteine)",
-        "Dexrazoxane",
-        "Amifostine"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Cyclophosphamide is an alkylating prodrug metabolized into phosphoramide mustard (active cytotoxic agent) and acrolein (toxic metabolite causing hemorrhagic cystitis). It is managed with aggressive fluid intake, MESNA, or N-acetylcysteine.",
+      "explanation": "Best practice guidelines require at least two patient identifiers on every specimen container (e.g., patient's full name with no abbreviations, plus date of birth or hospital ID number).",
       "section": "Pathology",
       "source": "Principles of diagnostic pathology-Lecture 1.pdf",
       "sourceUrl": "",
@@ -27206,55 +27173,22 @@
       ]
     },
     {
-      "id": "local-notebooklm-3",
-      "stem": "In a patient receiving therapeutic unfractionated heparin (UFH), what is the target activated Partial Thromboplastin Time (aPTT) therapeutic range relative to baseline?",
+      "id": "local-notebooklm-7",
+      "stem": "According to standard surgical pathology conventions, how are short and long sutures applied to orient an excised specimen?",
       "options": [
-        "0.8 to 1.2 times baseline",
-        "1.5 to 2.0 times baseline",
-        "2.0 to 3.0 times baseline",
-        "4.0 to 5.0 times baseline"
+        "Short suture = Superior margin; Long suture = Lateral margin",
+        "Short suture = Anterior margin; Long suture = Posterior margin",
+        "Short suture = Deep margin; Long suture = Superficial margin",
+        "Short suture = Medial margin; Long suture = Inferior margin"
       ],
-      "correctOptionIndex": 2,
-      "explanation": "Normal aPTT is 25–33 seconds. In heparin toxicity or over-anticoagulation, target controlled aPTT (CaPTT) is maintained at 2 to 3 times the normal baseline value.",
+      "correctOptionIndex": 0,
+      "explanation": "Unless an alternative convention is explicitly agreed upon with the local pathology department, the universal suture orientation standard designates a short suture at the superior margin and a long suture at the lateral margin.",
       "section": "Pathology",
       "source": "Principles of diagnostic pathology-Lecture 1.pdf",
       "sourceUrl": "",
       "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "difficulty": "moderate",
-      "sourceDifficulty": "moderate",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-pathology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-pathology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-19",
-      "stem": "Match the cytotoxic antibiotic to its pathognomonic organ-specific toxicity: Doxorubicin | Bleomycin | Mitomycin",
-      "options": [
-        "Doxorubicin = Pulmonary fibrosis; Bleomycin = Nephrotoxicity; Mitomycin = Cardiotoxicity",
-        "Doxorubicin = Cardiotoxicity; Bleomycin = Pneumonitis & Pulmonary Fibrosis; Mitomycin = Nephrotoxicity",
-        "Doxorubicin = Ototoxicity; Bleomycin = Cardiotoxicity; Mitomycin = Hepatotoxicity",
-        "Doxorubicin = Nephrotoxicity; Bleomycin = Neurotoxicity; Mitomycin = Cardiotoxicity"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Cytotoxic antibiotics exhibit distinct organ toxicities: Doxorubicin causes cardiotoxicity; Bleomycin causes pneumonitis and pulmonary fibrosis; Mitomycin causes nephrotoxicity.",
-      "section": "Pathology",
-      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "sourceUrl": "",
-      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "difficulty": "hard",
-      "sourceDifficulty": "hard",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
       "difficultyMethod": "source-labelled",
       "qualityOriginal": "approved",
       "quality": "approved",
@@ -27273,48 +27207,15 @@
     },
     {
       "id": "local-notebooklm-20",
-      "stem": "Regarding cancer chemotherapy during pregnancy, during which gestational period is cytotoxic chemotherapy strictly an absolute classic contraindication?",
+      "stem": "According to the golden rules of specimen orientation, when should orientation sutures ideally be placed by the surgeon?",
       "options": [
-        "1st Trimester (Organogenesis stage)",
-        "2nd Trimester",
-        "3rd Trimester",
-        "Post-partum lactation period only"
-      ],
-      "correctOptionIndex": 0,
-      "explanation": "Cytotoxic chemotherapy is strictly avoided during the 1st Trimester (organogenesis stage) due to high teratogenic risk. Methotrexate is highlighted as an absolute classic contraindication.",
-      "section": "Pathology",
-      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "sourceUrl": "",
-      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "difficulty": "easy",
-      "sourceDifficulty": "easy",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-pathology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-pathology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-9",
-      "stem": "To prevent ibuprofen from interfering with the antiplatelet cardioprotective effect of low-dose aspirin, what administration timing rule must be followed?",
-      "options": [
-        "Take aspirin simultaneously with ibuprofen at mealtime",
-        "Take aspirin at least 1 hour before or at least 8 hours after ibuprofen",
-        "Take ibuprofen strictly 30 minutes before aspirin",
-        "Double the dose of ibuprofen when taking aspirin"
+        "After the specimen has been fixed in formalin for 24 hours",
+        "While the specimen is still in situ prior to complete surgical detachment",
+        "In the pathology laboratory after gross sectioning",
+        "Only if a positive margin is identified on permanent section"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Ibuprofen reversibly binds COX-1 and competitively prevents aspirin from reaching its target acetylation site. Therefore, aspirin should be ingested at least 1 hour before or at least 8 hours after ibuprofen.",
+      "explanation": "Golden Rule #3 dictates that orientation should be established while the specimen is still in situ prior to complete excision. Once a soft-tissue mass is detached, it collapses and rotates, making retrospective orientation prone to error.",
       "section": "Pathology",
       "source": "Principles of diagnostic pathology-Lecture 1.pdf",
       "sourceUrl": "",
@@ -27338,187 +27239,22 @@
       ]
     },
     {
-      "id": "local-notebooklm-13",
-      "stem": "What is the mechanism of action and clinical contraindication of Tranexamic Acid (TXA) in bleeding management?",
+      "id": "local-notebooklm-5",
+      "stem": "How must a surgical tissue specimen intended for intraoperative Frozen Section (FS) consultation be handled and transported to the laboratory?",
       "options": [
-        "Direct factor VIIa activator; contraindicated in severe liver disease",
-        "Lysine analogue blocking plasminogen/plasmin lysine-binding sites; contraindicated in renal disease",
-        "Vitamin K epoxide reductase activator; contraindicated in hypertension",
-        "Glycoprotein IIb/IIIa antagonist; contraindicated in heart failure"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Tranexamic acid (and EACA) is a synthetic lysine analogue that blocks the lysine-binding sites on plasminogen and plasmin, preventing plasmin-mediated fibrin degradation. It is contraindicated in renal disease.",
-      "section": "Pathology",
-      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "sourceUrl": "",
-      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "difficulty": "moderate",
-      "sourceDifficulty": "moderate",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-pathology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-pathology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-2",
-      "stem": "What is the precise biochemical mechanism of action of unfractionated heparin (UFH)?",
-      "options": [
-        "Direct competitive inhibition of the thrombin catalytic site",
-        "Binding to antithrombin III to accelerate inactivation of factors IIa, IXa, Xa, XIa, and XIIa",
-        "Irreversible acetylation of platelet cyclooxygenase-1 (COX-1)",
-        "Inhibition of hepatic vitamin K epoxide reductase (VKORC1)"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Unfractionated heparin acts indirectly by binding to antithrombin III, which markedly accelerates the inactivation of clotting factors IIa (thrombin), IXa, Xa, XIa, and XIIa.",
-      "section": "Pathology",
-      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "sourceUrl": "",
-      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "difficulty": "moderate",
-      "sourceDifficulty": "moderate",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-pathology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-pathology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-16",
-      "stem": "What percentage of human cancers reactivate the reverse transcriptase enzyme telomerase to bypass cellular senescence and achieve immortality?",
-      "options": [
-        "~10%",
-        "~30%",
-        "~50%",
-        "~90%"
-      ],
-      "correctOptionIndex": 3,
-      "explanation": "Telomeres consist of repetitive TTAGGG DNA end-cap sequences. Approximately 90% of human cancers reactivate telomerase (a reverse transcriptase enzyme), preventing telomere shortening and conferring cellular immortality.",
-      "section": "Pathology",
-      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "sourceUrl": "",
-      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "difficulty": "easy",
-      "sourceDifficulty": "easy",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-pathology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-pathology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-8",
-      "stem": "What pharmacological rationale explains why low-dose aspirin (60–325 mg daily) remains uniquely effective as an antiplatelet agent compared to non-selective NSAIDs like ibuprofen?",
-      "options": [
-        "Aspirin reversibly blocks ADP P2Y12 receptors on vascular endothelium",
-        "Mature platelets are anucleate and cannot synthesize new COX-1 enzymes following irreversible acetylation by aspirin",
-        "Aspirin selectively inhibits COX-2 in mature circulating platelets",
-        "Ibuprofen permanently destroys hepatic cytochrome P450 enzymes"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Aspirin selectively and irreversibly acetylates platelet COX-1 (100 times more potent than against COX-2). Because circulating platelets lack nuclei, they cannot synthesize new COX-1 protein, resulting in permanent enzyme inhibition for the remainder of the platelet lifespan (7–10 days). Non-selective NSAIDs (like ibuprofen) inhibit COX-1 reversibly and lack persistent antithrombotic effects.",
-      "section": "Pathology",
-      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "sourceUrl": "",
-      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "difficulty": "hard",
-      "sourceDifficulty": "hard",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-pathology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-pathology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-15",
-      "stem": "When transfusing Cryoprecipitate to an Rh-negative (Rh -ve) pregnant patient, what special blood banking directive must be strictly observed?",
-      "options": [
-        "Cryoprecipitate must be infused over a minimum of 24 hours",
-        "Cryoprecipitate must be strictly Rh-negative (Rh -ve)",
-        "Cryoprecipitate must be co-administered with high-dose aspirin",
-        "Cryoprecipitate must be reconstituted with 5% Dextrose"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Cryoprecipitate is a concentrated plasma protein fraction containing Factor VIII, vWF, and fibrinogen. When administered to Rh-negative (Rh -ve) pregnant women, Cryoprecipitate must be strictly Rh-negative to avoid Rh isoimmunization.",
-      "section": "Pathology",
-      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "sourceUrl": "",
-      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "difficulty": "moderate",
-      "sourceDifficulty": "moderate",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-pathology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-pathology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-17",
-      "stem": "Which antimetabolite anticancer agent acts as a folic acid antagonist, and what specific rescue drug is administered on non-treatment days to mitigate severe mucosal and hematologic toxicity?",
-      "options": [
-        "5-Fluorouracil; rescued by Thymidine",
-        "6-Mercaptopurine; rescued by Allopurinol",
-        "Methotrexate; rescued by Folinic Acid (Leucovorin)",
-        "Cytarabine; rescued by Pyridoxine"
+        "Submerged in 10% Neutral Buffered Formalin at room temperature",
+        "Placed in 0.9% Normal Saline for 1 hour",
+        "Sent completely fresh immediately on ice or dry (NEVER fixed in formalin)",
+        "Immersed in glutaraldehyde fixative"
       ],
       "correctOptionIndex": 2,
-      "explanation": "Methotrexate is a folic acid antagonist antimetabolite. To prevent lethal normal tissue toxicity (megaloblastic anemia, mucosal ulceration, hepatotoxicity), Folinic Acid (Leucovorin) rescue is administered on non-methotrexate days.",
+      "explanation": "Specimens for frozen section must NEVER be placed in formalin because chemical fixation prevents rapid intraoperative freezing and sectioning. They must be sent completely fresh immediately on ice or dry, with prior notification to the pathology lab.",
       "section": "Pathology",
       "source": "Principles of diagnostic pathology-Lecture 1.pdf",
       "sourceUrl": "",
       "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "difficulty": "moderate",
-      "sourceDifficulty": "moderate",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
       "difficultyMethod": "source-labelled",
       "qualityOriginal": "approved",
       "quality": "approved",
@@ -27537,15 +27273,81 @@
     },
     {
       "id": "local-notebooklm-10",
-      "stem": "Which antiplatelet drug is an oral phosphodiesterase (PDE) inhibitor approved specifically for symptomatic management of intermittent claudication, but strictly contraindicated in heart failure (CHF)?",
+      "stem": "If electron microscopy analysis is specifically required for a specialized biopsy specimen, which fixative must be used?",
       "options": [
-        "Dipyridamole",
-        "Cilostazol",
-        "Prasugrel",
-        "Abciximab"
+        "Bouin's solution",
+        "Glutaraldehyde",
+        "70% Isopropanol",
+        "10% Neutral Buffered Formalin"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Cilostazol is an oral PDE inhibitor that increases cAMP, causing vasodilation and antiplatelet activity. It is indicated for intermittent claudication in peripheral arterial disease, but is strictly contraindicated in patients with Congestive Heart Failure (CHF). Dipyridamole causes the \"coronary steal phenomenon\" in clinically unstable angina.",
+      "explanation": "Electron microscopy requires glutaraldehyde fixation to preserve cellular ultrastructure and organelle membranes. Routine 10% NBF is unsuitable for electron microscopy studies.",
+      "section": "Pathology",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "sourceUrl": "",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-pathology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-pathology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-11",
+      "stem": "To preserve hormone receptors (ER/PR/HER2) and immunohistochemical markers in breast resections, fixation in 10% NBF should ideally begin within what cold ischemia timeframe post-excision?",
+      "options": [
+        "Within 15 minutes only",
+        "Within 1 hour post-excision (cold ischemia time ≤1 hour)",
+        "Within 6 hours post-excision",
+        "Timing does not affect receptor preservation"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Immunohistochemistry and hormone receptor testing yield optimal results when tissue is placed in 10% NBF within 1 hour of surgical excision (cold ischemia time ≤1 hour). Delays beyond 30–60 minutes risk protein degradation and autolysis.",
+      "section": "Pathology",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "sourceUrl": "",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "difficulty": "hard",
+      "sourceDifficulty": "hard",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-pathology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-pathology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-2",
+      "stem": "What is the approximate tissue penetration rate of 10% Neutral Buffered Formalin, and what is the minimum required fixation duration for routine histology?",
+      "options": [
+        "~1 mm/hour penetration rate; minimum 6–8 hours fixation",
+        "~5 mm/hour penetration rate; minimum 1–2 hours fixation",
+        "~10 mm/hour penetration rate; minimum 12–15 hours fixation",
+        "~0.1 mm/hour penetration rate; minimum 48 hours fixation"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Formalin penetrates tissue at a rate of approximately 1 mm/hour. Standard processing requires a minimum fixation time of 6–8 hours, while 24 hours is optimal for cellular preservation and ancillary testing.",
       "section": "Pathology",
       "source": "Principles of diagnostic pathology-Lecture 1.pdf",
       "sourceUrl": "",
@@ -27570,15 +27372,15 @@
     },
     {
       "id": "local-notebooklm-1",
-      "stem": "Which coagulation factor deficiency specifically defines Hemophilia B (Christmas disease)?",
+      "stem": "What is the fixative of choice for routine surgical pathology specimens, and what is the required minimum volume ratio of fixative to tissue?",
       "options": [
-        "Factor VIII",
-        "Factor IX",
-        "Factor XI",
-        "Factor VII"
+        "70% Ethanol at a 5:1 ratio",
+        "10% Neutral Buffered Formalin (NBF) at a 10:1 ratio",
+        "Normal Saline (0.9% NaCl) at a 20:1 ratio",
+        "Glutaraldehyde at a 2:1 ratio"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Factor VIII deficiency causes Hemophilia A (classic hemophilia), whereas Factor IX (Christmas factor) deficiency causes Hemophilia B (Christmas disease). Factor XI deficiency is termed Plasma Thromboplastin Antecedent (PTA) deficiency.",
+      "explanation": "The fixative of choice for routine histology is 10% Neutral Buffered Formalin (NBF). Proper tissue preservation requires a 10:1 volume ratio of fixative to tissue. Using normal saline instead of formalin for routine histology is strictly prohibited as it leads to tissue autolysis.",
       "section": "Pathology",
       "source": "Principles of diagnostic pathology-Lecture 1.pdf",
       "sourceUrl": "",
@@ -27602,115 +27404,16 @@
       ]
     },
     {
-      "id": "local-notebooklm-12",
-      "stem": "Which condition is listed as an ABSOLUTE contraindication to thrombolytic/fibrinolytic therapy?",
+      "id": "local-notebooklm-15",
+      "stem": "What is the primary clinical consequence of submitting a pathology request form without relevant clinical history or imaging details?",
       "options": [
-        "Active menstrual bleeding (menses)",
-        "Ischemic stroke occurring 12 months ago",
-        "Ischemic stroke within the preceding 3 months",
-        "Controlled essential hypertension"
+        "Immediate destruction and rejection of the tissue specimen",
+        "Non-specific reporting and failure to consider important differential diagnoses",
+        "Automatic execution of molecular DNA sequencing",
+        "Mandatory immediate repeat surgical biopsy"
       ],
-      "correctOptionIndex": 2,
-      "explanation": "Absolute contraindications to thrombolytics include: severe intracranial hemorrhage, structural cerebral vascular lesions, retinal hemorrhage, malignant intracranial neoplasms, ischemic stroke within 3 months, active bleeding ( excluding menses ), and significant closed-head or facial trauma/surgery within 3 months.",
-      "section": "Pathology",
-      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "sourceUrl": "",
-      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "difficulty": "moderate",
-      "sourceDifficulty": "moderate",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-pathology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-pathology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-6",
-      "stem": "Which direct oral anticoagulant (DOAC) functions as a direct thrombin inhibitor and has a specific FDA-approved monoclonal antibody reversal agent (Idarucizumab)?",
-      "options": [
-        "Rivaroxaban",
-        "Apixaban",
-        "Dabigatran",
-        "Argatroban"
-      ],
-      "correctOptionIndex": 2,
-      "explanation": "Dabigatran is an oral direct thrombin (Factor IIa) inhibitor with predictable pharmacokinetics that requires no routine monitoring. Its anticoagulant activity can be rapidly and completely reversed by the specific monoclonal antibody Idarucizumab. Rivaroxaban inhibits Factor Xa (reversed by Andexanet alfa).",
-      "section": "Pathology",
-      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "sourceUrl": "",
-      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "difficulty": "moderate",
-      "sourceDifficulty": "moderate",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-pathology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-pathology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-5",
-      "stem": "Which feature correctly distinguishes Low Molecular Weight Heparin (LMWH, e.g., enoxaparin) from Unfractionated Heparin (UFH)?",
-      "options": [
-        "LMWH requires routine daily aPTT monitoring",
-        "LMWH has lower oral bioavailability and a shorter half-life than UFH",
-        "LMWH is excreted renally and its neutralization by protamine sulfate is only partial",
-        "LMWH carries a higher risk of Heparin-Induced Thrombocytopenia (>5%)"
-      ],
-      "correctOptionIndex": 2,
-      "explanation": "LMWH has high subcutaneous bioavailability (90%), a longer half-life (4 hours), is eliminated via renal excretion, carries a lower risk of HIT (<1%), and requires no routine monitoring. Crucially, protamine sulfate provides complete neutralization for UFH, but only partial neutralization for LMWH (enoxaparin).",
-      "section": "Pathology",
-      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "sourceUrl": "",
-      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
-      "difficulty": "hard",
-      "sourceDifficulty": "hard",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-pathology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-pathology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-11",
-      "stem": "Which fibrinolytic agent is a recombinant human tissue plasminogen activator (rtPA) characterized by a long half-life that allows it to be administered as a single IV BOLUS?",
-      "options": [
-        "Streptokinase",
-        "Urokinase",
-        "Alteplase",
-        "Tenecteplase"
-      ],
-      "correctOptionIndex": 3,
-      "explanation": "Fibrin-specific thrombolytic agents include Alteplase and Tenecteplase (recombinant human tPAs). Tenecteplase has a prolonged half-life (t½), enabling rapid administration as a single IV bolus. Streptokinase and Urokinase are non-fibrin-specific agents.",
+      "correctOptionIndex": 1,
+      "explanation": "Providing missing clinical history forces the pathologist to evaluate tissue in isolation, leading to non-specific reporting and potential failure to consider key differential diagnoses relevant to the patient's presentation.",
       "section": "Pathology",
       "source": "Principles of diagnostic pathology-Lecture 1.pdf",
       "sourceUrl": "",
@@ -27735,15 +27438,279 @@
     },
     {
       "id": "local-notebooklm-4",
-      "stem": "Why can warfarin administration paradoxically precipitate acute skin necrosis early during the initiation of therapy?",
+      "stem": "What is the primary diagnostic limitation of Fine Needle Aspiration (FNA) compared to Core Needle Biopsy (CNB)?",
       "options": [
-        "Warfarin causes direct non-immunologic necrosis of vascular smooth muscle cells",
-        "Warfarin inhibits endogenous anticoagulant Protein C and Protein S faster than clotting factors II, IX, and X",
-        "Warfarin induces rapid local histamine release and mast cell degranulation",
-        "Warfarin triggers acute immune complex deposition in dermal capillaries"
+        "FNA carries a significantly higher risk of tissue hematoma",
+        "FNA provides no tissue architecture, making it impossible to distinguish in-situ from invasive carcinoma",
+        "FNA cannot aspirate fluid from cystic neck masses",
+        "FNA requires routine general anesthesia in an operating suite"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Warfarin inhibits the gamma-carboxylation of Vitamin K-dependent clotting factors (II, VII, IX, X) and anticoagulant proteins (Protein C and Protein S). Because Protein C has a shorter half-life than factors II, IX, and X, its levels drop first, resulting in a transient hypercoagulable state and microvascular thrombosis (skin necrosis) before full anticoagulation is achieved.",
+      "explanation": "FNA collects isolated cells and fluid using a small needle, making it rapid and minimally invasive. However, because tissue architecture is not preserved, FNA cannot evaluate basement membrane integrity or differentiate in-situ carcinoma from invasive carcinoma.",
+      "section": "Pathology",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "sourceUrl": "",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-pathology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-pathology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-6",
+      "stem": "What is the reported diagnostic sensitivity of an intraoperative frozen section biopsy, and what is its typical reporting time?",
+      "options": [
+        "~75% sensitivity; 1–2 hours reporting time",
+        "~85% sensitivity; 45–60 minutes reporting time",
+        "~95% sensitivity; 15–30 minutes reporting time",
+        "100% sensitivity; 2–5 working days reporting time"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Frozen section consultation provides rapid intraoperative diagnosis within 15–30 minutes with an established diagnostic sensitivity of approximately 95%.",
+      "section": "Pathology",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "sourceUrl": "",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-pathology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-pathology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-8",
+      "stem": "What is the standard color-coded ink convention used by pathologists to delineate distinct surgical margins on a resected specimen?",
+      "options": [
+        "Black = Anterior; Blue = Posterior; Yellow = Inferior; Green = Superior",
+        "Black = Posterior; Blue = Anterior; Yellow = Superior; Green = Inferior",
+        "Red = Superior; Green = Inferior; Blue = Lateral; Yellow = Medial",
+        "Black = Superior; Blue = Inferior; Yellow = Anterior; Green = Posterior"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Standard multi-color margin ink conventions use Black for posterior, Blue for anterior, Yellow for superior, and Green for inferior margins.",
+      "section": "Pathology",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "sourceUrl": "",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-pathology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-pathology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-18",
+      "stem": "What is the standard routine turnaround time (TAT) for small diagnostic biopsies versus large, complex surgical resection specimens?",
+      "options": [
+        "Small biopsies: 15–30 minutes; Large specimens: 1–3 working days",
+        "Small biopsies: 1–3 working days; Large or complex specimens: 5–10 working days or longer",
+        "Small biopsies: 5–10 working days; Large specimens: 24 hours",
+        "Both take 3–4 weeks"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Routine turnaround time for small biopsies is 1–3 working days. Large or complex specimens require 5–10 working days or longer due to extensive grossing, fixation time, and potential special/immunohistochemical stains.",
+      "section": "Pathology",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "sourceUrl": "",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-pathology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-pathology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-14",
+      "stem": "What type of tissue artefact is caused by squeezing or grasping delicate tissue tightly with surgical forceps during excision?",
+      "options": [
+        "Drying artefact",
+        "Crush artefact",
+        "Fixation artefact",
+        "Autolysis artefact"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Crush artefact is an artificial tissue distortion caused by mechanical squeezing with forceps. It crushes delicate cell structures and causes nuclear smearing, obscuring microscopic detail.",
+      "section": "Pathology",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "sourceUrl": "",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-pathology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-pathology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-9",
+      "stem": "When performing an incisional biopsy of a large soft tissue mass, which area should be selected for sampling?",
+      "options": [
+        "Central necrotic and hemorrhagic core",
+        "Interface of normal and abnormal viable peripheral tissue",
+        "Surrounding skin epidermis only",
+        "Overlying subcutaneous adipose layer"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Incisional biopsies remove a partial sample for diagnostic purposes. Key technical rules require including the junction/interface between normal and abnormal tissue while avoiding central necrotic areas, which yield non-diagnostic debris.",
+      "section": "Pathology",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "sourceUrl": "",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-pathology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-pathology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-12",
+      "stem": "Where should patient identification labels be physically placed on a surgical specimen container?",
+      "options": [
+        "Directly on the removable lid for easy visibility",
+        "Directly on the body of the container itself (NEVER on the lid)",
+        "Tied directly around orientation sutures",
+        "Taped onto the outer biohazard transport bag only"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Labels must be written or placed directly on the container body, NEVER on the lid. Lids can be accidentally mismatched or swapped during processing, leading to catastrophic patient misidentification.",
+      "section": "Pathology",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "sourceUrl": "",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-pathology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-pathology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-16",
+      "stem": "Which biopsy technique yields a cylindrical full-thickness skin core (2–8 mm) encompassing epidermis, dermis, and subcutaneous fat?",
+      "options": [
+        "Shave biopsy",
+        "Punch biopsy",
+        "Fine needle aspiration",
+        "Core needle aspiration"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A punch biopsy uses a circular blade to procure a full-thickness 2–8 mm cylindrical skin sample, making it ideal for inflammatory dermatoses and pigmented lesions.",
+      "section": "Pathology",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "sourceUrl": "",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-pathology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-pathology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-19",
+      "stem": "Which of the following diagnostic procedures CANNOT be performed on a formalin-fixed (10% NBF) specimen?",
+      "options": [
+        "Routine H&E histological evaluation",
+        "Flow cytometry for suspected lymphoma and microbiology bacterial culture",
+        "Diagnostic immunohistochemical cytokeratin staining",
+        "Pathological TNM staging"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Flow cytometry (which requires live intact cells) and microbiology cultures (which require viable microbes) CANNOT be performed on formalin-fixed tissue. Formalin cross-links proteins and kills microorganisms; these procedures require fresh, unfixed tissue.",
       "section": "Pathology",
       "source": "Principles of diagnostic pathology-Lecture 1.pdf",
       "sourceUrl": "",
@@ -27767,16 +27734,49 @@
       ]
     },
     {
-      "id": "local-notebooklm-14",
-      "stem": "Why is the subcutaneous (SC) route of Vitamin K1 (Phytonadione) administration clinically avoided, and what life-threatening risk is associated with rapid IV push of Vitamin K1?",
+      "id": "local-notebooklm-3",
+      "stem": "Why is a shave biopsy strictly contraindicated when evaluating a patient for suspected cutaneous malignant melanoma?",
       "options": [
-        "SC causes immediate skin necrosis; rapid IV causes renal failure",
-        "SC shows an erratic absorption pattern; rapid IV causes severe dyspnea, chest/back pain, flushing, and death",
-        "SC precipitates deep vein thrombosis; rapid IV causes severe hypoglycemia",
-        "SC causes osteotoxicity; rapid IV causes acute red man syndrome"
+        "It triggers rapid hematogenous dissemination of malignant cells",
+        "It performs a horizontal cut through the superficial dermis and fails to assess deep margins",
+        "It causes immediate melanocytic cellular lysis upon air exposure",
+        "It prevents formalin fixative penetration into the dermis"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Subcutaneous administration of Vitamin K1 is avoided because of an erratic absorption pattern. Rapid IV push of Vitamin K1 can trigger severe anaphylactoid infusion reactions presenting with dyspnea, chest and back pain, flushing, vascular collapse, and death.",
+      "explanation": "A shave biopsy makes a horizontal slice through the superficial dermis and does not assess deep margins. It is strictly contraindicated in suspected melanoma because determining vertical Breslow invasion depth requires an intact deep dermal margin.",
+      "section": "Pathology",
+      "source": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "sourceUrl": "",
+      "topic": "Principles of diagnostic pathology-Lecture 1.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-pathology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-pathology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-17",
+      "stem": "Why is it a strict technical rule that a surgical excision specimen must NOT be cut or sectioned (bivalved) before margin inking?",
+      "options": [
+        "Cutting prevents formalin fixative from entering tissue",
+        "Inking after cutting allows ink to seep into internal cut surfaces, creating false-positive surgical margins",
+        "Cutting destroys all intracellular DNA",
+        "Inking before cutting dissolves orientation sutures"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Specimens must be oriented and inked BEFORE any sectioning or bivalving occurs. Cutting tissue prior to inking allows dark ink to flow into internal surgical cuts, which the pathologist will misinterpret under the microscope as a positive resection margin.",
       "section": "Pathology",
       "source": "Principles of diagnostic pathology-Lecture 1.pdf",
       "sourceUrl": "",
@@ -30836,16 +30836,16 @@
       ]
     },
     {
-      "id": "local-notebooklm-13",
-      "stem": "According to mandatory specimen labeling standards, how many patient identifiers are required on every surgical specimen container?",
+      "id": "local-notebooklm-4",
+      "stem": "According to universal sample safety considerations, how should high-risk specimens such as suspected Tuberculosis sputum or Cholera fecal samples be transported to the laboratory?",
       "options": [
-        "One identifier (Patient full name only)",
-        "At least two identifiers (e.g., Patient full name AND Date of Birth / Hospital ID)",
-        "Three identifiers including bed number and ward name",
-        "Only the surgeon's full name"
+        "Hand-carried in unsealed open glass tubes without paperwork",
+        "In plastic sealable bags with a separate pouch for requisition orders, clearly labeled as high risk",
+        "Submerged in 10% neutral buffered formalin",
+        "Packed in dry ice inside an airtight wooden box"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Best practice guidelines require at least two patient identifiers on every specimen container (e.g., patient's full name with no abbreviations, plus date of birth or hospital ID number).",
+      "explanation": "Safety guidelines mandate treating all specimens as biohazardous, using barrier protection, placing specimens in sealable plastic bags with a separate pouch for paperwork to prevent external container contamination, and clearly labeling high-risk specimens.",
       "section": "Microbiology and Immunology",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "sourceUrl": "",
@@ -30869,220 +30869,22 @@
       ]
     },
     {
-      "id": "local-notebooklm-7",
-      "stem": "According to standard surgical pathology conventions, how are short and long sutures applied to orient an excised specimen?",
+      "id": "local-notebooklm-3",
+      "stem": "Charcoal is added to transport media (such as Amies or Stuart with charcoal) primarily to improve the survival of which category of microorganisms?",
       "options": [
-        "Short suture = Superior margin; Long suture = Lateral margin",
-        "Short suture = Anterior margin; Long suture = Posterior margin",
-        "Short suture = Deep margin; Long suture = Superficial margin",
-        "Short suture = Medial margin; Long suture = Inferior margin"
-      ],
-      "correctOptionIndex": 0,
-      "explanation": "Unless an alternative convention is explicitly agreed upon with the local pathology department, the universal suture orientation standard designates a short suture at the superior margin and a long suture at the lateral margin.",
-      "section": "Microbiology and Immunology",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "sourceUrl": "",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "difficulty": "easy",
-      "sourceDifficulty": "easy",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-microbiology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-microbiology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-20",
-      "stem": "According to the golden rules of specimen orientation, when should orientation sutures ideally be placed by the surgeon?",
-      "options": [
-        "After the specimen has been fixed in formalin for 24 hours",
-        "While the specimen is still in situ prior to complete surgical detachment",
-        "In the pathology laboratory after gross sectioning",
-        "Only if a positive margin is identified on permanent section"
+        "Obligate intracellular viruses",
+        "Fastidious organisms (e.g., Neisseria , Bordetella , Campylobacter , Haemophilus )",
+        "Spore-forming anaerobic bacilli",
+        "Non-pathogenic indigenous skin flora"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Golden Rule #3 dictates that orientation should be established while the specimen is still in situ prior to complete excision. Once a soft-tissue mass is detached, it collapses and rotates, making retrospective orientation prone to error.",
-      "section": "Microbiology and Immunology",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "sourceUrl": "",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "difficulty": "hard",
-      "sourceDifficulty": "hard",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-microbiology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-microbiology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-5",
-      "stem": "How must a surgical tissue specimen intended for intraoperative Frozen Section (FS) consultation be handled and transported to the laboratory?",
-      "options": [
-        "Submerged in 10% Neutral Buffered Formalin at room temperature",
-        "Placed in 0.9% Normal Saline for 1 hour",
-        "Sent completely fresh immediately on ice or dry (NEVER fixed in formalin)",
-        "Immersed in glutaraldehyde fixative"
-      ],
-      "correctOptionIndex": 2,
-      "explanation": "Specimens for frozen section must NEVER be placed in formalin because chemical fixation prevents rapid intraoperative freezing and sectioning. They must be sent completely fresh immediately on ice or dry, with prior notification to the pathology lab.",
-      "section": "Microbiology and Immunology",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "sourceUrl": "",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "difficulty": "easy",
-      "sourceDifficulty": "easy",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-microbiology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-microbiology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-10",
-      "stem": "If electron microscopy analysis is specifically required for a specialized biopsy specimen, which fixative must be used?",
-      "options": [
-        "Bouin's solution",
-        "Glutaraldehyde",
-        "70% Isopropanol",
-        "10% Neutral Buffered Formalin"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Electron microscopy requires glutaraldehyde fixation to preserve cellular ultrastructure and organelle membranes. Routine 10% NBF is unsuitable for electron microscopy studies.",
+      "explanation": "Charcoal neutralizes toxic fatty acids and metabolic substances, enhancing the survival of fastidious organisms that have complex or specific nutritional and environmental requirements.",
       "section": "Microbiology and Immunology",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "sourceUrl": "",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
       "difficulty": "moderate",
       "sourceDifficulty": "moderate",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-microbiology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-microbiology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-11",
-      "stem": "To preserve hormone receptors (ER/PR/HER2) and immunohistochemical markers in breast resections, fixation in 10% NBF should ideally begin within what cold ischemia timeframe post-excision?",
-      "options": [
-        "Within 15 minutes only",
-        "Within 1 hour post-excision (cold ischemia time ≤1 hour)",
-        "Within 6 hours post-excision",
-        "Timing does not affect receptor preservation"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Immunohistochemistry and hormone receptor testing yield optimal results when tissue is placed in 10% NBF within 1 hour of surgical excision (cold ischemia time ≤1 hour). Delays beyond 30–60 minutes risk protein degradation and autolysis.",
-      "section": "Microbiology and Immunology",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "sourceUrl": "",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "difficulty": "hard",
-      "sourceDifficulty": "hard",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-microbiology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-microbiology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-2",
-      "stem": "What is the approximate tissue penetration rate of 10% Neutral Buffered Formalin, and what is the minimum required fixation duration for routine histology?",
-      "options": [
-        "~1 mm/hour penetration rate; minimum 6–8 hours fixation",
-        "~5 mm/hour penetration rate; minimum 1–2 hours fixation",
-        "~10 mm/hour penetration rate; minimum 12–15 hours fixation",
-        "~0.1 mm/hour penetration rate; minimum 48 hours fixation"
-      ],
-      "correctOptionIndex": 0,
-      "explanation": "Formalin penetrates tissue at a rate of approximately 1 mm/hour. Standard processing requires a minimum fixation time of 6–8 hours, while 24 hours is optimal for cellular preservation and ancillary testing.",
-      "section": "Microbiology and Immunology",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "sourceUrl": "",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "difficulty": "moderate",
-      "sourceDifficulty": "moderate",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-microbiology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-microbiology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-1",
-      "stem": "What is the fixative of choice for routine surgical pathology specimens, and what is the required minimum volume ratio of fixative to tissue?",
-      "options": [
-        "70% Ethanol at a 5:1 ratio",
-        "10% Neutral Buffered Formalin (NBF) at a 10:1 ratio",
-        "Normal Saline (0.9% NaCl) at a 20:1 ratio",
-        "Glutaraldehyde at a 2:1 ratio"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "The fixative of choice for routine histology is 10% Neutral Buffered Formalin (NBF). Proper tissue preservation requires a 10:1 volume ratio of fixative to tissue. Using normal saline instead of formalin for routine histology is strictly prohibited as it leads to tissue autolysis.",
-      "section": "Microbiology and Immunology",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "sourceUrl": "",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "difficulty": "easy",
-      "sourceDifficulty": "easy",
       "difficultyMethod": "source-labelled",
       "qualityOriginal": "approved",
       "quality": "approved",
@@ -31101,213 +30903,15 @@
     },
     {
       "id": "local-notebooklm-15",
-      "stem": "What is the primary clinical consequence of submitting a pathology request form without relevant clinical history or imaging details?",
+      "stem": "How must Cerebrospinal Fluid (CSF) collected via lumbar puncture for suspected bacterial meningitis be handled and transported?",
       "options": [
-        "Immediate destruction and rejection of the tissue specimen",
-        "Non-specific reporting and failure to consider important differential diagnoses",
-        "Automatic execution of molecular DNA sequencing",
-        "Mandatory immediate repeat surgical biopsy"
+        "Refrigerate immediately at 4°C to prevent leukocyte autolysis",
+        "Transport to the lab immediately within 15–30 minutes at room temperature (35–37°C); do NOT refrigerate",
+        "Freeze at -80°C in a glycerol bath",
+        "Mix with an equal volume of 70% ethanol"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Providing missing clinical history forces the pathologist to evaluate tissue in isolation, leading to non-specific reporting and potential failure to consider key differential diagnoses relevant to the patient's presentation.",
-      "section": "Microbiology and Immunology",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "sourceUrl": "",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "difficulty": "moderate",
-      "sourceDifficulty": "moderate",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-microbiology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-microbiology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-4",
-      "stem": "What is the primary diagnostic limitation of Fine Needle Aspiration (FNA) compared to Core Needle Biopsy (CNB)?",
-      "options": [
-        "FNA carries a significantly higher risk of tissue hematoma",
-        "FNA provides no tissue architecture, making it impossible to distinguish in-situ from invasive carcinoma",
-        "FNA cannot aspirate fluid from cystic neck masses",
-        "FNA requires routine general anesthesia in an operating suite"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "FNA collects isolated cells and fluid using a small needle, making it rapid and minimally invasive. However, because tissue architecture is not preserved, FNA cannot evaluate basement membrane integrity or differentiate in-situ carcinoma from invasive carcinoma.",
-      "section": "Microbiology and Immunology",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "sourceUrl": "",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "difficulty": "moderate",
-      "sourceDifficulty": "moderate",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-microbiology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-microbiology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-6",
-      "stem": "What is the reported diagnostic sensitivity of an intraoperative frozen section biopsy, and what is its typical reporting time?",
-      "options": [
-        "~75% sensitivity; 1–2 hours reporting time",
-        "~85% sensitivity; 45–60 minutes reporting time",
-        "~95% sensitivity; 15–30 minutes reporting time",
-        "100% sensitivity; 2–5 working days reporting time"
-      ],
-      "correctOptionIndex": 2,
-      "explanation": "Frozen section consultation provides rapid intraoperative diagnosis within 15–30 minutes with an established diagnostic sensitivity of approximately 95%.",
-      "section": "Microbiology and Immunology",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "sourceUrl": "",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "difficulty": "easy",
-      "sourceDifficulty": "easy",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-microbiology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-microbiology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-8",
-      "stem": "What is the standard color-coded ink convention used by pathologists to delineate distinct surgical margins on a resected specimen?",
-      "options": [
-        "Black = Anterior; Blue = Posterior; Yellow = Inferior; Green = Superior",
-        "Black = Posterior; Blue = Anterior; Yellow = Superior; Green = Inferior",
-        "Red = Superior; Green = Inferior; Blue = Lateral; Yellow = Medial",
-        "Black = Superior; Blue = Inferior; Yellow = Anterior; Green = Posterior"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Standard multi-color margin ink conventions use Black for posterior, Blue for anterior, Yellow for superior, and Green for inferior margins.",
-      "section": "Microbiology and Immunology",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "sourceUrl": "",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "difficulty": "moderate",
-      "sourceDifficulty": "moderate",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-microbiology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-microbiology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-18",
-      "stem": "What is the standard routine turnaround time (TAT) for small diagnostic biopsies versus large, complex surgical resection specimens?",
-      "options": [
-        "Small biopsies: 15–30 minutes; Large specimens: 1–3 working days",
-        "Small biopsies: 1–3 working days; Large or complex specimens: 5–10 working days or longer",
-        "Small biopsies: 5–10 working days; Large specimens: 24 hours",
-        "Both take 3–4 weeks"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Routine turnaround time for small biopsies is 1–3 working days. Large or complex specimens require 5–10 working days or longer due to extensive grossing, fixation time, and potential special/immunohistochemical stains.",
-      "section": "Microbiology and Immunology",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "sourceUrl": "",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "difficulty": "moderate",
-      "sourceDifficulty": "moderate",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-microbiology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-microbiology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-14",
-      "stem": "What type of tissue artefact is caused by squeezing or grasping delicate tissue tightly with surgical forceps during excision?",
-      "options": [
-        "Drying artefact",
-        "Crush artefact",
-        "Fixation artefact",
-        "Autolysis artefact"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Crush artefact is an artificial tissue distortion caused by mechanical squeezing with forceps. It crushes delicate cell structures and causes nuclear smearing, obscuring microscopic detail.",
-      "section": "Microbiology and Immunology",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "sourceUrl": "",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "difficulty": "easy",
-      "sourceDifficulty": "easy",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-microbiology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-microbiology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-9",
-      "stem": "When performing an incisional biopsy of a large soft tissue mass, which area should be selected for sampling?",
-      "options": [
-        "Central necrotic and hemorrhagic core",
-        "Interface of normal and abnormal viable peripheral tissue",
-        "Surrounding skin epidermis only",
-        "Overlying subcutaneous adipose layer"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Incisional biopsies remove a partial sample for diagnostic purposes. Key technical rules require including the junction/interface between normal and abnormal tissue while avoiding central necrotic areas, which yield non-diagnostic debris.",
+      "explanation": "Fastidious neuro-pathogens like Neisseria meningitidis and Haemophilus influenzae are killed by cold. CSF must be kept at room temperature (or 35–37°C) and transported immediately within 15–30 minutes.",
       "section": "Microbiology and Immunology",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "sourceUrl": "",
@@ -31332,114 +30936,15 @@
     },
     {
       "id": "local-notebooklm-12",
-      "stem": "Where should patient identification labels be physically placed on a surgical specimen container?",
+      "stem": "If a midstream clean-catch urine sample cannot be delivered to the laboratory within 30 minutes, what preservative tube should be used to prevent bacterial overgrowth?",
       "options": [
-        "Directly on the removable lid for easy visibility",
-        "Directly on the body of the container itself (NEVER on the lid)",
-        "Tied directly around orientation sutures",
-        "Taped onto the outer biohazard transport bag only"
+        "Sodium citrate tube (blue-top)",
+        "Boric acid preservative tube (grey-top)",
+        "EDTA tube (purple-top)",
+        "Heparinized blood tube (green-top)"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Labels must be written or placed directly on the container body, NEVER on the lid. Lids can be accidentally mismatched or swapped during processing, leading to catastrophic patient misidentification.",
-      "section": "Microbiology and Immunology",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "sourceUrl": "",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "difficulty": "easy",
-      "sourceDifficulty": "easy",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-microbiology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-microbiology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-16",
-      "stem": "Which biopsy technique yields a cylindrical full-thickness skin core (2–8 mm) encompassing epidermis, dermis, and subcutaneous fat?",
-      "options": [
-        "Shave biopsy",
-        "Punch biopsy",
-        "Fine needle aspiration",
-        "Core needle aspiration"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "A punch biopsy uses a circular blade to procure a full-thickness 2–8 mm cylindrical skin sample, making it ideal for inflammatory dermatoses and pigmented lesions.",
-      "section": "Microbiology and Immunology",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "sourceUrl": "",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "difficulty": "moderate",
-      "sourceDifficulty": "moderate",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-microbiology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-microbiology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-19",
-      "stem": "Which of the following diagnostic procedures CANNOT be performed on a formalin-fixed (10% NBF) specimen?",
-      "options": [
-        "Routine H&E histological evaluation",
-        "Flow cytometry for suspected lymphoma and microbiology bacterial culture",
-        "Diagnostic immunohistochemical cytokeratin staining",
-        "Pathological TNM staging"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Flow cytometry (which requires live intact cells) and microbiology cultures (which require viable microbes) CANNOT be performed on formalin-fixed tissue. Formalin cross-links proteins and kills microorganisms; these procedures require fresh, unfixed tissue.",
-      "section": "Microbiology and Immunology",
-      "source": "dignostic microbilogy .collecting sample.26.pdf",
-      "sourceUrl": "",
-      "topic": "dignostic microbilogy .collecting sample.26.pdf",
-      "difficulty": "hard",
-      "sourceDifficulty": "hard",
-      "difficultyMethod": "source-labelled",
-      "qualityOriginal": "approved",
-      "quality": "approved",
-      "reviewStatus": "supervisor-approved",
-      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
-      "eligibleForExam": true,
-      "origin": "local",
-      "sourceFile": "notebooklm-diagnostic-microbiology.json",
-      "day": null,
-      "origins": [
-        "local"
-      ],
-      "sourceFiles": [
-        "notebooklm-diagnostic-microbiology.json"
-      ]
-    },
-    {
-      "id": "local-notebooklm-3",
-      "stem": "Why is a shave biopsy strictly contraindicated when evaluating a patient for suspected cutaneous malignant melanoma?",
-      "options": [
-        "It triggers rapid hematogenous dissemination of malignant cells",
-        "It performs a horizontal cut through the superficial dermis and fails to assess deep margins",
-        "It causes immediate melanocytic cellular lysis upon air exposure",
-        "It prevents formalin fixative penetration into the dermis"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "A shave biopsy makes a horizontal slice through the superficial dermis and does not assess deep margins. It is strictly contraindicated in suspected melanoma because determining vertical Breslow invasion depth requires an intact deep dermal margin.",
+      "explanation": "Boric acid preservative tubes (grey-top) inhibit bacterial overgrowth while allowing culture viability if urine transport is delayed beyond 30 minutes.",
       "section": "Microbiology and Immunology",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "sourceUrl": "",
@@ -31464,21 +30969,516 @@
     },
     {
       "id": "local-notebooklm-17",
-      "stem": "Why is it a strict technical rule that a surgical excision specimen must NOT be cut or sectioned (bivalved) before margin inking?",
+      "stem": "In a patient with endophthalmitis, how should a small-volume vitreous aspirate (0.1–0.2 mL) be handled if transport to the laboratory will be delayed for more than 1 hour?",
       "options": [
-        "Cutting prevents formalin fixative from entering tissue",
-        "Inking after cutting allows ink to seep into internal cut surfaces, creating false-positive surgical margins",
-        "Cutting destroys all intracellular DNA",
-        "Inking before cutting dissolves orientation sutures"
+        "Store in a household refrigerator at 4°C",
+        "Inoculate directly into blood culture bottles (aerobic + anaerobic) and hold at 37°C in an incubator",
+        "Dilute with 10 mL of sterile tap water",
+        "Apply to a dry paper strip at room temperature"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Specimens must be oriented and inked BEFORE any sectioning or bivalving occurs. Cutting tissue prior to inking allows dark ink to flow into internal surgical cuts, which the pathologist will misinterpret under the microscope as a positive resection margin.",
+      "explanation": "Endophthalmitis vitreous aspirates are emergency samples of tiny volume (0.1–0.2 mL). If transport is delayed >1 hour, the aspirate should be inoculated directly into blood culture bottles and stored in a 37°C incubator.",
       "section": "Microbiology and Immunology",
       "source": "dignostic microbilogy .collecting sample.26.pdf",
       "sourceUrl": "",
       "topic": "dignostic microbilogy .collecting sample.26.pdf",
       "difficulty": "hard",
       "sourceDifficulty": "hard",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-microbiology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-microbiology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-20",
+      "stem": "What documentation process creates an unbroken paper trail tracking every individual who handles a clinical sample from collection to final disposal, ensuring legal defensibility?",
+      "options": [
+        "Institutional Review Board (IRB) Approval",
+        "Chain of Custody",
+        "Antibiogram Surveillance",
+        "Universal Precautions Audit"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The Chain of Custody documents every person who handles a sample from collection to disposal, creating a paper trail crucial for legal defensibility and traceability.",
+      "section": "Microbiology and Immunology",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "sourceUrl": "",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-microbiology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-microbiology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-14",
+      "stem": "What is a critical transport temperature rule for clinical specimens suspected of containing Neisseria gonorrhoeae ?",
+      "options": [
+        "Freeze immediately at -20°C",
+        "Store at room temperature and do NOT refrigerate, as N. gonorrhoeae is sensitive to cold",
+        "Incubate at 4°C in a cold enrichment broth for 14 days",
+        "Keep on wet ice for 48 hours"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Neisseria gonorrhoeae is fragile and cold-sensitive. Genital or eye specimens for gonococcal culture must be kept at room temperature and plated promptly (within 6 hours if using transport medium).",
+      "section": "Microbiology and Immunology",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "sourceUrl": "",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-microbiology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-microbiology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-18",
+      "stem": "What is the diagnostic GOLD STANDARD specimen for investigating a deep wound or surgical site infection?",
+      "options": [
+        "Superficial wound swab of intact surrounding skin",
+        "Tissue biopsy or direct aspirate of pus",
+        "Saline rinse of the outer dressing",
+        "Dry cotton swab of the superficial wound margin"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Tissue biopsy or direct needle aspirate of pus is the gold standard for wound infections. Swabs are acceptable only for superficial wounds when tissue/aspirate is not feasible, because swabs often capture superficial colonizing skin microbiota.",
+      "section": "Microbiology and Immunology",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "sourceUrl": "",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-microbiology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-microbiology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-1",
+      "stem": "What is the primary general principle regarding antimicrobial administration when collecting microbiological clinical specimens?",
+      "options": [
+        "Collect the specimen after at least 48 hours of empirical broad-spectrum antibiotic therapy",
+        "Collect the specimen before administering antimicrobial agents whenever possible",
+        "Administer a single prophylactic dose of penicillin immediately before taking the sample",
+        "Antimicrobial timing has no impact on the diagnostic yield of bacterial cultures"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Collecting specimens prior to initiating antimicrobial therapy prevents suppression of pathogen growth and minimizes false-negative culture results.",
+      "section": "Microbiology and Immunology",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "sourceUrl": "",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-microbiology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-microbiology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-5",
+      "stem": "What is the proper procedure for collecting a diagnostic sputum sample for lower respiratory tract culture?",
+      "options": [
+        "Collect 10 mL of clear, foamy oral saliva after eating",
+        "Rinse mouth with clear water, take deep breaths, and cough up deep bronchial sputum (≥1 mL) into a sterile container prior to antibiotics",
+        "Perform a superficial swab of the anterior tongue surface",
+        "Swab the submandibular salivary gland duct"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Expectorated sputum must originate from deep coughing (avoiding salivary contamination), measure at least 1 mL, and be collected into a sterile container before antibiotic administration. Clear and foamy samples represent saliva and are non-diagnostic.",
+      "section": "Microbiology and Immunology",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "sourceUrl": "",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-microbiology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-microbiology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-16",
+      "stem": "What is the recommended handling procedure for a corneal scraping specimen obtained from a patient with suspected bacterial or fungal keratitis?",
+      "options": [
+        "Store in a refrigerator at 4°C for up to 48 hours",
+        "Process within 15–30 minutes at room temperature (do NOT refrigerate)",
+        "Immerse in formalin solution for 2 hours",
+        "Freeze immediately at -20°C"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Corneal scrapings dry out quickly and cold temperatures can kill fungi and delicate bacteria. They must be kept at room temperature and processed within 15–30 minutes.",
+      "section": "Microbiology and Immunology",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "sourceUrl": "",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-microbiology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-microbiology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-7",
+      "stem": "What is the recommended transport medium for stool specimens delayed for more than 2 hours to maintain the viability of enteric pathogens like Salmonella , Shigella , and Campylobacter ?",
+      "options": [
+        "Alkaline peptone water",
+        "Cary-Blair transport medium",
+        "Guanidine thiocyanate PCR buffer",
+        "Michel's fixative solution"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Stool samples delayed >2 hours should be placed in Cary-Blair transport medium, which maintains the viability of enteric pathogens such as Salmonella , Shigella , Campylobacter , and Vibrio .",
+      "section": "Microbiology and Immunology",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "sourceUrl": "",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-microbiology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-microbiology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-10",
+      "stem": "What specialized technique can be used to enhance the laboratory recovery of Yersinia enterocolitica from stool specimens?",
+      "options": [
+        "Incubation at 42°C for 48 hours",
+        "Cold enrichment by storing the specimen at 4°C for 2 to 4 weeks",
+        "Boiling the stool sample in peptone water for 10 minutes",
+        "Adding high concentrations of penicillin to the transport tube"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Yersinia enterocolitica tolerates and multiplies at cold temperatures; cold enrichment at 4°C for 2–4 weeks enhances its recovery over other fecal flora.",
+      "section": "Microbiology and Immunology",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "sourceUrl": "",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "difficulty": "hard",
+      "sourceDifficulty": "hard",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-microbiology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-microbiology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-9",
+      "stem": "What type of specimen is required for diagnosing Clostridioides difficile antibiotic-associated diarrhea, and what collection method is strictly prohibited?",
+      "options": [
+        "Solid formed stool; cotton swabs are mandatory",
+        "Liquid or unformed stool in a sterile container; swabs must NOT be used",
+        "Rectal swab in Cary-Blair medium; liquid stool is rejected",
+        "Gastric aspirate in sodium hydroxide"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "C. difficile testing requires unformed or liquid stool collected in a sterile container (and refrigerated at 4°C if delayed). Formed stool and swabs are inappropriate and rejected.",
+      "section": "Microbiology and Immunology",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "sourceUrl": "",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-microbiology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-microbiology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-8",
+      "stem": "When collecting a stool sample from a patient with suspected Campylobacter jejuni gastroenteritis, which specific environmental condition and medium are required?",
+      "options": [
+        "Anaerobic jar at 4°C in saline",
+        "Microaerophilic conditions using a charcoal transport medium (without refrigeration)",
+        "Aerobic broth containing 10% formalin",
+        "Cold enrichment at 4°C for 4 weeks in boric acid"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "C. jejuni requires microaerophilic conditions and charcoal-containing transport medium. It is listed under organisms that should NOT be refrigerated.",
+      "section": "Microbiology and Immunology",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "sourceUrl": "",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "difficulty": "hard",
+      "sourceDifficulty": "hard",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-microbiology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-microbiology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-2",
+      "stem": "Which bacterial pathogen is explicitly highlighted as cold-sensitive, meaning its stool specimen must NOT be refrigerated even during transport delays greater than 2 hours?",
+      "options": [
+        "Clostridioides difficile toxin",
+        "Yersinia enterocolitica",
+        "Shigella species",
+        "Escherichia coli O157:H7"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "While refrigeration at 4°C is generally used for delayed specimens (>2 hours), Shigella is cold-sensitive and can be killed by refrigeration without transport medium. C. difficile toxin is also an exception because freeze-thaw cycles destroy the toxin, whereas Yersinia utilizes cold enrichment.",
+      "section": "Microbiology and Immunology",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "sourceUrl": "",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-microbiology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-microbiology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-6",
+      "stem": "Which of the following specimens must be processed in the microbiology laboratory within 2 hours of collection due to pathogen fragility?",
+      "options": [
+        "Tissue biopsy for mycobacteria",
+        "Middle ear fluid and sputum (if Streptococcus pneumoniae is suspected)",
+        "Routine urine for boric acid preservation",
+        "Environmental water sample for chemical analysis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Middle ear fluid, sputum (if S. pneumoniae is suspected), bronchoalveolar lavage (BAL), and Legionella cultures must be processed within 2 hours of collection to ensure organism viability.",
+      "section": "Microbiology and Immunology",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "sourceUrl": "",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-microbiology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-microbiology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-11",
+      "stem": "Which urinary specimen collection method is considered the sterile \"gold standard\" for obtaining completely uncontaminated bladder urine in infants?",
+      "options": [
+        "Pediatric adhesive bag urine",
+        "Midstream clean-catch urine",
+        "Suprapubic Aspirate (SPA)",
+        "Foley catheter drainage bag aspirate"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Suprapubic aspiration involves inserting a needle percutaneously through the lower abdominal wall directly into the bladder, bypassing urethral flora to obtain a completely sterile sample.",
+      "section": "Microbiology and Immunology",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "sourceUrl": "",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-microbiology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-microbiology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-13",
+      "stem": "Why are nucleic acid amplification test (NAAT / PCR) specimens for Chlamydia trachomatis or Mycoplasma genitalium collected in liquid-based NAAT transport tubes rather than standard Amies charcoal swabs?",
+      "options": [
+        "NAAT transport tubes contain guanidine thiocyanate buffers that lyse cells, inactivate nucleases (DNase/RNase), and stabilize DNA/RNA",
+        "Amies charcoal transport medium destroys bacterial DNA within 5 minutes",
+        "NAAT tubes maintain live bacterial motility for darkfield microscopy",
+        "NAAT tubes allow simultaneous aerobic bacterial culture growth"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "NAAT transport tubes contain specialized lysis buffers (e.g., guanidine thiocyanate) that lyse cells, neutralize destructive nucleases (DNases/RNases), and preserve target nucleic acids for PCR testing.",
+      "section": "Microbiology and Immunology",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "sourceUrl": "",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "difficulty": "hard",
+      "sourceDifficulty": "hard",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-diagnostic-microbiology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-diagnostic-microbiology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-19",
+      "stem": "Why must wound swab samples submitted for anaerobic bacterial culture NEVER be refrigerated?",
+      "options": [
+        "Cold temperatures stimulate rapid fungal overgrowth",
+        "Cold kills anaerobes and fastidious bacteria",
+        "Refrigeration inactivates liquid Amies transport media",
+        "Cold causes immediate lysis of human red blood cells"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Wound swabs must be kept at room temperature (20–26°C) and delivered within 2 hours. Refrigeration is strictly avoided because cold kills fastidious anaerobes (e.g., Bacteroides , Peptostreptococcus , Clostridium ).",
+      "section": "Microbiology and Immunology",
+      "source": "dignostic microbilogy .collecting sample.26.pdf",
+      "sourceUrl": "",
+      "topic": "dignostic microbilogy .collecting sample.26.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
       "difficultyMethod": "source-labelled",
       "qualityOriginal": "approved",
       "quality": "approved",
@@ -32120,6 +32120,666 @@
       ],
       "sourceFiles": [
         "Immunology and Serology"
+      ]
+    },
+    {
+      "id": "local-notebooklm-3",
+      "stem": "According to the cellular development classification of the immune system, what percentage of circulating white blood cells is represented by agranular leukocytes (plasma cells, T/B/NK lymphocytes, monocytes, and dendritic cells)?",
+      "options": [
+        "~5%",
+        "~15%",
+        "~35%",
+        "~75%"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Leukocytes in circulation are categorized as granular or agranular. Agranular leukocytes make up 35% of circulating immune cells and include monocytes, plasma cells, dendritic cells, and lymphocytes (T, B, NK).",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-1",
+      "stem": "According to the foundational terminologies in immunology presented in the lecture, how is an \"antigen\" defined?",
+      "options": [
+        "A serum enzyme produced by activated neutrophils during acute inflammation",
+        "A substance capable of stimulating the human immune system to produce an immune response",
+        "A specialized antibody class found exclusively in mucosal epithelial secretions",
+        "A cell surface receptor expressed only on mature CD8+ T-lymphocytes"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "An antigen is defined as any substance capable of stimulating the human immune system to produce a specific immune response against it.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-4",
+      "stem": "By what precise mechanism do Natural Killer (NK) cells selectively eliminate unhealthy or virus-infected target cells during immunological surveillance?",
+      "options": [
+        "Secreting dimeric IgA antibodies across epithelial basolateral membranes",
+        "Using perforins to form transmembrane pores and granzymes to initiate apoptosis",
+        "Producing high concentrations of hydrochloric acid inside the phagolysosome",
+        "Converting serum fibrinogen into cross-linked insoluble fibrin threads"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "NK cells recognize unhealthy target cells (expressing abnormal or viral proteins) and release perforin (which forms a transmembrane pore) and granzymes (which enter through the pore to trigger programmed cell death / apoptosis via gene expression).",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-13",
+      "stem": "How is passive immunization distinguished from active immunization regarding its duration of effect and acquisition mechanism?",
+      "options": [
+        "Passive immunization provides permanent protection by generating memory B and T cells",
+        "Passive immunization involves transferring preformed antibodies (maternal or antitoxins) and provides temporary protection",
+        "Active immunization is acquired exclusively through intravenous injection of preformed animal sera",
+        "Active immunization fails to stimulate T and B lymphocyte proliferation"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Passive immunization transfers preformed antibodies (naturally via placenta/milk or artificially via antitoxins/immune globulins), offering immediate but temporary protection without memory cell formation. Active immunization (via infection or vaccines) stimulates T/B cells to form memory cells, providing relatively permanent immunity.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-2",
+      "stem": "In 1939, A. Tiselius subjected blood serum to electrophoresis and demonstrated that antibodies reside within which specific protein fraction?",
+      "options": [
+        "Albumin fraction",
+        "Alpha-globulin fraction",
+        "Beta-globulin fraction",
+        "Gamma-globulin fraction"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Electrophoresis separates serum proteins into albumin, alpha, beta, and gamma globulins. Tiselius demonstrated that antibodies are located in the gamma-globulin fraction, earning them the name immunoglobulins.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-6",
+      "stem": "What is the basic molecular structure and polypeptide chain composition of a monomeric immunoglobulin molecule?",
+      "options": [
+        "A single polypeptide chain with a molecular weight of 25,000 Da",
+        "A Y-shaped heterodimer composed of two identical light (L) chains (25 kDa each) and two identical heavy (H) chains (50 kDa or more each)",
+        "A pentameric ring of ten light chains linked by disulfide bridges",
+        "Four identical heavy chains bound to a central secretory component"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "An antibody is a Y-shaped heterodimer consisting of four polypeptide chains: two identical light chains (MW ~25,000 Da each) and two identical heavy chains (MW ~50,000 Da or more each), joined by disulfide bonds and noncovalent interactions.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-20",
+      "stem": "What is the correct chronological sequence of intracellular events during phagocytosis by leukocytes following initial receptor binding?",
+      "options": [
+        "Phagolysosome formation → Phagosome formation → Exocytosis",
+        "Phagosome formation → Fusion with lysosome to form phagolysosome → Intracellular killing and exocytosis of soluble debris",
+        "Exocytosis → Phagosome formation → Receptor clustering",
+        "Perforin pore formation → Granzyme release → Apoptosis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Phagocytosis follows a step-by-step sequence: (1) receptor binding, (2) engulfment into a phagosome, (3) fusion with a lysosome to form a phagolysosome, (4) intracellular killing via enzymes/ROS/NO, and (5) exocytosis of soluble debris.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-11",
+      "stem": "What is the established physiological function of Immunoglobulin D (IgD)?",
+      "options": [
+        "Direct opsonization of encapsulated bacteria in intravascular spaces",
+        "Acting as a membrane-bound B-cell receptor alongside IgM on the surface of B cells",
+        "Neutralizing viral enterotoxins within the lumen of the small intestine",
+        "Crossing the placental barrier during the third trimester of pregnancy"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "IgD is found as membrane Ig on the surface of B cells, functioning as a B-cell antigen receptor alongside monomeric IgM. It has the highest carbohydrate content among immunoglobulins and no other known effector function.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-17",
+      "stem": "What is the operational principle and primary advantage of Chemiluminescence Immunoassays (CLIA) in diagnostic serology?",
+      "options": [
+        "Measures radioactive isotope decay to count target molecules",
+        "Combines antigen-antibody binding with chemical reactions that emit light, offering exceptionally high sensitivity and easy automation",
+        "Uses heat at 56°C to denature competing non-specific proteins",
+        "Measures bacterial growth rates in liquid broth over 14 days"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "CLIA combines antigen-antibody reactions with light-emitting chemical markers. When a target analyte binds, a chemical reaction triggers photon emission strictly proportional to the analyte concentration, providing high sensitivity and automated throughput.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "hard",
+      "sourceDifficulty": "hard",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-15",
+      "stem": "What is the primary diagnostic principle underlying Latex Agglutination tests in clinical serology?",
+      "options": [
+        "Photon emission triggered by enzyme-substrate reactions",
+        "Visible clumping occurring when antibodies bind to target antigens coated onto inert polystyrene latex particles",
+        "UV light visualization of fluorescently-labeled spirochetes",
+        "Electrophoretic separation of serum into four distinct globulin bands"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "In latex agglutination tests (such as CRP testing or bacterial serotyping), visible clumping occurs when specific antibodies react with target antigens attached to the surface of inert polystyrene latex beads.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-8",
+      "stem": "What is the specific structural function of the \"Secretory Component\" attached to dimeric IgA in mucosal secretions?",
+      "options": [
+        "It initiates the classical complement cascade",
+        "It protects IgA from denaturation by bacterial proteases produced by intestinal flora",
+        "It binds to Fc receptors on mast cells to trigger immediate histamine degranulation",
+        "It binds directly to oxygen molecules to transport them across mucosal membranes"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Dimeric secretory IgA consists of two monomeric units joined by a J-chain and wrapped in a secretory component (derived from epithelial poly-Ig receptors). The secretory component shields IgA from destruction by bacterial proteases in the gut lumen.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "hard",
+      "sourceDifficulty": "hard",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-18",
+      "stem": "When analyzing paired serum samples (acute and convalescent sera) from a patient, what finding confirms a recent active infection?",
+      "options": [
+        "A stable, unchanged IgG antibody titer across both samples drawn 3 weeks apart",
+        "A fourfold or greater rise in IgG antibody titer between acute and convalescent samples",
+        "Complete absence of serum IgM combined with a normal white blood cell count",
+        "A single positive nontreponemal RPR test result"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Demonstrating a fourfold (or greater) rise in specific IgG antibody titer between an acute-phase serum sample and a convalescent-phase sample (drawn 2–3 weeks later) confirms a recent active infection.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-10",
+      "stem": "Which antibody class is present in the lowest serum concentration (0.019%), has the shortest half-life (2.5 days), is uniquely heat-labile (inactivated at 56°C in 1 hour), and mediates Type I hypersensitivity?",
+      "options": [
+        "IgG",
+        "IgD",
+        "IgE",
+        "IgM"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "IgE has the lowest serum concentration (0.019%), shortest half-life (2.5 days), is the only heat-labile antibody (inactivated at 56°C for 1 hour), exhibits homocytotropism for mast cell/basophil Fc receptors, and drives Type I allergic hypersensitivity.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-19",
+      "stem": "Which chemical factors present in saliva and tear secretions contribute to the chemical barriers of innate immunity?",
+      "options": [
+        "Perforins, granzymes, and memory immunoglobulins",
+        "Lysozyme, peroxidase, and lactoferrin",
+        "Histamine, bradykinin, and leukotriene B4",
+        "Coagulation factors II, VII, and X"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Antimicrobial chemical factors present in saliva, tears, and secretions include lysozyme (cleaves bacterial peptidoglycan), peroxidase, and lactoferrin (sequesters iron), serving as the first line of innate defense.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-14",
+      "stem": "Which cluster of differentiation (CD) markers is specifically associated with B-lymphocytes and humoral immunity in the comparison diagrams?",
+      "options": [
+        "CD4 and CD8",
+        "CD19 and CD20",
+        "CD2 and CD3",
+        "CD16 and CD56"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "B-cells mature in the bone marrow, mediate humoral immunity, and express markers such as CD19, CD20, CD22, CD40, CD80, and CD86. T-cells mature in the thymus and express CD4+ and CD8+ for cell-mediated immunity.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-16",
+      "stem": "Which diagnostic serological technique uses fluorescently-labeled antibodies viewed under a specialized microscope and is commonly applied for Antinuclear Antibody (ANA) testing in systemic lupus erythematosus?",
+      "options": [
+        "Chemiluminescence Immunoassay (CLIA)",
+        "Rapid Plasma Reagin (RPR) test",
+        "Immunofluorescence Assay (IFA)",
+        "Radial Immunodiffusion (RID)"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Immunofluorescence Assay (IFA) utilizes fluorophore-labeled antibodies to visualize antigen location in tissues or cells under a fluorescence microscope. Key applications include ANA testing for lupus and direct detection of respiratory viruses.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-7",
+      "stem": "Which immunoglobulin class constitutes approximately 75–85% of total serum antibodies, has a half-life of 23 days, and possesses the unique ability to cross the placenta?",
+      "options": [
+        "IgM",
+        "IgA",
+        "IgG",
+        "IgE"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "IgG represents 75–85% of total serum antibodies, has the longest half-life (23 days), possesses two paratopes, acts against bacteria and viruses, and crosses the placenta to confer natural passive immunity to the fetus and neonate.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-9",
+      "stem": "Which immunoglobulin class is the largest in size (MW ~900 kDa, existing mostly as a pentamer bound by a J-chain), appears first during a primary infection, and cannot cross the placenta?",
+      "options": [
+        "IgD",
+        "IgA",
+        "IgM",
+        "IgE"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "IgM is the largest antibody (MW 900 kDa), constructed of 5 or 6 units (mostly pentamers) bound by a J-chain. It is the first antibody to appear in response to initial antigen exposure, fixes complement, acts as an opsonin, and cannot cross the placenta.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-5",
+      "stem": "Which of the following is explicitly listed as one of the three cardinal features of the adaptive immune system?",
+      "options": [
+        "Absence of immunological memory",
+        "Memory (exposure enhances the ability to respond faster and larger to subsequent challenges)",
+        "Instantaneous onset with zero time lag",
+        "Non-specific action against all foreign particles equally"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The cardinal features of adaptive immunity are Specificity, Diversity, and Memory. Immunological memory ensures that subsequent exposures to the same antigen yield a faster, larger secondary immune response.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-12",
+      "stem": "Which set of characteristics distinguishes a Primary Immune Response from a Secondary (Anamnestic) Immune Response?",
+      "options": [
+        "Primary response has a short lag phase and produces massive high-titer IgG",
+        "Primary response is slow, sluggish, and short-lived with a long lag phase, producing low titers dominated by IgM",
+        "Primary response produces high-titer antibodies that persist for decades",
+        "Primary response relies exclusively on memory T-lymphocytes"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The primary response is slow, sluggish, and short-lived, featuring a long lag phase, low antibody titers that do not persist, and IgM as the primary antibody. The secondary response is prompt, powerful, prolonged, features a negligible lag phase, and is dominated by high-titer IgG.",
+      "section": "Microbiology and Immunology",
+      "source": "immunology NO .4.26.pptx",
+      "sourceUrl": "",
+      "topic": "immunology NO .4.26.pptx",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-immunology.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-immunology.json"
       ]
     },
     {
@@ -35782,8 +36442,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -35816,8 +36475,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -35850,8 +36508,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -35884,8 +36541,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -35918,8 +36574,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -35952,8 +36607,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -35986,8 +36640,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -36020,8 +36673,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -36054,8 +36706,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -36088,8 +36739,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -36122,8 +36772,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -36156,8 +36805,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -36190,8 +36838,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -36224,8 +36871,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -36258,8 +36904,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -36292,8 +36937,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -36326,8 +36970,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -36360,8 +37003,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -36394,8 +37036,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -36428,8 +37069,7 @@
         "local"
       ],
       "sourceFiles": [
-        "notebooklm-analgesics.json",
-        "notebooklm-blood-disorder-drugs.json"
+        "notebooklm-analgesics.json"
       ]
     },
     {
@@ -36529,6 +37169,666 @@
       ],
       "sourceFiles": [
         "pharmacology.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-7",
+      "stem": "According to preoperative holding protocols, how many days before elective surgery must oral Warfarin be held, and how many hours before surgery must therapeutic Low Molecular Weight Heparin (LMWH) be stopped?",
+      "options": [
+        "Warfarin held 2 days before; LMWH held 6 hours before",
+        "Warfarin held 5 days before; LMWH held 24 hours before",
+        "Warfarin held 7 days before; LMWH held 48 hours before",
+        "Warfarin held 1 day before; LMWH held 12 hours before"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Elective surgery guidelines specify holding oral Warfarin 5 days before surgery. Therapeutic LMWH must be stopped 24 hours before surgery (prophylactic LMWH is held 12 hours before; IV unfractionated heparin is held 4–6 hours before).",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-18",
+      "stem": "Hemorrhagic cystitis (hematuria) is a classic adverse effect of Cyclophosphamide caused by acrolein accumulation. Which agent is administered to prevent or manage this complication?",
+      "options": [
+        "Folinic acid",
+        "MESNA (or N-acetylcysteine)",
+        "Dexrazoxane",
+        "Amifostine"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Cyclophosphamide is an alkylating prodrug metabolized into phosphoramide mustard (active cytotoxic agent) and acrolein (toxic metabolite causing hemorrhagic cystitis). It is managed with aggressive fluid intake, MESNA, or N-acetylcysteine.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-3",
+      "stem": "In a patient receiving therapeutic unfractionated heparin (UFH), what is the target activated Partial Thromboplastin Time (aPTT) therapeutic range relative to baseline?",
+      "options": [
+        "0.8 to 1.2 times baseline",
+        "1.5 to 2.0 times baseline",
+        "2.0 to 3.0 times baseline",
+        "4.0 to 5.0 times baseline"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Normal aPTT is 25–33 seconds. In heparin toxicity or over-anticoagulation, target controlled aPTT (CaPTT) is maintained at 2 to 3 times the normal baseline value.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-19",
+      "stem": "Match the cytotoxic antibiotic to its pathognomonic organ-specific toxicity: Doxorubicin | Bleomycin | Mitomycin",
+      "options": [
+        "Doxorubicin = Pulmonary fibrosis; Bleomycin = Nephrotoxicity; Mitomycin = Cardiotoxicity",
+        "Doxorubicin = Cardiotoxicity; Bleomycin = Pneumonitis & Pulmonary Fibrosis; Mitomycin = Nephrotoxicity",
+        "Doxorubicin = Ototoxicity; Bleomycin = Cardiotoxicity; Mitomycin = Hepatotoxicity",
+        "Doxorubicin = Nephrotoxicity; Bleomycin = Neurotoxicity; Mitomycin = Cardiotoxicity"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Cytotoxic antibiotics exhibit distinct organ toxicities: Doxorubicin causes cardiotoxicity; Bleomycin causes pneumonitis and pulmonary fibrosis; Mitomycin causes nephrotoxicity.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "hard",
+      "sourceDifficulty": "hard",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-20",
+      "stem": "Regarding cancer chemotherapy during pregnancy, during which gestational period is cytotoxic chemotherapy strictly an absolute classic contraindication?",
+      "options": [
+        "1st Trimester (Organogenesis stage)",
+        "2nd Trimester",
+        "3rd Trimester",
+        "Post-partum lactation period only"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Cytotoxic chemotherapy is strictly avoided during the 1st Trimester (organogenesis stage) due to high teratogenic risk. Methotrexate is highlighted as an absolute classic contraindication.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-9",
+      "stem": "To prevent ibuprofen from interfering with the antiplatelet cardioprotective effect of low-dose aspirin, what administration timing rule must be followed?",
+      "options": [
+        "Take aspirin simultaneously with ibuprofen at mealtime",
+        "Take aspirin at least 1 hour before or at least 8 hours after ibuprofen",
+        "Take ibuprofen strictly 30 minutes before aspirin",
+        "Double the dose of ibuprofen when taking aspirin"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Ibuprofen reversibly binds COX-1 and competitively prevents aspirin from reaching its target acetylation site. Therefore, aspirin should be ingested at least 1 hour before or at least 8 hours after ibuprofen.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "hard",
+      "sourceDifficulty": "hard",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-13",
+      "stem": "What is the mechanism of action and clinical contraindication of Tranexamic Acid (TXA) in bleeding management?",
+      "options": [
+        "Direct factor VIIa activator; contraindicated in severe liver disease",
+        "Lysine analogue blocking plasminogen/plasmin lysine-binding sites; contraindicated in renal disease",
+        "Vitamin K epoxide reductase activator; contraindicated in hypertension",
+        "Glycoprotein IIb/IIIa antagonist; contraindicated in heart failure"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Tranexamic acid (and EACA) is a synthetic lysine analogue that blocks the lysine-binding sites on plasminogen and plasmin, preventing plasmin-mediated fibrin degradation. It is contraindicated in renal disease.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-2",
+      "stem": "What is the precise biochemical mechanism of action of unfractionated heparin (UFH)?",
+      "options": [
+        "Direct competitive inhibition of the thrombin catalytic site",
+        "Binding to antithrombin III to accelerate inactivation of factors IIa, IXa, Xa, XIa, and XIIa",
+        "Irreversible acetylation of platelet cyclooxygenase-1 (COX-1)",
+        "Inhibition of hepatic vitamin K epoxide reductase (VKORC1)"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Unfractionated heparin acts indirectly by binding to antithrombin III, which markedly accelerates the inactivation of clotting factors IIa (thrombin), IXa, Xa, XIa, and XIIa.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-16",
+      "stem": "What percentage of human cancers reactivate the reverse transcriptase enzyme telomerase to bypass cellular senescence and achieve immortality?",
+      "options": [
+        "~10%",
+        "~30%",
+        "~50%",
+        "~90%"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Telomeres consist of repetitive TTAGGG DNA end-cap sequences. Approximately 90% of human cancers reactivate telomerase (a reverse transcriptase enzyme), preventing telomere shortening and conferring cellular immortality.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-8",
+      "stem": "What pharmacological rationale explains why low-dose aspirin (60–325 mg daily) remains uniquely effective as an antiplatelet agent compared to non-selective NSAIDs like ibuprofen?",
+      "options": [
+        "Aspirin reversibly blocks ADP P2Y12 receptors on vascular endothelium",
+        "Mature platelets are anucleate and cannot synthesize new COX-1 enzymes following irreversible acetylation by aspirin",
+        "Aspirin selectively inhibits COX-2 in mature circulating platelets",
+        "Ibuprofen permanently destroys hepatic cytochrome P450 enzymes"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Aspirin selectively and irreversibly acetylates platelet COX-1 (100 times more potent than against COX-2). Because circulating platelets lack nuclei, they cannot synthesize new COX-1 protein, resulting in permanent enzyme inhibition for the remainder of the platelet lifespan (7–10 days). Non-selective NSAIDs (like ibuprofen) inhibit COX-1 reversibly and lack persistent antithrombotic effects.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "hard",
+      "sourceDifficulty": "hard",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-15",
+      "stem": "When transfusing Cryoprecipitate to an Rh-negative (Rh -ve) pregnant patient, what special blood banking directive must be strictly observed?",
+      "options": [
+        "Cryoprecipitate must be infused over a minimum of 24 hours",
+        "Cryoprecipitate must be strictly Rh-negative (Rh -ve)",
+        "Cryoprecipitate must be co-administered with high-dose aspirin",
+        "Cryoprecipitate must be reconstituted with 5% Dextrose"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Cryoprecipitate is a concentrated plasma protein fraction containing Factor VIII, vWF, and fibrinogen. When administered to Rh-negative (Rh -ve) pregnant women, Cryoprecipitate must be strictly Rh-negative to avoid Rh isoimmunization.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-17",
+      "stem": "Which antimetabolite anticancer agent acts as a folic acid antagonist, and what specific rescue drug is administered on non-treatment days to mitigate severe mucosal and hematologic toxicity?",
+      "options": [
+        "5-Fluorouracil; rescued by Thymidine",
+        "6-Mercaptopurine; rescued by Allopurinol",
+        "Methotrexate; rescued by Folinic Acid (Leucovorin)",
+        "Cytarabine; rescued by Pyridoxine"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Methotrexate is a folic acid antagonist antimetabolite. To prevent lethal normal tissue toxicity (megaloblastic anemia, mucosal ulceration, hepatotoxicity), Folinic Acid (Leucovorin) rescue is administered on non-methotrexate days.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-10",
+      "stem": "Which antiplatelet drug is an oral phosphodiesterase (PDE) inhibitor approved specifically for symptomatic management of intermittent claudication, but strictly contraindicated in heart failure (CHF)?",
+      "options": [
+        "Dipyridamole",
+        "Cilostazol",
+        "Prasugrel",
+        "Abciximab"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Cilostazol is an oral PDE inhibitor that increases cAMP, causing vasodilation and antiplatelet activity. It is indicated for intermittent claudication in peripheral arterial disease, but is strictly contraindicated in patients with Congestive Heart Failure (CHF). Dipyridamole causes the \"coronary steal phenomenon\" in clinically unstable angina.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-1",
+      "stem": "Which coagulation factor deficiency specifically defines Hemophilia B (Christmas disease)?",
+      "options": [
+        "Factor VIII",
+        "Factor IX",
+        "Factor XI",
+        "Factor VII"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Factor VIII deficiency causes Hemophilia A (classic hemophilia), whereas Factor IX (Christmas factor) deficiency causes Hemophilia B (Christmas disease). Factor XI deficiency is termed Plasma Thromboplastin Antecedent (PTA) deficiency.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "easy",
+      "sourceDifficulty": "easy",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-12",
+      "stem": "Which condition is listed as an ABSOLUTE contraindication to thrombolytic/fibrinolytic therapy?",
+      "options": [
+        "Active menstrual bleeding (menses)",
+        "Ischemic stroke occurring 12 months ago",
+        "Ischemic stroke within the preceding 3 months",
+        "Controlled essential hypertension"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Absolute contraindications to thrombolytics include: severe intracranial hemorrhage, structural cerebral vascular lesions, retinal hemorrhage, malignant intracranial neoplasms, ischemic stroke within 3 months, active bleeding ( excluding menses ), and significant closed-head or facial trauma/surgery within 3 months.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-6",
+      "stem": "Which direct oral anticoagulant (DOAC) functions as a direct thrombin inhibitor and has a specific FDA-approved monoclonal antibody reversal agent (Idarucizumab)?",
+      "options": [
+        "Rivaroxaban",
+        "Apixaban",
+        "Dabigatran",
+        "Argatroban"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Dabigatran is an oral direct thrombin (Factor IIa) inhibitor with predictable pharmacokinetics that requires no routine monitoring. Its anticoagulant activity can be rapidly and completely reversed by the specific monoclonal antibody Idarucizumab. Rivaroxaban inhibits Factor Xa (reversed by Andexanet alfa).",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-5",
+      "stem": "Which feature correctly distinguishes Low Molecular Weight Heparin (LMWH, e.g., enoxaparin) from Unfractionated Heparin (UFH)?",
+      "options": [
+        "LMWH requires routine daily aPTT monitoring",
+        "LMWH has lower oral bioavailability and a shorter half-life than UFH",
+        "LMWH is excreted renally and its neutralization by protamine sulfate is only partial",
+        "LMWH carries a higher risk of Heparin-Induced Thrombocytopenia (>5%)"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "LMWH has high subcutaneous bioavailability (90%), a longer half-life (4 hours), is eliminated via renal excretion, carries a lower risk of HIT (<1%), and requires no routine monitoring. Crucially, protamine sulfate provides complete neutralization for UFH, but only partial neutralization for LMWH (enoxaparin).",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "hard",
+      "sourceDifficulty": "hard",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-11",
+      "stem": "Which fibrinolytic agent is a recombinant human tissue plasminogen activator (rtPA) characterized by a long half-life that allows it to be administered as a single IV BOLUS?",
+      "options": [
+        "Streptokinase",
+        "Urokinase",
+        "Alteplase",
+        "Tenecteplase"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Fibrin-specific thrombolytic agents include Alteplase and Tenecteplase (recombinant human tPAs). Tenecteplase has a prolonged half-life (t½), enabling rapid administration as a single IV bolus. Streptokinase and Urokinase are non-fibrin-specific agents.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "moderate",
+      "sourceDifficulty": "moderate",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-4",
+      "stem": "Why can warfarin administration paradoxically precipitate acute skin necrosis early during the initiation of therapy?",
+      "options": [
+        "Warfarin causes direct non-immunologic necrosis of vascular smooth muscle cells",
+        "Warfarin inhibits endogenous anticoagulant Protein C and Protein S faster than clotting factors II, IX, and X",
+        "Warfarin induces rapid local histamine release and mast cell degranulation",
+        "Warfarin triggers acute immune complex deposition in dermal capillaries"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Warfarin inhibits the gamma-carboxylation of Vitamin K-dependent clotting factors (II, VII, IX, X) and anticoagulant proteins (Protein C and Protein S). Because Protein C has a shorter half-life than factors II, IX, and X, its levels drop first, resulting in a transient hypercoagulable state and microvascular thrombosis (skin necrosis) before full anticoagulation is achieved.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "hard",
+      "sourceDifficulty": "hard",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
+      ]
+    },
+    {
+      "id": "local-notebooklm-14",
+      "stem": "Why is the subcutaneous (SC) route of Vitamin K1 (Phytonadione) administration clinically avoided, and what life-threatening risk is associated with rapid IV push of Vitamin K1?",
+      "options": [
+        "SC causes immediate skin necrosis; rapid IV causes renal failure",
+        "SC shows an erratic absorption pattern; rapid IV causes severe dyspnea, chest/back pain, flushing, and death",
+        "SC precipitates deep vein thrombosis; rapid IV causes severe hypoglycemia",
+        "SC causes osteotoxicity; rapid IV causes acute red man syndrome"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Subcutaneous administration of Vitamin K1 is avoided because of an erratic absorption pattern. Rapid IV push of Vitamin K1 can trigger severe anaphylactoid infusion reactions presenting with dyspnea, chest and back pain, flushing, vascular collapse, and death.",
+      "section": "Pharmacology",
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceUrl": "",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "difficulty": "hard",
+      "sourceDifficulty": "hard",
+      "difficultyMethod": "source-labelled",
+      "qualityOriginal": "approved",
+      "quality": "approved",
+      "reviewStatus": "supervisor-approved",
+      "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+      "eligibleForExam": true,
+      "origin": "local",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "day": null,
+      "origins": [
+        "local"
+      ],
+      "sourceFiles": [
+        "notebooklm-blood-disorder-drugs.json"
       ]
     },
     {

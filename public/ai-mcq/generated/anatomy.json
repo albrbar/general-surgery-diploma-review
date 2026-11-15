@@ -1,0 +1,25 @@
+{
+  "section": "Anatomy",
+  "sectionId": "anatomy",
+  "status": "ai-generated-draft",
+  "model": "openai/gpt-oss-20b",
+  "generatedAt": "2026-11-15T15:52:46.768006+00:00",
+  "questions": [
+    {
+      "id": "ai-anatomy-20261115-01",
+      "stem": "A 45‑year‑old man presents with a palpable mass in the left upper quadrant. Imaging shows a well‑encapsulated lesion arising from the left hepatic lobe. Which of the following anatomical structures is most likely to be involved in the surgical approach to this lesion?",
+      "options": [
+        "Left hepatic vein",
+        "Left portal vein",
+        "Left hepatic artery",
+        "Left hepatic duct"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The left hepatic lobe is drained by the left hepatic vein, which is the most common structure encountered and potentially injured during left lobe resections. The left portal vein and left hepatic artery are also important but are usually preserved; the left hepatic duct is not involved in left lobe resections.",
+      "source": "Basic hepatic anatomy and surgical approach",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    }
+  ]
+}

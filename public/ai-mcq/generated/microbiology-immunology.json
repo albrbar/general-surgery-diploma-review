@@ -1,0 +1,25 @@
+{
+  "section": "Microbiology and Immunology",
+  "sectionId": "microbiology-immunology",
+  "status": "ai-generated-draft",
+  "model": "openai/gpt-oss-20b",
+  "generatedAt": "2026-11-15T15:52:48.252632+00:00",
+  "questions": [
+    {
+      "id": "ai-microbiology-immunology-20261115-01",
+      "stem": "A 45‑year‑old man presents with a purulent wound infection after a road traffic accident. Gram staining of the wound exudate shows gram‑positive cocci in chains. Which of the following organisms is the most likely cause of this infection?",
+      "options": [
+        "Staphylococcus aureus",
+        "Streptococcus pyogenes",
+        "Streptococcus pneumoniae",
+        "Enterococcus faecalis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Streptococcus pyogenes (group A β‑hemolytic streptococci) are gram‑positive cocci in chains and are common causes of skin and soft tissue infections following trauma. Staphylococcus aureus appears in clusters, S. pneumoniae is a lancet‑shaped diplococcus, and Enterococcus faecalis is a gram‑positive coccus in chains but is more associated with urinary tract and intra‑abdominal infections.",
+      "source": "Basic principles of bacterial morphology and common wound pathogens",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    }
+  ]
+}

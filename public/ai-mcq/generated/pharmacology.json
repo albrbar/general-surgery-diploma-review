@@ -1,0 +1,25 @@
+{
+  "section": "Pharmacology",
+  "sectionId": "pharmacology",
+  "status": "ai-generated-draft",
+  "model": "openai/gpt-oss-20b",
+  "generatedAt": "2026-11-15T15:52:47.838904+00:00",
+  "questions": [
+    {
+      "id": "ai-pharmacology-20261115-01",
+      "stem": "A 65‑year‑old man with a history of chronic obstructive pulmonary disease (COPD) presents with a sudden onset of severe abdominal pain and vomiting. CT imaging shows a perforated duodenal ulcer. Which of the following drugs is most appropriate to administer pre‑operatively to reduce the risk of postoperative pulmonary complications in this patient?",
+      "options": [
+        "A. Intravenous methylprednisolone",
+        "B. Intravenous ceftriaxone",
+        "C. Intravenous metoclopramide",
+        "D. Intravenous ondansetron"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Ondansetron is a 5‑HT3 antagonist that effectively prevents postoperative nausea and vomiting, thereby reducing the risk of aspiration and pulmonary complications in COPD patients. Methylprednisolone may worsen infection risk, ceftriaxone is an antibiotic not directly related to pulmonary protection, and metoclopramide can cause extrapyramidal side effects and is less effective for postoperative nausea.",
+      "source": "Basic pharmacology of antiemetics in surgical patients",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    }
+  ]
+}

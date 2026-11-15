@@ -1,0 +1,25 @@
+{
+  "section": "Pathology",
+  "sectionId": "pathology",
+  "status": "ai-generated-draft",
+  "model": "openai/gpt-oss-20b",
+  "generatedAt": "2026-11-15T15:52:47.256435+00:00",
+  "questions": [
+    {
+      "id": "ai-pathology-20261115-01",
+      "stem": "A 58‑year‑old man presents with a 3‑month history of painless jaundice and weight loss. Imaging shows a mass in the head of the pancreas. Which of the following histological features is most characteristic of the most common malignant tumour in this location?",
+      "options": [
+        "Keratinising squamous epithelium with intercellular bridges",
+        "Glandular epithelium forming irregular acini with mucin production",
+        "Neuroendocrine cells arranged in nests with chromogranin positivity",
+        "Spindle‑shaped stromal cells with storiform pattern"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Pancreatic ductal adenocarcinoma is the most common pancreatic cancer and shows glandular epithelium forming irregular, poorly‑differentiated ducts with mucin production. Keratinising squamous cells suggest squamous cell carcinoma, neuroendocrine cells indicate a functional tumour, and spindle cells point to a stromal tumour such as a gastrointestinal stromal tumour.",
+      "source": "Pancreatic cancer histology",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    }
+  ]
+}

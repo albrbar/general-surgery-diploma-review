@@ -1,0 +1,25 @@
+{
+  "section": "Principles of Surgery",
+  "sectionId": "principles-of-surgery",
+  "status": "ai-generated-draft",
+  "model": "openai/gpt-oss-20b",
+  "generatedAt": "2026-11-15T15:52:48.697170+00:00",
+  "questions": [
+    {
+      "id": "ai-principles-of-surgery-20261115-01",
+      "stem": "Which of the following is the most important principle to maintain during the handling of a bowel segment in an emergency laparotomy to minimize postoperative complications?",
+      "options": [
+        "A. Avoid any manipulation of the bowel to prevent contamination",
+        "B. Minimize traction and avoid excessive manipulation to reduce edema and ischemia",
+        "C. Ensure the bowel is fully irrigated with saline before closure",
+        "D. Apply a tourniquet to control bleeding before resection"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The key principle is to minimize traction and avoid excessive manipulation of the bowel, which reduces edema, ischemia, and the risk of anastomotic leak. Avoiding manipulation entirely (option A) is unrealistic, irrigation (option C) is useful but not the primary principle, and a tourniquet (option D) is inappropriate for bowel surgery.",
+      "source": "Fundamental surgical principles",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    }
+  ]
+}

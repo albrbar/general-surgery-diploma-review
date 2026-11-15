@@ -19,7 +19,7 @@ SECTIONS = {
     "principles-of-surgery": "Principles of Surgery",
 }
 MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-20b")
-DIFFICULTIES = ("very easy", "easy", "moderate", "hard", "very hard")
+DIFFICULTIES = ("easy", "moderate", "hard")
 
 
 def ask_groq(section: str, count: int, target_difficulty: str | None = None, existing_fingerprints: set[str] | None = None, bank_reference: str = "") -> dict:
@@ -139,7 +139,12 @@ def ask_groq(section: str, count: int, target_difficulty: str | None = None, exi
             raise RuntimeError(f"Question {index} is not an object")
         options = question.get("options")
         answer = question.get("correctOptionIndex")
-        if not question.get("stem") or not isinstance(options, list) or len(options) < 4 or answer not in range(4):
+        if (not isinstance(question.get("stem"), str) or len(question["stem"].strip()) < 25
+                or not isinstance(options, list) or len(options) != 4 or answer not in range(4)
+                or any(not isinstance(option, str) or len(option.strip()) < 2 for option in options)
+                or len({re.sub(r"[^a-z0-9]+", "", option.lower()) for option in options}) != 4
+                or not isinstance(question.get("explanation"), str) or len(question["explanation"].strip()) < 25
+                or not isinstance(question.get("source"), str) or not question["source"].strip()):
             raise RuntimeError(f"Question {index} failed the MCQ shape check")
         fingerprint = re.sub(r"[^a-z0-9]+", "", str(question["stem"]).lower())
         if fingerprint in existing_fingerprints:
@@ -166,8 +171,8 @@ def main() -> int:
     parser.add_argument("--output", default="public/ai-mcq/generated")
     parser.add_argument("--bank", default="public/assets/mcq-answers/unified-bank.json", help="Unified bank used for duplicate protection")
     args = parser.parse_args()
-    if not 1 <= args.count <= 20:
-        parser.error("--count must be between 1 and 20")
+    if not 1 <= args.count <= 40:
+        parser.error("--count must be between 1 and 40")
     sections = list(SECTIONS) if args.section == "all" else [args.section]
     output = Path(args.output)
     output.mkdir(parents=True, exist_ok=True)
@@ -184,9 +189,14 @@ def main() -> int:
     manifest = {"generatedAt": datetime.now(timezone.utc).isoformat(), "model": MODEL, "groups": []}
     for section in sections:
         questions = []
-        difficulties = DIFFICULTIES if args.count == 5 else (None,)
-        for difficulty in difficulties:
-            single = ask_groq(section, 1 if difficulty else args.count, difficulty, existing_fingerprints, str(bank_path))
+        if args.count == 40:
+            difficulty_plan = [("easy", 14), ("moderate", 14), ("hard", 12)]
+        elif args.count == 5:
+            difficulty_plan = [("easy", 2), ("moderate", 2), ("hard", 1)]
+        else:
+            difficulty_plan = [(None, args.count)]
+        for difficulty, difficulty_count in difficulty_plan:
+            single = ask_groq(section, difficulty_count, difficulty, existing_fingerprints, str(bank_path))
             questions.extend(single["questions"])
         generated_at = datetime.now(timezone.utc).isoformat()
         result = {"section": SECTIONS[section], "sectionId": section, "status": "ai-generated-draft", "model": MODEL, "bankReference": str(bank_path), "bankQuestionCount": bank_count, "generatedAt": generated_at, "questions": questions}

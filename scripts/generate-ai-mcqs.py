@@ -22,7 +22,7 @@ MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-20b")
 DIFFICULTIES = ("very easy", "easy", "moderate", "hard", "very hard")
 
 
-def ask_groq(section: str, count: int, target_difficulty: str | None = None) -> dict:
+def ask_groq(section: str, count: int, target_difficulty: str | None = None, existing_fingerprints: set[str] | None = None, bank_reference: str = "") -> dict:
     api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
         raise RuntimeError("GROQ_API_KEY is not configured")
@@ -133,6 +133,7 @@ def ask_groq(section: str, count: int, target_difficulty: str | None = None) -> 
     if not isinstance(questions, list) or len(questions) != count:
         raise RuntimeError(f"Groq returned {len(questions) if isinstance(questions, list) else 0} questions; expected {count}")
     validated = []
+    existing_fingerprints = existing_fingerprints or set()
     for index, question in enumerate(questions, 1):
         if not isinstance(question, dict):
             raise RuntimeError(f"Question {index} is not an object")
@@ -140,18 +141,22 @@ def ask_groq(section: str, count: int, target_difficulty: str | None = None) -> 
         answer = question.get("correctOptionIndex")
         if not question.get("stem") or not isinstance(options, list) or len(options) < 4 or answer not in range(4):
             raise RuntimeError(f"Question {index} failed the MCQ shape check")
+        fingerprint = re.sub(r"[^a-z0-9]+", "", str(question["stem"]).lower())
+        if fingerprint in existing_fingerprints:
+            raise RuntimeError(f"Question {index} duplicates a question already present in the unified bank")
         question["options"] = options[:4]
         if target_difficulty:
             question["difficulty"] = target_difficulty
         if question.get("difficulty") not in set(DIFFICULTIES):
             raise RuntimeError(f"Question {index} returned an unsupported difficulty")
+        existing_fingerprints.add(fingerprint)
         question["id"] = f"ai-{section}-{datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')}-{index:02d}"
         question["section"] = section_label
         question["status"] = "ai-generated-draft"
         question["reviewStatus"] = "requires-supervisor-review"
         question["source"] = question.get("source") or f"General Surgery Diploma — {section_label}"
         validated.append(question)
-    return {"section": section_label, "sectionId": section, "status": "ai-generated-draft", "model": MODEL, "generatedAt": datetime.now(timezone.utc).isoformat(), "questions": validated}
+    return {"section": section_label, "sectionId": section, "status": "ai-generated-draft", "model": MODEL, "bankReference": bank_reference, "generatedAt": datetime.now(timezone.utc).isoformat(), "questions": validated}
 
 
 def main() -> int:
@@ -159,21 +164,32 @@ def main() -> int:
     parser.add_argument("--section", choices=[*SECTIONS, "all"], required=True)
     parser.add_argument("--count", type=int, default=5)
     parser.add_argument("--output", default="public/ai-mcq/generated")
+    parser.add_argument("--bank", default="public/assets/mcq-answers/unified-bank.json", help="Unified bank used for duplicate protection")
     args = parser.parse_args()
     if not 1 <= args.count <= 20:
         parser.error("--count must be between 1 and 20")
     sections = list(SECTIONS) if args.section == "all" else [args.section]
     output = Path(args.output)
     output.mkdir(parents=True, exist_ok=True)
+    bank_path = Path(args.bank)
+    existing_fingerprints = set()
+    bank_count = 0
+    if bank_path.exists():
+        bank_data = json.loads(bank_path.read_text(encoding="utf-8"))
+        bank_questions = bank_data.get("questions", []) if isinstance(bank_data, dict) else bank_data
+        bank_count = len(bank_questions)
+        existing_fingerprints = {re.sub(r"[^a-z0-9]+", "", str(q.get("stem", "")).lower()) for q in bank_questions if q.get("stem")}
+    else:
+        print(f"Warning: unified bank not found at {bank_path}; duplicate protection disabled", file=sys.stderr)
     manifest = {"generatedAt": datetime.now(timezone.utc).isoformat(), "model": MODEL, "groups": []}
     for section in sections:
         questions = []
         difficulties = DIFFICULTIES if args.count == 5 else (None,)
         for difficulty in difficulties:
-            single = ask_groq(section, 1 if difficulty else args.count, difficulty)
+            single = ask_groq(section, 1 if difficulty else args.count, difficulty, existing_fingerprints, str(bank_path))
             questions.extend(single["questions"])
         generated_at = datetime.now(timezone.utc).isoformat()
-        result = {"section": SECTIONS[section], "sectionId": section, "status": "ai-generated-draft", "model": MODEL, "generatedAt": generated_at, "questions": questions}
+        result = {"section": SECTIONS[section], "sectionId": section, "status": "ai-generated-draft", "model": MODEL, "bankReference": str(bank_path), "bankQuestionCount": bank_count, "generatedAt": generated_at, "questions": questions}
         target = output / f"{section}.json"
         target.write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         manifest["groups"].append({"section": section, "label": SECTIONS[section], "file": f"generated/{section}.json", "count": len(questions), "status": result["status"], "model": MODEL, "generatedAt": generated_at})

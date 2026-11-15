@@ -1,0 +1,231 @@
+{
+  "bankName": "GS Diploma Unified MCQ Bank",
+  "version": "2026-11-15-drive-notebook-merge-1",
+  "totalQuestions": 1381,
+  "rawQuestionsBeforeDeduplication": 1383,
+  "duplicatesCollapsed": 2,
+  "sections": {
+    "Anatomy": 558,
+    "Pathology": 286,
+    "Microbiology and Immunology": 199,
+    "Pharmacology": 67,
+    "Principles of Surgery": 271
+  },
+  "difficulty": {
+    "hard": 136,
+    "easy": 47,
+    "moderate": 102,
+    "very easy": 5,
+    "unrated": 1086,
+    "very hard": 5
+  },
+  "quality": {
+    "unrated": 741,
+    "high": 383,
+    "acceptable": 167,
+    "review": 90
+  },
+  "topSources": [
+    [
+      "Dr. Khalid Milad — supplied question bank",
+      238
+    ],
+    [
+      "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
+      80
+    ],
+    [
+      "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+      80
+    ],
+    [
+      "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+      80
+    ],
+    [
+      "microbiology-80.json",
+      80
+    ],
+    [
+      "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
+      78
+    ],
+    [
+      "VTE&acid&base balance",
+      48
+    ],
+    [
+      "Fluid&electrolyte &shock& haemorrhage",
+      46
+    ],
+    [
+      "Ethics&consent &breaking bad news",
+      44
+    ],
+    [
+      "Neoplasia..grading and staging",
+      40
+    ],
+    [
+      "Cell injury and death",
+      39
+    ],
+    [
+      "The Abdomen",
+      38
+    ],
+    [
+      "Surgical infections",
+      37
+    ],
+    [
+      "Metabolic & Nutrition",
+      36
+    ],
+    [
+      "Septic shock",
+      35
+    ],
+    [
+      "The Pelvis & Perineum",
+      30
+    ],
+    [
+      "Anti-Microbial Chemotherapy & Antibiotics in Sur",
+      25
+    ],
+    [
+      "Principles of Surgical oncology",
+      24
+    ],
+    [
+      "Sterilization and disinfectant",
+      23
+    ],
+    [
+      "Drugs for Peptic Ulcer",
+      23
+    ],
+    [
+      "Antimicrobial Resistance (Lectre 2",
+      22
+    ],
+    [
+      "Drugs for GIT Disorders",
+      20
+    ],
+    [
+      "Wound healing",
+      20
+    ],
+    [
+      "Immunology and Serology",
+      19
+    ],
+    [
+      "Inflammation",
+      19
+    ],
+    [
+      "Blood and Blood Products",
+      19
+    ],
+    [
+      "Diagnostic Microbiology & Specimen Collection (Dr",
+      17
+    ],
+    [
+      "The Abdomen — Slides.pdf",
+      16
+    ],
+    [
+      "The Breast — Slides.pdf",
+      16
+    ],
+    [
+      "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      16
+    ],
+    [
+      "The Pelvis & Perineum — Slides.pdf",
+      16
+    ],
+    [
+      "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      16
+    ],
+    [
+      "Principles of Diagnostic Pathology",
+      16
+    ],
+    [
+      "Anatomy of the upper abdomen; relationship of pancreas to adjacent organs",
+      1
+    ],
+    [
+      "Basic abdominal anatomy",
+      1
+    ],
+    [
+      "Basic abdominal wall anatomy",
+      1
+    ],
+    [
+      "Colonic arterial supply; standard surgical anatomy",
+      1
+    ],
+    [
+      "Inferior mesenteric vein anatomy; portal venous system",
+      1
+    ],
+    [
+      "Basic histopathology of skin cancers",
+      1
+    ],
+    [
+      "Basic surgical pathology of splenic lesions",
+      1
+    ]
+  ],
+  "sourceFiles": [
+    "Anti-Microbial Chemotherapy & Antibiotics in Sur",
+    "Antimicrobial Resistance (Lectre 2",
+    "Blood and Blood Products",
+    "Cell injury and death",
+    "Diagnostic Microbiology & Specimen Collection (Dr",
+    "Drugs for GIT Disorders",
+    "Drugs for Peptic Ulcer",
+    "Ethics&consent &breaking bad news",
+    "Fluid&electrolyte &shock& haemorrhage",
+    "Immunology and Serology",
+    "Inflammation",
+    "Metabolic & Nutrition",
+    "Neoplasia..grading and staging",
+    "Principles of Diagnostic Pathology",
+    "Principles of Surgical oncology",
+    "Septic shock",
+    "Sterilization and disinfectant",
+    "Surgical infections",
+    "The Abdomen",
+    "The Pelvis & Perineum",
+    "VTE&acid&base balance",
+    "Wound healing",
+    "abdomen-80.json",
+    "anatomy.json",
+    "breast-80.json",
+    "lower-limb-80.json",
+    "microbiology-80.json",
+    "microbiology-immunology.json",
+    "pathology-cell-injury-80.json",
+    "pathology-lecture1-80.json",
+    "pathology.json",
+    "pelvis-perineum-80.json",
+    "pharmacology.json",
+    "principles-of-surgery.json",
+    "upper-limb-80.json"
+  ],
+  "selectionPolicy": {
+    "eligibleForExam": "origin != generated and quality != review",
+    "unratedDifficulty": "retain as unrated; do not infer difficulty"
+  }
+}

@@ -5,90 +5,687 @@
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
   "bankQuestionCount": 1561,
-  "generatedAt": "2026-11-15T21:24:56.398017+00:00",
+  "generatedAt": "2026-11-15T21:43:45.703976+00:00",
   "questions": [
     {
-      "id": "ai-principles-of-surgery-20261115212440-01",
-      "stem": "Which of the following is the primary goal of surgical wound closure?",
+      "id": "ai-principles-of-surgery-20261115214300-01",
+      "stem": "Which of the following is the most important principle to prevent surgical site infection during an operation?",
       "options": [
-        "A) Rapid healing",
-        "B) Aesthetic appearance",
-        "C) Prevention of infection",
-        "D) Minimizing operative time"
-      ],
-      "correctOptionIndex": 2,
-      "explanation": "The foremost objective of wound closure is to prevent infection by restoring the integrity of the skin and underlying tissues. While rapid healing, aesthetics, and operative efficiency are important, they are secondary to ensuring a sterile, well-approximated wound.",
-      "source": "Basic principles of wound management",
-      "difficulty": "very easy",
-      "section": "Principles of Surgery",
-      "status": "ai-generated-draft",
-      "reviewStatus": "requires-supervisor-review"
-    },
-    {
-      "id": "ai-principles-of-surgery-20261115212443-01",
-      "stem": "Which of the following is the most important principle to prevent postoperative wound infection?",
-      "options": [
-        "A. Strict aseptic technique during surgery",
-        "B. Use of prophylactic antibiotics for all patients",
-        "C. Immediate removal of all drains",
-        "D. Early mobilization of the patient"
-      ],
-      "correctOptionIndex": 0,
-      "explanation": "Strict aseptic technique during surgery is the cornerstone of infection prevention; it reduces contamination of the wound. Prophylactic antibiotics are useful but not sufficient alone, drains and mobilization do not directly prevent infection.",
-      "source": "Fundamental principles of asepsis",
-      "difficulty": "easy",
-      "duplicateOfExisting": true,
-      "section": "Principles of Surgery",
-      "status": "ai-generated-draft",
-      "reviewStatus": "requires-supervisor-review"
-    },
-    {
-      "id": "ai-principles-of-surgery-20261115212449-01",
-      "stem": "A 45‑year‑old man presents with a 2‑cm, firm, mobile, non‑tender mass in the left upper quadrant. The mass is located in the mesentery of the small bowel. Which of the following is the most appropriate initial diagnostic step?",
-      "options": [
-        "A. Routine abdominal ultrasound",
-        "B. Contrast‑enhanced CT scan of the abdomen",
-        "C. Exploratory laparotomy",
-        "D. Colonoscopy"
+        "A. Use of prophylactic antibiotics within 60 minutes before incision",
+        "B. Strict aseptic technique and hand hygiene",
+        "C. Immediate closure of the wound after incision",
+        "D. Use of a sterile drape covering the entire operating table"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Contrast‑enhanced CT provides detailed information on the size, location, and relationship of a mesenteric mass to adjacent structures, guiding further management. Ultrasound is less sensitive for deep mesenteric lesions, colonoscopy does not visualize mesentery, and laparotomy is invasive and should be reserved for definitive diagnosis or treatment.",
-      "source": "Imaging of abdominal masses; standard surgical principles",
+      "explanation": "Strict aseptic technique and hand hygiene are fundamental to preventing infection; antibiotics and drapes are adjuncts.",
+      "source": "Basic surgical principles",
+      "difficulty": "easy",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214300-02",
+      "stem": "A patient presents with a perforated duodenal ulcer. Which of the following is the most appropriate surgical procedure?",
+      "options": [
+        "A. Graham patch repair",
+        "B. Laparoscopic cholecystectomy",
+        "C. Appendectomy",
+        "D. Exploratory laparotomy with washout"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Graham patch repair is the standard treatment for a perforated duodenal ulcer; other options are not indicated.",
+      "source": "Upper GI surgery",
+      "difficulty": "easy",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214300-03",
+      "stem": "In a laparoscopic procedure, the pneumoperitoneum is created using which gas?",
+      "options": [
+        "A. Nitrogen",
+        "B. Oxygen",
+        "C. Carbon dioxide",
+        "D. Helium"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "CO₂ is used because it is non-flammable, rapidly absorbed, and reduces the risk of gas embolism.",
+      "source": "Laparoscopic technique",
+      "difficulty": "easy",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214300-04",
+      "stem": "Which of the following is a contraindication to performing a laparoscopic cholecystectomy?",
+      "options": [
+        "A. Acute cholecystitis with gangrenous gallbladder",
+        "B. Chronic cholecystitis",
+        "C. Gallstone pancreatitis",
+        "D. Simple gallstone disease"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Acute gangrenous cholecystitis increases the risk of bile duct injury; open surgery is preferred.",
+      "source": "Cholecystectomy guidelines",
+      "difficulty": "easy",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214300-05",
+      "stem": "The principle of ‘damage control surgery’ is most applicable in which scenario?",
+      "options": [
+        "A. Elective hernia repair",
+        "B. Massive intra‑abdominal hemorrhage",
+        "C. Routine appendectomy",
+        "D. Minor skin excision"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Damage control focuses on rapid control of bleeding and contamination in severely injured patients.",
+      "source": "Trauma surgery",
+      "difficulty": "easy",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214300-06",
+      "stem": "Which of the following is the most common cause of postoperative ileus?",
+      "options": [
+        "A. Hypocalcemia",
+        "B. Opioid analgesia",
+        "C. Hyperglycemia",
+        "D. Hypothyroidism"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Opioids reduce gut motility, leading to ileus; other factors are less common.",
+      "source": "Postoperative care",
+      "difficulty": "easy",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214300-07",
+      "stem": "A 65‑year‑old man undergoes a right hemicolectomy. Which of the following is the most important step to prevent anastomotic leak?",
+      "options": [
+        "A. Use of a stapled anastomosis",
+        "B. Adequate blood supply to the anastomosis",
+        "C. Placement of a drain",
+        "D. Prophylactic antibiotics"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Good perfusion is critical; stapling, drains, and antibiotics help but do not replace adequate blood supply.",
+      "source": "Colorectal surgery",
+      "difficulty": "easy",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214300-08",
+      "stem": "Which of the following is a key component of the ‘golden hour’ in trauma management?",
+      "options": [
+        "A. Definitive fixation of fractures",
+        "B. Rapid assessment and airway control",
+        "C. Immediate surgical exploration",
+        "D. Administration of tranexamic acid only"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Rapid airway control is essential within the first hour; definitive fixation may be delayed.",
+      "source": "Trauma protocols",
+      "difficulty": "easy",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214300-09",
+      "stem": "During a laparotomy, the surgeon notices a small perforation in the jejunum. Which of the following is the most appropriate repair technique?",
+      "options": [
+        "A. Primary closure with 3‑0 silk",
+        "B. Graham patch with omentum",
+        "C. Resection and anastomosis",
+        "D. End‑to‑end stapled anastomosis"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Primary closure is adequate for small jejunal perforations; omentum patch is for duodenal perforations.",
+      "source": "Small bowel surgery",
+      "difficulty": "easy",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214300-10",
+      "stem": "Which of the following is a contraindication to the use of a tourniquet in limb surgery?",
+      "options": [
+        "A. Severe peripheral vascular disease",
+        "B. Minor skin excision",
+        "C. Simple fracture fixation",
+        "D. Elective carpal tunnel release"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Tourniquets can worsen ischemia in patients with vascular disease; other procedures are not contraindicated.",
+      "source": "Orthopedic surgery",
+      "difficulty": "easy",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214300-11",
+      "stem": "In a patient with a perforated viscus, which of the following is the most appropriate initial imaging study?",
+      "options": [
+        "A. CT scan of abdomen with contrast",
+        "B. Plain abdominal X‑ray",
+        "C. Ultrasound abdomen",
+        "D. MRI abdomen"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "CT with contrast provides detailed information on perforation and contamination; plain X‑ray is less sensitive.",
+      "source": "Diagnostic imaging",
+      "difficulty": "easy",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214300-12",
+      "stem": "Which of the following is the best method to reduce postoperative pain after laparoscopic surgery?",
+      "options": [
+        "A. Epidural analgesia",
+        "B. Oral NSAIDs",
+        "C. Intravenous ketamine",
+        "D. Local anesthetic infiltration at port sites"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Local infiltration at port sites effectively reduces pain; epidural is less common for laparoscopy.",
+      "source": "Postoperative analgesia",
+      "difficulty": "easy",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214300-13",
+      "stem": "A 45‑year‑old woman undergoes a laparoscopic hysterectomy. Which of the following is a potential intra‑operative complication?",
+      "options": [
+        "A. Pulmonary embolism",
+        "B. Bowel injury",
+        "C. Deep vein thrombosis",
+        "D. Stroke"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Bowel injury can occur during trocar insertion; other complications are less likely intra‑operatively.",
+      "source": "Gynecologic surgery",
+      "difficulty": "easy",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214300-14",
+      "stem": "Which of the following is the most common cause of postoperative bleeding after a laparoscopic cholecystectomy?",
+      "options": [
+        "A. Bleeding from the cystic artery stump",
+        "B. Bleeding from the gallbladder bed",
+        "C. Bleeding from the liver capsule",
+        "D. Bleeding from the abdominal wall incision"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The cystic artery stump is the usual source; gallbladder bed or liver capsule bleeding is less common.",
+      "source": "Cholecystectomy complications",
+      "difficulty": "easy",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214314-01",
+      "stem": "Which of the following is the most appropriate first step in the management of a patient with a suspected perforated viscus presenting with acute abdomen?",
+      "options": [
+        "Obtain a CT scan of the abdomen",
+        "Administer broad‑spectrum intravenous antibiotics",
+        "Perform an exploratory laparotomy",
+        "Give a high‑dose intravenous steroid"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Broad‑spectrum IV antibiotics should be started immediately to cover gut flora and reduce sepsis risk. Imaging or surgery can be delayed until the patient is stable. Steroids are not indicated.",
+      "source": "Principles of emergency surgical care",
       "difficulty": "moderate",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115212449-01",
-      "stem": "A 45‑year‑old man presents with a 2‑cm, firm, non‑tender mass in the left lower quadrant. Imaging shows a well‑defined lesion arising from the mesentery with no evidence of vascular invasion. Which of the following statements best describes the appropriate surgical management of this lesion?",
+      "id": "ai-principles-of-surgery-20261115214314-02",
+      "stem": "A 45‑year‑old man presents with a 2‑cm, well‑demarcated, exophytic lesion on the anterior abdominal wall. Which of the following is the least likely diagnosis?",
       "options": [
-        "A. Perform a simple enucleation of the mass with preservation of the surrounding mesenteric vessels.",
-        "B. Undertake a segmental small bowel resection with primary anastomosis to ensure clear margins.",
-        "C. Execute a wedge resection of the mesentery and ligate the feeding vessel to achieve complete excision.",
-        "D. Observe the lesion with serial imaging, as it is likely a benign lipoma that will not progress."
+        "Lipoma",
+        "Epidermoid cyst",
+        "Sister Mary Joseph nodule",
+        "Dermatofibroma"
       ],
       "correctOptionIndex": 2,
-      "explanation": "The lesion is a mesenteric tumor that must be completely excised with clear margins to prevent recurrence. A wedge resection of the mesentery with ligation of the feeding vessel (option C) achieves this while preserving bowel continuity. Simple enucleation (A) risks incomplete removal and recurrence. Segmental bowel resection (B) is unnecessary if the mass is confined to the mesentery. Observation (D) is inappropriate because even benign mesenteric tumors can become symptomatic or malignant.",
-      "source": "Principles of Surgical Oncology – Complete Excision of Mesenteric Tumors",
+      "explanation": "A Sister Mary Joseph nodule is a metastatic umbilical lesion, not a benign exophytic skin growth. The other options are benign cutaneous lesions.",
+      "source": "Cutaneous surgical lesions",
+      "difficulty": "moderate",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214314-03",
+      "stem": "In a patient undergoing laparoscopic cholecystectomy, which of the following is the most common cause of postoperative bile duct injury?",
+      "options": [
+        "Misidentification of the cystic duct",
+        "Accidental clipping of the common bile duct",
+        "Injury to the cystic artery",
+        "Injury to the hepatic duct during dissection"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The cystic duct is often misidentified as the common bile duct, leading to injury. Clipping the common bile duct is rare and usually due to misidentification.",
+      "source": "Laparoscopic gallbladder surgery",
+      "difficulty": "moderate",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214314-04",
+      "stem": "Which of the following is a key component of the surgical wound classification system?",
+      "options": [
+        "Number of sutures used",
+        "Depth of the wound",
+        "Type of suture material",
+        "Time of surgery"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Wound classification (clean, clean‑contaminated, contaminated, dirty) is based on the depth and contamination of the wound, not on suture type or timing.",
+      "source": "Surgical wound classification",
+      "difficulty": "moderate",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214314-05",
+      "stem": "A 60‑year‑old patient with a history of smoking presents with a 3‑cm ulcerated lesion on the right lung. Which of the following is the most appropriate initial diagnostic test?",
+      "options": [
+        "Chest X‑ray",
+        "CT‑guided lung biopsy",
+        "Bronchoscopy with biopsy",
+        "PET‑CT"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Bronchoscopy with biopsy allows direct visualization and tissue sampling of central lung lesions, which is the first step in diagnosing suspected lung cancer.",
+      "source": "Pulmonary oncology diagnostics",
+      "difficulty": "moderate",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214314-06",
+      "stem": "Which of the following is NOT a typical sign of acute appendicitis?",
+      "options": [
+        "Right lower quadrant rebound tenderness",
+        "Fever",
+        "Malaise",
+        "Left lower quadrant pain"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Left lower quadrant pain is not characteristic of appendicitis, which typically presents with right lower quadrant findings.",
+      "source": "Acute abdominal pain",
+      "difficulty": "moderate",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214314-07",
+      "stem": "In the context of the 'Rule of 10s' for abdominal aortic aneurysm, which of the following statements is correct?",
+      "options": [
+        "An aneurysm >10 cm is considered ruptured",
+        "An aneurysm >10 mm in diameter is considered significant",
+        "An aneurysm >10% of the aortic diameter is considered significant",
+        "An aneurysm >10 cm in length is considered significant"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The rule states that an aneurysm exceeding 10% of the aortic diameter is significant and warrants intervention.",
+      "source": "Aneurysm management guidelines",
+      "difficulty": "moderate",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214314-08",
+      "stem": "Which of the following is the most common cause of postoperative ileus?",
+      "options": [
+        "Inadequate analgesia",
+        "Infection",
+        "Hypokalemia",
+        "Trauma to the bowel during surgery"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Inadequate analgesia, especially with opioids, is the leading cause of postoperative ileus.",
+      "source": "Postoperative recovery",
+      "difficulty": "moderate",
+      "duplicateOfExisting": true,
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214314-09",
+      "stem": "A 30‑year‑old woman presents with a 2‑cm, firm, mobile mass in the left breast. Which of the following is the least likely diagnosis?",
+      "options": [
+        "Fibroadenoma",
+        "Invasive ductal carcinoma",
+        "Phyllodes tumour",
+        "Fibrocystic change"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Invasive ductal carcinoma is less likely in a young woman with a small, mobile, firm mass; fibroadenoma and phyllodes are common benign lesions.",
+      "source": "Breast pathology",
+      "difficulty": "moderate",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214314-10",
+      "stem": "Which of the following is a contraindication to the use of a tourniquet in limb surgery?",
+      "options": [
+        "Severe peripheral vascular disease",
+        "Short duration of surgery",
+        "Use of a pneumatic tourniquet",
+        "Patient age >80 years"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Severe peripheral vascular disease contraindicates tourniquet use due to risk of ischemic injury.",
+      "source": "Tourniquet safety",
+      "difficulty": "moderate",
+      "duplicateOfExisting": true,
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214314-11",
+      "stem": "Which of the following is the most common site of perforation in peptic ulcer disease?",
+      "options": [
+        "Duodenum",
+        "Stomach",
+        "Jejunum",
+        "Ileum"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Duodenal ulcers perforate more frequently than gastric ulcers.",
+      "source": "Peptic ulcer complications",
+      "difficulty": "moderate",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214314-12",
+      "stem": "A 55‑year‑old man with a history of alcohol abuse presents with a sudden onset of severe epigastric pain radiating to the back. Which of the following laboratory findings is most characteristic of acute pancreatitis?",
+      "options": [
+        "Hypertriglyceridemia",
+        "Hypercalcemia",
+        "Hyperglycemia",
+        "Hyperamylasemia"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Elevated serum amylase (or lipase) is a hallmark of acute pancreatitis.",
+      "source": "Pancreatitis diagnosis",
+      "difficulty": "moderate",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214314-13",
+      "stem": "Which of the following is the most appropriate prophylaxis for a patient undergoing elective abdominal surgery to prevent venous thromboembolism?",
+      "options": [
+        "Low‑molecular‑weight heparin prophylaxis",
+        "Unfractionated heparin infusion",
+        "Warfarin therapy",
+        "No prophylaxis is needed"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Low‑molecular‑weight heparin is the standard prophylaxis for VTE in elective abdominal surgery.",
+      "source": "VTE prophylaxis guidelines",
+      "difficulty": "moderate",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214314-14",
+      "stem": "Which of the following is a key principle of the 'no‑touch' technique in laparoscopic colorectal surgery?",
+      "options": [
+        "The specimen is extracted through a small incision",
+        "The bowel is not grasped with forceps",
+        "The mesentery is divided before the bowel is mobilized",
+        "The stapler is fired before ligation of vessels"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The no‑touch technique avoids grasping the bowel to reduce tumor cell dissemination.",
+      "source": "Oncologic surgical techniques",
+      "difficulty": "moderate",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214345-01",
+      "stem": "Which of the following is the most appropriate first step in the management of a patient with a perforated peptic ulcer presenting with generalized peritonitis?",
+      "options": [
+        "Immediate laparotomy after a single dose of broad‑spectrum antibiotics",
+        "Resuscitation with crystalloid fluids and vasopressors, then urgent laparotomy",
+        "Endoscopic closure of the ulcer",
+        "Observation and repeat imaging after 24 hours"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Resuscitation with fluids and vasopressors stabilises the patient before definitive surgical repair; antibiotics alone or endoscopic closure are inadequate for generalized peritonitis.",
+      "source": "Principles of acute abdomen management",
       "difficulty": "hard",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115212456-01",
-      "stem": "A 58‑year‑old man presents with a 3‑month history of progressive dysphagia to solids, weight loss, and a palpable epigastric mass. Endoscopy shows a circumferential ulcerating lesion at the gastro‑esophageal junction. Biopsy confirms moderately differentiated adenocarcinoma. Imaging reveals a 4‑cm tumor invading the cardia but no distant metastases. Which of the following operative strategies provides the best chance of long‑term survival while preserving adequate gastric function?",
+      "id": "ai-principles-of-surgery-20261115214345-02",
+      "stem": "A 45‑year‑old man presents with a 3‑cm submucosal tumour in the proximal jejunum. Which imaging modality provides the best combination of sensitivity and specificity for characterising this lesion?",
       "options": [
-        "A. Total gastrectomy with D2 lymphadenectomy",
-        "B. Subtotal (distal) gastrectomy with Billroth II reconstruction",
-        "C. Transhiatal esophagectomy with proximal gastrectomy",
-        "D. Pylorus‑preserving gastrectomy with Roux‑en‑Y reconstruction"
+        "Plain abdominal radiograph",
+        "Contrast‑enhanced CT scan",
+        "Endoscopic ultrasound",
+        "MRI with enteric contrast"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Endoscopic ultrasound offers high resolution for submucosal lesions, superior to CT or MRI for size, layer of origin and vascularity.",
+      "source": "Small bowel tumour imaging",
+      "difficulty": "hard",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214345-03",
+      "stem": "In a patient undergoing elective laparoscopic cholecystectomy, which of the following is the most common cause of postoperative bile duct injury?",
+      "options": [
+        "Clipping of the cystic duct too high",
+        "Misidentification of the common bile duct as the cystic duct",
+        "Inadequate exposure of Calot’s triangle",
+        "Use of a harmonic scalpel"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The most frequent injury is misidentification of the common bile duct as the cystic duct; careful dissection and identification of the cystic duct are essential.",
+      "source": "Bile duct injury prevention",
+      "difficulty": "hard",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214345-04",
+      "stem": "A 60‑year‑old woman with a 2‑cm rectal tumour is scheduled for low anterior resection. Which of the following preoperative measures is most likely to reduce anastomotic leak?",
+      "options": [
+        "Preoperative stoma formation",
+        "Intraoperative indocyanine green fluorescence imaging of perfusion",
+        "Use of a stapler with a 45‑mm cartridge",
+        "Administration of high‑dose steroids"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Intraoperative fluorescence imaging assesses perfusion and correlates with lower leak rates; stoma formation is reserved for high‑risk cases, not routine.",
+      "source": "Anastomotic leak prevention",
+      "difficulty": "hard",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214345-05",
+      "stem": "Which of the following statements best describes the principle of the ‘no‑touch’ technique in colorectal surgery?",
+      "options": [
+        "The tumour is removed without any manipulation of the bowel wall",
+        "The tumour is resected with a margin of normal tissue but no direct handling of the tumour itself",
+        "The specimen is extracted through a small incision to avoid contamination",
+        "The tumour is left in situ and only the surrounding lymph nodes are removed"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The no‑touch technique involves resecting the tumour with normal tissue margins while avoiding direct manipulation of the tumour to reduce tumour cell spillage.",
+      "source": "Oncologic surgical principles",
+      "difficulty": "hard",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214345-06",
+      "stem": "During a laparoscopic appendectomy, which of the following is the most appropriate method to control the base of the appendix?",
+      "options": [
+        "Ligature with a silk suture",
+        "Endoloop ligature",
+        "Hem-o-lok clip",
+        "Stapler device"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "A Hem-o-lok clip provides secure, atraumatic closure of the appendiceal base; silk is not recommended, and staplers are unnecessary for the appendix.",
+      "source": "Appendectomy technique",
+      "difficulty": "hard",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214345-07",
+      "stem": "A 70‑year‑old man with a 4‑cm pancreatic head mass is being considered for a Whipple procedure. Which of the following preoperative investigations is essential to rule out metastatic disease?",
+      "options": [
+        "Serum CA 19‑9 level",
+        "CT scan of the chest, abdomen and pelvis",
+        "Endoscopic ultrasound with fine‑needle aspiration",
+        "MRI of the pancreas"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A CT scan of chest, abdomen and pelvis evaluates for distant metastases; CA 19‑9 is a marker but not definitive, and EUS‑FNA is for diagnosis, not staging.",
+      "source": "Pancreatic cancer staging",
+      "difficulty": "hard",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214345-08",
+      "stem": "Which of the following is the most common cause of postoperative ileus after abdominal surgery?",
+      "options": [
+        "Inadequate analgesia",
+        "Infection",
+        "Hypomagnesemia",
+        "Early feeding"
       ],
       "correctOptionIndex": 0,
-      "explanation": "The lesion is located at the gastro‑esophageal junction and invades the cardia. The optimal curative approach is a total gastrectomy with a D2 lymphadenectomy, which provides adequate margins and nodal clearance for this proximal gastric cancer. Subtotal gastrectomy would leave residual disease; a transhiatal esophagectomy is unnecessary and more morbid; pylorus‑preserving gastrectomy is unsuitable for a cardia tumour. Thus option A is correct.",
-      "source": "Principles of oncologic resection for proximal gastric cancer",
-      "difficulty": "very hard",
+      "explanation": "Inadequate analgesia, especially with opioids, impairs gut motility and is the leading cause of postoperative ileus.",
+      "source": "Postoperative ileus management",
+      "difficulty": "hard",
+      "duplicateOfExisting": true,
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214345-09",
+      "stem": "A 55‑year‑old woman presents with a 3‑cm left ovarian cystic mass. Which of the following surgical approaches is most appropriate for definitive management?",
+      "options": [
+        "Laparoscopic cystectomy",
+        "Open laparotomy with cystectomy",
+        "Oophorectomy",
+        "Observation with serial ultrasound"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "A laparoscopic cystectomy is minimally invasive, preserves ovarian tissue, and is standard for benign cysts; oophorectomy is unnecessary.",
+      "source": "Gynecologic surgery guidelines",
+      "difficulty": "hard",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214345-10",
+      "stem": "In the management of a patient with a perforated duodenal ulcer, which of the following is the most appropriate surgical procedure?",
+      "options": [
+        "Graham patch repair",
+        "Primary closure with sutures",
+        "Duodenal resection",
+        "Pancreaticoduodenectomy"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "A Graham patch (omental patch) over the duodenal perforation is the standard repair; primary closure alone is less reliable.",
+      "source": "Duodenal ulcer surgery",
+      "difficulty": "hard",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214345-11",
+      "stem": "Which of the following best describes the ‘rule of 10s’ in the context of a traumatic abdominal injury?",
+      "options": [
+        "10% of patients have a hollow viscus injury",
+        "10% of patients with a penetrating injury require laparotomy",
+        "10% of patients with a penetrating injury have a solid organ injury",
+        "10% of patients with a penetrating injury have a vascular injury"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The rule of 10s states that 10% of patients with penetrating abdominal trauma need operative exploration; the other percentages refer to different injury types.",
+      "source": "Trauma surgery principles",
+      "difficulty": "hard",
+      "section": "Principles of Surgery",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-principles-of-surgery-20261115214345-12",
+      "stem": "A 48‑year‑old man undergoes a laparoscopic radical prostatectomy. Which of the following postoperative complications is most likely to be encountered?",
+      "options": [
+        "Urinary incontinence",
+        "Gastrointestinal bleeding",
+        "Deep vein thrombosis",
+        "Wound infection"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Urinary incontinence is the most common early complication after radical prostatectomy; DVT and wound infection are less frequent.",
+      "source": "Prostatectomy outcomes",
+      "difficulty": "hard",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"

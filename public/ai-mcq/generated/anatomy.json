@@ -5,89 +5,685 @@
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
   "bankQuestionCount": 1561,
-  "generatedAt": "2026-11-15T21:23:59.546779+00:00",
+  "generatedAt": "2026-11-15T21:40:51.252897+00:00",
   "questions": [
     {
-      "id": "ai-anatomy-20261115212357-01",
-      "stem": "Which of the following structures is the largest artery in the human body?",
+      "id": "ai-anatomy-20261115214047-01",
+      "stem": "Which of the following structures is part of the portal triad found in the hepatoduodenal ligament?",
       "options": [
-        "Aorta",
-        "Pulmonary artery",
-        "Carotid artery",
-        "Subclavian artery"
+        "Common bile duct",
+        "Portal vein",
+        "Celiac trunk",
+        "Superior mesenteric artery"
       ],
-      "correctOptionIndex": 0,
-      "explanation": "The aorta is the main systemic artery that originates from the left ventricle and supplies the entire body; it is larger than the pulmonary, carotid, and subclavian arteries.",
-      "source": "Basic vascular anatomy",
-      "difficulty": "very easy",
-      "section": "Anatomy",
-      "status": "ai-generated-draft",
-      "reviewStatus": "requires-supervisor-review"
-    },
-    {
-      "id": "ai-anatomy-20261115212357-01",
-      "stem": "Which of the following structures is the most common site of a duodenal ulcer perforation?",
-      "options": [
-        "A. Posterior wall of the first part of the duodenum",
-        "B. Anterior wall of the third part of the duodenum",
-        "C. Posterior wall of the third part of the duodenum",
-        "D. Anterior wall of the first part of the duodenum"
-      ],
-      "correctOptionIndex": 0,
-      "explanation": "Duodenal ulcers most frequently occur on the posterior wall of the first part of the duodenum, making this the most common perforation site. The other options represent less common locations.",
-      "source": "Basic anatomy of the duodenum; common ulcer perforation sites",
+      "correctOptionIndex": 1,
+      "explanation": "The portal triad consists of the portal vein, hepatic artery proper, and common bile duct. The celiac trunk and SMA are separate arterial branches.",
+      "source": "Portal triad anatomy",
       "difficulty": "easy",
       "section": "Anatomy",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-anatomy-20261115212358-01",
-      "stem": "A 45‑year‑old man undergoes a laparoscopic cholecystectomy. The surgeon identifies a cystic duct that drains into the common hepatic duct at a 45° angle. Which of the following structures is most likely to be injured if the cystic duct is inadvertently divided during the procedure?",
+      "id": "ai-anatomy-20261115214047-02",
+      "stem": "The phrenic nerve supplies which of the following structures?",
       "options": [
-        "Cystic artery",
-        "Common hepatic duct",
-        "Cystic lymph node",
-        "Gallbladder fundus"
+        "Diaphragm",
+        "Sternum",
+        "Liver",
+        "Gallbladder"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The phrenic nerve (C3‑C5) innervates the diaphragm. It does not supply the sternum, liver, or gallbladder.",
+      "source": "Cranial nerve anatomy",
+      "difficulty": "easy",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214047-03",
+      "stem": "Which artery gives rise to the right gastroepiploic artery?",
+      "options": [
+        "Right gastric artery",
+        "Right hepatic artery",
+        "Right gastroepiploic artery",
+        "Left gastroepiploic artery"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The right gastroepiploic artery is a branch of the gastroduodenal artery, not the right gastric or hepatic arteries.",
+      "source": "Gastric arterial supply",
+      "difficulty": "easy",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214047-04",
+      "stem": "The lesser sac is located posterior to which structure?",
+      "options": [
+        "Stomach",
+        "Pancreas",
+        "Duodenum",
+        "Spleen"
       ],
       "correctOptionIndex": 1,
-      "explanation": "The cystic duct joins the common hepatic duct; dividing it will transect the common hepatic duct, leading to bile leakage. The cystic artery runs separately with the duct, the lymph node is not a vascular structure, and the gallbladder fundus is distal to the duct.",
-      "source": "Basic surgical anatomy of the hepatobiliary system",
+      "explanation": "The lesser sac lies posterior to the stomach and anterior to the pancreas; it is not posterior to the duodenum or spleen.",
+      "source": "Abdominal cavity anatomy",
+      "difficulty": "easy",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214047-05",
+      "stem": "Which of the following veins drains the lower limb into the inferior vena cava?",
+      "options": [
+        "Femoral vein",
+        "Popliteal vein",
+        "Saphenous vein",
+        "Great saphenous vein"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The femoral vein joins the external iliac to form the common iliac, which then joins the internal iliac to form the IVC. The other veins drain into the femoral.",
+      "source": "Venous drainage of lower limb",
+      "difficulty": "easy",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214047-06",
+      "stem": "The ligament of Treitz is a suspensory ligament of which part of the gastrointestinal tract?",
+      "options": [
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The ligament of Treitz suspends the duodenojejunal flexure, marking the transition from duodenum to jejunum.",
+      "source": "GI tract anatomy",
+      "difficulty": "easy",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214047-07",
+      "stem": "Which of the following structures is NOT part of the hepatoceliac trunk?",
+      "options": [
+        "Common hepatic artery",
+        "Gastroduodenal artery",
+        "Splenic artery",
+        "Celiac trunk"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "The celiac trunk is the origin of the common hepatic, splenic, and left gastric arteries; the gastroduodenal is a branch of the common hepatic.",
+      "source": "Celiac trunk anatomy",
+      "difficulty": "easy",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214047-08",
+      "stem": "The left colic artery supplies which segment of the colon?",
+      "options": [
+        "Ascending colon",
+        "Transverse colon",
+        "Descending colon",
+        "Sigmoid colon"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The left colic artery supplies the descending colon; the ascending colon is supplied by the ileocolic artery.",
+      "source": "Colonic arterial supply",
+      "difficulty": "easy",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214047-09",
+      "stem": "Which of the following nerves innervates the external anal sphincter?",
+      "options": [
+        "Pudendal nerve",
+        "Pelvic splanchnic nerves",
+        "Hypogastric nerve",
+        "Vagus nerve"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The pudendal nerve provides somatic innervation to the external anal sphincter.",
+      "source": "Pelvic nerve anatomy",
+      "difficulty": "easy",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214047-10",
+      "stem": "The suprapubic region is located over which bone?",
+      "options": [
+        "Femur",
+        "Ilium",
+        "Sternum",
+        "Tibia"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The suprapubic region lies over the pubic symphysis, part of the ilium.",
+      "source": "Abdominal regions",
+      "difficulty": "easy",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214047-11",
+      "stem": "Which of the following is the largest lymph node group in the axilla?",
+      "options": [
+        "Infraclavicular nodes",
+        "Central nodes",
+        "Apical nodes",
+        "Subscapular nodes"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Apical axillary nodes are the largest and drain the breast and upper limb.",
+      "source": "Axillary lymphatics",
+      "difficulty": "easy",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214047-12",
+      "stem": "The median arcuate ligament compresses which structure when it is abnormally tight?",
+      "options": [
+        "Superior mesenteric artery",
+        "Celiac trunk",
+        "Inferior vena cava",
+        "Renal artery"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A tight median arcuate ligament can compress the celiac trunk, causing celiac artery compression syndrome.",
+      "source": "Celiac artery anatomy",
+      "difficulty": "easy",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214047-13",
+      "stem": "Which of the following arteries supplies the pyloric antrum?",
+      "options": [
+        "Right gastric artery",
+        "Left gastric artery",
+        "Right gastroepiploic artery",
+        "Left gastroepiploic artery"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The right gastric artery supplies the pyloric antrum; the left gastric supplies the lesser curvature.",
+      "source": "Gastric arterial supply",
+      "difficulty": "easy",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214047-14",
+      "stem": "The ligamentum teres hepatis is a remnant of which fetal structure?",
+      "options": [
+        "Umbilical vein",
+        "Umbilical artery",
+        "Umbilical cord",
+        "Umbilical artery and vein"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The ligamentum teres is the fibrous remnant of the fetal umbilical vein.",
+      "source": "Fetal circulation",
+      "difficulty": "easy",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214049-01",
+      "stem": "Which of the following structures is NOT part of the hepatoduodenal ligament?",
+      "options": [
+        "Common bile duct",
+        "Portal vein",
+        "Celiac trunk",
+        "Hepatic artery proper"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The hepatoduodenal ligament contains the portal triad: common bile duct, portal vein, and hepatic artery. The celiac trunk lies higher in the abdomen and is not within this ligament.",
+      "source": "Basic abdominal anatomy",
       "difficulty": "moderate",
       "section": "Anatomy",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-anatomy-20261115212358-01",
-      "stem": "A 45‑year‑old man presents with a palpable mass in the left upper quadrant. Imaging shows a well‑encapsulated lesion arising from the left hepatic lobe. Which of the following structures is most likely to be displaced by this tumour?",
+      "id": "ai-anatomy-20261115214049-02",
+      "stem": "The left colic flexure is supplied by which artery?",
       "options": [
-        "Left portal vein",
-        "Left hepatic duct",
-        "Left hepatic artery",
-        "Left adrenal gland"
+        "Left colic artery",
+        "Sigmoid artery",
+        "Ileocolic artery",
+        "Superior mesenteric artery"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The left colic artery, a branch of the inferior mesenteric artery, supplies the splenic flexure. The other arteries supply different segments.",
+      "source": "Colonic vascular anatomy",
+      "difficulty": "moderate",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214049-03",
+      "stem": "Which nerve innervates the diaphragm?",
+      "options": [
+        "Phrenic nerve",
+        "Vagus nerve",
+        "Accessory nerve",
+        "Hypoglossal nerve"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The phrenic nerve (C3-C5) provides motor innervation to the diaphragm. Vagus supplies abdominal viscera, accessory supplies sternocleidomastoid, hypoglossal supplies tongue.",
+      "source": "Neuroanatomy of respiration",
+      "difficulty": "moderate",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214049-04",
+      "stem": "The round ligament of the uterus is a remnant of which embryonic structure?",
+      "options": [
+        "Yolk sac",
+        "Allantois",
+        "Urogenital sinus",
+        "Fallopian tube"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The round ligament derives from the gubernaculum, which is a remnant of the yolk sac. Allantois forms the urachus; urogenital sinus forms bladder; fallopian tube is separate.",
+      "source": "Embryology of female reproductive tract",
+      "difficulty": "moderate",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214049-05",
+      "stem": "Which of the following is the most common site of splenic rupture after blunt abdominal trauma?",
+      "options": [
+        "Upper pole",
+        "Lower pole",
+        "Mid‑pole",
+        "Posterior surface"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The lower pole of the spleen is most frequently injured due to its mobility and lack of protective ribs. Upper and mid poles are less exposed.",
+      "source": "Trauma to the spleen",
+      "difficulty": "moderate",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214049-06",
+      "stem": "The pharyngeal constrictor muscles are innervated by which cranial nerve?",
+      "options": [
+        "CN V",
+        "CN VII",
+        "CN IX",
+        "CN X"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "CN X (vagus) supplies all pharyngeal constrictors. CN V supplies muscles of mastication, VII facial, IX glossopharyngeal.",
+      "source": "Cranial nerve innervation of pharynx",
+      "difficulty": "moderate",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214049-07",
+      "stem": "Which structure passes posterior to the pancreas?",
+      "options": [
+        "Splenic vein",
+        "Portal vein",
+        "Superior mesenteric artery",
+        "Common bile duct"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The portal vein runs posterior to the neck of the pancreas. Splenic vein is anterior; SMA is anterior; CBD is anterior.",
+      "source": "Pancreatic vascular relationships",
+      "difficulty": "moderate",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214049-08",
+      "stem": "The median arcuate ligament is a fibrous arch formed by the diaphragmatic crura over which artery does it pass?",
+      "options": [
+        "Superior mesenteric artery",
+        "Celiac trunk",
+        "Renal artery",
+        "Aorta"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The median arcuate ligament arches over the celiac trunk. It does not cross the SMA, renal arteries, or aorta.",
+      "source": "Diaphragmatic anatomy",
+      "difficulty": "moderate",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214049-09",
+      "stem": "Which of the following is NOT a component of the thoracic duct?",
+      "options": [
+        "Lymph from the left upper limb",
+        "Lymph from the right lower limb",
+        "Lymph from the left lower limb",
+        "Lymph from the right upper limb"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "The thoracic duct drains lymph from the left upper limb, left lower limb, and right lower limb. Lymph from the right upper limb drains via the right lymphatic duct.",
+      "source": "Lymphatic drainage",
+      "difficulty": "moderate",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214049-10",
+      "stem": "The inferior vena cava is formed by the union of which two veins?",
+      "options": [
+        "Common iliac veins",
+        "External iliac veins",
+        "Internal iliac veins",
+        "Femoral veins"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The IVC is formed by the confluence of the common iliac veins. External and internal iliac veins join to form the common iliac.",
+      "source": "Vascular anatomy of abdomen",
+      "difficulty": "moderate",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214049-11",
+      "stem": "Which of the following is the correct order of layers in the abdominal wall from superficial to deep?",
+      "options": [
+        "Skin, subcutaneous tissue, muscle, peritoneum",
+        "Skin, muscle, subcutaneous tissue, peritoneum",
+        "Skin, subcutaneous tissue, muscle, transversalis fascia, peritoneum",
+        "Skin, subcutaneous tissue, transversalis fascia, muscle, peritoneum"
       ],
       "correctOptionIndex": 2,
-      "explanation": "A hepatic tumour in the left lobe typically displaces the left hepatic artery, which runs anterior to the portal vein and duct. The portal vein and duct lie more posteriorly, while the adrenal gland is located superiorly and posterior to the liver.",
-      "source": "Basic hepatic anatomy; relationship of vessels to liver lobes",
+      "explanation": "The correct sequence is skin, subcutaneous tissue, muscle, transversalis fascia, peritoneum. The other options misplace fascia or muscle.",
+      "source": "Abdominal wall anatomy",
+      "difficulty": "moderate",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214049-12",
+      "stem": "The ligament of Treitz is a tendinous band that attaches the duodenum to which structure?",
+      "options": [
+        "Jejunum",
+        "Ileum",
+        "Transverse colon",
+        "Mesentery"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "The ligament of Treitz attaches the duodenum to the mesentery, marking the duodenojejunal flexure. It does not attach to the intestines themselves.",
+      "source": "Upper GI anatomy",
+      "difficulty": "moderate",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214049-13",
+      "stem": "Which of the following structures is NOT part of the portal triad?",
+      "options": [
+        "Common hepatic duct",
+        "Portal vein",
+        "Common hepatic artery",
+        "Celiac trunk"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "The portal triad consists of the common hepatic duct, portal vein, and hepatic artery. The celiac trunk is a higher arterial source.",
+      "source": "Liver anatomy",
+      "difficulty": "moderate",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214049-14",
+      "stem": "The right gastric artery typically arises from which vessel?",
+      "options": [
+        "Right gastroepiploic artery",
+        "Left gastric artery",
+        "Common hepatic artery",
+        "Splenic artery"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The right gastric artery usually branches from the common hepatic artery. It does not arise from the gastroepiploic, left gastric, or splenic arteries.",
+      "source": "Celiac trunk branches",
+      "difficulty": "moderate",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214051-01",
+      "stem": "Which of the following arteries supplies the majority of the blood to the spleen?",
+      "options": [
+        "Splenic artery",
+        "Pancreaticoduodenal artery",
+        "Superior mesenteric artery",
+        "Celiac trunk"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The splenic artery, a branch of the celiac trunk, is the main arterial supply to the spleen. The other arteries supply different abdominal organs.",
+      "source": "Spleen vascular anatomy",
       "difficulty": "hard",
       "section": "Anatomy",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-anatomy-20261115212359-01",
-      "stem": "A 45‑year‑old man presents with a 3‑month history of intermittent right upper quadrant pain and a palpable mass in the epigastrium. Imaging shows a cystic lesion arising from the posterior wall of the stomach, with a thick, irregular wall and a small, enhancing nodule on the inner surface. Which of the following structures is most likely to be involved in the malignant transformation of this lesion?",
+      "id": "ai-anatomy-20261115214051-02",
+      "stem": "The left gastric vein drains into which of the following structures?",
       "options": [
-        "A. Gastric mucosa",
-        "B. Gastric submucosa",
-        "C. Gastric muscularis propria",
-        "D. Gastric serosa"
+        "Portal vein",
+        "Inferior vena cava",
+        "Celiac trunk",
+        "Splenic vein"
       ],
-      "correctOptionIndex": 2,
-      "explanation": "The lesion described is a gastric cystic neoplasm with an enhancing nodule, characteristic of a cystic gastrointestinal stromal tumour (GIST). GISTs arise from the interstitial cells of Cajal located in the muscularis propria layer. Thus the muscularis propria is the structure most likely involved in malignant transformation. The mucosa, submucosa and serosa are not the origin of GISTs.",
-      "source": "Gastrointestinal stromal tumour origin",
-      "difficulty": "very hard",
+      "correctOptionIndex": 0,
+      "explanation": "The left gastric vein joins the portal vein, contributing to portal circulation. It does not drain into systemic veins.",
+      "source": "Portal venous system",
+      "difficulty": "hard",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214051-03",
+      "stem": "Which of the following structures is NOT part of the hepatoduodenal ligament?",
+      "options": [
+        "Common bile duct",
+        "Portal vein",
+        "Celiac trunk",
+        "Hepatic artery proper"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The portal vein is within the hepatoduodenal ligament; the celiac trunk lies proximal to it and is not part of the ligament.",
+      "source": "Liver anatomy",
+      "difficulty": "hard",
+      "duplicateOfExisting": true,
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214051-04",
+      "stem": "The phrenic nerve supplies motor innervation to which of the following muscles?",
+      "options": [
+        "Diaphragm",
+        "Intercostal muscles",
+        "Sternocleidomastoid",
+        "Scalene muscles"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The phrenic nerve originates from C3-C5 and supplies the diaphragm. It does not innervate the other listed muscles.",
+      "source": "Neuroanatomy of respiration",
+      "difficulty": "hard",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214051-05",
+      "stem": "Which of the following lymph nodes is the first station for lymphatic drainage of the lower limb?",
+      "options": [
+        "Popliteal nodes",
+        "Inguinal nodes",
+        "Femoral nodes",
+        "Obturator nodes"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Inguinal lymph nodes are the primary drainage point for the lower limb. Popliteal nodes drain the knee region but are not the first station.",
+      "source": "Lymphatic drainage of lower limb",
+      "difficulty": "hard",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214051-06",
+      "stem": "The median arcuate ligament is a fibrous arch that surrounds which artery?",
+      "options": [
+        "Superior mesenteric artery",
+        "Celiac trunk",
+        "Abdominal aorta",
+        "Renal artery"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The median arcuate ligament encircles the celiac trunk. It does not involve the other arteries listed.",
+      "source": "Abdominal ligament anatomy",
+      "difficulty": "hard",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214051-07",
+      "stem": "Which of the following structures is NOT a component of the hepatopancreatic ampulla?",
+      "options": [
+        "Common bile duct",
+        "Pancreatic duct",
+        "Duodenum",
+        "Stomach"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "The hepatopancreatic ampulla (ampulla of Vater) consists of the common bile duct, pancreatic duct, and duodenum. The stomach is not involved.",
+      "source": "Upper GI anatomy",
+      "difficulty": "hard",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214051-08",
+      "stem": "The left renal vein receives a direct tributary from which of the following veins?",
+      "options": [
+        "Inferior vena cava",
+        "Azygos vein",
+        "Renal vein of the right kidney",
+        "Left gonadal vein"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "The left gonadal vein drains into the left renal vein. The right renal vein drains into the IVC, not the left renal vein.",
+      "source": "Renal venous drainage",
+      "difficulty": "hard",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214051-09",
+      "stem": "The ligamentum teres hepatis is a remnant of which embryonic structure?",
+      "options": [
+        "Umbilical vein",
+        "Umbilical artery",
+        "Umbilical cord",
+        "Umbilical lymphatic vessels"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The ligamentum teres hepatis is the fibrous remnant of the fetal umbilical vein. It is not related to arteries or lymphatics.",
+      "source": "Embryology of the liver",
+      "difficulty": "hard",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214051-10",
+      "stem": "Which of the following nerves provides sensory innervation to the skin over the anterior abdominal wall?",
+      "options": [
+        "Femoral nerve",
+        "Iliohypogastric nerve",
+        "Obturator nerve",
+        "Lateral femoral cutaneous nerve"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The iliohypogastric nerve supplies the lower anterior abdominal wall. The other nerves supply different regions.",
+      "source": "Anatomy of abdominal wall nerves",
+      "difficulty": "hard",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214051-11",
+      "stem": "The right hepatic artery typically arises from which of the following vessels?",
+      "options": [
+        "Celiac trunk",
+        "Superior mesenteric artery",
+        "Portal vein",
+        "Inferior vena cava"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The right hepatic artery usually branches from the celiac trunk. It does not arise from the SMA or portal vein.",
+      "source": "Hepatic arterial supply",
+      "difficulty": "hard",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115214051-12",
+      "stem": "Which of the following structures is NOT part of the posterior abdominal wall?",
+      "options": [
+        "Transversalis fascia",
+        "Posterior rectus sheath",
+        "Quadratus lumborum muscle",
+        "External oblique muscle"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "The external oblique muscle is part of the anterior abdominal wall, not the posterior.",
+      "source": "Abdominal wall anatomy",
+      "difficulty": "hard",
       "section": "Anatomy",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"

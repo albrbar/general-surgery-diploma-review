@@ -1,51 +1,51 @@
 {
-  "generatedAt": "2026-11-15T21:23:56.782566+00:00",
+  "generatedAt": "2026-11-15T21:40:46.035029+00:00",
   "model": "openai/gpt-oss-20b",
   "groups": [
     {
       "section": "anatomy",
       "label": "Anatomy",
       "file": "generated/anatomy.json",
-      "count": 5,
+      "count": 40,
       "status": "ai-generated-draft",
       "model": "openai/gpt-oss-20b",
-      "generatedAt": "2026-11-15T21:23:59.546779+00:00"
+      "generatedAt": "2026-11-15T21:40:51.252897+00:00"
     },
     {
       "section": "pathology",
       "label": "Pathology",
       "file": "generated/pathology.json",
-      "count": 5,
+      "count": 40,
       "status": "ai-generated-draft",
       "model": "openai/gpt-oss-20b",
-      "generatedAt": "2026-11-15T21:24:02.808532+00:00"
+      "generatedAt": "2026-11-15T21:41:18.866227+00:00"
     },
     {
       "section": "pharmacology",
       "label": "Pharmacology",
       "file": "generated/pharmacology.json",
-      "count": 5,
+      "count": 40,
       "status": "ai-generated-draft",
       "model": "openai/gpt-oss-20b",
-      "generatedAt": "2026-11-15T21:24:10.731036+00:00"
+      "generatedAt": "2026-11-15T21:41:57.915285+00:00"
     },
     {
       "section": "microbiology-immunology",
       "label": "Microbiology and Immunology",
       "file": "generated/microbiology-immunology.json",
-      "count": 5,
+      "count": 40,
       "status": "ai-generated-draft",
       "model": "openai/gpt-oss-20b",
-      "generatedAt": "2026-11-15T21:24:35.684560+00:00"
+      "generatedAt": "2026-11-15T21:42:43.412611+00:00"
     },
     {
       "section": "principles-of-surgery",
       "label": "Principles of Surgery",
       "file": "generated/principles-of-surgery.json",
-      "count": 5,
+      "count": 40,
       "status": "ai-generated-draft",
       "model": "openai/gpt-oss-20b",
-      "generatedAt": "2026-11-15T21:24:56.398017+00:00"
+      "generatedAt": "2026-11-15T21:43:45.703976+00:00"
     }
   ]
 }

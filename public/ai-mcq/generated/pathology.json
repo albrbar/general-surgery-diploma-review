@@ -5,89 +5,684 @@
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
   "bankQuestionCount": 1561,
-  "generatedAt": "2026-11-15T21:24:02.808532+00:00",
+  "generatedAt": "2026-11-15T21:41:18.866227+00:00",
   "questions": [
     {
-      "id": "ai-pathology-20261115212400-01",
-      "stem": "A 55‑year‑old man presents with a solitary, firm, non‑mobile mass in the right upper quadrant. Imaging shows a well‑defined lesion with central calcification. Which of the following is the most likely histological diagnosis?",
+      "id": "ai-pathology-20261115214053-01",
+      "stem": "A 45‑year‑old man presents with a solitary, firm, non‑tender mass in the right upper quadrant. Imaging shows a well‑defined lesion within the liver. Which histological feature is most characteristic of hepatocellular carcinoma?",
       "options": [
-        "A. Hepatocellular carcinoma",
-        "B. Hepatic adenoma",
-        "C. Focal nodular hyperplasia",
-        "D. Metastatic adenocarcinoma"
-      ],
-      "correctOptionIndex": 2,
-      "explanation": "Focal nodular hyperplasia (FNH) is a benign hepatic lesion that typically presents as a well‑defined mass with a central stellate scar (calcification). Hepatocellular carcinoma and metastatic adenocarcinoma are malignant and usually lack a central scar. Hepatic adenoma is also benign but does not characteristically show a central scar.",
-      "source": "Basic hepatic pathology principles",
-      "difficulty": "very easy",
-      "section": "Pathology",
-      "status": "ai-generated-draft",
-      "reviewStatus": "requires-supervisor-review"
-    },
-    {
-      "id": "ai-pathology-20261115212400-01",
-      "stem": "A 45‑year‑old woman presents with a 2‑cm firm, non‑tender mass in the left breast. Core needle biopsy shows a proliferation of ductal epithelial cells forming irregular glandular structures with high mitotic activity and areas of necrosis. Which of the following is the most likely diagnosis?",
-      "options": [
-        "A. Fibroadenoma",
-        "B. Invasive ductal carcinoma",
-        "C. Intraductal papilloma",
-        "D. Phyllodes tumour"
+        "A. Presence of fibrous septa and pseudoglandular structures",
+        "B. Sheets of pleomorphic cells with prominent nucleoli",
+        "C. Glandular mucin production",
+        "D. Spindle cells with storiform pattern"
       ],
       "correctOptionIndex": 1,
-      "explanation": "The biopsy shows malignant ductal cells with necrosis and high mitotic rate, classic for invasive ductal carcinoma. Fibroadenoma and intraductal papilloma are benign and lack necrosis; phyllodes tumour shows a leaf‑like stromal pattern, not ductal epithelial proliferation.",
-      "source": "Breast pathology fundamentals",
+      "explanation": "HCC shows sheets of pleomorphic cells with prominent nucleoli; fibrous septa are seen in cholangiocarcinoma, mucin in adenocarcinoma, spindle cells in sarcoma.",
+      "source": "Hepatocellular carcinoma histology",
       "difficulty": "easy",
       "section": "Pathology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-pathology-20261115212401-01",
-      "stem": "A 58‑year‑old man presents with a 4‑cm ulcerated mass in the sigmoid colon. Histology shows a well‑differentiated adenocarcinoma with a desmoplastic stromal reaction and lymphovascular invasion. Which of the following is the most likely histological grade of this tumour?",
+      "id": "ai-pathology-20261115214053-02",
+      "stem": "Which of the following is the most common site of origin for metastatic breast cancer to the bone?",
       "options": [
-        "Grade I (low grade)",
-        "Grade II (intermediate grade)",
-        "Grade III (high grade)",
-        "Grade IV (undifferentiated)"
+        "A. Spine",
+        "B. Skull",
+        "C. Femur",
+        "D. Pelvis"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The thoracic and lumbar spine is the most frequent site of bone metastases from breast cancer; other sites are less common.",
+      "source": "Bone metastases patterns",
+      "difficulty": "easy",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214053-03",
+      "stem": "A 60‑year‑old woman has a 2‑cm ulcerated lesion on the lower lip. Histology shows nests of atypical epithelial cells with keratin pearl formation. What is the most likely diagnosis?",
+      "options": [
+        "A. Squamous cell carcinoma",
+        "B. Basal cell carcinoma",
+        "C. Melanoma",
+        "D. Adenocarcinoma"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Keratin pearls are characteristic of squamous cell carcinoma; basal cell carcinoma shows palisading, melanoma shows melanin, adenocarcinoma shows gland formation.",
+      "source": "Oral cavity cancers",
+      "difficulty": "easy",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214053-04",
+      "stem": "Which of the following immunohistochemical stains is most useful for confirming a diagnosis of metastatic melanoma?",
+      "options": [
+        "A. Cytokeratin AE1/AE3",
+        "B. S100",
+        "C. CD20",
+        "D. Desmin"
       ],
       "correctOptionIndex": 1,
-      "explanation": "The tumour is well‑differentiated but shows lymphovascular invasion and a desmoplastic reaction, indicating a moderate degree of cytologic atypia and mitotic activity – characteristic of Grade II. Grade I tumours are highly differentiated with minimal atypia; Grade III shows marked pleomorphism and high mitotic rate; Grade IV is undifferentiated.",
-      "source": "Tumour grading principles in colorectal carcinoma",
+      "explanation": "S100 is a sensitive marker for melanoma; cytokeratin stains epithelial cells, CD20 B‑cell, desmin muscle.",
+      "source": "Immunohistochemistry in melanoma",
+      "difficulty": "easy",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214053-05",
+      "stem": "A 35‑year‑old man has a 3‑cm mass in the left adrenal gland. Histology shows nests of cells with abundant eosinophilic cytoplasm and a “Zellballen” pattern. Which hormone is most likely overproduced?",
+      "options": [
+        "A. Cortisol",
+        "B. Aldosterone",
+        "C. Adrenocorticotropic hormone",
+        "D. Catecholamines"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Pheochromocytoma shows Zellballen nests and secretes catecholamines; cortisol/aldosterone are from cortical tumors.",
+      "source": "Adrenal cortical vs medullary tumors",
+      "difficulty": "easy",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214053-06",
+      "stem": "Which of the following is a characteristic feature of a well‑differentiated liposarcoma?",
+      "options": [
+        "A. Lipoblasts with multivacuolated cytoplasm",
+        "B. Mitoses >10 per 10 high‑power fields",
+        "C. Fibrous septa with spindle cells",
+        "D. Necrosis with karyorrhexis"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Lipoblasts with multivacuolated cytoplasm are hallmark of liposarcoma; high mitoses, fibrous septa, necrosis are more typical of high‑grade sarcomas.",
+      "source": "Liposarcoma histology",
+      "difficulty": "easy",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214053-07",
+      "stem": "A 70‑year‑old woman presents with painless jaundice. Imaging reveals a 4‑cm mass in the head of the pancreas. Histology shows irregular glands lined by atypical epithelial cells with mucin production. What is the most likely diagnosis?",
+      "options": [
+        "A. Pancreatic adenocarcinoma",
+        "B. Neuroendocrine tumor",
+        "C. Acinar cell carcinoma",
+        "D. Mucinous cystic neoplasm"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Pancreatic adenocarcinoma shows irregular glands with mucin; neuroendocrine tumors are neuroendocrine, acinar cells produce enzymes, mucinous cystic neoplasms are cystic.",
+      "source": "Pancreatic neoplasms",
+      "difficulty": "easy",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214053-08",
+      "stem": "Which of the following is the most common histological type of colorectal carcinoma?",
+      "options": [
+        "A. Mucinous adenocarcinoma",
+        "B. Signet ring cell carcinoma",
+        "C. Conventional adenocarcinoma",
+        "D. Lymphoma"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Conventional adenocarcinoma accounts for >90% of colorectal cancers; mucinous and signet ring are rarer, lymphoma is non‑epithelial.",
+      "source": "Colorectal cancer types",
+      "difficulty": "easy",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214053-09",
+      "stem": "A 50‑year‑old man has a 2‑cm ulcerated lesion on the tongue. Histology shows a proliferation of spindle‑shaped cells with a storiform pattern and inflammatory infiltrate. Which diagnosis is most likely?",
+      "options": [
+        "A. Leiomyosarcoma",
+        "B. Malignant peripheral nerve sheath tumor",
+        "C. Fibrosarcoma",
+        "D. Kaposi sarcoma"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Kaposi sarcoma shows spindle cells in a storiform pattern with vascular slits; other sarcomas have different patterns or lack vascular features.",
+      "source": "Kaposi sarcoma histology",
+      "difficulty": "easy",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214053-10",
+      "stem": "Which of the following is a classic histological feature of Crohn’s disease?",
+      "options": [
+        "A. Non‑caseating granulomas",
+        "B. Crypt abscesses",
+        "C. Villous blunting",
+        "D. Mucosal ulceration with pseudopolyps"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Crohn’s disease often shows non‑caseating granulomas; crypt abscesses are typical of ulcerative colitis, villous blunting in celiac, pseudopolyps in UC.",
+      "source": "Inflammatory bowel disease histology",
+      "difficulty": "easy",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214053-11",
+      "stem": "A 55‑year‑old woman has a 3‑cm mass in the left ovary. Histology shows sheets of cells with abundant clear cytoplasm and prominent nucleoli. Which immunohistochemical marker is most useful for confirming a diagnosis of clear cell carcinoma?",
+      "options": [
+        "A. ER",
+        "B. CA125",
+        "C. HNF1β",
+        "D. p53"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "HNF1β is strongly expressed in clear cell carcinoma of ovary; ER/CA125 are more general, p53 is mutated in many carcinomas.",
+      "source": "Ovarian clear cell carcinoma markers",
+      "difficulty": "easy",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214053-12",
+      "stem": "Which of the following is the most common type of primary bone tumor in adults?",
+      "options": [
+        "A. Osteosarcoma",
+        "B. Ewing sarcoma",
+        "C. Chondrosarcoma",
+        "D. Giant cell tumor"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Chondrosarcoma is the most common primary bone malignancy in adults; osteosarcoma and Ewing are more common in children, giant cell tumor is benign.",
+      "source": "Primary bone tumors",
+      "difficulty": "easy",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214053-13",
+      "stem": "A 30‑year‑old man presents with a painless, firm mass in the scrotum. Histology shows nests of malignant cells with abundant eosinophilic cytoplasm and prominent nucleoli. Which tumor is most likely?",
+      "options": [
+        "A. Seminoma",
+        "B. Leydig cell tumor",
+        "C. Sertoli cell tumor",
+        "D. Testicular carcinoma (seminiferous tubule origin)"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Testicular carcinoma from seminiferous tubules shows malignant nests with eosinophilic cytoplasm; seminoma is uniform, Leydig and Sertoli are sex cord‑stromal.",
+      "source": "Testicular tumors",
+      "difficulty": "easy",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214053-14",
+      "stem": "Which of the following is a characteristic histological feature of a well‑differentiated thyroid carcinoma?",
+      "options": [
+        "A. Papillary nuclei with nuclear grooves",
+        "B. Follicular cells forming true papillae",
+        "C. Hurthle cell change",
+        "D. Anaplastic cells with pleomorphism"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Papillary carcinoma shows nuclear grooves and clearing; follicular cells form true papillae in papillary, Hurthle cells in follicular, anaplastic shows pleomorphism.",
+      "source": "Thyroid carcinoma histology",
+      "difficulty": "easy",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214059-01",
+      "stem": "A 55‑year‑old man presents with a solitary, firm, non‑tender mass in the left upper quadrant. Imaging shows a well‑circumscribed lesion arising from the spleen. Which of the following histological features is most characteristic of a benign splenic hemangioma?",
+      "options": [
+        "Spindle cells with storiform pattern",
+        "Glandular structures with mucinous stroma",
+        "Blood-filled vascular channels lined by a single layer of endothelial cells",
+        "Acral fibroblastic proliferation with collagen deposition"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Benign splenic hemangiomas consist of dilated vascular channels lined by a single layer of endothelial cells. The other options describe features of sarcoma, adenocarcinoma, and fibrous tissue, respectively.",
+      "source": "Basic splenic pathology",
       "difficulty": "moderate",
       "section": "Pathology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-pathology-20261115212402-01",
-      "stem": "A 58‑year‑old man presents with a 4‑cm exophytic mass on the left upper quadrant of the pancreas. Fine‑needle aspiration cytology shows cells with abundant eosinophilic cytoplasm, prominent nucleoli, and a high mitotic rate. Immunohistochemistry is positive for chromogranin A and synaptophysin, but negative for cytokeratin 7. Which of the following is the most likely diagnosis?",
+      "id": "ai-pathology-20261115214059-02",
+      "stem": "Which of the following is the most common cause of acute pancreatitis in adults?",
       "options": [
-        "A. Pancreatic ductal adenocarcinoma",
-        "B. Pancreatic neuroendocrine tumour",
-        "C. Solid pseudopapillary neoplasm",
-        "D. Acinar cell carcinoma"
+        "Alcohol abuse",
+        "Gallstones",
+        "Hypertriglyceridemia",
+        "Autoimmune pancreatitis"
       ],
       "correctOptionIndex": 1,
-      "explanation": "The tumour shows neuroendocrine markers (chromogranin A, synaptophysin) and lacks cytokeratin 7, which is typical for pancreatic neuroendocrine tumours. Ductal adenocarcinoma would be cytokeratin positive and lack neuroendocrine markers; solid pseudopapillary neoplasms are usually CK7 positive and have characteristic pseudopapillary architecture; acinar cell carcinoma expresses trypsin and chymotrypsin, not neuroendocrine markers.",
-      "source": "Pancreatic tumour immunoprofile",
+      "explanation": "Gallstones are the leading cause of acute pancreatitis in adults, followed by alcohol abuse. Hypertriglyceridemia and autoimmune pancreatitis are less common.",
+      "source": "Pancreatic disease overview",
+      "difficulty": "moderate",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214059-03",
+      "stem": "A 45‑year‑old woman has a 2‑cm, submucosal mass in the sigmoid colon. Histology shows a well‑demarcated lesion composed of spindle cells arranged in a whorled pattern. Which immunohistochemical stain is most likely to be positive?",
+      "options": [
+        "S100",
+        "Cytokeratin AE1/AE3",
+        "Desmin",
+        "CD34"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Gastrointestinal stromal tumours (GISTs) are CD34 positive. S100 indicates neural crest tumors, cytokeratin indicates epithelial origin, and desmin indicates muscle differentiation.",
+      "source": "GIST immunophenotype",
+      "difficulty": "moderate",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214059-04",
+      "stem": "Which of the following best describes the histological appearance of a well‑differentiated adenocarcinoma of the colon?",
+      "options": [
+        "Solid sheets of pleomorphic cells with necrosis",
+        "Glandular structures lined by tall columnar cells with mucin vacuoles",
+        "Spindle cells with storiform pattern",
+        "Sheets of small blue cells with scant cytoplasm"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Well‑differentiated colonic adenocarcinoma forms glandular structures with mucin production. The other patterns describe squamous, sarcomatous, and neuroendocrine tumors.",
+      "source": "Colorectal carcinoma morphology",
+      "difficulty": "moderate",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214059-05",
+      "stem": "A 60‑year‑old man has a 3‑cm mass in the right hepatic lobe. Biopsy shows sheets of polygonal cells with abundant eosinophilic cytoplasm and a fibrous capsule. Which tumor type does this most likely represent?",
+      "options": [
+        "Hepatocellular carcinoma",
+        "Focal nodular hyperplasia",
+        "Hepatic adenoma",
+        "Hepatic hemangioma"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The described morphology is classic for hepatocellular carcinoma. Focal nodular hyperplasia and adenoma are benign, while hemangioma shows vascular channels.",
+      "source": "Liver tumor histology",
+      "difficulty": "moderate",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214059-06",
+      "stem": "Which of the following is a characteristic feature of a malignant melanoma?",
+      "options": [
+        "Spindle cell proliferation with collagen deposition",
+        "Glandular structures with mucinous stroma",
+        "Pigmented nests of atypical melanocytes in the epidermis",
+        "Well‑demarcated, non‑encapsulated lesion of uniform cells"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Malignant melanoma shows pigmented nests of atypical melanocytes in the epidermis and dermis. The other options describe sarcoma, adenocarcinoma, and benign neoplasm.",
+      "source": "Melanoma pathology",
+      "difficulty": "moderate",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214059-07",
+      "stem": "Which of the following best explains the pathogenesis of a pancreatic pseudocyst?",
+      "options": [
+        "Accumulation of necrotic pancreatic tissue",
+        "Excessive excretion of pancreatic enzymes into the peritoneum",
+        "Collection of pancreatic fluid encapsulated by fibrous tissue",
+        "Formation of a true cyst lined by epithelium"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "A pseudocyst is a collection of pancreatic fluid surrounded by a fibrous wall, lacking epithelial lining. The other options describe necrosis, leakage, and true cysts.",
+      "source": "Pancreatic pseudocyst formation",
+      "difficulty": "moderate",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214059-08",
+      "stem": "A 50‑year‑old patient has a 4‑cm mass in the left adrenal gland. Histology shows a well‑circumscribed tumor composed of cells with abundant granular eosinophilic cytoplasm and a characteristic “salt and pepper” chromatin pattern. Which hormone is most likely overproduced?",
+      "options": [
+        "Cortisol",
+        "Adrenaline",
+        "Aldosterone",
+        "Calcitonin"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The described morphology is typical of an adrenocortical carcinoma producing cortisol. The other hormones are associated with different adrenal tumors.",
+      "source": "Adrenal cortical tumor pathology",
+      "difficulty": "moderate",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214059-09",
+      "stem": "Which of the following is a hallmark of a well‑differentiated squamous cell carcinoma of the esophagus?",
+      "options": [
+        "Glandular formation with mucin production",
+        "Spindle cell proliferation with collagen deposition",
+        "Keratin pearls and intercellular bridges",
+        "Sheets of small blue cells with scant cytoplasm"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Keratin pearls and intercellular bridges are classic features of squamous cell carcinoma. The other patterns describe adenocarcinoma, sarcoma, and neuroendocrine tumor.",
+      "source": "Esophageal carcinoma histology",
+      "difficulty": "moderate",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214059-10",
+      "stem": "A 70‑year‑old woman presents with a 2‑cm mass in the left kidney. Histology shows a well‑circumscribed lesion composed of cells with clear cytoplasm and a delicate capillary network. Which tumor type does this most likely represent?",
+      "options": [
+        "Renal cell carcinoma, clear cell type",
+        "Renal oncocytoma",
+        "Renal angiomyolipoma",
+        "Renal papillary carcinoma"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Clear cell renal cell carcinoma shows clear cytoplasm and a rich capillary network. Oncocytoma has eosinophilic cells, angiomyolipoma has fat, and papillary carcinoma has papillary architecture.",
+      "source": "Renal tumor morphology",
+      "difficulty": "moderate",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214059-11",
+      "stem": "Which of the following best describes the histological appearance of a typical benign lipoma?",
+      "options": [
+        "Sheets of pleomorphic spindle cells",
+        "Well‑demarcated lobules of mature adipocytes surrounded by a thin fibrous capsule",
+        "Glandular structures with mucinous stroma",
+        "Spindle cells with storiform pattern"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Benign lipomas are composed of mature adipocytes in well‑demarcated lobules with a fibrous capsule. The other options describe sarcoma, adenocarcinoma, and fibrous tumors.",
+      "source": "Lipoma histology",
+      "difficulty": "moderate",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214059-12",
+      "stem": "A 65‑year‑old man has a 3‑cm mass in the pancreas. Histology shows a well‑defined lesion composed of nests of epithelial cells with abundant eosinophilic cytoplasm and a fibrous stroma. Which tumor type is most likely?",
+      "options": [
+        "Pancreatic neuroendocrine tumor",
+        "Pancreatic ductal adenocarcinoma",
+        "Pancreatic serous cystadenoma",
+        "Pancreatic acinar cell carcinoma"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Neuroendocrine tumors form nests of epithelial cells with eosinophilic cytoplasm. The other options describe adenocarcinoma, cystadenoma, and acinar carcinoma.",
+      "source": "Pancreatic tumor histology",
+      "difficulty": "moderate",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214059-13",
+      "stem": "Which of the following is a characteristic feature of a malignant fibrous histiocytoma?",
+      "options": [
+        "Spindle cells arranged in a storiform pattern",
+        "Well‑demarcated lobules of mature adipocytes",
+        "Glandular structures with mucinous stroma",
+        "Sheets of small blue cells with scant cytoplasm"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Malignant fibrous histiocytoma (undifferentiated pleomorphic sarcoma) shows spindle cells in a storiform pattern. The other options describe benign lipoma, adenocarcinoma, and neuroendocrine tumor.",
+      "source": "Soft tissue sarcoma morphology",
+      "difficulty": "moderate",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214059-14",
+      "stem": "A 55‑year‑old woman has a 2‑cm mass in the ovary. Histology shows a cystic lesion lined by a single layer of cuboidal epithelium with abundant glycogen. Which type of cyst is this most likely?",
+      "options": [
+        "Serous cystadenoma",
+        "Mucinous cystadenoma",
+        "Endometrioma",
+        "Dermoid cyst"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Serous cystadenomas are lined by cuboidal epithelium rich in glycogen. Mucinous cystadenomas have columnar mucinous epithelium, endometriomas are lined by endometrial tissue, and dermoids contain ectodermal elements.",
+      "source": "Ovarian cyst pathology",
+      "difficulty": "moderate",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214118-01",
+      "stem": "A 55‑year‑old man presents with painless jaundice and weight loss. Imaging shows a mass in the head of the pancreas. Which histologic feature is most characteristic of pancreatic ductal adenocarcinoma?",
+      "options": [
+        "Glandular structures lined by tall columnar epithelium with mucin production",
+        "Desmoplastic stromal reaction with irregular glands in a fibrotic background",
+        "Neuroendocrine granules on electron microscopy",
+        "Well‑differentiated squamous epithelium forming keratin pearls"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Pancreatic ductal adenocarcinoma shows a desmoplastic stroma with irregular glands; mucinous glands are typical of mucinous cystic neoplasms, neuroendocrine tumors have granules, and squamous epithelium indicates squamous cell carcinoma.",
+      "source": "Pancreatic carcinoma histology",
       "difficulty": "hard",
       "section": "Pathology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-pathology-20261115212402-01",
-      "stem": "A 58‑year‑old man presents with a 3‑month history of painless jaundice and weight loss. Imaging shows a 4‑cm mass in the head of the pancreas with encasement of the superior mesenteric artery but no distant metastases. A fine‑needle aspiration biopsy reveals a malignant epithelial tumour with a high Ki‑67 index, nests of cells with abundant eosinophilic cytoplasm, and prominent nucleoli. Which of the following immunohistochemical stains is most likely to confirm the diagnosis of a pancreatic neuroendocrine tumour?",
+      "id": "ai-pathology-20261115214118-02",
+      "stem": "A biopsy of a 3‑cm breast lesion shows a proliferation of pleomorphic cells with prominent nucleoli and frequent mitoses. Immunohistochemistry is positive for GATA3 and ER. Which diagnosis is most likely?",
       "options": [
-        "A. CK7",
-        "B. Chromogranin A",
-        "C. CDX2",
-        "D. S100"
+        "Invasive ductal carcinoma",
+        "Invasive lobular carcinoma",
+        "Phyllodes tumor",
+        "Fibroadenoma"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "ER and GATA3 positivity with pleomorphic cells indicates invasive ductal carcinoma; lobular carcinoma shows discohesive cells, phyllodes is biphasic, and fibroadenoma is benign.",
+      "source": "Breast carcinoma immunoprofile",
+      "difficulty": "hard",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214118-03",
+      "stem": "A 60‑year‑old woman has a 2‑cm mass in the left ovary. Histology reveals solid nests of cells with abundant eosinophilic cytoplasm and prominent nucleoli. Which marker is most useful for confirming the diagnosis?",
+      "options": [
+        "WT1",
+        "CK7",
+        "Calretinin",
+        "CD10"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "WT1 is a sensitive marker for serous ovarian carcinoma; CK7 is non‑specific, calretinin is mesothelial, and CD10 is endometrial stromal sarcoma.",
+      "source": "Ovarian tumor markers",
+      "difficulty": "hard",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214118-04",
+      "stem": "Which of the following is the most common cause of acute pancreatitis in the United States?",
+      "options": [
+        "Gallstones",
+        "Alcohol abuse",
+        "Hypertriglyceridemia",
+        "Autoimmune pancreatitis"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Gallstones are responsible for ~40–50% of cases; alcohol is second, hypertriglyceridemia and autoimmune are rarer.",
+      "source": "Acute pancreatitis epidemiology",
+      "difficulty": "hard",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214118-05",
+      "stem": "A 45‑year‑old man has a 4‑cm ulcerated lesion on the lower lip. Histology shows nests of basaloid cells with peripheral palisading and retraction artifacts. Which immunostain would best confirm the diagnosis?",
+      "options": [
+        "S100",
+        "HMB-45",
+        "CK5/6",
+        "CD117"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Pancreatic neuroendocrine tumours characteristically express neuroendocrine markers such as chromogranin A and synaptophysin. CK7 is a cytokeratin seen in many adenocarcinomas, CDX2 is intestinal, and S100 is a neural crest marker. Therefore chromogranin A is the most specific confirmatory stain.",
-      "source": "Neuroendocrine tumour immunophenotype",
-      "difficulty": "very hard",
+      "explanation": "HMB‑45 is positive in melanoma; S100 is less specific, CK5/6 is squamous, CD117 is GIST.",
+      "source": "Melanoma immunohistochemistry",
+      "difficulty": "hard",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214118-06",
+      "stem": "A 70‑year‑old man presents with a large, firm, non‑tender mass in the right upper quadrant. Imaging shows a 10‑cm hepatic lesion with central scar. Which histologic finding would confirm the diagnosis of hepatic adenoma?",
+      "options": [
+        "Fibrous septa with bile duct proliferation",
+        "Spindle cells with myxoid stroma",
+        "Fatty change and glycogen accumulation in hepatocytes",
+        "Hyalinized central scar surrounded by fibrous tissue"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Hepatic adenoma shows fatty change and glycogen in hepatocytes; fibrous septa and bile ducts are cirrhosis, spindle cells are fibrolamellar carcinoma, and hyalinized scar is focal nodular hyperplasia.",
+      "source": "Hepatic tumor histology",
+      "difficulty": "hard",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214118-07",
+      "stem": "Which of the following is a characteristic histologic feature of malignant melanoma?",
+      "options": [
+        "Reed–Sternberg cells",
+        "Spindle cells with cigar‑shaped nuclei",
+        "Nests of atypical melanocytes with prominent nucleoli",
+        "Keratin pearls"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Melanoma shows nests of atypical melanocytes; Reed–Sternberg cells are Hodgkin lymphoma, spindle cells are sarcomas, keratin pearls are squamous cell carcinoma.",
+      "source": "Melanoma morphology",
+      "difficulty": "hard",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214118-08",
+      "stem": "A 35‑year‑old woman has a 1‑cm skin nodule on the forearm. Histology shows a well‑circumscribed lesion composed of bland spindle cells arranged in a whorled pattern. Which immunostain is most diagnostic?",
+      "options": [
+        "S100",
+        "Desmin",
+        "CD34",
+        "AE1/AE3"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "CD34 is positive in dermatofibrosarcoma protuberans; S100 is neural, desmin is muscle, AE1/AE3 is epithelial.",
+      "source": "Soft tissue tumor immunoprofile",
+      "difficulty": "hard",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214118-09",
+      "stem": "A 50‑year‑old man has a 3‑cm ulcerated lesion on the tongue. Histology shows a proliferation of pleomorphic cells with abundant eosinophilic cytoplasm and a prominent nucleolus. Which marker would confirm the diagnosis of squamous cell carcinoma?",
+      "options": [
+        "p63",
+        "HMB-45",
+        "S100",
+        "CDX2"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "p63 is a marker for squamous differentiation; HMB‑45 is melanoma, S100 is neural, CDX2 is intestinal.",
+      "source": "Squamous cell carcinoma markers",
+      "difficulty": "hard",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214118-10",
+      "stem": "Which of the following is the most common histologic type of lung cancer in smokers?",
+      "options": [
+        "Small cell carcinoma",
+        "Squamous cell carcinoma",
+        "Adenocarcinoma",
+        "Large cell carcinoma"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Squamous cell carcinoma is most common in smokers; adenocarcinoma is most common overall, small cell and large cell are less frequent.",
+      "source": "Lung cancer epidemiology",
+      "difficulty": "hard",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214118-11",
+      "stem": "A 60‑year‑old man presents with a 2‑cm mass in the right adrenal gland. Histology shows sheets of cells with eosinophilic cytoplasm and prominent nucleoli. Which immunostain would best confirm adrenal cortical carcinoma?",
+      "options": [
+        "Synaptophysin",
+        "Chromogranin",
+        "Melan-A",
+        "Cytokeratin AE1/AE3"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Melan‑A (MART‑1) is a marker for adrenal cortical cells; synaptophysin and chromogranin are neuroendocrine, cytokeratin is epithelial.",
+      "source": "Adrenal tumor immunohistochemistry",
+      "difficulty": "hard",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115214118-12",
+      "stem": "A 45‑year‑old woman has a 5‑cm mass in the left kidney. Histology shows a mixture of epithelial and stromal components with a prominent fibrous stroma. Which diagnosis is most likely?",
+      "options": [
+        "Renal cell carcinoma, clear cell type",
+        "Angiomyolipoma",
+        "Oncocytoma",
+        "Renal oncocytic neoplasm with fibrous stroma"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Renal oncocytic neoplasm with fibrous stroma (oncocytoma) shows epithelial and stromal components; clear cell RCC is vascular, angiomyolipoma has fat, and oncocytoma lacks fibrous stroma.",
+      "source": "Renal tumor histology",
+      "difficulty": "hard",
       "section": "Pathology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"

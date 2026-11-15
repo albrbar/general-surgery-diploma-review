@@ -5,89 +5,684 @@
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
   "bankQuestionCount": 1561,
-  "generatedAt": "2026-11-15T21:24:35.684560+00:00",
+  "generatedAt": "2026-11-15T21:42:43.412611+00:00",
   "questions": [
     {
-      "id": "ai-microbiology-immunology-20261115212416-01",
-      "stem": "Which of the following organisms is a common cause of surgical site infections following abdominal surgery?",
+      "id": "ai-microbiology-immunology-20261115214210-01",
+      "stem": "Which of the following organisms is a common cause of surgical site infection after abdominal surgery?",
       "options": [
+        "Streptococcus pyogenes",
         "Staphylococcus aureus",
-        "Escherichia coli",
         "Pseudomonas aeruginosa",
         "Candida albicans"
       ],
-      "correctOptionIndex": 0,
-      "explanation": "Staphylococcus aureus is the most frequent pathogen in post‑operative wound infections, especially in abdominal procedures. Escherichia coli, Pseudomonas aeruginosa and Candida albicans can cause infections but are less common as the primary organism.",
-      "source": "Basic surgical microbiology principles",
-      "difficulty": "very easy",
-      "section": "Microbiology and Immunology",
-      "status": "ai-generated-draft",
-      "reviewStatus": "requires-supervisor-review"
-    },
-    {
-      "id": "ai-microbiology-immunology-20261115212420-01",
-      "stem": "A 45‑year‑old patient presents with a purulent wound infection after a minor laceration. Gram staining of the pus shows gram‑positive cocci in chains. Which organism is most likely responsible?",
-      "options": [
-        "Staphylococcus aureus",
-        "Streptococcus pyogenes",
-        "Pseudomonas aeruginosa",
-        "Escherichia coli"
-      ],
       "correctOptionIndex": 1,
-      "explanation": "Streptococcus pyogenes is a gram‑positive cocci that forms chains and is a common cause of skin and soft tissue infections. Staphylococcus aureus is also gram‑positive but typically appears in clusters. Pseudomonas aeruginosa and Escherichia coli are gram‑negative organisms and would not appear as gram‑positive cocci.",
-      "source": "Basic principles of bacterial morphology and common skin pathogens",
+      "explanation": "Staphylococcus aureus is the most frequent pathogen in post‑operative wound infections. Streptococcus pyogenes and Candida can cause infections but less common; Pseudomonas is usually associated with contaminated environments.",
+      "source": "Surgical infection principles",
       "difficulty": "easy",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115212425-01",
-      "stem": "A 45‑year‑old man presents with a purulent wound infection after a minor laceration. Gram staining of the exudate shows gram‑positive cocci in chains. Which of the following antibiotics is most appropriate for empirical therapy pending culture results?",
+      "id": "ai-microbiology-immunology-20261115214210-02",
+      "stem": "A 45‑year‑old patient develops a fever and a purulent discharge from a laparotomy wound 5 days post‑operation. Gram‑positive cocci in clusters are isolated. What is the most likely organism?",
       "options": [
-        "A. Amoxicillin‑clavulanate",
-        "B. Cefazolin",
-        "C. Vancomycin",
-        "D. Ciprofloxacin"
+        "Staphylococcus epidermidis",
+        "Staphylococcus aureus",
+        "Streptococcus agalactiae",
+        "Enterococcus faecalis"
       ],
       "correctOptionIndex": 1,
-      "explanation": "The organism is most likely Staphylococcus aureus or streptococci; cefazolin is a first‑generation cephalosporin with excellent activity against gram‑positive cocci and is the preferred empirical drug for skin and soft‑tissue infections. Amoxicillin‑clavulanate is broader but less targeted; vancomycin is reserved for MRSA; ciprofloxacin is ineffective against gram‑positive cocci.",
-      "source": "Principles of antibiotic selection for skin and soft‑tissue infections",
+      "explanation": "Staphylococcus aureus is the classic cause of purulent wound infection. Staphylococcus epidermidis is less virulent; Streptococcus agalactiae and Enterococcus are less common in this setting.",
+      "source": "Post‑operative wound infection",
+      "difficulty": "easy",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214210-03",
+      "stem": "Which of the following is the most effective pre‑operative skin antiseptic to reduce surgical site infections?",
+      "options": [
+        "Chlorhexidine gluconate 2% with alcohol",
+        "Povidone‑iodine 10%",
+        "Sodium hypochlorite 0.5%",
+        "Sodium chloride 0.9%"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Chlorhexidine with alcohol provides superior skin decolonisation and lower SSI rates compared with povidone‑iodine or saline. Sodium hypochlorite is not used for skin prep.",
+      "source": "Antiseptic efficacy",
+      "difficulty": "easy",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214210-04",
+      "stem": "A patient with a known allergy to penicillin is undergoing a clean‑contaminated surgery. Which antibiotic is the best choice for prophylaxis?",
+      "options": [
+        "Clindamycin",
+        "Gentamicin",
+        "Metronidazole",
+        "Vancomycin"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Clindamycin is the preferred alternative for patients allergic to beta‑lactams. Gentamicin and metronidazole lack broad coverage; vancomycin is reserved for MRSA.",
+      "source": "Antibiotic prophylaxis",
+      "difficulty": "easy",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214210-05",
+      "stem": "Which of the following is a characteristic of gram‑negative rods that are commonly implicated in intra‑abdominal infections?",
+      "options": [
+        "They possess a thick peptidoglycan layer",
+        "They are catalase positive",
+        "They have an outer membrane containing lipopolysaccharide",
+        "They are Gram‑positive cocci"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Gram‑negative rods have an outer membrane with LPS, contributing to endotoxin release. Thick peptidoglycan is a gram‑positive feature; catalase positivity is not specific; they are not cocci.",
+      "source": "Gram stain characteristics",
+      "difficulty": "easy",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214210-06",
+      "stem": "Which of the following organisms is most likely to cause a postoperative intra‑abdominal abscess in a patient who had a perforated diverticulitis?",
+      "options": [
+        "Escherichia coli",
+        "Staphylococcus aureus",
+        "Clostridium difficile",
+        "Pseudomonas aeruginosa"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "E. coli is the predominant enteric pathogen in diverticulitis‑related abscesses. Staph aureus is less common; C. difficile causes colitis; Pseudomonas is uncommon in this context.",
+      "source": "Intra‑abdominal infection",
+      "difficulty": "easy",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214210-07",
+      "stem": "Which of the following is a key feature of the innate immune response to bacterial infection?",
+      "options": [
+        "Production of IgM antibodies",
+        "Activation of T‑cell receptors",
+        "Release of pro‑inflammatory cytokines by macrophages",
+        "Complement fixation by B cells"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Macrophages release cytokines (IL‑1, TNF‑α) as part of innate immunity. IgM and complement fixation are adaptive responses; T‑cell receptors are part of adaptive immunity.",
+      "source": "Innate immunity",
+      "difficulty": "easy",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214210-08",
+      "stem": "A patient with a history of chronic steroid use develops a fever and a purulent drainage from a surgical incision. Which organism is most likely responsible?",
+      "options": [
+        "Staphylococcus aureus",
+        "Streptococcus pneumoniae",
+        "Candida albicans",
+        "Mycobacterium tuberculosis"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Staphylococcus aureus is the most common pathogen in surgical site infections, especially in immunosuppressed patients. The others are less likely causes of acute wound infection.",
+      "source": "Immunosuppression and infection",
+      "difficulty": "easy",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214210-09",
+      "stem": "Which of the following is the most common cause of postoperative sepsis in patients undergoing colorectal surgery?",
+      "options": [
+        "Enterococcus faecalis",
+        "Staphylococcus epidermidis",
+        "Escherichia coli",
+        "Pseudomonas aeruginosa"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "E. coli, a gut flora organism, is the leading cause of postoperative sepsis after colorectal procedures. Enterococcus and Staph epidermidis are less common; Pseudomonas is rare.",
+      "source": "Post‑operative sepsis",
+      "difficulty": "easy",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214210-10",
+      "stem": "Which of the following is a characteristic of a gram‑positive cocci that is resistant to vancomycin?",
+      "options": [
+        "It has a thick peptidoglycan layer",
+        "It has a modified D‑alanine residue in the cell wall",
+        "It produces beta‑lactamase",
+        "It lacks teichoic acids"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Vancomycin resistance in gram‑positive cocci (e.g., MRSA) is due to altered D‑alanine residues, reducing drug binding. Thick peptidoglycan and beta‑lactamase are unrelated; teichoic acids are present.",
+      "source": "Antibiotic resistance",
+      "difficulty": "easy",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214210-11",
+      "stem": "A 60‑year‑old man with diabetes develops a deep surgical wound infection. Which of the following organisms is most likely to be isolated?",
+      "options": [
+        "Staphylococcus aureus",
+        "Streptococcus pyogenes",
+        "Pseudomonas aeruginosa",
+        "Clostridium perfringens"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Staphylococcus aureus is the most common pathogen in diabetic wound infections. Streptococcus pyogenes and Clostridium perfringens are less frequent; Pseudomonas is uncommon in clean wounds.",
+      "source": "Diabetic wound infection",
+      "difficulty": "easy",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214210-12",
+      "stem": "Which of the following is a typical feature of a fungal infection of a surgical wound?",
+      "options": [
+        "Rapid pus formation",
+        "High neutrophil count in wound exudate",
+        "Presence of hyphae on Gram stain",
+        "Serum eosinophilia"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Fungal infections show hyphae or spores on special stains; they do not produce pus or high neutrophils, and eosinophilia is not a typical feature.",
+      "source": "Fungal wound infection",
+      "difficulty": "easy",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214210-13",
+      "stem": "Which of the following is the most appropriate prophylactic antibiotic for a patient undergoing a clean‑contaminated laparoscopic cholecystectomy?",
+      "options": [
+        "Cefazolin",
+        "Ampicillin",
+        "Metronidazole",
+        "Vancomycin"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Cefazolin covers skin flora and is standard for clean‑contaminated abdominal procedures. Ampicillin is less effective; metronidazole covers anaerobes but not skin flora; vancomycin is reserved for MRSA.",
+      "source": "Antibiotic prophylaxis",
+      "difficulty": "easy",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214210-14",
+      "stem": "Which of the following is a key component of the adaptive immune response that provides long‑term protection against bacterial pathogens?",
+      "options": [
+        "Complement activation",
+        "Phagocytosis by neutrophils",
+        "Memory B cells",
+        "Pattern‑recognition receptors"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Memory B cells persist after infection and enable rapid antibody production upon re‑exposure. Complement and phagocytosis are innate; pattern‑recognition receptors are part of innate immunity.",
+      "source": "Adaptive immunity",
+      "difficulty": "easy",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214225-01",
+      "stem": "A 45‑year‑old man presents with a purulent wound after a dog bite. Which organism is most likely responsible for the infection?",
+      "options": [
+        "Staphylococcus aureus",
+        "Pseudomonas aeruginosa",
+        "Streptococcus pyogenes",
+        "Pasteurella multocida"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Pasteurella multocida is the classic pathogen in animal bite wounds, especially from cats and dogs. Staphylococcus aureus and Streptococcus pyogenes are common skin flora, while Pseudomonas is more associated with water exposure.",
+      "source": "Animal bite wound microbiology",
       "difficulty": "moderate",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115212430-01",
-      "stem": "A 45‑year‑old male presents with a purulent, necrotic ulcer on the lower leg after a minor crush injury. Gram stain of the exudate shows gram‑positive cocci in chains, but the culture grows a slow‑growing, non‑hemolytic, catalase‑negative organism that is oxidase‑positive and produces a characteristic sweet, fruity odor. Which organism is most likely responsible for this infection?",
+      "id": "ai-microbiology-immunology-20261115214225-02",
+      "stem": "Which of the following is the most common cause of postoperative surgical site infection in clean‑contaminated abdominal procedures?",
+      "options": [
+        "Enterococcus faecalis",
+        "Staphylococcus epidermidis",
+        "Escherichia coli",
+        "Streptococcus pneumoniae"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "E. coli, part of the normal gut flora, is the predominant organism in clean‑contaminated abdominal surgeries. Enterococcus and Staphylococcus epidermidis are less common, and Streptococcus pneumoniae is not a typical abdominal pathogen.",
+      "source": "Surgical site infection epidemiology",
+      "difficulty": "moderate",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214225-03",
+      "stem": "A patient with a history of penicillin allergy develops a severe skin rash after receiving amoxicillin. Which immune mechanism is most likely responsible?",
+      "options": [
+        "Type I hypersensitivity",
+        "Type II hypersensitivity",
+        "Type III hypersensitivity",
+        "Type IV hypersensitivity"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Amoxicillin‑induced rash is a classic IgE‑mediated Type I hypersensitivity reaction. Type II involves antibody‑mediated cytotoxicity, Type III immune complex deposition, and Type IV delayed‑type T‑cell reaction.",
+      "source": "Hypersensitivity classification",
+      "difficulty": "moderate",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214225-04",
+      "stem": "Which of the following is the best initial step in managing a patient with suspected septic arthritis of the knee?",
+      "options": [
+        "Obtain arthrocentesis for synovial fluid analysis",
+        "Start empiric intravenous vancomycin",
+        "Order an MRI of the knee",
+        "Perform a knee arthroscopy"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Synovial fluid analysis is essential to confirm infection and guide therapy. Empiric antibiotics and imaging are secondary steps.",
+      "source": "Septic arthritis management",
+      "difficulty": "moderate",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214225-05",
+      "stem": "In a patient with a central venous catheter, the most common pathogen causing catheter‑related bloodstream infection is:",
+      "options": [
+        "Candida albicans",
+        "Staphylococcus epidermidis",
+        "Pseudomonas aeruginosa",
+        "Klebsiella pneumoniae"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Staphylococcus epidermidis, a skin commensal, is the leading cause of catheter‑related bloodstream infections. Candida and Gram‑negative rods are less common.",
+      "source": "Catheter infection microbiology",
+      "difficulty": "moderate",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214225-06",
+      "stem": "A 60‑year‑old diabetic patient develops a foot ulcer that has become necrotic. Which organism is most likely responsible for the polymicrobial infection?",
+      "options": [
+        "Staphylococcus aureus",
+        "Pseudomonas aeruginosa",
+        "Clostridium perfringens",
+        "Mixed anaerobes and aerobes"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Diabetic foot ulcers are typically polymicrobial, involving both anaerobes and aerobes. Single organisms are less likely to explain the extensive necrosis.",
+      "source": "Diabetic foot infection",
+      "difficulty": "moderate",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214225-07",
+      "stem": "Which of the following is a characteristic feature of a Gram‑positive cocci that is catalase negative?",
+      "options": [
+        "Staphylococcus aureus",
+        "Streptococcus pyogenes",
+        "Enterococcus faecalis",
+        "Coagulase‑negative staphylococci"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Streptococcus species are catalase negative; Staphylococcus species are catalase positive. Enterococcus is also catalase negative but is a Gram‑positive coccus in chains, not the typical answer.",
+      "source": "Bacterial identification basics",
+      "difficulty": "moderate",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214225-08",
+      "stem": "The presence of which virulence factor is most important in the pathogenesis of Clostridium difficile colitis?",
+      "options": [
+        "Toxin A",
+        "Toxin B",
+        "Both A and B",
+        "Spore formation"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Both exotoxins A and B are essential for the cytotoxic effect in C. difficile infection. Spore formation aids transmission but is not the key virulence factor.",
+      "source": "Clostridium difficile pathogenesis",
+      "difficulty": "moderate",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214225-09",
+      "stem": "Which of the following is the most appropriate empiric antibiotic regimen for a patient with a suspected necrotizing fasciitis?",
+      "options": [
+        "Ampicillin‑sulbactam",
+        "Ceftriaxone plus metronidazole",
+        "Piperacillin‑tazobactam plus clindamycin",
+        "Vancomycin alone"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Piperacillin‑tazobactam covers Gram‑positive, Gram‑negative, and anaerobes, and clindamycin suppresses toxin production. The other regimens lack adequate coverage.",
+      "source": "Necrotizing fasciitis treatment",
+      "difficulty": "moderate",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214225-10",
+      "stem": "A patient undergoing elective laparoscopic cholecystectomy develops a postoperative fever and leukocytosis. The most likely source of infection is:",
+      "options": [
+        "Surgical wound infection",
+        "Bile leak",
+        "Urinary tract infection",
+        "Pneumonia"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Post‑operative fever after laparoscopic cholecystectomy is most often due to a superficial wound infection. Bile leak and pneumonia are less common, and UTI is unlikely without instrumentation.",
+      "source": "Post‑operative fever causes",
+      "difficulty": "moderate",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214225-11",
+      "stem": "Which of the following organisms is most resistant to penicillin due to the production of beta‑lactamase?",
+      "options": [
+        "Streptococcus pyogenes",
+        "Staphylococcus aureus",
+        "Enterococcus faecalis",
+        "Streptococcus pneumoniae"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Methicillin‑resistant Staphylococcus aureus (MRSA) produces beta‑lactamase and is resistant to penicillin. The other organisms are generally susceptible.",
+      "source": "Beta‑lactamase production",
+      "difficulty": "moderate",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214225-12",
+      "stem": "A 30‑year‑old woman presents with a sore throat, fever, and a rash on the palms and soles. Which pathogen is most likely responsible?",
+      "options": [
+        "Streptococcus pyogenes",
+        "Staphylococcus aureus",
+        "Varicella zoster virus",
+        "Human immunodeficiency virus"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Streptococcus pyogenes causes scarlet fever, characterized by fever, sore throat, and a sandpaper rash on palms and soles. The other options do not produce this rash pattern.",
+      "source": "Scarlet fever presentation",
+      "difficulty": "moderate",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214225-13",
+      "stem": "Which of the following is the most common cause of fungal infection in a patient with a long‑term central venous catheter?",
+      "options": [
+        "Candida albicans",
+        "Candida glabrata",
+        "Aspergillus fumigatus",
+        "Cryptococcus neoformans"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Candida albicans is the predominant fungal pathogen in catheter‑related bloodstream infections. The others are less common.",
+      "source": "Fungal catheter infections",
+      "difficulty": "moderate",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214225-14",
+      "stem": "A patient with a history of chronic alcoholism presents with a sudden onset of severe abdominal pain and a high white cell count. Which organism is most likely responsible for the acute pancreatitis?",
+      "options": [
+        "Staphylococcus aureus",
+        "Escherichia coli",
+        "Clostridium perfringens",
+        "Streptococcus pyogenes"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Clostridium perfringens can cause gas gangrene and is a known cause of acute pancreatitis in alcoholics. The other organisms are not typical culprits.",
+      "source": "Acute pancreatitis pathogens",
+      "difficulty": "moderate",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214243-01",
+      "stem": "A 45‑year‑old man presents with a purulent wound after a dog bite. Gram staining shows Gram‑positive cocci in chains. Which organism is most likely responsible?",
       "options": [
         "Staphylococcus aureus",
         "Streptococcus pyogenes",
         "Streptococcus agalactiae",
-        "Streptococcus dysgalactiae"
+        "Streptococcus pneumoniae"
       ],
-      "correctOptionIndex": 2,
-      "explanation": "The description of a slow‑growing, non‑hemolytic, catalase‑negative, oxidase‑positive organism with a sweet, fruity odor is classic for Streptococcus dysgalactiae (group C/G). Staphylococcus aureus is catalase‑positive and produces a characteristic golden pigment. Streptococcus pyogenes is hemolytic and does not produce a fruity odor. Streptococcus agalactiae (group B) is typically associated with neonatal infections and is not known for a fruity odor. Therefore, Streptococcus dysgalactiae is the most likely pathogen.",
-      "source": "Basic principles of streptococcal identification",
+      "correctOptionIndex": 0,
+      "explanation": "Staphylococcus aureus is the commonest cause of dog‑bite infections and appears as Gram‑positive cocci in clusters, not chains. The other streptococci are less common in such wounds.",
+      "source": "Basic bacterial wound pathogens",
       "difficulty": "hard",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115212435-01",
-      "stem": "A 45‑year‑old man presents with a 3‑week history of fever, night sweats, weight loss, and a progressively enlarging left supraclavicular lymph node. Fine‑needle aspiration cytology of the node shows numerous epithelioid cells surrounded by a rim of lymphocytes and occasional Langhans giant cells. Ziehl‑Neelsen staining is negative. A PCR assay of the aspirate detects a 16S rRNA gene sequence that is 99.8% identical to that of *Mycobacterium avium* complex. Which of the following statements best explains the likely pathogenesis of this patient’s disease?",
+      "id": "ai-microbiology-immunology-20261115214243-02",
+      "stem": "Which of the following is the most specific test for diagnosing a fungal infection of the skin?",
       "options": [
-        "The infection is caused by a rapidly growing non‑tuberculous mycobacterium that preferentially colonises the lymphatic system.",
-        "The disease represents a disseminated infection with *M. avium* complex that has spread from a pulmonary focus to the lymph nodes.",
-        "The patient has a primary immunodeficiency that predisposes to *M. avium* complex infection of the lymph nodes.",
-        "The lesion is a tuberculous granuloma caused by *M. tuberculosis* that was missed on Ziehl‑Neelsen staining due to paucibacillary disease."
+        "KOH preparation",
+        "Gram stain",
+        "Culture on MacConkey agar",
+        "Ziehl‑Neelsen stain"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "KOH preparation dissolves keratin and reveals fungal hyphae or spores directly from skin scrapings, making it the most specific bedside test for dermatophytes. The other stains are for bacteria or acid‑fast organisms.",
+      "source": "Dermatophyte diagnostics",
+      "difficulty": "hard",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214243-03",
+      "stem": "A patient undergoing elective laparotomy receives a prophylactic dose of cefazolin. Which of the following is the best explanation for its effectiveness?",
+      "options": [
+        "It inhibits bacterial DNA gyrase",
+        "It blocks bacterial cell wall synthesis",
+        "It interferes with protein synthesis",
+        "It disrupts bacterial membrane integrity"
       ],
       "correctOptionIndex": 1,
-      "explanation": "The PCR sequence matches *M. avium* complex, a non‑tuberculous mycobacterium that commonly causes disseminated disease in immunocompetent adults, often involving lymph nodes after a pulmonary focus. Rapidly growing mycobacteria (e.g., *M. fortuitum*) are usually skin or soft‑tissue infections, not lymphadenitis. Primary immunodeficiency is unlikely in a 45‑year‑old with no prior history. A missed *M. tuberculosis* infection would show acid‑fast bacilli on staining and is less likely given the PCR result.",
-      "source": "Non‑tuberculous mycobacteria pathogenesis; PCR diagnostics",
-      "difficulty": "very hard",
+      "explanation": "Cefazolin is a first‑generation cephalosporin that inhibits transpeptidase, blocking peptidoglycan cross‑linking and thus cell wall synthesis. The other mechanisms describe other antibiotic classes.",
+      "source": "Antibiotic mechanisms",
+      "difficulty": "hard",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214243-04",
+      "stem": "A 30‑year‑old woman has a chronic sinus infection. Cultures grow a gram‑negative rod that is oxidase positive and grows well on chocolate agar but not on MacConkey agar. Which organism is most likely?",
+      "options": [
+        "Pseudomonas aeruginosa",
+        "Haemophilus influenzae",
+        "Escherichia coli",
+        "Klebsiella pneumoniae"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Haemophilus influenzae is a small, oxidase‑positive, fastidious gram‑negative rod that requires factors X and V and grows on chocolate agar but not on MacConkey. The others are non‑fastidious and grow on MacConkey.",
+      "source": "Fastidious bacterial culture",
+      "difficulty": "hard",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214243-05",
+      "stem": "Which of the following immunoglobulin subclasses is primarily responsible for complement activation in the classical pathway?",
+      "options": [
+        "IgG1",
+        "IgG2",
+        "IgG3",
+        "IgG4"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "IgG3 has the highest capacity to activate complement via the classical pathway due to its long hinge region. IgG1 can also activate but less efficiently; IgG2 and IgG4 are poor activators.",
+      "source": "Immunoglobulin function",
+      "difficulty": "hard",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214243-06",
+      "stem": "A patient with a history of recurrent urinary tract infections is found to have a urinary catheter. Which organism is most likely to form a biofilm on the catheter surface?",
+      "options": [
+        "Enterococcus faecalis",
+        "Staphylococcus epidermidis",
+        "Pseudomonas aeruginosa",
+        "Streptococcus pyogenes"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Pseudomonas aeruginosa is notorious for forming robust biofilms on indwelling devices. Staphylococcus epidermidis also forms biofilms but is more common on prosthetic joints; the others are less biofilm‑prone.",
+      "source": "Biofilm formation in catheter infections",
+      "difficulty": "hard",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214243-07",
+      "stem": "A 60‑year‑old man develops a sudden, painless loss of vision in one eye. Fundoscopy shows a pale retina with a cherry‑red spot. Which pathogen is most commonly associated with this presentation?",
+      "options": [
+        "Treponema pallidum",
+        "Chlamydia trachomatis",
+        "Neisseria meningitidis",
+        "Streptococcus pneumoniae"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Optic neuropathy with a cherry‑red spot is classic for neurosyphilis (Treponema pallidum). The other organisms are not associated with this ocular finding.",
+      "source": "Syphilitic ocular manifestations",
+      "difficulty": "hard",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214243-08",
+      "stem": "Which of the following is the most reliable method for detecting methicillin resistance in Staphylococcus aureus?",
+      "options": [
+        "Disk diffusion with oxacillin",
+        "PCR for mecA gene",
+        "Etest for vancomycin",
+        "Minimum inhibitory concentration (MIC) for penicillin"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "PCR for the mecA gene directly identifies the genetic determinant of methicillin resistance. Disk diffusion with oxacillin is less sensitive; Etest for vancomycin and MIC for penicillin do not detect methicillin resistance.",
+      "source": "MRSA detection methods",
+      "difficulty": "hard",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214243-09",
+      "stem": "A patient with a severe burn injury develops a rapidly spreading infection. Gram staining shows gram‑negative rods with a characteristic “safety‑pin” appearance. Which organism is most likely?",
+      "options": [
+        "Pseudomonas aeruginosa",
+        "Acinetobacter baumannii",
+        "Clostridium difficile",
+        "Bacillus anthracis"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Pseudomonas aeruginosa produces a safety‑pin appearance on Gram stain due to its polar flagella and is a common burn wound pathogen. The other organisms do not show this morphology.",
+      "source": "Burn wound pathogens",
+      "difficulty": "hard",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214243-10",
+      "stem": "A 25‑year‑old woman presents with a painful, erythematous ulcer on the vulva. Histology shows neutrophilic microabscesses in the dermis. Which organism is most likely?",
+      "options": [
+        "Candida albicans",
+        "Trichophyton rubrum",
+        "Haemophilus ducreyi",
+        "Streptococcus pyogenes"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Streptococcus pyogenes causes erythema multiforme‑like lesions with neutrophilic microabscesses. Candida causes superficial yeast infection; Trichophyton causes tinea; Haemophilus ducreyi causes chancroid with a different histology.",
+      "source": "Vulvar ulcer pathogens",
+      "difficulty": "hard",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214243-11",
+      "stem": "Which cytokine is most directly involved in the recruitment of neutrophils to sites of bacterial infection?",
+      "options": [
+        "Interleukin‑2",
+        "Interferon‑γ",
+        "Tumor necrosis factor‑α",
+        "Interleukin‑8"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Interleukin‑8 (IL‑8) is a chemokine that specifically attracts neutrophils. IL‑2 and IFN‑γ are T‑cell activators; TNF‑α is a general pro‑inflammatory cytokine.",
+      "source": "Chemokine function",
+      "difficulty": "hard",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115214243-12",
+      "stem": "A 70‑year‑old man with a history of chronic liver disease develops a sudden, severe abdominal pain and a palpable mass. Imaging shows a large, irregular mass with central necrosis. Which organism is most likely responsible for this infection?",
+      "options": [
+        "Clostridium perfringens",
+        "Streptococcus pyogenes",
+        "Staphylococcus aureus",
+        "Enterococcus faecalis"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Clostridium perfringens causes gas gangrene with rapid necrosis and a characteristic mass; the other organisms are less likely to produce such an acute, necrotic presentation.",
+      "source": "Gas gangrene etiology",
+      "difficulty": "hard",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"

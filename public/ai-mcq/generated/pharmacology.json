@@ -5,90 +5,685 @@
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
   "bankQuestionCount": 1561,
-  "generatedAt": "2026-11-15T21:24:10.731036+00:00",
+  "generatedAt": "2026-11-15T21:41:57.915285+00:00",
   "questions": [
     {
-      "id": "ai-pharmacology-20261115212403-01",
-      "stem": "Which of the following drugs is commonly used as a first‑line agent to treat acute peptic ulcer bleeding by reducing gastric acid secretion?",
+      "id": "ai-pharmacology-20261115214132-01",
+      "stem": "Which of the following is the most common adverse effect of high-dose intravenous ceftriaxone in patients with renal impairment?",
+      "options": [
+        "A. Hypersensitivity rash",
+        "B. Nephrotoxicity",
+        "C. Hepatotoxicity",
+        "D. Ototoxicity"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "High-dose ceftriaxone can precipitate in renal tubules, leading to nephrotoxicity; rash is less common, hepatotoxicity and ototoxicity are rare.",
+      "source": "Antibiotic pharmacokinetics",
+      "difficulty": "easy",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214132-02",
+      "stem": "A 55‑year‑old man with a history of peptic ulcer disease is started on a proton pump inhibitor. Which drug is most likely to cause a rebound acid hypersecretion if abruptly discontinued?",
       "options": [
         "A. Omeprazole",
-        "B. Metoclopramide",
-        "C. Ondansetron",
-        "D. Sucralfate"
+        "B. Ranitidine",
+        "C. Sucralfate",
+        "D. Famotidine"
       ],
       "correctOptionIndex": 0,
-      "explanation": "Omeprazole is a proton‑pump inhibitor that effectively reduces gastric acid secretion and is the first‑line therapy for acute peptic ulcer bleeding. Metoclopramide and ondansetron are antiemetics, and sucralfate is a mucosal protectant but not the first‑line acid‑suppressing agent.",
-      "source": "Basic pharmacology of proton‑pump inhibitors",
-      "difficulty": "very easy",
-      "section": "Pharmacology",
-      "status": "ai-generated-draft",
-      "reviewStatus": "requires-supervisor-review"
-    },
-    {
-      "id": "ai-pharmacology-20261115212403-01",
-      "stem": "Which of the following drugs is most commonly used as a first‑line agent to treat acute peptic ulcer bleeding by reducing gastric acid secretion?",
-      "options": [
-        "Pylorid",
-        "Omeprazole",
-        "Cimetidine",
-        "Metoclopramide"
-      ],
-      "correctOptionIndex": 1,
-      "explanation": "Omeprazole, a proton‑pump inhibitor, is the preferred first‑line therapy for acute peptic ulcer bleeding because it provides potent, sustained suppression of gastric acid secretion. Cimetidine, an H2 blocker, is less effective. Pylorid is a prokinetic used for motility disorders, and metoclopramide is also a prokinetic with antiemetic properties.",
-      "source": "Basic pharmacology of acid‑suppressive agents",
+      "explanation": "PPIs cause rebound acid hypersecretion upon sudden withdrawal; H2 blockers and sucralfate do not.",
+      "source": "Gastrointestinal pharmacology",
       "difficulty": "easy",
-      "duplicateOfExisting": true,
       "section": "Pharmacology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-pharmacology-20261115212404-01",
-      "stem": "A 68‑year‑old man with a history of coronary artery disease presents with a 2‑week history of increasing abdominal pain and vomiting. He is found to have a perforated duodenal ulcer. Which of the following drugs is most appropriate to reduce gastric acid secretion and promote ulcer healing in this patient?",
+      "id": "ai-pharmacology-20261115214132-03",
+      "stem": "Which agent is the preferred choice for prophylaxis of postoperative surgical site infection in a patient undergoing elective abdominal surgery?",
       "options": [
-        "H2‑receptor antagonist",
-        "Proton pump inhibitor",
-        "Sucralfate",
-        "Cimetidine"
+        "A. Cefazolin",
+        "B. Gentamicin",
+        "C. Metronidazole",
+        "D. Vancomycin"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Cefazolin covers skin flora and is recommended for most clean-contaminated surgeries; gentamicin and metronidazole are not first-line alone, vancomycin is reserved for MRSA.",
+      "source": "Surgical antibiotic prophylaxis",
+      "difficulty": "easy",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214132-04",
+      "stem": "A patient with acute pancreatitis is started on octreotide. What is the primary mechanism of action of this drug in this setting?",
+      "options": [
+        "A. Inhibition of pancreatic exocrine secretion",
+        "B. Stimulation of pancreatic enzyme production",
+        "C. Reduction of gastric acid secretion",
+        "D. Increase in intestinal motility"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Octreotide suppresses pancreatic exocrine secretion, reducing enzyme activation in pancreatitis.",
+      "source": "Endocrine pharmacology",
+      "difficulty": "easy",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214132-05",
+      "stem": "Which of the following drugs is contraindicated in a patient with a known allergy to sulfonamides?",
+      "options": [
+        "A. Metronidazole",
+        "B. Ceftriaxone",
+        "C. Trimethoprim-sulfamethoxazole",
+        "D. Amoxicillin"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Trimethoprim-sulfamethoxazole contains a sulfonamide moiety; the others are not sulfa drugs.",
+      "source": "Antibiotic allergy",
+      "difficulty": "easy",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214132-06",
+      "stem": "A 70‑year‑old woman with chronic heart failure is prescribed digoxin. Which electrolyte disturbance must be monitored closely?",
+      "options": [
+        "A. Hyperkalemia",
+        "B. Hypokalemia",
+        "C. Hypermagnesemia",
+        "D. Hypocalcemia"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Proton pump inhibitors (PPIs) provide the strongest and longest‑lasting inhibition of gastric acid secretion, making them the preferred choice for healing duodenal ulcers. H2‑receptor antagonists also reduce acid but are less potent. Sucralfate protects the ulcer surface but does not reduce acid. Cimetidine is an older H2 blocker and is less effective than newer PPIs.",
-      "source": "Basic pharmacology of acid‑suppressive therapy",
+      "explanation": "Digoxin toxicity is exacerbated by hypokalemia; hyperkalemia actually reduces toxicity.",
+      "source": "Cardiac pharmacology",
+      "difficulty": "easy",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214132-07",
+      "stem": "Which of the following is the mechanism of action of neostigmine used to reverse neuromuscular blockade?",
+      "options": [
+        "A. Competitive antagonist at nicotinic receptors",
+        "B. Irreversible acetylcholinesterase inhibitor",
+        "C. Competitive antagonist at muscarinic receptors",
+        "D. Irreversible acetylcholinesterase inhibitor"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Neostigmine irreversibly inhibits acetylcholinesterase, increasing acetylcholine at neuromuscular junction.",
+      "source": "Anesthetic pharmacology",
+      "difficulty": "easy",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214132-08",
+      "stem": "A patient with a history of peptic ulcer disease is started on a proton pump inhibitor. Which drug is most likely to cause a rebound acid hypersecretion if abruptly discontinued?",
+      "options": [
+        "A. Omeprazole",
+        "B. Ranitidine",
+        "C. Sucralfate",
+        "D. Famotidine"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "PPIs cause rebound acid hypersecretion upon sudden withdrawal; H2 blockers and sucralfate do not.",
+      "source": "Gastrointestinal pharmacology",
+      "difficulty": "easy",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214132-09",
+      "stem": "Which of the following is a common side effect of long‑term corticosteroid therapy in surgical patients?",
+      "options": [
+        "A. Hyperglycemia",
+        "B. Hypokalemia",
+        "C. Hypocalcemia",
+        "D. Hypernatremia"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Corticosteroids raise blood glucose; they can cause hypokalemia, hypocalcemia, and hyponatremia, not hypernatremia.",
+      "source": "Endocrine pharmacology",
+      "difficulty": "easy",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214132-10",
+      "stem": "A 45‑year‑old man with a history of chronic obstructive pulmonary disease is given a beta‑blocker for hypertension. Which beta‑blocker is least likely to worsen his respiratory status?",
+      "options": [
+        "A. Propranolol",
+        "B. Metoprolol",
+        "C. Carvedilol",
+        "D. Labetalol"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Metoprolol is cardioselective and sparing of bronchial β2 receptors, reducing respiratory risk.",
+      "source": "Cardiovascular pharmacology",
+      "difficulty": "easy",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214132-11",
+      "stem": "Which drug is the first‑line treatment for a patient with acute cholecystitis who is not a surgical candidate?",
+      "options": [
+        "A. Ceftriaxone",
+        "B. Metronidazole",
+        "C. Piperacillin-tazobactam",
+        "D. Amoxicillin-clavulanate"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Piperacillin-tazobactam covers gram‑negative and anaerobic organisms typical of biliary infections; others are less comprehensive.",
+      "source": "Infectious disease pharmacology",
+      "difficulty": "easy",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214132-12",
+      "stem": "A patient with a known allergy to penicillin is prescribed a cephalosporin. Which cephalosporin is least likely to cross‑react?",
+      "options": [
+        "A. Cefazolin",
+        "B. Cefuroxime",
+        "C. Ceftriaxone",
+        "D. Cefepime"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Fourth‑generation cephalosporins like cefepime have lower cross‑reactivity with penicillin.",
+      "source": "Antibiotic allergy",
+      "difficulty": "easy",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214132-13",
+      "stem": "Which of the following is the mechanism of action of nitroglycerin used for postoperative angina prophylaxis?",
+      "options": [
+        "A. Direct vasoconstriction of coronary arteries",
+        "B. Release of nitric oxide leading to vasodilation",
+        "C. Inhibition of platelet aggregation",
+        "D. Increase in myocardial contractility"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Nitroglycerin releases NO, causing venous and arterial vasodilation, reducing cardiac workload.",
+      "source": "Cardiovascular pharmacology",
+      "difficulty": "easy",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214132-14",
+      "stem": "A 60‑year‑old patient with chronic kidney disease is started on a loop diuretic. Which electrolyte disturbance is most likely to develop?",
+      "options": [
+        "A. Hyperkalemia",
+        "B. Hypocalcemia",
+        "C. Hypomagnesemia",
+        "D. Hypokalemia"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Loop diuretics cause potassium loss leading to hypokalemia; they also cause hypomagnesemia but potassium loss is most common.",
+      "source": "Renal pharmacology",
+      "difficulty": "easy",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214137-01",
+      "stem": "A 65‑year‑old man with chronic obstructive pulmonary disease (COPD) is admitted with a community‑acquired pneumonia. Which antibiotic regimen is most appropriate for initial empiric therapy in a patient with no recent antibiotic exposure?",
+      "options": [
+        "Amoxicillin 1 g q8h",
+        "Azithromycin 500 mg daily",
+        "Ceftriaxone 1 g IV q24h + Azithromycin 500 mg daily",
+        "Ciprofloxacin 500 mg q12h"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Ceftriaxone plus azithromycin covers typical and atypical pathogens in COPD exacerbations. Amoxicillin alone is inadequate; azithromycin alone lacks gram‑negative coverage; ciprofloxacin is not first‑line for community‑acquired pneumonia.",
+      "source": "Antibiotic stewardship principles",
       "difficulty": "moderate",
       "section": "Pharmacology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-pharmacology-20261115212405-01",
-      "stem": "A 68‑year‑old man with a history of chronic obstructive pulmonary disease (COPD) and recent exacerbation is admitted for elective laparoscopic cholecystectomy. He is on long‑term oral corticosteroids (prednisone 10 mg daily) and inhaled bronchodilators. Which peri‑operative medication is most appropriate to reduce the risk of postoperative respiratory complications while avoiding significant drug interactions with the patient’s current therapy?",
+      "id": "ai-pharmacology-20261115214137-02",
+      "stem": "Which of the following drugs is a selective COX‑2 inhibitor used to reduce postoperative pain while minimizing gastrointestinal toxicity?",
       "options": [
-        "A. Intravenous methylprednisolone 125 mg at induction",
-        "B. Oral dexamethasone 8 mg pre‑operatively",
-        "C. Intravenous hydrocortisone 100 mg at induction",
-        "D. Oral prednisone 10 mg pre‑operatively"
+        "Diclofenac",
+        "Indomethacin",
+        "Celecoxib",
+        "Ketorolac"
       ],
       "correctOptionIndex": 2,
-      "explanation": "Hydrocortisone 100 mg IV at induction provides adequate peri‑operative steroid coverage for a patient on chronic oral prednisone, has a short half‑life, and is unlikely to interact with bronchodilators. Methylprednisolone 125 mg IV (A) is a higher dose and may lead to hyperglycaemia; dexamethasone 8 mg (B) is a potent steroid but has a longer duration and can cause adrenal suppression. Continuing the same oral prednisone dose (D) does not provide sufficient peri‑operative coverage and may increase the risk of adrenal crisis. Therefore option C is the best choice.",
-      "source": "peri‑operative steroid management in COPD",
+      "explanation": "Celecoxib selectively inhibits COX‑2, sparing COX‑1 and thus reducing GI side effects. Diclofenac and indomethacin are non‑selective NSAIDs; ketorolac is a potent non‑selective NSAID with high GI risk.",
+      "source": "Pharmacology of NSAIDs",
+      "difficulty": "moderate",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214137-03",
+      "stem": "A patient undergoing laparoscopic cholecystectomy receives a 10‑mg IV dose of morphine for postoperative pain. Which drug should be given to reverse the opioid effects if the patient develops respiratory depression?",
+      "options": [
+        "Naloxone",
+        "Flumazenil",
+        "Atropine",
+        "Diphenhydramine"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Naloxone is an opioid antagonist that reverses morphine‑induced respiratory depression. Flumazenil reverses benzodiazepines; atropine treats bradycardia; diphenhydramine is an antihistamine.",
+      "source": "Opioid pharmacology",
+      "difficulty": "moderate",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214137-04",
+      "stem": "Which of the following is the most common adverse effect of high‑dose intravenous vitamin C used as an antioxidant in perioperative care?",
+      "options": [
+        "Hypokalemia",
+        "Methemoglobinemia",
+        "Hyperglycemia",
+        "Hypocalcemia"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Large IV doses of vitamin C can oxidize hemoglobin to methemoglobin, causing cyanosis. Hypokalemia, hyperglycemia, and hypocalcemia are not typical.",
+      "source": "Antioxidant therapy side effects",
+      "difficulty": "moderate",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214137-05",
+      "stem": "A 45‑year‑old woman is scheduled for elective hysterectomy. She is on chronic oral contraceptives. Which perioperative medication should be avoided to reduce the risk of venous thromboembolism?",
+      "options": [
+        "Heparin prophylaxis",
+        "Low‑molecular‑weight heparin",
+        "Vitamin K antagonist",
+        "Prophylactic aspirin"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Vitamin K antagonists (warfarin) increase VTE risk and are contraindicated perioperatively. Heparin and LMWH are prophylactic; aspirin is low‑dose antiplatelet.",
+      "source": "VTE prophylaxis guidelines",
+      "difficulty": "moderate",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214137-06",
+      "stem": "Which drug is a first‑line agent for the treatment of postoperative nausea and vomiting (PONV) in a patient with a history of motion sickness?",
+      "options": [
+        "Metoclopramide",
+        "Ondansetron",
+        "Promethazine",
+        "Dexamethasone"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Ondansetron, a 5‑HT3 antagonist, is first‑line for PONV. Metoclopramide is antiemetic but less effective; promethazine is antihistamine; dexamethasone is adjunctive.",
+      "source": "PONV management",
+      "difficulty": "moderate",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214137-07",
+      "stem": "Which of the following is the mechanism of action of cefazolin, a first‑generation cephalosporin used for surgical prophylaxis?",
+      "options": [
+        "Inhibits bacterial DNA gyrase",
+        "Inhibits bacterial cell wall synthesis",
+        "Inhibits protein synthesis at the 50S ribosomal subunit",
+        "Inhibits folate synthesis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Cefazolin binds penicillin‑binding proteins, inhibiting peptidoglycan cross‑linking and cell wall synthesis. The other options describe mechanisms of fluoroquinolones, macrolides, and sulfonamides.",
+      "source": "Beta‑lactam pharmacodynamics",
+      "difficulty": "moderate",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214137-08",
+      "stem": "A patient with a history of peptic ulcer disease is scheduled for colorectal resection. Which perioperative medication should be avoided to reduce the risk of postoperative bleeding?",
+      "options": [
+        "Proton pump inhibitor",
+        "H2 blocker",
+        "Non‑selective NSAID",
+        "Sucralfate"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Non‑selective NSAIDs inhibit COX‑1, increasing GI bleeding risk. PPIs, H2 blockers, and sucralfate are protective.",
+      "source": "GI pharmacology",
+      "difficulty": "moderate",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214137-09",
+      "stem": "Which of the following drugs is a potent inhibitor of CYP3A4 and should be avoided when prescribing tacrolimus for a transplant patient?",
+      "options": [
+        "Amoxicillin",
+        "Cimetidine",
+        "Ketoconazole",
+        "Metronidazole"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Ketoconazole strongly inhibits CYP3A4, raising tacrolimus levels. Amoxicillin, cimetidine, and metronidazole have minimal CYP3A4 interaction.",
+      "source": "Drug–drug interactions",
+      "difficulty": "moderate",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214137-10",
+      "stem": "A 70‑year‑old man with a history of atrial fibrillation is on warfarin. He is scheduled for an elective hernia repair. Which of the following is the safest anticoagulation strategy during the perioperative period?",
+      "options": [
+        "Continue warfarin without interruption",
+        "Stop warfarin and start low‑molecular‑weight heparin bridging",
+        "Stop warfarin and use no anticoagulation",
+        "Start aspirin 81 mg daily"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Bridging with LMWH after stopping warfarin balances bleeding and thrombotic risk. Continuing warfarin increases bleeding; no anticoagulation may increase stroke risk; aspirin alone is insufficient.",
+      "source": "Anticoagulation management",
+      "difficulty": "moderate",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214137-11",
+      "stem": "Which of the following is the most common cause of postoperative ileus after abdominal surgery?",
+      "options": [
+        "Hypothermia",
+        "Hyperglycemia",
+        "Opioid analgesia",
+        "Hypotension"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Opioids depress GI motility, leading to ileus. Hypothermia, hyperglycemia, and hypotension are less direct causes.",
+      "source": "Postoperative physiology",
+      "difficulty": "moderate",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214137-12",
+      "stem": "A 55‑year‑old patient receives a 5‑mg IV dose of epinephrine for anaphylaxis. Which of the following is the most likely immediate adverse effect?",
+      "options": [
+        "Bradycardia",
+        "Hypertension",
+        "Hypotension",
+        "Hyperkalemia"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Epinephrine causes tachycardia and hypertension via alpha‑adrenergic vasoconstriction. Bradycardia is unlikely; hypotension and hyperkalemia are not typical.",
+      "source": "Anaphylaxis treatment",
+      "difficulty": "moderate",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214137-13",
+      "stem": "Which of the following medications is contraindicated in a patient with a known allergy to sulfonamides?",
+      "options": [
+        "Metronidazole",
+        "Clindamycin",
+        "Trimethoprim‑sulfamethoxazole",
+        "Gentamicin"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Trimethoprim‑sulfamethoxazole contains a sulfonamide; the other drugs are not sulfa compounds.",
+      "source": "Allergy considerations",
+      "difficulty": "moderate",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214137-14",
+      "stem": "A patient undergoing major abdominal surgery is started on a 1‑g IV dose of cefazolin for prophylaxis. Which of the following statements about cefazolin is correct?",
+      "options": [
+        "It is a broad‑spectrum agent effective against Pseudomonas aeruginosa",
+        "It is metabolized primarily by the liver and requires dose adjustment in hepatic failure",
+        "It is a first‑generation cephalosporin with good activity against gram‑positive cocci",
+        "It is a third‑generation cephalosporin with excellent CNS penetration"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Cefazolin is a first‑generation cephalosporin, effective against gram‑positive cocci and some gram‑negative rods. It does not cover Pseudomonas, is not primarily hepatic, and is not a third‑generation agent.",
+      "source": "Cephalosporin pharmacology",
+      "difficulty": "moderate",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214157-01",
+      "stem": "A 68‑year‑old man with chronic obstructive pulmonary disease (COPD) is started on a long‑acting β2‑agonist. Which of the following is the most likely adverse effect of this medication?",
+      "options": [
+        "Bronchospasm",
+        "Hypokalemia",
+        "Tachyarrhythmia",
+        "Hyponatremia"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Long‑acting β2‑agonists can precipitate tachyarrhythmias due to sympathetic stimulation. Bronchospasm is unlikely as they are bronchodilators; hypokalemia and hyponatremia are not typical adverse effects.",
+      "source": "Basic pharmacology of bronchodilators",
       "difficulty": "hard",
       "section": "Pharmacology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-pharmacology-20261115212410-01",
-      "stem": "A 68‑year‑old male with a history of chronic pancreatitis presents with acute abdominal pain and a serum amylase of 1,200 U/L. He is started on a pancreatic enzyme replacement therapy (PERT) consisting of pancrelipase. Which of the following statements best explains the mechanism by which PERT improves digestion in chronic pancreatitis?",
+      "id": "ai-pharmacology-20261115214157-02",
+      "stem": "A patient undergoing elective laparoscopic cholecystectomy receives a single dose of 1 mg of ondansetron pre‑operatively. Which statement best describes its pharmacokinetic profile?",
       "options": [
-        "It increases bicarbonate secretion from the duodenum to neutralise gastric acid",
-        "It directly stimulates the exocrine pancreas to resume enzyme production",
-        "It provides exogenous lipase, protease and amylase that act in the small intestine",
-        "It blocks the release of somatostatin, thereby enhancing pancreatic secretion"
+        "Half‑life of 4–6 h, mainly hepatic metabolism",
+        "Half‑life of 4–6 h, mainly renal excretion",
+        "Half‑life of 24 h, mainly hepatic metabolism",
+        "Half‑life of 24 h, mainly renal excretion"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Ondansetron has a half‑life of 4–6 h and is primarily metabolised by the liver. Renal excretion is minimal.",
+      "source": "Standard antiemetic pharmacokinetics",
+      "difficulty": "hard",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214157-03",
+      "stem": "Which of the following agents is contraindicated in a patient with a history of severe asthma when used as a prophylactic antibiotic for a clean‑contaminated abdominal surgery?",
+      "options": [
+        "Amoxicillin",
+        "Clindamycin",
+        "Cefazolin",
+        "Metronidazole"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Clindamycin can trigger bronchospasm in asthmatics; the others are safe.",
+      "source": "Antibiotic selection in asthmatic patients",
+      "difficulty": "hard",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214157-04",
+      "stem": "A 45‑year‑old woman receives a 500 mg dose of intravenous cefazolin for prophylaxis. Which of the following is the most appropriate timing for the next dose if the surgery lasts 6 h?",
+      "options": [
+        "At the end of surgery",
+        "Every 8 h",
+        "Every 12 h",
+        "Every 24 h"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Cefazolin’s half‑life is ~1 h; for a 6‑h procedure, a single dose at induction is adequate. Re‑dosing at the end is unnecessary.",
+      "source": "Surgical antibiotic prophylaxis guidelines",
+      "difficulty": "hard",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214157-05",
+      "stem": "A patient with a known allergy to sulfonamides is prescribed a postoperative analgesic. Which of the following is the safest opioid option?",
+      "options": [
+        "Morphine",
+        "Fentanyl",
+        "Meperidine",
+        "Codeine"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Fentanyl is a synthetic opioid with no sulfa moiety, making it safe. Morphine, meperidine, and codeine contain sulfa groups.",
+      "source": "Opioid selection in sulfa‑allergic patients",
+      "difficulty": "hard",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214157-06",
+      "stem": "Which of the following is the mechanism of action of tranexamic acid used to reduce peri‑operative bleeding?",
+      "options": [
+        "Inhibits platelet aggregation",
+        "Inhibits fibrinogen conversion to fibrin",
+        "Inhibits plasminogen activation",
+        "Inhibits thrombin generation"
       ],
       "correctOptionIndex": 2,
-      "explanation": "Pancrelipase supplies exogenous digestive enzymes (lipase, protease, amylase) that act in the duodenum and jejunum to compensate for the deficient endogenous secretion seen in chronic pancreatitis. The other options describe mechanisms unrelated to PERT: bicarbonate secretion is mediated by the duodenum, not PERT; PERT does not stimulate the pancreas; and somatostatin inhibition is not the primary action of PERT.",
-      "source": "Pancreatic enzyme replacement therapy in chronic pancreatitis",
-      "difficulty": "very hard",
+      "explanation": "Tranexamic acid is a lysine analogue that competitively inhibits plasminogen activation, reducing fibrinolysis.",
+      "source": "Hemostatic agents pharmacology",
+      "difficulty": "hard",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214157-07",
+      "stem": "A 55‑year‑old man with a history of peptic ulcer disease is started on a proton pump inhibitor (PPI) for postoperative stress ulcer prophylaxis. Which of the following is a known adverse effect of long‑term PPI use?",
+      "options": [
+        "Hypomagnesemia",
+        "Hypercalcemia",
+        "Hypoglycemia",
+        "Hypernatremia"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Long‑term PPI therapy can cause hypomagnesemia due to impaired intestinal absorption. The others are not typical adverse effects.",
+      "source": "PPI adverse effect profile",
+      "difficulty": "hard",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214157-08",
+      "stem": "During a laparoscopic procedure, the surgical team administers 100 mg of intravenous ketamine for analgesia. Which of the following is the most likely side effect?",
+      "options": [
+        "Respiratory depression",
+        "Sedation",
+        "Hallucinations",
+        "Hypotension"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Ketamine is a dissociative anesthetic that can cause hallucinations and dissociative phenomena. It typically preserves airway reflexes and can cause hypertension.",
+      "source": "Ketamine pharmacodynamics",
+      "difficulty": "hard",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214157-09",
+      "stem": "A 60‑year‑old patient with chronic kidney disease stage 3 is prescribed a 500 mg dose of cefuroxime for a postoperative infection. Which of the following adjustments is necessary?",
+      "options": [
+        "Reduce dose to 250 mg",
+        "Increase dose to 750 mg",
+        "No adjustment needed",
+        "Switch to a non‑renal drug"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Cefuroxime is renally excreted; in CKD stage 3, dose should be halved to avoid accumulation.",
+      "source": "Antibiotic dosing in renal impairment",
+      "difficulty": "hard",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214157-10",
+      "stem": "Which of the following agents is most effective in preventing postoperative nausea and vomiting (PONV) when used in combination with a 5‑HT3 antagonist?",
+      "options": [
+        "Dexamethasone",
+        "Ondansetron",
+        "Metoclopramide",
+        "Haloperidol"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Dexamethasone provides synergistic anti‑emetic effect with 5‑HT3 antagonists. Ondansetron is the 5‑HT3 antagonist itself; metoclopramide and haloperidol are less effective as add‑ons.",
+      "source": "PONV prophylaxis strategies",
+      "difficulty": "hard",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214157-11",
+      "stem": "A 70‑year‑old patient with a history of atrial fibrillation is scheduled for a laparoscopic hysterectomy. Which of the following anticoagulants should be held 5 days prior to surgery to minimize bleeding risk?",
+      "options": [
+        "Warfarin",
+        "Apixaban",
+        "Rivaroxaban",
+        "Dabigatran"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Warfarin has a long half‑life and requires 5 days of discontinuation. The newer DOACs have shorter half‑lives and can be stopped 48–72 h prior.",
+      "source": "Anticoagulation management in surgery",
+      "difficulty": "hard",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115214157-12",
+      "stem": "A 45‑year‑old woman receives a 500 mg dose of intravenous cefazolin for prophylaxis. Which of the following is the most appropriate timing for the next dose if the surgery lasts 6 h?",
+      "options": [
+        "At the end of surgery",
+        "Every 8 h",
+        "Every 12 h",
+        "Every 24 h"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Cefazolin’s half‑life is ~1 h; for a 6‑h procedure, a single dose at induction is adequate. Re‑dosing at the end is unnecessary.",
+      "source": "Surgical antibiotic prophylaxis guidelines",
+      "difficulty": "hard",
+      "duplicateOfExisting": true,
       "section": "Pharmacology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"

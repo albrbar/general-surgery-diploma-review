@@ -196,7 +196,16 @@ def main() -> int:
         else:
             difficulty_plan = [(None, args.count)]
         for difficulty, difficulty_count in difficulty_plan:
-            single = ask_groq(section, difficulty_count, difficulty, existing_fingerprints, str(bank_path))
+            single = None
+            for attempt in range(3):
+                try:
+                    single = ask_groq(section, difficulty_count, difficulty, existing_fingerprints, str(bank_path))
+                    break
+                except RuntimeError as exc:
+                    if attempt == 2:
+                        raise
+                    print(f"Retrying {SECTIONS[section]} {difficulty or 'mixed'} batch after validation failure: {exc}", flush=True)
+                    time.sleep(2)
             questions.extend(single["questions"])
         generated_at = datetime.now(timezone.utc).isoformat()
         result = {"section": SECTIONS[section], "sectionId": section, "status": "ai-generated-draft", "model": MODEL, "bankReference": str(bank_path), "bankQuestionCount": bank_count, "generatedAt": generated_at, "questions": questions}

@@ -4,37 +4,37 @@
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
-  "bankQuestionCount": 1441,
-  "generatedAt": "2026-11-15T19:36:21.235906+00:00",
+  "bankQuestionCount": 1481,
+  "generatedAt": "2026-11-15T20:32:07.046476+00:00",
   "questions": [
     {
-      "id": "ai-pathology-20261115193618-01",
-      "stem": "A 45‑year‑old man presents with a painless, slow‑growing mass in the right upper quadrant of the abdomen. Imaging shows a well‑encapsulated, 4 cm lesion arising from the liver. Which of the following histological features is most characteristic of a hepatocellular adenoma?",
+      "id": "ai-pathology-20261115203204-01",
+      "stem": "A 45‑year‑old man presents with a firm, non‑tender mass in the left upper quadrant. On imaging, the lesion is well‑circumscribed and shows central calcification. Which of the following is the most likely histologic diagnosis?",
       "options": [
-        "Atypical hepatocytes with pseudoglandular architecture",
-        "Fibrous septa with inflammatory infiltrate",
-        "Spindle cells arranged in whorls",
-        "Glandular structures lined by mucin‑producing epithelium"
+        "Adenocarcinoma of the pancreas",
+        "Pancreatic pseudocyst",
+        "Pancreatic neuroendocrine tumour",
+        "Pancreatic cystadenoma"
       ],
-      "correctOptionIndex": 0,
-      "explanation": "Hepatocellular adenomas are benign liver tumors composed of hepatocytes that often show pseudoglandular or trabecular patterns. Fibrous septa with inflammation are typical of focal nodular hyperplasia, spindle cells are seen in leiomyomas, and glandular mucinous epithelium is characteristic of metastatic adenocarcinoma.",
-      "source": "Basic liver pathology principles",
+      "correctOptionIndex": 3,
+      "explanation": "Pancreatic cystadenomas are benign cystic tumours that are often well‑circumscribed and may contain central calcifications. Adenocarcinomas are usually solid and infiltrative; pseudocysts are fluid‑filled and lack a true capsule; neuroendocrine tumours are typically solid and may secrete hormones. Thus the imaging features best fit a cystadenoma.",
+      "source": "Basic pancreatic pathology",
       "difficulty": "very easy",
       "section": "Pathology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-pathology-20261115193619-01",
-      "stem": "A 45‑year‑old man presents with a solitary, firm, non‑tender mass in the left upper quadrant of the abdomen. Imaging shows a well‑encapsulated lesion arising from the spleen. Which of the following histological findings is most characteristic of a benign splenic tumor that is usually asymptomatic and often discovered incidentally?",
+      "id": "ai-pathology-20261115203205-01",
+      "stem": "A 45‑year‑old man presents with a 3‑cm firm, non‑tender mass in the left upper quadrant. Imaging shows a well‑defined, encapsulated lesion arising from the spleen. Which of the following is the most likely histological diagnosis?",
       "options": [
-        "Spindle cells with storiform arrangement and nuclear atypia",
-        "Glandular structures lined by mucin‑producing epithelium",
-        "Pleomorphic cells with prominent nucleoli and high mitotic activity",
-        "Uniform, round cells forming a solid sheet with no necrosis"
+        "A. Lymphoma",
+        "B. Hemangioma",
+        "C. Splenic cyst",
+        "D. Metastatic carcinoma"
       ],
-      "correctOptionIndex": 3,
-      "explanation": "A benign splenic tumor that is usually incidental is a splenic hemangioma, which histologically shows a uniform, round cell population forming a solid sheet without necrosis. The other options describe malignant or different benign lesions: spindle cells with atypia suggest sarcoma, glandular mucinous epithelium indicates mucinous cystadenoma, and pleomorphic cells with high mitoses point to high‑grade sarcoma.",
+      "correctOptionIndex": 1,
+      "explanation": "Splenic hemangiomas are benign vascular tumors that appear as well‑defined, encapsulated masses on imaging and are the most common benign splenic lesions. Lymphoma and metastatic carcinoma would present with systemic symptoms or a different imaging appearance, while cysts are usually fluid‑filled and lack a solid vascular component.",
       "source": "Basic splenic pathology",
       "difficulty": "easy",
       "section": "Pathology",
@@ -42,51 +42,51 @@
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-pathology-20261115193620-01",
-      "stem": "A 45‑year‑old man presents with a 3‑month history of intermittent abdominal pain, weight loss and a palpable mass in the left upper quadrant. CT imaging shows a 6‑cm heterogeneous lesion arising from the splenic flexure of the colon. Histology of the resected specimen reveals a well‑differentiated adenocarcinoma with mucinous features and a high mitotic index. Which of the following is the most likely histopathological staging (TNM) for this tumour?",
+      "id": "ai-pathology-20261115203205-01",
+      "stem": "A 58‑year‑old man presents with a 3‑month history of painless, progressive enlargement of the left supraclavicular lymph node. Fine‑needle aspiration cytology shows malignant cells with abundant eosinophilic cytoplasm, prominent nucleoli, and occasional intracytoplasmic vacuoles. Which of the following is the most likely primary tumour?",
       "options": [
-        "T2 N0 M0",
-        "T3 N1 M0",
-        "T4 N2 M0",
-        "T1 N0 M1"
+        "A. Lung adenocarcinoma",
+        "B. Breast carcinoma",
+        "C. Gastric carcinoma",
+        "D. Renal cell carcinoma"
       ],
-      "correctOptionIndex": 1,
-      "explanation": "The tumour is >2 cm and invades through the muscularis propria into pericolonic fat (T3). The presence of lymphovascular invasion and a high mitotic index suggests regional lymph node involvement (N1). There is no evidence of distant metastasis (M0). Thus T3 N1 M0 is the correct stage. T2 would be limited to muscularis propria, T4 would involve adjacent organs, and M1 would indicate distant spread.",
-      "source": "TNM classification for colorectal cancer",
+      "correctOptionIndex": 0,
+      "explanation": "The cytology is characteristic of metastatic adenocarcinoma with mucin vacuoles. The most common primary site for supraclavicular node metastasis is the lung, especially adenocarcinoma. Breast, gastric and renal primaries are less common in this location and would show different cytologic features.",
+      "source": "Metastatic adenocarcinoma cytology",
       "difficulty": "moderate",
       "section": "Pathology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-pathology-20261115193620-01",
-      "stem": "A 58‑year‑old man presents with a 3‑cm, firm, non‑mobile mass in the left upper quadrant. Imaging shows a well‑circumscribed lesion arising from the spleen. Histology reveals a proliferation of spindle‑shaped cells with a storiform pattern, occasional mitoses, and a prominent lymphoid cuff. Immunohistochemistry is positive for CD34 and negative for S100. Which of the following is the most likely diagnosis?",
+      "id": "ai-pathology-20261115203206-01",
+      "stem": "A 58‑year‑old man presents with a 3‑month history of progressive abdominal distension and early satiety. CT imaging reveals a large, heterogeneous mass arising from the body of the pancreas with areas of necrosis and calcification. Serum amylase and lipase are mildly elevated. Which of the following histopathological findings is most characteristic of the tumour most likely responsible for this presentation?",
       "options": [
-        "A. Splenic hemangioma",
-        "B. Splenic hamartoma",
-        "C. Splenic angiosarcoma",
-        "D. Splenic solitary fibrous tumour"
+        "Solid pseudopapillary neoplasm with uniform cells and low mitotic activity",
+        "Well‑differentiated neuroendocrine tumour with nests of cells surrounded by a fibrous capsule",
+        "Glandular epithelium forming irregular, poorly differentiated adenocarcinoma cells with mucin production",
+        "Desmoplastic stroma with spindle‑shaped fibroblasts and occasional osteoid formation"
       ],
-      "correctOptionIndex": 3,
-      "explanation": "The lesion shows spindle cells in a storiform pattern with a lymphoid cuff and CD34 positivity, classic for a solitary fibrous tumour of the spleen. Hemangiomas are vascular and S100‑negative; hamartomas are benign vascular malformations; angiosarcomas are malignant vascular tumours with atypia and endothelial markers. Thus option D is correct.",
-      "source": "Splenic tumour histology",
+      "correctOptionIndex": 2,
+      "explanation": "The clinical picture and imaging are classic for pancreatic ductal adenocarcinoma, which histologically shows poorly differentiated glandular epithelium with mucin production and desmoplasia. Solid pseudopapillary neoplasms are rare and occur in younger women; neuroendocrine tumours are usually well‑differentiated and present with hormonal syndromes; desmoplastic stroma with osteoid is typical of osteosarcoma, not pancreatic cancer.",
+      "source": "Pancreatic ductal adenocarcinoma histopathology",
       "difficulty": "hard",
       "section": "Pathology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-pathology-20261115193621-01",
-      "stem": "A 55‑year‑old man presents with a 3‑month history of progressive abdominal distension, early satiety, and weight loss. Imaging reveals a large, heterogeneous mass arising from the body of the pancreas with cystic and solid components. Endoscopic ultrasound‑guided fine‑needle aspiration cytology shows malignant epithelial cells with abundant mucinous stroma and signet‑ring type cells. Which of the following histopathological features is most characteristic of this tumour type?",
+      "id": "ai-pathology-20261115203207-01",
+      "stem": "A 45‑year‑old man presents with a 3‑month history of progressive abdominal distension, early satiety and weight loss. CT imaging shows a large, heterogeneous mass arising from the tail of the pancreas with multiple enlarged peripancreatic lymph nodes. Endoscopic ultrasound‑guided fine‑needle aspiration (EUS‑FNA) yields a cellular smear with nests of cells exhibiting abundant eosinophilic cytoplasm, prominent nucleoli, and occasional intracytoplasmic vacuoles. Immunohistochemistry is positive for chromogranin A and synaptophysin, but negative for cytokeratin 7 and cytokeratin 20. Which of the following is the most likely diagnosis?",
       "options": [
-        "Presence of a desmoplastic stromal reaction with abundant spindle‑cell fibroblasts",
-        "Infiltration of tumour cells into the pancreatic ductal epithelium forming glandular structures",
-        "Extensive perineural invasion with tumour cells forming nests of signet‑ring cells",
-        "Lymphoid aggregates surrounding tumour islands forming a lymphoid stroma"
+        "A. Pancreatic ductal adenocarcinoma",
+        "B. Pancreatic neuroendocrine tumour (insulinoma)",
+        "C. Solid pseudopapillary neoplasm",
+        "D. Pancreatic acinar cell carcinoma"
       ],
-      "correctOptionIndex": 2,
-      "explanation": "The described tumour is a mucinous cystic neoplasm of the pancreas with signet‑ring cells, a rare but characteristic variant. The hallmark is extensive perineural invasion by nests of signet‑ring cells, which distinguishes it from other pancreatic neoplasms such as ductal adenocarcinoma (which shows desmoplasia) or intraductal papillary mucinous neoplasms (which form glandular structures). Lymphoid stroma is typical of lymphoepithelial cysts, not mucinous cystic neoplasms.",
-      "source": "Pancreatic cystic neoplasms; histopathological classification",
+      "correctOptionIndex": 1,
+      "explanation": "The cytology shows nests of cells with eosinophilic cytoplasm and intracytoplasmic vacuoles, classic for neuroendocrine tumours. Immunostaining positive for chromogranin A and synaptophysin confirms neuroendocrine differentiation, while negativity for cytokeratins excludes ductal adenocarcinoma. Insulinomas are a subtype of neuroendocrine tumours but the clinical picture (weight loss, abdominal distension) and lack of hypoglycaemia favour a non‑functional neuroendocrine tumour. Solid pseudopapillary neoplasms are usually cystic with low‑grade cytology and are S‑100 positive; acinar cell carcinoma shows trypsin positivity and a different cytologic pattern.",
+      "source": "Pancreatic tumour pathology principles",
       "difficulty": "very hard",
       "section": "Pathology",
       "status": "ai-generated-draft",

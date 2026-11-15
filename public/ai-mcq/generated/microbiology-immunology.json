@@ -4,12 +4,12 @@
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
-  "bankQuestionCount": 1441,
-  "generatedAt": "2026-11-15T19:37:03.499075+00:00",
+  "bankQuestionCount": 1481,
+  "generatedAt": "2026-11-15T20:32:40.246783+00:00",
   "questions": [
     {
-      "id": "ai-microbiology-immunology-20261115193641-01",
-      "stem": "Which of the following organisms is most commonly responsible for postoperative wound infections in abdominal surgery?",
+      "id": "ai-microbiology-immunology-20261115203222-01",
+      "stem": "Which of the following organisms is most commonly responsible for causing surgical site infections after abdominal surgery?",
       "options": [
         "Staphylococcus aureus",
         "Escherichia coli",
@@ -17,7 +17,7 @@
         "Candida albicans"
       ],
       "correctOptionIndex": 0,
-      "explanation": "Staphylococcus aureus, especially methicillin‑sensitive strains, is the leading cause of surgical site infections in abdominal procedures. Escherichia coli and Pseudomonas are less common, and Candida typically causes deep or systemic infections rather than superficial wound infections.",
+      "explanation": "Staphylococcus aureus, especially methicillin‑resistant strains, is the leading cause of post‑operative wound infections due to its prevalence on skin and its ability to form biofilms on sutures. Escherichia coli and Pseudomonas can cause infections but are less common, while Candida is usually a later opportunistic pathogen.",
       "source": "Basic surgical microbiology principles",
       "difficulty": "very easy",
       "section": "Microbiology and Immunology",
@@ -25,25 +25,25 @@
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115193648-01",
-      "stem": "A 45‑year‑old patient presents with a purulent wound infection after a minor skin injury. Which of the following organisms is most likely responsible for the infection?",
+      "id": "ai-microbiology-immunology-20261115203228-01",
+      "stem": "A 45‑year‑old patient presents with a purulent wound infection after a minor laceration. Gram staining of the exudate shows Gram‑positive cocci in chains. Which organism is most likely responsible?",
       "options": [
         "Staphylococcus aureus",
+        "Streptococcus pyogenes",
         "Escherichia coli",
-        "Pseudomonas aeruginosa",
-        "Candida albicans"
+        "Pseudomonas aeruginosa"
       ],
-      "correctOptionIndex": 0,
-      "explanation": "Staphylococcus aureus is the most common cause of superficial skin and wound infections, producing purulent exudate. Escherichia coli and Pseudomonas are more associated with urinary or burn infections, while Candida albicans typically causes superficial mucosal infections.",
-      "source": "Basic principles of wound microbiology",
+      "correctOptionIndex": 1,
+      "explanation": "Streptococcus pyogenes is a Gram‑positive coccus that forms chains and is a common cause of skin and soft tissue infections. Staphylococcus aureus is also Gram‑positive but typically appears in clusters. E. coli and P. aeruginosa are Gram‑negative and would not appear as Gram‑positive cocci.",
+      "source": "Basic principles of bacterial morphology and common skin pathogens",
       "difficulty": "easy",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115193652-01",
-      "stem": "A 45‑year‑old man presents with a purulent wound after a dog bite. Gram staining of the wound exudate shows gram‑positive cocci in chains. Which organism is most likely responsible for this infection?",
+      "id": "ai-microbiology-immunology-20261115203229-01",
+      "stem": "A 45‑year‑old man presents with a purulent wound after a dog bite. Gram staining of the exudate shows Gram‑positive cocci in chains. Which organism is most likely responsible for the infection?",
       "options": [
         "Staphylococcus aureus",
         "Streptococcus pyogenes",
@@ -51,42 +51,42 @@
         "Streptococcus pneumoniae"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Streptococcus pyogenes (group A strep) is a gram‑positive coccus in chains and is a common cause of skin and soft‑tissue infections after animal bites. Staphylococcus aureus is also gram‑positive but appears in clusters. Streptococcus agalactiae (group B) and S. pneumoniae are less common in bite wounds and have different clinical presentations.",
-      "source": "Basic principles of bacterial morphology and wound infection",
+      "explanation": "Streptococcus pyogenes (group A strep) is a common cause of dog‑bite wound infections and appears as Gram‑positive cocci in chains on Gram stain. Staphylococcus aureus appears in clusters, while S. agalactiae and S. pneumoniae are less common in this setting.",
+      "source": "Basic principles of wound infection microbiology",
       "difficulty": "moderate",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115193658-01",
-      "stem": "A 58‑year‑old man with a history of chronic pancreatitis presents with a sudden onset of severe abdominal pain and a high fever. Imaging reveals a necrotic pancreatic collection. Cultures from the collection grow a gram‑negative, oxidase‑positive, non‑fermenting rod that is resistant to third‑generation cephalosporins but susceptible to carbapenems. Which of the following is the most likely pathogen and what is the most appropriate empiric antibiotic regimen to cover this organism while awaiting culture results?",
+      "id": "ai-microbiology-immunology-20261115203234-01",
+      "stem": "A 45‑year‑old man presents with a 3‑week history of fever, night sweats, weight loss, and a non‑productive cough. Chest radiography shows bilateral hilar lymphadenopathy. Bronchoscopy with transbronchial lymph node biopsy reveals non‑caseating granulomas. Acid‑fast bacilli are not seen on Ziehl‑Neelsen staining, and cultures for Mycobacterium tuberculosis are negative. Which of the following is the most appropriate next step in the diagnostic work‑up?",
       "options": [
-        "Pseudomonas aeruginosa – Piperacillin‑tazobactam",
-        "Acinetobacter baumannii – Cefepime",
-        "Enterobacter cloacae – Amoxicillin‑clavulanate",
-        "Stenotrophomonas maltophilia – Trimethoprim‑sulfamethoxazole"
+        "Serum angiotensin‑converting enzyme (ACE) level",
+        "Mantoux skin test",
+        "High‑resolution CT scan of the chest",
+        "Serum IgE level"
       ],
       "correctOptionIndex": 0,
-      "explanation": "The organism described is a gram‑negative, oxidase‑positive, non‑fermenting rod that is resistant to third‑generation cephalosporins but susceptible to carbapenems – classic features of Pseudomonas aeruginosa. In severe intra‑abdominal infections, empiric coverage for Pseudomonas is achieved with a broad‑spectrum β‑lactam/β‑lactamase inhibitor such as piperacillin‑tazobactam. The other options describe organisms with different antimicrobial susceptibilities and are less likely to fit the described phenotype.",
-      "source": "Principles of surgical microbiology; empiric therapy for intra‑abdominal infections",
+      "explanation": "The presentation is classic for sarcoidosis, which is characterized by non‑caseating granulomas and often shows an elevated serum ACE level. A Mantoux test would be negative in sarcoidosis and is not diagnostic. High‑resolution CT may show characteristic findings but does not confirm the diagnosis. Serum IgE is not routinely used in this setting. Therefore, measuring serum ACE is the most appropriate next step.",
+      "source": "Sarcoidosis diagnostic principles",
       "difficulty": "hard",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-microbiology-immunology-20261115193703-01",
-      "stem": "A 45‑year‑old male presents with a 3‑week history of fever, chills, and a progressive, non‑painful swelling of the left axillary lymph node. Fine‑needle aspiration cytology shows numerous large, oval, encapsulated organisms with a prominent polysaccharide capsule and a tendency to form a “sugar‑cane” appearance on Gram stain. The organism is catalase‑positive, oxidase‑negative, and grows in 6.5% NaCl. Which of the following is the most likely etiologic agent?",
+      "id": "ai-microbiology-immunology-20261115203240-01",
+      "stem": "A 45‑year‑old man presents with a 3‑week history of fever, night sweats, and weight loss. He has a history of chronic hepatitis C infection and is on interferon therapy. Blood cultures grow a gram‑negative rod that is oxidase‑positive, non‑fermenting, and produces a characteristic sweet, fruity odor. Which of the following is the most likely organism and the most appropriate initial antibiotic therapy?",
       "options": [
-        "Streptococcus pneumoniae",
-        "Staphylococcus aureus",
-        "Streptococcus pyogenes",
-        "Streptococcus agalactiae"
+        "Pseudomonas aeruginosa – high‑dose ciprofloxacin",
+        "Acinetobacter baumannii – carbapenem",
+        "Burkholderia pseudomallei – doxycycline plus ceftazidime",
+        "Klebsiella pneumoniae – ampicillin‑sulbactam"
       ],
-      "correctOptionIndex": 0,
-      "explanation": "The description matches Streptococcus pneumoniae: a Gram‑positive, catalase‑negative, alpha‑hemolytic, optochin‑sensitive, bile‑soluble, encapsulated diplococcus that grows in 6.5% NaCl. It is the most common cause of bacterial lymphadenitis in adults. The other options are either non‑encapsulated or do not grow in high salt concentrations.",
-      "source": "Basic bacterial microbiology principles",
+      "correctOptionIndex": 2,
+      "explanation": "The description (oxidase‑positive, non‑fermenting, fruity odor) is classic for Burkholderia pseudomallei, the causative agent of melioidosis. The first‑line treatment is a combination of doxycycline (or TMP‑SMX) with a third‑generation cephalosporin such as ceftazidime. The other organisms listed do not fit the biochemical profile or the typical odor, and their recommended antibiotics differ.",
+      "source": "Principles of infectious disease management; microbiology of gram‑negative rods",
       "difficulty": "very hard",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",

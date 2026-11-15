@@ -54,7 +54,7 @@ def ask_groq(section: str, count: int) -> dict:
     payload = json.dumps({
         "model": MODEL,
         "temperature": 0.35,
-        "max_completion_tokens": max(1200, count * 420),
+        "max_completion_tokens": max(6000, count * 900),
         "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
         "reasoning_effort": "low",
         "response_format": {

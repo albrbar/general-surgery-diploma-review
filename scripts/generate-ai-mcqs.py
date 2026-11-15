@@ -18,9 +18,10 @@ SECTIONS = {
     "principles-of-surgery": "Principles of Surgery",
 }
 MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-20b")
+DIFFICULTIES = ("very easy", "easy", "moderate", "hard", "very hard")
 
 
-def ask_groq(section: str, count: int) -> dict:
+def ask_groq(section: str, count: int, target_difficulty: str | None = None) -> dict:
     api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
         raise RuntimeError("GROQ_API_KEY is not configured")
@@ -44,13 +45,15 @@ def ask_groq(section: str, count: int) -> dict:
         "You create high-quality postgraduate general-surgery revision MCQs. "
         "Return only valid JSON. These are educational AI drafts, not clinically approved advice. "
         "Do not invent citations, page numbers, named guidelines, or patient-specific recommendations. "
-        "Use exactly four plausible options and one best answer. Avoid duplicate questions. Return one question at each difficulty: very easy, easy, moderate, hard, and very hard."
+        "Use exactly four plausible options and one best answer. Avoid duplicate questions."
     )
+    difficulty_instruction = f"The one requested question must have difficulty exactly: {target_difficulty}. " if target_difficulty else ""
     user = (
         f"Generate exactly {count} new MCQs for the General Surgery Diploma section: {section_label}. "
         "Use core surgical-science and basic-surgery teaching appropriate for diploma learners. "
-        "Each explanation must briefly justify the best answer and distinguish it from the distractors. Use exactly one question at each of these difficulty levels: very easy, easy, moderate, hard, very hard. "
-        "Use this exact JSON shape and no markdown: " + json.dumps(schema_instruction)
+        "Each explanation must briefly justify the best answer and distinguish it from the distractors. "
+        + difficulty_instruction
+        + "Use this exact JSON shape and no markdown: " + json.dumps(schema_instruction)
     )
     payload = json.dumps({
         "model": MODEL,
@@ -150,11 +153,17 @@ def main() -> int:
     output.mkdir(parents=True, exist_ok=True)
     manifest = {"generatedAt": datetime.now(timezone.utc).isoformat(), "model": MODEL, "groups": []}
     for section in sections:
-        result = ask_groq(section, args.count)
+        questions = []
+        difficulties = DIFFICULTIES if args.count == 5 else (None,)
+        for difficulty in difficulties:
+            single = ask_groq(section, 1 if difficulty else args.count, difficulty)
+            questions.extend(single["questions"])
+        generated_at = datetime.now(timezone.utc).isoformat()
+        result = {"section": SECTIONS[section], "sectionId": section, "status": "ai-generated-draft", "model": MODEL, "generatedAt": generated_at, "questions": questions}
         target = output / f"{section}.json"
         target.write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-        manifest["groups"].append({"section": section, "label": SECTIONS[section], "file": f"generated/{section}.json", "count": len(result["questions"]), "status": result["status"], "model": MODEL, "generatedAt": result["generatedAt"]})
-        print(f"Generated {len(result['questions'])} AI draft questions for {SECTIONS[section]}")
+        manifest["groups"].append({"section": section, "label": SECTIONS[section], "file": f"generated/{section}.json", "count": len(questions), "status": result["status"], "model": MODEL, "generatedAt": generated_at})
+        print(f"Generated {len(questions)} AI draft questions for {SECTIONS[section]}")
     (output.parent / "manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return 0
 

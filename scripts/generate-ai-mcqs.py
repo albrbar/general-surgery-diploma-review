@@ -56,7 +56,7 @@ def ask_groq(section: str, count: int) -> dict:
         "temperature": 0.35,
         "max_completion_tokens": max(1200, count * 420),
         "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
-        "response_format": {"type": "json_object"},
+        "reasoning_effort": "low",
     }).encode("utf-8")
     request = urllib.request.Request(
         "https://api.groq.com/openai/v1/chat/completions",
@@ -78,7 +78,11 @@ def ask_groq(section: str, count: int) -> dict:
     try:
         generated = json.loads(content)
     except json.JSONDecodeError as exc:
-        raise RuntimeError(f"Groq returned invalid JSON: {exc}") from exc
+        cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", content.strip(), flags=re.IGNORECASE)
+        try:
+            generated = json.loads(cleaned)
+        except json.JSONDecodeError:
+            raise RuntimeError(f"Groq returned invalid JSON: {exc}") from exc
     questions = generated.get("questions")
     if not isinstance(questions, list) or len(questions) != count:
         raise RuntimeError(f"Groq returned {len(questions) if isinstance(questions, list) else 0} questions; expected {count}")

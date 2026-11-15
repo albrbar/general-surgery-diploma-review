@@ -14,7 +14,7 @@ const navItems: Array<{ id: Page; label: string; icon: IconName }> = [
   { id: 'banks', label: 'Question Banks', icon: 'layers' }, { id: 'library', label: 'Academic Library', icon: 'book' }, { id: 'about', label: 'About the Platform', icon: 'info' },
 ];
 const topicGroups = [
-  ['Core Surgery', 'General Surgery Core', ['Perioperative care', 'Fluids and electrolytes', 'Surgical infection']], ['Trauma', 'Trauma Surgery', ['Primary survey', 'Shock', 'Thoracic trauma', 'Abdominal trauma']],
+  ['Core Surgery', 'General Surgery Core', ['Perioperative care', 'Fluids and electrolytes', 'Surgical infection']], ['Pharmacology', 'Pharmacology', ['Antibiotics', 'Analgesics in surgery', 'Blood disorder drugs and chemotherapy']], ['Trauma', 'Trauma Surgery', ['Primary survey', 'Shock', 'Thoracic trauma', 'Abdominal trauma']],
   ['Breast Surgery', 'Breast Surgery', ['Benign breast disease', 'Breast cancer']], ['Colorectal Surgery', 'Colorectal Surgery', ['Colorectal cancer', 'Inflammatory bowel disease', 'Anorectal disease']],
   ['Upper GI Surgery', 'Upper GI Surgery', ['Oesophagus', 'Stomach', 'Bariatric surgery']], ['Hepatopancreatobiliary Surgery', 'HPB Surgery', ['Liver', 'Biliary tract', 'Pancreas']],
   ['Vascular Surgery', 'Vascular Surgery', ['Arterial disease', 'Venous disease']], ['Endocrine Surgery', 'Endocrine Surgery', ['Thyroid', 'Parathyroid', 'Adrenal gland']],

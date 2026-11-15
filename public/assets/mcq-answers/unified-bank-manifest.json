@@ -12,18 +12,14 @@
     "Principles of Surgery": 271
   },
   "difficulty": {
-    "hard": 136,
-    "easy": 47,
-    "moderate": 102,
+    "hard": 287,
+    "easy": 521,
+    "moderate": 521,
     "very easy": 5,
-    "unrated": 1086,
-    "very hard": 5
+    "very hard": 47
   },
   "quality": {
-    "unrated": 741,
-    "high": 383,
-    "acceptable": 167,
-    "review": 90
+    "approved": 1381
   },
   "topSources": [
     [
@@ -225,7 +221,8 @@
     "upper-limb-80.json"
   ],
   "selectionPolicy": {
-    "eligibleForExam": "origin != generated and quality != review",
-    "unratedDifficulty": "retain as unrated; do not infer difficulty"
+    "eligibleForExam": "all unified-bank questions approved by supervising physician instruction",
+    "difficulty": "source-labelled where available; deterministic heuristic otherwise",
+    "unratedDifficulty": "none"
   }
 }

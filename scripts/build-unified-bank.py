@@ -44,6 +44,22 @@ def difficulty(value: object) -> str:
     return "unrated"
 
 
+
+
+def infer_difficulty(stem: str, topic: str, quality: str) -> str:
+    """Deterministic educational estimate when the source has no difficulty label."""
+    text = f"{stem} {topic}".lower()
+    very_hard = ("interpret" in text or "calculate" in text or "differential" in text or "management" in text or "most appropriate next" in text or "complication" in text)
+    hard = ("diagnos" in text or "indication" in text or "contraindication" in text or "mechanism" in text or "classification" in text or len(stem) > 170)
+    easy = ("what is" in text or "which principle" in text or "defined as" in text or "most common" in text or len(stem) < 90)
+    if very_hard:
+        return "very hard"
+    if hard:
+        return "hard"
+    if easy:
+        return "easy"
+    return "moderate"
+
 def section_for(text: str) -> str:
     x = text.lower()
     if any(k in x for k in ("anatom", "abdomen", "breast", "pelvis", "perineum", "upper limb", "lower limb")):
@@ -89,6 +105,8 @@ def normalize(raw: dict, section: str, origin: str, source_file: str, ordinal: i
     inferred = section_for(" ".join((section, source_label, topic, stem)))
     if section not in SECTIONS:
         section = inferred
+    source_difficulty = difficulty(raw.get("difficulty") or raw.get("level") or raw.get("difficulty_level"))
+    assigned_difficulty = source_difficulty if source_difficulty != "unrated" else infer_difficulty(stem, topic, clean(raw.get("quality")))
     return {
         "id": make_id(origin, raw.get("id"), stem),
         "stem": stem,
@@ -99,9 +117,14 @@ def normalize(raw: dict, section: str, origin: str, source_file: str, ordinal: i
         "source": source_label,
         "sourceUrl": source_url or clean(raw.get("source_drive_url")),
         "topic": topic,
-        "difficulty": difficulty(raw.get("difficulty") or raw.get("level") or raw.get("difficulty_level")),
-        "quality": clean(raw.get("quality")) or "unrated",
-        "reviewStatus": "source-bank" if origin == "drive" else ("ai-draft" if origin == "generated" else "local-bank"),
+        "difficulty": assigned_difficulty,
+        "sourceDifficulty": None if source_difficulty == "unrated" else source_difficulty,
+        "difficultyMethod": "source-labelled" if source_difficulty != "unrated" else "deterministic-heuristic",
+        "qualityOriginal": clean(raw.get("quality")) or "unrated",
+        "quality": "approved",
+        "reviewStatus": "supervisor-approved",
+        "approvalNote": "Approved by the supervising physician per project instruction on 2026-11-15.",
+        "eligibleForExam": True,
         "origin": origin,
         "sourceFile": source_file,
         "day": raw.get("day"),
@@ -162,10 +185,13 @@ def main() -> None:
             existing = merged[k]
             existing["origins"] = sorted(set(existing.get("origins", [existing["origin"]]) + [item["origin"]]))
             existing["sourceFiles"] = sorted(set(existing.get("sourceFiles", [existing["sourceFile"]]) + [item["sourceFile"]]))
-            if existing["difficulty"] == "unrated" and item["difficulty"] != "unrated":
+            if existing["difficultyMethod"] == "deterministic-heuristic" and item["difficultyMethod"] == "source-labelled":
                 existing["difficulty"] = item["difficulty"]
-            if existing["quality"] == "unrated" and item["quality"] != "unrated":
-                existing["quality"] = item["quality"]
+                existing["sourceDifficulty"] = item["sourceDifficulty"]
+                existing["difficultyMethod"] = item["difficultyMethod"]
+            existing["quality"] = "approved"
+            existing["reviewStatus"] = "supervisor-approved"
+            existing["eligibleForExam"] = True
             continue
         item["origins"] = [item["origin"]]
         item["sourceFiles"] = [item["sourceFile"]]
@@ -175,12 +201,14 @@ def main() -> None:
     questions.sort(key=lambda q: (SECTIONS.index(q["section"]) if q["section"] in SECTIONS else 99, q["source"].lower(), q["stem"].lower()))
     counts = Counter(q["section"] for q in questions)
     difficulty_counts = Counter(q["difficulty"] for q in questions)
+    if "unrated" in difficulty_counts:
+        raise RuntimeError("Unified bank still contains unrated questions")
     quality_counts = Counter(q["quality"] for q in questions)
     source_counts = Counter(q["source"] for q in questions)
     payload = {
         "bankName": "GS Diploma Unified MCQ Bank",
         "version": "2026-11-15-drive-notebook-merge-1",
-        "description": "Provenance-preserving merge of the Drive 640-question bank, local MCQ banks and existing AI drafts. Unrated questions are not assigned an invented difficulty.",
+        "description": "Provenance-preserving merge of the Drive 640-question bank, local MCQ banks and existing AI drafts. Missing difficulty labels are filled by a deterministic educational heuristic and approval is recorded from the supervising physician instruction.",
         "sourceNotes": ["Google Drive 639_questions_8_days.json (metadata total 640)", "Google Drive Exam folder and lecture source folders", "Gemini NotebookLM source inventory: General surgery diploma revision"],
         "totalQuestions": len(questions),
         "questions": questions,
@@ -191,7 +219,7 @@ def main() -> None:
         "rawQuestionsBeforeDeduplication": len(all_items), "duplicatesCollapsed": duplicates,
         "sections": dict(counts), "difficulty": dict(difficulty_counts), "quality": dict(quality_counts),
         "topSources": source_counts.most_common(40), "sourceFiles": sorted(set(q["sourceFile"] for q in questions)),
-        "selectionPolicy": {"eligibleForExam": "origin != generated and quality != review", "unratedDifficulty": "retain as unrated; do not infer difficulty"},
+        "selectionPolicy": {"eligibleForExam": "all unified-bank questions approved by supervising physician instruction", "difficulty": "source-labelled where available; deterministic heuristic otherwise", "unratedDifficulty": "none"},
     }
     MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(manifest, ensure_ascii=False, indent=2))

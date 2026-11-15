@@ -137,7 +137,7 @@ a { color: inherit; }
 .bank-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-top: 6px; }
 .bank-card { padding: 25px; border: 1px solid; border-radius: 17px; background: #fff; }
 .bank-active { border-color: #d3e4ee; background: linear-gradient(145deg, #fff, #f5faff); }
-.bank-pending { border-color: #f0dfba; background: linear-gradient(145deg, #fff, #fffaf0); }
+.bank-available { border-color: #f0dfba; background: linear-gradient(145deg, #fff, #fffaf0); }
 .bank-card-top { display: flex; align-items: center; justify-content: space-between; }
 .bank-icon { display: grid; place-items: center; width: 49px; height: 49px; border-radius: 13px; font-size: 12px; font-weight: 950; letter-spacing: -.04em; }
 .bank-icon.blue { color: #376d9d; background: #e6f0f8; }

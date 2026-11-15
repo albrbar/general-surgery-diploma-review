@@ -61,7 +61,11 @@ def ask_groq(section: str, count: int) -> dict:
     request = urllib.request.Request(
         "https://api.groq.com/openai/v1/chat/completions",
         data=payload,
-        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "User-Agent": "gsdiploma-groq-mcq-generator/1.0",
+        },
         method="POST",
     )
     try:

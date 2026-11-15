@@ -17,7 +17,7 @@ SECTIONS = {
     "microbiology-immunology": "Microbiology and Immunology",
     "principles-of-surgery": "Principles of Surgery",
 }
-MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-20b")
 
 
 def ask_groq(section: str, count: int) -> dict:

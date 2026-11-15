@@ -36,6 +36,7 @@ def ask_groq(section: str, count: int) -> dict:
                 "correctOptionIndex": 0,
                 "explanation": "brief educational explanation",
                 "source": "topic name or standard principle; do not invent a page number",
+                "difficulty": "very easy | easy | moderate | hard | very hard",
             }
         ],
     }
@@ -43,12 +44,12 @@ def ask_groq(section: str, count: int) -> dict:
         "You create high-quality postgraduate general-surgery revision MCQs. "
         "Return only valid JSON. These are educational AI drafts, not clinically approved advice. "
         "Do not invent citations, page numbers, named guidelines, or patient-specific recommendations. "
-        "Use exactly four plausible options and one best answer. Avoid duplicate questions."
+        "Use exactly four plausible options and one best answer. Avoid duplicate questions. Return one question at each difficulty: very easy, easy, moderate, hard, and very hard."
     )
     user = (
         f"Generate exactly {count} new MCQs for the General Surgery Diploma section: {section_label}. "
         "Use core surgical-science and basic-surgery teaching appropriate for diploma learners. "
-        "Each explanation must briefly justify the best answer and distinguish it from the distractors. "
+        "Each explanation must briefly justify the best answer and distinguish it from the distractors. Use exactly one question at each of these difficulty levels: very easy, easy, moderate, hard, very hard. "
         "Use this exact JSON shape and no markdown: " + json.dumps(schema_instruction)
     )
     payload = json.dumps({
@@ -77,9 +78,10 @@ def ask_groq(section: str, count: int) -> dict:
                                     "options": {"type": "array", "items": {"type": "string"}},
                                     "correctOptionIndex": {"type": "integer", "minimum": 0, "maximum": 3},
                                     "explanation": {"type": "string"},
-                                    "source": {"type": "string"}
+                                    "source": {"type": "string"},
+                                    "difficulty": {"type": "string", "enum": ["very easy", "easy", "moderate", "hard", "very hard"]}
                                 },
-                                "required": ["id", "stem", "options", "correctOptionIndex", "explanation", "source"],
+                                "required": ["id", "stem", "options", "correctOptionIndex", "explanation", "source", "difficulty"],
                                 "additionalProperties": False
                             },
                         }
@@ -124,9 +126,9 @@ def ask_groq(section: str, count: int) -> dict:
             raise RuntimeError(f"Question {index} is not an object")
         options = question.get("options")
         answer = question.get("correctOptionIndex")
-        if not question.get("stem") or not isinstance(options, list) or len(options) != 4 or answer not in range(4):
+        if not question.get("stem") or not isinstance(options, list) or len(options) != 4 or answer not in range(4) or question.get("difficulty") not in {"very easy", "easy", "moderate", "hard", "very hard"}:
             raise RuntimeError(f"Question {index} failed the MCQ shape check")
-        question["id"] = f"ai-{section}-{datetime.now(timezone.utc).strftime('%Y%m%d')}-{index:02d}"
+        question["id"] = f"ai-{section}-{datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')}-{index:02d}"
         question["section"] = section_label
         question["status"] = "ai-generated-draft"
         question["reviewStatus"] = "requires-supervisor-review"

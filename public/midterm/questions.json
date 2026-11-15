@@ -1,0 +1,2157 @@
+{
+  "schemaVersion": "1.0",
+  "title": "امتحان النصفي — General Surgery Diploma",
+  "language": "en",
+  "questionCount": 80,
+  "answerVisibility": "hidden-until-submitted",
+  "sourcePolicy": "GitHub-only selection from existing question assets; no new questions were authored.",
+  "coverageNote": "Pharmacology, fluids & electrolytes, shock, hemorrhage, blood products, wound healing, ethics, consent, breaking bad news, metabolic response, nutrition, surgical oncology, septic shock, venous thromboembolism, and acid-base disturbances are not represented unless a matching GitHub question exists.",
+  "sections": [
+    {
+      "id": "anatomy",
+      "label": "Anatomy",
+      "labelAr": "علوم التشريح",
+      "count": 20
+    },
+    {
+      "id": "pathology",
+      "label": "Pathology",
+      "labelAr": "علم الأمراض",
+      "count": 20
+    },
+    {
+      "id": "microbiology-immunology",
+      "label": "Microbiology & Immunology",
+      "labelAr": "الأحياء الدقيقة والمناعة",
+      "count": 20
+    },
+    {
+      "id": "principles-of-surgery",
+      "label": "Principles of Surgery",
+      "labelAr": "مبادئ الجراحة",
+      "count": 20
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "id": "GS-ANAT03-AB-0001",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Stomach anatomy",
+      "stem": "Which statement correctly distinguishes the two gastric orifices in terms of sphincters?",
+      "options": [
+        "Both have anatomical and physiological sphincters",
+        "Neither orifice has a sphincter",
+        "The cardiac orifice has no anatomical sphincter but has a physiological one; the pyloric orifice has both",
+        "The cardiac orifice has an anatomical sphincter only; the pyloric has a physiological sphincter only"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The lecture describes a physiological sphincter at the cardiac orifice, while the pyloric orifice has anatomical and physiological sphincters.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Abdomen — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Abdomen — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/abdomen-80.json",
+      "tags": []
+    },
+    {
+      "number": 2,
+      "id": "GS-ANAT03-AB-0002",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Stomach peritoneum",
+      "stem": "Where does the stomach have its described bare area?",
+      "options": [
+        "On the posterior surface close to the cardiac orifice",
+        "On the anterior surface near the pylorus",
+        "Along the greater curvature",
+        "On the inferior surface near the angular notch"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The stomach is generally covered by peritoneum except for a bare area on its posterior surface near the cardiac orifice.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Abdomen — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Abdomen — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/abdomen-80.json",
+      "tags": []
+    },
+    {
+      "number": 3,
+      "id": "GS-ANAT03-AB-0003",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Gastric parasympathetic innervation",
+      "stem": "According to the lecture, which vagal nerves provide parasympathetic supply to the stomach?",
+      "options": [
+        "Greater and lesser splanchnic nerves",
+        "Pelvic splanchnic nerves from S2–S4",
+        "Phrenic nerves bilaterally",
+        "Anterior and posterior gastric nerves, from the left and right vagus respectively"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "The anterior and posterior gastric nerves are identified as vagal branches from the left and right vagus, respectively.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Abdomen — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Abdomen — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/abdomen-80.json",
+      "tags": []
+    },
+    {
+      "number": 4,
+      "id": "GS-ANAT03-AB-0004",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Duodenal mucosa",
+      "stem": "How does the duodenal mucosa differ between its first part and the remainder, as described in the lecture?",
+      "options": [
+        "It is folded in the first part and smooth throughout the rest",
+        "It is smooth in the first part; the remainder forms plicae circulares",
+        "It has villi only in the first part",
+        "It is smooth throughout all four parts"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The first part is described as smooth, while the rest of the duodenum has folds called plicae circulares.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Abdomen — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Abdomen — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/abdomen-80.json",
+      "tags": []
+    },
+    {
+      "number": 5,
+      "id": "GS-ANAT03-PE-0001",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Anal triangle",
+      "stem": "Which structures are contained in the anal triangle of the perineum?",
+      "options": [
+        "The anal canal and ischiorectal fossae",
+        "The urinary bladder and prostate",
+        "The urethra and external genitalia only",
+        "The rectum and uterine cavity"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The anal triangle contains the anal canal and the ischiorectal fossae.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Pelvis & Perineum — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/pelvis-perineum-80.json",
+      "tags": []
+    },
+    {
+      "number": 6,
+      "id": "GS-ANAT03-PE-0002",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Anal canal relations",
+      "stem": "Which structure is listed as an anterior relation of the anal canal?",
+      "options": [
+        "Perineal body and urogenital diaphragm",
+        "Anococcygeal body",
+        "Obturator internus",
+        "Sacrotuberous ligament"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The perineal body and urogenital diaphragm are the stated anterior relations of the anal canal.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Pelvis & Perineum — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/pelvis-perineum-80.json",
+      "tags": []
+    },
+    {
+      "number": 7,
+      "id": "GS-ANAT03-PE-0003",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Anal canal relations",
+      "stem": "What is the posterior relation of the anal canal?",
+      "options": [
+        "Anococcygeal body",
+        "Perineal body",
+        "Urogenital diaphragm",
+        "Obturator fascia"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The slide identifies the anococcygeal body as the posterior relation.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Pelvis & Perineum — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/pelvis-perineum-80.json",
+      "tags": []
+    },
+    {
+      "number": 8,
+      "id": "GS-ANAT03-PE-0004",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Anal canal orientation",
+      "stem": "In which direction does the anal canal pass from the anorectal junction toward the anus?",
+      "options": [
+        "Downward and backward",
+        "Upward and forward",
+        "Horizontally to the right",
+        "Downward and forward"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The anal canal passes downward and backward from the anorectal junction.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Pelvis & Perineum — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Pelvis & Perineum — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/pelvis-perineum-80.json",
+      "tags": []
+    },
+    {
+      "number": 9,
+      "id": "GS-ANAT03-BR-0001",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Breast microstructure",
+      "stem": "Approximately how many alveoli form one lobule of the breast?",
+      "options": [
+        "1–10",
+        "10–100",
+        "100–200",
+        "200–400"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The slide states that about 10 to 100 alveoli form one lobule.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Breast — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Breast — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/breast-80.json",
+      "tags": []
+    },
+    {
+      "number": 10,
+      "id": "GS-ANAT03-BR-0002",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Breast microstructure",
+      "stem": "Approximately how many lobules form one breast lobe?",
+      "options": [
+        "2–5",
+        "5–10",
+        "20–40",
+        "50–100"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The lecture gives a range of 20 to 40 lobules per lobe.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Breast — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Breast — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/breast-80.json",
+      "tags": []
+    },
+    {
+      "number": 11,
+      "id": "GS-ANAT03-BR-0003",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Breast structure",
+      "stem": "Which statement about the breast's capsule is consistent with the lecture?",
+      "options": [
+        "It is enclosed by a thick fibrous capsule",
+        "It has no capsule and is embedded in fatty tissue",
+        "It is enclosed by a synovial capsule",
+        "It has a capsule only around the ducts"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The slide notes that the breast has no capsule and is embedded in fatty tissue.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Breast — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Breast — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/breast-80.json",
+      "tags": []
+    },
+    {
+      "number": 12,
+      "id": "GS-ANAT03-BR-0004",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Nipple",
+      "stem": "In which direction is the nipple typically directed?",
+      "options": [
+        "Upward and medially",
+        "Downward and outward",
+        "Horizontally laterally",
+        "Downward and medially"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The lecture describes the nipple as directed downward and outward.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Breast — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Breast — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/breast-80.json",
+      "tags": []
+    },
+    {
+      "number": 13,
+      "id": "GS-ANAT03-UL-0001",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Brachial plexus variations",
+      "stem": "A brachial plexus with a major contribution from C4 is described in the lecture as which variant?",
+      "options": [
+        "Prefixed brachial plexus",
+        "Postfixed brachial plexus",
+        "Trunk-free brachial plexus",
+        "Infraclavicular plexus"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The lecture calls the plexus prefixed when it has a major C4 contribution; a major T2 contribution is termed postfixed.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/upper-limb-80.json",
+      "tags": []
+    },
+    {
+      "number": 14,
+      "id": "GS-ANAT03-UL-0002",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Pectoral nerves",
+      "stem": "Which nerve pierces pectoralis minor before supplying it and then continues to supply pectoralis major?",
+      "options": [
+        "Lateral pectoral nerve",
+        "Medial pectoral nerve",
+        "Long thoracic nerve",
+        "Thoracodorsal nerve"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The medial pectoral nerve pierces pectoralis minor, supplies it, and then supplies pectoralis major.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/upper-limb-80.json",
+      "tags": []
+    },
+    {
+      "number": 15,
+      "id": "GS-ANAT03-UL-0003",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Pectoral nerves",
+      "stem": "Which muscle is supplied by the lateral pectoral nerve according to the lecture?",
+      "options": [
+        "Pectoralis minor only",
+        "Pectoralis major only",
+        "Both pectoralis major and minor",
+        "Serratus anterior only"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The lateral pectoral nerve is described as supplying pectoralis major only.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/upper-limb-80.json",
+      "tags": []
+    },
+    {
+      "number": 16,
+      "id": "GS-ANAT03-UL-0004",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Cutaneous innervation of the upper limb",
+      "stem": "Which two nerves are exceptions to the brachial-plexus supply of upper-limb skin, as noted in the lecture?",
+      "options": [
+        "Supraclavicular and intercostobrachial nerves",
+        "Axillary and radial nerves",
+        "Median and ulnar nerves",
+        "Musculocutaneous and medial cutaneous nerves of forearm"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The lecture identifies skin above the deltoid and upper medial arm as supplied by the supraclavicular and intercostobrachial nerves, respectively.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/upper-limb-80.json",
+      "tags": []
+    },
+    {
+      "number": 17,
+      "id": "GS-ANAT03-LL-0001",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Profunda femoris artery",
+      "stem": "The profunda femoris artery reaches the posterior compartment of the thigh by giving off which set of branches?",
+      "options": [
+        "Four perforating branches",
+        "Four circumflex branches",
+        "Two genicular branches",
+        "Three muscular branches"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The profunda femoris enters the medial compartment and sends four perforating branches to the posterior compartment.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/lower-limb-80.json",
+      "tags": []
+    },
+    {
+      "number": 18,
+      "id": "GS-ANAT03-LL-0002",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Obturator artery",
+      "stem": "Which structure does the articular branch of the obturator artery enter to supply the head of the femur?",
+      "options": [
+        "Ligament of the head of the femur (ligamentum teres)",
+        "Transverse acetabular ligament",
+        "Iliofemoral ligament",
+        "Obturator membrane"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The articular branch enters the ligament of the head of the femur (ligamentum teres).",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/lower-limb-80.json",
+      "tags": []
+    },
+    {
+      "number": 19,
+      "id": "GS-ANAT03-LL-0003",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Obturator artery",
+      "stem": "During femoral hernia surgery, which arterial variant is highlighted as a potential source of dangerous bleeding near the lacunar ligament?",
+      "options": [
+        "An inferior epigastric pubic branch replacing the obturator artery",
+        "A superficial circumflex iliac artery crossing the femoral ring",
+        "A descending genicular artery entering the femoral canal",
+        "A medial circumflex femoral artery crossing the inguinal ligament"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The pubic branch of the inferior epigastric artery may replace the obturator artery and descend in the free margin of the lacunar ligament.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/lower-limb-80.json",
+      "tags": []
+    },
+    {
+      "number": 20,
+      "id": "GS-ANAT03-LL-0004",
+      "section": "Anatomy",
+      "sectionAr": "علوم التشريح",
+      "topic": "Popliteal artery",
+      "stem": "Which artery is listed as a branch of the popliteal artery that supplies the knee joint centrally?",
+      "options": [
+        "Middle genicular artery",
+        "Descending genicular artery",
+        "Anterior tibial recurrent artery",
+        "Circumflex fibular artery"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The popliteal artery branches include the middle genicular artery.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+        "reviewStatus": "approved-by-owner"
+      },
+      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
+      "sourceFile": "public/assets/mcq-answers/lower-limb-80.json",
+      "tags": []
+    },
+    {
+      "number": 21,
+      "id": "GS-PATH1-0001",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Core Principles, Pathologist's Role & Turnaround Time",
+      "stem": "What is the primary basis of 'Morphological Diagnosis' in diagnostic surgical pathology?",
+      "options": [
+        "Serological antibody titers alone",
+        "Macroscopic (gross) and microscopic examination to identify disease patterns, tissue architecture, and cellular morphology",
+        "Radiological imaging without tissue sampling",
+        "Urine biochemical dipstick analysis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Morphological diagnosis combines naked-eye gross inspection with microscopic evaluation of architecture and cytomorphology.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-lecture1-80.json",
+      "tags": []
+    },
+    {
+      "number": 22,
+      "id": "GS-PATH1-0002",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Core Principles, Pathologist's Role & Turnaround Time",
+      "stem": "Which five foundational pillars govern best practice in diagnostic surgical pathology according to the lecture?",
+      "options": [
+        "Tissue Integrity, Chain of Custody, Clinico-Pathological Correlation, Representativeness, and Turnaround Time",
+        "Anesthesia depth, suture gauge, antibiotic prophylaxis, blood pressure, and drain output",
+        "Cost reduction, rapid discharge, outpatient follow-up, physiotherapy, and diet",
+        "Gram staining, blood culture, sensitivity testing, viral PCR, and ELISA"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Accurate pathology requires intact tissue, unbroken chain of custody, correlation with clinical/imaging data, representative sampling, and timely reporting.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-lecture1-80.json",
+      "tags": []
+    },
+    {
+      "number": 23,
+      "id": "GS-PATH1-0003",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Core Principles, Pathologist's Role & Turnaround Time",
+      "stem": "Why is 'Chain of Custody' legally and clinically critical in surgical pathology?",
+      "options": [
+        "It determines the surgeon's operative fee",
+        "It ensures unbroken documentation from excision in theatre to the final pathology report, preventing specimen mix-ups",
+        "It speeds up formalin evaporation",
+        "It eliminates the need for patient identifiers"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A pathology report is a medicolegal document; tracking every handoff prevents catastrophic patient or site misidentification.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-lecture1-80.json",
+      "tags": []
+    },
+    {
+      "number": 24,
+      "id": "GS-PATH1-0004",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Core Principles, Pathologist's Role & Turnaround Time",
+      "stem": "What is a major cause of false-negative or missed diagnoses directly related to biopsy technique?",
+      "options": [
+        "Using 10% neutral buffered formalin",
+        "Sampling error (failing to obtain a sample that truly represents the lesion)",
+        "Submitting a clinical history on the request form",
+        "Labeling the container with two identifiers"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Sampling necrotic centers or adjacent reactive tissue instead of viable diagnostic lesion leads to false-negative pathology reports.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-lecture1-80.json",
+      "tags": []
+    },
+    {
+      "number": 25,
+      "id": "GS-PATH1-0005",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Core Principles, Pathologist's Role & Turnaround Time",
+      "stem": "What is considered the 'cornerstone of diagnosis' during microscopic analysis of a surgical specimen?",
+      "options": [
+        "Container weight",
+        "Tissue architecture, disease pattern, and cellular/nuclear morphology",
+        "Fixative color",
+        "Surgical glove size"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Evaluation of cellular and nuclear morphology alongside architectural arrangement remains the definitive foundation of histopathology.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-lecture1-80.json",
+      "tags": []
+    },
+    {
+      "number": 26,
+      "id": "GS-PATH1-0006",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Core Principles, Pathologist's Role & Turnaround Time",
+      "stem": "What is the primary diagnostic and predictive role of Immunohistochemistry (IHC) in surgical pathology?",
+      "options": [
+        "Measuring gross specimen dimensions in 3D",
+        "Using antibodies to detect specific antigens/proteins to identify tumor origin (diagnostic) and hormone receptor status (predictive)",
+        "Sterilizing surgical instruments",
+        "Replacing routine H&E fixation"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "IHC utilizes antigen-antibody binding to classify poorly differentiated tumors and determine predictive markers like ER/PR/HER2.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-lecture1-80.json",
+      "tags": []
+    },
+    {
+      "number": 27,
+      "id": "GS-PATH1-0007",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Core Principles, Pathologist's Role & Turnaround Time",
+      "stem": "What is the main clinical purpose of Molecular Studies (analyzing DNA and RNA) on tumor specimens?",
+      "options": [
+        "Assessing macroscopic margin ink",
+        "Detecting genetic markers to guide targeted therapy and assess disease prognosis",
+        "Preventing crush artefact during forceps handling",
+        "Determining the exact time of specimen collection"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Molecular profiling detects actionable mutations (e.g., BRAF, EGFR, KRAS) that direct targeted oncological therapies.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-lecture1-80.json",
+      "tags": []
+    },
+    {
+      "number": 28,
+      "id": "GS-PATH1-0008",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Core Principles, Pathologist's Role & Turnaround Time",
+      "stem": "What is the standard routine turnaround time (TAT) for general surgical specimens (routine biopsies and excisions)?",
+      "options": [
+        "15–30 minutes",
+        "2–5 working days",
+        "4–6 weeks",
+        "24 hours maximum for all cases"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Standard processing, embedding, sectioning, H&E staining, and pathologist review typically take 2 to 5 working days.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-lecture1-80.json",
+      "tags": []
+    },
+    {
+      "number": 29,
+      "id": "GS-PATH1-0009",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Core Principles, Pathologist's Role & Turnaround Time",
+      "stem": "What is the expected turnaround time for small biopsies versus large or complex surgical resection specimens?",
+      "options": [
+        "Small biopsies: 1–3 working days; Large/complex specimens: 5–10 working days or longer",
+        "Small biopsies: 10–14 days; Large specimens: 15 minutes",
+        "Both take exactly 6 hours",
+        "Large specimens are always reported faster than small biopsies"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Large resections require overnight fixation, extensive grossing, multiple tissue blocks, and decalcification/special stains if needed.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-lecture1-80.json",
+      "tags": []
+    },
+    {
+      "number": 30,
+      "id": "GS-PATH1-0010",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Core Principles, Pathologist's Role & Turnaround Time",
+      "stem": "How long does an intra-operative Frozen Section consultation typically take to report back to the surgeon?",
+      "options": [
+        "2–5 working days",
+        "15–30 minutes",
+        "6–8 hours",
+        "24 hours"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Frozen section provides rapid intra-operative pathologic feedback within 15–30 minutes while the patient remains under anesthesia.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-lecture1-80.json",
+      "tags": []
+    },
+    {
+      "number": 31,
+      "id": "GS-PATH2-0001",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Causes, Mechanisms & Reversible vs. Irreversible Injury",
+      "stem": "What is universally recognized as the most common cause of cell injury in clinical medicine and surgery?",
+      "options": [
+        "Ionizing radiation",
+        "Hypoxia and Ischemia (loss of oxygen or blood supply)",
+        "Vitamin deficiency",
+        "Viral infection"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Ischemia simultaneously deprives tissues of oxygen and essential nutrients while blocking metabolic waste removal.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-cell-injury-80.json",
+      "tags": []
+    },
+    {
+      "number": 32,
+      "id": "GS-PATH2-0002",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Causes, Mechanisms & Reversible vs. Irreversible Injury",
+      "stem": "What is the earliest ultrastructural and light microscopic manifestation of Reversible Cell Injury?",
+      "options": [
+        "Pyknosis and karyorrhexis",
+        "Cellular (hydropic) swelling due to Na+/K+ ATPase pump failure",
+        "Lysosomal membrane rupture and autodigestion",
+        "Formation of myelin figures"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Failure of ATP-dependent Na+/K+ pumps allows intracellular sodium and water accumulation, resulting in acute cellular swelling ('cloudy swelling').",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-cell-injury-80.json",
+      "tags": []
+    },
+    {
+      "number": 33,
+      "id": "GS-PATH2-0003",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Causes, Mechanisms & Reversible vs. Irreversible Injury",
+      "stem": "Which of the following cellular changes is considered the 'point of no return' indicating Irreversible Injury?",
+      "options": [
+        "Detachment of ribosomal units from the endoplasmic reticulum",
+        "Mild mitochondrial swelling with small amorphous densities",
+        "Severe mitochondrial damage with failure of ATP generation and extensive plasma membrane damage",
+        "Mild chromatin clumping in the nucleus"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Profound mitochondrial dysfunction and structural plasma membrane breakdown mark the irreversible threshold leading to cell death.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-cell-injury-80.json",
+      "tags": []
+    },
+    {
+      "number": 34,
+      "id": "GS-PATH2-0004",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Causes, Mechanisms & Reversible vs. Irreversible Injury",
+      "stem": "What are the five primary biochemical mechanisms of cell injury discussed in the lecture?",
+      "options": [
+        "ATP Depletion, Mitochondrial Damage, Influx of Calcium, Oxidative Stress (ROS), and Membrane Damage",
+        "Hypertrophy, Atrophy, Metaplasia, Hyperplasia, and Dysplasia",
+        "Pyknosis, Karyorrhexis, Karyolysis, Apoptosis, and Necrosis",
+        "Steatosis, Lipofuscin, Hemosiderin, Melanin, and Glycogen"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "These five interconnected pathways represent the core biochemical routes through which lethal stimuli destroy cellular homeostasis.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-cell-injury-80.json",
+      "tags": []
+    },
+    {
+      "number": 35,
+      "id": "GS-PATH2-0005",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Causes, Mechanisms & Reversible vs. Irreversible Injury",
+      "stem": "How does severe intracellular ATP depletion directly cause cellular swelling?",
+      "options": [
+        "By activating caspase-8",
+        "By failing the Na+/K+ ATPase pump, causing net influx of sodium and water into the cell",
+        "By increasing glycogen synthesis",
+        "By dissolving nuclear chromatin"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Without ATP, active sodium extrusion stops, osmotically drawing water into the intracellular compartment.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-cell-injury-80.json",
+      "tags": []
+    },
+    {
+      "number": 36,
+      "id": "GS-PATH2-0006",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Causes, Mechanisms & Reversible vs. Irreversible Injury",
+      "stem": "What metabolic consequence occurs when cells shift to anaerobic glycolysis due to oxygen deprivation and ATP depletion?",
+      "options": [
+        "Intracellular accumulation of lactic acid, causing intracellular pH to fall",
+        "Increased oxidative phosphorylation",
+        "Elevation of intracellular pH (alkalosis)",
+        "Accelerated protein synthesis"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Anaerobic glycolysis rapidly consumes glycogen stores and accumulates lactic acid, dropping intracellular pH and denaturing enzymes.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-cell-injury-80.json",
+      "tags": []
+    },
+    {
+      "number": 37,
+      "id": "GS-PATH2-0007",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Causes, Mechanisms & Reversible vs. Irreversible Injury",
+      "stem": "What triggers the opening of the mitochondrial permeability transition pore (mPTP) during cell injury?",
+      "options": [
+        "Sustained cytosolic calcium influx, reactive oxygen species (ROS), and oxygen deprivation",
+        "High intracellular potassium levels",
+        "Excessive ATP production",
+        "Normal physiological growth factors"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "mPTP opening collapses the mitochondrial membrane potential, halting oxidative phosphorylation.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-cell-injury-80.json",
+      "tags": []
+    },
+    {
+      "number": 38,
+      "id": "GS-PATH2-0008",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Causes, Mechanisms & Reversible vs. Irreversible Injury",
+      "stem": "Which pro-apoptotic mitochondrial protein leaks into the cytosol when mitochondria are damaged, triggering the intrinsic apoptotic cascade?",
+      "options": [
+        "Albumin",
+        "Cytochrome c",
+        "Hemoglobin",
+        "Fibrinogen"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Cytosol accumulation of cytochrome c binds Apaf-1 to form the apoptosome, activating caspase-9.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-cell-injury-80.json",
+      "tags": []
+    },
+    {
+      "number": 39,
+      "id": "GS-PATH2-0009",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Causes, Mechanisms & Reversible vs. Irreversible Injury",
+      "stem": "What are the downstream pathological consequences of a sustained massive influx of calcium into the cytosol?",
+      "options": [
+        "Activation of destructive enzymes: phospholipases, proteases, endonucleases, and ATPases",
+        "Enhanced ATP synthesis and cell proliferation",
+        "Stabilization of plasma membranes",
+        "Upregulation of glycogen storage"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Elevated cytosolic calcium turns on destructive degradative enzymes that dismantle cellular structures.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-cell-injury-80.json",
+      "tags": []
+    },
+    {
+      "number": 40,
+      "id": "GS-PATH2-0010",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Causes, Mechanisms & Reversible vs. Irreversible Injury",
+      "stem": "How do Reactive Oxygen Species (ROS) cause structural damage to cells?",
+      "options": [
+        "By lipid peroxidation of membranes, protein cross-linking/fragmentation, and DNA strand breaks",
+        "By stimulating active mitosis",
+        "By repairing damaged mitochondria",
+        "By increasing intracellular pH"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Free radicals with unpaired electrons aggressively steal electrons from lipids, proteins, and nucleic acids.",
+      "status": "source-provided",
+      "clinicalReference": {
+        "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+        "reviewStatus": "not-independently-reviewed"
+      },
+      "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+      "sourceFile": "public/assets/mcq-answers/pathology-cell-injury-80.json",
+      "tags": []
+    },
+    {
+      "number": 41,
+      "id": "GS-MICRO-0001",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Specimen collection and transport",
+      "stem": "When should a diagnostic specimen ideally be collected?",
+      "options": [
+        "After a full course of empiric antimicrobials",
+        "Before antimicrobial therapy whenever possible",
+        "Only after symptoms resolve",
+        "After freezing at -20°C"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Collection before therapy maximizes recovery of viable pathogens.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "specimen-collection",
+        "timing"
+      ]
+    },
+    {
+      "number": 42,
+      "id": "GS-MICRO-0002",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Specimen collection and transport",
+      "stem": "Which medium is recommended for transporting enteric pathogens in stool?",
+      "options": [
+        "Amies with charcoal",
+        "Cary-Blair",
+        "Michel solution",
+        "Boric acid"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Cary-Blair preserves enteric bacterial pathogens during transport.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "stool",
+        "transport-medium"
+      ]
+    },
+    {
+      "number": 43,
+      "id": "GS-MICRO-0003",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Specimen collection and transport",
+      "stem": "Which organism should not be refrigerated during transport because it is cold-sensitive?",
+      "options": [
+        "Yersinia enterocolitica",
+        "Shigella species",
+        "E. coli O157",
+        "C. difficile toxin"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The source identifies Shigella as cold-sensitive and unsuitable for refrigeration without medium.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "stool",
+        "transport"
+      ]
+    },
+    {
+      "number": 44,
+      "id": "GS-MICRO-0004",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Specimen collection and transport",
+      "stem": "Which transport system improves survival of fastidious organisms such as Neisseria and Haemophilus?",
+      "options": [
+        "Plain cotton swab without medium",
+        "Charcoal-containing Amies or Stuart medium",
+        "Formalin-saline",
+        "Liquid broth at 4°C"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Charcoal-containing systems neutralize toxic substances and improve survival.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "fastidious-organisms",
+        "swab"
+      ]
+    },
+    {
+      "number": 45,
+      "id": "GS-MICRO-0005",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Specimen collection and transport",
+      "stem": "What is the gold-standard urine specimen for an infant or unclear UTI case?",
+      "options": [
+        "Pediatric bag urine",
+        "Random clean-catch urine",
+        "Suprapubic aspirate",
+        "Foley drainage-bag effluent"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Suprapubic aspirate bypasses urethral contamination and is the sterile gold standard.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "urine",
+        "UTI"
+      ]
+    },
+    {
+      "number": 46,
+      "id": "GS-MICRO-0006",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Specimen collection and transport",
+      "stem": "What additive is used in grey-top urine tubes when transport is delayed beyond 30 minutes?",
+      "options": [
+        "SPS",
+        "Boric acid",
+        "Guanidine thiocyanate",
+        "Buffered formalin"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Boric acid inhibits overgrowth while preserving urine culture characteristics.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "urine",
+        "preservative"
+      ]
+    },
+    {
+      "number": 47,
+      "id": "GS-MICRO-0007",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Specimen collection and transport",
+      "stem": "How should CSF suspected of containing Neisseria meningitidis or Haemophilus influenzae be handled?",
+      "options": [
+        "Refrigerate for 48 hours",
+        "Process immediately at room temperature and do not refrigerate",
+        "Freeze at -80°C",
+        "Place in formalin"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Rapid processing at room temperature is required because these organisms are cold-sensitive.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "CSF",
+        "transport"
+      ]
+    },
+    {
+      "number": 48,
+      "id": "GS-MICRO-0017",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Diagnostic microbiology",
+      "stem": "Which details belong on a microbiology requisition?",
+      "options": [
+        "Only billing code",
+        "Patient identifiers, location, date/time, history, provisional diagnosis, and clinician signature",
+        "Technician home address",
+        "Dietary preference"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Complete clinical context and identifiers guide processing and interpretation.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "requisition",
+        "quality"
+      ]
+    },
+    {
+      "number": 49,
+      "id": "GS-MICRO-0018",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Diagnostic microbiology",
+      "stem": "What is required when handling clinical specimens?",
+      "options": [
+        "Unsealed hand transport",
+        "Universal precautions, barrier PPE, and leak-proof secondary bags",
+        "Requisition inside specimen fluid",
+        "Municipal trash disposal"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Specimens are biohazards and require PPE and sealed double-pouch transport.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "biosafety",
+        "transport"
+      ]
+    },
+    {
+      "number": 50,
+      "id": "GS-MICRO-0019",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Diagnostic microbiology",
+      "stem": "Which agar is used to screen stool for E. coli O157:H7?",
+      "options": [
+        "Blood agar",
+        "Sorbitol-MacConkey agar",
+        "TCBS agar",
+        "Lowenstein-Jensen"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "E. coli O157:H7 fails to ferment sorbitol, supporting use of Sorbitol-MacConkey agar.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "stool",
+        "culture"
+      ]
+    },
+    {
+      "number": 51,
+      "id": "GS-MICRO-0020",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Diagnostic microbiology",
+      "stem": "Why is specimen quality foundational to diagnostic microbiology?",
+      "options": [
+        "Equipment is infallible",
+        "Poor collection can cause false results and inappropriate therapy",
+        "Media sterilize contaminants",
+        "It is only for billing"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Poor specimen handling produces misleading results and can worsen outcomes.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "quality",
+        "diagnosis"
+      ]
+    },
+    {
+      "number": 52,
+      "id": "GS-MICRO-0021",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Diagnostic microbiology",
+      "stem": "Which specimen best avoids contamination when investigating an abscess?",
+      "options": [
+        "Surface swab",
+        "Direct needle aspirate of pus",
+        "Saline wash",
+        "Dry gauze"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Direct aspirate samples the infected focus rather than colonized surface flora.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "abscess",
+        "diagnosis"
+      ]
+    },
+    {
+      "number": 53,
+      "id": "GS-MICRO-0022",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Diagnostic microbiology",
+      "stem": "A delayed CSF sample for suspected meningococcal disease should be handled by which principle?",
+      "options": [
+        "Refrigerate routinely",
+        "Keep at room temperature and process urgently",
+        "Add formalin",
+        "Freeze immediately"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Urgent room-temperature processing protects recovery of cold-sensitive pathogens.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "CSF",
+        "meningitis"
+      ]
+    },
+    {
+      "number": 54,
+      "id": "GS-MICRO-0023",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Diagnostic microbiology",
+      "stem": "Which test format uses a liquid buffer to stabilize nucleic acid rather than preserve viable organisms?",
+      "options": [
+        "Routine culture swab",
+        "NAAT/PCR collection system",
+        "Cary-Blair stool medium",
+        "Blood agar plate"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "NAAT collection tubes stabilize target nucleic acids for molecular testing.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "molecular-diagnostics",
+        "NAAT"
+      ]
+    },
+    {
+      "number": 55,
+      "id": "GS-MICRO-0065",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Immunology and serology",
+      "stem": "What defines an antigen or immunogen?",
+      "options": [
+        "A plasma-cell protein only",
+        "A substance that stimulates a specific immune response",
+        "A complement enzyme",
+        "A fungal-wall carbohydrate only"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "An antigen is a substance capable of stimulating a specific immune response.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "antigen",
+        "immunity"
+      ]
+    },
+    {
+      "number": 56,
+      "id": "GS-MICRO-0066",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Immunology and serology",
+      "stem": "What immunology milestone did Pasteur achieve in 1885?",
+      "options": [
+        "Smallpox eradication",
+        "First attenuated rabies vaccine in a human",
+        "Complement discovery",
+        "Electrophoresis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Pasteur administered an attenuated rabies vaccine to Joseph Meister.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "vaccines",
+        "history"
+      ]
+    },
+    {
+      "number": 57,
+      "id": "GS-MICRO-0067",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Immunology and serology",
+      "stem": "Which features distinguish adaptive from innate immunity?",
+      "options": [
+        "No lag and broad reactivity",
+        "Specificity, diversity, and memory",
+        "Only physical barriers",
+        "Fixed non-rearranging receptors"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Adaptive immunity has specificity, diversity, and long-lasting memory.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "adaptive-immunity",
+        "memory"
+      ]
+    },
+    {
+      "number": 58,
+      "id": "GS-MICRO-0068",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Immunology and serology",
+      "stem": "Where do T lymphocytes mature and what immunity do they mediate?",
+      "options": [
+        "Bone marrow; humoral",
+        "Thymus; cell-mediated",
+        "Spleen; innate",
+        "Lymph nodes; mucosal"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "T cells mature in the thymus and mediate cell-mediated immunity.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "T-cells",
+        "thymus"
+      ]
+    },
+    {
+      "number": 59,
+      "id": "GS-MICRO-0069",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Immunology and serology",
+      "stem": "In serum electrophoresis, where are antibodies primarily found?",
+      "options": [
+        "Albumin",
+        "Alpha-1 globulin",
+        "Beta globulin",
+        "Gamma globulin"
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "Immunoglobulins migrate mainly with the gamma-globulin fraction.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "immunoglobulin",
+        "serology"
+      ]
+    },
+    {
+      "number": 60,
+      "id": "GS-MICRO-0070",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Immunology and serology",
+      "stem": "What is the basic structure of a monomeric immunoglobulin?",
+      "options": [
+        "Two identical heavy and two identical light chains linked by disulfides",
+        "Four identical chains",
+        "Pentameric ring",
+        "One secretory component and three light chains"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "A monomer contains two identical heavy and two identical light chains joined by disulfide bonds.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "antibody",
+        "structure"
+      ]
+    },
+    {
+      "number": 61,
+      "id": "GS-MICRO-0049",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "Which event fostered complacency that infectious diseases had been conquered?",
+      "options": [
+        "Penicillin discovery",
+        "Smallpox eradication in 1977",
+        "Human genome sequencing",
+        "Electron microscope invention"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Smallpox eradication, alongside antibiotic discoveries, fostered a false sense of security.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "emerging-infections",
+        "public-health"
+      ]
+    },
+    {
+      "number": 62,
+      "id": "GS-MICRO-0050",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "Which factor drives zoonotic spillover?",
+      "options": [
+        "Strict quarantine",
+        "Human intrusion into wildlife habitats",
+        "Universal vaccination",
+        "Wastewater sequencing"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Deforestation, urbanization, and agriculture increase contact with reservoirs.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "zoonosis",
+        "One-Health"
+      ]
+    },
+    {
+      "number": 63,
+      "id": "GS-MICRO-0051",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "Which pathogen class has high mutation and recombination potential via drift and shift?",
+      "options": [
+        "dsDNA bacteriophages",
+        "RNA viruses",
+        "Intracellular bacteria",
+        "Trematodes"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "RNA viruses such as influenza and SARS-CoV-2 evolve rapidly through mutation and reassortment.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "RNA-virus",
+        "emerging-infections"
+      ]
+    },
+    {
+      "number": 64,
+      "id": "GS-MICRO-0052",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "What is the natural reservoir and route for Lassa fever?",
+      "options": [
+        "Aedes mosquitoes",
+        "Mastomys rats and contaminated excreta/food",
+        "Waterfowl",
+        "Cattle"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Mastomys rodents shed virus in urine and droppings that contaminate food or environments.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "Lassa",
+        "reservoir"
+      ]
+    },
+    {
+      "number": 65,
+      "id": "GS-MICRO-0053",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "Which vector transmits Oropouche virus?",
+      "options": [
+        "Anopheles",
+        "Ixodes",
+        "Culicoides paraensis midges and some mosquitoes",
+        "Tsetse flies"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The source identifies biting midges and certain mosquitoes.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "Oropouche",
+        "vector"
+      ]
+    },
+    {
+      "number": 66,
+      "id": "GS-MICRO-0054",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "What is the primary reservoir host for MERS-CoV?",
+      "options": [
+        "Fruit bats",
+        "Dromedary camels",
+        "Swine",
+        "Poultry"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Dromedary camels are identified as the primary reservoir and zoonotic source.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "MERS",
+        "reservoir"
+      ]
+    },
+    {
+      "number": 67,
+      "id": "GS-MICRO-0055",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "What describes the spread of mpox clades IIb and Ib?",
+      "options": [
+        "Obligate waterborne spread",
+        "From regional African outbreaks to global multi-country emergencies",
+        "Housefly-only spread",
+        "Stable aerosol spread across continents"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The source describes transition from geographically confined outbreaks to global dissemination.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "mpox",
+        "outbreaks"
+      ]
+    },
+    {
+      "number": 68,
+      "id": "GS-MICRO-0056",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "Which fungus is listed as critical-priority multidrug-resistant yeast?",
+      "options": [
+        "Candida albicans",
+        "Candida auris",
+        "Nakaseomyces glabrata",
+        "Coccidioides immitis"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Candida auris is described as a critical-priority MDR yeast causing healthcare outbreaks.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "Candida-auris",
+        "healthcare"
+      ]
+    },
+    {
+      "number": 69,
+      "id": "GS-MICRO-0057",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "What drives azole resistance in Aspergillus fumigatus?",
+      "options": [
+        "Topical oral antifungals",
+        "Agricultural fungicide use",
+        "Cat scratches",
+        "Ventilation systems"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Environmental agricultural azole exposure can drive cross-resistance.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "Aspergillus",
+        "resistance"
+      ]
+    },
+    {
+      "number": 70,
+      "id": "GS-MICRO-0058",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "How is Sporothrix brasiliensis commonly transmitted in South America?",
+      "options": [
+        "Bat-cave dust",
+        "Infected cat scratches, bites, and contact",
+        "Undercooked crustaceans",
+        "Tick bites"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The source describes zoonotic transmission from infected cats.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "Sporothrix",
+        "zoonosis"
+      ]
+    },
+    {
+      "number": 71,
+      "id": "GS-MICRO-0059",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "What is the core One Health philosophy?",
+      "options": [
+        "Human treatment only",
+        "Integration of human, animal, and environmental health",
+        "PCR without fieldwork",
+        "Permanent trade bans"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "One Health requires cross-sector collaboration because these domains are interconnected.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "One-Health",
+        "public-health"
+      ]
+    },
+    {
+      "number": 72,
+      "id": "GS-MICRO-0060",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "What do crowdsourced genomic surveillance and metagenomics enable?",
+      "options": [
+        "Replace physical exams",
+        "Early identification and tracking of pathogen evolution",
+        "Neutralize viruses",
+        "Enforce quarantine automatically"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "They support early detection and monitoring of variants and genetic shifts.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "surveillance",
+        "genomics"
+      ]
+    },
+    {
+      "number": 73,
+      "id": "GS-MICRO-0061",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "What amplifies nosocomial transmission during Ebola or MERS outbreaks?",
+      "options": [
+        "High vaccine uptake",
+        "Overwhelmed facilities, PPE shortages, and poor IPC",
+        "High temperature",
+        "Disposable instruments"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Weak IPC and PPE shortages turn healthcare facilities into transmission amplifiers.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "IPC",
+        "outbreaks"
+      ]
+    },
+    {
+      "number": 74,
+      "id": "GS-MICRO-0062",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "What does a very high R0 indicate?",
+      "options": [
+        "Mild self-limited infection",
+        "Easier spread and more difficult control",
+        "No droplet spread",
+        "Decades-long incubation"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A high basic reproductive number signals high transmissibility and harder containment.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "epidemiology",
+        "R0"
+      ]
+    },
+    {
+      "number": 75,
+      "id": "GS-MICRO-0063",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "Which measures include masks, gowns, gloves, isolation, quarantine, and contact tracing?",
+      "options": [
+        "Stewardship",
+        "Infection Prevention and Control",
+        "Vector pesticides",
+        "Metagenomics"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "IPC includes standard and transmission-based precautions plus isolation and tracing.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "IPC",
+        "infection-control"
+      ]
+    },
+    {
+      "number": 76,
+      "id": "GS-MICRO-0064",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Infection prevention and control",
+      "stem": "What is the most sustainable approach to emerging and re-emerging infections?",
+      "options": [
+        "Reactive action only",
+        "Early detection, rapid response, surveillance, and strong public health infrastructure",
+        "Stop all air travel",
+        "Ban diagnostic labs"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The source emphasizes proactive surveillance, rapid response, and strengthened systems.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "public-health",
+        "surveillance"
+      ]
+    },
+    {
+      "number": 77,
+      "id": "GS-MICRO-0033",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Antimicrobial resistance and stewardship",
+      "stem": "What is the foundational property of an ideal antimicrobial?",
+      "options": [
+        "Universal broad spectrum",
+        "Selective toxicity",
+        "Only bacteriostatic activity",
+        "Resistance to liver metabolism"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Selective toxicity harms the pathogen while minimizing host-cell injury.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "antimicrobial",
+        "principles"
+      ]
+    },
+    {
+      "number": 78,
+      "id": "GS-MICRO-0034",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Antimicrobial resistance and stewardship",
+      "stem": "What causes high-level methicillin resistance in MRSA?",
+      "options": [
+        "Class A beta-lactamase only",
+        "mecA-mediated alteration of PBPs",
+        "Porin deletion",
+        "msrA efflux"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "mecA encodes altered PBPs such as PBP2a with reduced beta-lactam binding.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "MRSA",
+        "mechanism"
+      ]
+    },
+    {
+      "number": 79,
+      "id": "GS-MICRO-0035",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Antimicrobial resistance and stewardship",
+      "stem": "Which disk is the standard surrogate screen for MRSA?",
+      "options": [
+        "Ampicillin",
+        "Cefoxitin",
+        "Penicillin G",
+        "Imipenem"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The cefoxitin disk is the reliable surrogate for mecA-mediated resistance.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "MRSA",
+        "susceptibility"
+      ]
+    },
+    {
+      "number": 80,
+      "id": "GS-MICRO-0036",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Antimicrobial resistance and stewardship",
+      "stem": "What defines metallo-beta-lactamases such as NDM, VIM, and IMP?",
+      "options": [
+        "Zinc-dependent hydrolysis of most beta-lactams except aztreonam",
+        "Aminoglycoside efflux",
+        "50S methylation",
+        "Folate inhibition"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "MBLs require zinc and hydrolyze carbapenems and other beta-lactams except aztreonam.",
+      "status": "approved",
+      "clinicalReference": {
+        "source": "Antimicrobial Resistance (Lectre No. 2)",
+        "edition": "",
+        "page": null,
+        "reviewStatus": "approved"
+      },
+      "source": null,
+      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
+      "tags": [
+        "MBL",
+        "carbapenemase"
+      ]
+    }
+  ]
+}

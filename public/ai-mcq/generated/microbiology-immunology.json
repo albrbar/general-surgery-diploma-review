@@ -3,11 +3,45 @@
   "sectionId": "microbiology-immunology",
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
-  "generatedAt": "2026-11-15T15:52:48.252632+00:00",
+  "generatedAt": "2026-11-15T16:05:20.048000+00:00",
   "questions": [
     {
-      "id": "ai-microbiology-immunology-20261115-01",
-      "stem": "A 45‑year‑old man presents with a purulent wound infection after a road traffic accident. Gram staining of the wound exudate shows gram‑positive cocci in chains. Which of the following organisms is the most likely cause of this infection?",
+      "id": "ai-microbiology-immunology-20261115160458-01",
+      "stem": "A 45‑year‑old patient presents with a purulent wound infection. Which of the following organisms is most commonly responsible for superficial skin and soft‑tissue infections in a healthy adult?",
+      "options": [
+        "Staphylococcus aureus",
+        "Pseudomonas aeruginosa",
+        "Escherichia coli",
+        "Candida albicans"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Staphylococcus aureus is the most frequent cause of superficial skin and soft‑tissue infections in otherwise healthy adults. Pseudomonas and E. coli are more common in hospital or urinary tract settings, and Candida is typically a fungal infection of mucosal surfaces.",
+      "source": "Basic principles of bacterial skin infections",
+      "difficulty": "very easy",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115160506-01",
+      "stem": "A 45‑year‑old patient presents with a purulent wound infection after a minor cut. Gram staining of the exudate shows Gram‑positive cocci in chains. Which organism is most likely responsible?",
+      "options": [
+        "Staphylococcus aureus",
+        "Streptococcus pyogenes",
+        "Enterococcus faecalis",
+        "Pseudomonas aeruginosa"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Streptococcus pyogenes (Group A β‑hemolytic streptococci) are Gram‑positive cocci in chains and are common causes of skin and soft tissue infections. Staphylococcus aureus appears in clusters, Enterococcus is a Gram‑positive coccus but usually in pairs, and Pseudomonas is Gram‑negative.",
+      "source": "Basic principles of bacterial morphology and common skin pathogens",
+      "difficulty": "easy",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115160509-01",
+      "stem": "A 45‑year‑old man presents with a purulent wound after a road traffic accident. Gram staining of the wound exudate shows Gram‑positive cocci in chains. Which of the following organisms is most likely responsible for the infection?",
       "options": [
         "Staphylococcus aureus",
         "Streptococcus pyogenes",
@@ -15,8 +49,43 @@
         "Enterococcus faecalis"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Streptococcus pyogenes (group A β‑hemolytic streptococci) are gram‑positive cocci in chains and are common causes of skin and soft tissue infections following trauma. Staphylococcus aureus appears in clusters, S. pneumoniae is a lancet‑shaped diplococcus, and Enterococcus faecalis is a gram‑positive coccus in chains but is more associated with urinary tract and intra‑abdominal infections.",
-      "source": "Basic principles of bacterial morphology and common wound pathogens",
+      "explanation": "Streptococcus pyogenes (Group A β‑hemolytic streptococci) are Gram‑positive cocci in chains and are common causes of purulent wound infections. Staphylococcus aureus appears in clusters, S. pneumoniae is a lancet‑shaped diplococcus, and Enterococcus faecalis is a Gram‑positive cocci in pairs or short chains but less common in acute wound infections.",
+      "source": "Basic principles of bacterial morphology and wound infection causative organisms",
+      "difficulty": "moderate",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115160513-01",
+      "stem": "A 45‑year‑old male presents with a 3‑day history of fever, chills, and a rapidly enlarging, tender, erythematous swelling over the left flank. Ultrasound shows a hypoechoic collection with internal echoes. Blood cultures grow Gram‑positive cocci in clusters that are catalase‑positive and coagulase‑negative. Which of the following is the most appropriate empiric antibiotic therapy to cover the likely organism while awaiting susceptibility results?",
+      "options": [
+        "Vancomycin",
+        "Ceftriaxone",
+        "Amoxicillin‑clavulanate",
+        "Clindamycin"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The organism is most likely a coagulase‑negative staphylococcus (e.g., Staphylococcus epidermidis) that is often resistant to beta‑lactams. Vancomycin provides reliable coverage against Gram‑positive cocci, including MRSA and coagulase‑negative staphylococci, making it the best empiric choice. Ceftriaxone and amoxicillin‑clavulanate target Gram‑negative and some Gram‑positive organisms but are ineffective against resistant staphylococci. Clindamycin is useful for toxin‑mediated infections but does not cover MRSA reliably and is not the first choice for deep abscesses.",
+      "source": "Principles of surgical microbiology; empiric therapy for Gram‑positive cocci",
+      "difficulty": "hard",
+      "section": "Microbiology and Immunology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-microbiology-immunology-20261115160520-01",
+      "stem": "A 45‑year‑old man presents with a 3‑day history of fever, chills, and a rapidly enlarging, tender, erythematous mass over the left flank. CT imaging shows a 6‑cm abscess with gas formation. Blood cultures grow a gram‑positive, catalase‑negative, coagulase‑negative organism that is catalase‑positive in a 6.5% NaCl broth and is inhibited by vancomycin but grows in the presence of 6.5% NaCl and 1% bile. Which organism is most likely responsible for this infection?",
+      "options": [
+        "Staphylococcus aureus",
+        "Streptococcus pyogenes",
+        "Enterococcus faecalis",
+        "Clostridium perfringens"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Enterococcus faecalis is a gram‑positive, catalase‑negative, coagulase‑negative coccus that grows in 6.5% NaCl and 1% bile, is inhibited by vancomycin (VRE is resistant but this isolate is vancomycin‑sensitive). It is a common cause of deep, gas‑forming abscesses in the soft tissues. Staphylococcus aureus and Streptococcus pyogenes are catalase‑positive and do not grow in 6.5% NaCl. Clostridium perfringens is gram‑negative, anaerobic, and would not be catalase‑negative.",
+      "source": "Microbial growth characteristics and antibiotic susceptibility patterns",
+      "difficulty": "very hard",
       "section": "Microbiology and Immunology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"

@@ -3,20 +3,89 @@
   "sectionId": "anatomy",
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
-  "generatedAt": "2026-11-15T15:52:46.768006+00:00",
+  "generatedAt": "2026-11-15T16:04:37.256323+00:00",
   "questions": [
     {
-      "id": "ai-anatomy-20261115-01",
-      "stem": "A 45‑year‑old man presents with a palpable mass in the left upper quadrant. Imaging shows a well‑encapsulated lesion arising from the left hepatic lobe. Which of the following anatomical structures is most likely to be involved in the surgical approach to this lesion?",
+      "id": "ai-anatomy-20261115160434-01",
+      "stem": "Which of the following structures is the most superficial layer of the abdominal wall?",
       "options": [
-        "Left hepatic vein",
-        "Left portal vein",
-        "Left hepatic artery",
-        "Left hepatic duct"
+        "External oblique muscle",
+        "Internal oblique muscle",
+        "Transversus abdominis muscle",
+        "Rectus sheath"
       ],
       "correctOptionIndex": 0,
-      "explanation": "The left hepatic lobe is drained by the left hepatic vein, which is the most common structure encountered and potentially injured during left lobe resections. The left portal vein and left hepatic artery are also important but are usually preserved; the left hepatic duct is not involved in left lobe resections.",
-      "source": "Basic hepatic anatomy and surgical approach",
+      "explanation": "The external oblique muscle lies on top of the internal oblique and transversus abdominis, making it the most superficial layer of the abdominal wall. The other muscles are deeper, and the rectus sheath encloses the rectus abdominis rather than forming a superficial layer.",
+      "source": "Basic abdominal wall anatomy",
+      "difficulty": "very easy",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115160435-01",
+      "stem": "Which of the following structures lies directly anterior to the pancreas?",
+      "options": [
+        "A. Splenic vein",
+        "B. Portal vein",
+        "C. Common bile duct",
+        "D. Superior mesenteric artery"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The common bile duct runs posterior to the first part of the duodenum and lies anterior to the pancreas. The splenic vein and portal vein are posterior, while the superior mesenteric artery is posterior and lateral. Thus option C is correct.",
+      "source": "Basic abdominal anatomy",
+      "difficulty": "easy",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115160436-01",
+      "stem": "A 45‑year‑old man presents with a palpable mass in the left upper quadrant. Imaging shows a well‑defined, encapsulated lesion adjacent to the spleen. Which of the following structures is most likely to be involved if the mass originates from the organ of the left upper quadrant and is resected with a short segment of the adjacent organ?",
+      "options": [
+        "Pancreatic tail",
+        "Left adrenal gland",
+        "Left kidney",
+        "Colon (splenic flexure)"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The lesion is most consistent with a pancreatic tail tumour, which lies adjacent to the spleen and is often resected with a splenectomy. The left adrenal gland and kidney are posterior and would not be involved in a typical upper‑quadrant mass. The splenic flexure of the colon is not in close contact with the pancreas and would not be resected with a pancreatic tail lesion.",
+      "source": "Anatomy of the upper abdomen; relationship of pancreas to adjacent organs",
+      "difficulty": "moderate",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115160436-01",
+      "stem": "A 45‑year‑old man undergoes a left hemicolectomy for a transverse colon carcinoma. In the operative field, the surgeon identifies a short, well‑defined arterial trunk that supplies the splenic flexure and drains into the superior mesenteric vein. Which of the following arteries is most likely being encountered?",
+      "options": [
+        "Left colic artery",
+        "Sigmoid artery",
+        "Ileocolic artery",
+        "Marginal artery of Drummond"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The splenic flexure is supplied by the left colic artery, a branch of the inferior mesenteric artery. It is a short, well‑defined trunk that often drains into the superior mesenteric vein via the marginal artery. The sigmoid artery supplies the sigmoid colon, the ileocolic artery supplies the terminal ileum and cecum, and the marginal artery is a continuous arcade rather than a single trunk.",
+      "source": "Colonic arterial supply; standard surgical anatomy",
+      "difficulty": "hard",
+      "section": "Anatomy",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-anatomy-20261115160437-01",
+      "stem": "A 58‑year‑old man undergoes a left hemicolectomy for a transverse colon carcinoma. Intraoperatively the surgeon identifies a segment of the inferior mesenteric vein that drains the left colic artery and is found to be adherent to the posterior wall of the pancreas. Which of the following statements best describes the anatomical relationship that explains this finding?",
+      "options": [
+        "The inferior mesenteric vein courses posterior to the pancreas and joins the splenic vein before forming the portal vein.",
+        "The left colic artery originates from the superior mesenteric artery and its accompanying vein lies anterior to the pancreas.",
+        "The inferior mesenteric vein is a tributary of the splenic vein and runs in the mesentery of the splenic flexure, which is in close proximity to the tail of the pancreas.",
+        "The left colic artery is a branch of the inferior mesenteric artery and its vein follows the posterior aspect of the pancreas as it enters the portal system."
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The inferior mesenteric vein (IMV) drains the left colic region and typically runs posterior to the pancreas, joining the splenic vein to form the portal vein. This posterior course explains why it can be adherent to the posterior pancreatic wall during a left hemicolectomy. The other options misstate the venous drainage or arterial origin, or incorrectly describe the vein’s relationship to the pancreas.",
+      "source": "Inferior mesenteric vein anatomy; portal venous system",
+      "difficulty": "very hard",
       "section": "Anatomy",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"

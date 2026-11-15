@@ -3,20 +3,89 @@
   "sectionId": "pathology",
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
-  "generatedAt": "2026-11-15T15:52:47.256435+00:00",
+  "generatedAt": "2026-11-15T16:04:40.440131+00:00",
   "questions": [
     {
-      "id": "ai-pathology-20261115-01",
-      "stem": "A 58‑year‑old man presents with a 3‑month history of painless jaundice and weight loss. Imaging shows a mass in the head of the pancreas. Which of the following histological features is most characteristic of the most common malignant tumour in this location?",
+      "id": "ai-pathology-20261115160437-01",
+      "stem": "A 45‑year‑old man presents with a painless, firm mass in the left upper quadrant. Imaging shows a well‑encapsulated lesion arising from the spleen. Which of the following histological features is most characteristic of a benign splenic hemangioma?",
       "options": [
-        "Keratinising squamous epithelium with intercellular bridges",
-        "Glandular epithelium forming irregular acini with mucin production",
-        "Neuroendocrine cells arranged in nests with chromogranin positivity",
-        "Spindle‑shaped stromal cells with storiform pattern"
+        "A. Sheets of pleomorphic spindle cells with mitotic figures",
+        "B. Cystic spaces lined by a single layer of endothelial cells",
+        "C. Sheets of small round blue cells with rosette formation",
+        "D. Glandular structures with mucin production"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Pancreatic ductal adenocarcinoma is the most common pancreatic cancer and shows glandular epithelium forming irregular, poorly‑differentiated ducts with mucin production. Keratinising squamous cells suggest squamous cell carcinoma, neuroendocrine cells indicate a functional tumour, and spindle cells point to a stromal tumour such as a gastrointestinal stromal tumour.",
-      "source": "Pancreatic cancer histology",
+      "explanation": "Benign splenic hemangiomas are vascular tumors composed of dilated blood‑filled spaces lined by a single layer of endothelial cells, giving a cystic appearance. The other options describe malignant spindle cell sarcoma, neuroblastoma, and adenocarcinoma, respectively.",
+      "source": "Basic surgical pathology of splenic lesions",
+      "difficulty": "very easy",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115160438-01",
+      "stem": "A 65‑year‑old man presents with a 3‑cm ulcerated lesion on the lower lip. Histology shows nests of malignant epithelial cells with keratin pearl formation. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Basal cell carcinoma",
+        "Squamous cell carcinoma",
+        "Melanoma",
+        "Adenocarcinoma"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Keratin pearls are characteristic of squamous cell carcinoma of the skin. Basal cell carcinoma shows palisading nuclei, melanoma shows atypical melanocytes, and adenocarcinoma originates from glandular epithelium.",
+      "source": "Basic histopathology of skin cancers",
+      "difficulty": "easy",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115160439-01",
+      "stem": "A 58‑year‑old man presents with a 3‑month history of progressive abdominal distension and early satiety. CT imaging shows a large, heterogeneous mass arising from the pancreas with areas of central necrosis and calcification. Fine‑needle aspiration cytology reveals malignant epithelial cells with glandular differentiation and mucin production. Which of the following histological features is most characteristic of the tumour type most likely responsible for this presentation?",
+      "options": [
+        "Solid nests of spindle‑shaped cells with high mitotic activity",
+        "Sheets of pleomorphic cells with abundant eosinophilic cytoplasm",
+        "Glandular structures lined by mucin‑producing epithelium with a desmoplastic stroma",
+        "Diffuse infiltration by small lymphoid cells forming lymphoid follicles"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The clinical scenario and imaging are classic for pancreatic ductal adenocarcinoma, which histologically shows glandular structures lined by malignant epithelial cells that produce mucin and are embedded in a desmoplastic stroma. The other options describe features of sarcoma, squamous cell carcinoma, and lymphoma, which are not typical for pancreatic adenocarcinoma.",
+      "source": "Pancreatic ductal adenocarcinoma histology; basic surgical pathology principles",
+      "difficulty": "moderate",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115160439-01",
+      "stem": "A 58‑year‑old man presents with a 3‑month history of progressive dysphagia to solids and weight loss. Endoscopic ultrasound shows a 4 cm hypoechoic mass in the proximal stomach. Fine‑needle aspiration cytology reveals sheets of cells with abundant eosinophilic cytoplasm, prominent nucleoli, and a high mitotic rate. Which of the following immunohistochemical stains is most likely to confirm the diagnosis?",
+      "options": [
+        "Cytokeratin 7",
+        "Cytokeratin 20",
+        "Chromogranin A",
+        "Synaptophysin"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The cytology is characteristic of a poorly differentiated gastric adenocarcinoma. Cytokeratin 7 is typically expressed in gastric epithelium and is the most useful marker to confirm an adenocarcinoma of gastric origin. Cytokeratin 20 is usually negative in gastric cancers, while chromogranin A and synaptophysin are neuroendocrine markers that would be positive only if the tumour were a neuroendocrine carcinoma.",
+      "source": "Gastric cancer immunoprofile",
+      "difficulty": "hard",
+      "section": "Pathology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pathology-20261115160440-01",
+      "stem": "A 58‑year‑old man presents with a 3‑month history of progressive abdominal distension and early satiety. CT imaging reveals a large, heterogeneous mass in the pancreatic head with central hypodensity and peripheral enhancement. Endoscopic ultrasound‑guided fine‑needle aspiration shows malignant epithelial cells forming glandular structures, but the cytology is inconclusive for differentiation. Which histopathological feature, if identified on a surgical resection specimen, would most strongly support the diagnosis of pancreatic ductal adenocarcinoma over a neuroendocrine tumour?",
+      "options": [
+        "Presence of desmoplastic stromal reaction with abundant collagen deposition",
+        "Identification of chromogranin A‑positive cells in nests",
+        "Detection of GATA‑3 nuclear staining in tumour cells",
+        "Observation of mucin‑producing signet‑ring cells"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Pancreatic ductal adenocarcinoma is characterised by a pronounced desmoplastic stroma with dense collagen deposition. Neuroendocrine tumours typically express chromogranin A and lack a desmoplastic reaction. GATA‑3 is a marker for breast and urothelial tumours, not pancreatic adenocarcinoma. Signet‑ring cells are associated with mucinous adenocarcinomas of other sites. Thus, a desmoplastic stromal reaction best distinguishes ductal adenocarcinoma.",
+      "source": "Pancreatic tumour histopathology",
+      "difficulty": "very hard",
       "section": "Pathology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"

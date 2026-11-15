@@ -3,20 +3,89 @@
   "sectionId": "pharmacology",
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
-  "generatedAt": "2026-11-15T15:52:47.838904+00:00",
+  "generatedAt": "2026-11-15T16:04:57.565012+00:00",
   "questions": [
     {
-      "id": "ai-pharmacology-20261115-01",
-      "stem": "A 65‑year‑old man with a history of chronic obstructive pulmonary disease (COPD) presents with a sudden onset of severe abdominal pain and vomiting. CT imaging shows a perforated duodenal ulcer. Which of the following drugs is most appropriate to administer pre‑operatively to reduce the risk of postoperative pulmonary complications in this patient?",
+      "id": "ai-pharmacology-20261115160441-01",
+      "stem": "Which of the following drugs is most commonly used as a first‑line agent to treat acute peptic ulcer bleeding by reducing gastric acid secretion?",
       "options": [
-        "A. Intravenous methylprednisolone",
-        "B. Intravenous ceftriaxone",
-        "C. Intravenous metoclopramide",
-        "D. Intravenous ondansetron"
+        "A. Omeprazole",
+        "B. Metoclopramide",
+        "C. Sucralfate",
+        "D. H2‑receptor antagonist"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Omeprazole, a proton‑pump inhibitor, is the preferred first‑line therapy for acute peptic ulcer bleeding because it provides the most potent and sustained suppression of gastric acid secretion, promoting ulcer healing. H2‑receptor antagonists also reduce acid but are less effective than PPIs. Metoclopramide and sucralfate are used for other indications (motility and ulcer coating, respectively).",
+      "source": "Basic pharmacology of acid‑suppressive therapy",
+      "difficulty": "very easy",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115160441-01",
+      "stem": "A 65‑year‑old patient with a history of hypertension is started on a new antihypertensive drug. He reports a persistent dry cough. Which class of medication is most likely responsible for this side effect?",
+      "options": [
+        "ACE inhibitors",
+        "Beta‑blockers",
+        "Calcium channel blockers",
+        "Diuretics"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "ACE inhibitors block the conversion of angiotensin I to angiotensin II and also inhibit breakdown of bradykinin, leading to a dry cough. Beta‑blockers, calcium channel blockers and diuretics are not associated with this adverse effect.",
+      "source": "Basic pharmacology of antihypertensives",
+      "difficulty": "easy",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115160444-01",
+      "stem": "A 65‑year‑old patient with chronic obstructive pulmonary disease (COPD) is admitted for an acute exacerbation and is started on intravenous methylprednisolone. Which of the following is the most likely adverse effect of prolonged high‑dose steroid therapy in this patient?",
+      "options": [
+        "Hyperglycaemia",
+        "Hypocalcaemia",
+        "Hyponatraemia",
+        "Hypokalaemia"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "High‑dose systemic steroids cause gluconeogenesis and insulin resistance, leading to hyperglycaemia. Hypocalcaemia, hyponatraemia and hypokalaemia are not typical adverse effects of steroids.",
+      "source": "Steroid pharmacology and adverse effects",
+      "difficulty": "moderate",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115160448-01",
+      "stem": "A 58‑year‑old man with a history of chronic pancreatitis presents with an acute episode of severe epigastric pain radiating to the back. He is started on intravenous morphine for pain control. Which of the following statements about morphine’s pharmacodynamics in this patient is most accurate?",
+      "options": [
+        "Morphine’s analgesic effect is primarily mediated by activation of μ‑opioid receptors in the dorsal horn of the spinal cord, leading to decreased release of substance P and glutamate.",
+        "Morphine is metabolised by CYP2D6 into morphine‑6‑glucuronide, which is the main active metabolite responsible for analgesia.",
+        "Morphine’s analgesic effect is enhanced by co‑administration of ketamine due to synergistic NMDA receptor blockade.",
+        "Morphine’s analgesic effect is primarily mediated by activation of κ‑opioid receptors in the peripheral nervous system, reducing peripheral nociceptor firing."
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Morphine exerts its analgesic effect mainly through μ‑opioid receptor activation in the dorsal horn, inhibiting neurotransmitter release. The other options describe incorrect receptor targets or metabolic pathways. Morphine is metabolised to morphine‑3‑glucuronide (inactive) and morphine‑6‑glucuronide (active) but the primary analgesic effect is via μ‑receptors, not CYP2D6. Ketamine’s NMDA blockade does not synergise with morphine for analgesia, and κ‑receptors are not the main site of action.",
+      "source": "Basic opioid pharmacology principles",
+      "difficulty": "hard",
+      "section": "Pharmacology",
+      "status": "ai-generated-draft",
+      "reviewStatus": "requires-supervisor-review"
+    },
+    {
+      "id": "ai-pharmacology-20261115160457-01",
+      "stem": "A 58‑year‑old man with a history of chronic pancreatitis presents with a sudden, severe epigastric pain radiating to the back and a markedly elevated serum amylase. An abdominal CT scan confirms a necrotizing pancreatitis with a fluid collection. Which of the following pharmacologic agents is most appropriate to reduce the risk of infection in the necrotic collection while also decreasing the systemic inflammatory response?",
+      "options": [
+        "A. Intravenous cefazolin",
+        "B. Intravenous metronidazole",
+        "C. Intravenous cefotaxime",
+        "D. Intravenous cefepime"
       ],
       "correctOptionIndex": 3,
-      "explanation": "Ondansetron is a 5‑HT3 antagonist that effectively prevents postoperative nausea and vomiting, thereby reducing the risk of aspiration and pulmonary complications in COPD patients. Methylprednisolone may worsen infection risk, ceftriaxone is an antibiotic not directly related to pulmonary protection, and metoclopramide can cause extrapyramidal side effects and is less effective for postoperative nausea.",
-      "source": "Basic pharmacology of antiemetics in surgical patients",
+      "explanation": "Cefepime, a fourth‑generation cephalosporin, provides broad coverage against gram‑negative rods, gram‑positive cocci and anaerobes, which are the most common organisms in infected pancreatic necrosis. It also has a favorable pharmacokinetic profile for penetration into necrotic tissue. Cefazolin and cefotaxime lack adequate anaerobic coverage, while metronidazole alone does not cover gram‑negative organisms. Thus cefepime is the most appropriate choice to reduce infection risk and dampen systemic inflammation.",
+      "source": "Principles of antimicrobial therapy in necrotizing pancreatitis",
+      "difficulty": "very hard",
       "section": "Pharmacology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"

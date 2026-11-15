@@ -5,6 +5,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
@@ -105,12 +106,20 @@ def ask_groq(section: str, count: int, target_difficulty: str | None = None) -> 
         },
         method="POST",
     )
-    try:
-        with urllib.request.urlopen(request, timeout=180) as response:
-            result = json.load(response)
-    except urllib.error.HTTPError as exc:
-        body = exc.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"Groq request failed with HTTP {exc.code}: {body[:600]}") from exc
+    for attempt in range(5):
+        try:
+            with urllib.request.urlopen(request, timeout=180) as response:
+                result = json.load(response)
+            break
+        except urllib.error.HTTPError as exc:
+            body = exc.read().decode("utf-8", errors="replace")
+            if exc.code == 429 and attempt < 4:
+                match = re.search(r"try again in ([0-9.]+)s", body)
+                wait_seconds = max(2.0, float(match.group(1)) + 0.5) if match else 3.0
+                print(f"Groq rate limit reached; retrying in {wait_seconds:.1f}s", flush=True)
+                time.sleep(wait_seconds)
+                continue
+            raise RuntimeError(f"Groq request failed with HTTP {exc.code}: {body[:600]}") from exc
     content = result["choices"][0]["message"]["content"]
     try:
         generated = json.loads(content)

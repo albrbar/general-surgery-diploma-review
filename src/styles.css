@@ -388,3 +388,23 @@ a { color: inherit; }
 .home-trust-card p { max-width: 310px; margin: 0 0 20px; color: #826f52; font-size: 12px; line-height: 1.8; }
 @media (max-width: 900px) { .home-hero { margin: 18px 20px 0; padding: 45px 38px; grid-template-columns: 1fr; } .home-command-card { max-width: 540px; } .home-next, .home-tools { grid-template-columns: 1fr; } .assessment-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) { .home-hero { margin: 12px 12px 0; padding: 34px 22px 24px; border-radius: 20px; } .home-hero-copy h1 { font-size: 43px; } .home-hero-copy > p { font-size: 13px; } .home-hero-actions { display: grid; grid-template-columns: 1fr 1fr; } .home-hero-actions .button { width: 100%; padding: 0 8px; font-size: 11px; } .home-command-card { padding: 19px; } .home-command-day > strong { font-size: 62px; } .home-command-mini { align-items: flex-start; flex-direction: column; } .home-section { padding: 42px 20px 0; } .home-section-heading { display: block; } .home-section-heading .text-link { margin-top: 14px; } .home-steps, .assessment-grid { grid-template-columns: 1fr; } .home-step { min-height: 132px; } .home-tools { padding-bottom: 52px; } }
+
+/* Minimum Doctor Account */
+.auth-card, .account-card { max-width: 540px; margin: 18px auto 70px; padding: 26px; border: 1px solid #dfe8ec; border-radius: 18px; background: #fff; box-shadow: 0 14px 35px rgba(20,65,76,.06); }
+.auth-tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; margin-bottom: 23px; padding: 4px; border-radius: 10px; background: #f1f6f7; }
+.auth-tabs button { padding: 11px; border-radius: 8px; color: #78909b; background: transparent; font-size: 12px; font-weight: 850; }
+.auth-tabs button.active { color: #0b6870; background: #fff; box-shadow: 0 3px 10px rgba(15,78,91,.08); }
+.auth-card form { display: grid; gap: 15px; }
+.auth-card label { display: grid; gap: 7px; color: #3a5c6c; font-size: 11px; font-weight: 800; }
+.auth-card input { width: 100%; min-height: 44px; padding: 0 12px; border: 1px solid #d8e4e8; border-radius: 9px; outline: none; color: #21475b; background: #fbfdfd; font-size: 13px; }
+.auth-card input:focus { border-color: #5caeab; box-shadow: 0 0 0 3px rgba(92,174,171,.12); }
+.auth-message { padding: 11px 12px; border: 1px solid #f0d6a8; border-radius: 9px; color: #795326; background: #fff8e9; font-size: 11px; line-height: 1.6; }
+.auth-note { display: flex; align-items: center; gap: 6px; margin: 18px 0 0; color: #8a99a4; font-size: 10px; line-height: 1.6; }
+.account-card { position: relative; }
+.account-avatar { display: grid; place-items: center; width: 58px; height: 58px; margin-bottom: 18px; border-radius: 17px; color: #0b7374; background: #e4f6f1; }
+.account-card > .status-chip { position: absolute; top: 27px; right: 26px; }
+.account-card h2 { margin: 20px 0 5px; color: #20475b; font-size: 23px; }
+.account-card > p { margin: 0; color: #7e909b; font-size: 12px; }
+.account-feature-list { display: grid; gap: 10px; margin: 24px 0; padding: 17px; border-radius: 12px; color: #587683; background: #f5faf9; font-size: 11px; }
+.account-feature-list span { display: flex; align-items: center; gap: 8px; }
+.account-feature-list svg { color: #0b7775; }

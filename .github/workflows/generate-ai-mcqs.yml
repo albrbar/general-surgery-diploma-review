@@ -15,6 +15,14 @@ on:
           - pharmacology
           - microbiology-immunology
           - principles-of-surgery
+      count:
+        description: "Questions per generated section"
+        required: true
+        default: "40"
+        type: choice
+        options:
+          - "5"
+          - "40"
 permissions:
   contents: write
 
@@ -35,7 +43,14 @@ jobs:
           set -euo pipefail
           python3 scripts/generate-ai-mcqs.py \
             --section "${{ inputs.section }}" \
-            --count "5"
+            --count "${{ inputs.count }}"
+
+      - name: Audit unified bank quality
+        continue-on-error: true
+        run: |
+          set -uo pipefail
+          python3 scripts/audit-unified-bank.py | tee /tmp/unified-bank-audit.txt
+          cat public/assets/mcq-answers/unified-bank-audit.json
 
       - name: Commit generated drafts
         run: |

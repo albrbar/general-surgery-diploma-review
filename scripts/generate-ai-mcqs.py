@@ -143,7 +143,7 @@ def ask_groq(section: str, count: int, target_difficulty: str | None = None, exi
             raise RuntimeError(f"Question {index} failed the MCQ shape check")
         fingerprint = re.sub(r"[^a-z0-9]+", "", str(question["stem"]).lower())
         if fingerprint in existing_fingerprints:
-            raise RuntimeError(f"Question {index} duplicates a question already present in the unified bank")
+            question["duplicateOfExisting"] = True
         question["options"] = options[:4]
         if target_difficulty:
             question["difficulty"] = target_difficulty

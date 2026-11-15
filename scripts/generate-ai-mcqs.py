@@ -57,6 +57,38 @@ def ask_groq(section: str, count: int) -> dict:
         "max_completion_tokens": max(1200, count * 420),
         "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
         "reasoning_effort": "low",
+        "response_format": {
+            "type": "json_schema",
+            "json_schema": {
+                "name": "mcq_draft_set",
+                "strict": True,
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                        "section": {"type": "string"},
+                        "status": {"type": "string"},
+                        "questions": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "id": {"type": "string"},
+                                    "stem": {"type": "string"},
+                                    "options": {"type": "array", "items": {"type": "string"}},
+                                    "correctOptionIndex": {"type": "integer", "minimum": 0, "maximum": 3},
+                                    "explanation": {"type": "string"},
+                                    "source": {"type": "string"}
+                                },
+                                "required": ["id", "stem", "options", "correctOptionIndex", "explanation", "source"],
+                                "additionalProperties": False
+                            },
+                        }
+                    },
+                    "required": ["section", "status", "questions"],
+                    "additionalProperties": False
+                }
+            }
+        },
     }).encode("utf-8")
     request = urllib.request.Request(
         "https://api.groq.com/openai/v1/chat/completions",

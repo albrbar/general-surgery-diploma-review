@@ -4,89 +4,89 @@
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
-  "bankQuestionCount": 1501,
-  "generatedAt": "2026-11-15T20:39:13.200024+00:00",
+  "bankQuestionCount": 1521,
+  "generatedAt": "2026-11-15T20:43:23.128785+00:00",
   "questions": [
     {
-      "id": "ai-pharmacology-20261115203908-01",
-      "stem": "Which of the following drugs is most commonly used as a first‑line treatment for acute peptic ulcer bleeding?",
+      "id": "ai-pharmacology-20261115204321-01",
+      "stem": "Which of the following drugs is most commonly used to treat postoperative nausea and vomiting after abdominal surgery?",
       "options": [
-        "Omeprazole",
-        "Metoclopramide",
-        "Cimetidine",
-        "Sucralfate"
+        "A. Metoclopramide",
+        "B. Ibuprofen",
+        "C. Amoxicillin",
+        "D. Diazepam"
       ],
       "correctOptionIndex": 0,
-      "explanation": "Omeprazole, a proton‑pump inhibitor, rapidly reduces gastric acid secretion and is the standard first‑line therapy for acute peptic ulcer bleeding. Metoclopramide and sucralfate are adjuncts, while cimetidine is an older H2 blocker with less potency.",
-      "source": "Basic pharmacology of acid‑suppressive agents",
+      "explanation": "Metoclopramide is a dopamine antagonist with antiemetic properties and is routinely used for postoperative nausea and vomiting. Ibuprofen is an NSAID for pain, amoxicillin is an antibiotic, and diazepam is a benzodiazepine used for anxiety or seizures, not for nausea.",
+      "source": "Basic antiemetic pharmacology",
       "difficulty": "very easy",
       "section": "Pharmacology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-pharmacology-20261115203909-01",
-      "stem": "A 65‑year‑old patient with a perforated duodenal ulcer is started on intravenous proton‑pump inhibitor therapy. Which of the following is the most appropriate drug to use in this setting?",
+      "id": "ai-pharmacology-20261115204321-01",
+      "stem": "A 65‑year‑old patient with a history of myocardial infarction is started on a medication that reduces mortality by inhibiting the conversion of angiotensin I to angiotensin II. Which drug class is this patient most likely receiving?",
       "options": [
-        "Metoclopramide",
-        "Omeprazole",
-        "Cimetidine",
-        "Sucralfate"
+        "Beta‑blockers",
+        "Angiotensin‑converting enzyme inhibitors",
+        "Calcium channel blockers",
+        "Nitrates"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Omeprazole is a proton‑pump inhibitor that provides potent, long‑lasting acid suppression, which is essential after a perforated ulcer. Metoclopramide is a prokinetic, cimetidine is an H2 blocker with less potency, and sucralfate is a mucosal protectant but does not reduce acid secretion.",
-      "source": "Basic pharmacology of acid‑suppressive agents",
+      "explanation": "Angiotensin‑converting enzyme (ACE) inhibitors block the conversion of angiotensin I to angiotensin II, lowering afterload and reducing mortality after MI. Beta‑blockers, calcium channel blockers and nitrates act on different pathways and do not directly inhibit this conversion.",
+      "source": "Basic pharmacology of cardiovascular drugs",
       "difficulty": "easy",
       "section": "Pharmacology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-pharmacology-20261115203909-01",
-      "stem": "A 68‑year‑old man with a history of chronic obstructive pulmonary disease presents with a sudden onset of severe chest pain and shortness of breath. An ECG shows ST‑segment elevation in leads II, III, and aVF. Which of the following medications should be administered first to reduce mortality in this patient?",
+      "id": "ai-pharmacology-20261115204322-01",
+      "stem": "A 65‑year‑old patient with chronic obstructive pulmonary disease (COPD) is started on a long‑acting β2‑agonist. Which of the following adverse effects is most likely to occur with chronic use of this medication?",
       "options": [
-        "Aspirin 300 mg",
-        "Heparin 5000 IU",
-        "Nitroglycerin 0.4 mg sublingual",
-        "Morphine 4 mg IV"
+        "Tachycardia and tremor",
+        "Hypokalemia",
+        "Hyponatremia",
+        "Hypothyroidism"
       ],
       "correctOptionIndex": 0,
-      "explanation": "In acute ST‑segment elevation myocardial infarction, early antiplatelet therapy with aspirin reduces mortality by inhibiting platelet aggregation. Heparin, nitroglycerin, and morphine are important but are not first‑line mortality‑reducing agents. Aspirin is the correct initial drug.",
-      "source": "Acute coronary syndrome management",
+      "explanation": "Long‑acting β2‑agonists stimulate β2 receptors in the heart and skeletal muscle, producing tachycardia and tremor. Hypokalemia can occur with β2 stimulation but is less common; hyponatremia and hypothyroidism are not typical adverse effects of β2‑agonists.",
+      "source": "Basic pharmacology of bronchodilators",
       "difficulty": "moderate",
       "section": "Pharmacology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-pharmacology-20261115203910-01",
-      "stem": "A 68‑year‑old man with a history of chronic obstructive pulmonary disease (COPD) and a recent episode of community‑acquired pneumonia is started on intravenous ceftriaxone and oral clarithromycin. Two days later he develops a sudden, severe, diffuse abdominal pain and vomiting. Laboratory studies reveal a markedly elevated serum amylase and lipase. Which of the following is the most likely cause of his acute pancreatitis?",
+      "id": "ai-pharmacology-20261115204322-01",
+      "stem": "A 68‑year‑old man with a history of chronic obstructive pulmonary disease (COPD) and recent pneumonia is admitted for a laparoscopic cholecystectomy. Intra‑operatively, the surgeon elects to use a single‑dose prophylactic antibiotic. Which of the following agents is most appropriate to cover both gram‑negative and gram‑positive organisms while also providing adequate pulmonary coverage in this patient?",
       "options": [
-        "A. Ceftriaxone‑induced hypertriglyceridaemia",
-        "B. Clarithromycin‑induced cholestasis",
-        "C. Intravenous fluid overload",
-        "D. Drug‑induced pancreatic duct obstruction by ceftriaxone"
+        "Cefazolin",
+        "Ceftriaxone",
+        "Cefuroxime",
+        "Cefepime"
       ],
-      "correctOptionIndex": 0,
-      "explanation": "Ceftriaxone is a well‑known cause of acute pancreatitis, primarily through precipitation of the drug in the pancreatic duct leading to obstruction and inflammation. Clarithromycin and fluid overload are not typical precipitants, and cholestasis is unrelated to pancreatitis. Therefore, option A is the correct answer.",
-      "source": "Drug‑induced pancreatitis principles",
+      "correctOptionIndex": 3,
+      "explanation": "Cefepime is a fourth‑generation cephalosporin with broad gram‑negative coverage, including Pseudomonas, and good gram‑positive activity. It also penetrates well into pulmonary tissues, making it suitable for a patient with COPD and recent pneumonia. Cefazolin and cefuroxime are first‑ and second‑generation cephalosporins with limited gram‑negative coverage, while ceftriaxone, though broad, lacks adequate activity against Pseudomonas and is less effective in pulmonary tissues.",
+      "source": "Principles of perioperative antibiotic prophylaxis",
       "difficulty": "hard",
       "section": "Pharmacology",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-pharmacology-20261115203913-01",
-      "stem": "A 58‑year‑old man with a history of chronic pancreatitis presents with a 2‑week history of worsening abdominal pain and weight loss. Endoscopic ultrasound reveals a 3‑cm hypoechoic mass in the head of the pancreas. Fine‑needle aspiration cytology shows malignant cells consistent with pancreatic ductal adenocarcinoma. The patient is a non‑smoker, has no family history of pancreatic cancer, and is not a candidate for immediate surgery due to poor performance status. Which of the following chemotherapeutic agents is most likely to improve overall survival when used as first‑line therapy in this setting?",
+      "id": "ai-pharmacology-20261115204323-01",
+      "stem": "A 68‑year‑old male with chronic obstructive pulmonary disease (COPD) and a history of myocardial infarction is admitted for exacerbation of COPD. He is started on intravenous methylprednisolone 125 mg daily for 5 days. Which of the following is the most appropriate additional medication to reduce the risk of steroid‑induced hyperglycaemia in this patient?",
       "options": [
-        "Gemcitabine",
-        "Capecitabine",
-        "Oxaliplatin",
-        "Sunitinib"
+        "A. Metformin",
+        "B. Insulin glargine",
+        "C. Glimepiride",
+        "D. Liraglutide"
       ],
-      "correctOptionIndex": 0,
-      "explanation": "In patients with metastatic or unresectable pancreatic adenocarcinoma, gemcitabine monotherapy remains the standard first‑line regimen and has demonstrated a survival benefit over placebo. Capecitabine and oxaliplatin are not standard first‑line agents for this disease, and sunitinib is an anti‑angiogenic agent used in renal cell carcinoma, not pancreatic cancer.",
-      "source": "Standard chemotherapy for pancreatic cancer",
+      "correctOptionIndex": 1,
+      "explanation": "Long‑acting basal insulin (e.g., glargine) is the preferred agent to blunt the post‑prandial and fasting hyperglycaemia that commonly follows high‑dose IV steroids, especially in patients with a history of coronary artery disease. Metformin is contraindicated in acute illness and renal dysfunction; sulfonylureas (glimepiride) increase the risk of hypoglycaemia and are less predictable in the setting of steroid therapy. Liraglutide is a GLP‑1 agonist but is not routinely used for acute steroid‑induced hyperglycaemia and requires subcutaneous administration, making it less practical in the acute setting.",
+      "source": "Principles of peri‑operative glucose management",
       "difficulty": "very hard",
       "section": "Pharmacology",
       "status": "ai-generated-draft",

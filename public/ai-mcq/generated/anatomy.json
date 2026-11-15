@@ -4,89 +4,89 @@
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
-  "bankQuestionCount": 1501,
-  "generatedAt": "2026-11-15T20:39:04.402315+00:00",
+  "bankQuestionCount": 1521,
+  "generatedAt": "2026-11-15T20:43:17.387566+00:00",
   "questions": [
     {
-      "id": "ai-anatomy-20261115203901-01",
-      "stem": "Which of the following structures is the primary blood supply to the liver?",
+      "id": "ai-anatomy-20261115204315-01",
+      "stem": "Which of the following structures is part of the hepatoduodenal ligament?",
       "options": [
-        "A. Hepatic artery",
-        "B. Portal vein",
-        "C. Superior mesenteric artery",
-        "D. Inferior vena cava"
+        "Portal vein",
+        "Common bile duct",
+        "Celiac trunk",
+        "Superior mesenteric artery"
       ],
       "correctOptionIndex": 0,
-      "explanation": "The hepatic artery supplies oxygenated arterial blood to the liver; the portal vein supplies nutrient-rich but deoxygenated blood. The other vessels are not the main arterial supply to the liver.",
-      "source": "Basic hepatic vascular anatomy",
+      "explanation": "The hepatoduodenal ligament contains the portal triad: portal vein, hepatic artery proper, and common bile duct. The portal vein is the correct answer; the other options are not within this ligament.",
+      "source": "Basic surgical anatomy of the liver",
       "difficulty": "very easy",
       "section": "Anatomy",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-anatomy-20261115203902-01",
-      "stem": "Which of the following structures is NOT a part of the portal triad found in the hepatoduodenal ligament?",
+      "id": "ai-anatomy-20261115204315-01",
+      "stem": "Which of the following structures is part of the portal triad found in the hepatoduodenal ligament?",
       "options": [
         "Common bile duct",
-        "Proper hepatic artery",
         "Portal vein",
-        "Celiac trunk"
+        "Celiac trunk",
+        "Superior mesenteric artery"
       ],
-      "correctOptionIndex": 3,
-      "explanation": "The portal triad consists of the common bile duct, proper hepatic artery, and portal vein. The celiac trunk is a major arterial supply to the foregut but is not part of the portal triad.",
-      "source": "Basic surgical anatomy of the hepatoduodenal ligament",
+      "correctOptionIndex": 1,
+      "explanation": "The portal triad consists of the portal vein, hepatic artery proper, and common bile duct. The portal vein is the second option. The celiac trunk and superior mesenteric artery are separate arterial branches, and the common bile duct is the third option.",
+      "source": "Basic hepatic anatomy; portal triad definition",
       "difficulty": "easy",
       "section": "Anatomy",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-anatomy-20261115203902-01",
-      "stem": "A 45‑year‑old man presents with a palpable mass in the left upper quadrant. Imaging shows a well‑defined lesion arising from the left colic flexure. During resection, the surgeon identifies a single arterial supply to the lesion. Which artery is most likely the feeding vessel?",
+      "id": "ai-anatomy-20261115204316-01",
+      "stem": "A 45‑year‑old man undergoes a laparotomy for a perforated duodenal ulcer. During the operation the surgeon notes that the duodenum is attached to the posterior abdominal wall by a thin, fibrous band that extends from the duodenum to the posterior abdominal wall. Which of the following structures is most likely responsible for this attachment?",
       "options": [
-        "A. Inferior mesenteric artery",
-        "B. Superior mesenteric artery",
-        "C. Left colic artery",
-        "D. Middle colic artery"
+        "A. Ligament of Treitz",
+        "B. Duodenal plate",
+        "C. Hepatoduodenal ligament",
+        "D. Lesser omentum"
       ],
-      "correctOptionIndex": 2,
-      "explanation": "The left colic flexure is supplied by the left colic artery, a branch of the inferior mesenteric artery. The superior mesenteric artery supplies the midgut, while the middle colic artery supplies the transverse colon. The inferior mesenteric artery gives rise to the left colic artery, making option C the correct choice.",
-      "source": "Basic vascular anatomy of the colon",
+      "correctOptionIndex": 1,
+      "explanation": "The duodenal plate (also called the retroperitoneal layer of the duodenum) is a thin, fibrous layer that attaches the duodenum to the posterior abdominal wall. The ligament of Treitz suspends the duodenojejunal flexure, the hepatoduodenal ligament contains the portal triad, and the lesser omentum connects the liver to the stomach and duodenum.",
+      "source": "Basic surgical anatomy of the duodenum",
       "difficulty": "moderate",
       "section": "Anatomy",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-anatomy-20261115203903-01",
-      "stem": "A 45‑year‑old man undergoes a laparoscopic cholecystectomy. Intraoperatively the surgeon identifies a cystic duct that runs posterior to the common hepatic duct and drains into the common bile duct at a 45° angle. Which of the following statements best describes the anatomical variant present?",
+      "id": "ai-anatomy-20261115204316-01",
+      "stem": "A 45‑year‑old man presents with a palpable mass in the left upper quadrant. Imaging shows a well‑defined lesion arising from the splenic hilum. Which of the following structures is most likely involved in the tumour’s vascular supply?",
       "options": [
-        "The cystic duct is a type I variant, where it joins the common hepatic duct at a low, oblique angle.",
-        "The cystic duct is a type II variant, where it runs posterior to the common hepatic duct before joining the common bile duct.",
-        "The cystic duct is a type III variant, where it is absent and the gallbladder drains directly into the common bile duct.",
-        "The cystic duct is a type IV variant, where it has a double lumen."
+        "A. Left gastric artery",
+        "B. Splenic artery",
+        "C. Pancreaticoduodenal artery",
+        "D. Inferior mesenteric artery"
       ],
       "correctOptionIndex": 1,
-      "explanation": "The described anatomy corresponds to a type II variant of the cystic duct, which runs posterior to the common hepatic duct before joining the common bile duct. Type I is a low, oblique junction; type III involves absence of the cystic duct; type IV is a double lumen. Recognizing this variant is critical to avoid bile duct injury during cholecystectomy.",
-      "source": "Anatomy of the biliary tree; standard surgical teaching",
+      "explanation": "The splenic hilum is supplied by the splenic artery, a branch of the celiac trunk. A mass in this region most commonly involves splenic vessels, making option B correct. The left gastric artery supplies the stomach, the pancreaticoduodenal arteries supply the pancreas and duodenum, and the inferior mesenteric artery supplies the distal colon – all anatomically distant from the splenic hilum.",
+      "source": "Splenic vascular anatomy",
       "difficulty": "hard",
       "section": "Anatomy",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-anatomy-20261115203904-01",
-      "stem": "A 45‑year‑old male presents with a left flank mass. Imaging shows a well‑defined, encapsulated lesion arising from the left adrenal gland. During laparoscopic adrenalectomy, the surgeon notices that the mass is intimately adherent to the left renal vein but not to the adrenal vein. Which of the following anatomical relationships best explains this finding?",
+      "id": "ai-anatomy-20261115204317-01",
+      "stem": "A 45‑year‑old man presents with a large, firm, non‑mobile mass in the right upper quadrant. Imaging shows a well‑defined lesion arising from the hepatic dome and displacing the gallbladder inferiorly. Which of the following structures is most likely to be involved by the tumor?",
       "options": [
-        "The adrenal medulla lies posterior to the renal vein, allowing the mass to compress the vein without involving the adrenal vein.",
-        "The left adrenal gland is positioned superior to the left renal vein, and the gland’s capsule is continuous with the renal capsule.",
-        "The left adrenal gland is located anterior to the left renal vein, and the adrenal vein drains directly into the left renal vein.",
-        "The left adrenal gland is situated inferior to the left renal vein, and the renal vein is a tributary of the adrenal vein."
+        "Right hepatic vein",
+        "Cystic duct",
+        "Right portal vein",
+        "Right hepatic artery"
       ],
       "correctOptionIndex": 2,
-      "explanation": "The left adrenal gland sits anterior to the left renal vein; its adrenal vein drains directly into the left renal vein. A mass arising from the gland will therefore be adherent to the renal vein but not to the adrenal vein, which is a short vessel draining into the renal vein. The other options describe incorrect spatial relationships or vascular connections.",
-      "source": "Adrenal gland anatomy and vascular relations",
+      "explanation": "A mass at the hepatic dome that displaces the gallbladder inferiorly most commonly originates from the right hepatic lobe and therefore involves the right portal vein, which runs along the hepatic dome. The right hepatic vein lies posterior to the liver and is less likely to be involved in a dome‑based mass. The cystic duct and right hepatic artery are situated more inferiorly and anteriorly, making them less probable sites of involvement.",
+      "source": "Anatomy of the liver and biliary tree",
       "difficulty": "very hard",
       "section": "Anatomy",
       "status": "ai-generated-draft",

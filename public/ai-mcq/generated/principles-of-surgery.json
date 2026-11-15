@@ -4,21 +4,21 @@
   "status": "ai-generated-draft",
   "model": "openai/gpt-oss-20b",
   "bankReference": "public/assets/mcq-answers/unified-bank.json",
-  "bankQuestionCount": 1501,
-  "generatedAt": "2026-11-15T20:40:05.293459+00:00",
+  "bankQuestionCount": 1521,
+  "generatedAt": "2026-11-15T20:44:03.641276+00:00",
   "questions": [
     {
-      "id": "ai-principles-of-surgery-20261115203942-01",
+      "id": "ai-principles-of-surgery-20261115204349-01",
       "stem": "Which of the following is the most important principle to maintain during any surgical procedure?",
       "options": [
         "A. Rapid closure of the wound",
-        "B. Adequate hemostasis",
-        "C. Use of the largest possible instruments",
-        "D. Avoidance of all antibiotics"
+        "B. Strict aseptic technique",
+        "C. Use of the most expensive instruments",
+        "D. Minimizing operative time"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Adequate hemostasis prevents postoperative bleeding and infection; it is a fundamental surgical principle. Rapid closure, instrument size, and blanket avoidance of antibiotics are not primary concerns.",
-      "source": "Fundamental surgical principles",
+      "explanation": "Strict aseptic technique is fundamental to prevent surgical site infections and is a core principle taught to all surgical trainees. Rapid closure, expensive instruments, and minimizing time are secondary considerations that do not replace asepsis.",
+      "source": "Basic surgical principles",
       "difficulty": "very easy",
       "duplicateOfExisting": true,
       "section": "Principles of Surgery",
@@ -26,68 +26,68 @@
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115203945-01",
-      "stem": "Which of the following is the most important principle to maintain during the surgical removal of a tumour to prevent dissemination of malignant cells?",
+      "id": "ai-principles-of-surgery-20261115204352-01",
+      "stem": "Which of the following is the most important principle to maintain during any surgical procedure to prevent postoperative infection?",
       "options": [
-        "A. Use of cold scissors",
-        "B. Gentle handling of the tumour",
-        "C. Immediate postoperative radiotherapy",
-        "D. Administration of high-dose steroids"
+        "A. Use of sterile gloves only",
+        "B. Strict aseptic technique throughout the operation",
+        "C. Administration of prophylactic antibiotics before incision",
+        "D. Immediate closure of the wound after the procedure"
       ],
       "correctOptionIndex": 1,
-      "explanation": "Gentle handling of the tumour (option B) is the key principle to avoid tumour spillage and local recurrence. Cold scissors are not a recognized technique for this purpose, postoperative radiotherapy and steroids do not prevent intraoperative dissemination.",
-      "source": "Fundamental surgical principles",
+      "explanation": "Strict aseptic technique (option B) is the cornerstone of preventing postoperative infection, as it eliminates contamination at every step. While sterile gloves, antibiotics, and timely closure are important, they are adjuncts to the overarching principle of asepsis.",
+      "source": "Fundamental principles of asepsis",
       "difficulty": "easy",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115203953-01",
-      "stem": "A 45‑year‑old man presents with a 2‑week history of progressive abdominal distension and constipation. Examination reveals a firm, non‑tender mass in the left upper quadrant. Imaging shows a large, well‑encapsulated cystic lesion arising from the splenic hilum. Which of the following is the most appropriate first step in management?",
+      "id": "ai-principles-of-surgery-20261115204355-01",
+      "stem": "A 45‑year‑old man presents with a perforated duodenal ulcer. Which of the following is the most appropriate initial surgical step to control contamination and prevent further sepsis?",
       "options": [
-        "A. Immediate exploratory laparotomy",
-        "B. Percutaneous fine‑needle aspiration under imaging guidance",
-        "C. Observation with serial abdominal ultrasounds",
-        "D. Endoscopic ultrasound‑guided drainage"
+        "A. Immediate duodenal resection with primary anastomosis",
+        "B. Primary closure of the perforation with a Graham patch",
+        "C. Placement of a percutaneous drain and observation",
+        "D. Laparoscopic lavage and drainage only"
       ],
-      "correctOptionIndex": 0,
-      "explanation": "The lesion is a large, well‑encapsulated cystic mass arising from the splenic hilum, most consistent with a splenic cyst or pseudocyst. The safest and most definitive first step is immediate exploratory laparotomy with possible splenectomy or cystectomy, as the mass is large and symptomatic. Percutaneous aspiration is contraindicated in cystic lesions of the spleen due to risk of rupture and infection, and observation would delay definitive treatment. Endoscopic drainage is not applicable for a splenic mass.",
-      "source": "Principles of surgical management of cystic splenic lesions",
+      "correctOptionIndex": 1,
+      "explanation": "The gold standard for a perforated duodenal ulcer is primary closure of the perforation with a Graham patch (a patch of omentum). This provides immediate control of contamination and is technically simpler than resection. Observation or lavage alone would not adequately control the perforation, and resection is unnecessary and more morbid.",
+      "source": "Principle of surgical management of perforated peptic ulcer",
       "difficulty": "moderate",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115203956-01",
-      "stem": "A 68‑year‑old man presents with a large, exophytic, ulcerated lesion on the left flank. Imaging shows a 12 cm mass arising from the left adrenal gland with invasion of the adjacent kidney and a small area of pulmonary nodules. The patient is otherwise medically fit. Which of the following statements best reflects the current surgical principle for management of this tumour?",
+      "id": "ai-principles-of-surgery-20261115204400-01",
+      "stem": "A 45‑year‑old man presents with a 3‑month history of intermittent abdominal pain, weight loss, and a palpable epigastric mass. CT imaging shows a large, heterogeneous mass arising from the pancreas head with encasement of the superior mesenteric artery (SMA) but no distant metastases. Which of the following statements best reflects the current surgical principle for resectability assessment in this scenario?",
       "options": [
-        "A. Perform a staged approach with initial adrenalectomy followed by nephrectomy and later metastasectomy",
-        "B. Undertake a single‑stage en bloc resection of the adrenal gland, kidney, and involved retroperitoneal tissue, followed by adjuvant chemotherapy",
-        "C. Opt for palliative debulking surgery to relieve pain, deferring systemic therapy",
-        "D. Rely on stereotactic body radiotherapy alone, as surgery offers no survival benefit in metastatic adrenal carcinoma"
+        "A. The tumor is unresectable because it involves the SMA; no surgery should be attempted.",
+        "B. The tumor is resectable; a standard pancreaticoduodenectomy can be performed regardless of SMA involvement.",
+        "C. The tumor is potentially resectable; neoadjuvant chemotherapy should be considered to downstage the disease before attempting resection.",
+        "D. The tumor is resectable only if the SMA can be resected and reconstructed; otherwise, the patient should receive palliative care."
       ],
-      "correctOptionIndex": 1,
-      "explanation": "The optimal surgical principle for a locally advanced adrenal carcinoma with limited metastatic disease is a single‑stage en bloc resection of all involved organs (adrenal, kidney, retroperitoneum) to achieve negative margins, followed by adjuvant systemic therapy. Staged surgery (option A) risks tumour seeding and delays definitive treatment. Palliative debulking (option C) is reserved for unresectable disease. Stereotactic radiotherapy (option D) is not the standard of care for primary adrenal carcinoma with local invasion.",
-      "source": "Principle of en bloc resection in locally advanced adrenal carcinoma",
+      "correctOptionIndex": 2,
+      "explanation": "In pancreatic head cancer with SMA involvement but no distant metastasis, the tumor is considered potentially resectable. Current surgical principles recommend neoadjuvant chemotherapy to reduce tumour burden and improve margin status before attempting a pancreaticoduodenectomy. Option A is incorrect because SMA involvement alone does not automatically preclude surgery. Option B is incorrect because standard resection without addressing SMA involvement risks incomplete resection. Option D is incorrect because SMA resection is rarely performed and not the first-line approach.",
+      "source": "Principles of Pancreatic Cancer Surgery",
       "difficulty": "hard",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",
       "reviewStatus": "requires-supervisor-review"
     },
     {
-      "id": "ai-principles-of-surgery-20261115204005-01",
-      "stem": "A 45‑year‑old man presents with a 3‑month history of intermittent right upper quadrant pain, nausea, and a palpable mass in the right hypochondrium. Imaging shows a 6‑cm cystic lesion arising from the gallbladder with irregular thickening of the cyst wall and focal calcifications. Which of the following statements best reflects the most appropriate surgical management of this lesion?",
+      "id": "ai-principles-of-surgery-20261115204403-01",
+      "stem": "A 45‑year‑old man presents with a 3‑month history of intermittent right upper quadrant pain, nausea and a palpable mass in the right hypochondrium. Imaging shows a 6‑cm heterogeneous lesion arising from the liver surface with a central scar. Which of the following statements best describes the most appropriate surgical management of this patient?",
       "options": [
-        "A. Elective laparoscopic cholecystectomy with intra‑operative frozen section of the cyst wall",
-        "B. Open cholecystectomy with en bloc resection of the cyst and adjacent liver segments 4b and 5",
-        "C. Percutaneous drainage of the cyst followed by observation",
-        "D. Endoscopic retrograde cholangiopancreatography (ERCP) with sphincterotomy and stent placement"
+        "A) Perform a right hepatectomy with en bloc resection of the tumor and adjacent segment IVb, followed by adjuvant chemotherapy.",
+        "B) Undertake a wedge resection of the lesion with negative margins, as the lesion is likely a focal nodular hyperplasia.",
+        "C) Conduct a segmental resection of segment V/VI with careful preservation of the hepatic veins, given the lesion’s probable diagnosis of hepatocellular carcinoma.",
+        "D) Proceed with a left lateral sectionectomy, because the lesion is located in the left hepatic lobe and is likely a metastatic neuroendocrine tumour."
       ],
-      "correctOptionIndex": 1,
-      "explanation": "The imaging findings are highly suspicious for gallbladder carcinoma arising within a cystic lesion. The standard of care is an open cholecystectomy with en bloc resection of the involved liver segments (usually segments 4b and 5) to achieve negative margins. Laparoscopic removal alone (option A) carries a risk of tumor spillage and incomplete resection. Percutaneous drainage (option C) is inappropriate for a malignant cystic mass, and ERCP (option D) is not therapeutic for gallbladder carcinoma.",
-      "source": "Principles of Surgical Oncology – Gallbladder Cancer",
+      "correctOptionIndex": 2,
+      "explanation": "The imaging description (heterogeneous lesion with central scar) is classic for hepatocellular carcinoma (HCC). In a non‑cirrhotic liver, the standard surgical approach is a segmental (or subsegmental) resection of the involved segments (V/VI) with negative margins, preserving hepatic venous outflow. Option A over‑resects and adds chemotherapy unnecessarily. Option B incorrectly assumes focal nodular hyperplasia, which is benign and would not require resection. Option D misidentifies the lesion’s location and diagnosis. Therefore, option C is correct.",
+      "source": "Principles of hepatic tumour resection",
       "difficulty": "very hard",
       "section": "Principles of Surgery",
       "status": "ai-generated-draft",

@@ -246,8 +246,8 @@
     "day1quiz/client/src/data/day16.ts"
   ],
   "selectionPolicy": {
-    "eligibleForExam": "all unified-bank questions approved by supervising physician instruction",
+    "eligibleForExam": "only questions with explicit approval, eligibleForExam=true, and a non-null correctOptionIndex; Telegram approved-source records remain blocked until their answer key is supplied",
     "difficulty": "source-labelled where available; deterministic heuristic for legacy Daily Go Test imports",
-    "unratedDifficulty": "none"
+    "unratedDifficulty": "held out from learner exams until explicitly rated"
   }
 }

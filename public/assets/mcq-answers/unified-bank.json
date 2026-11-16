@@ -8,7 +8,7 @@
     "Gemini NotebookLM source inventory: General surgery diploma revision",
     "Daily Go Test Day 1–16 snapshot imported unchanged; section/day/topic metadata added. Difficulty is deterministic heuristic because legacy files had no difficulty field."
   ],
-  "totalQuestions": 2428,
+  "totalQuestions": 2486,
   "questions": [
     {
       "id": "local-GS-ABD-0079",
@@ -75802,6 +75802,3665 @@
       "sourceFile": "day1quiz/client/src/data/day16.ts",
       "day": 16,
       "legacyQuestionId": "day16-q80"
+    },
+    {
+      "id": "telegram-gs3-mcq-002",
+      "stem": "A breast lump that moved freely becomes fixed when the patient presses her hands firmly on her hips, but is mobile again when she relaxes. The tumour has most likely spread into which structure?",
+      "options": [
+        "The lactiferous sinuses",
+        "The serratus anterior only",
+        "The skin over the areola",
+        "The retromammary space and pectoralis major",
+        "The suspensory ligaments only"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The retromammary space normally lets the breast\nmove over the deep fascia. If a tumour crosses this\nspace into pectoralis major, the lump becomes fixed\nwhen the muscle contracts (hands pressed on hips)\nand moves again when the muscle relaxes.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967365",
+      "source_message_ids": [
+        "4294967365",
+        "4294967367"
+      ],
+      "source_question_id": "Q2",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T18:53:26+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967367",
+          "exact_source_text": "Explanation – Question 2\n\nThe retromammary space normally lets the breast\nmove over the deep fascia. If a tumour crosses this\nspace into pectoralis major, the lump becomes fixed\nwhen the muscle contracts (hands pressed on hips)\nand moves again when the muscle relaxes.",
+          "text": "The retromammary space normally lets the breast\nmove over the deep fascia. If a tumour crosses this\nspace into pectoralis major, the lump becomes fixed\nwhen the muscle contracts (hands pressed on hips)\nand moves again when the muscle relaxes."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة.",
+        "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-003",
+      "stem": "In an adult male, a doctor finds the apex beat by moving from the nipple, without counting ribs. Which surface-anatomy relationship makes this possible?",
+      "options": [
+        "Nipple in the 5th intercostal space; apex beat in the 6th space in the midaxillary line",
+        "Nipple in the 4th intercostal space about 10 cm (4 in) from the midline; apex beat in the 5th space about 9 cm from the midline",
+        "Nipple in the 6th intercostal space; apex beat in the 5th space",
+        "Nipple in the 3rd intercostal space, 8 cm from the midline; apex beat in the 4th space",
+        "Nipple at the 2nd costal cartilage; apex beat at the 4th costal cartilage"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "In the male the nipple lies in the 4th intercostal\nspace about 10 cm (4 in) from the midline. The apex\nbeat is one space lower and slightly medial: 5th\nintercostal space, about 9 cm from the midline.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967368",
+      "source_message_ids": [
+        "4294967368",
+        "4294967370"
+      ],
+      "source_question_id": "Q3",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T18:53:38+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967370",
+          "exact_source_text": "Explanation – Question 3\n\nIn the male the nipple lies in the 4th intercostal\nspace about 10 cm (4 in) from the midline. The apex\nbeat is one space lower and slightly medial: 5th\nintercostal space, about 9 cm from the midline.",
+          "text": "In the male the nipple lies in the 4th intercostal\nspace about 10 cm (4 in) from the midline. The apex\nbeat is one space lower and slightly medial: 5th\nintercostal space, about 9 cm from the midline."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة.",
+        "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-004",
+      "stem": "Which set of changes belongs to LATE pregnancy, not early pregnancy?",
+      "options": [
+        "Colostrum is secreted, the alveoli are distended and the whole breast enlarges",
+        "The nipple enlarges and the areola darkens",
+        "The ducts branch more and new alveoli form",
+        "Montgomery glands first appear",
+        "The axillary tail pierces the deep fascia"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "Early pregnancy: the nipple enlarges, the areola\ndarkens (and stays dark), the ducts branch and\nalveoli form. Late pregnancy: colostrum appears, the\nalveoli are distended with secretion and the whole\nbreast enlarges.\n1",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967371",
+      "source_message_ids": [
+        "4294967371",
+        "4294967373"
+      ],
+      "source_question_id": "Q4",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T18:54:05+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967373",
+          "exact_source_text": "Explanation – Question 4\n\nEarly pregnancy: the nipple enlarges, the areola\ndarkens (and stays dark), the ducts branch and\nalveoli form. Late pregnancy: colostrum appears, the\nalveoli are distended with secretion and the whole\nbreast enlarges.\n1",
+          "text": "Early pregnancy: the nipple enlarges, the areola\ndarkens (and stays dark), the ducts branch and\nalveoli form. Late pregnancy: colostrum appears, the\nalveoli are distended with secretion and the whole\nbreast enlarges.\n1"
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة.",
+        "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-005",
+      "stem": "A woman with breast carcinoma has skin dimpling and nipple retraction while the lump is still small. Spread of the tumour along which structures explains these signs?",
+      "options": [
+        "The lactiferous sinuses",
+        "The axillary tail",
+        "The intermammary lymphatics",
+        "The suspensory ligaments of Cooper",
+        "The retromammary bursa"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "Fibrous septa between the lobes continue as the\nsuspensory ligaments of Cooper, which tie the skin\nto the deep fascia. When a tumour infiltrates and\nshortens them, the skin dimples and the nipple is\npulled in.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967374",
+      "source_message_ids": [
+        "4294967374",
+        "4294967376"
+      ],
+      "source_question_id": "Q5",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T18:54:15+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967376",
+          "exact_source_text": "Explanation – Question 5\n\nFibrous septa between the lobes continue as the\nsuspensory ligaments of Cooper, which tie the skin\nto the deep fascia. When a tumour infiltrates and\nshortens them, the skin dimples and the nipple is\npulled in.",
+          "text": "Fibrous septa between the lobes continue as the\nsuspensory ligaments of Cooper, which tie the skin\nto the deep fascia. When a tumour infiltrates and\nshortens them, the skin dimples and the nipple is\npulled in."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة.",
+        "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-006",
+      "stem": "Peau d'orange over a breast carcinoma is mainly caused by:",
+      "options": [
+        "Blocked skin lymphatics causing oedema, with the skin held down at the hair follicles and sweat-gland openings",
+        "Infiltration of the pectoralis major",
+        "Hypertrophy of Montgomery glands",
+        "Dilatation of the lactiferous sinuses",
+        "Venous obstruction in the internal thoracic vein"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "When cancer blocks the dermal lymphatics,\nlymphoedema swells the skin between the points\nwhere it is tethered (hair follicles and gland ducts).\nThis gives the pitted look of orange peel.\n2",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967377",
+      "source_message_ids": [
+        "4294967377",
+        "4294967379"
+      ],
+      "source_question_id": "Q6",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T18:54:32+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967379",
+          "exact_source_text": "Explanation – Question 6\n\nWhen cancer blocks the dermal lymphatics,\nlymphoedema swells the skin between the points\nwhere it is tethered (hair follicles and gland ducts).\nThis gives the pitted look of orange peel.\n2",
+          "text": "When cancer blocks the dermal lymphatics,\nlymphoedema swells the skin between the points\nwhere it is tethered (hair follicles and gland ducts).\nThis gives the pitted look of orange peel.\n2"
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة.",
+        "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-007",
+      "stem": "A patient with breast cancer and no lung or liver lesions presents with a metastasis in a thoracic vertebra. Which route best explains this?",
+      "options": [
+        "Lymph to the apical axillary nodes",
+        "Lymph to the parasternal nodes",
+        "Direct spread through the retromammary space",
+        "Venous blood through the posterior intercostal veins into the valveless vertebral venous plexus (Batson)",
+        "Arterial emboli through the lateral thoracic artery\nRT"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "Breast veins drain into the intercostal veins, which\njoin the valveless vertebral venous plexus. Tumour\ncells can reach the vertebrae this way without\npassing through the lungs.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967380",
+      "source_message_ids": [
+        "4294967380",
+        "4294967382"
+      ],
+      "source_question_id": "Q7",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T18:54:38+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967382",
+          "exact_source_text": "Explanation – Question 7\n\nBreast veins drain into the intercostal veins, which\njoin the valveless vertebral venous plexus. Tumour\ncells can reach the vertebrae this way without\npassing through the lungs.",
+          "text": "Breast veins drain into the intercostal veins, which\njoin the valveless vertebral venous plexus. Tumour\ncells can reach the vertebrae this way without\npassing through the lungs."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة.",
+        "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-008",
+      "stem": "Lymph from the breast parenchyma, nipple and areola drains in which approximate proportions?",
+      "options": [
+        "50% axillary, 50% parasternal",
+        "75% axillary, 20% parasternal (internal thoracic), 5% paravertebral (posterior intercostal)",
+        "75% parasternal, 25% axillary",
+        "90% parasternal, 10% axillary",
+        "60% supraclavicular, 40% axillary"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "About 75% goes to the axillary nodes, about 20% to\nthe parasternal (internal thoracic) nodes, and a few\nvessels follow the posterior intercostal vessels to the\nparavertebral nodes.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967383",
+      "source_message_ids": [
+        "4294967383",
+        "4294967385"
+      ],
+      "source_question_id": "Q8",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T18:54:44+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967385",
+          "exact_source_text": "Explanation – Question 8\n\nAbout 75% goes to the axillary nodes, about 20% to\nthe parasternal (internal thoracic) nodes, and a few\nvessels follow the posterior intercostal vessels to the\nparavertebral nodes.",
+          "text": "About 75% goes to the axillary nodes, about 20% to\nthe parasternal (internal thoracic) nodes, and a few\nvessels follow the posterior intercostal vessels to the\nparavertebral nodes."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة.",
+        "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-009",
+      "stem": "Lymph from the SKIN of the lower quadrants of the breast mainly drains to:",
+      "options": [
+        "Apical axillary nodes",
+        "Anterior (pectoral) axillary nodes",
+        "Parasternal nodes",
+        "Interpectoral (Rotter's) nodes",
+        "Lymphatics of the anterior abdominal wall"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The skin drains by quadrant. Upper quadrants go to\nthe apical axillary nodes, the lateral part to the\nanterior axillary nodes, the medial part to the\nparasternal nodes, and the lower quadrants to the\nlymphatics of the abdominal wall.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967386",
+      "source_message_ids": [
+        "4294967386",
+        "4294967388"
+      ],
+      "source_question_id": "Q9",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T18:54:49+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967388",
+          "exact_source_text": "Explanation – Question 9\n\nThe skin drains by quadrant. Upper quadrants go to\nthe apical axillary nodes, the lateral part to the\nanterior axillary nodes, the medial part to the\nparasternal nodes, and the lower quadrants to the\nlymphatics of the abdominal wall.",
+          "text": "The skin drains by quadrant. Upper quadrants go to\nthe apical axillary nodes, the lateral part to the\nanterior axillary nodes, the medial part to the\nparasternal nodes, and the lower quadrants to the\nlymphatics of the abdominal wall."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة.",
+        "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-010",
+      "stem": "Years after a successful mastectomy for a carcinoma in the MEDIAL half of the right breast, a cancer appears in the left breast. Which pathway best explains this?",
+      "options": [
+        "Interpectoral (Rotter's) nodes",
+        "The left lateral thoracic artery",
+        "Apical axillary nodes",
+        "Intermammary lymphatics that cross the midline between the two breasts",
+        "The axillary tail of the left breast"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "Lymphatics of the medial halves of the two breasts\nconnect across the midline (intermammary\nlymphatics). Tumours in the medial half can\ntherefore reach the other breast. They also drain to\nparasternal nodes, which are harder to clear\nsurgically.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967389",
+      "source_message_ids": [
+        "4294967389",
+        "4294967391"
+      ],
+      "source_question_id": "Q10",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T18:54:53+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967391",
+          "exact_source_text": "Explanation – Question 10\n\nLymphatics of the medial halves of the two breasts\nconnect across the midline (intermammary\nlymphatics). Tumours in the medial half can\ntherefore reach the other breast. They also drain to\nparasternal nodes, which are harder to clear\nsurgically.",
+          "text": "Lymphatics of the medial halves of the two breasts\nconnect across the midline (intermammary\nlymphatics). Tumours in the medial half can\ntherefore reach the other breast. They also drain to\nparasternal nodes, which are harder to clear\nsurgically."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة.",
+        "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-011",
+      "stem": "A thyroid swelling moves upward with swallowing. Which anatomical fact explains this?",
+      "options": [
+        "The superior thyroid artery is fixed to the hyoid",
+        "The gland lies inside the carotid sheath",
+        "The pretracheal fascia (false capsule) wraps the gland together with the larynx, trachea and pharynx",
+        "The levator glandulae thyroideae contracts during deglutition",
+        "The true capsule is attached to the hyoid bone"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The false capsule (pretracheal fascia) encloses the\ngland with the larynx and trachea and attaches to\nthe laryngeal cartilages. The gland therefore rises\nwith the larynx during swallowing. The levator\nglandulae thyroideae is only a fibromuscular band,\nnot a real lifting muscle.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967394",
+      "source_message_ids": [
+        "4294967394",
+        "4294967395",
+        "4294967396"
+      ],
+      "source_question_id": "Q11",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T18:57:57+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967396",
+          "exact_source_text": "Explanation – Question 11\n\nThe false capsule (pretracheal fascia) encloses the\ngland with the larynx and trachea and attaches to\nthe laryngeal cartilages. The gland therefore rises\nwith the larynx during swallowing. The levator\nglandulae thyroideae is only a fibromuscular band,\nnot a real lifting muscle.",
+          "text": "The false capsule (pretracheal fascia) encloses the\ngland with the larynx and trachea and attaches to\nthe laryngeal cartilages. The gland therefore rises\nwith the larynx during swallowing. The levator\nglandulae thyroideae is only a fibromuscular band,\nnot a real lifting muscle."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-012",
+      "stem": "A large multinodular goitre grows downward behind the sternum instead of upward. The best anatomical explanation is:",
+      "options": [
+        "The pyramidal lobe anchors it to the hyoid",
+        "The isthmus is fixed to the 2nd–4th tracheal rings",
+        "The inferior thyroid artery pulls it down",
+        "The infrahyoid muscles push it down",
+        "The pretracheal fascia is attached above to the oblique line of the thyroid cartilage, blocking upward spread, but is open below toward the superior mediastinum"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The fascia closes off the space above at the oblique\nline, so the apex of each lobe cannot rise higher.\nBelow, the fascial space continues into the superior\nmediastinum toward the fibrous pericardium, so an\nenlarging gland goes retrosternal.\n3",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967397",
+      "source_message_ids": [
+        "4294967397",
+        "4294967398",
+        "4294967399"
+      ],
+      "source_question_id": "Q12",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T18:58:09+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967399",
+          "exact_source_text": "Explanation – Question 12\n\nThe fascia closes off the space above at the oblique\nline, so the apex of each lobe cannot rise higher.\nBelow, the fascial space continues into the superior\nmediastinum toward the fibrous pericardium, so an\nenlarging gland goes retrosternal.\n3",
+          "text": "The fascia closes off the space above at the oblique\nline, so the apex of each lobe cannot rise higher.\nBelow, the fascial space continues into the superior\nmediastinum toward the fibrous pericardium, so an\nenlarging gland goes retrosternal.\n3"
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-013",
+      "stem": "Which statement about the arterial supply of the thyroid is correct?",
+      "options": [
+        "The superior thyroid artery is the last branch of the external carotid and supplies two-thirds of the gland",
+        "The inferior thyroid artery comes from the thyrocervical trunk (1st part of the subclavian) and is the main supply, including the parathyroids",
+        "The thyroidea ima is constant and comes from the internal carotid",
+        "The middle thyroid artery comes from the external carotid",
+        "Both parathyroid glands on each side have their own artery from the aorta"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The superior thyroid artery is the first branch of the\nexternal carotid and supplies about the upper third.\nThe inferior thyroid artery (thyrocervical trunk, 1st\npart of the subclavian) supplies about two-thirds and\nboth parathyroids. The thyroidea ima is inconstant,\nfrom the arch or the brachiocephalic trunk. There is\nno middle thyroid artery.\n4",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967400",
+      "source_message_ids": [
+        "4294967400",
+        "4294967401",
+        "4294967402"
+      ],
+      "source_question_id": "Q13",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T18:58:16+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967402",
+          "exact_source_text": "Explanation – Question 13\n\nThe superior thyroid artery is the first branch of the\nexternal carotid and supplies about the upper third.\nThe inferior thyroid artery (thyrocervical trunk, 1st\npart of the subclavian) supplies about two-thirds and\nboth parathyroids. The thyroidea ima is inconstant,\nfrom the arch or the brachiocephalic trunk. There is\nno middle thyroid artery.\n4",
+          "text": "The superior thyroid artery is the first branch of the\nexternal carotid and supplies about the upper third.\nThe inferior thyroid artery (thyrocervical trunk, 1st\npart of the subclavian) supplies about two-thirds and\nboth parathyroids. The thyroidea ima is inconstant,\nfrom the arch or the brachiocephalic trunk. There is\nno middle thyroid artery.\n4"
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-014",
+      "stem": "During thyroidectomy, the surgeon ties the middle thyroid vein early. Which statement about thyroid veins is correct?",
+      "options": [
+        "The superior and middle thyroid veins drain into the internal jugular vein; the inferior veins usually drain into the left brachiocephalic vein",
+        "All three veins drain into the external jugular vein",
+        "The middle thyroid vein drains into the left brachiocephalic vein",
+        "The middle thyroid vein runs with the middle thyroid artery",
+        "The inferior thyroid veins drain into the subclavian vein"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The superior and middle veins enter the internal\njugular. The inferior veins often join and drain into\nthe left brachiocephalic vein. The middle vein is\nshort, has no matching artery and tears easily, so it\nis usually tied first.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967403",
+      "source_message_ids": [
+        "4294967403",
+        "4294967404",
+        "4294967405"
+      ],
+      "source_question_id": "Q14",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T18:58:21+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967405",
+          "exact_source_text": "Explanation – Question 14\n\nThe superior and middle veins enter the internal\njugular. The inferior veins often join and drain into\nthe left brachiocephalic vein. The middle vein is\nshort, has no matching artery and tears easily, so it\nis usually tied first.",
+          "text": "The superior and middle veins enter the internal\njugular. The inferior veins often join and drain into\nthe left brachiocephalic vein. The middle vein is\nshort, has no matching artery and tears easily, so it\nis usually tied first."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-015",
+      "stem": "After thyroidectomy, a professional singer can speak normally but can no longer reach high-pitched notes. Which nerve and muscle are affected?",
+      "options": [
+        "Ansa cervicalis – sternothyroid",
+        "Internal laryngeal nerve – thyroarytenoid",
+        "Vagus nerve – all intrinsic muscles",
+        "External laryngeal nerve – cricothyroid",
+        "Recurrent laryngeal nerve – posterior cricoarytenoid"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The external laryngeal nerve runs with the superior\nthyroid artery and supplies cricothyroid, which tenses\nthe vocal cord. Injury causes loss of high-pitched\nvoice and voice fatigue. The recurrent laryngeal\nnerve supplies all the other intrinsic laryngeal\nmuscles.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967406",
+      "source_message_ids": [
+        "4294967406",
+        "4294967407",
+        "4294967408"
+      ],
+      "source_question_id": "Q15",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T18:58:25+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967408",
+          "exact_source_text": "Explanation – Question 15\n\nThe external laryngeal nerve runs with the superior\nthyroid artery and supplies cricothyroid, which tenses\nthe vocal cord. Injury causes loss of high-pitched\nvoice and voice fatigue. The recurrent laryngeal\nnerve supplies all the other intrinsic laryngeal\nmuscles.",
+          "text": "The external laryngeal nerve runs with the superior\nthyroid artery and supplies cricothyroid, which tenses\nthe vocal cord. Injury causes loss of high-pitched\nvoice and voice fatigue. The recurrent laryngeal\nnerve supplies all the other intrinsic laryngeal\nmuscles."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-016",
+      "stem": "After a total thyroidectomy, a patient has stridor and severe breathing difficulty soon after extubation, while the voice is weak. Which nerve injury pattern best explains this?",
+      "options": [
+        "Complete section of one recurrent laryngeal nerve",
+        "Partial (incomplete) injury of both recurrent laryngeal nerves",
+        "External laryngeal nerve injury on both sides",
+        "Complete section of both recurrent laryngeal nerves causing aphonia only",
+        "Injury to the ansa cervicalis"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "In partial recurrent laryngeal nerve injury the\nadductors win, so the cord lies near the midline. If\nboth sides are partially injured, both cords close in,\ncausing stridor and asphyxia. Complete injury mainly\naffects the voice: hoarseness if one side, aphonia if\nboth.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967409",
+      "source_message_ids": [
+        "4294967409",
+        "4294967410",
+        "4294967411"
+      ],
+      "source_question_id": "Q16",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T19:14:36+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967411",
+          "exact_source_text": "Explanation – Question 16\n\nIn partial recurrent laryngeal nerve injury the\nadductors win, so the cord lies near the midline. If\nboth sides are partially injured, both cords close in,\ncausing stridor and asphyxia. Complete injury mainly\naffects the voice: hoarseness if one side, aphonia if\nboth.",
+          "text": "In partial recurrent laryngeal nerve injury the\nadductors win, so the cord lies near the midline. If\nboth sides are partially injured, both cords close in,\ncausing stridor and asphyxia. Complete injury mainly\naffects the voice: hoarseness if one side, aphonia if\nboth."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-017",
+      "stem": "The older rule was to tie the superior thyroid artery close to the gland and the inferior thyroid artery far from it. Why do surgeons now tie both close to the gland?",
+      "options": [
+        "To avoid the internal jugular vein",
+        "Because the inferior thyroid artery is too small",
+        "To avoid the thoracic duct",
+        "To protect the external laryngeal nerve only",
+        "To protect the blood supply of the parathyroid glands, which come from the inferior thyroid artery"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "Tying the inferior thyroid artery far from the gland\ncuts the parathyroid supply and causes\npostoperative hypocalcaemia. Tying close to the\ngland keeps the parathyroid branches. The recurrent\nlaryngeal nerve is protected by finding it, not by\ntying far away.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967412",
+      "source_message_ids": [
+        "4294967412",
+        "4294967413",
+        "4294967414"
+      ],
+      "source_question_id": "Q17",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T19:14:41+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967414",
+          "exact_source_text": "Explanation – Question 17\n\nTying the inferior thyroid artery far from the gland\ncuts the parathyroid supply and causes\npostoperative hypocalcaemia. Tying close to the\ngland keeps the parathyroid branches. The recurrent\nlaryngeal nerve is protected by finding it, not by\ntying far away.",
+          "text": "Tying the inferior thyroid artery far from the gland\ncuts the parathyroid supply and causes\npostoperative hypocalcaemia. Tying close to the\ngland keeps the parathyroid branches. The recurrent\nlaryngeal nerve is protected by finding it, not by\ntying far away."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-018",
+      "stem": "Which parathyroid gland is more variable in position and may be found low in the neck or in the superior mediastinum?",
+      "options": [
+        "The superior parathyroid, from the 4th pharyngeal pouch",
+        "The inferior parathyroid, from the 3rd pharyngeal pouch",
+        "The superior parathyroid, from the 3rd pharyngeal pouch",
+        "The inferior parathyroid, from the 4th pharyngeal pouch",
+        "Both are constant at the middle of the posterior border"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The inferior parathyroid comes from the 3rd pouch\nand travels down with the thymus, so its final\nposition varies (even into the mediastinum). The\nsuperior gland (4th pouch) travels less and is more\nconstant, near the middle of the posterior border of\nthe lobe.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967415",
+      "source_message_ids": [
+        "4294967415",
+        "4294967416",
+        "4294967417"
+      ],
+      "source_question_id": "Q18",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T19:14:50+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967417",
+          "exact_source_text": "Explanation – Question 18\n\nThe inferior parathyroid comes from the 3rd pouch\nand travels down with the thymus, so its final\nposition varies (even into the mediastinum). The\nsuperior gland (4th pouch) travels less and is more\nconstant, near the middle of the posterior border of\nthe lobe.",
+          "text": "The inferior parathyroid comes from the 3rd pouch\nand travels down with the thymus, so its final\nposition varies (even into the mediastinum). The\nsuperior gland (4th pouch) travels less and is more\nconstant, near the middle of the posterior border of\nthe lobe."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-019",
+      "stem": "Which statement about the position and shape of the thyroid is correct?",
+      "options": [
+        "The pyramidal lobe usually lies to the right of the midline",
+        "Each lobe reaches up to the oblique line of the thyroid cartilage and down to about the 5th– 6th tracheal ring; the isthmus covers rings 2– 4",
+        "The gland weighs about 100 g in a normal adult",
+        "The isthmus lies in front of the 5th–6th tracheal rings",
+        "The gland lies opposite C1–C3"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The apex of each lobe reaches the oblique line of\nthe thyroid cartilage. The base reaches the 5th–6th\ntracheal ring. The isthmus lies over rings 2–4. The\ngland is at C5–C7 and weighs about 25 g. A\npyramidal lobe, when present, usually lies just left of\nthe midline.\n5",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967418",
+      "source_message_ids": [
+        "4294967418",
+        "4294967419",
+        "4294967420"
+      ],
+      "source_question_id": "Q19",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T19:14:55+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967420",
+          "exact_source_text": "Explanation – Question 19\n\nThe apex of each lobe reaches the oblique line of\nthe thyroid cartilage. The base reaches the 5th–6th\ntracheal ring. The isthmus lies over rings 2–4. The\ngland is at C5–C7 and weighs about 25 g. A\npyramidal lobe, when present, usually lies just left of\nthe midline.\n5",
+          "text": "The apex of each lobe reaches the oblique line of\nthe thyroid cartilage. The base reaches the 5th–6th\ntracheal ring. The isthmus lies over rings 2–4. The\ngland is at C5–C7 and weighs about 25 g. A\npyramidal lobe, when present, usually lies just left of\nthe midline.\n5"
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-020",
+      "stem": "A papillary carcinoma of the thyroid spreads by lymphatics. Which nodes are the first and the final groups?",
+      "options": [
+        "Submandibular first, then supraclavicular",
+        "Parasternal first, then mediastinal",
+        "Occipital first, then superficial cervical",
+        "Prelaryngeal, pretracheal and paratracheal first; deep cervical last",
+        "Axillary first, then deep cervical"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "Lymph first goes to nearby prelaryngeal, pretracheal\nand paratracheal nodes. All of it finally reaches the\ndeep cervical nodes, the last group in the neck.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967421",
+      "source_message_ids": [
+        "4294967421",
+        "4294967422",
+        "4294967423"
+      ],
+      "source_question_id": "Q20",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T19:15:01+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967423",
+          "exact_source_text": "Explanation – Question 20\n\nLymph first goes to nearby prelaryngeal, pretracheal\nand paratracheal nodes. All of it finally reaches the\ndeep cervical nodes, the last group in the neck.",
+          "text": "Lymph first goes to nearby prelaryngeal, pretracheal\nand paratracheal nodes. All of it finally reaches the\ndeep cervical nodes, the last group in the neck."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-021",
+      "stem": "Which statement about the origin of the great arteries of the neck is correct?",
+      "options": [
+        "The right subclavian and right common carotid arise directly from the arch of the aorta",
+        "The left subclavian and left common carotid arise directly from the arch; the right ones arise from the brachiocephalic trunk",
+        "Both common carotids arise from the brachiocephalic trunk",
+        "The left subclavian arises from the left common carotid",
+        "The brachiocephalic trunk gives the left common carotid"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The arch gives three branches: the brachiocephalic\ntrunk, the left common carotid and the left\nsubclavian. The brachiocephalic trunk divides behind\nthe right sternoclavicular joint into the right\nsubclavian and right common carotid.\n6",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967424",
+      "source_message_ids": [
+        "4294967424",
+        "4294967425",
+        "4294967426"
+      ],
+      "source_question_id": "Q21",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T19:59:39+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967426",
+          "exact_source_text": "Explanation – Question 21\n\nThe arch gives three branches: the brachiocephalic\ntrunk, the left common carotid and the left\nsubclavian. The brachiocephalic trunk divides behind\nthe right sternoclavicular joint into the right\nsubclavian and right common carotid.\n6",
+          "text": "The arch gives three branches: the brachiocephalic\ntrunk, the left common carotid and the left\nsubclavian. The brachiocephalic trunk divides behind\nthe right sternoclavicular joint into the right\nsubclavian and right common carotid.\n6"
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-022",
+      "stem": "Scalenus anterior divides the subclavian artery into three parts. Which branch comes from the SECOND part?",
+      "options": [
+        "Costocervical trunk",
+        "Vertebral artery",
+        "Dorsal scapular artery (always)",
+        "Internal thoracic artery",
+        "Thyrocervical trunk"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The first part (medial to the muscle) gives the\nvertebral, internal thoracic and thyrocervical trunk.\nThe second part (behind the muscle) gives the\ncostocervical trunk. The third part usually has no\nbranch, but may give the dorsal scapular,\nsuprascapular or superficial cervical artery.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967427",
+      "source_message_ids": [
+        "4294967427",
+        "4294967428",
+        "4294967429"
+      ],
+      "source_question_id": "Q22",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T19:59:44+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967429",
+          "exact_source_text": "Explanation – Question 22\n\nThe first part (medial to the muscle) gives the\nvertebral, internal thoracic and thyrocervical trunk.\nThe second part (behind the muscle) gives the\ncostocervical trunk. The third part usually has no\nbranch, but may give the dorsal scapular,\nsuprascapular or superficial cervical artery.",
+          "text": "The first part (medial to the muscle) gives the\nvertebral, internal thoracic and thyrocervical trunk.\nThe second part (behind the muscle) gives the\ncostocervical trunk. The third part usually has no\nbranch, but may give the dorsal scapular,\nsuprascapular or superficial cervical artery."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-023",
+      "stem": "All of the following are branches of the thyrocervical trunk EXCEPT:",
+      "options": [
+        "Superficial (transverse) cervical artery",
+        "Suprascapular artery",
+        "Inferior thyroid artery",
+        "Ascending cervical artery (via the inferior thyroid)",
+        "Superior thyroid artery"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The thyrocervical trunk gives the inferior thyroid,\nsuprascapular and superficial (transverse) cervical\narteries. The inferior thyroid in turn gives the\nascending cervical, inferior laryngeal, glandular,\ntracheal and oesophageal branches. The superior\nthyroid comes from the external carotid.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967430",
+      "source_message_ids": [
+        "4294967430",
+        "4294967431",
+        "4294967432"
+      ],
+      "source_question_id": "Q23",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T20:00:32+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967432",
+          "exact_source_text": "Explanation – Question 23\n\nThe thyrocervical trunk gives the inferior thyroid,\nsuprascapular and superficial (transverse) cervical\narteries. The inferior thyroid in turn gives the\nascending cervical, inferior laryngeal, glandular,\ntracheal and oesophageal branches. The superior\nthyroid comes from the external carotid.",
+          "text": "The thyrocervical trunk gives the inferior thyroid,\nsuprascapular and superficial (transverse) cervical\narteries. The inferior thyroid in turn gives the\nascending cervical, inferior laryngeal, glandular,\ntracheal and oesophageal branches. The superior\nthyroid comes from the external carotid."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-024",
+      "stem": "Which statement about the course of the vertebral artery is correct?",
+      "options": [
+        "It ends as the posterior cerebral artery",
+        "It enters the skull through the carotid canal",
+        "It usually enters the foramen transversarium of C6, runs up through C6–C1, grooves the posterior arch of the atlas, and joins its partner at the pons to form the basilar artery",
+        "It passes through the foramina transversaria of C7 to C1",
+        "It is a branch of the second part of the subclavian"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The vertebral artery comes from the first part of the\nsubclavian. It skips C7, enters C6 and runs up to C1.\nIt crosses the posterior arch of the atlas in the\nsuboccipital triangle, passes through the foramen\nmagnum, and joins its partner at the lower border of\nthe pons to form the basilar artery.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967433",
+      "source_message_ids": [
+        "4294967433",
+        "4294967434",
+        "4294967435"
+      ],
+      "source_question_id": "Q24",
+      "source_date": "2026-11-15",
+      "source_timestamp_utc": "2026-11-15T20:01:23+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967435",
+          "exact_source_text": "Explanation – Question 24\n\nThe vertebral artery comes from the first part of the\nsubclavian. It skips C7, enters C6 and runs up to C1.\nIt crosses the posterior arch of the atlas in the\nsuboccipital triangle, passes through the foramen\nmagnum, and joins its partner at the lower border of\nthe pons to form the basilar artery.",
+          "text": "The vertebral artery comes from the first part of the\nsubclavian. It skips C7, enters C6 and runs up to C1.\nIt crosses the posterior arch of the atlas in the\nsuboccipital triangle, passes through the foramen\nmagnum, and joins its partner at the lower border of\nthe pons to form the basilar artery."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-025",
+      "stem": "Which of the following is a branch of the intracranial vertebral artery?",
+      "options": [
+        "Posterior inferior cerebellar artery",
+        "Superior cerebellar artery",
+        "Anterior inferior cerebral artery",
+        "Posterior superior cerebellar artery",
+        "Posterior cerebral artery"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The intracranial (4th) part gives the anterior and\nposterior spinal arteries, medullary branches and the\nposterior inferior cerebellar artery (PICA). The\nsuperior cerebellar and posterior cerebral arteries\ncome from the basilar. Exam options often swap\ncerebellar/cerebral and superior/inferior.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967437",
+      "source_message_ids": [
+        "4294967437",
+        "4294967438",
+        "4294967439"
+      ],
+      "source_question_id": "Q25",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:31:55+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967439",
+          "exact_source_text": "Explanation – Question 25\n\nThe intracranial (4th) part gives the anterior and\nposterior spinal arteries, medullary branches and the\nposterior inferior cerebellar artery (PICA). The\nsuperior cerebellar and posterior cerebral arteries\ncome from the basilar. Exam options often swap\ncerebellar/cerebral and superior/inferior.",
+          "text": "The intracranial (4th) part gives the anterior and\nposterior spinal arteries, medullary branches and the\nposterior inferior cerebellar artery (PICA). The\nsuperior cerebellar and posterior cerebral arteries\ncome from the basilar. Exam options often swap\ncerebellar/cerebral and superior/inferior."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-026",
+      "stem": "The common carotid artery ends at which level, and what lies at its end?",
+      "options": [
+        "Angle of the mandible (C2); the carotid sinus only",
+        "Jugular foramen; the superior cervical ganglion",
+        "Upper border of the thyroid cartilage (disc between C3 and C4); the carotid sinus (baroreceptor) and carotid body (chemoreceptor)",
+        "Lower border of the cricoid (C6); the carotid body only",
+        "Hyoid bone (C3); no special structures"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "It divides at the upper border of the thyroid\ncartilage, opposite the C3/C4 disc. The carotid sinus\nsenses pressure; a rise causes vagal slowing of the\nheart. The carotid body senses falling O₂ and rising\nCO₂ and drives breathing.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967440",
+      "source_message_ids": [
+        "4294967440",
+        "4294967441",
+        "4294967442"
+      ],
+      "source_question_id": "Q26",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:32:02+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967442",
+          "exact_source_text": "Explanation – Question 26\n\nIt divides at the upper border of the thyroid\ncartilage, opposite the C3/C4 disc. The carotid sinus\nsenses pressure; a rise causes vagal slowing of the\nheart. The carotid body senses falling O₂ and rising\nCO₂ and drives breathing.",
+          "text": "It divides at the upper border of the thyroid\ncartilage, opposite the C3/C4 disc. The carotid sinus\nsenses pressure; a rise causes vagal slowing of the\nheart. The carotid body senses falling O₂ and rising\nCO₂ and drives breathing."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-027",
+      "stem": "Several structures pass between the external and internal carotid arteries and separate them. Which is NOT one of them?",
+      "options": [
+        "Glossopharyngeal nerve",
+        "Hypoglossal nerve",
+        "Pharyngeal branch of the vagus",
+        "Styloglossus",
+        "Styloid process"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The structures between them are: the styloid\nprocess, styloglossus, stylopharyngeus, the\nglossopharyngeal nerve, the pharyngeal branch of\nthe vagus, and part of the parotid gland. The\nhypoglossal nerve crosses superficial to both\narteries, so it does not pass between them.\n7",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967443",
+      "source_message_ids": [
+        "4294967443",
+        "4294967444",
+        "4294967445"
+      ],
+      "source_question_id": "Q27",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:32:10+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967445",
+          "exact_source_text": "Explanation – Question 27\n\nThe structures between them are: the styloid\nprocess, styloglossus, stylopharyngeus, the\nglossopharyngeal nerve, the pharyngeal branch of\nthe vagus, and part of the parotid gland. The\nhypoglossal nerve crosses superficial to both\narteries, so it does not pass between them.\n7",
+          "text": "The structures between them are: the styloid\nprocess, styloglossus, stylopharyngeus, the\nglossopharyngeal nerve, the pharyngeal branch of\nthe vagus, and part of the parotid gland. The\nhypoglossal nerve crosses superficial to both\narteries, so it does not pass between them.\n7"
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-028",
+      "stem": "Which branch of the external carotid artery arises from its MEDIAL side?",
+      "options": [
+        "Occipital artery",
+        "Lingual artery",
+        "Facial artery",
+        "Superior thyroid artery",
+        "Ascending pharyngeal artery"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "Front: superior thyroid, lingual and facial. Back:\noccipital and posterior auricular. Medial: ascending\npharyngeal. Terminal (inside the parotid, behind the\nneck of the mandible): maxillary and superficial\ntemporal.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967446",
+      "source_message_ids": [
+        "4294967446",
+        "4294967447",
+        "4294967448"
+      ],
+      "source_question_id": "Q28",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:32:16+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967448",
+          "exact_source_text": "Explanation – Question 28\n\nFront: superior thyroid, lingual and facial. Back:\noccipital and posterior auricular. Medial: ascending\npharyngeal. Terminal (inside the parotid, behind the\nneck of the mandible): maxillary and superficial\ntemporal.",
+          "text": "Front: superior thyroid, lingual and facial. Back:\noccipital and posterior auricular. Medial: ascending\npharyngeal. Terminal (inside the parotid, behind the\nneck of the mandible): maxillary and superficial\ntemporal."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-029",
+      "stem": "A blow to the pterion causes a lucid interval and then deepening coma. The bleeding vessel is a branch of which part of the maxillary artery?",
+      "options": [
+        "The superficial temporal artery",
+        "First (mandibular) part",
+        "Third (pterygopalatine) part",
+        "Second (pterygoid/muscular) part",
+        "The internal carotid artery"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The middle meningeal artery comes from the first\npart of the maxillary artery, together with the\naccessory meningeal, deep auricular, anterior\ntympanic and inferior alveolar arteries. It runs deep\nto the pterion, where the skull is thinnest, so a\nfracture there causes an extradural haematoma.\n8",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967449",
+      "source_message_ids": [
+        "4294967449",
+        "4294967450",
+        "4294967451"
+      ],
+      "source_question_id": "Q29",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:32:21+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967451",
+          "exact_source_text": "Explanation – Question 29\n\nThe middle meningeal artery comes from the first\npart of the maxillary artery, together with the\naccessory meningeal, deep auricular, anterior\ntympanic and inferior alveolar arteries. It runs deep\nto the pterion, where the skull is thinnest, so a\nfracture there causes an extradural haematoma.\n8",
+          "text": "The middle meningeal artery comes from the first\npart of the maxillary artery, together with the\naccessory meningeal, deep auricular, anterior\ntympanic and inferior alveolar arteries. It runs deep\nto the pterion, where the skull is thinnest, so a\nfracture there causes an extradural haematoma.\n8"
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-030",
+      "stem": "A patient has severe posterior epistaxis that does not stop with anterior packing. The artery most likely involved enters the nasal cavity through the sphenopalatine foramen. It is a branch of:",
+      "options": [
+        "The first part of the maxillary artery",
+        "The second part of the maxillary artery",
+        "The facial artery",
+        "The ascending pharyngeal artery",
+        "The third part of the maxillary artery"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The sphenopalatine artery comes from the third part\nof the maxillary artery in the pterygopalatine fossa.\nThat part also gives the posterior superior alveolar,\ninfraorbital, descending (greater) palatine,\npharyngeal and the artery of the pterygoid canal.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967452",
+      "source_message_ids": [
+        "4294967452",
+        "4294967453",
+        "4294967454"
+      ],
+      "source_question_id": "Q30",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:32:25+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967454",
+          "exact_source_text": "Explanation – Question 30\n\nThe sphenopalatine artery comes from the third part\nof the maxillary artery in the pterygopalatine fossa.\nThat part also gives the posterior superior alveolar,\ninfraorbital, descending (greater) palatine,\npharyngeal and the artery of the pterygoid canal.",
+          "text": "The sphenopalatine artery comes from the third part\nof the maxillary artery in the pterygopalatine fossa.\nThat part also gives the posterior superior alveolar,\ninfraorbital, descending (greater) palatine,\npharyngeal and the artery of the pterygoid canal."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-031",
+      "stem": "Which pairing of an arterial change of name with its landmark is correct?",
+      "options": [
+        "Radial becomes the superficial palmar arch at the wrist",
+        "Axillary becomes brachial at the outer border of the first rib",
+        "Ulnar ends at the pisiform as the deep palmar arch",
+        "Brachial divides into radial and ulnar at the level of the neck of the radius in the cubital fossa",
+        "Subclavian becomes axillary at the lower border of teres major"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The subclavian becomes axillary at the outer border\nof the 1st rib. The axillary becomes brachial at the\nlower border of teres major. The brachial ends at the\nlevel of the neck of the radius by dividing into radial\nand ulnar arteries.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967455",
+      "source_message_ids": [
+        "4294967455",
+        "4294967456",
+        "4294967457",
+        "4294967458",
+        "4294967459"
+      ],
+      "source_question_id": "Q31",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:32:34+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967459",
+          "exact_source_text": "Explanation – Question 31\n\nThe subclavian becomes axillary at the outer border\nof the 1st rib. The axillary becomes brachial at the\nlower border of teres major. The brachial ends at the\nlevel of the neck of the radius by dividing into radial\nand ulnar arteries.",
+          "text": "The subclavian becomes axillary at the outer border\nof the 1st rib. The axillary becomes brachial at the\nlower border of teres major. The brachial ends at the\nlevel of the neck of the radius by dividing into radial\nand ulnar arteries."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": 31,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-032",
+      "stem": "Pectoralis minor divides the axillary artery into three parts. Which branch comes from the THIRD part?",
+      "options": [
+        "Lateral thoracic artery",
+        "Superior (highest) thoracic artery",
+        "Posterior circumflex humeral artery",
+        "Thoracoacromial artery",
+        "Dorsal scapular artery"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "First part: 1 branch (superior thoracic). Second part:\n2 branches (thoracoacromial, lateral thoracic). Third\npart: 3 branches (subscapular, anterior and posterior\ncircumflex humeral).",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967460",
+      "source_message_ids": [
+        "4294967460",
+        "4294967461",
+        "4294967462"
+      ],
+      "source_question_id": "Q32",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:33:02+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967462",
+          "exact_source_text": "Explanation – Question 32\n\nFirst part: 1 branch (superior thoracic). Second part:\n2 branches (thoracoacromial, lateral thoracic). Third\npart: 3 branches (subscapular, anterior and posterior\ncircumflex humeral).",
+          "text": "First part: 1 branch (superior thoracic). Second part:\n2 branches (thoracoacromial, lateral thoracic). Third\npart: 3 branches (subscapular, anterior and posterior\ncircumflex humeral)."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-033",
+      "stem": "The thoracoacromial artery pierces the clavipectoral fascia. Its four branches are:",
+      "options": [
+        "Acromial, pectoral, clavicular and deltoid",
+        "Suprascapular, acromial, deltoid and nutrient",
+        "Acromial, subscapular, circumflex scapular and deltoid",
+        "Pectoral, lateral thoracic, superior thoracic and clavicular",
+        "Anterior circumflex, posterior circumflex, acromial and pectoral"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "A trunk from the second part of the axillary artery\npierces the clavipectoral fascia and gives acromial,\npectoral, clavicular and deltoid branches ('APCD').",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967463",
+      "source_message_ids": [
+        "4294967463",
+        "4294967464",
+        "4294967465"
+      ],
+      "source_question_id": "Q33",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:33:15+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967465",
+          "exact_source_text": "Explanation – Question 33\n\nA trunk from the second part of the axillary artery\npierces the clavipectoral fascia and gives acromial,\npectoral, clavicular and deltoid branches ('APCD').",
+          "text": "A trunk from the second part of the axillary artery\npierces the clavipectoral fascia and gives acromial,\npectoral, clavicular and deltoid branches ('APCD')."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-034",
+      "stem": "A patient has a slowly developing block of the subclavian artery between its first part and the third part of the axillary artery, yet the arm stays viable. The main collateral route is:",
+      "options": [
+        "The profunda brachii and radial collateral",
+        "The palmar arches",
+        "The anastomosis around the elbow",
+        "The scapular anastomosis: suprascapular and dorsal scapular (from the 1st part of the subclavian) joining the circumflex scapular and subscapular (from the 3rd part of the axillary), with the posterior intercostals",
+        "The internal thoracic and superior epigastric"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "Around the scapula, branches of the thyrocervical\ntrunk (suprascapular, dorsal scapular / deep branch\nof transverse cervical) join the subscapular and\ncircumflex scapular branches of the axillary. This lets\nblood bypass a slowly developing block between\nthose levels.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967466",
+      "source_message_ids": [
+        "4294967466",
+        "4294967467",
+        "4294967468"
+      ],
+      "source_question_id": "Q34",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:33:20+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967468",
+          "exact_source_text": "Explanation – Question 34\n\nAround the scapula, branches of the thyrocervical\ntrunk (suprascapular, dorsal scapular / deep branch\nof transverse cervical) join the subscapular and\ncircumflex scapular branches of the axillary. This lets\nblood bypass a slowly developing block between\nthose levels.",
+          "text": "Around the scapula, branches of the thyrocervical\ntrunk (suprascapular, dorsal scapular / deep branch\nof transverse cervical) join the subscapular and\ncircumflex scapular branches of the axillary. This lets\nblood bypass a slowly developing block between\nthose levels."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-035",
+      "stem": "Which statement about the relations of the axillary artery is correct?",
+      "options": [
+        "The third part lies behind pectoralis minor",
+        "The first part has the cephalic vein in front and the long thoracic nerve behind it",
+        "The cords of the brachial plexus are named by their position relative to the third part",
+        "The medial cord lies in front of the first part",
+        "The second part lies anterior to pectoralis minor"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The first part has the cephalic vein in front and the\nlong thoracic nerve behind. The cords are named\nlateral, posterior and medial by their position around\nthe second part, which lies behind pectoralis minor.\nThe third part has the roots of the median nerve in\nfront and subscapularis, latissimus dorsi and teres\nmajor behind.\n9",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967469",
+      "source_message_ids": [
+        "4294967469",
+        "4294967470",
+        "4294967471"
+      ],
+      "source_question_id": "Q35",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:33:29+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967471",
+          "exact_source_text": "Explanation – Question 35\n\nThe first part has the cephalic vein in front and the\nlong thoracic nerve behind. The cords are named\nlateral, posterior and medial by their position around\nthe second part, which lies behind pectoralis minor.\nThe third part has the roots of the median nerve in\nfront and subscapularis, latissimus dorsi and teres\nmajor behind.\n9",
+          "text": "The first part has the cephalic vein in front and the\nlong thoracic nerve behind. The cords are named\nlateral, posterior and medial by their position around\nthe second part, which lies behind pectoralis minor.\nThe third part has the roots of the median nerve in\nfront and subscapularis, latissimus dorsi and teres\nmajor behind.\n9"
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-036",
+      "stem": "A midshaft humeral fracture injures an artery running in the radial groove with the radial nerve. This artery is:",
+      "options": [
+        "Superior ulnar collateral",
+        "Posterior circumflex humeral",
+        "Nutrient artery of the humerus",
+        "Profunda brachii (deep brachial)",
+        "Radial recurrent"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The profunda brachii is the first and largest branch\nof the brachial artery. It runs with the radial nerve in\nthe radial groove and ends by joining the elbow\nanastomosis through its descending branches.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967472",
+      "source_message_ids": [
+        "4294967472",
+        "4294967473",
+        "4294967474"
+      ],
+      "source_question_id": "Q36",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:33:33+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967474",
+          "exact_source_text": "Explanation – Question 36\n\nThe profunda brachii is the first and largest branch\nof the brachial artery. It runs with the radial nerve in\nthe radial groove and ends by joining the elbow\nanastomosis through its descending branches.",
+          "text": "The profunda brachii is the first and largest branch\nof the brachial artery. It runs with the radial nerve in\nthe radial groove and ends by joining the elbow\nanastomosis through its descending branches."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-037",
+      "stem": "During venepuncture of the median cubital vein, which structure protects the deeper brachial artery and median nerve?",
+      "options": [
+        "Biceps tendon",
+        "Medial intermuscular septum",
+        "Bicipital aponeurosis",
+        "Pronator teres",
+        "Brachioradialis"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The bicipital aponeurosis passes medially over the\nbrachial artery and median nerve, separating them\nfrom the median cubital vein on top. A needle\npushed too deep goes through it.\n10",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967475",
+      "source_message_ids": [
+        "4294967475",
+        "4294967476",
+        "4294967477",
+        "4294967478",
+        "4294967479"
+      ],
+      "source_question_id": "Q37",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:33:41+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967479",
+          "exact_source_text": "Explanation – Question 37\n\nThe bicipital aponeurosis passes medially over the\nbrachial artery and median nerve, separating them\nfrom the median cubital vein on top. A needle\npushed too deep goes through it.\n10",
+          "text": "The bicipital aponeurosis passes medially over the\nbrachial artery and median nerve, separating them\nfrom the median cubital vein on top. A needle\npushed too deep goes through it.\n10"
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": 37,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-038",
+      "stem": "Which statement about the palmar arches is correct?",
+      "options": [
+        "The superficial arch is formed mainly by the radial artery and lies at the proximal border of the extended thumb",
+        "The superficial arch is formed mainly by the ulnar artery (completed by the superficial palmar branch of the radial) and lies more distally; the deep arch is formed mainly by the radial artery (completed by the deep branch of the ulnar) and lies more proximally",
+        "Both arches are formed only by the ulnar artery",
+        "The deep arch lies superficial to the long flexor tendons",
+        "The common palmar digital arteries come from the deep arch"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The superficial arch (mainly ulnar) lies distally and\ngives the common palmar digital arteries. The deep\narch (mainly radial) lies proximally, at the level of the\nproximal border of the extended thumb, and gives\nthe palmar metacarpal arteries.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967480",
+      "source_message_ids": [
+        "4294967480",
+        "4294967481",
+        "4294967482"
+      ],
+      "source_question_id": "Q38",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:34:25+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967482",
+          "exact_source_text": "Explanation – Question 38\n\nThe superficial arch (mainly ulnar) lies distally and\ngives the common palmar digital arteries. The deep\narch (mainly radial) lies proximally, at the level of the\nproximal border of the extended thumb, and gives\nthe palmar metacarpal arteries.",
+          "text": "The superficial arch (mainly ulnar) lies distally and\ngives the common palmar digital arteries. The deep\narch (mainly radial) lies proximally, at the level of the\nproximal border of the extended thumb, and gives\nthe palmar metacarpal arteries."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-039",
+      "stem": "The radial pulse is easily felt in the distal forearm because there:",
+      "options": [
+        "The artery is under the flexor retinaculum",
+        "The artery lies on the interosseous membrane",
+        "The artery lies deep to flexor carpi radialis",
+        "The artery is covered only by skin and fascia, lateral to the flexor carpi radialis tendon, after leaving the cover of brachioradialis",
+        "The artery runs in the anatomical snuffbox"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "In the upper two-thirds of the forearm the radial\nartery is covered by brachioradialis. In the distal\nthird it is covered only by skin and fascia over the\nradius, so it is easy to feel. It then turns backward\nthrough the anatomical snuffbox.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967483",
+      "source_message_ids": [
+        "4294967483",
+        "4294967484",
+        "4294967485"
+      ],
+      "source_question_id": "Q39",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:34:29+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967485",
+          "exact_source_text": "Explanation – Question 39\n\nIn the upper two-thirds of the forearm the radial\nartery is covered by brachioradialis. In the distal\nthird it is covered only by skin and fascia over the\nradius, so it is easy to feel. It then turns backward\nthrough the anatomical snuffbox.",
+          "text": "In the upper two-thirds of the forearm the radial\nartery is covered by brachioradialis. In the distal\nthird it is covered only by skin and fascia over the\nradius, so it is easy to feel. It then turns backward\nthrough the anatomical snuffbox."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-040",
+      "stem": "After crossing the anatomical snuffbox, the radial artery passes between the two heads of which muscle to form the deep palmar arch?",
+      "options": [
+        "First dorsal interosseous",
+        "Abductor pollicis brevis",
+        "First palmar interosseous",
+        "Adductor pollicis",
+        "Opponens pollicis"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The radial artery winds deep to the abductor pollicis\nlongus and the extensor pollicis brevis and longus\ntendons in the snuffbox. It then passes between the\ntwo heads of the first dorsal interosseous into the\npalm to form the deep arch.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967486",
+      "source_message_ids": [
+        "4294967486",
+        "4294967487",
+        "4294967488"
+      ],
+      "source_question_id": "Q40",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:34:34+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967488",
+          "exact_source_text": "Explanation – Question 40\n\nThe radial artery winds deep to the abductor pollicis\nlongus and the extensor pollicis brevis and longus\ntendons in the snuffbox. It then passes between the\ntwo heads of the first dorsal interosseous into the\npalm to form the deep arch.",
+          "text": "The radial artery winds deep to the abductor pollicis\nlongus and the extensor pollicis brevis and longus\ntendons in the snuffbox. It then passes between the\ntwo heads of the first dorsal interosseous into the\npalm to form the deep arch."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-041",
+      "stem": "Which pairing of a lower-limb artery with its point of change is correct?",
+      "options": [
+        "Anterior tibial becomes dorsalis pedis at the lower border of popliteus",
+        "External iliac becomes femoral at the adductor hiatus",
+        "Popliteal divides at the upper border of popliteus",
+        "Posterior tibial becomes dorsalis pedis behind the medial malleolus",
+        "Femoral becomes popliteal at the adductor hiatus in adductor magnus"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The external iliac becomes femoral behind the\ninguinal ligament at the mid-inguinal point. The\nfemoral becomes popliteal at the adductor hiatus.\nThe popliteal divides at the LOWER border of\npopliteus into anterior and posterior tibial arteries.\nThe anterior tibial becomes dorsalis pedis in front of\nthe ankle; the posterior tibial divides into medial and\nlateral plantar arteries.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967489",
+      "source_message_ids": [
+        "4294967489",
+        "4294967490",
+        "4294967491"
+      ],
+      "source_question_id": "Q41",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:34:49+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967491",
+          "exact_source_text": "Explanation – Question 41\n\nThe external iliac becomes femoral behind the\ninguinal ligament at the mid-inguinal point. The\nfemoral becomes popliteal at the adductor hiatus.\nThe popliteal divides at the LOWER border of\npopliteus into anterior and posterior tibial arteries.\nThe anterior tibial becomes dorsalis pedis in front of\nthe ankle; the posterior tibial divides into medial and\nlateral plantar arteries.",
+          "text": "The external iliac becomes femoral behind the\ninguinal ligament at the mid-inguinal point. The\nfemoral becomes popliteal at the adductor hiatus.\nThe popliteal divides at the LOWER border of\npopliteus into anterior and posterior tibial arteries.\nThe anterior tibial becomes dorsalis pedis in front of\nthe ankle; the posterior tibial divides into medial and\nlateral plantar arteries."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-042",
+      "stem": "The femoral pulse is felt at the mid- inguinal point. This point lies:",
+      "options": [
+        "At the midpoint of the inguinal ligament, over the femoral nerve",
+        "2.5 cm lateral to the pubic tubercle",
+        "At the pubic tubercle",
+        "Midway between the anterior superior iliac spine and the pubic symphysis",
+        "Midway between the anterior superior iliac spine and the pubic tubercle"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The mid-inguinal point (ASIS to symphysis) marks\nthe femoral artery. The midpoint of the inguinal\nligament (ASIS to pubic tubercle) is slightly more\nlateral and marks the femoral nerve and the deep\nring level.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967492",
+      "source_message_ids": [
+        "4294967492",
+        "4294967493",
+        "4294967494"
+      ],
+      "source_question_id": "Q42",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:34:59+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967494",
+          "exact_source_text": "Explanation – Question 42\n\nThe mid-inguinal point (ASIS to symphysis) marks\nthe femoral artery. The midpoint of the inguinal\nligament (ASIS to pubic tubercle) is slightly more\nlateral and marks the femoral nerve and the deep\nring level.",
+          "text": "The mid-inguinal point (ASIS to symphysis) marks\nthe femoral artery. The midpoint of the inguinal\nligament (ASIS to pubic tubercle) is slightly more\nlateral and marks the femoral nerve and the deep\nring level."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-043",
+      "stem": "Which statement about the femoral artery in the thigh is correct?",
+      "options": [
+        "It passes through the obturator canal",
+        "In the femoral triangle it lies in the femoral sheath with the vein MEDIAL to it; in the adductor (subsartorial, Hunter's) canal it is covered by sartorius, with adductor longus and magnus behind",
+        "It lies in the femoral triangle outside the femoral sheath",
+        "The femoral vein stays medial to the artery throughout its course",
+        "The nerve lies inside the femoral sheath"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "In the triangle the artery is in the sheath with the\nvein medial and the femoral nerve lateral, outside\nthe sheath. The vein starts medial, passes behind\nthe artery in the canal, and ends lateral to it at the\nhiatus.\n11",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967495",
+      "source_message_ids": [
+        "4294967495",
+        "4294967496",
+        "4294967497"
+      ],
+      "source_question_id": "Q43",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:35:05+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967497",
+          "exact_source_text": "Explanation – Question 43\n\nIn the triangle the artery is in the sheath with the\nvein medial and the femoral nerve lateral, outside\nthe sheath. The vein starts medial, passes behind\nthe artery in the canal, and ends lateral to it at the\nhiatus.\n11",
+          "text": "In the triangle the artery is in the sheath with the\nvein medial and the femoral nerve lateral, outside\nthe sheath. The vein starts medial, passes behind\nthe artery in the canal, and ends lateral to it at the\nhiatus.\n11"
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-044",
+      "stem": "Which statement about the branches of the femoral artery is correct?",
+      "options": [
+        "It gives the inferior epigastric artery",
+        "The medial and lateral circumflex femoral arteries always arise directly from the femoral",
+        "It gives the obturator artery in all people",
+        "The profunda femoris arises from the medial side about 10 cm below the inguinal ligament",
+        "Three superficial branches (superficial epigastric, superficial circumflex iliac, superficial external pudendal), plus deep external pudendal, profunda femoris and descending genicular"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "Its six branches are three superficial ones, the deep\nexternal pudendal, the profunda femoris and the\ndescending genicular. The profunda arises laterally\nabout 4 cm below the ligament, runs deep to the\nfemoral vessels, and gives the circumflex femoral\nand perforating arteries.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967498",
+      "source_message_ids": [
+        "4294967498",
+        "4294967499",
+        "4294967500"
+      ],
+      "source_question_id": "Q44",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:35:10+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967500",
+          "exact_source_text": "Explanation – Question 44\n\nIts six branches are three superficial ones, the deep\nexternal pudendal, the profunda femoris and the\ndescending genicular. The profunda arises laterally\nabout 4 cm below the ligament, runs deep to the\nfemoral vessels, and gives the circumflex femoral\nand perforating arteries.",
+          "text": "Its six branches are three superficial ones, the deep\nexternal pudendal, the profunda femoris and the\ndescending genicular. The profunda arises laterally\nabout 4 cm below the ligament, runs deep to the\nfemoral vessels, and gives the circumflex femoral\nand perforating arteries."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-045",
+      "stem": "Clinically, 'common femoral', 'superficial femoral' and 'deep femoral' arteries are described. Which statement is correct?",
+      "options": [
+        "These names refer to veins only",
+        "The 'superficial femoral' is the profunda femoris",
+        "The 'common femoral' is the first ~4 cm of the femoral artery, before the profunda arises",
+        "The common femoral is a branch of the internal iliac",
+        "The 'deep femoral' is the popliteal artery"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "In vascular reports the femoral artery above the\nprofunda origin is the common femoral. Below it, the\nmain trunk is the superficial femoral, and the\nprofunda is the deep femoral.\n12",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967501",
+      "source_message_ids": [
+        "4294967501",
+        "4294967502",
+        "4294967503"
+      ],
+      "source_question_id": "Q45",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:35:18+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967503",
+          "exact_source_text": "Explanation – Question 45\n\nIn vascular reports the femoral artery above the\nprofunda origin is the common femoral. Below it, the\nmain trunk is the superficial femoral, and the\nprofunda is the deep femoral.\n12",
+          "text": "In vascular reports the femoral artery above the\nprofunda origin is the common femoral. Below it, the\nmain trunk is the superficial femoral, and the\nprofunda is the deep femoral.\n12"
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-046",
+      "stem": "A 75-year-old woman has a displaced intracapsular fracture of the femoral neck. Avascular necrosis of the head is likely because:",
+      "options": [
+        "In adults the head depends mainly on retinacular branches of the medial and lateral circumflex femoral arteries, which run along the neck and are torn; the obturator artery's branch in the ligamentum teres becomes negligible with age",
+        "The descending genicular supplies the head",
+        "The artery of the ligamentum teres is the main supply in adults",
+        "The superior gluteal artery supplies the head directly",
+        "The profunda femoris enters the head"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The obturator artery (anterior division of the internal\niliac) gives the artery of the ligamentum teres. It\nmatters in children but becomes small or fibrosed\nwith age. The retinacular branches from the\ncircumflex femoral arteries, running along the neck,\nbecome the main supply.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967504",
+      "source_message_ids": [
+        "4294967504",
+        "4294967505",
+        "4294967506"
+      ],
+      "source_question_id": "Q46",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:35:22+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967506",
+          "exact_source_text": "Question 46\n\nThe obturator artery (anterior division of the internal\niliac) gives the artery of the ligamentum teres. It\nmatters in children but becomes small or fibrosed\nwith age. The retinacular branches from the\ncircumflex femoral arteries, running along the neck,\nbecome the main supply.",
+          "text": "The obturator artery (anterior division of the internal\niliac) gives the artery of the ligamentum teres. It\nmatters in children but becomes small or fibrosed\nwith age. The retinacular branches from the\ncircumflex femoral arteries, running along the neck,\nbecome the main supply."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-047",
+      "stem": "The cruciate anastomosis on the back of the thigh is formed by:",
+      "options": [
+        "Inferior gluteal, medial and lateral circumflex femoral, and first perforating arteries",
+        "Superior gluteal, obturator, popliteal and descending genicular",
+        "Inferior epigastric, deep circumflex iliac, obturator and femoral",
+        "Anterior tibial recurrent, genicular and circumflex fibular",
+        "Superior gluteal and both circumflex femoral arteries only"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The inferior gluteal (above), the medial and lateral\ncircumflex femoral (sides) and the first perforating\nartery of the profunda (below) form the cross-shaped\nanastomosis. It links the internal iliac and femoral\nsystems. The trochanteric anastomosis also includes\nthe superior gluteal.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967507",
+      "source_message_ids": [
+        "4294967507",
+        "4294967508",
+        "4294967509"
+      ],
+      "source_question_id": "Q47",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:35:26+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967509",
+          "exact_source_text": "Question 47\n\nThe inferior gluteal (above), the medial and lateral\ncircumflex femoral (sides) and the first perforating\nartery of the profunda (below) form the cross-shaped\nanastomosis. It links the internal iliac and femoral\nsystems. The trochanteric anastomosis also includes\nthe superior gluteal.",
+          "text": "The inferior gluteal (above), the medial and lateral\ncircumflex femoral (sides) and the first perforating\nartery of the profunda (below) form the cross-shaped\nanastomosis. It links the internal iliac and femoral\nsystems. The trochanteric anastomosis also includes\nthe superior gluteal."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-048",
+      "stem": "In the popliteal fossa, which arrangement from superficial to deep is correct?",
+      "options": [
+        "Tibial nerve, popliteal vein, popliteal artery (deepest, on the joint capsule and bone)",
+        "Popliteal vein, artery, nerve",
+        "Artery, vein, tibial nerve",
+        "Common fibular nerve, artery, vein",
+        "Artery, nerve, vein"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "Most superficial is the tibial nerve, then the popliteal\nvein, with the artery deepest against the femur, the\nknee capsule and popliteus. This is why\nsupracondylar femoral fractures can injure the\npopliteal artery.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967510",
+      "source_message_ids": [
+        "4294967510",
+        "4294967511",
+        "4294967512"
+      ],
+      "source_question_id": "Q48",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:35:30+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967512",
+          "exact_source_text": "Question 48\n\nMost superficial is the tibial nerve, then the popliteal\nvein, with the artery deepest against the femur, the\nknee capsule and popliteus. This is why\nsupracondylar femoral fractures can injure the\npopliteal artery.",
+          "text": "Most superficial is the tibial nerve, then the popliteal\nvein, with the artery deepest against the femur, the\nknee capsule and popliteus. This is why\nsupracondylar femoral fractures can injure the\npopliteal artery."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-049",
+      "stem": "Which statement about the popliteal artery is correct?",
+      "options": [
+        "It gives three genicular branches",
+        "It ends at the upper border of popliteus",
+        "It gives the profunda femoris",
+        "It ends as the dorsalis pedis",
+        "It gives five genicular arteries (superior medial and lateral, inferior medial and lateral, middle), which join the knee anastomosis with the descending genicular, the descending branch of the lateral circumflex femoral and tibial recurrent branches"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The popliteal artery gives muscular branches and\nfive genicular arteries. The superior and inferior\npairs and the middle genicular share in the rich\nanastomosis around the knee, which keeps the leg\nalive when the main trunk is slowly blocked.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967513",
+      "source_message_ids": [
+        "4294967513",
+        "4294967514",
+        "4294967515"
+      ],
+      "source_question_id": "Q49",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:36:04+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967515",
+          "exact_source_text": "Question 49\n\nThe popliteal artery gives muscular branches and\nfive genicular arteries. The superior and inferior\npairs and the middle genicular share in the rich\nanastomosis around the knee, which keeps the leg\nalive when the main trunk is slowly blocked.",
+          "text": "The popliteal artery gives muscular branches and\nfive genicular arteries. The superior and inferior\npairs and the middle genicular share in the rich\nanastomosis around the knee, which keeps the leg\nalive when the main trunk is slowly blocked."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-050",
+      "stem": "A diabetic patient's dorsalis pedis pulse is felt on the dorsum of the foot. The dorsalis pedis artery is the continuation of:",
+      "options": [
+        "The popliteal artery directly",
+        "The anterior tibial artery after it passes in front of the ankle joint",
+        "The posterior tibial artery after the flexor retinaculum",
+        "The fibular (peroneal) artery",
+        "The lateral plantar artery"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The anterior tibial artery passes into the front of the\nleg above the interosseous membrane. It crosses in\nfront of the ankle and becomes the dorsalis pedis.\nThe posterior tibial passes behind the medial\nmalleolus and divides into the medial and lateral\nplantar arteries.\n13",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967516",
+      "source_message_ids": [
+        "4294967516",
+        "4294967517",
+        "4294967518"
+      ],
+      "source_question_id": "Q50",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:36:09+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967518",
+          "exact_source_text": "Question 50\n\nThe anterior tibial artery passes into the front of the\nleg above the interosseous membrane. It crosses in\nfront of the ankle and becomes the dorsalis pedis.\nThe posterior tibial passes behind the medial\nmalleolus and divides into the medial and lateral\nplantar arteries.\n13",
+          "text": "The anterior tibial artery passes into the front of the\nleg above the interosseous membrane. It crosses in\nfront of the ankle and becomes the dorsalis pedis.\nThe posterior tibial passes behind the medial\nmalleolus and divides into the medial and lateral\nplantar arteries.\n13"
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-051",
+      "stem": "Which of the following is NOT a surface marking for the fundus of the gallbladder?",
+      "options": [
+        "Where the linea semilunaris meets the right costal margin",
+        "The level of the umbilicus in the right midclavicular line",
+        "The transpyloric plane (L1)",
+        "The tip of the 9th costal cartilage",
+        "Where the right midclavicular line meets the costal margin"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The fundus lies at the tip of the right 9th costal\ncartilage. This is where the linea semilunaris and the\nmidclavicular line meet the costal margin, on the\ntranspyloric plane (L1). The umbilicus (L3/4, T10\ndermatome) is much lower.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967519",
+      "source_message_ids": [
+        "4294967519",
+        "4294967520",
+        "4294967521"
+      ],
+      "source_question_id": "Q51",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:36:15+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967521",
+          "exact_source_text": "Question 51\n\nThe fundus lies at the tip of the right 9th costal\ncartilage. This is where the linea semilunaris and the\nmidclavicular line meet the costal margin, on the\ntranspyloric plane (L1). The umbilicus (L3/4, T10\ndermatome) is much lower.",
+          "text": "The fundus lies at the tip of the right 9th costal\ncartilage. This is where the linea semilunaris and the\nmidclavicular line meet the costal margin, on the\ntranspyloric plane (L1). The umbilicus (L3/4, T10\ndermatome) is much lower."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-052",
+      "stem": "Early appendicitis causes poorly localised pain around the umbilicus. Which explanation is correct?",
+      "options": [
+        "The appendix is supplied by somatic fibres of T12",
+        "Visceral afferents from the appendix enter the cord at T10, the same segment that supplies the skin of the umbilicus",
+        "The ilioinguinal nerve supplies both the appendix and the umbilicus",
+        "The subcostal nerve supplies the parietal peritoneum at the umbilicus",
+        "Lymph from the appendix drains to umbilical nodes"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "Visceral pain fibres from the appendix (a midgut\nderivative, which also herniated through the\numbilicus in weeks 6–10) enter the cord at T10. The\nbrain refers this pain to the T10 dermatome, the\numbilicus. Pain moves to the right iliac fossa only\nwhen the parietal peritoneum becomes inflamed.\n14",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967522",
+      "source_message_ids": [
+        "4294967522",
+        "4294967523",
+        "4294967524"
+      ],
+      "source_question_id": "Q52",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:36:21+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967524",
+          "exact_source_text": "Question 52\n\nVisceral pain fibres from the appendix (a midgut\nderivative, which also herniated through the\numbilicus in weeks 6–10) enter the cord at T10. The\nbrain refers this pain to the T10 dermatome, the\numbilicus. Pain moves to the right iliac fossa only\nwhen the parietal peritoneum becomes inflamed.\n14",
+          "text": "Visceral pain fibres from the appendix (a midgut\nderivative, which also herniated through the\numbilicus in weeks 6–10) enter the cord at T10. The\nbrain refers this pain to the T10 dermatome, the\numbilicus. Pain moves to the right iliac fossa only\nwhen the parietal peritoneum becomes inflamed.\n14"
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-053",
+      "stem": "After a straddle injury rupturing the bulbar urethra, extravasated urine spreads into the scrotum, penis and anterior abdominal wall but NOT into the thigh. Why?",
+      "options": [
+        "The dartos muscle blocks lateral spread",
+        "Colles' fascia is attached to the ischial spine",
+        "Scarpa's fascia fuses with the fascia lata about a finger-breadth below the inguinal ligament",
+        "Camper's fascia fuses with the inguinal ligament",
+        "The external oblique aponeurosis is attached to the pubic tubercle"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The membranous layer (Scarpa's) continues as\nColles' fascia in the perineum and around the\nscrotum and penis. It fuses with the fascia lata just\nbelow the inguinal ligament, so urine in this plane\ncannot pass down into the thigh.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967525",
+      "source_message_ids": [
+        "4294967525",
+        "4294967526",
+        "4294967527"
+      ],
+      "source_question_id": "Q53",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:58:55+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967527",
+          "exact_source_text": "Explanation - Question 53\n\nThe membranous layer (Scarpa's) continues as\nColles' fascia in the perineum and around the\nscrotum and penis. It fuses with the fascia lata just\nbelow the inguinal ligament, so urine in this plane\ncannot pass down into the thigh.",
+          "text": "The membranous layer (Scarpa's) continues as\nColles' fascia in the perineum and around the\nscrotum and penis. It fuses with the fascia lata just\nbelow the inguinal ligament, so urine in this plane\ncannot pass down into the thigh."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-054",
+      "stem": "Match each covering of the spermatic cord to the layer it comes from. Which pairing is correct?",
+      "options": [
+        "Cremaster muscle and fascia – internal oblique",
+        "Dartos – extraperitoneal fat",
+        "External spermatic fascia – transversalis fascia",
+        "Tunica vaginalis – transversus abdominis",
+        "Internal spermatic fascia – external oblique aponeurosis"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "Internal spermatic fascia comes from transversalis\nfascia (at the deep ring). Cremaster comes from\ninternal oblique. External spermatic fascia comes\nfrom the external oblique aponeurosis (at the\nsuperficial ring). The tunica vaginalis is the closed\nprocessus vaginalis (peritoneum).",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967528",
+      "source_message_ids": [
+        "4294967528",
+        "4294967529",
+        "4294967530"
+      ],
+      "source_question_id": "Q54",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:59:04+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967530",
+          "exact_source_text": "Explanation - Question 54\n\nInternal spermatic fascia comes from transversalis\nfascia (at the deep ring). Cremaster comes from\ninternal oblique. External spermatic fascia comes\nfrom the external oblique aponeurosis (at the\nsuperficial ring). The tunica vaginalis is the closed\nprocessus vaginalis (peritoneum).",
+          "text": "Internal spermatic fascia comes from transversalis\nfascia (at the deep ring). Cremaster comes from\ninternal oblique. External spermatic fascia comes\nfrom the external oblique aponeurosis (at the\nsuperficial ring). The tunica vaginalis is the closed\nprocessus vaginalis (peritoneum)."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-055",
+      "stem": "During open inguinal hernia repair the surgeon looks for the deep inguinal ring. Which description is correct?",
+      "options": [
+        "A gap in internal oblique at the midpoint of the inguinal ligament",
+        "An opening in the conjoint tendon at the pubic crest",
+        "An opening in the external oblique aponeurosis above and medial to the pubic tubercle",
+        "An opening in transversalis fascia about 1.25 cm (½ in) above the mid-inguinal point, just lateral to the inferior epigastric artery",
+        "An opening in transversalis fascia medial to the inferior epigastric artery"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The deep ring is an opening in transversalis fascia ½\nin above the mid-inguinal point, lateral to the inferior\nepigastric vessels. The superficial ring is in the\nexternal oblique aponeurosis, above and medial to\nthe pubic tubercle.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967531",
+      "source_message_ids": [
+        "4294967531",
+        "4294967532",
+        "4294967533"
+      ],
+      "source_question_id": "Q55",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:59:13+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967533",
+          "exact_source_text": "Explanation - Question 55\n\nThe deep ring is an opening in transversalis fascia ½\nin above the mid-inguinal point, lateral to the inferior\nepigastric vessels. The superficial ring is in the\nexternal oblique aponeurosis, above and medial to\nthe pubic tubercle.",
+          "text": "The deep ring is an opening in transversalis fascia ½\nin above the mid-inguinal point, lateral to the inferior\nepigastric vessels. The superficial ring is in the\nexternal oblique aponeurosis, above and medial to\nthe pubic tubercle."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-056",
+      "stem": "Several months after an open inguinal hernia repair, a man has numbness of the anterior scrotum and upper medial thigh. A bulge at the repair site gets worse. Which nerve was most likely injured?",
+      "options": [
+        "Ilioinguinal nerve",
+        "Obturator nerve",
+        "Lateral cutaneous nerve of thigh",
+        "Iliohypogastric nerve",
+        "Genital branch of genitofemoral nerve"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "The ilioinguinal nerve enters the canal between the\nmuscle layers (not through the deep ring) and leaves\nthrough the superficial ring. It supplies the anterior\nscrotum and upper medial thigh, and also the lower\nfibres of internal oblique and transversus. Losing\nthat motor supply weakens the shutter mechanism\nand the wall.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967534",
+      "source_message_ids": [
+        "4294967534",
+        "4294967535",
+        "4294967536"
+      ],
+      "source_question_id": "Q56",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:59:18+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967536",
+          "exact_source_text": "Explanation - Question 56\n\nThe ilioinguinal nerve enters the canal between the\nmuscle layers (not through the deep ring) and leaves\nthrough the superficial ring. It supplies the anterior\nscrotum and upper medial thigh, and also the lower\nfibres of internal oblique and transversus. Losing\nthat motor supply weakens the shutter mechanism\nand the wall.",
+          "text": "The ilioinguinal nerve enters the canal between the\nmuscle layers (not through the deep ring) and leaves\nthrough the superficial ring. It supplies the anterior\nscrotum and upper medial thigh, and also the lower\nfibres of internal oblique and transversus. Losing\nthat motor supply weakens the shutter mechanism\nand the wall."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-057",
+      "stem": "On laparoscopy, a hernial defect lies medial to the inferior epigastric vessels, lateral to the rectus abdominis and above the inguinal ligament. This hernia:",
+      "options": [
+        "Is a femoral hernia",
+        "Passes through the deep inguinal ring inside the cord",
+        "Is a Spigelian hernia through the linea semilunaris",
+        "Is a direct hernia through Hesselbach's triangle",
+        "Is an obturator hernia"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "Hesselbach's (inguinal) triangle has three borders:\nthe inferior epigastric vessels laterally, the lateral\nborder of rectus medially, and the inguinal ligament\nbelow. A defect here is a direct hernia. A defect\nlateral to the vessels, at the deep ring, is indirect.",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967537",
+      "source_message_ids": [
+        "4294967537",
+        "4294967538",
+        "4294967539"
+      ],
+      "source_question_id": "Q57",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:59:23+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967539",
+          "exact_source_text": "Explanation - Question 57\n\nHesselbach's (inguinal) triangle has three borders:\nthe inferior epigastric vessels laterally, the lateral\nborder of rectus medially, and the inguinal ligament\nbelow. A defect here is a direct hernia. A defect\nlateral to the vessels, at the deep ring, is indirect.",
+          "text": "Hesselbach's (inguinal) triangle has three borders:\nthe inferior epigastric vessels laterally, the lateral\nborder of rectus medially, and the inguinal ligament\nbelow. A defect here is a direct hernia. A defect\nlateral to the vessels, at the deep ring, is indirect."
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-058",
+      "stem": "While suturing near the lacunar ligament to narrow the femoral ring, a surgeon causes brisk bleeding. The vessel most likely injured joins:",
+      "options": [
+        "The femoral and profunda femoris arteries",
+        "The deep circumflex iliac and superficial epigastric arteries",
+        "The pubic branch of the inferior epigastric artery and the obturator artery (accessory / abnormal obturator)",
+        "The superior and inferior epigastric arteries",
+        "The testicular artery and the artery to the vas"
+      ],
+      "correctOptionIndex": null,
+      "explanation": "In about 30% of people, the pubic branch of the\ninferior epigastric artery joins the obturator artery\n(an 'accessory obturator', corona mortis). It runs over\nthe free edge of the lacunar ligament and can be cut\nduring femoral hernia repair.\n15",
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967540",
+      "source_message_ids": [
+        "4294967540",
+        "4294967541",
+        "4294967542"
+      ],
+      "source_question_id": "Q58",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:59:27+00:00",
+      "source_answer": null,
+      "source_explanations": [
+        {
+          "source_message_id": "4294967542",
+          "exact_source_text": "Explanation - Question 58\n\nIn about 30% of people, the pubic branch of the\ninferior epigastric artery joins the obturator artery\n(an 'accessory obturator', corona mortis). It runs over\nthe free edge of the lacunar ligament and can be cut\nduring femoral hernia repair.\n15",
+          "text": "In about 30% of people, the pubic branch of the\ninferior epigastric artery joins the obturator artery\n(an 'accessory obturator', corona mortis). It runs over\nthe free edge of the lacunar ligament and can be cut\nduring femoral hernia repair.\n15"
+        }
+      ],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
+    },
+    {
+      "id": "telegram-gs3-mcq-059",
+      "stem": "Femoral hernias strangulate more often than inguinal hernias mainly because:",
+      "options": [
+        "They pass down through a narrow, rigid femoral ring, then forward through the saphenous opening, then upward, making a tight angled course",
+        "They pass through the deep inguinal ring",
+        "They lie lateral to the femoral vein",
+        "They always contain the bladder",
+        "They are always congenital"
+      ],
+      "correctOptionIndex": null,
+      "explanation": null,
+      "section": "Telegram review — source pending",
+      "source": "Diploma GS الدفعة الثالثة 6-2026",
+      "sourceUrl": "",
+      "topic": "MCQs",
+      "difficulty": null,
+      "sourceDifficulty": null,
+      "difficultyMethod": null,
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
+      "eligibleForExam": false,
+      "origin": "telegram-export",
+      "sourceFile": "telegram_project_report.md + group2_questions.json",
+      "day": null,
+      "origins": [
+        "telegram-export"
+      ],
+      "sourceFiles": [
+        "group2_questions.json"
+      ],
+      "source_group": "Diploma GS الدفعة الثالثة 6-2026",
+      "source_topic": "MCQs",
+      "source_message_id": "4294967543",
+      "source_message_ids": [
+        "4294967543",
+        "4294967544"
+      ],
+      "source_question_id": "Q59",
+      "source_date": "2026-11-16",
+      "source_timestamp_utc": "2026-11-16T15:59:31+00:00",
+      "source_answer": null,
+      "source_explanations": [],
+      "missing_parts": [
+        "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة.",
+        "لم يُلتقط شرح لهذا السؤال ضمن نطاق الاستخراج.",
+        "No source explanation was captured."
+      ],
+      "duplicate_question_number": null,
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     }
-  ]
+  ],
+  "telegramApproval": {
+    "status": "approved-source-awaiting-answer-key",
+    "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+    "approvedAt": "2026-11-16",
+    "learnerRelease": "blocked-until-answer-key"
+  }
 }

@@ -1,0 +1,264 @@
+{
+  "metadata": {
+    "group_title": "دبلومة الجراحة العامة",
+    "peer_id": "-4428422062",
+    "member_count_visible": 38,
+    "inspection_date": "2026-11-16",
+    "visible_message_count_with_data_mid": 35,
+    "visible_date_range": {
+      "from": "2026-10-05",
+      "to": "2026-11-14"
+    },
+    "method": "قراءة Telegram Web وDOM المحمّل داخل المجموعة المحددة فقط؛ لم تُقرأ الشرائح ولم تُستخدم مصادر ويب خارجية.",
+    "direct_message_url_status": "لم يظهر رابط رسالة خاص موثوق في DOM؛ حُفظ معرّف المصدر فقط ولم تُختلق روابط روابط Telegram العامة.",
+    "source_message_id_note": "المعرفات هي data-mid الظاهرة في DOM، وليست معرفات أعضاء أو حسابات."
+  },
+  "exam": {
+    "type": "midterm",
+    "announcement_date": "2026-10-13",
+    "announcement_time_visible": "18:46:08",
+    "source_message_id": "4294967457",
+    "pinned_reference_message_id": "4294967466",
+    "date": "2026-11-21",
+    "time": "09:00",
+    "time_zone": null,
+    "location": "مركز تنمية القوى العاملة الطبية",
+    "format": "MCQ",
+    "question_count": 80,
+    "basic_surgical_sciences": [
+      "Pathology",
+      "anatomy",
+      "pharmacology",
+      "Microbiology",
+      "immunology"
+    ],
+    "principles_of_surgery": [
+      "fluids & electrolytes",
+      "shock",
+      "hemorrhage",
+      "blood and blood products",
+      "wound healing",
+      "sterilisation and disinfection",
+      "medical ethics",
+      "consent",
+      "breaking bad news",
+      "metabolic response to surgery and trauma",
+      "nutritional support in surgical patients",
+      "principles of Surgical oncology",
+      "surgical infections I",
+      "surgical infections II",
+      "septic shock",
+      "venous thromoembolism",
+      "acid base disturbances"
+    ],
+    "topics_announced_as_coming_later": [
+      "Venous thromboembolism",
+      "acid base disturbances"
+    ],
+    "medical_validation": "لم يُدقق المحتوى أو الإجابات خارجيًا؛ هذه نقلة أمينة لنص المجموعة."
+  },
+  "teaching_requirements": [
+    {
+      "requirement": "إعداد موضوع للعرض لمدة عشرة دقائق على أن يكون الموضوع حالة سريرية حقيقية (Case presentation of a real case)",
+      "date": "2026-10-30",
+      "time": "17:00:54",
+      "source_message_id": "4294967484",
+      "deadline": null,
+      "format_or_template": null,
+      "selection_or_assessment_rules": null
+    }
+  ],
+  "files": [
+    {
+      "exact_name": "hemorrhoids.pptx",
+      "date": "2026-10-05",
+      "time": "14:11:13",
+      "topic": "Hemorrhoids / البواسير",
+      "source_message_id": "4294967452",
+      "original_time_visible": "14:08:35"
+    },
+    {
+      "exact_name": "None neoplastic disease of the large bowel.pptx",
+      "date": "2026-10-05",
+      "time": "14:11:13",
+      "topic": "Non-neoplastic disease of the large bowel / أمراض غير ورمية في الأمعاء الغليظة",
+      "source_message_id": "4294967452",
+      "original_time_visible": "14:08:35"
+    },
+    {
+      "exact_name": "immunology NO .4.26.pptx",
+      "date": "2026-10-05",
+      "time": "14:11:45",
+      "topic": "Immunology / علم المناعة",
+      "source_message_id": "4294967455",
+      "original_time_visible": "14:09:14"
+    },
+    {
+      "exact_name": "PERI ANAL FISTULA.pptx",
+      "date": "2026-10-15",
+      "time": "20:34:10",
+      "topic": "Perianal fistula / الناسور حول الشرج",
+      "source_message_id": "4294967459"
+    },
+    {
+      "exact_name": "ANAL FISSURE PERIANAL ABSCESS AND PILO BIDAL SINUS.pptx",
+      "date": "2026-10-15",
+      "time": "20:34:12",
+      "topic": "Anal fissure, perianal abscess, pilonidal sinus / الشق والخراج حول الشرج والجيب الشعري",
+      "source_message_id": "4294967460"
+    },
+    {
+      "exact_name": "Upper gastrointestinal bleeding.pptx",
+      "date": "2026-10-17",
+      "time": "12:56:42",
+      "topic": "Upper gastrointestinal bleeding / نزف الجهاز الهضمي العلوي",
+      "source_message_id": "4294967463"
+    },
+    {
+      "exact_name": "LOWER GI BLEEDING.pptx",
+      "date": "2026-10-17",
+      "time": "12:56:48",
+      "topic": "Lower gastrointestinal bleeding / نزف الجهاز الهضمي السفلي",
+      "source_message_id": "4294967464"
+    },
+    {
+      "exact_name": "Thyroid gland I ..pptx",
+      "date": "2026-10-25",
+      "time": "08:46:24",
+      "topic": "Thyroid gland part I / الغدة الدرقية الجزء الأول",
+      "source_message_id": "4294967471",
+      "original_time_visible": "08:43:07"
+    },
+    {
+      "exact_name": "thyroid gland goiter. II.pptx",
+      "date": "2026-10-25",
+      "time": "08:46:24",
+      "topic": "Thyroid goiter part II / تضخم الغدة الدرقية الجزء الثاني",
+      "source_message_id": "4294967471",
+      "original_time_visible": "08:43:07"
+    },
+    {
+      "exact_name": "T0xic thyroid gland III.pptx",
+      "date": "2026-10-25",
+      "time": "08:46:24",
+      "topic": "Toxic thyroid gland part III / الغدة الدرقية السامة الجزء الثالث",
+      "source_message_id": "4294967471",
+      "original_time_visible": "08:43:07"
+    },
+    {
+      "exact_name": "polyp.pptx",
+      "date": "2026-10-25",
+      "time": "08:46:24",
+      "topic": "Polyp / سليلة؛ العضو غير محدد من الاسم",
+      "source_message_id": "4294967471",
+      "original_time_visible": "08:43:07"
+    },
+    {
+      "exact_name": "IBD.pptx",
+      "date": "2026-10-25",
+      "time": "08:46:24",
+      "topic": "Inflammatory bowel disease / أمراض الأمعاء الالتهابية",
+      "source_message_id": "4294967471",
+      "original_time_visible": "08:43:07"
+    },
+    {
+      "exact_name": "benign stomach disease , diploma GS.pptx",
+      "date": "2026-10-25",
+      "time": "08:46:24",
+      "topic": "Benign stomach disease / أمراض المعدة الحميدة",
+      "source_message_id": "4294967471",
+      "original_time_visible": "08:43:07"
+    },
+    {
+      "exact_name": "SBO , 5th year.pptx",
+      "date": "2026-10-25",
+      "time": "08:46:24",
+      "topic": "Small bowel obstruction / انسداد الأمعاء الدقيقة",
+      "source_message_id": "4294967471",
+      "original_time_visible": "08:43:07"
+    },
+    {
+      "exact_name": "VENOUS THROMBO EMBOLISM.pptx",
+      "date": "2026-10-27",
+      "time": "08:12:54",
+      "topic": "Venous thromboembolism / الخثار أو الانصمام الوريدي",
+      "source_message_id": "4294967478"
+    },
+    {
+      "exact_name": "peritonitis and intraperitoneal sepsis.pptx",
+      "date": "2026-10-30",
+      "time": "08:27:22",
+      "topic": "Peritonitis and intraperitoneal sepsis / التهاب الصفاق والإنتان داخل الصفاق",
+      "source_message_id": "4294967481"
+    },
+    {
+      "exact_name": "Para_thyroid_desease_hyper_and_hypo_calcaemia_in_surgical_patients.ppt",
+      "date": "2026-10-30",
+      "time": "08:28:10",
+      "topic": "Parathyroid disease and hyper/hypocalcaemia in surgical patients / أمراض جارات الدرق واضطراب الكالسيوم",
+      "source_message_id": "4294967482"
+    },
+    {
+      "exact_name": "ABDOMINAL WALL HERNIAS.pptx",
+      "date": "2026-10-30",
+      "time": "08:29:20",
+      "topic": "Abdominal wall hernias / فتوق جدار البطن",
+      "source_message_id": "4294967483"
+    },
+    {
+      "exact_name": "Damage Control in Poly Trauma Patients.ppt",
+      "date": "2026-11-07",
+      "time": "08:30:52",
+      "topic": "Damage control in polytrauma patients / تدبير الضرر في الإصابات المتعددة",
+      "source_message_id": "4294967486"
+    },
+    {
+      "exact_name": "ABOMINAL TRAUMA.pptx",
+      "date": "2026-11-07",
+      "time": "08:31:26",
+      "topic": "Abdominal trauma / رضوض البطن",
+      "source_message_id": "4294967487"
+    },
+    {
+      "exact_name": "NECK INJURIES& CHEST INJURIES.pdf",
+      "date": "2026-11-08",
+      "time": "16:40:13",
+      "topic": "Neck and chest injuries / إصابات العنق والصدر",
+      "source_message_id": "4294967488",
+      "original_time_visible": "2026-11-07 11:37:52"
+    },
+    {
+      "exact_name": "Preoperative_Assessment_and_Optimisation_of_Surgical_Patients.pptx",
+      "date": "2026-11-08",
+      "time": "16:48:28",
+      "topic": "Preoperative assessment and optimisation / التقييم والتحسين قبل الجراحة",
+      "source_message_id": "4294967489",
+      "original_time_visible": "16:45:09"
+    },
+    {
+      "exact_name": "ACUTE PAIN MANAGEMENT IN SURGICAL PATIENTS.pptx",
+      "date": "2026-11-08",
+      "time": "16:48:28",
+      "topic": "Acute pain management in surgical patients / تدبير الألم الحاد",
+      "source_message_id": "4294967489",
+      "original_time_visible": "16:45:09"
+    }
+  ],
+  "gaps": [
+    "لم يظهر بنك MCQ أو أسئلة تدريبية أو مفتاح إجابة في الرسائل المحمّلة.",
+    "لا توجد خريطة رسمية تربط كل ملف بمحور الامتحان أو بعدد الأسئلة.",
+    "لا يظهر ملف acid base مستقل في النطاق المرئي، رغم ذكر المحور في إعلان الامتحان.",
+    "لم يظهر موعد أو قالب أو معايير تقييم أو اختيار لمتطلب case presentation.",
+    "لم يظهر توزيع الأسئلة، مدة الامتحان، درجة النجاح، أو تعليمات الحضور التفصيلية.",
+    "لم تُثبت محتويات الشرائح أو مطابقتها للمحاور؛ التصنيفات مبنية على أسماء الملفات.",
+    "المحاور الأساسية Pathology وanatomy وpharmacology وMicrobiology لا يظهر لكل منها ملف مستقل واضح في التغطية الحالية، باستثناء ملف immunology ذي الاسم المطابق لمحور معلن."
+  ],
+  "coverage_limits": [
+    "التغطية الفعلية المرئية في DOM: 2026-10-05 إلى 2026-11-14، لا كامل أرشيف المجموعة.",
+    "35 رسالة ذات data-mid ظاهرًا في لحظة الاستخراج؛ قد توجد رسائل غير محمّلة أو غير ظاهرة.",
+    "لم تُفتح الشرائح ولم تُنزّل كل الملفات.",
+    "لم تُفحص أي مجموعة أو محادثة أخرى.",
+    "لم تُنشأ روابط عامة روابط Telegram العامة أو روابط رسائل غير ظاهرة؛ كل عنصر يحمل معرّف المصدر فقط مع source_message_id.",
+    "لا توجد مصادقة طبية خارجية على نص الإعلان أو أسماء المحاور."
+  ]
+}

@@ -15,7 +15,7 @@ function loadAuthProfile(): AuthProfile | null { try { return JSON.parse(localSt
 async function authRequest(path: string, body?: Record<string, unknown>, token?: string) { const headers: Record<string,string> = { apikey: supabaseConfig.key, 'Content-Type': 'application/json' }; if (token) headers.Authorization = `Bearer ${token}`; const response = await fetch(`${supabaseConfig.url}/auth/v1/${path}`, { method: 'POST', headers, body: body ? JSON.stringify(body) : undefined }); const data = await response.json().catch(() => ({})); if (!response.ok) throw new Error(data.msg || data.error_description || data.message || 'Authentication request failed.'); return data; }
 
 const base = window.location.pathname.startsWith('/general-surgery-diploma-review') ? '/general-surgery-diploma-review/' : '/';
-const externalLinks = { revision: `${base}daily-go-test/`, mcq640: 'https://gsexam-zv2uu94a.manus.space' };
+const externalLinks = { revision: 'https://day1quiz-hg9nk850.manus.space/', mcq640: 'https://gsexam-zv2uu94a.manus.space' };
 const storageKey = 'gsdiploma.preview-progress.v1';
 const navItems: Array<{ id: Page; label: string; icon: IconName }> = [
   { id: 'home', label: 'Home', icon: 'home' }, { id: 'revision', label: 'Revision Path', icon: 'calendar' },

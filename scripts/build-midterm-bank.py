@@ -1,139 +1,111 @@
 #!/usr/bin/env python3
-"""Build the 80-item midterm bank from existing GitHub question assets only."""
+"""Build the 40-question midterm from the existing unified bank only."""
 from __future__ import annotations
-
 import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ASSETS = ROOT / "public/assets/mcq-answers"
+UNIFIED = ROOT / "public/assets/mcq-answers/unified-bank.json"
 OUTPUT = ROOT / "public/midterm/questions.json"
+BANK = json.loads(UNIFIED.read_text(encoding="utf-8"))["questions"]
 
 
-def load(name: str) -> list[dict]:
-    data = json.loads((ASSETS / name).read_text(encoding="utf-8"))
-    return data["questions"]
+def section_items(name):
+    aliases = {"Microbiology & Immunology": {"Microbiology & Immunology", "Microbiology and Immunology"}}
+    allowed = aliases.get(name, {name})
+    return [q for q in BANK if q.get("section") in allowed]
 
 
-def pick(items: list[dict], predicate, count: int, label: str) -> list[dict]:
-    chosen = [item for item in items if predicate(item)]
-    if len(chosen) < count:
-        raise SystemExit(f"{label}: requested {count}, found {len(chosen)}")
-    return chosen[:count]
+def pick(items, predicate, count, label, used):
+    found = [q for q in items if q["id"] not in used and predicate(q)]
+    if len(found) < count:
+        raise SystemExit(f"{label}: requested {count}, found {len(found)}")
+    chosen = found[:count]
+    used.update(q["id"] for q in chosen)
+    return chosen
 
 
-def normalize(item: dict, number: int, section: str, section_ar: str, source_file: str) -> dict:
-    correct_index = item.get("correctOptionIndex", item.get("answer_index"))
-    if not isinstance(correct_index, int) or correct_index not in range(4):
+def normalize(item, number, section, section_ar):
+    idx = item.get("correctOptionIndex", item.get("answer_index"))
+    if not isinstance(idx, int) or idx not in range(4):
         raise SystemExit(f"{item.get('id')}: invalid answer index")
-    item_id = item["id"]
-    if str(item_id).startswith("notebooklm-"):
-        item_id = f"{Path(source_file).stem}-{item_id}"
-    raw_difficulty = str(item.get("difficulty", "moderate")).strip().lower()
-    difficulty = {
-        "medium": "moderate",
-        "moderate": "moderate",
-        "very easy": "easy",
-        "very hard": "hard",
-        "easy": "easy",
-        "hard": "hard",
-    }.get(raw_difficulty, "moderate")
+    raw = str(item.get("difficulty", "moderate")).lower().strip()
+    difficulty = {"medium": "moderate", "very easy": "easy", "very hard": "hard"}.get(raw, raw)
+    if difficulty not in {"easy", "moderate", "hard"}:
+        difficulty = "moderate"
     return {
-        "number": number,
-        "id": item_id,
-        "section": section,
-        "sectionAr": section_ar,
-        "topic": item.get("topic", "General"),
-        "stem": item["stem"],
-        "options": item["options"],
-        "correctOptionIndex": correct_index,
-        "difficulty": difficulty,
-        "explanation": item.get("explanation", ""),
-        "status": item.get("status", "unknown"),
-        "clinicalReference": item.get("clinicalReference") or {
-            "source": item.get("source"),
-            "reviewStatus": item.get("clinicalReviewStatus", "not-recorded"),
-        },
-        "source": item.get("source") or item.get("origin_file"),
-        "sourceFile": source_file,
+        "number": number, "id": item["id"], "section": section, "sectionAr": section_ar,
+        "topic": item.get("topic", "General"), "stem": item["stem"], "options": item["options"],
+        "correctOptionIndex": idx, "difficulty": difficulty, "explanation": item.get("explanation", ""),
+        "status": item.get("status", "approved"), "clinicalReference": item.get("clinicalReference", {}),
+        "source": item.get("source") or item.get("origin_file"), "sourceFile": item.get("sourceFile") or item.get("origin_file", "unified-bank.json"),
         "tags": item.get("tags", []),
     }
 
+used = set()
+selected = []
 
-selected: list[tuple[dict, str, str, str]] = []
+def add(section, section_ar, items):
+    selected.extend((q, section, section_ar) for q in items)
 
-# 5 Anatomy items from the approved Anatomy 03 banks.
-for filename, label in [
-    ("abdomen-80.json", "Abdomen"),
-    ("pelvis-perineum-80.json", "Pelvis & Perineum"),
-    ("breast-80.json", "Breast"),
-    ("upper-limb-80.json", "Upper Limb"),
-    ("lower-limb-80.json", "Lower Limb"),
-]:
-    items = load(filename)
-    if len(selected) >= 5:
-        break
-    selected.extend((item, "Anatomy", "علوم التشريح", f"public/assets/mcq-answers/{filename}")
-                    for item in pick(items, lambda q: q["id"].startswith("GS-ANAT03-"), min(5 - len(selected), 1), label))
+# Basic surgical sciences: one item from five distinct Anatomy lecture sources.
+an = section_items("Anatomy")
+an_topics = ["ABD", "BRST", "Upper Limb: Nerves, Vessels & Lymphatics", "Lower Limb: Nerves, Vessels & Lymphatics", "The Pelvis & Perineum"]
+for topic in an_topics:
+    add("Anatomy", "علوم التشريح", pick(an, lambda q, t=topic: q.get("topic") == t, 1, f"Anatomy: {topic}", used))
 
-# 5 Pathology items: balanced across the two source-provided GitHub banks.
-for filename, count in [("pathology-lecture1-80.json", 3), ("pathology-cell-injury-80.json", 2)]:
-    items = load(filename)
-    selected.extend((item, "Pathology", "علم الأمراض", f"public/assets/mcq-answers/{filename}")
-                    for item in items[:count])
+# Five Microbiology/Immunology items across diagnostic and immune lectures.
+mi = section_items("Microbiology & Immunology")
+for topic in ["Specimen collection and transport", "Diagnostic microbiology", "Antimicrobial resistance and stewardship", "Immunology and serology", "Microbiology"]:
+    candidates = pick(mi, lambda q, t=topic: t.lower() in str(q.get("topic", "")).lower(), 1, f"Microbiology: {topic}", used)
+    add("Microbiology & Immunology", "الأحياء الدقيقة والمناعة", candidates)
 
-micro = load("microbiology-80.json")
-# 5 basic-surgical-science items spanning microbiology and immunology.
-for topic, count in [
-    ("Specimen collection and transport", 2),
-    ("Diagnostic microbiology", 2),
-    ("Immunology and serology", 1),
-]:
-    selected.extend((item, "Microbiology & Immunology", "الأحياء الدقيقة والمناعة", "public/assets/mcq-answers/microbiology-80.json")
-                    for item in pick(micro, lambda q, topic=topic: q.get("topic") == topic, count, topic))
+# Five Pathology items from distinct lecture themes.
+pa = section_items("Pathology")
+for term in ["Core Principles", "Causes, Mechanisms", "Inflammation", "Patterns of Necrosis", "Apoptosis"]:
+    candidates = pick(pa, lambda q, t=term: t.lower() in str(q.get("topic", "")).lower(), 1, f"Pathology: {term}", used)
+    add("Pathology", "علم الأمراض", candidates)
 
-# 20 available Principles-of-Surgery items: infection prevention plus antimicrobial stewardship.
-used_ids = {item["id"] for item, _, _, _ in selected}
-selected.extend((item, "Principles of Surgery", "مبادئ الجراحة", "public/assets/mcq-answers/microbiology-80.json")
-                for item in pick(micro, lambda q: q.get("topic") == "Infection prevention and control" and q.get("id") not in used_ids, 16, "infection prevention"))
-used_ids = {item["id"] for item, _, _, _ in selected}
-selected.extend((item, "Principles of Surgery", "مبادئ الجراحة", "public/assets/mcq-answers/microbiology-80.json")
-                for item in pick(micro, lambda q: q.get("topic") == "Antimicrobial resistance and stewardship" and q.get("id") not in used_ids, 4, "antimicrobial stewardship"))
+# Five Pharmacology items from the available pharmacology lectures and topics.
+ph = section_items("Pharmacology")
+for term in ["Analgesics for surgery", "Blood Disorder Drugs", "Antiemetic", "Acid-base", "VTE"]:
+    candidates = pick(ph, lambda q, t=term: t.lower() in str(q.get("topic", "")).lower(), 1, f"Pharmacology: {term}", used)
+    add("Pharmacology", "علم الأدوية", candidates)
 
-# 5 Pharmacology items from the existing NotebookLM-derived GitHub banks.
-selected.extend((item, "Pharmacology", "علم الأدوية", "public/assets/mcq-answers/notebooklm-analgesics.json")
-                for item in pick(load("notebooklm-analgesics.json"), lambda q: True, 3, "analgesics"))
-selected.extend((item, "Pharmacology", "علم الأدوية", "public/assets/mcq-answers/notebooklm-blood-disorder-drugs.json")
-                for item in pick(load("notebooklm-blood-disorder-drugs.json"), lambda q: True, 2, "blood disorder drugs"))
+# Principles of Surgery: one question from each requested lecture topic when represented.
+ps = section_items("Principles of Surgery")
+principles = [
+    ("fluids", "Fluids & electrolytes"), ("shock", "Shock"), ("hemorrhage", "Hemorrhage"),
+    ("blood and blood products", "Blood and blood products"), ("wound healing", "Wound healing"),
+    ("steril", "Sterilisation and disinfection"), ("medical ethics", "Medical ethics"),
+    ("consent", "Consent"), ("breaking bad news", "Breaking bad news"),
+    ("metabolic response", "Metabolic response to surgery and trauma"), ("nutritional support", "Nutritional support"),
+    ("surgical oncology", "Surgical oncology"), ("surgical infections", "Surgical infections I/II"),
+    ("septic shock", "Septic shock"), ("venous thromboembolism", "Venous thromboembolism"),
+    ("acid-base", "Acid-base disturbances"), ("damage control", "Damage control surgery"),
+    ("basic surgical principles", "Basic surgical principles"), ("blood physiology", "Blood physiology"),
+    ("surgical site", "Surgical site infection"),
+]
+for term, label in principles:
+    candidates = pick(ps, lambda q, t=term: t.lower() in (str(q.get("topic", "")) + " " + str(q.get("stem", ""))).lower(), 1, f"Principles: {label}", used)
+    add("Principles of Surgery", "مبادئ الجراحة", candidates)
 
 if len(selected) != 40:
-    raise SystemExit(f"Expected 40 items, got {len(selected)}")
-
-questions = [normalize(item, index, section, section_ar, source_file)
-             for index, (item, section, section_ar, source_file) in enumerate(selected, start=1)]
-ids = [q["id"] for q in questions]
-if len(set(ids)) != len(ids):
-    raise SystemExit("Duplicate question IDs in the midterm bank")
-
+    raise SystemExit(f"Expected 40 questions, got {len(selected)}")
+questions = [normalize(q, i, sec, sec_ar) for i, (q, sec, sec_ar) in enumerate(selected, 1)]
 payload = {
-    "schemaVersion": "1.0",
-    "title": "امتحان النصفي — General Surgery Diploma",
-    "language": "en",
-    "questionCount": 40,
-    "answerVisibility": "hidden-until-submitted",
-    "sourcePolicy": "GitHub-only selection from existing question assets; no new questions were authored.",
-    "coverageNote": "This 40-question midterm follows the requested allocation: 5 Anatomy, 5 Microbiology & Immunology, 5 Pathology, 5 Pharmacology, and 20 Principles of Surgery. Difficulty labels are normalized from the source-bank labels; they are not a substitute for independent clinical review.",
+    "schemaVersion": "1.1", "title": "Midterm Examination — General Surgery Diploma", "language": "en",
+    "questionCount": 40, "answerVisibility": "hidden-until-submitted",
+    "sourcePolicy": "Existing unified GitHub question bank only; no new questions were authored.",
+    "coverageNote": "Exactly 5 Anatomy, 5 Microbiology & Immunology, 5 Pathology, 5 Pharmacology, and 20 Principles of Surgery. The Principles questions span the requested lecture topics where represented in the unified bank.",
     "sections": [
         {"id": "anatomy", "label": "Anatomy", "labelAr": "علوم التشريح", "count": 5},
         {"id": "pathology", "label": "Pathology", "labelAr": "علم الأمراض", "count": 5},
         {"id": "microbiology-immunology", "label": "Microbiology & Immunology", "labelAr": "الأحياء الدقيقة والمناعة", "count": 5},
         {"id": "pharmacology", "label": "Pharmacology", "labelAr": "علم الأدوية", "count": 5},
         {"id": "principles-of-surgery", "label": "Principles of Surgery", "labelAr": "مبادئ الجراحة", "count": 20},
-    ],
-    "questions": questions,
+    ], "questions": questions,
 }
-OUTPUT.parent.mkdir(parents=True, exist_ok=True)
 OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(f"Wrote {len(questions)} questions to {OUTPUT}")
-for section in payload["sections"]:
-    print(section["label"], section["count"])
+for s in payload["sections"]: print(s["label"], s["count"])

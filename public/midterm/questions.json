@@ -1,11 +1,11 @@
 {
-  "schemaVersion": "1.0",
-  "title": "امتحان النصفي — General Surgery Diploma",
+  "schemaVersion": "1.1",
+  "title": "Midterm Examination — General Surgery Diploma",
   "language": "en",
   "questionCount": 40,
   "answerVisibility": "hidden-until-submitted",
-  "sourcePolicy": "GitHub-only selection from existing question assets; no new questions were authored.",
-  "coverageNote": "This 40-question midterm follows the requested allocation: 5 Anatomy, 5 Microbiology & Immunology, 5 Pathology, 5 Pharmacology, and 20 Principles of Surgery. Difficulty labels are normalized from the source-bank labels; they are not a substitute for independent clinical review.",
+  "sourcePolicy": "Existing unified GitHub question bank only; no new questions were authored.",
+  "coverageNote": "Exactly 5 Anatomy, 5 Microbiology & Immunology, 5 Pathology, 5 Pharmacology, and 20 Principles of Surgery. The Principles questions span the requested lecture topics where represented in the unified bank.",
   "sections": [
     {
       "id": "anatomy",
@@ -41,1007 +41,337 @@
   "questions": [
     {
       "number": 1,
-      "id": "GS-ANAT03-AB-0001",
+      "id": "local-GS-ABD-0079",
       "section": "Anatomy",
       "sectionAr": "علوم التشريح",
-      "topic": "Stomach anatomy",
-      "stem": "Which statement correctly distinguishes the two gastric orifices in terms of sphincters?",
+      "topic": "ABD",
+      "stem": "A femoral hernia sac bulges through the femoral ring, with its neck lying:",
       "options": [
-        "Both have anatomical and physiological sphincters",
-        "Neither orifice has a sphincter",
-        "The cardiac orifice has no anatomical sphincter but has a physiological one; the pyloric orifice has both",
-        "The cardiac orifice has an anatomical sphincter only; the pyloric has a physiological sphincter only"
+        "Below and lateral to the pubic tubercle",
+        "Above and medial to the pubic tubercle",
+        "In the middle of Hesselbach's triangle",
+        "Behind the rectus abdominis muscle"
       ],
-      "correctOptionIndex": 2,
+      "correctOptionIndex": 0,
       "difficulty": "hard",
-      "explanation": "The lecture describes a physiological sphincter at the cardiac orifice, while the pyloric orifice has anatomical and physiological sphincters.",
+      "explanation": "Source-indicated answer retained for academic and clinical review; explanatory rationale is pending review.",
       "status": "approved",
-      "clinicalReference": {
-        "source": "The Abdomen — Slides.pdf",
-        "reviewStatus": "approved-by-owner"
-      },
-      "source": "The Abdomen — Slides.pdf",
-      "sourceFile": "public/assets/mcq-answers/abdomen-80.json",
+      "clinicalReference": {},
+      "source": "Abdomen lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
+      "sourceFile": "abdomen-80.json",
       "tags": []
     },
     {
       "number": 2,
-      "id": "GS-ANAT03-PE-0001",
+      "id": "local-GS-BRST-0048",
       "section": "Anatomy",
       "sectionAr": "علوم التشريح",
-      "topic": "Anal triangle",
-      "stem": "Which structures are contained in the anal triangle of the perineum?",
+      "topic": "BRST",
+      "stem": "A few lymphatic vessels from the lateral quadrants of the breast follow the posterior intercostal arteries to drain directly into the:",
       "options": [
-        "The anal canal and ischiorectal fossae",
-        "The urinary bladder and prostate",
-        "The urethra and external genitalia only",
-        "The rectum and uterine cavity"
+        "Posterior intercostal lymph nodes",
+        "Apical axillary nodes",
+        "Parasternal chain",
+        "Infraclavicular nodes"
       ],
       "correctOptionIndex": 0,
       "difficulty": "hard",
-      "explanation": "The anal triangle contains the anal canal and the ischiorectal fossae.",
+      "explanation": "Source-indicated answer retained for academic and clinical review; explanatory rationale is pending review.",
       "status": "approved",
-      "clinicalReference": {
-        "source": "The Pelvis & Perineum — Slides.pdf",
-        "reviewStatus": "approved-by-owner"
-      },
-      "source": "The Pelvis & Perineum — Slides.pdf",
-      "sourceFile": "public/assets/mcq-answers/pelvis-perineum-80.json",
+      "clinicalReference": {},
+      "source": "The Breast lecture — Dr. Khalid Milad, Faculty of Medicine, University of Tripoli",
+      "sourceFile": "breast-80.json",
       "tags": []
     },
     {
       "number": 3,
-      "id": "GS-ANAT03-BR-0001",
+      "id": "local-GS-UL-0080",
       "section": "Anatomy",
       "sectionAr": "علوم التشريح",
-      "topic": "Breast microstructure",
-      "stem": "Approximately how many alveoli form one lobule of the breast?",
+      "topic": "Upper Limb: Nerves, Vessels & Lymphatics",
+      "stem": "A patient suffers a deep glass laceration on the volar aspect of the wrist just medial to the flexor carpi radialis tendon. Which nerve is most likely severed, and what is the primary functional deficit?",
       "options": [
-        "1–10",
-        "10–100",
-        "100–200",
-        "200–400"
+        "Ulnar nerve; loss of finger abduction/adduction",
+        "Median nerve; paralysis of thenar muscles (loss of thumb opposition—ape hand) and anesthesia of the palmar lateral 3½ digits",
+        "Radial nerve; wrist drop",
+        "Musculocutaneous nerve; loss of elbow flexion"
       ],
       "correctOptionIndex": 1,
       "difficulty": "hard",
-      "explanation": "The slide states that about 10 to 100 alveoli form one lobule.",
+      "explanation": "The median nerve lies immediately medial to the flexor carpi radialis tendon (and deep to palmaris longus) just proximal to the carpal tunnel; laceration here causes ape-hand deformity, loss of thumb opposition, and sensory loss over the lateral 3½ digits.",
       "status": "approved",
-      "clinicalReference": {
-        "source": "The Breast — Slides.pdf",
-        "reviewStatus": "approved-by-owner"
-      },
-      "source": "The Breast — Slides.pdf",
-      "sourceFile": "public/assets/mcq-answers/breast-80.json",
+      "clinicalReference": {},
+      "source": "Dr. Khalid Milad — supplied question bank",
+      "sourceFile": "upper-limb-80.json",
       "tags": []
     },
     {
       "number": 4,
-      "id": "GS-ANAT03-UL-0001",
+      "id": "local-GS-LL-0080",
       "section": "Anatomy",
       "sectionAr": "علوم التشريح",
-      "topic": "Brachial plexus variations",
-      "stem": "A brachial plexus with a major contribution from C4 is described in the lecture as which variant?",
+      "topic": "Lower Limb: Nerves, Vessels & Lymphatics",
+      "stem": "A patient sustains a penetrating stab wound to the femoral triangle just lateral to the femoral artery. Which nerve is injured, and what motor deficit results?",
       "options": [
-        "Prefixed brachial plexus",
-        "Postfixed brachial plexus",
-        "Trunk-free brachial plexus",
-        "Infraclavicular plexus"
+        "Obturator nerve; loss of thigh adduction",
+        "Femoral nerve; paralysis of quadriceps femoris (loss of knee extension) and weakened hip flexion, with absent patellar reflex",
+        "Sciatic nerve; loss of knee flexion and foot drop",
+        "Common peroneal nerve; loss of foot eversion"
       ],
-      "correctOptionIndex": 0,
-      "difficulty": "hard",
-      "explanation": "The lecture calls the plexus prefixed when it has a major C4 contribution; a major T2 contribution is termed postfixed.",
+      "correctOptionIndex": 1,
+      "difficulty": "moderate",
+      "explanation": "The femoral nerve lies immediately lateral to the femoral artery (outside the femoral sheath) in the femoral triangle; its injury paralyzes the quadriceps, abolishes knee extension and the patellar jerk, and causes sensory loss over the anterior thigh and medial leg.",
       "status": "approved",
-      "clinicalReference": {
-        "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
-        "reviewStatus": "approved-by-owner"
-      },
-      "source": "The Upper Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
-      "sourceFile": "public/assets/mcq-answers/upper-limb-80.json",
+      "clinicalReference": {},
+      "source": "Dr. Khalid Milad — supplied question bank",
+      "sourceFile": "lower-limb-80.json",
       "tags": []
     },
     {
       "number": 5,
-      "id": "GS-ANAT03-LL-0001",
+      "id": "local-GS-PELV-0034",
       "section": "Anatomy",
       "sectionAr": "علوم التشريح",
-      "topic": "Profunda femoris artery",
-      "stem": "The profunda femoris artery reaches the posterior compartment of the thigh by giving off which set of branches?",
+      "topic": "The Pelvis & Perineum",
+      "stem": "Alcock’s canal (pudendal canal) is located within the lateral wall of the ischiorectal fossa and is formed by a splitting of:",
       "options": [
-        "Four perforating branches",
-        "Four circumflex branches",
-        "Two genicular branches",
-        "Three muscular branches"
+        "Pelvic fascia (obturator fascia)",
+        "Colles' fascia",
+        "Buck's fascia",
+        "Superficial perineal fascia"
       ],
       "correctOptionIndex": 0,
-      "difficulty": "hard",
-      "explanation": "The profunda femoris enters the medial compartment and sends four perforating branches to the posterior compartment.",
+      "difficulty": "moderate",
+      "explanation": "Alcock’s canal is a fascial tunnel within the obturator fascia on the lateral wall of the ischiorectal fossa.",
       "status": "approved",
-      "clinicalReference": {
-        "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
-        "reviewStatus": "approved-by-owner"
-      },
-      "source": "The Lower Limb — Nerves, Vessels & Lymphatics — Slides.pdf",
-      "sourceFile": "public/assets/mcq-answers/lower-limb-80.json",
+      "clinicalReference": {},
+      "source": "Dr. Khalid Milad — supplied question bank",
+      "sourceFile": "pelvis-perineum-80.json",
       "tags": []
     },
     {
       "number": 6,
-      "id": "GS-PATH1-0001",
-      "section": "Pathology",
-      "sectionAr": "علم الأمراض",
-      "topic": "Core Principles, Pathologist's Role & Turnaround Time",
-      "stem": "What is the primary basis of 'Morphological Diagnosis' in diagnostic surgical pathology?",
+      "id": "local-GS-MICRO-0007",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Specimen collection and transport",
+      "stem": "How should CSF suspected of containing Neisseria meningitidis or Haemophilus influenzae be handled?",
       "options": [
-        "Serological antibody titers alone",
-        "Macroscopic (gross) and microscopic examination to identify disease patterns, tissue architecture, and cellular morphology",
-        "Radiological imaging without tissue sampling",
-        "Urine biochemical dipstick analysis"
+        "Refrigerate for 48 hours",
+        "Process immediately at room temperature and do not refrigerate",
+        "Freeze at -80°C",
+        "Place in formalin"
       ],
       "correctOptionIndex": 1,
       "difficulty": "moderate",
-      "explanation": "Morphological diagnosis combines naked-eye gross inspection with microscopic evaluation of architecture and cytomorphology.",
-      "status": "source-provided",
-      "clinicalReference": {
-        "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
-        "reviewStatus": "not-independently-reviewed"
-      },
-      "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
-      "sourceFile": "public/assets/mcq-answers/pathology-lecture1-80.json",
+      "explanation": "Rapid processing at room temperature is required because these organisms are cold-sensitive.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "microbiology-80.json",
+      "sourceFile": "microbiology-80.json",
       "tags": []
     },
     {
       "number": 7,
-      "id": "GS-PATH1-0002",
-      "section": "Pathology",
-      "sectionAr": "علم الأمراض",
-      "topic": "Core Principles, Pathologist's Role & Turnaround Time",
-      "stem": "Which five foundational pillars govern best practice in diagnostic surgical pathology according to the lecture?",
+      "id": "local-GS-MICRO-0022",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Diagnostic microbiology",
+      "stem": "A delayed CSF sample for suspected meningococcal disease should be handled by which principle?",
       "options": [
-        "Tissue Integrity, Chain of Custody, Clinico-Pathological Correlation, Representativeness, and Turnaround Time",
-        "Anesthesia depth, suture gauge, antibiotic prophylaxis, blood pressure, and drain output",
-        "Cost reduction, rapid discharge, outpatient follow-up, physiotherapy, and diet",
-        "Gram staining, blood culture, sensitivity testing, viral PCR, and ELISA"
+        "Refrigerate routinely",
+        "Keep at room temperature and process urgently",
+        "Add formalin",
+        "Freeze immediately"
       ],
-      "correctOptionIndex": 0,
+      "correctOptionIndex": 1,
       "difficulty": "moderate",
-      "explanation": "Accurate pathology requires intact tissue, unbroken chain of custody, correlation with clinical/imaging data, representative sampling, and timely reporting.",
-      "status": "source-provided",
-      "clinicalReference": {
-        "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
-        "reviewStatus": "not-independently-reviewed"
-      },
-      "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
-      "sourceFile": "public/assets/mcq-answers/pathology-lecture1-80.json",
+      "explanation": "Urgent room-temperature processing protects recovery of cold-sensitive pathogens.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "microbiology-80.json",
+      "sourceFile": "microbiology-80.json",
       "tags": []
     },
     {
       "number": 8,
-      "id": "GS-PATH1-0003",
-      "section": "Pathology",
-      "sectionAr": "علم الأمراض",
-      "topic": "Core Principles, Pathologist's Role & Turnaround Time",
-      "stem": "Why is 'Chain of Custody' legally and clinically critical in surgical pathology?",
+      "id": "local-GS-MICRO-0048",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Antimicrobial resistance and stewardship",
+      "stem": "About what proportion of emerging infectious diseases are zoonotic according to the source?",
       "options": [
-        "It determines the surgeon's operative fee",
-        "It ensures unbroken documentation from excision in theatre to the final pathology report, preventing specimen mix-ups",
-        "It speeds up formalin evaporation",
-        "It eliminates the need for patient identifiers"
+        "10%",
+        "30%",
+        "70%",
+        "99%"
       ],
-      "correctOptionIndex": 1,
+      "correctOptionIndex": 2,
       "difficulty": "moderate",
-      "explanation": "A pathology report is a medicolegal document; tracking every handoff prevents catastrophic patient or site misidentification.",
-      "status": "source-provided",
-      "clinicalReference": {
-        "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
-        "reviewStatus": "not-independently-reviewed"
-      },
-      "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
-      "sourceFile": "public/assets/mcq-answers/pathology-lecture1-80.json",
+      "explanation": "The source states that roughly 70% originate from animal reservoirs.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "microbiology-80.json",
+      "sourceFile": "microbiology-80.json",
       "tags": []
     },
     {
       "number": 9,
-      "id": "GS-PATH2-0001",
-      "section": "Pathology",
-      "sectionAr": "علم الأمراض",
-      "topic": "Causes, Mechanisms & Reversible vs. Irreversible Injury",
-      "stem": "What is universally recognized as the most common cause of cell injury in clinical medicine and surgery?",
+      "id": "local-GS-MICRO-0077",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Immunology and serology",
+      "stem": "How is passive immunization achieved and what is its limitation?",
       "options": [
-        "Ionizing radiation",
-        "Hypoxia and Ischemia (loss of oxygen or blood supply)",
-        "Vitamin deficiency",
-        "Viral infection"
+        "Live vaccine and lifelong protection",
+        "Transfer of preformed antibodies; temporary protection",
+        "Wild infection",
+        "DNA plasmid transfer"
       ],
       "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "Ischemia simultaneously deprives tissues of oxygen and essential nutrients while blocking metabolic waste removal.",
-      "status": "source-provided",
-      "clinicalReference": {
-        "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
-        "reviewStatus": "not-independently-reviewed"
-      },
-      "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
-      "sourceFile": "public/assets/mcq-answers/pathology-cell-injury-80.json",
+      "difficulty": "easy",
+      "explanation": "Passive immunity supplies antibodies immediately but does not create lasting host memory.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "microbiology-80.json",
+      "sourceFile": "microbiology-80.json",
       "tags": []
     },
     {
       "number": 10,
-      "id": "GS-PATH2-0002",
-      "section": "Pathology",
-      "sectionAr": "علم الأمراض",
-      "topic": "Causes, Mechanisms & Reversible vs. Irreversible Injury",
-      "stem": "What is the earliest ultrastructural and light microscopic manifestation of Reversible Cell Injury?",
+      "id": "drive-MT26-616",
+      "section": "Microbiology & Immunology",
+      "sectionAr": "الأحياء الدقيقة والمناعة",
+      "topic": "Microbiology: sporotrichosis",
+      "stem": "What characterizes the lifecycle and transmission of Sporothrix brasiliensis in South America?",
       "options": [
-        "Pyknosis and karyorrhexis",
-        "Cellular (hydropic) swelling due to Na+/K+ ATPase pump failure",
-        "Lysosomal membrane rupture and autodigestion",
-        "Formation of myelin figures"
+        "Inhalation of dust spores from dry bat guano caves.",
+        "Zoonotic transmission via infected cat scratches, bites, and contact.",
+        "Ingestion of undercooked freshwater crustacean tissue.",
+        "Tick-borne spirochetal inoculation during forest walks."
       ],
       "correctOptionIndex": 1,
       "difficulty": "moderate",
-      "explanation": "Failure of ATP-dependent Na+/K+ pumps allows intracellular sodium and water accumulation, resulting in acute cellular swelling ('cloudy swelling').",
-      "status": "source-provided",
-      "clinicalReference": {
-        "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
-        "reviewStatus": "not-independently-reviewed"
-      },
-      "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
-      "sourceFile": "public/assets/mcq-answers/pathology-cell-injury-80.json",
+      "explanation": "Sporothrix brasiliensis is a hyper-endemic fungal pathogen transmitted primarily through infected cats and zoonotic contact.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Antimicrobial Resistance (Lectre 2",
+      "sourceFile": "Antimicrobial Resistance (Lectre 2",
       "tags": []
     },
     {
       "number": 11,
-      "id": "GS-MICRO-0001",
-      "section": "Microbiology & Immunology",
-      "sectionAr": "الأحياء الدقيقة والمناعة",
-      "topic": "Specimen collection and transport",
-      "stem": "When should a diagnostic specimen ideally be collected?",
+      "id": "local-GS-PATH1-0010",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Core Principles, Pathologist's Role & Turnaround Time",
+      "stem": "How long does an intra-operative Frozen Section consultation typically take to report back to the surgeon?",
       "options": [
-        "After a full course of empiric antimicrobials",
-        "Before antimicrobial therapy whenever possible",
-        "Only after symptoms resolve",
-        "After freezing at -20°C"
+        "2–5 working days",
+        "15–30 minutes",
+        "6–8 hours",
+        "24 hours"
       ],
       "correctOptionIndex": 1,
       "difficulty": "moderate",
-      "explanation": "Collection before therapy maximizes recovery of viable pathogens.",
+      "explanation": "Frozen section provides rapid intra-operative pathologic feedback within 15–30 minutes while the patient remains under anesthesia.",
       "status": "approved",
-      "clinicalReference": {
-        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "specimen-collection",
-        "timing"
-      ]
+      "clinicalReference": {},
+      "source": "Principles of Diagnostic & Surgical Pathology — Lecture 1, Dr. Alla S. Addalla",
+      "sourceFile": "pathology-lecture1-80.json",
+      "tags": []
     },
     {
       "number": 12,
-      "id": "GS-MICRO-0002",
-      "section": "Microbiology & Immunology",
-      "sectionAr": "الأحياء الدقيقة والمناعة",
-      "topic": "Specimen collection and transport",
-      "stem": "Which medium is recommended for transporting enteric pathogens in stool?",
+      "id": "local-GS-PATH2-0015",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Causes, Mechanisms & Reversible vs. Irreversible Injury",
+      "stem": "According to the ultrastructural comparison table, how do mitochondria appear in Reversible vs. Irreversible Injury?",
       "options": [
-        "Amies with charcoal",
-        "Cary-Blair",
-        "Michel solution",
-        "Boric acid"
+        "Reversible: Normal; Irreversible: Completely absent",
+        "Reversible: Swelling with few small densities; Irreversible: Marked swelling with large amorphous densities",
+        "Reversible: Ruptured; Irreversible: Intact",
+        "Reversible: Dense and shrunken; Irreversible: Hyperactive"
       ],
       "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "Cary-Blair preserves enteric bacterial pathogens during transport.",
+      "difficulty": "hard",
+      "explanation": "Appearance of dense flocculent densities within swollen mitochondrial matrices signifies point-of-no-return irreversible damage.",
       "status": "approved",
-      "clinicalReference": {
-        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "stool",
-        "transport-medium"
-      ]
+      "clinicalReference": {},
+      "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+      "sourceFile": "pathology-cell-injury-80.json",
+      "tags": []
     },
     {
       "number": 13,
-      "id": "GS-MICRO-0017",
-      "section": "Microbiology & Immunology",
-      "sectionAr": "الأحياء الدقيقة والمناعة",
-      "topic": "Diagnostic microbiology",
-      "stem": "Which details belong on a microbiology requisition?",
+      "id": "drive-MT26-128",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Pathology: chronic inflammation",
+      "stem": "What histological and cellular features characterize Chronic Inflammation?",
       "options": [
-        "Only billing code",
-        "Patient identifiers, location, date/time, history, provisional diagnosis, and clinician signature",
-        "Technician home address",
-        "Dietary preference"
+        "Predominance of short-lived neutrophils, minimal tissue destruction, and immediate complete resolution",
+        "Infiltration by mononuclear inflammatory cells (macrophages, lymphocytes, plasma cells), ongoing tissue destruction, and simultaneous repair via fibrosis and angiogenesis",
+        "Massive deposition of immune complexes inside vessel walls producing fibrinoid necrosis exclusively",
+        "Rapid fluid accumulation with low protein transudates and absent cellular infiltrate"
       ],
       "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "Complete clinical context and identifiers guide processing and interpretation.",
+      "difficulty": "easy",
+      "explanation": "Chronic inflammation features mononuclear infiltrates, persistent tissue destruction, and concurrent angiogenesis and fibrotic healing.",
       "status": "approved",
-      "clinicalReference": {
-        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "requisition",
-        "quality"
-      ]
+      "clinicalReference": {},
+      "source": "Inflammation",
+      "sourceFile": "Inflammation",
+      "tags": []
     },
     {
       "number": 14,
-      "id": "GS-MICRO-0018",
-      "section": "Microbiology & Immunology",
-      "sectionAr": "الأحياء الدقيقة والمناعة",
-      "topic": "Diagnostic microbiology",
-      "stem": "What is required when handling clinical specimens?",
+      "id": "local-GS-PATH2-0034",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Patterns of Necrosis & Surgical Correlations",
+      "stem": "How does the distinction between dry and wet gangrene guide surgical management?",
       "options": [
-        "Unsealed hand transport",
-        "Universal precautions, barrier PPE, and leak-proof secondary bags",
-        "Requisition inside specimen fluid",
-        "Municipal trash disposal"
+        "Dry gangrene can sometimes be managed expectantly or allowed to auto-amputate, whereas wet gangrene demands urgent surgical debridement or amputation due to high sepsis risk",
+        "Both conditions can always be treated with warm saline soaks",
+        "Wet gangrene never requires surgery",
+        "Dry gangrene requires immediate emergency amputation within 10 minutes"
       ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "Specimens are biohazards and require PPE and sealed double-pouch transport.",
+      "correctOptionIndex": 0,
+      "difficulty": "hard",
+      "explanation": "Dry ischemic mummification without infection stabilizes safely, whereas wet gangrene propagates bacterial toxins and invasive sepsis.",
       "status": "approved",
-      "clinicalReference": {
-        "source": "Diagnostic Microbiology & Specimen Collection (Dr. Fatiem T. Gammoudi)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "biosafety",
-        "transport"
-      ]
+      "clinicalReference": {},
+      "source": "Cell Injury and Death — Lecture 2, Dr. Alla S. Addalla",
+      "sourceFile": "pathology-cell-injury-80.json",
+      "tags": []
     },
     {
       "number": 15,
-      "id": "GS-MICRO-0065",
-      "section": "Microbiology & Immunology",
-      "sectionAr": "الأحياء الدقيقة والمناعة",
-      "topic": "Immunology and serology",
-      "stem": "What defines an antigen or immunogen?",
+      "id": "drive-MT26-201",
+      "section": "Pathology",
+      "sectionAr": "علم الأمراض",
+      "topic": "Pathology: apoptosis versus necrosis",
+      "stem": "How does Apoptosis fundamentally differ from Necrosis regarding energy requirements and inflammatory response?",
       "options": [
-        "A plasma-cell protein only",
-        "A substance that stimulates a specific immune response",
-        "A complement enzyme",
-        "A fungal-wall carbohydrate only"
+        "Apoptosis is energy-independent (passive) and triggers severe surrounding inflammation.",
+        "Apoptosis is energy-dependent (ATP-requiring) and does not provoke an inflammatory response.",
+        "Apoptosis results in massive cellular swelling and cell lysis.",
+        "Apoptosis only occurs as a pathological consequence of severe ischemic injury."
       ],
       "correctOptionIndex": 1,
       "difficulty": "moderate",
-      "explanation": "An antigen is a substance capable of stimulating a specific immune response.",
+      "explanation": "Apoptosis is a regulated, energy-dependent (ATP-requiring) programmed pathway that eliminates cells cleanly without inducing inflammation.",
       "status": "approved",
-      "clinicalReference": {
-        "source": "Immunology and Serology (Dr. Fatiem T. Gammoudi)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "antigen",
-        "immunity"
-      ]
+      "clinicalReference": {},
+      "source": "Cell injury and death",
+      "sourceFile": "Cell injury and death",
+      "tags": []
     },
     {
       "number": 16,
-      "id": "GS-MICRO-0049",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "Which event fostered complacency that infectious diseases had been conquered?",
-      "options": [
-        "Penicillin discovery",
-        "Smallpox eradication in 1977",
-        "Human genome sequencing",
-        "Electron microscope invention"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "Smallpox eradication, alongside antibiotic discoveries, fostered a false sense of security.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "emerging-infections",
-        "public-health"
-      ]
-    },
-    {
-      "number": 17,
-      "id": "GS-MICRO-0050",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "Which factor drives zoonotic spillover?",
-      "options": [
-        "Strict quarantine",
-        "Human intrusion into wildlife habitats",
-        "Universal vaccination",
-        "Wastewater sequencing"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "Deforestation, urbanization, and agriculture increase contact with reservoirs.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "zoonosis",
-        "One-Health"
-      ]
-    },
-    {
-      "number": 18,
-      "id": "GS-MICRO-0051",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "Which pathogen class has high mutation and recombination potential via drift and shift?",
-      "options": [
-        "dsDNA bacteriophages",
-        "RNA viruses",
-        "Intracellular bacteria",
-        "Trematodes"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "RNA viruses such as influenza and SARS-CoV-2 evolve rapidly through mutation and reassortment.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "RNA-virus",
-        "emerging-infections"
-      ]
-    },
-    {
-      "number": 19,
-      "id": "GS-MICRO-0052",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "What is the natural reservoir and route for Lassa fever?",
-      "options": [
-        "Aedes mosquitoes",
-        "Mastomys rats and contaminated excreta/food",
-        "Waterfowl",
-        "Cattle"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "Mastomys rodents shed virus in urine and droppings that contaminate food or environments.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "Lassa",
-        "reservoir"
-      ]
-    },
-    {
-      "number": 20,
-      "id": "GS-MICRO-0053",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "Which vector transmits Oropouche virus?",
-      "options": [
-        "Anopheles",
-        "Ixodes",
-        "Culicoides paraensis midges and some mosquitoes",
-        "Tsetse flies"
-      ],
-      "correctOptionIndex": 2,
-      "difficulty": "moderate",
-      "explanation": "The source identifies biting midges and certain mosquitoes.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "Oropouche",
-        "vector"
-      ]
-    },
-    {
-      "number": 21,
-      "id": "GS-MICRO-0054",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "What is the primary reservoir host for MERS-CoV?",
-      "options": [
-        "Fruit bats",
-        "Dromedary camels",
-        "Swine",
-        "Poultry"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "Dromedary camels are identified as the primary reservoir and zoonotic source.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "MERS",
-        "reservoir"
-      ]
-    },
-    {
-      "number": 22,
-      "id": "GS-MICRO-0055",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "What describes the spread of mpox clades IIb and Ib?",
-      "options": [
-        "Obligate waterborne spread",
-        "From regional African outbreaks to global multi-country emergencies",
-        "Housefly-only spread",
-        "Stable aerosol spread across continents"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "The source describes transition from geographically confined outbreaks to global dissemination.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "mpox",
-        "outbreaks"
-      ]
-    },
-    {
-      "number": 23,
-      "id": "GS-MICRO-0056",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "Which fungus is listed as critical-priority multidrug-resistant yeast?",
-      "options": [
-        "Candida albicans",
-        "Candida auris",
-        "Nakaseomyces glabrata",
-        "Coccidioides immitis"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "Candida auris is described as a critical-priority MDR yeast causing healthcare outbreaks.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "Candida-auris",
-        "healthcare"
-      ]
-    },
-    {
-      "number": 24,
-      "id": "GS-MICRO-0057",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "What drives azole resistance in Aspergillus fumigatus?",
-      "options": [
-        "Topical oral antifungals",
-        "Agricultural fungicide use",
-        "Cat scratches",
-        "Ventilation systems"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "Environmental agricultural azole exposure can drive cross-resistance.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "Aspergillus",
-        "resistance"
-      ]
-    },
-    {
-      "number": 25,
-      "id": "GS-MICRO-0058",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "How is Sporothrix brasiliensis commonly transmitted in South America?",
-      "options": [
-        "Bat-cave dust",
-        "Infected cat scratches, bites, and contact",
-        "Undercooked crustaceans",
-        "Tick bites"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "The source describes zoonotic transmission from infected cats.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "Sporothrix",
-        "zoonosis"
-      ]
-    },
-    {
-      "number": 26,
-      "id": "GS-MICRO-0059",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "What is the core One Health philosophy?",
-      "options": [
-        "Human treatment only",
-        "Integration of human, animal, and environmental health",
-        "PCR without fieldwork",
-        "Permanent trade bans"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "One Health requires cross-sector collaboration because these domains are interconnected.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "One-Health",
-        "public-health"
-      ]
-    },
-    {
-      "number": 27,
-      "id": "GS-MICRO-0060",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "What do crowdsourced genomic surveillance and metagenomics enable?",
-      "options": [
-        "Replace physical exams",
-        "Early identification and tracking of pathogen evolution",
-        "Neutralize viruses",
-        "Enforce quarantine automatically"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "They support early detection and monitoring of variants and genetic shifts.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "surveillance",
-        "genomics"
-      ]
-    },
-    {
-      "number": 28,
-      "id": "GS-MICRO-0061",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "What amplifies nosocomial transmission during Ebola or MERS outbreaks?",
-      "options": [
-        "High vaccine uptake",
-        "Overwhelmed facilities, PPE shortages, and poor IPC",
-        "High temperature",
-        "Disposable instruments"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "Weak IPC and PPE shortages turn healthcare facilities into transmission amplifiers.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "IPC",
-        "outbreaks"
-      ]
-    },
-    {
-      "number": 29,
-      "id": "GS-MICRO-0062",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "What does a very high R0 indicate?",
-      "options": [
-        "Mild self-limited infection",
-        "Easier spread and more difficult control",
-        "No droplet spread",
-        "Decades-long incubation"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "A high basic reproductive number signals high transmissibility and harder containment.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "epidemiology",
-        "R0"
-      ]
-    },
-    {
-      "number": 30,
-      "id": "GS-MICRO-0063",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "Which measures include masks, gowns, gloves, isolation, quarantine, and contact tracing?",
-      "options": [
-        "Stewardship",
-        "Infection Prevention and Control",
-        "Vector pesticides",
-        "Metagenomics"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "IPC includes standard and transmission-based precautions plus isolation and tracing.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "IPC",
-        "infection-control"
-      ]
-    },
-    {
-      "number": 31,
-      "id": "GS-MICRO-0064",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Infection prevention and control",
-      "stem": "What is the most sustainable approach to emerging and re-emerging infections?",
-      "options": [
-        "Reactive action only",
-        "Early detection, rapid response, surveillance, and strong public health infrastructure",
-        "Stop all air travel",
-        "Ban diagnostic labs"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "The source emphasizes proactive surveillance, rapid response, and strengthened systems.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "public-health",
-        "surveillance"
-      ]
-    },
-    {
-      "number": 32,
-      "id": "GS-MICRO-0033",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Antimicrobial resistance and stewardship",
-      "stem": "What is the foundational property of an ideal antimicrobial?",
-      "options": [
-        "Universal broad spectrum",
-        "Selective toxicity",
-        "Only bacteriostatic activity",
-        "Resistance to liver metabolism"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "Selective toxicity harms the pathogen while minimizing host-cell injury.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "antimicrobial",
-        "principles"
-      ]
-    },
-    {
-      "number": 33,
-      "id": "GS-MICRO-0034",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Antimicrobial resistance and stewardship",
-      "stem": "What causes high-level methicillin resistance in MRSA?",
-      "options": [
-        "Class A beta-lactamase only",
-        "mecA-mediated alteration of PBPs",
-        "Porin deletion",
-        "msrA efflux"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "mecA encodes altered PBPs such as PBP2a with reduced beta-lactam binding.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "MRSA",
-        "mechanism"
-      ]
-    },
-    {
-      "number": 34,
-      "id": "GS-MICRO-0035",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Antimicrobial resistance and stewardship",
-      "stem": "Which disk is the standard surrogate screen for MRSA?",
-      "options": [
-        "Ampicillin",
-        "Cefoxitin",
-        "Penicillin G",
-        "Imipenem"
-      ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "The cefoxitin disk is the reliable surrogate for mecA-mediated resistance.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "MRSA",
-        "susceptibility"
-      ]
-    },
-    {
-      "number": 35,
-      "id": "GS-MICRO-0036",
-      "section": "Principles of Surgery",
-      "sectionAr": "مبادئ الجراحة",
-      "topic": "Antimicrobial resistance and stewardship",
-      "stem": "What defines metallo-beta-lactamases such as NDM, VIM, and IMP?",
-      "options": [
-        "Zinc-dependent hydrolysis of most beta-lactams except aztreonam",
-        "Aminoglycoside efflux",
-        "50S methylation",
-        "Folate inhibition"
-      ],
-      "correctOptionIndex": 0,
-      "difficulty": "moderate",
-      "explanation": "MBLs require zinc and hydrolyze carbapenems and other beta-lactams except aztreonam.",
-      "status": "approved",
-      "clinicalReference": {
-        "source": "Antimicrobial Resistance (Lectre No. 2)",
-        "edition": "",
-        "page": null,
-        "reviewStatus": "approved"
-      },
-      "source": null,
-      "sourceFile": "public/assets/mcq-answers/microbiology-80.json",
-      "tags": [
-        "MBL",
-        "carbapenemase"
-      ]
-    },
-    {
-      "number": 36,
-      "id": "notebooklm-analgesics-notebooklm-1",
+      "id": "local-notebooklm-1",
       "section": "Pharmacology",
       "sectionAr": "علم الأدوية",
       "topic": "Analgesics for surgery.pdf",
@@ -1055,113 +385,538 @@
       "correctOptionIndex": 1,
       "difficulty": "easy",
       "explanation": "Acute pain is defined as lasting less than 1 month, subacute pain spans 1 to 3 months, and chronic pain is defined as persisting for more than 3 months 1 .",
-      "status": "unknown",
-      "clinicalReference": {
-        "source": "Analgesics for surgery.pdf",
-        "reviewStatus": "not-recorded"
-      },
+      "status": "approved",
+      "clinicalReference": {},
       "source": "Analgesics for surgery.pdf",
-      "sourceFile": "public/assets/mcq-answers/notebooklm-analgesics.json",
+      "sourceFile": "notebooklm-analgesics.json",
+      "tags": []
+    },
+    {
+      "number": 17,
+      "id": "local-notebooklm-7",
+      "section": "Pharmacology",
+      "sectionAr": "علم الأدوية",
+      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "stem": "According to preoperative holding protocols, how many days before elective surgery must oral Warfarin be held, and how many hours before surgery must therapeutic Low Molecular Weight Heparin (LMWH) be stopped?",
+      "options": [
+        "Warfarin held 2 days before; LMWH held 6 hours before",
+        "Warfarin held 5 days before; LMWH held 24 hours before",
+        "Warfarin held 7 days before; LMWH held 48 hours before",
+        "Warfarin held 1 day before; LMWH held 12 hours before"
+      ],
+      "correctOptionIndex": 1,
+      "difficulty": "moderate",
+      "explanation": "Elective surgery guidelines specify holding oral Warfarin 5 days before surgery. Therapeutic LMWH must be stopped 24 hours before surgery (prophylactic LMWH is held 12 hours before; IV unfractionated heparin is held 4–6 hours before).",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
+      "sourceFile": "notebooklm-blood-disorder-drugs.json",
+      "tags": []
+    },
+    {
+      "number": 18,
+      "id": "drive-MT26-332",
+      "section": "Pharmacology",
+      "sectionAr": "علم الأدوية",
+      "topic": "Antiemetic pharmacology",
+      "stem": "What is the primary peripheral mechanism of action through which 5-HT3 receptor antagonists (such as Ondansetron and Tropisetron) exert their potent antiemetic effect?",
+      "options": [
+        "Inhibition of central histamine H1 receptors in the vestibular nuclei",
+        "Blockade of peripheral 5-HT3 receptors on extrinsic intestinal vagal and spinal afferent nerves",
+        "Stimulation of dopamine D2 receptors in the gastrointestinal tract",
+        "Activation of mu-opioid receptors to increase transit time"
+      ],
+      "correctOptionIndex": 1,
+      "difficulty": "hard",
+      "explanation": "While they have central actions, 5-HT3 antagonists exert their primary antiemetic effect by inhibiting peripheral 5-HT3 receptors on intestinal vagal and spinal afferents.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Drugs for GIT Disorders",
+      "sourceFile": "Drugs for GIT Disorders",
+      "tags": []
+    },
+    {
+      "number": 19,
+      "id": "drive-MT26-119",
+      "section": "Pharmacology",
+      "sectionAr": "علم الأدوية",
+      "topic": "Acid-base disturbances; pharmacology",
+      "stem": "In aspirin (salicylate) toxicity, patients frequently present with a complex mixed acid-base disturbance. What is the typical combination?",
+      "options": [
+        "Primary respiratory alkalosis (direct stimulation of the respiratory center) combined with high anion gap metabolic acidosis (salicylate uncoupling of oxidative phosphorylation)",
+        "Pure metabolic alkalosis and respiratory alkalosis",
+        "Normal anion gap metabolic acidosis alone",
+        "Pure respiratory acidosis"
+      ],
+      "correctOptionIndex": 0,
+      "difficulty": "easy",
+      "explanation": "Salicylate overdose stimulates the brainstem respiratory center (causing respiratory alkalosis) while simultaneously disrupting cellular metabolism to generate organic acids (causing HAGMA).",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "VTE&acid&base balance",
+      "sourceFile": "VTE&acid&base balance",
+      "tags": []
+    },
+    {
+      "number": 20,
+      "id": "drive-MT26-597",
+      "section": "Pharmacology",
+      "sectionAr": "علم الأدوية",
+      "topic": "Pharmacology: initial VTE anticoagulation",
+      "stem": "When initiating treatment with certain DOACs like dabigatran or edoxaban for acute VTE, what is required prior to starting the oral agent?",
+      "options": [
+        "Immediate surgical thrombectomy",
+        "Initial parenteral overlap/cover with Low Molecular Weight Heparin (LMWH) for at least 5 days",
+        "Complete blood transfusion",
+        "Insertion of an inferior vena cava filter"
+      ],
+      "correctOptionIndex": 1,
+      "difficulty": "easy",
+      "explanation": "Dabigatran and edoxaban require initial parenteral anticoagulation (LMWH or fondaparinux) for at least 5 days before transitioning to the oral drug.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "VTE&acid&base balance",
+      "sourceFile": "VTE&acid&base balance",
+      "tags": []
+    },
+    {
+      "number": 21,
+      "id": "drive-MT26-614",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Fluids and electrolytes",
+      "stem": "What classic electrocardiographic (ECG) changes appear earliest during moderate to severe hyperkalemia (serum level 5.5–6.5 mEq/L)?",
+      "options": [
+        "Prominent U waves and depressed ST segments",
+        "Tall, peaked T waves and wide QRS complexes",
+        "Prolonged QT intervals with flat T waves",
+        "Complete normalization of baseline rhythm"
+      ],
+      "correctOptionIndex": 1,
+      "difficulty": "moderate",
+      "explanation": "Hyperkalemia characteristically presents with tall, peaked T waves, progressing to prolonged PR intervals, widened QRS, loss of P waves, and sinusoidal waves.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Fluid&electrolyte &shock& haemorrhage",
+      "sourceFile": "Fluid&electrolyte &shock& haemorrhage",
+      "tags": []
+    },
+    {
+      "number": 22,
+      "id": "local-notebooklm-20",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "stem": "Match the \"Shock Organ\" to its characteristic morphological lesion resulting from prolonged systemic hypoperfusion: Kidney | Lung | Gastrointestinal tract",
+      "options": [
+        "Kidney = Acute tubular necrosis; Lung = Diffuse alveolar damage (ARDS); GI tract = Mucosal hemorrhage and stress ulceration",
+        "Kidney = Liquefactive necrosis; Lung = Caseous granulomas; GI tract = Fibrinoid vasculitis",
+        "Kidney = Nutmeg change; Lung = Fat saponification; GI tract = Ghost cell outlines",
+        "Kidney = Dystrophic calcification; Lung = Hyaline arteriosclerosis; GI tract = Lymphedema"
+      ],
+      "correctOptionIndex": 0,
+      "difficulty": "hard",
+      "explanation": "Sustained hypoperfusion causes distinct organ-specific pathology: Kidneys develop Acute Tubular Necrosis (ATN, a major cause of acute kidney injury); Lungs develop Diffuse Alveolar Damage (\"shock lung\" evolving into ARDS); the GI tract develops superficial mucosal hemorrhage and stress ulceration.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Circulatory Disturbances - Lecture 4- pathology.pdf",
+      "sourceFile": "notebooklm-circulatory-disturbances.json",
+      "tags": []
+    },
+    {
+      "number": 23,
+      "id": "drive-MT26-234",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Blood and blood products; hemorrhage",
+      "stem": "How is a massive blood transfusion clinically defined?",
+      "options": [
+        "Transfusing more than 2 units in 12 hours",
+        "Replacing a patient's whole blood volume within 24 hours, or transfusing > 4 units in 1 hour or 50% of blood volume in 3 hours",
+        "Any transfusion exceeding 10 units over a 7-day hospital admission",
+        "Transfusing whole blood exclusively within the operating room"
+      ],
+      "correctOptionIndex": 1,
+      "difficulty": "easy",
+      "explanation": "Massive transfusion criteria include replacing whole blood volume within 24 hours, or giving > 4 units in 1 hour or 50% of blood volume in 3 hours.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Blood and Blood Products",
+      "sourceFile": "Blood and Blood Products",
+      "tags": []
+    },
+    {
+      "number": 24,
+      "id": "drive-MT26-121",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Blood and blood products",
+      "stem": "Following a suspected transfusion reaction, what vital administrative step must be performed with the used blood unit?",
+      "options": [
+        "Dispose of it immediately to prevent accidental re-infusion.",
+        "Send it back to the blood bank team along with a clerical check of patient ID and product info.",
+        "Autoclave the unit in the operating theatre.",
+        "Record the serial number and empty the contents down the sink."
+      ],
+      "correctOptionIndex": 1,
+      "difficulty": "moderate",
+      "explanation": "The used unit must not be discarded; it must be referred back to the blood bank along with clerical verification to investigate potential mix-ups.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Blood and Blood Products",
+      "sourceFile": "Blood and Blood Products",
+      "tags": []
+    },
+    {
+      "number": 25,
+      "id": "drive-MT26-137",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Nutritional support and wound healing",
+      "stem": "Preoperative malnutrition is strongly associated with which adverse clinical outcomes?",
+      "options": [
+        "Faster wound healing and shorter ICU stays",
+        "Higher rates of surgical site infection, impaired wound healing, and pressure ulcers",
+        "Permanent hyper-immunity",
+        "Immediate weight stabilization"
+      ],
+      "correctOptionIndex": 1,
+      "difficulty": "easy",
+      "explanation": "Malnutrition impairs collagen synthesis and immune response, driving up infection rates, pressure ulcers, and surgical complications.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Metabolic & Nutrition",
+      "sourceFile": "Metabolic & Nutrition",
+      "tags": []
+    },
+    {
+      "number": 26,
+      "id": "drive-MT26-191",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Sterilisation and disinfection",
+      "stem": "What are the primary mechanisms and applications of 70% isopropyl alcohol or ethanol in healthcare?",
+      "options": [
+        "Spore destruction in closed autoclave chambers.",
+        "Protein denaturation and cytoplasmic membrane disruption for skin swabbing and rapid antiseptic action.",
+        "High-level disinfection of rigid bronchoscopes through immersion.",
+        "Decontamination of large hospital floors and walls."
+      ],
+      "correctOptionIndex": 1,
+      "difficulty": "hard",
+      "explanation": "Alcohols denature proteins and disrupt membranes; 70% ethanol or isopropyl alcohol acts rapidly for skin swabbing, though they have no action on spores.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Sterilization and disinfectant",
+      "sourceFile": "Sterilization and disinfectant",
+      "tags": []
+    },
+    {
+      "number": 27,
+      "id": "drive-MT26-562",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Medical ethics",
+      "stem": "How does Islamic medical ethics view the sanctity of human life?",
+      "options": [
+        "Life is valued only if the individual possesses economic utility.",
+        "Life is sacred, and Islam places profound emphasis on preserving, protecting, and respecting life in all its stages.",
+        "Preservation of life is secondary to institutional convenience.",
+        "Medical intervention is prohibited when illness strikes."
+      ],
+      "correctOptionIndex": 1,
+      "difficulty": "easy",
+      "explanation": "Islamic medical ethics stresses the sanctity of human life, preservation of health, benevolence (Ihsan), and avoiding harm (\"La darar wa la dirar\").",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Ethics&consent &breaking bad news",
+      "sourceFile": "Ethics&consent &breaking bad news",
+      "tags": []
+    },
+    {
+      "number": 28,
+      "id": "local-notebooklm-16",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "consent - Copy.pptx",
+      "stem": "A person lacks capacity if their mind is impaired or disturbed. Which of the following is explicitly listed in the lecture as a clinical cause of impaired capacity?",
+      "options": [
+        "Mild fatigue after a normal working day",
+        "Mental health conditions, dementia, severe learning disabilities, brain damage (e.g., stroke/injury), or intoxication by alcohol or drugs",
+        "High professional education level",
+        "Normal physiological aging without cognitive decline"
+      ],
+      "correctOptionIndex": 1,
+      "difficulty": "easy",
+      "explanation": "Impairment of capacity results from conditions affecting mental function, including mental health disorders, dementia, severe learning disabilities, brain damage (stroke/trauma), and acute intoxication from alcohol or drugs.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "consent - Copy.pptx",
+      "sourceFile": "notebooklm-consent.json",
+      "tags": []
+    },
+    {
+      "number": 29,
+      "id": "drive-MT26-104",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Breaking bad news",
+      "stem": "During the \"Setting up\" (S) step of SPIKES, what environmental factor is most critical?",
+      "options": [
+        "Conducting the conversation in a busy, active hallway for transparency.",
+        "Ensuring privacy, arranging comfortable seating at eye-level, eliminating interruptions (phones, pagers, staff), and allowing support persons if desired.",
+        "Standing directly over the patient's bed to project clinical authority.",
+        "Turning off all room lights to calm the patient."
+      ],
+      "correctOptionIndex": 1,
+      "difficulty": "easy",
+      "explanation": "Proper setting requires privacy, unhurried time, eye-level positioning, absence of interruptions, and welcoming chosen family or support staff.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Ethics&consent &breaking bad news",
+      "sourceFile": "Ethics&consent &breaking bad news",
+      "tags": []
+    },
+    {
+      "number": 30,
+      "id": "drive-MT26-378",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Metabolic response to surgery",
+      "stem": "How can clinicians best minimize or manipulate the surgical metabolic response before and during an operation?",
+      "options": [
+        "Delaying pain management until postoperative day 3",
+        "Utilizing minimally invasive surgery, careful tissue handling, controlling pain, and correcting shock",
+        "Avoiding preoperative antibiotics entirely",
+        "Keeping the operating room at freezing temperatures"
+      ],
+      "correctOptionIndex": 1,
+      "difficulty": "moderate",
+      "explanation": "Reducing stimuli through minimal trauma, gentle tissue handling, pain control, correcting shock/hypoxia, and infection control successfully dampens the stress response.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Metabolic & Nutrition",
+      "sourceFile": "Metabolic & Nutrition",
+      "tags": []
+    },
+    {
+      "number": 31,
+      "id": "drive-MT26-351",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Nutritional support",
+      "stem": "A 39-year-old, 80-kg trauma patient is intubated and sedated in the ICU. Based on standard surgical ICU calculations (25–30 kcal/kg/day), what is their approximate daily calorie goal?",
+      "options": [
+        "1,500 kcal/day",
+        "1,800 kcal/day",
+        "2,100 kcal/day (approx. 25–30 kcal × 80 kg = 2,000–2,400 kcal/day)",
+        "3,500 kcal/day"
+      ],
+      "correctOptionIndex": 2,
+      "difficulty": "hard",
+      "explanation": "Severely ill patients require roughly 25–30 kcal/kg/day; for an 80-kg patient, this yields a target range around 2,000–2,400 kcal/day (fitting option C).",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Metabolic & Nutrition",
+      "sourceFile": "Metabolic & Nutrition",
+      "tags": []
+    },
+    {
+      "number": 32,
+      "id": "drive-MT26-608",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Surgical oncology",
+      "stem": "In thyroid cancer prognosis, what parameters does the AGES scoring system evaluate?",
+      "options": [
+        "Age of patient, Grade of tumor, Extent of extra-thyroid tumor spread, and Size/Stage of tumor",
+        "Antibody levels, Gender, Erythrocyte sedimentation rate, and Surgery type",
+        "Aspiration cytology, Glucose uptake, Endocrine status, and Symptoms",
+        "Alcohol intake, Genetic mutation, Estrogen receptors, and Sex"
+      ],
+      "correctOptionIndex": 0,
+      "difficulty": "easy",
+      "explanation": "AGES stands for Age of patient, Grade of tumor, Extent of extra-thyroid tumor spread, and Stage of tumor.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Principles of Surgical oncology",
+      "sourceFile": "Principles of Surgical oncology",
+      "tags": []
+    },
+    {
+      "number": 33,
+      "id": "drive-MT26-583",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Nutritional support and surgical infections",
+      "stem": "What is widely considered the most serious complication associated with Total Parenteral Nutrition (TPN)?",
+      "options": [
+        "Hyperglycemia",
+        "Pneumothorax during line insertion",
+        "Catheter-related bloodstream infection (CRBSI)",
+        "Gastrointestinal mucosal atrophy"
+      ],
+      "correctOptionIndex": 2,
+      "difficulty": "hard",
+      "explanation": "Catheter-related sepsis (infection) is the most serious and life-threatening complication of central venous parenteral nutrition.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Metabolic & Nutrition",
+      "sourceFile": "Metabolic & Nutrition",
+      "tags": []
+    },
+    {
+      "number": 34,
+      "id": "drive-MT26-002",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Septic shock vasopressors",
+      "stem": "In the management of septic shock (a subset of distributive shock), what is the first-line vasopressor of choice when fluid resuscitation fails to restore adequate mean arterial pressure (MAP)?",
+      "options": [
+        "Norepinephrine",
+        "High-dose oral clonidine",
+        "Desmopressin (DDAVP)",
+        "Insulin infusion"
+      ],
+      "correctOptionIndex": 0,
+      "difficulty": "hard",
+      "explanation": "Norepinephrine is the primary vasopressor recommended in septic shock to restore vascular tone and target a MAP > 65 mm Hg.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Fluid&electrolyte &shock& haemorrhage",
+      "sourceFile": "Fluid&electrolyte &shock& haemorrhage",
+      "tags": []
+    },
+    {
+      "number": 35,
+      "id": "drive-MT26-063",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Venous thromboembolism: anticoagulation duration",
+      "stem": "For a patient presenting with an unprovoked proximal DVT or PE, what is the standard recommended duration of initial therapeutic anticoagulation (in the absence of contraindications)?",
+      "options": [
+        "Exactly 48 hours",
+        "7 days",
+        "At least 3 months (followed by risk-benefit review)",
+        "Lifetime therapy for all patients unconditionally"
+      ],
+      "correctOptionIndex": 2,
+      "difficulty": "hard",
+      "explanation": "Current guidelines recommend a minimum of 3 months of oral anticoagulation for provoked VTE, and 3 to 6 months (or extended) for unprovoked VTE.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "VTE&acid&base balance",
+      "sourceFile": "VTE&acid&base balance",
+      "tags": []
+    },
+    {
+      "number": 36,
+      "id": "drive-MT26-580",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Fluids and electrolytes; acid-base disturbances",
+      "stem": "What effect does extracellular fluid (ECF) acidosis have on serum potassium balance?",
+      "options": [
+        "Causes hypokalemia via intracellular potassium trapping.",
+        "Causes hyperkalemia as hydrogen ions move into cells in exchange for potassium moving out.",
+        "Has no measurable impact on transmembrane potassium flux.",
+        "Stimulates massive renal potassium wasting."
+      ],
+      "correctOptionIndex": 1,
+      "difficulty": "easy",
+      "explanation": "In ECF acidosis, excess extracellular hydrogen ions shift into cells in exchange for potassium, leading to hyperkalemia.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Fluid&electrolyte &shock& haemorrhage",
+      "sourceFile": "Fluid&electrolyte &shock& haemorrhage",
       "tags": []
     },
     {
       "number": 37,
-      "id": "notebooklm-analgesics-notebooklm-2",
-      "section": "Pharmacology",
-      "sectionAr": "علم الأدوية",
-      "topic": "Analgesics for surgery.pdf",
-      "stem": "Which pain assessment tool is specifically validated for evaluating pain in sedated or mechanically ventilated unconscious surgical patients?",
+      "id": "drive-MT26-015",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Damage control surgery",
+      "stem": "A trauma patient continues to bleed intraoperatively and develops the lethal triad of hypothermia (34°C), acidosis (pH 7.1), and coagulopathy (INR 2.2). What is the best immediate surgical strategy?",
       "options": [
-        "Visual Analogue Scale (VAS)",
-        "FLACC Scale",
-        "Wong-Baker FACES Scale",
-        "Behavioral Pain Scale (BPS)"
+        "Continue extensive definitive anatomical reconstruction.",
+        "Perform damage control surgery focused on rapid bleeding control and physiological stabilization.",
+        "Close the abdomen immediately and transfer to an unmonitored ward.",
+        "Administer cold crystalloid infusions rapidly."
       ],
-      "correctOptionIndex": 3,
-      "difficulty": "moderate",
-      "explanation": "The Behavioral Pain Scale (BPS) evaluates pain in sedated or unconscious patients using three parameters: facial expression, upper limb movement, and compliance with mechanical ventilation 2 . The FLACC scale is used for pediatric patients aged 2 months to 7 years 3 , while Wong-Baker FACES is used for pediatric or cognitively impaired patients 2 .",
-      "status": "unknown",
-      "clinicalReference": {
-        "source": "Analgesics for surgery.pdf",
-        "reviewStatus": "not-recorded"
-      },
-      "source": "Analgesics for surgery.pdf",
-      "sourceFile": "public/assets/mcq-answers/notebooklm-analgesics.json",
+      "correctOptionIndex": 1,
+      "difficulty": "hard",
+      "explanation": "Damage control surgery prioritizes halting hemorrhage, packing, and temporary closure to correct the lethal triad rather than prolonged definitive surgery.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Fluid&electrolyte &shock& haemorrhage",
+      "sourceFile": "Fluid&electrolyte &shock& haemorrhage",
       "tags": []
     },
     {
       "number": 38,
-      "id": "notebooklm-analgesics-notebooklm-3",
-      "section": "Pharmacology",
-      "sectionAr": "علم الأدوية",
-      "topic": "Analgesics for surgery.pdf",
-      "stem": "What is the distinct biochemical mechanism of action of paracetamol (acetaminophen) compared to classic NSAIDs?",
+      "id": "generated-ai-principles-of-surgery-20261115160528-01",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Basic surgical principles",
+      "stem": "Which of the following is the most important principle to prevent postoperative wound infection?",
       "options": [
-        "Irreversible acetylation of peripheral COX-1 enzymes",
-        "Competitive antagonism of central NMDA receptors",
-        "Nonselective COX inhibition acting at the peroxide site of the enzyme",
-        "Direct activation of GABA-A receptors in the spinal cord"
+        "A. Use of prophylactic antibiotics before incision",
+        "B. Strict aseptic technique during surgery",
+        "C. Immediate postoperative wound dressing",
+        "D. Early mobilization of the patient"
       ],
-      "correctOptionIndex": 2,
-      "difficulty": "moderate",
-      "explanation": "Paracetamol is a nonselective COX inhibitor that acts uniquely at the peroxide site of the cyclooxygenase enzyme 4 . High concentrations of peroxides present at sites of tissue inflammation reduce its COX-inhibitory activity, which explains why paracetamol exhibits strong analgesic and antipyretic effects but only weak anti-inflammatory activity 5 .",
-      "status": "unknown",
-      "clinicalReference": {
-        "source": "Analgesics for surgery.pdf",
-        "reviewStatus": "not-recorded"
-      },
-      "source": "Analgesics for surgery.pdf",
-      "sourceFile": "public/assets/mcq-answers/notebooklm-analgesics.json",
+      "correctOptionIndex": 1,
+      "difficulty": "easy",
+      "explanation": "Strict aseptic technique during surgery (option B) is the cornerstone of preventing wound infection, as it eliminates contamination at the source. While prophylactic antibiotics (option A) are helpful, they cannot replace proper asepsis. Immediate dressing (option C) and early mobilization (option D) are supportive measures but not primary preventive strategies.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Basic surgical principles",
+      "sourceFile": "principles-of-surgery.json",
       "tags": []
     },
     {
       "number": 39,
-      "id": "notebooklm-blood-disorder-drugs-notebooklm-1",
-      "section": "Pharmacology",
-      "sectionAr": "علم الأدوية",
-      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
-      "stem": "Which coagulation factor deficiency specifically defines Hemophilia B (Christmas disease)?",
+      "id": "drive-MT26-630",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Basic surgical sciences; blood physiology",
+      "stem": "What is the primary physiological driver and oxygen-sensing mechanism for blood cell synthesis in the bone marrow?",
       "options": [
-        "Factor VIII",
-        "Factor IX",
-        "Factor XI",
-        "Factor VII"
+        "Hepatic thrombopoietin secretion triggered by systemic alkalosis.",
+        "Renal hypoxia triggering secretion of the hormone erythropoietin (EPO).",
+        "Splenic macrophage destruction of senescent erythrocytes.",
+        "Parathyroid hormone-mediated calcium mobilization."
       ],
       "correctOptionIndex": 1,
-      "difficulty": "easy",
-      "explanation": "Factor VIII deficiency causes Hemophilia A (classic hemophilia), whereas Factor IX (Christmas factor) deficiency causes Hemophilia B (Christmas disease). Factor XI deficiency is termed Plasma Thromboplastin Antecedent (PTA) deficiency.",
-      "status": "unknown",
-      "clinicalReference": {
-        "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
-        "reviewStatus": "not-recorded"
-      },
-      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
-      "sourceFile": "public/assets/mcq-answers/notebooklm-blood-disorder-drugs.json",
+      "difficulty": "hard",
+      "explanation": "Oxygen sensing in the kidney under hypoxic conditions stimulates the release of erythropoietin (EPO), which binds to bone marrow progenitor cells to promote red blood cell production.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Blood and Blood Products",
+      "sourceFile": "Blood and Blood Products",
       "tags": []
     },
     {
       "number": 40,
-      "id": "notebooklm-blood-disorder-drugs-notebooklm-2",
-      "section": "Pharmacology",
-      "sectionAr": "علم الأدوية",
-      "topic": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
-      "stem": "What is the precise biochemical mechanism of action of unfractionated heparin (UFH)?",
+      "id": "drive-MT26-500",
+      "section": "Principles of Surgery",
+      "sectionAr": "مبادئ الجراحة",
+      "topic": "Surgical site infection risk",
+      "stem": "What is the expected surgical site infection rate for a Class I Clean wound?",
       "options": [
-        "Direct competitive inhibition of the thrombin catalytic site",
-        "Binding to antithrombin III to accelerate inactivation of factors IIa, IXa, Xa, XIa, and XIIa",
-        "Irreversible acetylation of platelet cyclooxygenase-1 (COX-1)",
-        "Inhibition of hepatic vitamin K epoxide reductase (VKORC1)"
+        "1.5% – 5%",
+        "10% – 15%",
+        "28% – 40%",
+        "50% or higher"
       ],
-      "correctOptionIndex": 1,
-      "difficulty": "moderate",
-      "explanation": "Unfractionated heparin acts indirectly by binding to antithrombin III, which markedly accelerates the inactivation of clotting factors IIa (thrombin), IXa, Xa, XIa, and XIIa.",
-      "status": "unknown",
-      "clinicalReference": {
-        "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
-        "reviewStatus": "not-recorded"
-      },
-      "source": "Blood Disorder Drugs & Cancer ChemoRx.pdf",
-      "sourceFile": "public/assets/mcq-answers/notebooklm-blood-disorder-drugs.json",
+      "correctOptionIndex": 0,
+      "difficulty": "easy",
+      "explanation": "Class I clean wounds (uninfected operative fields where no viscus or respiratory/genital/urinary tracts are entered) have a baseline SSI rate of 1.5% to 5%.",
+      "status": "approved",
+      "clinicalReference": {},
+      "source": "Surgical infections",
+      "sourceFile": "Surgical infections",
       "tags": []
     }
   ]

@@ -1,25 +1,25 @@
 {
   "bankName": "GS Diploma Unified MCQ Bank",
-  "version": "2026-11-15-drive-notebook-merge-1",
-  "totalQuestions": 1561,
-  "rawQuestionsBeforeDeduplication": 1563,
-  "duplicatesCollapsed": 2,
+  "version": "2026-11-16-legacy-day-import-1",
+  "totalQuestions": 2428,
+  "rawQuestionsBeforeDeduplication": 2843,
+  "duplicatesCollapsed": 415,
   "sections": {
-    "Anatomy": 558,
-    "Pathology": 326,
-    "Microbiology and Immunology": 239,
-    "Pharmacology": 107,
-    "Principles of Surgery": 331
+    "Anatomy": 650,
+    "Pathology": 433,
+    "Microbiology and Immunology": 316,
+    "Pharmacology": 187,
+    "Principles of Surgery": 842
   },
   "difficulty": {
-    "hard": 315,
-    "easy": 576,
-    "moderate": 618,
+    "hard": 351,
+    "easy": 1298,
+    "moderate": 727,
     "very easy": 5,
     "very hard": 47
   },
   "quality": {
-    "approved": 1561
+    "approved": 2428
   },
   "topSources": [
     [
@@ -227,11 +227,27 @@
     "pelvis-perineum-80.json",
     "pharmacology.json",
     "principles-of-surgery.json",
-    "upper-limb-80.json"
+    "upper-limb-80.json",
+    "day1quiz/client/src/data/day1.ts",
+    "day1quiz/client/src/data/day2.ts",
+    "day1quiz/client/src/data/day3.ts",
+    "day1quiz/client/src/data/day4.ts",
+    "day1quiz/client/src/data/day5.ts",
+    "day1quiz/client/src/data/day6.ts",
+    "day1quiz/client/src/data/day7.ts",
+    "day1quiz/client/src/data/day8.ts",
+    "day1quiz/client/src/data/day9.ts",
+    "day1quiz/client/src/data/day10.ts",
+    "day1quiz/client/src/data/day11.ts",
+    "day1quiz/client/src/data/day12.ts",
+    "day1quiz/client/src/data/day13.ts",
+    "day1quiz/client/src/data/day14.ts",
+    "day1quiz/client/src/data/day15.ts",
+    "day1quiz/client/src/data/day16.ts"
   ],
   "selectionPolicy": {
     "eligibleForExam": "all unified-bank questions approved by supervising physician instruction",
-    "difficulty": "source-labelled where available; deterministic heuristic otherwise",
+    "difficulty": "source-labelled where available; deterministic heuristic for legacy Daily Go Test imports",
     "unratedDifficulty": "none"
   }
 }

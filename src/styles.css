@@ -570,3 +570,10 @@ a { color: inherit; }
   .telegram-review-head { align-items: flex-start; flex-wrap: wrap; }
   .telegram-review-head > div { min-width: calc(100% - 62px); }
 }
+
+.professor-bridge-card { display: flex; align-items: flex-start; gap: 15px; margin-top: 18px; padding: 22px; border: 1px solid #d8e6eb; border-radius: 17px; background: linear-gradient(135deg, #f2fafb, #fff); }
+.professor-bridge-icon { display: grid; place-items: center; flex: 0 0 auto; width: 44px; height: 44px; border-radius: 13px; color: #0b7078; background: #dff3f1; }
+.professor-bridge-card h2 { margin: 7px 0 8px; color: #20475b; font-size: 19px; }
+.professor-bridge-card p { max-width: 760px; margin: 0; color: #718391; font-size: 11px; line-height: 1.8; }
+.professor-bridge-note { display: inline-flex; align-items: center; gap: 6px; margin-top: 13px; color: #9a6b27; font-size: 10px; font-weight: 800; }
+@media (max-width: 600px) { .professor-bridge-card { padding: 18px; } }

@@ -1,7 +1,7 @@
 # Telegram Test and Updates — implementation report
 
-**Branch:** `feature/telegram-test-updates`  
-**Snapshot:** 16 November 2026  
+**Branch:** `feature/telegram-test-updates`
+**Snapshot:** 16 November 2026
 **Scope:** only the two authorised Telegram-source exports supplied for this task.
 
 ## What changed

@@ -9,7 +9,7 @@ type AuthProfile = { full_name: string; whatsapp: string; phone?: string };
 type AuthSession = { access_token: string; user: { id: string; email?: string; phone?: string; user_metadata?: { full_name?: string; whatsapp?: string; phone?: string } }; profile?: AuthProfile };
 const authStorageKey = 'gsdiploma.supabase.session.v1';
 const authProfileKey = 'gsdiploma.supabase.profile.v1';
-const supabaseConfig = { url: 'https://pfaqnpfszuvvbyvoxbtw.supabase.co', key: 'sb_publishable_...' };
+const supabaseConfig = { url: 'https://pfaqnpfszuvvbyvoxbtw.supabase.co', key: 'sb_publishable_JpcVTV5_Q86-h3faaO3XKQ_5ZXp9M7W' };
 function loadAuth(): AuthSession | null { try { return JSON.parse(localStorage.getItem(authStorageKey) || 'null') as AuthSession | null; } catch { return null; } }
 function loadAuthProfile(): AuthProfile | null { try { return JSON.parse(localStorage.getItem(authProfileKey) || 'null') as AuthProfile | null; } catch { return null; } }
 async function authRequest(path: string, body?: Record<string, unknown>, token?: string) { const headers: Record<string,string> = { apikey: supabaseConfig.key, 'Content-Type': 'application/json' }; if (token) headers.Authorization = `Bearer ${token}`; const response = await fetch(`${supabaseConfig.url}/auth/v1/${path}`, { method: 'POST', headers, body: body ? JSON.stringify(body) : undefined }); const data = await response.json().catch(() => ({})); if (!response.ok) throw new Error(data.msg || data.error_description || data.message || 'Authentication request failed.'); return data; }

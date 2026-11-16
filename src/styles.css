@@ -606,5 +606,42 @@ a { color: inherit; }
   .telegram-test-question { padding: 15px; }
   .telegram-test-nav { flex-wrap: wrap; }
   .telegram-test-finished { display: block; }
-  .telegram-test-finished .feature-icon { margin-bottom: 12px; }
+.telegram-test-finished .feature-icon { margin-bottom: 12px; }
+}
+
+.telegram-student-hero { display: grid; grid-template-columns: minmax(0, 1fr) 230px; gap: 28px; align-items: stretch; margin-bottom: 18px; padding: 34px; border-radius: 22px; color: #fff; background: radial-gradient(circle at 87% 15%, rgba(93,193,185,.33), transparent 38%), linear-gradient(135deg, #113b55, #0a6b72); box-shadow: 0 18px 38px rgba(16,65,82,.15); }
+.telegram-student-hero-copy { max-width: 720px; }
+.telegram-student-hero .status-pill { display: inline-flex; margin-bottom: 22px; color: #d8f4ef; background: rgba(255,255,255,.12); }
+.telegram-student-hero .eyebrow { color: #a8ded9; }
+.telegram-student-hero h1 { max-width: 620px; margin: 9px 0 12px; color: #fff; font-size: clamp(32px, 5vw, 53px); letter-spacing: -.055em; line-height: 1.02; }
+.telegram-student-hero p { max-width: 650px; margin: 0; color: #d6e9eb; font-size: 13px; line-height: 1.85; }
+.telegram-hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; margin-top: 24px; }
+.telegram-hero-actions .button-primary { border-color: #f0c56a; color: #143d53; background: #f0c56a; }
+.telegram-hero-actions > span { display: inline-flex; align-items: center; gap: 6px; color: #c5e2e3; font-size: 10px; font-weight: 700; }
+.telegram-student-hero-card { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 22px; border: 1px solid rgba(255,255,255,.2); border-radius: 17px; background: rgba(255,255,255,.1); }
+.telegram-student-hero-card .feature-icon { margin-bottom: 18px; color: #fff; background: rgba(255,255,255,.14); }
+.telegram-student-hero-card strong { color: #fff; font-size: 48px; line-height: 1; letter-spacing: -.05em; }
+.telegram-student-hero-card > span:not(.feature-icon) { margin-top: 7px; color: #cce6e6; font-size: 12px; }
+.telegram-hero-rule { width: 100%; height: 1px; margin: 22px 0 12px; background: rgba(255,255,255,.2); }
+.telegram-student-hero-card small { color: #b7d9dc; font-size: 10px; line-height: 1.5; }
+.telegram-student-benefits { display: grid; grid-template-columns: repeat(3, 1fr); gap: 13px; margin: 18px 0; }
+.telegram-student-benefits article { display: flex; align-items: flex-start; gap: 11px; min-height: 94px; padding: 16px; border: 1px solid #e0ebee; border-radius: 14px; background: #fff; }
+.benefit-icon { display: grid; place-items: center; flex: 0 0 auto; width: 32px; height: 32px; border-radius: 10px; color: #0b7078; background: #e5f5f3; }
+.telegram-student-benefits strong { display: block; margin: 2px 0 6px; color: #315666; font-size: 12px; }
+.telegram-student-benefits p { margin: 0; color: #718391; font-size: 10px; line-height: 1.65; }
+.telegram-student-footer { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-top: 18px; padding: 23px; border: 1px solid #dce9ed; border-radius: 17px; background: linear-gradient(135deg, #fffaf0, #fff); }
+.telegram-student-footer h2 { max-width: 600px; margin: 7px 0 8px; color: #315666; font-size: 20px; letter-spacing: -.03em; }
+.telegram-student-footer p { max-width: 720px; margin: 0; color: #718391; font-size: 11px; line-height: 1.75; }
+.telegram-student-footer-icon { display: grid; place-items: center; flex: 0 0 auto; width: 54px; height: 54px; border-radius: 16px; color: #aa7a2c; background: #fff0cb; }
+@media (max-width: 700px) {
+  .telegram-student-hero { grid-template-columns: 1fr; padding: 24px 20px; }
+  .telegram-student-hero-card { display: grid; grid-template-columns: auto 1fr; column-gap: 12px; align-items: center; }
+  .telegram-student-hero-card .feature-icon { grid-row: span 3; margin: 0; }
+  .telegram-student-hero-card strong { font-size: 37px; }
+  .telegram-hero-rule { grid-column: 1 / -1; margin: 14px 0 7px; }
+  .telegram-student-hero-card small { grid-column: 1 / -1; }
+  .telegram-student-benefits { grid-template-columns: 1fr; }
+  .telegram-student-benefits article { min-height: 0; }
+  .telegram-student-footer { align-items: flex-start; }
+  .telegram-student-footer-icon { display: none; }
 }

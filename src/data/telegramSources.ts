@@ -66,7 +66,7 @@ export const telegramSources = {
     "learnerRelease": false,
     "answerKey": null,
     "difficulty": null,
-    "status": "pending-clinical-review",
-    "note": "Telegram text is preserved for authorised clinical review only. It is not an approved learner test."
+    "status": "approved-source-awaiting-answer-key",
+    "note": "Source content is clinically approved by the supervising authority; learner release remains blocked until the approved answer key is supplied."
   }
 } as const;

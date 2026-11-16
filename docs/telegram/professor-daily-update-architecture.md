@@ -2,7 +2,7 @@
 
 ## Current state
 
-The site now has a fifth, separate **Telegram Test and Updates** icon and a source-snapshot page. The page is deliberately not connected to Telegram, has no live monitor, and is not scheduled. The 58 imported Group 02 records remain `pending-clinical-review` and are excluded from learner exams.
+The site now has a fifth, separate **Telegram Test and Updates** icon and a source-snapshot page. The page is deliberately not connected to Telegram, has no live monitor, and is not scheduled. The 58 imported Group 02 records are now `approved-source`; they remain excluded from learner exams because the approved answer key is not present.
 
 ## Target daily flow
 
@@ -10,7 +10,7 @@ A future authorised integration can run once per day through a server-side worke
 
 The worker can then send a bounded, source-labelled change set to **GSDIPLOMA Professor**. Professor should return an Arabic daily digest for the supervisor, identify new files/questions/gaps/duplicates, and recommend review actions. It must not invent answer keys, convert poll popularity into an answer, assign clinical approval, or publish a learner exam.
 
-The final stage is a review queue. New question records enter the existing unified-bank workflow with `pending-clinical-review`, `source_answer: null`, `correctOptionIndex: null`, and `eligibleForExam: false`. Only an authorised clinical reviewer can add an answer key and approval. The website can expose the count and status, but it must not expose private group links or account credentials.
+The final stage is a review queue. New question records enter the existing unified-bank workflow with `pending-clinical-review`, `source_answer: null`, `correctOptionIndex: null`, and `eligibleForExam: false`. The source approval is recorded from the supervisor declaration; only an authorised reviewer can add or verify the answer key required for learner release. The website can expose the count and status, but it must not expose private group links or account credentials.
 
 ## Required prerequisites before activation
 

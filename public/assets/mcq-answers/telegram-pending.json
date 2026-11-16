@@ -15,7 +15,7 @@
     ],
     "answer_policy": "source_answer remains null; no inferred answer key",
     "eligible_for_exam": false,
-    "status": "pending-clinical-review"
+    "status": "approved-source-awaiting-answer-key"
   },
   "questions": [
     {
@@ -37,10 +37,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -74,7 +74,12 @@
         "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-003",
@@ -95,10 +100,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -132,7 +137,12 @@
         "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-004",
@@ -153,10 +163,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -190,7 +200,12 @@
         "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-005",
@@ -211,10 +226,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -248,7 +263,12 @@
         "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-006",
@@ -269,10 +289,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -306,7 +326,12 @@
         "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-007",
@@ -327,10 +352,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -364,7 +389,12 @@
         "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-008",
@@ -385,10 +415,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -422,7 +452,12 @@
         "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-009",
@@ -443,10 +478,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -480,7 +515,12 @@
         "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-010",
@@ -501,10 +541,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -538,7 +578,12 @@
         "لم تُلتقط رسالة الاستطلاع مع هذا السجل؛ النص والخيارات من رسالة السؤال الأصلية مكتملان."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-011",
@@ -559,10 +604,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -596,7 +641,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-012",
@@ -617,10 +667,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -654,7 +704,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-013",
@@ -675,10 +730,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -712,7 +767,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-014",
@@ -733,10 +793,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -770,7 +830,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-015",
@@ -791,10 +856,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -828,7 +893,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-016",
@@ -849,10 +919,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -886,7 +956,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-017",
@@ -907,10 +982,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -944,7 +1019,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-018",
@@ -965,10 +1045,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1002,7 +1082,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-019",
@@ -1023,10 +1108,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1060,7 +1145,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-020",
@@ -1081,10 +1171,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1118,7 +1208,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-021",
@@ -1139,10 +1234,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1176,7 +1271,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-022",
@@ -1197,10 +1297,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1234,7 +1334,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-023",
@@ -1255,10 +1360,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1292,7 +1397,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-024",
@@ -1313,10 +1423,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1350,7 +1460,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-025",
@@ -1371,10 +1486,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1408,7 +1523,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-026",
@@ -1429,10 +1549,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1466,7 +1586,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-027",
@@ -1487,10 +1612,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1524,7 +1649,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-028",
@@ -1545,10 +1675,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1582,7 +1712,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-029",
@@ -1603,10 +1738,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1640,7 +1775,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-030",
@@ -1661,10 +1801,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1698,7 +1838,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-031",
@@ -1719,10 +1864,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1758,7 +1903,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": 31,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-032",
@@ -1779,10 +1929,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1816,7 +1966,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-033",
@@ -1837,10 +1992,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1874,7 +2029,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-034",
@@ -1895,10 +2055,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1932,7 +2092,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-035",
@@ -1953,10 +2118,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -1990,7 +2155,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-036",
@@ -2011,10 +2181,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2048,7 +2218,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-037",
@@ -2069,10 +2244,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2108,7 +2283,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": 37,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-038",
@@ -2129,10 +2309,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2166,7 +2346,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-039",
@@ -2187,10 +2372,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2224,7 +2409,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-040",
@@ -2245,10 +2435,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2282,7 +2472,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-041",
@@ -2303,10 +2498,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2340,7 +2535,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-042",
@@ -2361,10 +2561,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2398,7 +2598,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-043",
@@ -2419,10 +2624,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2456,7 +2661,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-044",
@@ -2477,10 +2687,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2514,7 +2724,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-045",
@@ -2535,10 +2750,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2572,7 +2787,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-046",
@@ -2593,10 +2813,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2630,7 +2850,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-047",
@@ -2651,10 +2876,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2688,7 +2913,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-048",
@@ -2709,10 +2939,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2746,7 +2976,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-049",
@@ -2767,10 +3002,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2804,7 +3039,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-050",
@@ -2825,10 +3065,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2862,7 +3102,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-051",
@@ -2883,10 +3128,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2920,7 +3165,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-052",
@@ -2941,10 +3191,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -2978,7 +3228,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-053",
@@ -2999,10 +3254,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -3036,7 +3291,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-054",
@@ -3057,10 +3317,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -3094,7 +3354,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-055",
@@ -3115,10 +3380,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -3152,7 +3417,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-056",
@@ -3173,10 +3443,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -3210,7 +3480,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-057",
@@ -3231,10 +3506,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -3268,7 +3543,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-058",
@@ -3289,10 +3569,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -3326,7 +3606,12 @@
         "لا يوجد حرف إجابة مصدرية معتمد في هذا الاستخراج؛ لا تُحوّل الشروح أو نتائج التصويت إلى مفتاح إجابة."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     },
     {
       "id": "telegram-gs3-mcq-059",
@@ -3347,10 +3632,10 @@
       "difficulty": null,
       "sourceDifficulty": null,
       "difficultyMethod": null,
-      "qualityOriginal": "unrated",
-      "quality": "pending-clinical-review",
-      "reviewStatus": "pending-clinical-review",
-      "approvalNote": "Captured from the authorized Telegram export only; not clinically verified.",
+      "qualityOriginal": "approved-source",
+      "quality": "approved-source",
+      "reviewStatus": "approved-source",
+      "approvalNote": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results.",
       "eligibleForExam": false,
       "origin": "telegram-export",
       "sourceFile": "telegram_project_report.md + group2_questions.json",
@@ -3379,7 +3664,19 @@
         "No source explanation was captured."
       ],
       "duplicate_question_number": null,
-      "status": "pending-clinical-review"
+      "status": "approved-source-awaiting-answer-key",
+      "clinicalReviewStatus": "approved-by-supervisor",
+      "approvedBy": "Professor Nour El-Din Aribi and Official Diploma Administration",
+      "approvedAt": "2026-11-16",
+      "answerKeyStatus": "missing",
+      "learnerReleaseStatus": "blocked-no-answer-key"
     }
-  ]
+  ],
+  "policy": {
+    "learnerRelease": false,
+    "answerKey": null,
+    "difficulty": null,
+    "status": "approved-source-awaiting-answer-key",
+    "note": "Clinically approved by the supervising authority on 2026-11-16. Learner release remains blocked until the approved answer key is supplied; no answer was inferred from source explanations or poll results."
+  }
 }

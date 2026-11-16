@@ -42,7 +42,7 @@ function Icon({ name, size = 20 }: { name: IconName; size?: number }) {
   return <svg {...common}>{paths[name]}</svg>;
 }
 
-function pageFromHash(): Page { const value = window.location.hash.replace(/^#\/?/, '').split('?')[0]; if (!value) return 'account'; return navItems.some((item) => item.id === value) || value === 'account' ? value as Page : 'home'; }
+function pageFromHash(): Page { const value = window.location.hash.replace(/^#\/?/, '').split('?')[0]; return navItems.some((item) => item.id === value) || value === 'account' ? value as Page : 'home'; }
 function loadProgress(): SavedProgress { try { return JSON.parse(localStorage.getItem(storageKey) || '') as SavedProgress; } catch { return { currentDay: 1, answers: {}, scores: {} }; } }
 
 export default function App() {

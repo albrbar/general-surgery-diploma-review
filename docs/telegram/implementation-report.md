@@ -8,7 +8,7 @@
 
 - Added an independent `Telegram Test and Updates` route and home-page icon.
 - Added a source-snapshot page that keeps the two groups visibly separate.
-- Clearly labels the page as a snapshot: live monitoring is not active, automatic updates are not enabled, and no account session, OTP, API hash, bot, or private Telegram URL is stored in the site.
+- Clearly labels the page as a snapshot: live monitoring is not active, automatic updates are not enabled, and no account session, credential, bot, or private Telegram URL is stored in the site.
 - Added 58 Group 02 MCQ records to `public/assets/mcq-answers/unified-bank.json` and retained a separate `telegram-pending.json` intake file.
 - Preserved `source_group`, `source_message_id`, `source_question_id`, source date/timestamp, source explanations, and missing/duplicate notes.
 - Kept `source_answer: null`, `correctOptionIndex: null`, `difficulty: null`, `reviewStatus: pending-clinical-review`, and `eligibleForExam: false` for every imported question.

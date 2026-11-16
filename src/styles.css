@@ -633,6 +633,23 @@ a { color: inherit; }
 .telegram-student-footer h2 { max-width: 600px; margin: 7px 0 8px; color: #315666; font-size: 20px; letter-spacing: -.03em; }
 .telegram-student-footer p { max-width: 720px; margin: 0; color: #718391; font-size: 11px; line-height: 1.75; }
 .telegram-student-footer-icon { display: grid; place-items: center; flex: 0 0 auto; width: 54px; height: 54px; border-radius: 16px; color: #aa7a2c; background: #fff0cb; }
+.telegram-study-links { margin: 18px 0; padding: 23px; border: 1px solid #dce8ec; border-radius: 18px; background: #f8fbfb; }
+.telegram-section-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 15px; margin-bottom: 17px; }
+.telegram-section-heading h2 { margin: 7px 0 7px; color: #315666; font-size: 21px; letter-spacing: -.035em; }
+.telegram-section-heading p { margin: 0; color: #718391; font-size: 11px; line-height: 1.7; }
+.telegram-study-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.telegram-study-group { overflow: hidden; border: 1px solid #dce8ec; border-radius: 13px; background: #fff; }
+.telegram-study-group summary { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 14px; color: #315666; cursor: pointer; list-style: none; }
+.telegram-study-group summary::-webkit-details-marker { display: none; }
+.telegram-study-group summary > svg { transition: transform .2s ease; }
+.telegram-study-group[open] summary > svg { transform: rotate(90deg); }
+.telegram-study-group summary span { display: grid; gap: 4px; }
+.telegram-study-group summary strong { font-size: 12px; }
+.telegram-study-group summary small { color: #8a9ba3; font-size: 9px; }
+.telegram-link-list { display: grid; gap: 6px; padding: 0 10px 11px; }
+.telegram-link-list a { display: flex; align-items: flex-start; gap: 8px; padding: 8px; border-radius: 8px; color: #55727e; background: #f7fafb; font-size: 10px; line-height: 1.45; text-decoration: none; transition: background .18s ease, color .18s ease; }
+.telegram-link-list a:hover { color: #0b7078; background: #e9f6f4; }
+.study-link-icon { display: grid; place-items: center; flex: 0 0 auto; width: 21px; height: 21px; border-radius: 6px; color: #0b7078; background: #dff2ef; }
 @media (max-width: 700px) {
   .telegram-student-hero { grid-template-columns: 1fr; padding: 24px 20px; }
   .telegram-student-hero-card { display: grid; grid-template-columns: auto 1fr; column-gap: 12px; align-items: center; }
@@ -644,4 +661,6 @@ a { color: inherit; }
   .telegram-student-benefits article { min-height: 0; }
   .telegram-student-footer { align-items: flex-start; }
   .telegram-student-footer-icon { display: none; }
+  .telegram-study-links { padding: 17px; }
+  .telegram-study-grid { grid-template-columns: 1fr; }
 }

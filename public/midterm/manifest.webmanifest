@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "GS Diploma Midterm",
+  "short_name": "GS Midterm",
+  "description": "General Surgery Diploma midterm revision: exams, practice, rapid rounds, flashcards and spaced review. Works offline.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./?source=app",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#0e5a66",
+  "theme_color": "#0e5a66",
+  "categories": ["education", "medical"],
+  "icons": [
+    { "src": "../icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "../icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "../icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Full exam", "url": "./?go=exam", "icons": [{ "src": "../icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Rapid 10", "url": "./?go=rapid", "icons": [{ "src": "../icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Smart review", "url": "./?go=review", "icons": [{ "src": "../icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

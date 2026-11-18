@@ -6,7 +6,12 @@
 <title>GS Diploma Midterm</title>
 <meta name="description" content="Midterm revision for the General Surgery Diploma: full exams, practice, rapid rounds, flashcards and spaced review from the course question banks.">
 <meta name="theme-color" content="#0e5a66">
-<link rel="manifest" href="../manifest.webmanifest">
+<link rel="manifest" href="./manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="GS Midterm">
+<link rel="apple-touch-icon" href="../icons/icon-192.png">
 <link rel="icon" href="../icons/icon-192.png">
 <link rel="stylesheet" href="./app.css">
 <script>
@@ -29,11 +34,18 @@
     <div class="chips">
       <span class="chip" id="streakChip" title="Daily streak"></span>
       <span class="chip" id="levelChip" title="Level and XP"></span>
-      <button class="icon-btn" id="settingsBtn" type="button" aria-label="Settings">⚙︎</button>
+      <button class="chip install-chip" type="button" data-install hidden>📲 Install</button>
     </div>
   </div>
 </header>
 <main id="main" tabindex="-1"><p class="loading">Loading question bank…</p></main>
+<nav class="tabbar" aria-label="Main">
+  <button data-nav="home" type="button"><span aria-hidden="true">🏠</span>Home</button>
+  <button data-nav="exam" type="button"><span aria-hidden="true">📝</span>Exam</button>
+  <button data-nav="practice" type="button"><span aria-hidden="true">🎯</span>Practice</button>
+  <button data-nav="review" type="button"><span aria-hidden="true">🔁</span>Review</button>
+  <button data-nav="settings" type="button"><span aria-hidden="true">⚙︎</span>Settings</button>
+</nav>
 <div id="toasts" class="toasts" role="status" aria-live="polite"></div>
 <dialog id="settings" aria-labelledby="settingsTitle"></dialog>
 <canvas id="confetti" aria-hidden="true"></canvas>

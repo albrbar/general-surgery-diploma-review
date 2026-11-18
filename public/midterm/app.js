@@ -77,7 +77,8 @@ const reduceMotion = () => !S.settings.motion || matchMedia('(prefers-reduced-mo
 function toast(msg, ms = 3200) {
   const t = document.createElement('div');
   t.className = 'toast'; t.textContent = msg;
-  $('#toasts').appendChild(t);
+  const box = $('#toasts'); box.appendChild(t);
+  while (box.children.length > 2) box.firstElementChild.remove(); // keep the screen clear
   setTimeout(() => t.remove(), ms);
 }
 
@@ -334,8 +335,12 @@ function startTimer() {
 }
 
 // ---------- Rendering ----------
+function markScreen() {
+  document.body.dataset.screen = screen;
+  document.querySelectorAll('.tabbar [data-nav]').forEach((b) => b.setAttribute('aria-current', b.dataset.nav === screen || (b.dataset.nav === 'practice' && screen === 'setup') ? 'page' : 'false'));
+}
 function go(to) {
-  screen = to; stopTimer();
+  screen = to; stopTimer(); markScreen();
   ({ home: renderHome, setup: renderSetup, quiz: renderQuiz, results: renderResults })[to](true);
   window.scrollTo({ top: 0, behavior: reduceMotion() ? 'auto' : 'smooth' });
 }
@@ -369,6 +374,7 @@ function renderHome() {
       <div class="btn-row"><button class="btn">Save</button><button class="btn ghost" type="button" id="guestBtn">Skip</button></div>
     </form>
   </section>` : ''}
+  <section class="card install" data-install hidden><div><b>📲 Install the app</b><br><small class="muted">Full screen, home-screen icon, works offline.</small></div><button class="btn">Install</button></section>
   <section class="card hero" aria-label="Your progress">
     <div class="hero-row">
       <div style="flex:1;min-width:220px">
@@ -416,6 +422,7 @@ function renderHome() {
     $('#guestBtn').onclick = () => { S.guest = true; Store.save(); renderHome(); };
   }
   $('#importFile').onchange = importBackup;
+  paintInstall();
 }
 
 function renderSetup() {
@@ -471,11 +478,10 @@ function renderQuiz(focus) {
   if (s.mode === 'flash') {
     main().innerHTML = `${bar}<article class="card flash">${meta}<h2 class="stem" id="stem" tabindex="-1">${esc(q.q)}</h2>
       ${s.flipped ? `<div class="answer"><strong>${letter(q.a)}. ${esc(q.o[q.a])}</strong>${q.e ? `<p style="margin:8px 0 0">${esc(q.e)}</p>` : ''}${q.flag ? '<p class="muted" style="margin:6px 0 0">⚠️ Unverified Telegram answer</p>' : ''}<div class="src muted" style="font-size:.8rem;margin-top:6px">Source: ${esc(q.src)}</div></div>
-      <div class="grades" role="group" aria-label="How well did you know it?">
+      </article><div class="actionbar"><div class="grades" role="group" aria-label="How well did you know it?">
         <button class="btn danger" data-g="0">Again<small>10 min · 1</small></button><button class="btn subtle" data-g="1">Hard<small>${INTERVALS[Math.max(1, S.srs[q.id]?.b || 1)]} d · 2</small></button>
-        <button class="btn subtle" data-g="2">Good<small>${INTERVALS[Math.min(5, (S.srs[q.id]?.b || 0) + 1)]} d · 3</small></button><button class="btn" data-g="3">Easy<small>${INTERVALS[Math.min(5, (S.srs[q.id]?.b || 0) + 2)]} d · 4</small></button></div>`
-      : `<p class="muted">Think of the answer, then flip the card.</p><details><summary class="muted">Show the options</summary><ol type="A">${q.o.map((o) => `<li>${esc(o)}</li>`).join('')}</ol></details><div style="margin-top:auto;padding-top:16px"><button class="btn" data-act="flip" style="width:100%">Flip card <kbd>Space</kbd></button></div>`}
-      </article>`;
+        <button class="btn subtle" data-g="2">Good<small>${INTERVALS[Math.min(5, (S.srs[q.id]?.b || 0) + 1)]} d · 3</small></button><button class="btn" data-g="3">Easy<small>${INTERVALS[Math.min(5, (S.srs[q.id]?.b || 0) + 2)]} d · 4</small></button></div></div>`
+      : `<p class="muted">Think of the answer, then flip the card.</p><details><summary class="muted">Show the options</summary><ol type="A">${q.o.map((o) => `<li>${esc(o)}</li>`).join('')}</ol></details></article><div class="actionbar"><button class="btn" data-act="flip" style="flex:1">Flip card</button></div>`}`;
     main().querySelectorAll('[data-g]').forEach((b) => b.onclick = () => flashGrade(+b.dataset.g));
     if (focus) $('#stem').focus();
     return;
@@ -492,13 +498,13 @@ function renderQuiz(focus) {
   main().innerHTML = `${bar}<article class="card">${meta}<h2 class="stem" id="stem" tabindex="-1">${esc(q.q)}</h2>
     <div class="options" role="group" aria-label="Answer options">${opts}</div>
     <div aria-live="polite">${reveal ? explanationBlock(q, a === q.a, a) : ''}${s.feedback === 'end' && a === null ? '<p class="muted" style="margin-top:12px">⏱️ Time ran out on this one — you can still answer it.</p>' : ''}</div>
-    <div class="qnav"><button class="btn subtle" data-act="prev" ${s.idx === 0 ? 'disabled' : ''}>← Previous</button>
-      ${s.feedback === 'end' ? `<button class="btn ghost" data-act="finish">Finish exam</button>` : ''}
-      <button class="btn" data-act="next" ${s.feedback === 'instant' && !reveal ? 'disabled' : ''}>${last ? 'See results' : 'Next →'}</button></div>
     <p class="kbd">Keys: <kbd>1</kbd>–<kbd>${q.o.length}</kbd> answer · <kbd>Enter</kbd> next · <kbd>←</kbd> back</p>
   </article>
-  ${s.feedback === 'end' ? `<section class="card"><details ${n <= 40 ? 'open' : ''}><summary><b>Question map</b> <span class="muted">· ${answeredCount}/${n} answered</span></summary>
-    <div class="nums">${s.ids.map((id, i) => `<button class="num ${s.ans[id] === null ? 'skipped' : s.ans[id] !== undefined ? 'answered' : ''} ${i === s.idx ? 'cur' : ''}" data-jump="${i}" aria-label="Question ${i + 1}${s.ans[id] === null ? ', skipped' : s.ans[id] !== undefined ? ', answered' : ''}">${i + 1}</button>`).join('')}</div></details></section>` : ''}`;
+  ${s.feedback === 'end' ? `<section class="card"><details><summary><b>Question map</b> <span class="muted">· ${answeredCount}/${n} answered</span></summary>
+    <div class="nums">${s.ids.map((id, i) => `<button class="num ${s.ans[id] === null ? 'skipped' : s.ans[id] !== undefined ? 'answered' : ''} ${i === s.idx ? 'cur' : ''}" data-jump="${i}" aria-label="Question ${i + 1}${s.ans[id] === null ? ', skipped' : s.ans[id] !== undefined ? ', answered' : ''}">${i + 1}</button>`).join('')}</div></details></section>` : ''}
+  <div class="actionbar"><button class="btn subtle" data-act="prev" ${s.idx === 0 ? 'disabled' : ''} aria-label="Previous question">←</button>
+    ${s.feedback === 'end' ? `<button class="btn ghost" data-act="finish">Finish</button>` : ''}
+    <button class="btn" style="flex:1" data-act="next" ${s.feedback === 'instant' && !reveal ? 'disabled' : ''}>${last ? 'See results' : 'Next →'}</button></div>`;
   main().querySelectorAll('[data-opt]').forEach((b) => b.onclick = () => choose(+b.dataset.opt));
   main().querySelectorAll('[data-jump]').forEach((b) => b.onclick = () => jump(+b.dataset.jump));
   startTimer();
@@ -627,7 +633,30 @@ document.addEventListener('keydown', (e) => {
 });
 
 $('#homeBtn').onclick = () => go('home');
-$('#settingsBtn').onclick = openSettings;
+document.querySelectorAll('.tabbar [data-nav]').forEach((b) => b.onclick = () => {
+  const n = b.dataset.nav;
+  if (n === 'settings') return openSettings();
+  if (n === 'home') return go('home');
+  if (S.session && !S.session.done && !confirm('Start a new session? Your unfinished one will be discarded.')) return;
+  if (n === 'practice') return go('setup');
+  startSession(n);
+});
+
+// ---------- Install as an app (Android / desktop Chrome, iOS instructions) ----------
+let installEvt = null;
+const standalone = () => matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+function paintInstall() {
+  const show = !standalone() && (installEvt || isIOS);
+  document.querySelectorAll('[data-install]').forEach((el) => { el.hidden = !show; });
+}
+window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); installEvt = e; paintInstall(); });
+window.addEventListener('appinstalled', () => { installEvt = null; paintInstall(); toast('📲 Installed! Open GS Midterm from your home screen.'); });
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('[data-install]')) return;
+  if (installEvt) { installEvt.prompt(); installEvt.userChoice.finally(() => { installEvt = null; paintInstall(); }); }
+  else if (isIOS) alert('To install: tap the Share button in Safari, then “Add to Home Screen”.');
+});
 document.addEventListener('visibilitychange', () => { if (!document.hidden && screen === 'home') renderChips(); });
 
 // ---------- Boot ----------
@@ -640,9 +669,11 @@ Promise.all([
   LECTURES = lectures.groups || [];
   if (S.session && S.session.ids.some((id) => !BYID.has(id))) S.session = null; // bank changed
   go('home');
+  const shortcut = new URLSearchParams(location.search).get('go'); // home-screen shortcuts
+  if (shortcut && MODES[shortcut] && !(S.session && !S.session.done)) { history.replaceState(null, '', './'); shortcut === 'practice' ? go('setup') : startSession(shortcut); }
 }).catch(() => { main().innerHTML = '<div class="card empty"><h2>Could not load the question bank</h2><p class="muted">Check your connection and reload. Once loaded, it works offline.</p><button class="btn" onclick="location.reload()">Reload</button></div>'; });
 
-if ('serviceWorker' in navigator && location.protocol === 'https:') {
-  navigator.serviceWorker.register('../sw.js', { scope: '../' }).catch(() => {});
+if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+  navigator.serviceWorker.register('./sw.js', { scope: './' }).catch(() => {});
 }
 })();

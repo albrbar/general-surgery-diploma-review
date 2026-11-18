@@ -21,6 +21,20 @@
     if (s.theme && s.theme !== 'auto') document.documentElement.dataset.theme = s.theme;
     if (s.text) document.documentElement.style.setProperty('--scale', s.text / 100);
   } catch (e) {}
+
+  // Phones in "Desktop site" mode (or in-app browsers that ignore the viewport tag) lay the
+  // page out ~1000px+ wide, making everything tiny. Scale back to the real screen width.
+  window.gsFitPhone = function () {
+    var root = document.documentElement, land = matchMedia('(orientation: landscape)').matches;
+    var sw = land ? Math.max(screen.width, screen.height) : Math.min(screen.width, screen.height);
+    root.style.zoom = '';
+    var touch = matchMedia('(pointer: coarse)').matches || navigator.maxTouchPoints > 0;
+    var w = root.clientWidth || innerWidth;
+    if (touch && sw && sw < 820 && w > sw * 1.2) { root.style.zoom = (w / sw).toFixed(3); root.dataset.fit = 'phone'; }
+    else delete root.dataset.fit;
+  };
+  gsFitPhone();
+  addEventListener('resize', gsFitPhone);
 </script>
 </head>
 <body>

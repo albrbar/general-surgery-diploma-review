@@ -239,6 +239,7 @@ function choose(i) {
   if (s.feedback === 'instant') settle(q, i === q.a);
   else stopTimer();
   Store.save(); renderQuiz();
+  if (s.feedback === 'instant') { const fb = $('.feedback'); if (fb) fb.scrollIntoView({ block: 'nearest', behavior: reduceMotion() ? 'auto' : 'smooth' }); }
 }
 
 function settle(q, ok) { // instant-feedback grading
@@ -389,7 +390,7 @@ function renderHome() {
   ${sess ? `<section class="card" style="border-color:var(--brand)"><div class="hero-row"><div><h2>${MODES[sess.mode]?.icon || '🎯'} Resume: ${esc(sess.title)}</h2><p class="muted">Question ${sess.idx + 1} of ${sess.ids.length} · ${Object.keys(sess.ans).length} answered</p></div><div class="btn-row"><button class="btn" data-act="resume">Resume</button><button class="btn ghost" data-act="discard">Discard</button></div></div></section>` : ''}
   <div class="section-head"><h2>Choose a mode</h2><span class="muted">${POOL.total.toLocaleString()} questions</span></div>
   <div class="grid modes">
-    ${Object.entries(MODES).map(([k, m]) => `<button class="mode" data-mode="${k}"><span class="ico" aria-hidden="true">${m.icon}</span><strong>${m.label}</strong><small>${m.desc}</small>${k === 'review' && due ? `<span class="badge-n">${due} due</span>` : ''}${k === 'rapid' && S.bestRapid ? `<span class="badge-n">Best ${S.bestRapid}/10</span>` : ''}</button>`).join('')}
+    ${Object.entries(MODES).map(([k, m]) => `<button class="mode mode-${k}" data-mode="${k}"><span class="ico" aria-hidden="true">${m.icon}</span><strong>${m.label}</strong><small>${m.desc}</small>${k === 'review' && due ? `<span class="badge-n">${due} due</span>` : ''}${k === 'rapid' && S.bestRapid ? `<span class="badge-n">Best ${S.bestRapid}/10</span>` : ''}</button>`).join('')}
   </div>
   <div class="section-head"><h2>Coach</h2></div>
   <section class="card coach">
@@ -468,7 +469,7 @@ function renderQuiz(focus) {
   renderChips();
   const q = cur(), a = s.ans[q.id], n = s.ids.length;
   const answeredCount = s.ids.filter((id) => s.ans[id] !== undefined && s.ans[id] !== null).length;
-  const meta = `<div class="qmeta"><span class="tag">${esc(sectionLabel(q.s))}</span><span class="tag">${esc(q.t)}</span><span class="tag ${q.d === 'hard' ? 'hard' : q.d === 'easy' ? 'easy' : ''}">${q.d}</span>${q.flag ? '<span class="tag flag" title="Answer inferred from the Telegram explanation">Unverified</span>' : ''}</div>`;
+  const meta = `<div class="qmeta"><span class="tag sec sec-${q.s}">${esc(sectionLabel(q.s))}</span><span class="tag">${esc(q.t)}</span><span class="tag ${q.d === 'hard' ? 'hard' : q.d === 'easy' ? 'easy' : ''}">${q.d}</span>${q.flag ? '<span class="tag flag" title="Answer inferred from the Telegram explanation">Unverified</span>' : ''}</div>`;
   const bar = `<div class="quizbar"><div class="qb-top"><strong>${MODES[s.mode]?.icon || '🎯'} ${esc(s.title)} · ${s.idx + 1}/${n}</strong>
     ${s.feedback === 'instant' && s.combo >= 2 ? `<span class="combo" aria-label="Combo ${s.combo}">🔥×${s.combo}</span>` : ''}
     <span id="timer" class="timer off" aria-live="off">—</span>
@@ -500,11 +501,11 @@ function renderQuiz(focus) {
     <div aria-live="polite">${reveal ? explanationBlock(q, a === q.a, a) : ''}${s.feedback === 'end' && a === null ? '<p class="muted" style="margin-top:12px">⏱️ Time ran out on this one — you can still answer it.</p>' : ''}</div>
     <p class="kbd">Keys: <kbd>1</kbd>–<kbd>${q.o.length}</kbd> answer · <kbd>Enter</kbd> next · <kbd>←</kbd> back</p>
   </article>
-  ${s.feedback === 'end' ? `<section class="card"><details><summary><b>Question map</b> <span class="muted">· ${answeredCount}/${n} answered</span></summary>
-    <div class="nums">${s.ids.map((id, i) => `<button class="num ${s.ans[id] === null ? 'skipped' : s.ans[id] !== undefined ? 'answered' : ''} ${i === s.idx ? 'cur' : ''}" data-jump="${i}" aria-label="Question ${i + 1}${s.ans[id] === null ? ', skipped' : s.ans[id] !== undefined ? ', answered' : ''}">${i + 1}</button>`).join('')}</div></details></section>` : ''}
   <div class="actionbar"><button class="btn subtle" data-act="prev" ${s.idx === 0 ? 'disabled' : ''} aria-label="Previous question">←</button>
     ${s.feedback === 'end' ? `<button class="btn ghost" data-act="finish">Finish</button>` : ''}
-    <button class="btn" style="flex:1" data-act="next" ${s.feedback === 'instant' && !reveal ? 'disabled' : ''}>${last ? 'See results' : 'Next →'}</button></div>`;
+    <button class="btn next" style="flex:1" data-act="next" ${s.feedback === 'instant' && !reveal ? 'disabled' : ''}>${last ? 'See results' : 'Next →'}</button></div>
+  ${s.feedback === 'end' ? `<section class="card"><details><summary><b>Question map</b> <span class="muted">· ${answeredCount}/${n} answered</span></summary>
+    <div class="nums">${s.ids.map((id, i) => `<button class="num ${s.ans[id] === null ? 'skipped' : s.ans[id] !== undefined ? 'answered' : ''} ${i === s.idx ? 'cur' : ''}" data-jump="${i}" aria-label="Question ${i + 1}${s.ans[id] === null ? ', skipped' : s.ans[id] !== undefined ? ', answered' : ''}">${i + 1}</button>`).join('')}</div></details></section>` : ''}`;
   main().querySelectorAll('[data-opt]').forEach((b) => b.onclick = () => choose(+b.dataset.opt));
   main().querySelectorAll('[data-jump]').forEach((b) => b.onclick = () => jump(+b.dataset.jump));
   startTimer();

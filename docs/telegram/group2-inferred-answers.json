@@ -1,0 +1,293 @@
+{
+ "description": "Answer key for Telegram Group 2 MCQs, inferred ONLY from the explanation posted with each question in the Telegram group. Not clinically verified. Question 059 is excluded because no explanation was posted.",
+ "method": "manual reading of posted explanation; option chosen only where the explanation states it unambiguously",
+ "status": "inferred-unverified",
+ "inferredAt": "2026-11-18",
+ "answers": {
+  "telegram-gs3-mcq-002": {
+   "correctOptionIndex": 3,
+   "letter": "D",
+   "option": "The retromammary space and pectoralis major"
+  },
+  "telegram-gs3-mcq-003": {
+   "correctOptionIndex": 1,
+   "letter": "B",
+   "option": "Nipple in the 4th intercostal space about 10 cm (4 in) from the midline; apex beat in the 5th space about 9 cm from the midline"
+  },
+  "telegram-gs3-mcq-004": {
+   "correctOptionIndex": 0,
+   "letter": "A",
+   "option": "Colostrum is secreted, the alveoli are distended and the whole breast enlarges"
+  },
+  "telegram-gs3-mcq-005": {
+   "correctOptionIndex": 3,
+   "letter": "D",
+   "option": "The suspensory ligaments of Cooper"
+  },
+  "telegram-gs3-mcq-006": {
+   "correctOptionIndex": 0,
+   "letter": "A",
+   "option": "Blocked skin lymphatics causing oedema, with the skin held down at the hair follicles and sweat-gland openings"
+  },
+  "telegram-gs3-mcq-007": {
+   "correctOptionIndex": 3,
+   "letter": "D",
+   "option": "Venous blood through the posterior intercostal veins into the valveless vertebral venous plexus (Batson)"
+  },
+  "telegram-gs3-mcq-008": {
+   "correctOptionIndex": 1,
+   "letter": "B",
+   "option": "75% axillary, 20% parasternal (internal thoracic), 5% paravertebral (posterior intercostal)"
+  },
+  "telegram-gs3-mcq-009": {
+   "correctOptionIndex": 4,
+   "letter": "E",
+   "option": "Lymphatics of the anterior abdominal wall"
+  },
+  "telegram-gs3-mcq-010": {
+   "correctOptionIndex": 3,
+   "letter": "D",
+   "option": "Intermammary lymphatics that cross the midline between the two breasts"
+  },
+  "telegram-gs3-mcq-011": {
+   "correctOptionIndex": 2,
+   "letter": "C",
+   "option": "The pretracheal fascia (false capsule) wraps the gland together with the larynx, trachea and pharynx"
+  },
+  "telegram-gs3-mcq-012": {
+   "correctOptionIndex": 4,
+   "letter": "E",
+   "option": "The pretracheal fascia is attached above to the oblique line of the thyroid cartilage, blocking upward spread, but is open below toward the superior mediastinum"
+  },
+  "telegram-gs3-mcq-013": {
+   "correctOptionIndex": 1,
+   "letter": "B",
+   "option": "The inferior thyroid artery comes from the thyrocervical trunk (1st part of the subclavian) and is the main supply, including the parathyroids"
+  },
+  "telegram-gs3-mcq-014": {
+   "correctOptionIndex": 0,
+   "letter": "A",
+   "option": "The superior and middle thyroid veins drain into the internal jugular vein; the inferior veins usually drain into the left brachiocephalic vein"
+  },
+  "telegram-gs3-mcq-015": {
+   "correctOptionIndex": 3,
+   "letter": "D",
+   "option": "External laryngeal nerve – cricothyroid"
+  },
+  "telegram-gs3-mcq-016": {
+   "correctOptionIndex": 1,
+   "letter": "B",
+   "option": "Partial (incomplete) injury of both recurrent laryngeal nerves"
+  },
+  "telegram-gs3-mcq-017": {
+   "correctOptionIndex": 4,
+   "letter": "E",
+   "option": "To protect the blood supply of the parathyroid glands, which come from the inferior thyroid artery"
+  },
+  "telegram-gs3-mcq-018": {
+   "correctOptionIndex": 1,
+   "letter": "B",
+   "option": "The inferior parathyroid, from the 3rd pharyngeal pouch"
+  },
+  "telegram-gs3-mcq-019": {
+   "correctOptionIndex": 1,
+   "letter": "B",
+   "option": "Each lobe reaches up to the oblique line of the thyroid cartilage and down to about the 5th– 6th tracheal ring; the isthmus covers rings 2– 4"
+  },
+  "telegram-gs3-mcq-020": {
+   "correctOptionIndex": 3,
+   "letter": "D",
+   "option": "Prelaryngeal, pretracheal and paratracheal first; deep cervical last"
+  },
+  "telegram-gs3-mcq-021": {
+   "correctOptionIndex": 1,
+   "letter": "B",
+   "option": "The left subclavian and left common carotid arise directly from the arch; the right ones arise from the brachiocephalic trunk"
+  },
+  "telegram-gs3-mcq-022": {
+   "correctOptionIndex": 0,
+   "letter": "A",
+   "option": "Costocervical trunk"
+  },
+  "telegram-gs3-mcq-023": {
+   "correctOptionIndex": 4,
+   "letter": "E",
+   "option": "Superior thyroid artery"
+  },
+  "telegram-gs3-mcq-024": {
+   "correctOptionIndex": 2,
+   "letter": "C",
+   "option": "It usually enters the foramen transversarium of C6, runs up through C6–C1, grooves the posterior arch of the atlas, and joins its partner at the pons to form the basilar artery"
+  },
+  "telegram-gs3-mcq-025": {
+   "correctOptionIndex": 0,
+   "letter": "A",
+   "option": "Posterior inferior cerebellar artery"
+  },
+  "telegram-gs3-mcq-026": {
+   "correctOptionIndex": 2,
+   "letter": "C",
+   "option": "Upper border of the thyroid cartilage (disc between C3 and C4); the carotid sinus (baroreceptor) and carotid body (chemoreceptor)"
+  },
+  "telegram-gs3-mcq-027": {
+   "correctOptionIndex": 1,
+   "letter": "B",
+   "option": "Hypoglossal nerve"
+  },
+  "telegram-gs3-mcq-028": {
+   "correctOptionIndex": 4,
+   "letter": "E",
+   "option": "Ascending pharyngeal artery"
+  },
+  "telegram-gs3-mcq-029": {
+   "correctOptionIndex": 1,
+   "letter": "B",
+   "option": "First (mandibular) part"
+  },
+  "telegram-gs3-mcq-030": {
+   "correctOptionIndex": 4,
+   "letter": "E",
+   "option": "The third part of the maxillary artery"
+  },
+  "telegram-gs3-mcq-031": {
+   "correctOptionIndex": 3,
+   "letter": "D",
+   "option": "Brachial divides into radial and ulnar at the level of the neck of the radius in the cubital fossa"
+  },
+  "telegram-gs3-mcq-032": {
+   "correctOptionIndex": 2,
+   "letter": "C",
+   "option": "Posterior circumflex humeral artery"
+  },
+  "telegram-gs3-mcq-033": {
+   "correctOptionIndex": 0,
+   "letter": "A",
+   "option": "Acromial, pectoral, clavicular and deltoid"
+  },
+  "telegram-gs3-mcq-034": {
+   "correctOptionIndex": 3,
+   "letter": "D",
+   "option": "The scapular anastomosis: suprascapular and dorsal scapular (from the 1st part of the subclavian) joining the circumflex scapular and subscapular (from the 3rd part of the axillary), with the posterior intercostals"
+  },
+  "telegram-gs3-mcq-035": {
+   "correctOptionIndex": 1,
+   "letter": "B",
+   "option": "The first part has the cephalic vein in front and the long thoracic nerve behind it"
+  },
+  "telegram-gs3-mcq-036": {
+   "correctOptionIndex": 3,
+   "letter": "D",
+   "option": "Profunda brachii (deep brachial)"
+  },
+  "telegram-gs3-mcq-037": {
+   "correctOptionIndex": 2,
+   "letter": "C",
+   "option": "Bicipital aponeurosis"
+  },
+  "telegram-gs3-mcq-038": {
+   "correctOptionIndex": 1,
+   "letter": "B",
+   "option": "The superficial arch is formed mainly by the ulnar artery (completed by the superficial palmar branch of the radial) and lies more distally; the deep arch is formed mainly by the radial artery (completed by the deep branch of the ulnar) and lies more proximally"
+  },
+  "telegram-gs3-mcq-039": {
+   "correctOptionIndex": 3,
+   "letter": "D",
+   "option": "The artery is covered only by skin and fascia, lateral to the flexor carpi radialis tendon, after leaving the cover of brachioradialis"
+  },
+  "telegram-gs3-mcq-040": {
+   "correctOptionIndex": 0,
+   "letter": "A",
+   "option": "First dorsal interosseous"
+  },
+  "telegram-gs3-mcq-041": {
+   "correctOptionIndex": 4,
+   "letter": "E",
+   "option": "Femoral becomes popliteal at the adductor hiatus in adductor magnus"
+  },
+  "telegram-gs3-mcq-042": {
+   "correctOptionIndex": 3,
+   "letter": "D",
+   "option": "Midway between the anterior superior iliac spine and the pubic symphysis"
+  },
+  "telegram-gs3-mcq-043": {
+   "correctOptionIndex": 1,
+   "letter": "B",
+   "option": "In the femoral triangle it lies in the femoral sheath with the vein MEDIAL to it; in the adductor (subsartorial, Hunter's) canal it is covered by sartorius, with adductor longus and magnus behind"
+  },
+  "telegram-gs3-mcq-044": {
+   "correctOptionIndex": 4,
+   "letter": "E",
+   "option": "Three superficial branches (superficial epigastric, superficial circumflex iliac, superficial external pudendal), plus deep external pudendal, profunda femoris and descending genicular"
+  },
+  "telegram-gs3-mcq-045": {
+   "correctOptionIndex": 2,
+   "letter": "C",
+   "option": "The 'common femoral' is the first ~4 cm of the femoral artery, before the profunda arises"
+  },
+  "telegram-gs3-mcq-046": {
+   "correctOptionIndex": 0,
+   "letter": "A",
+   "option": "In adults the head depends mainly on retinacular branches of the medial and lateral circumflex femoral arteries, which run along the neck and are torn; the obturator artery's branch in the ligamentum teres becomes negligible with age"
+  },
+  "telegram-gs3-mcq-047": {
+   "correctOptionIndex": 0,
+   "letter": "A",
+   "option": "Inferior gluteal, medial and lateral circumflex femoral, and first perforating arteries"
+  },
+  "telegram-gs3-mcq-048": {
+   "correctOptionIndex": 0,
+   "letter": "A",
+   "option": "Tibial nerve, popliteal vein, popliteal artery (deepest, on the joint capsule and bone)"
+  },
+  "telegram-gs3-mcq-049": {
+   "correctOptionIndex": 4,
+   "letter": "E",
+   "option": "It gives five genicular arteries (superior medial and lateral, inferior medial and lateral, middle), which join the knee anastomosis with the descending genicular, the descending branch of the lateral circumflex femoral and tibial recurrent branches"
+  },
+  "telegram-gs3-mcq-050": {
+   "correctOptionIndex": 1,
+   "letter": "B",
+   "option": "The anterior tibial artery after it passes in front of the ankle joint"
+  },
+  "telegram-gs3-mcq-051": {
+   "correctOptionIndex": 1,
+   "letter": "B",
+   "option": "The level of the umbilicus in the right midclavicular line"
+  },
+  "telegram-gs3-mcq-052": {
+   "correctOptionIndex": 1,
+   "letter": "B",
+   "option": "Visceral afferents from the appendix enter the cord at T10, the same segment that supplies the skin of the umbilicus"
+  },
+  "telegram-gs3-mcq-053": {
+   "correctOptionIndex": 2,
+   "letter": "C",
+   "option": "Scarpa's fascia fuses with the fascia lata about a finger-breadth below the inguinal ligament"
+  },
+  "telegram-gs3-mcq-054": {
+   "correctOptionIndex": 0,
+   "letter": "A",
+   "option": "Cremaster muscle and fascia – internal oblique"
+  },
+  "telegram-gs3-mcq-055": {
+   "correctOptionIndex": 3,
+   "letter": "D",
+   "option": "An opening in transversalis fascia about 1.25 cm (½ in) above the mid-inguinal point, just lateral to the inferior epigastric artery"
+  },
+  "telegram-gs3-mcq-056": {
+   "correctOptionIndex": 0,
+   "letter": "A",
+   "option": "Ilioinguinal nerve"
+  },
+  "telegram-gs3-mcq-057": {
+   "correctOptionIndex": 3,
+   "letter": "D",
+   "option": "Is a direct hernia through Hesselbach's triangle"
+  },
+  "telegram-gs3-mcq-058": {
+   "correctOptionIndex": 2,
+   "letter": "C",
+   "option": "The pubic branch of the inferior epigastric artery and the obturator artery (accessory / abnormal obturator)"
+  }
+ }
+}

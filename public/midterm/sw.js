@@ -1,5 +1,5 @@
 // Offline support for the installable GS Midterm app (scope: /midterm/).
-const CACHE = 'gs-midterm-v1';
+const CACHE = 'gs-midterm-v2';
 const SHELL = ['./', './index.html', './app.js', './app.css', './pool.json', './lecture-links.json', './manifest.webmanifest', '../icons/icon-192.png', '../icons/icon-512.png'];
 
 self.addEventListener('install', (e) => {

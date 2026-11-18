@@ -196,7 +196,7 @@ body[data-screen="quiz"] .tabbar{display:none}
 .actionbar .grades{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;width:100%;margin:0;padding:0}
 .flash{min-height:0}
 @media (pointer:coarse){.kbd{display:none}}
-@media (min-width:600px){body{background:linear-gradient(var(--bg),var(--bg)) center/560px 100% no-repeat,var(--surface2)}}
+@media (min-width:600px){:root:not([data-fit]) body{background:linear-gradient(var(--bg),var(--bg)) center/560px 100% no-repeat,var(--surface2)}}
 @media (display-mode:standalone){.topbar{background:var(--surface)}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 @media print{

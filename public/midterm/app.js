@@ -4,6 +4,7 @@
 (() => {
 'use strict';
 
+const APP_VERSION = '2026.11.18-5';
 const KEY = 'gsd.midterm.v2';
 const DAY = 864e5;
 const INTERVALS = [0, 1, 3, 7, 14, 30]; // days per spaced-repetition box
@@ -415,7 +416,7 @@ function renderHome() {
     <p class="muted">Progress is stored in this browser${S.profile ? ` for <b>${esc(S.profile.name)}</b>` : ''}. Export a backup to move it to another device.</p>
     <div class="btn-row"><button class="btn subtle" data-act="export">⬇️ Export backup</button><label class="btn subtle" for="importFile">⬆️ Import backup</label><input type="file" id="importFile" accept="application/json" hidden>${S.profile ? '<button class="btn subtle" data-act="profile">✏️ Edit name</button>' : ''}<button class="btn danger" data-act="reset">Reset progress</button></div>
   </section>
-  <p class="foot">Questions and explanations come only from the course banks (lecture banks, GS diploma Drive banks, Day 1–16) and Telegram GS group 2. Telegram answers were inferred from the explanation posted with each question and are marked <b>Unverified</b>. ${POOL.withExplanation.toLocaleString()} of ${POOL.total.toLocaleString()} questions have a source explanation.</p>`;
+  <p class="foot">App version ${APP_VERSION}. Questions and explanations come only from the course banks (lecture banks, GS diploma Drive banks, Day 1–16) and Telegram GS group 2. Telegram answers were inferred from the explanation posted with each question and are marked <b>Unverified</b>. ${POOL.withExplanation.toLocaleString()} of ${POOL.total.toLocaleString()} questions have a source explanation.</p>`;
 
   const f = $('#profileForm');
   if (f) {
@@ -556,7 +557,7 @@ function openSettings() {
     <label class="check"><input type="checkbox" id="sSound" ${st.sound ? 'checked' : ''}> Sound effects</label>
     <label class="check"><input type="checkbox" id="sVib" ${st.vibrate ? 'checked' : ''}> Vibrate on wrong answer</label>
     <label class="check"><input type="checkbox" id="sMotion" ${st.motion ? 'checked' : ''}> Animations and confetti</label>
-    <div class="btn-row" style="margin-top:14px"><button class="btn">Done</button></div></form>`;
+    <div class="btn-row" style="margin-top:14px"><button class="btn">Done</button><button class="btn subtle" type="button" id="forceUpdate">Update app</button></div><p class="muted" style="font-size:.8rem;margin:10px 0 0">Version ${APP_VERSION}</p></form>`;
   const apply = () => {
     st.theme = $('#sTheme').value; st.text = +$('#sText').value; st.seconds = +$('#sSec').value; st.goal = +$('#sGoal').value;
     st.examTimer = $('#sExamT').checked; st.practiceTimer = $('#sPracT').checked; st.unverified = $('#sUnv').checked;
@@ -565,6 +566,10 @@ function openSettings() {
     applyLook(); Store.save();
   };
   d.querySelectorAll('select,input').forEach((el) => el.addEventListener('input', apply));
+  $('#forceUpdate').onclick = async () => { // clear offline copies and reload the newest version (progress is kept)
+    try { const regs = await navigator.serviceWorker?.getRegistrations?.() || []; await Promise.all(regs.map((r) => r.unregister())); const keys = await caches.keys(); await Promise.all(keys.filter((k) => k.startsWith('gs-midterm-') || k.startsWith('gsdiploma-')).map((k) => caches.delete(k))); } catch (e) { /* ignore */ }
+    location.replace('./?v=' + Date.now());
+  };
   d.onclose = () => { if (screen === 'home' || screen === 'setup') go(screen); else renderChips(); };
   d.showModal();
 }
@@ -675,6 +680,13 @@ Promise.all([
 }).catch(() => { main().innerHTML = '<div class="card empty"><h2>Could not load the question bank</h2><p class="muted">Check your connection and reload. Once loaded, it works offline.</p><button class="btn" onclick="location.reload()">Reload</button></div>'; });
 
 if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
-  navigator.serviceWorker.register('./sw.js', { scope: './' }).catch(() => {});
+  let reloaded = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { // new version took over: reload once
+    if (reloaded || (S.session && !S.session.done && screen === 'quiz')) return;
+    reloaded = true; location.reload();
+  });
+  navigator.serviceWorker.register('./sw.js', { scope: './', updateViaCache: 'none' })
+    .then((reg) => { reg.update(); document.addEventListener('visibilitychange', () => { if (!document.hidden) reg.update(); }); })
+    .catch(() => {});
 }
 })();

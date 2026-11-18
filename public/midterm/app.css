@@ -191,13 +191,17 @@ body[data-screen="quiz"] .tabbar{display:none}
 .feedback{padding:12px;margin-top:12px;font-size:.95rem}
 .actionbar{position:sticky;bottom:0;z-index:15;display:flex;gap:8px;align-items:stretch;margin:-2px -12px 10px;
   background:linear-gradient(to top,var(--bg) 70%,transparent);padding:8px 12px calc(8px + env(safe-area-inset-bottom))}
+/* Next/Back sit in the sticky header, directly above the question */
+.quizbar .actionbar.top{position:static;margin:8px 0 0;padding:0;background:none}
+.quizbar .actionbar.top .btn{min-height:46px}
+.actionbar.top [data-act="prev"]{width:auto;padding:0 14px}
 body[data-screen="quiz"] main{padding-bottom:calc(16px + env(safe-area-inset-bottom))}
 .actionbar .btn{min-height:50px;font-size:1rem}
 .actionbar [data-act="prev"]{width:56px;padding:0}
 .actionbar .grades{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;width:100%;margin:0;padding:0}
 .flash{min-height:0}
 @media (pointer:coarse){.kbd{display:none}}
-body[data-screen="quiz"] .toasts{top:calc(64px + env(safe-area-inset-top));bottom:auto}
+body[data-screen="quiz"] .toasts{bottom:calc(16px + env(safe-area-inset-bottom))}
 .toast{opacity:.96}
 /* ===== Colour ===== */
 :root{--accent:#c2410c;--accent2:#ea580c;--on-accent:#fff;

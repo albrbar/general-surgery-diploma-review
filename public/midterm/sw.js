@@ -1,6 +1,6 @@
 // Offline support for the installable GS Midterm app (scope: /midterm/).
-const CACHE = 'gs-midterm-2026.11.18-5';
-const SHELL = ['./', './index.html', './app.js?v=2026.11.18-5', './app.css?v=2026.11.18-5', './pool.json', './lecture-links.json', './manifest.webmanifest', '../icons/icon-192.png', '../icons/icon-512.png'];
+const CACHE = 'gs-midterm-2026.11.18-6';
+const SHELL = ['./', './index.html', './app.js?v=2026.11.18-6', './app.css?v=2026.11.18-6', './pool.json', './lecture-links.json', './manifest.webmanifest', '../icons/icon-192.png', '../icons/icon-512.png'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));

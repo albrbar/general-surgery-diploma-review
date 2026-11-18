@@ -4,7 +4,7 @@
 (() => {
 'use strict';
 
-const APP_VERSION = '2026.11.18-5';
+const APP_VERSION = '2026.11.18-6';
 const KEY = 'gsd.midterm.v2';
 const DAY = 864e5;
 const INTERVALS = [0, 1, 3, 7, 14, 30]; // days per spaced-repetition box
@@ -471,14 +471,14 @@ function renderQuiz(focus) {
   const q = cur(), a = s.ans[q.id], n = s.ids.length;
   const answeredCount = s.ids.filter((id) => s.ans[id] !== undefined && s.ans[id] !== null).length;
   const meta = `<div class="qmeta"><span class="tag sec sec-${q.s}">${esc(sectionLabel(q.s))}</span><span class="tag">${esc(q.t)}</span><span class="tag ${q.d === 'hard' ? 'hard' : q.d === 'easy' ? 'easy' : ''}">${q.d}</span>${q.flag ? '<span class="tag flag" title="Answer inferred from the Telegram explanation">Unverified</span>' : ''}</div>`;
-  const bar = `<div class="quizbar"><div class="qb-top"><strong>${MODES[s.mode]?.icon || '🎯'} ${esc(s.title)} · ${s.idx + 1}/${n}</strong>
+  const bar = (nav = '') => `<div class="quizbar"><div class="qb-top"><strong>${MODES[s.mode]?.icon || '🎯'} ${esc(s.title)} · ${s.idx + 1}/${n}</strong>
     ${s.feedback === 'instant' && s.combo >= 2 ? `<span class="combo" aria-label="Combo ${s.combo}">🔥×${s.combo}</span>` : ''}
     <span id="timer" class="timer off" aria-live="off">—</span>
     <button class="btn ghost" style="min-height:36px;padding:4px 12px" data-act="quit">Exit</button></div>
-    <div class="progress" aria-hidden="true"><span style="width:${pct(s.mode === 'exam' ? answeredCount : s.idx + (a !== undefined ? 1 : 0), n)}%"></span></div></div>`;
+    <div class="progress" aria-hidden="true"><span style="width:${pct(s.mode === 'exam' ? answeredCount : s.idx + (a !== undefined ? 1 : 0), n)}%"></span></div>${nav}</div>`;
 
   if (s.mode === 'flash') {
-    main().innerHTML = `${bar}<article class="card flash">${meta}<h2 class="stem" id="stem" tabindex="-1">${esc(q.q)}</h2>
+    main().innerHTML = `${bar()}<article class="card flash">${meta}<h2 class="stem" id="stem" tabindex="-1">${esc(q.q)}</h2>
       ${s.flipped ? `<div class="answer"><strong>${letter(q.a)}. ${esc(q.o[q.a])}</strong>${q.e ? `<p style="margin:8px 0 0">${esc(q.e)}</p>` : ''}${q.flag ? '<p class="muted" style="margin:6px 0 0">⚠️ Unverified Telegram answer</p>' : ''}<div class="src muted" style="font-size:.8rem;margin-top:6px">Source: ${esc(q.src)}</div></div>
       </article><div class="actionbar"><div class="grades" role="group" aria-label="How well did you know it?">
         <button class="btn danger" data-g="0">Again<small>10 min · 1</small></button><button class="btn subtle" data-g="1">Hard<small>${INTERVALS[Math.max(1, S.srs[q.id]?.b || 1)]} d · 2</small></button>
@@ -497,14 +497,14 @@ function renderQuiz(focus) {
     return `<button class="${cls}" data-opt="${i}" ${reveal ? 'disabled' : ''} aria-pressed="${a === i}"><span class="l">${letter(i)}</span><span class="tx">${esc(o)}</span><span class="mark" aria-hidden="true">${mark}</span></button>`;
   }).join('');
   const last = s.idx === n - 1;
-  main().innerHTML = `${bar}<article class="card">${meta}<h2 class="stem" id="stem" tabindex="-1">${esc(q.q)}</h2>
+  const nav = `<div class="actionbar top"><button class="btn subtle" data-act="prev" ${s.idx === 0 ? 'disabled' : ''} aria-label="Previous question">← Back</button>
+    ${s.feedback === 'end' ? `<button class="btn ghost" data-act="finish">Finish</button>` : ''}
+    <button class="btn next" style="flex:1" data-act="next" ${s.feedback === 'instant' && !reveal ? 'disabled' : ''}>${last ? 'See results' : 'Next →'}</button></div>`;
+  main().innerHTML = `${bar(nav)}<article class="card">${meta}<h2 class="stem" id="stem" tabindex="-1">${esc(q.q)}</h2>
     <div class="options" role="group" aria-label="Answer options">${opts}</div>
     <div aria-live="polite">${reveal ? explanationBlock(q, a === q.a, a) : ''}${s.feedback === 'end' && a === null ? '<p class="muted" style="margin-top:12px">⏱️ Time ran out on this one — you can still answer it.</p>' : ''}</div>
     <p class="kbd">Keys: <kbd>1</kbd>–<kbd>${q.o.length}</kbd> answer · <kbd>Enter</kbd> next · <kbd>←</kbd> back</p>
   </article>
-  <div class="actionbar"><button class="btn subtle" data-act="prev" ${s.idx === 0 ? 'disabled' : ''} aria-label="Previous question">←</button>
-    ${s.feedback === 'end' ? `<button class="btn ghost" data-act="finish">Finish</button>` : ''}
-    <button class="btn next" style="flex:1" data-act="next" ${s.feedback === 'instant' && !reveal ? 'disabled' : ''}>${last ? 'See results' : 'Next →'}</button></div>
   ${s.feedback === 'end' ? `<section class="card"><details><summary><b>Question map</b> <span class="muted">· ${answeredCount}/${n} answered</span></summary>
     <div class="nums">${s.ids.map((id, i) => `<button class="num ${s.ans[id] === null ? 'skipped' : s.ans[id] !== undefined ? 'answered' : ''} ${i === s.idx ? 'cur' : ''}" data-jump="${i}" aria-label="Question ${i + 1}${s.ans[id] === null ? ', skipped' : s.ans[id] !== undefined ? ', answered' : ''}">${i + 1}</button>`).join('')}</div></details></section>` : ''}`;
   main().querySelectorAll('[data-opt]').forEach((b) => b.onclick = () => choose(+b.dataset.opt));
